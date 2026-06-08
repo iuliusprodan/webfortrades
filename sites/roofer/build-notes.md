@@ -25,6 +25,9 @@
 ### Components
 - `StickyHeader`, `HeroSolidFocal`, `Reveal`, `FaqAccordion`, `PlaceholderImage`, `ContactForm`
 
+## v2 (2026-06-08)
+- Compact mobile sticky CTAs, refined desktop header nav, simplified hero panel, contrast + marquee polish
+
 ## Live
 https://roofer-site-m4p7wq.vercel.app
 

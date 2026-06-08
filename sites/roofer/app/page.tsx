@@ -461,12 +461,18 @@ export default function HomePage() {
 
       <div
         data-review="mobile-call"
-        className="fixed inset-x-0 bottom-0 z-50 flex gap-2 border-t-2 border-accent bg-surface/98 p-3 backdrop-blur-md md:hidden"
+        className="fixed inset-x-0 bottom-0 z-50 flex gap-1.5 border-t-2 border-accent bg-surface/98 px-2 py-2 backdrop-blur-md md:hidden"
       >
-        <a href="#contact" className="btn-primary flex min-h-tap flex-1 items-center justify-center text-xs">
-          Get a free quote
+        <a
+          href="#contact"
+          className="btn-mobile-sticky btn-mobile-sticky-primary focus-ring"
+        >
+          Get quote
         </a>
-        <a href={phoneHref()} className="btn-secondary flex min-h-tap flex-1 items-center justify-center text-xs">
+        <a
+          href={phoneHref()}
+          className="btn-mobile-sticky btn-mobile-sticky-secondary focus-ring"
+        >
           Call {owner}
         </a>
       </div>

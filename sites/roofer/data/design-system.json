@@ -15,7 +15,7 @@
     "background": "#1e282c",
     "foreground": "#ece8e4",
     "muted": "#3a4a50",
-    "mutedForeground": "#a89f94",
+    "mutedForeground": "#b8aea4",
     "border": "#4a5a60",
     "surface": "#2c3a3f",
     "stone": "#c8b8a8"
@@ -25,7 +25,7 @@
     "hero": "split-bold-headline-solid-focal-image",
     "gallery": "standalone-finished-work-numbered",
     "services": "numbered-01-list",
-    "marquee": "trust-strip-18s-mobile-28s-desktop",
+    "marquee": "trust-strip-14s-mobile-22s-desktop",
     "faq": "accordion-single-open",
     "motion": "scroll-reveal-stagger-reduced-motion-safe",
     "corners": "sharp-square",

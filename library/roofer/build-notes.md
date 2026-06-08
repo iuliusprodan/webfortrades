@@ -21,5 +21,12 @@
 ### Components
 - `StickyHeader`, `HeroSolidFocal`, `Reveal`, `FaqAccordion`, `PlaceholderImage`, `ContactForm`
 
+### v2 (2026-06-08)
+- Mobile sticky bar: compact `GET QUOTE` / `CALL CRAIG` one-line labels at 390px
+- Desktop header: single light `btn-header-nav` GET QUOTE (no phone number in header)
+- Hero focal panel simplified: site survey tag, Sheffield badge, one caption, subtle photo pending
+- Body contrast: muted text lifted to `#b8aea4`
+- Marquee briskened to 14s mobile / 22s desktop
+
 ## Live
 https://roofer-site-m4p7wq.vercel.app

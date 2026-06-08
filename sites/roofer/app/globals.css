@@ -8,7 +8,7 @@
   --color-background: #1e282c;
   --color-foreground: #ece8e4;
   --color-muted: #3a4a50;
-  --color-muted-fg: #a89f94;
+  --color-muted-fg: #b8aea4;
   --color-border: #4a5a60;
   --color-surface: #2c3a3f;
   --color-stone: #c8b8a8;
@@ -72,6 +72,28 @@ body {
     background-color: color-mix(in srgb, var(--color-muted) 80%, var(--color-surface));
   }
 
+  .btn-header-nav {
+    @apply inline-flex items-center justify-center border border-border bg-transparent px-4 py-2 font-body text-[11px] font-semibold uppercase tracking-[0.14em] text-stone transition-colors duration-200;
+  }
+
+  .btn-header-nav:hover {
+    border-color: color-mix(in srgb, var(--color-accent) 70%, var(--color-border));
+    color: var(--color-foreground);
+    background-color: color-mix(in srgb, var(--color-muted) 35%, transparent);
+  }
+
+  .btn-mobile-sticky {
+    @apply inline-flex min-h-[44px] flex-1 items-center justify-center whitespace-nowrap font-display text-[10px] uppercase leading-none tracking-[0.05em];
+  }
+
+  .btn-mobile-sticky-primary {
+    @apply bg-accent px-2 py-2.5 text-accent-fg;
+  }
+
+  .btn-mobile-sticky-secondary {
+    @apply border border-border bg-muted px-2 py-2.5 text-foreground;
+  }
+
   .card-hover {
     @apply transition-all duration-300 hover:-translate-y-0.5 hover:shadow-lg;
   }
@@ -127,12 +149,12 @@ body {
 }
 
 .marquee-track {
-  animation: marquee 18s linear infinite;
+  animation: marquee 14s linear infinite;
 }
 
 @media (min-width: 768px) {
   .marquee-track {
-    animation-duration: 28s;
+    animation-duration: 22s;
   }
 }
 
