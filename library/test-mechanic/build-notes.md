@@ -5,6 +5,11 @@
 - Library reference: test-electrical (deliberate **very different** divergence)
 - Divergence: dark steel + safety yellow vs cream/amber editorial; grotesk + mono vs Syne/DM Sans; utilitarian job-sheet tone vs quiet Cambridge editorial
 
+## v6 changes (2026-06-08)
+
+### Header trigger
+- Scroll hysteresis (`>80` compact, `<20` expanded); loads expanded at top of page
+
 ## v5 changes (2026-06-08)
 
 ### Marquee

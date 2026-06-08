@@ -8,6 +8,13 @@
 - v3 extras: mobile bar, job ticket hero, accent restraint
 - v4 header: compact scroll restored, mobile logo-only
 - v5 polish: faster marquee, footer clearance, tighter header top
+- v6 fix: header scroll trigger (hysteresis)
+
+## v6 changes (2026-06-08)
+
+### Header trigger
+- Replaced inverted IO sentinel with scroll hysteresis: compact when `scrollY > 80`, expanded when `scrollY < 20`
+- Initial state read from `scrollY` on mount (fresh load at top = expanded)
 
 ## v5 changes (2026-06-08)
 

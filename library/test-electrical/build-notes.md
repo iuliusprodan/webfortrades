@@ -9,6 +9,12 @@
 - v4 fix: stable header, equal review cards, footer link
 - v5 header: compact scroll restored, mobile logo-only
 - v6 polish: faster marquee, footer clearance, tighter header top
+- v7 fix: header scroll trigger (hysteresis)
+
+## v7 changes (2026-06-08)
+
+### Header trigger
+- Scroll hysteresis (`>80` compact, `<20` expanded); loads expanded at top of page
 
 ## v6 changes (2026-06-08)
 
