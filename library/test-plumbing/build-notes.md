@@ -23,4 +23,6 @@
 - `StickyHeader`, `HeroFullBleed`, `Reveal`, `FaqAccordion`, `PlaceholderImage`, `ContactForm`
 
 ## Live
-https://test-plumbing.vercel.app
+https://test-plumbing-kappa.vercel.app
+
+(`test-plumbing.vercel.app` is taken globally on Vercel; serves an unrelated Swedish plumbing site.)
