@@ -285,13 +285,15 @@ export default function HomePage() {
               <p className="mt-4 text-muted-fg">
                 {brief.rating}★ average across {brief.review_count} Google reviews. Tidy, fair, explained properly.
               </p>
-              <div className="mt-10 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+              <div className="mt-10 grid items-stretch gap-6 md:grid-cols-2 lg:grid-cols-3">
                 {brief.reviews.map((review, i) => (
-                  <Reveal key={review.name} delay={i * 90}>
-                    <blockquote className="card card-hover h-full p-6">
+                  <Reveal key={review.name} delay={i * 90} className="h-full">
+                    <blockquote className="card card-hover flex h-full flex-col p-6">
                       <p className="font-display text-lg font-semibold">{reviewHeadline(review.text)}</p>
-                      <p className="mt-4 leading-relaxed text-muted-fg">&ldquo;{review.text}&rdquo;</p>
-                      <footer className="mt-4 text-sm text-muted-fg">
+                      <p className="mt-4 flex-1 leading-relaxed text-muted-fg">
+                        &ldquo;{review.text}&rdquo;
+                      </p>
+                      <footer className="mt-6 text-sm text-muted-fg">
                         {review.name}
                         <span className="mx-2">·</span>
                         {"★".repeat(review.rating)}
@@ -434,7 +436,14 @@ export default function HomePage() {
             <p className="font-display text-2xl">{brief.business_name}</p>
             <p className="mt-2 text-sm text-background/70">Cambridge &amp; Cambridgeshire</p>
           </div>
-          <p className="text-xs text-background/60">Website by WebForTrades</p>
+          <a
+            href="https://www.webfortradesuk.co.uk"
+            target="_blank"
+            rel="noopener"
+            className="focus-ring text-xs text-background/60 hover:text-background/90"
+          >
+            Website by WebForTrades
+          </a>
         </div>
       </footer>
 

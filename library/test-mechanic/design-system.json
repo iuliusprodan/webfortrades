@@ -1,7 +1,7 @@
 {
   "slug": "test-mechanic",
   "business_name": "Northside Mobile Mechanics",
-  "version": "1",
+  "version": "2",
   "direction": "industrial-ops-log",
   "trade": "industrial-mechanic",
   "fonts": {
@@ -21,7 +21,9 @@
     "surface": "#1c2128"
   },
   "patterns": {
-    "header": "sticky-condense-hazard-stripe-dual-cta",
+    "header": "sticky-fixed-height-io-sentinel-hazard-stripe-dual-cta",
+    "reviews": "equal-height-flex-bottom-attribution",
+    "footer": "webfortrades-credit-link",
     "hero": "split-grid-job-sheet",
     "gallery": "job-sheet-captions-placeholder",
     "services": "numbered-01-list-mono",

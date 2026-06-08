@@ -3,13 +3,26 @@
 - Slug: `test-electrical`
 - Direction: quiet-premium-editorial (Syne + DM Sans, amber accent on navy)
 - v3 polish: dual CTAs, square corners site-wide
+- v4 fix: stable header, equal review cards, footer link
+
+## v4 changes (2026-06-08)
+
+### Header
+- Fixed height in both scroll states; IntersectionObserver sentinel toggles scrolled style
+- Only background, blur, border and shadow change (no layout shift)
+
+### Reviews
+- Equal-height flex cards; name + stars bottom-aligned on shared baseline
+
+### Footer
+- WebForTrades credit links to https://www.webfortradesuk.co.uk
 
 ## v3 changes (2026-06-08)
 
 ### CTAs (hero, sticky header, mobile bar)
 - Primary: **Get a free quote** → smooth-scroll to `#contact`
 - Secondary: **Call Dave - 07700 900123** (tel link)
-- Same pair in sticky header; labels shorten slightly when header condenses on scroll
+- Same pair in sticky header and mobile bar
 - Mobile bottom bar: quote + compact call button
 
 ### Corners

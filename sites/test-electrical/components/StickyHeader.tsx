@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 
 interface StickyHeaderProps {
   businessName: string;
@@ -25,74 +25,61 @@ export function StickyHeader({
   ownerName,
   quoteHref = "#contact",
 }: StickyHeaderProps) {
+  const sentinelRef = useRef<HTMLDivElement>(null);
   const [scrolled, setScrolled] = useState(false);
 
   useEffect(() => {
-    const onScroll = () => setScrolled(window.scrollY > 24);
-    onScroll();
-    window.addEventListener("scroll", onScroll, { passive: true });
-    return () => window.removeEventListener("scroll", onScroll);
+    const sentinel = sentinelRef.current;
+    if (!sentinel) return;
+
+    const observer = new IntersectionObserver(
+      ([entry]) => setScrolled(!entry.isIntersecting),
+      { threshold: 0 }
+    );
+    observer.observe(sentinel);
+    return () => observer.disconnect();
   }, []);
 
-  const callLabel = scrolled
-    ? phone
-    : `Call ${ownerName} - ${phone}`;
-
-  const quoteLabel = scrolled ? "Get a quote" : "Get a free quote";
-
   return (
-    <header
-      data-review="utility"
-      className={`sticky top-0 z-50 border-b border-border bg-surface/90 backdrop-blur-md transition-all duration-300 ${
-        scrolled ? "shadow-sm" : ""
-      }`}
-    >
-      <div
-        className={`mx-auto flex max-w-6xl items-center justify-between gap-3 px-5 transition-all duration-300 md:gap-4 md:px-10 ${
-          scrolled ? "py-2.5" : "py-4"
+    <>
+      <div ref={sentinelRef} className="pointer-events-none h-px w-full" aria-hidden />
+      <header
+        data-review="utility"
+        className={`sticky top-0 z-50 border-b transition-[background-color,box-shadow,border-color,backdrop-filter] duration-300 ${
+          scrolled
+            ? "border-border bg-surface/95 shadow-sm backdrop-blur-lg"
+            : "border-border/70 bg-surface/80 backdrop-blur-md"
         }`}
       >
-        <div className="min-w-0 flex-1">
-          <p
-            className={`font-display font-semibold text-foreground transition-all duration-300 ${
-              scrolled ? "text-base" : "text-lg md:text-xl"
-            }`}
-          >
-            {businessName}
-          </p>
-          <p
-            className={`truncate text-muted-fg transition-all duration-300 ${
-              scrolled
-                ? "max-h-0 overflow-hidden opacity-0"
-                : "mt-0.5 max-h-8 text-xs md:text-sm"
-            }`}
-          >
-            {trade}
-            <span className="mx-1.5 text-border">·</span>
-            {area}
-            <span className="mx-1.5 text-border">·</span>
-            {rating}★ · {reviewCount} reviews
-          </p>
+        <div className="mx-auto flex max-w-6xl items-center justify-between gap-3 px-5 py-3.5 md:gap-4 md:px-10">
+          <div className="min-w-0 flex-1">
+            <p className="font-display text-lg font-semibold text-foreground md:text-xl">
+              {businessName}
+            </p>
+            <p className="mt-0.5 min-h-5 truncate text-xs text-muted-fg md:text-sm">
+              {trade}
+              <span className="mx-1.5 text-border">·</span>
+              {area}
+              <span className="mx-1.5 text-border">·</span>
+              {rating}★ · {reviewCount} reviews
+            </p>
+          </div>
+          <div className="flex shrink-0 items-center gap-2">
+            <a
+              href={quoteHref}
+              className="btn-primary focus-ring whitespace-nowrap px-4 py-2.5 text-sm md:px-5 md:text-base"
+            >
+              Get a free quote
+            </a>
+            <a
+              href={phoneHref}
+              className="btn-secondary focus-ring whitespace-nowrap px-4 py-2.5 text-sm md:px-5 md:text-base"
+            >
+              Call {ownerName} - {phone}
+            </a>
+          </div>
         </div>
-        <div className="flex shrink-0 items-center gap-2">
-          <a
-            href={quoteHref}
-            className={`btn-primary focus-ring whitespace-nowrap ${
-              scrolled ? "px-3 py-2 text-xs" : "px-4 py-2.5 text-sm md:px-5 md:text-base"
-            }`}
-          >
-            {quoteLabel}
-          </a>
-          <a
-            href={phoneHref}
-            className={`btn-secondary focus-ring whitespace-nowrap ${
-              scrolled ? "px-3 py-2 text-xs" : "px-4 py-2.5 text-sm md:px-5 md:text-base"
-            }`}
-          >
-            {callLabel}
-          </a>
-        </div>
-      </div>
-    </header>
+      </header>
+    </>
   );
 }
