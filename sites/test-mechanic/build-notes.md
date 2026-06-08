@@ -9,6 +9,13 @@
 - v4 header: compact scroll restored, mobile logo-only
 - v5 polish: faster marquee, footer clearance, tighter header top
 - v6 fix: header scroll trigger (hysteresis)
+- v7 mobile hero: centred copy, stacked full-width CTAs
+
+## v7 changes (2026-06-08)
+
+### Mobile hero
+- Eyebrow, headline and paragraph centre-aligned on mobile
+- CTAs stacked full width (quote primary, call below); desktop unchanged
 
 ## v6 changes (2026-06-08)
 

@@ -5,6 +5,11 @@
 - Library reference: test-electrical (deliberate **very different** divergence)
 - Divergence: dark steel + safety yellow vs cream/amber editorial; grotesk + mono vs Syne/DM Sans; utilitarian job-sheet tone vs quiet Cambridge editorial
 
+## v7 changes (2026-06-08)
+
+### Mobile hero
+- Centre-aligned eyebrow, headline, body on mobile; full-width stacked CTAs
+
 ## v6 changes (2026-06-08)
 
 ### Header trigger

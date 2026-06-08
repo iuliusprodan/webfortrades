@@ -1,7 +1,7 @@
 {
   "slug": "test-electrical",
   "business_name": "Hartley Electrical",
-  "version": "7",
+  "version": "8",
   "direction": "quiet-premium-editorial",
   "trade": "editorial-electric",
   "fonts": {
@@ -26,7 +26,7 @@
     "footer": "webfortrades-credit-link-mobile-bar-offset",
     "corners": "square-sharp",
     "cta": "quote-primary-call-secondary",
-    "hero": "split-grid-focal-frame",
+    "hero": "split-grid-focal-frame-mobile-centre-stacked-cta",
     "gallery": "numbered-captions-placeholder",
     "services": "numbered-01-list",
     "marquee": "towns-and-themes-24s-mobile-38s-desktop",

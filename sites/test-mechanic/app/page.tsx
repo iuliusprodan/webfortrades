@@ -54,21 +54,27 @@ export default function HomePage() {
         >
           <div className="mx-auto grid max-w-6xl gap-10 lg:grid-cols-[1.05fr_0.95fr] lg:items-center lg:gap-14">
             <Reveal>
-              <div>
+              <div className="text-center md:text-left">
                 <p className="section-label mb-3">
                   Manchester / {brief.years_trading} years mobile
                 </p>
                 <h1 id="hero-heading" className="display-heading mb-4">
                   {heroHeadline()}
                 </h1>
-                <p className="max-w-md text-base leading-relaxed text-muted-fg md:text-lg">
+                <p className="mx-auto max-w-md text-base leading-relaxed text-muted-fg md:mx-0 md:text-lg">
                   {heroSub()}
                 </p>
-                <div className="mt-7 flex flex-wrap gap-3">
-                  <a href="#contact" className="btn-primary px-7 py-3.5 text-sm md:text-base">
+                <div className="mt-7 flex w-full flex-col gap-3 md:w-auto md:flex-row md:flex-wrap">
+                  <a
+                    href="#contact"
+                    className="btn-primary flex w-full items-center justify-center px-7 py-3.5 text-sm md:w-auto md:text-base"
+                  >
                     Get a free quote
                   </a>
-                  <a href={phoneHref()} className="btn-secondary px-6 py-3.5 text-sm md:text-base">
+                  <a
+                    href={phoneHref()}
+                    className="btn-secondary flex w-full items-center justify-center px-6 py-3.5 text-sm md:w-auto md:text-base"
+                  >
                     Call Liam - {brief.phone}
                   </a>
                 </div>
