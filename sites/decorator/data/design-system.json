@@ -1,0 +1,46 @@
+{
+  "slug": "decorator",
+  "business_name": "Ashcroft Painting & Decorating",
+  "version": "1",
+  "direction": "image-led-gallery-forward",
+  "trade": "painter-decorator",
+  "fonts": {
+    "display": "Spectral",
+    "body": "Hanken Grotesk"
+  },
+  "separator": "·",
+  "colors": {
+    "accent": "#b85c38",
+    "accentForeground": "#ffffff",
+    "background": "#f7f4ef",
+    "foreground": "#2c2825",
+    "muted": "#ebe6df",
+    "mutedForeground": "#6b6560",
+    "border": "#d4cdc3",
+    "surface": "#fdfbf8",
+    "heroDark": "#3d3832"
+  },
+  "patterns": {
+    "header": "sticky-compact-scroll-hysteresis-mobile-logo-only",
+    "hero": "full-bleed-image-overlay-bottom-copy",
+    "gallery": "featured-plus-before-after-pairs",
+    "services": "numbered-01-list",
+    "marquee": "trust-strip-24s-mobile-38s-desktop",
+    "faq": "accordion-single-open",
+    "motion": "scroll-reveal-stagger-reduced-motion-safe",
+    "corners": "subtle-rounded-md",
+    "cta": "quote-primary-call-secondary",
+    "reviews": "equal-height-flex-bottom-attribution",
+    "footer": "webfortrades-credit-link-mobile-bar-offset",
+    "mobileBar": "sticky-dual-cta-call-dan"
+  },
+  "components": [
+    "StickyHeader",
+    "HeroGalleryLed",
+    "WorkGallery",
+    "Reveal",
+    "FaqAccordion",
+    "PlaceholderImage",
+    "ContactForm"
+  ]
+}

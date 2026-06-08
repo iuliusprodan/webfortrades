@@ -1,0 +1,20 @@
+{
+  "slug": "decorator",
+  "business_name": "Ashcroft Painting & Decorating",
+  "owner_name": "Dan",
+  "trade": "Painter & Decorator",
+  "phone": "07700 900234",
+  "email": "dan@example.com",
+  "address": "York, UK",
+  "hours": "Mon-Fri 8:00-17:30, Sat by arrangement",
+  "services": ["Interior painting","Exterior painting","Wallpapering","Plaster and filler prep","Woodwork and trim","Heritage and period finishes"],
+  "service_area": ["York","Clifton","Acomb","Haxby","Fulford","Tadcaster"],
+  "reviews": [
+    {"name":"Eleanor","rating":5,"text":"Repainted the whole downstairs and the hallway looks immaculate. Tidy, careful, dust sheets everywhere."},
+    {"name":"Mark","rating":5,"text":"Lovely job on our period sash windows. Proper prep, not just a quick coat over the old paint."},
+    {"name":"Sophie","rating":5,"text":"Hung a tricky feature wallpaper perfectly. Patient and a real perfectionist."}
+  ],
+  "years_trading": 14,
+  "rating": 5.0,
+  "review_count": 61
+}
