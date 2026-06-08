@@ -1,9 +1,11 @@
 export function PlaceholderImage({
   label,
   aspect = "4/3",
+  embedded = false,
 }: {
   label: string;
   aspect?: "4/3" | "16/9" | "3/4";
+  embedded?: boolean;
 }) {
   const aspectClass =
     aspect === "16/9"
@@ -14,7 +16,9 @@ export function PlaceholderImage({
 
   return (
     <div
-      className={`card-hover relative ${aspectClass} w-full overflow-hidden rounded-2xl border border-border bg-gradient-to-br from-muted to-surface`}
+      className={`relative ${aspectClass} w-full bg-gradient-to-br from-muted to-surface ${
+        embedded ? "" : "card card-hover"
+      }`}
       role="img"
       aria-label={`Placeholder: ${label}`}
     >

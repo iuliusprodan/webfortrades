@@ -2,31 +2,32 @@
 
 - Slug: `test-electrical`
 - Direction: quiet-premium-editorial (Syne + DM Sans, amber accent on navy)
-- v2 polish: sticky condensing header, hero focal frame, scroll reveals, FAQ accordion
+- v3 polish: dual CTAs, square corners site-wide
 
-## v2 changes (2026-06-08)
+## v3 changes (2026-06-08)
 
-### Header
-- Replaced flat utility bar with sticky header (`StickyHeader.tsx`)
-- Condenses on scroll: business name stays, meta line fades, CTA shrinks to phone-only
-- Backdrop blur + subtle shadow when scrolled
+### CTAs (hero, sticky header, mobile bar)
+- Primary: **Get a free quote** → smooth-scroll to `#contact`
+- Secondary: **Call Dave - 07700 900123** (tel link)
+- Same pair in sticky header; labels shorten slightly when header condenses on scroll
+- Mobile bottom bar: quote + compact call button
 
-### Hero
-- Tighter type hierarchy: smaller subtext, headline spacing reduced
-- Primary CTA: "Call Dave, 07700 900123" (comma format)
-- `HeroFocal.tsx`: dark gradient focal frame with corner accents, grid texture, caption overlay (replaces empty grey box)
+### Corners
+- One sharp/square treatment site-wide via `.card` utility (no rounded corners)
+- Gallery figures use `PlaceholderImage` with `embedded` prop so outer card border matches inner placeholder exactly
+- Buttons, form fields, badges, hero focal frame all square
 
-### Motion
-- `Reveal.tsx`: intersection-observer fade + rise per section, staggered cards
-- `FaqAccordion.tsx`: height + opacity animation, rotating chevron, one open at a time
-- `.btn-primary` / `.btn-secondary` / `.card-hover` soft hover states
-- Marquee slowed to 48s; all motion disabled under `prefers-reduced-motion`
+### Kept from v2
+- Glass sticky header with scroll condense
+- `Reveal` scroll animations
+- `FaqAccordion` smooth accordion
+- Syne + DM Sans, amber/navy palette, overall page structure
 
 ### Copy
-- Removed all em dashes site-wide (hyphens, commas, full stops instead)
+- No em dashes (hyphens, commas, full stops only)
 
-### Components added
-- `StickyHeader`, `HeroFocal`, `Reveal`, `FaqAccordion`
+### Components
+- `StickyHeader`, `HeroFocal`, `Reveal`, `FaqAccordion`, `PlaceholderImage` (`embedded` variant)
 
 ## Run locally
 

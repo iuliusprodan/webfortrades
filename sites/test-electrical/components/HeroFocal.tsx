@@ -1,7 +1,7 @@
 export function HeroFocal({ caption }: { caption: string }) {
   return (
     <div
-      className="hero-focal relative aspect-[4/5] w-full overflow-hidden rounded-2xl md:aspect-[4/5] lg:aspect-auto lg:min-h-[520px]"
+      className="card relative aspect-[4/5] w-full overflow-hidden md:aspect-[4/5] lg:aspect-auto lg:min-h-[520px]"
       role="img"
       aria-label={`Featured work: ${caption}`}
     >
@@ -25,7 +25,7 @@ export function HeroFocal({ caption }: { caption: string }) {
           {caption}
         </p>
       </div>
-      <div className="absolute right-5 top-5 rounded-full border border-white/15 bg-white/5 px-3 py-1 font-mono text-[10px] uppercase tracking-wider text-white/70 backdrop-blur-sm">
+      <div className="absolute right-5 top-5 border border-white/15 bg-white/5 px-3 py-1 font-mono text-[10px] uppercase tracking-wider text-white/70 backdrop-blur-sm">
         Photo pending
       </div>
     </div>

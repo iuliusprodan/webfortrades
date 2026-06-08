@@ -39,7 +39,7 @@ export function ContactForm({ ownerName, phone, services }: ContactFormProps) {
 
   if (sent) {
     return (
-      <p className="rounded-2xl border border-border bg-surface p-6 text-muted-fg">
+      <p className="card bg-surface p-6 text-muted-fg">
         Message ready. If your phone didn&apos;t open, call {phone ?? ownerName} directly.
         Quickest is still the phone.
       </p>
@@ -48,7 +48,7 @@ export function ContactForm({ ownerName, phone, services }: ContactFormProps) {
 
   return (
     <form
-      className="rounded-2xl border border-border bg-surface p-6"
+      className="card bg-surface p-6"
       onSubmit={handleSubmit}
       data-testid="contact-form"
     >
@@ -58,7 +58,7 @@ export function ContactForm({ ownerName, phone, services }: ContactFormProps) {
           required
           name="name"
           autoComplete="name"
-          className="focus-ring mt-1 w-full rounded-lg border border-border px-3 py-3"
+          className="focus-ring mt-1 w-full border border-border px-3 py-3"
         />
       </label>
       <label className="mt-4 block text-sm">
@@ -68,7 +68,7 @@ export function ContactForm({ ownerName, phone, services }: ContactFormProps) {
           name="phone"
           type="tel"
           autoComplete="tel"
-          className="focus-ring mt-1 w-full rounded-lg border border-border px-3 py-3"
+          className="focus-ring mt-1 w-full border border-border px-3 py-3"
         />
       </label>
       <label className="mt-4 block text-sm">
@@ -76,7 +76,7 @@ export function ContactForm({ ownerName, phone, services }: ContactFormProps) {
         <input
           name="postcode"
           autoComplete="postal-code"
-          className="focus-ring mt-1 w-full rounded-lg border border-border px-3 py-3"
+          className="focus-ring mt-1 w-full border border-border px-3 py-3"
         />
       </label>
       {services.length ? (
@@ -84,7 +84,7 @@ export function ContactForm({ ownerName, phone, services }: ContactFormProps) {
           What&apos;s the job?
           <select
             name="job"
-            className="focus-ring mt-1 w-full rounded-lg border border-border px-3 py-3"
+            className="focus-ring mt-1 w-full border border-border px-3 py-3"
           >
             <option value="">Pick the closest match</option>
             {services.map((s) => (
@@ -101,7 +101,7 @@ export function ContactForm({ ownerName, phone, services }: ContactFormProps) {
         <textarea
           name="details"
           rows={4}
-          className="focus-ring mt-1 w-full rounded-lg border border-border px-3 py-3"
+          className="focus-ring mt-1 w-full border border-border px-3 py-3"
         />
       </label>
       <button

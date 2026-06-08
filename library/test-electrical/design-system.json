@@ -1,7 +1,7 @@
 {
   "slug": "test-electrical",
   "business_name": "Hartley Electrical",
-  "version": "2",
+  "version": "3",
   "direction": "quiet-premium-editorial",
   "trade": "editorial-electric",
   "fonts": {
@@ -21,7 +21,9 @@
     "heroDark": "#1a1a2e"
   },
   "patterns": {
-    "header": "sticky-condense-blur",
+    "header": "sticky-condense-blur-dual-cta",
+    "corners": "square-sharp",
+    "cta": "quote-primary-call-secondary",
     "hero": "split-grid-focal-frame",
     "gallery": "numbered-captions-placeholder",
     "services": "numbered-01-list",

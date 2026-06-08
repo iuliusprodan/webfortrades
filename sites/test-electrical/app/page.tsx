@@ -66,11 +66,11 @@ export default function HomePage() {
                   {heroSub()}
                 </p>
                 <div className="mt-7 flex flex-wrap gap-3">
-                  <a href={phoneHref()} className="btn-primary px-7 py-3.5 text-base">
-                    Call Dave, {brief.phone}
+                  <a href="#contact" className="btn-primary px-7 py-3.5 text-base">
+                    Get a free quote
                   </a>
-                  <a href="#work" className="btn-secondary px-6 py-3.5">
-                    See recent work
+                  <a href={phoneHref()} className="btn-secondary px-6 py-3.5">
+                    Call Dave - {brief.phone}
                   </a>
                 </div>
               </div>
@@ -132,7 +132,7 @@ export default function HomePage() {
                     { n: "★★★★★", l: "every review" },
                     { n: "01", l: "van, no middle-men" },
                   ].map((c) => (
-                    <div key={c.l} className="card-hover rounded-2xl border border-border p-5">
+                    <div key={c.l} className="card card-hover p-5">
                       <p className="font-display text-3xl">{c.n}</p>
                       <p className="text-sm text-muted-fg">{c.l}</p>
                     </div>
@@ -162,8 +162,8 @@ export default function HomePage() {
               <div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
                 {Array.from({ length: GALLERY_COUNT }, (_, i) => (
                   <Reveal key={i} delay={i * 60}>
-                    <figure className="card-hover overflow-hidden rounded-2xl border border-border">
-                      <PlaceholderImage label={photoCaption(i)} />
+                    <figure className="card card-hover">
+                      <PlaceholderImage label={photoCaption(i)} embedded />
                       <figcaption className="border-t border-border px-4 py-3 text-sm text-muted-fg">
                         {photoCaption(i)}
                       </figcaption>
@@ -204,7 +204,7 @@ export default function HomePage() {
                           {serviceTags(service).map((tag) => (
                             <span
                               key={tag}
-                              className="rounded-full border border-border px-3 py-1 text-xs uppercase tracking-wide text-muted-fg"
+                              className="border border-border px-3 py-1 text-xs uppercase tracking-wide text-muted-fg"
                             >
                               {tag}
                             </span>
@@ -288,7 +288,7 @@ export default function HomePage() {
               <div className="mt-10 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
                 {brief.reviews.map((review, i) => (
                   <Reveal key={review.name} delay={i * 90}>
-                    <blockquote className="card-hover h-full rounded-2xl border border-border p-6">
+                    <blockquote className="card card-hover h-full p-6">
                       <p className="font-display text-lg font-semibold">{reviewHeadline(review.text)}</p>
                       <p className="mt-4 leading-relaxed text-muted-fg">&ldquo;{review.text}&rdquo;</p>
                       <footer className="mt-4 text-sm text-muted-fg">
@@ -330,7 +330,7 @@ export default function HomePage() {
                     </li>
                   ))}
                 </ol>
-                <div className="card-hover overflow-hidden rounded-2xl border border-border">
+                <div className="card card-hover">
                   <iframe
                     title={`Map of ${brief.business_name} service area`}
                     src={mapEmbedUrl()}
@@ -440,10 +440,13 @@ export default function HomePage() {
 
       <div
         data-review="mobile-call"
-        className="fixed inset-x-0 bottom-0 z-50 border-t border-border bg-surface/95 p-3 backdrop-blur-md md:hidden"
+        className="fixed inset-x-0 bottom-0 z-50 flex gap-2 border-t border-border bg-surface/95 p-3 backdrop-blur-md md:hidden"
       >
-        <a href={phoneHref()} className="btn-primary flex min-h-tap w-full">
-          Call Dave, {brief.phone}
+        <a href="#contact" className="btn-primary flex min-h-tap flex-1 items-center justify-center text-sm">
+          Get a free quote
+        </a>
+        <a href={phoneHref()} className="btn-secondary flex min-h-tap shrink-0 items-center justify-center px-4 text-sm">
+          Call
         </a>
       </div>
     </>

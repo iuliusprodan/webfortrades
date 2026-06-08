@@ -11,6 +11,7 @@ interface StickyHeaderProps {
   phone: string;
   phoneHref: string;
   ownerName: string;
+  quoteHref?: string;
 }
 
 export function StickyHeader({
@@ -22,6 +23,7 @@ export function StickyHeader({
   phone,
   phoneHref,
   ownerName,
+  quoteHref = "#contact",
 }: StickyHeaderProps) {
   const [scrolled, setScrolled] = useState(false);
 
@@ -32,6 +34,12 @@ export function StickyHeader({
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
 
+  const callLabel = scrolled
+    ? phone
+    : `Call ${ownerName} - ${phone}`;
+
+  const quoteLabel = scrolled ? "Get a quote" : "Get a free quote";
+
   return (
     <header
       data-review="utility"
@@ -40,11 +48,11 @@ export function StickyHeader({
       }`}
     >
       <div
-        className={`mx-auto flex max-w-6xl items-center justify-between gap-4 px-5 transition-all duration-300 md:px-10 ${
+        className={`mx-auto flex max-w-6xl items-center justify-between gap-3 px-5 transition-all duration-300 md:gap-4 md:px-10 ${
           scrolled ? "py-2.5" : "py-4"
         }`}
       >
-        <div className="min-w-0">
+        <div className="min-w-0 flex-1">
           <p
             className={`font-display font-semibold text-foreground transition-all duration-300 ${
               scrolled ? "text-base" : "text-lg md:text-xl"
@@ -66,14 +74,24 @@ export function StickyHeader({
             {rating}★ · {reviewCount} reviews
           </p>
         </div>
-        <a
-          href={phoneHref}
-          className={`btn-primary focus-ring shrink-0 whitespace-nowrap ${
-            scrolled ? "px-4 py-2 text-sm" : "px-5 py-2.5 text-sm md:text-base"
-          }`}
-        >
-          {scrolled ? phone : `Call ${ownerName}, ${phone}`}
-        </a>
+        <div className="flex shrink-0 items-center gap-2">
+          <a
+            href={quoteHref}
+            className={`btn-primary focus-ring whitespace-nowrap ${
+              scrolled ? "px-3 py-2 text-xs" : "px-4 py-2.5 text-sm md:px-5 md:text-base"
+            }`}
+          >
+            {quoteLabel}
+          </a>
+          <a
+            href={phoneHref}
+            className={`btn-secondary focus-ring whitespace-nowrap ${
+              scrolled ? "px-3 py-2 text-xs" : "px-4 py-2.5 text-sm md:px-5 md:text-base"
+            }`}
+          >
+            {callLabel}
+          </a>
+        </div>
       </div>
     </header>
   );
