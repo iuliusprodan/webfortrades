@@ -5,6 +5,20 @@
 - Library reference: test-electrical (deliberate divergence)
 - Divergence: dark steel palette, safety yellow accent, Space Grotesk + IBM Plex Mono, job-sheet captions, utilitarian uppercase type
 - v2 fix: stable header, equal review cards, footer link
+- v3 extras: mobile bar, job ticket hero, accent restraint
+
+## v3 changes (2026-06-08)
+
+### Mobile bar
+- Sticky bottom bar (mobile only): **Get a free quote** + **Call Liam**, equal-width buttons
+
+### Hero job sheet
+- Faux ticket lines: Ref (NSM-0001), ETA (Same-day slots), Status (Available today)
+- No invented customer data
+
+### Accent restraint
+- Safety yellow reserved for CTAs, key stat numbers, service/coverage indexes, job status, and marquee band
+- Section labels, body links, form labels, and FAQ chevrons moved to muted/foreground
 
 ## v2 changes (2026-06-08)
 

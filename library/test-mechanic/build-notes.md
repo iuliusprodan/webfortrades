@@ -5,6 +5,17 @@
 - Library reference: test-electrical (deliberate **very different** divergence)
 - Divergence: dark steel + safety yellow vs cream/amber editorial; grotesk + mono vs Syne/DM Sans; utilitarian job-sheet tone vs quiet Cambridge editorial
 
+## v3 changes (2026-06-08)
+
+### Mobile bar
+- Sticky bottom bar (mobile only): **Get a free quote** + **Call Liam**
+
+### Hero job sheet
+- Faux ticket lines: Ref, ETA, Status (Available today), no customer data
+
+### Accent restraint
+- Safety yellow on CTAs and key numbers only; body text uses muted/foreground
+
 ## v2 changes (2026-06-08)
 
 ### Header

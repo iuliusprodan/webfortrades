@@ -36,7 +36,7 @@ body {
   }
 
   .section-label {
-    @apply font-mono text-[11px] uppercase tracking-[0.28em] text-accent;
+    @apply font-mono text-[11px] uppercase tracking-[0.28em] text-muted-fg;
   }
 
   .ops-grid {

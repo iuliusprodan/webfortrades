@@ -218,7 +218,7 @@ export default function HomePage() {
               </div>
               <p className="mt-8 text-muted-fg">
                 Not on the list? Probably still doable.{" "}
-                <a href={phoneHref()} className="focus-ring text-accent underline-offset-4 hover:underline">
+                <a href={phoneHref()} className="focus-ring text-foreground underline-offset-4 hover:underline">
                   Talk it through with {owner}
                 </a>
                 .
@@ -338,7 +338,7 @@ export default function HomePage() {
                     loading="lazy"
                   />
                   <p className="border-t border-border px-4 py-3 font-mono text-[10px] uppercase tracking-wider">
-                    <a href={mapSearchUrl()} className="focus-ring text-accent underline-offset-4 hover:underline">
+                    <a href={mapSearchUrl()} className="focus-ring text-foreground underline-offset-4 hover:underline">
                       Open map
                     </a>
                     <span className="mx-2 text-border">/</span>
@@ -363,7 +363,7 @@ export default function HomePage() {
               </h2>
               <p className="mt-4 text-muted-fg">
                 Anything not answered here? Pick up the phone. {owner} can usually tell you in two minutes whether it is a quick fix or a full day.{" "}
-                <a href={phoneHref()} className="focus-ring text-accent underline-offset-4 hover:underline">
+                <a href={phoneHref()} className="focus-ring text-foreground underline-offset-4 hover:underline">
                   Call {brief.phone}
                 </a>
               </p>
@@ -387,7 +387,7 @@ export default function HomePage() {
               <div className="mt-10 grid gap-10 lg:grid-cols-2">
                 <div className="space-y-4 text-muted-fg">
                   <p>
-                    <span className="block font-mono text-[10px] uppercase tracking-[0.2em] text-accent">
+                    <span className="block font-mono text-[10px] uppercase tracking-[0.2em] text-muted-fg">
                       Phone
                     </span>
                     <a href={phoneHref()} className="focus-ring text-2xl font-medium text-foreground">
@@ -395,7 +395,7 @@ export default function HomePage() {
                     </a>
                   </p>
                   <div>
-                    <p className="font-mono text-[10px] uppercase tracking-[0.2em] text-accent">Hours</p>
+                    <p className="font-mono text-[10px] uppercase tracking-[0.2em] text-muted-fg">Hours</p>
                     <ul className="mt-2 space-y-1">
                       {openingHoursList().map((h) => (
                         <li key={h}>{h}</li>
@@ -403,13 +403,13 @@ export default function HomePage() {
                     </ul>
                   </div>
                   <p>
-                    <span className="block font-mono text-[10px] uppercase tracking-[0.2em] text-accent">
+                    <span className="block font-mono text-[10px] uppercase tracking-[0.2em] text-muted-fg">
                       Based
                     </span>
                     {brief.address}
                   </p>
                   <p>
-                    <span className="block font-mono text-[10px] uppercase tracking-[0.2em] text-accent">
+                    <span className="block font-mono text-[10px] uppercase tracking-[0.2em] text-muted-fg">
                       Cover
                     </span>
                     {brief.service_area.join(", ")} and wider M postcodes.
@@ -419,7 +419,7 @@ export default function HomePage() {
               </div>
               <p className="mt-8 text-center text-muted-fg md:text-left">
                 Or just call{" "}
-                <a href={phoneHref()} className="focus-ring font-medium text-accent underline-offset-4 hover:underline">
+                <a href={phoneHref()} className="focus-ring font-medium text-foreground underline-offset-4 hover:underline">
                   {brief.phone}
                 </a>
                 . Quickest way to a quote.
@@ -459,8 +459,8 @@ export default function HomePage() {
         <a href="#contact" className="btn-primary flex min-h-tap flex-1 items-center justify-center text-xs">
           Get a free quote
         </a>
-        <a href={phoneHref()} className="btn-secondary flex min-h-tap shrink-0 items-center justify-center px-4 text-xs">
-          Call
+        <a href={phoneHref()} className="btn-secondary flex min-h-tap flex-1 items-center justify-center text-xs">
+          Call Liam
         </a>
       </div>
     </>

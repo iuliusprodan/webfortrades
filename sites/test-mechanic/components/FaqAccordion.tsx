@@ -26,7 +26,7 @@ export function FaqAccordion({ items }: { items: FaqItem[] }) {
                 {item.q}
               </span>
               <span
-                className={`faq-chevron shrink-0 font-mono text-accent transition-transform duration-300 ${
+                className={`faq-chevron shrink-0 font-mono text-muted-fg transition-transform duration-300 ${
                   isOpen ? "rotate-180" : ""
                 }`}
                 aria-hidden

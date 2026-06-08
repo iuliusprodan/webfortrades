@@ -48,7 +48,7 @@ export function ContactForm({ ownerName, phone, services }: ContactFormProps) {
 
   return (
     <form className="card p-6" onSubmit={handleSubmit} data-testid="contact-form">
-      <p className="mb-4 font-mono text-[10px] uppercase tracking-[0.25em] text-accent">
+      <p className="mb-4 font-mono text-[10px] uppercase tracking-[0.25em] text-muted-fg">
         Job request form
       </p>
       <label className="block text-sm">
