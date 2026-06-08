@@ -23,6 +23,9 @@
 ### Components
 - `StickyHeader`, `HeroGalleryLed`, `WorkGallery`, `Reveal`, `FaqAccordion`, `PlaceholderImage`, `ContactForm`
 
+## v2 (2026-06-08)
+- Desktop header: single compact `btn-header-nav` GET A QUOTE; phone CTA removed from header (kept in hero, contact, mobile bar)
+
 ## Live
 https://decorator-site-8zv4kj.vercel.app
 

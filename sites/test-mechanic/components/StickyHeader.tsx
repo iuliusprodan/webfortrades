@@ -44,15 +44,9 @@ export function StickyHeader({
   area,
   rating,
   reviewCount,
-  phone,
-  phoneHref,
-  ownerName,
   quoteHref = "#contact",
 }: StickyHeaderProps) {
   const scrolled = useHeaderScrolled();
-
-  const callLabel = scrolled ? phone : `Call ${ownerName} - ${phone}`;
-  const quoteLabel = scrolled ? "Get a quote" : "Get a free quote";
 
   return (
     <header
@@ -92,22 +86,14 @@ export function StickyHeader({
             {rating}★ / {reviewCount} reviews
           </p>
         </div>
-        <div className="hidden shrink-0 items-center gap-2 md:flex">
+        <div className="hidden shrink-0 md:flex">
           <a
             href={quoteHref}
-            className={`btn-primary focus-ring whitespace-nowrap transition-[padding,font-size] duration-300 ease-in-out ${
-              scrolled ? "px-3 py-2 text-[10px]" : "px-4 py-2.5 text-xs md:px-5 md:text-sm"
+            className={`btn-header-nav focus-ring whitespace-nowrap transition-[padding,font-size] duration-300 ease-in-out ${
+              scrolled ? "px-3 py-1.5 text-[9px]" : "px-4 py-2 text-[10px]"
             }`}
           >
-            {quoteLabel}
-          </a>
-          <a
-            href={phoneHref}
-            className={`btn-secondary focus-ring whitespace-nowrap transition-[padding,font-size] duration-300 ease-in-out ${
-              scrolled ? "px-3 py-2 text-[10px]" : "px-4 py-2.5 text-xs md:px-5 md:text-sm"
-            }`}
-          >
-            {callLabel}
+            Get quote
           </a>
         </div>
       </div>

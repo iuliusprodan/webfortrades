@@ -64,6 +64,16 @@ body {
     background-color: color-mix(in srgb, var(--color-muted) 60%, var(--color-surface));
   }
 
+  .btn-header-nav {
+    @apply inline-flex items-center justify-center rounded-md border border-border bg-transparent px-4 py-2 font-body text-[11px] font-medium tracking-wide text-muted-fg transition-colors duration-200;
+  }
+
+  .btn-header-nav:hover {
+    border-color: color-mix(in srgb, var(--color-accent) 50%, var(--color-border));
+    color: var(--color-foreground);
+    background-color: color-mix(in srgb, var(--color-muted) 40%, transparent);
+  }
+
   .card-hover {
     @apply transition-all duration-300 hover:-translate-y-0.5 hover:shadow-md;
   }

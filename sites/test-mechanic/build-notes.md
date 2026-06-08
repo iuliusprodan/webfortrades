@@ -94,6 +94,9 @@
 ## v9 (2026-06-08)
 - ContactForm: email, optional photo upload, two-up field layout on desktop
 
+## v10 (2026-06-08)
+- Desktop header: single compact `btn-header-nav` GET QUOTE; phone CTA removed from header (kept in hero, contact, mobile bar)
+
 ## Run locally
 
 ```bash
