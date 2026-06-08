@@ -1,0 +1,42 @@
+{
+  "slug": "test-mechanic",
+  "business_name": "Northside Mobile Mechanics",
+  "version": "1",
+  "direction": "industrial-ops-log",
+  "trade": "industrial-mechanic",
+  "fonts": {
+    "display": "Space Grotesk",
+    "body": "IBM Plex Sans",
+    "mono": "IBM Plex Mono"
+  },
+  "separator": "/",
+  "colors": {
+    "accent": "#f5c518",
+    "accentForeground": "#12151a",
+    "background": "#12151a",
+    "foreground": "#e8eaed",
+    "muted": "#2a3038",
+    "mutedForeground": "#9aa3ad",
+    "border": "#3d4550",
+    "surface": "#1c2128"
+  },
+  "patterns": {
+    "header": "sticky-condense-hazard-stripe-dual-cta",
+    "hero": "split-grid-job-sheet",
+    "gallery": "job-sheet-captions-placeholder",
+    "services": "numbered-01-list-mono",
+    "marquee": "safety-yellow-ticker-40s",
+    "faq": "accordion-single-open",
+    "motion": "scroll-reveal-stagger-reduced-motion-safe",
+    "corners": "square-sharp",
+    "cta": "quote-primary-call-secondary"
+  },
+  "components": [
+    "StickyHeader",
+    "HeroJobSheet",
+    "Reveal",
+    "FaqAccordion",
+    "PlaceholderImage",
+    "ContactForm"
+  ]
+}

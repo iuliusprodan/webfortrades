@@ -1,0 +1,20 @@
+{
+  "slug": "test-mechanic",
+  "business_name": "Northside Mobile Mechanics",
+  "owner_name": "Liam",
+  "trade": "Mobile mechanic",
+  "phone": "07700 900456",
+  "email": "liam@example.com",
+  "address": "Manchester, UK",
+  "hours": "Mon-Sat 7:00-19:00",
+  "services": ["Mobile diagnostics","Brakes and discs","Clutch replacement","Pre-MOT checks","Battery and alternator","Full service at your door"],
+  "service_area": ["Manchester","Salford","Stockport","Oldham","Bury","Trafford"],
+  "reviews": [
+    {"name":"Tom","rating":5,"text":"Came to my work car park and had the brakes done in an hour. No hassle."},
+    {"name":"Aisha","rating":5,"text":"Diagnosed a fault the garage wanted to charge me hundreds for. Honest and quick."},
+    {"name":"Dec","rating":4,"text":"Clutch replaced on the driveway over a Saturday. Fair price, kept me updated."}
+  ],
+  "years_trading": 9,
+  "rating": 4.9,
+  "review_count": 102
+}
