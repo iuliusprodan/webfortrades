@@ -5,6 +5,17 @@
 - Library reference: test-electrical (deliberate **very different** divergence)
 - Divergence: dark steel + safety yellow vs cream/amber editorial; grotesk + mono vs Syne/DM Sans; utilitarian job-sheet tone vs quiet Cambridge editorial
 
+## v5 changes (2026-06-08)
+
+### Marquee
+- Mobile 20s, desktop 32s
+
+### Footer
+- Mobile bottom padding clears sticky bar; WebForTrades credit fully visible and clickable
+
+### Header top
+- Trimmed expanded padding and hero top spacing; 1px sentinel preserves 80px compact threshold
+
 ## v4 changes (2026-06-08)
 
 ### Header

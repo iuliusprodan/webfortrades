@@ -49,7 +49,7 @@ export default function HomePage() {
       <main className="pb-24 md:pb-0">
         <section
           data-review="hero"
-          className="section-pad border-b border-border pt-8 md:pt-12"
+          className="section-pad border-b border-border pt-5 md:pt-8"
           aria-labelledby="hero-heading"
         >
           <div className="mx-auto grid max-w-6xl gap-10 lg:grid-cols-[1.05fr_0.95fr] lg:items-center lg:gap-14">
@@ -431,7 +431,7 @@ export default function HomePage() {
 
       <footer
         data-review="footer"
-        className="border-t border-border bg-background px-5 py-10 md:px-10"
+        className="site-footer border-t border-border bg-background px-5 md:px-10"
       >
         <div className="hazard-edge mb-6 h-1 w-full max-w-6xl" aria-hidden />
         <div className="mx-auto flex max-w-6xl flex-col gap-4 md:flex-row md:items-end md:justify-between">

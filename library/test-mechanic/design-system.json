@@ -1,7 +1,7 @@
 {
   "slug": "test-mechanic",
   "business_name": "Northside Mobile Mechanics",
-  "version": "4",
+  "version": "5",
   "direction": "industrial-ops-log",
   "trade": "industrial-mechanic",
   "fonts": {
@@ -23,13 +23,13 @@
   "patterns": {
     "header": "sticky-compact-io-sentinel-hazard-stripe-mobile-logo-only",
     "reviews": "equal-height-flex-bottom-attribution",
-    "footer": "webfortrades-credit-link",
+    "footer": "webfortrades-credit-link-mobile-bar-offset",
     "hero": "split-grid-job-sheet-ticket-lines",
     "mobileBar": "sticky-dual-cta-call-liam",
     "accentUsage": "cta-and-key-numbers-only",
     "gallery": "job-sheet-captions-placeholder",
     "services": "numbered-01-list-mono",
-    "marquee": "safety-yellow-ticker-40s",
+    "marquee": "safety-yellow-ticker-20s-mobile-32s-desktop",
     "faq": "accordion-single-open",
     "motion": "scroll-reveal-stagger-reduced-motion-safe",
     "corners": "square-sharp",

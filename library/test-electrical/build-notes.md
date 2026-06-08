@@ -8,6 +8,18 @@
 - v3 polish: dual CTAs, square corners site-wide
 - v4 fix: stable header, equal review cards, footer link
 - v5 header: compact scroll restored, mobile logo-only
+- v6 polish: faster marquee, footer clearance, tighter header top
+
+## v6 changes (2026-06-08)
+
+### Marquee
+- Mobile 24s, desktop 38s
+
+### Footer
+- Mobile bottom padding clears sticky bar; WebForTrades credit fully visible and clickable
+
+### Header top
+- Trimmed expanded padding and hero top spacing; 1px sentinel preserves 80px compact threshold
 
 ## v5 changes (2026-06-08)
 

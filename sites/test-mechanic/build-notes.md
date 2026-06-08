@@ -7,6 +7,19 @@
 - v2 fix: stable header, equal review cards, footer link
 - v3 extras: mobile bar, job ticket hero, accent restraint
 - v4 header: compact scroll restored, mobile logo-only
+- v5 polish: faster marquee, footer clearance, tighter header top
+
+## v5 changes (2026-06-08)
+
+### Marquee
+- Mobile 20s, desktop 32s (~50% / ~20% faster than 40s baseline)
+
+### Footer
+- `.site-footer` extra bottom padding on mobile clears sticky CTA bar; credit link fully reachable
+
+### Header top
+- 1px IO sentinel + `-80px` rootMargin (removes 80px dead space, keeps compact threshold)
+- Expanded padding trimmed (`py-3`); hero top padding reduced (`pt-5` / `md:pt-8`)
 
 ## v4 changes (2026-06-08)
 

@@ -50,7 +50,7 @@ export default function HomePage() {
         {/* Hero */}
         <section
           data-review="hero"
-          className="section-pad border-b border-border pt-8 md:pt-12"
+          className="section-pad border-b border-border pt-5 md:pt-8"
           aria-labelledby="hero-heading"
         >
           <div className="mx-auto grid max-w-6xl gap-10 lg:grid-cols-[1.05fr_0.95fr] lg:items-center lg:gap-14">
@@ -429,7 +429,7 @@ export default function HomePage() {
 
       <footer
         data-review="footer"
-        className="border-t border-border bg-foreground px-5 py-10 text-background md:px-10"
+        className="site-footer border-t border-border bg-foreground px-5 text-background md:px-10"
       >
         <div className="mx-auto flex max-w-6xl flex-col gap-4 md:flex-row md:items-end md:justify-between">
           <div>

@@ -132,7 +132,24 @@ body {
 }
 
 .marquee-track {
-  animation: marquee 40s linear infinite;
+  animation: marquee 20s linear infinite;
+}
+
+@media (min-width: 768px) {
+  .marquee-track {
+    animation-duration: 32s;
+  }
+}
+
+.site-footer {
+  @apply pt-10 md:py-10;
+  padding-bottom: calc(5.75rem + env(safe-area-inset-bottom, 0px));
+}
+
+@media (min-width: 768px) {
+  .site-footer {
+    padding-bottom: 2.5rem;
+  }
 }
 
 @media (prefers-reduced-motion: reduce) {

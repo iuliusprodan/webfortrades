@@ -34,7 +34,7 @@ export function StickyHeader({
 
     const observer = new IntersectionObserver(
       ([entry]) => setScrolled(!entry.isIntersecting),
-      { threshold: 0 }
+      { threshold: 0, rootMargin: "-80px 0px 0px 0px" }
     );
     observer.observe(sentinel);
     return () => observer.disconnect();
@@ -45,7 +45,7 @@ export function StickyHeader({
 
   return (
     <>
-      <div ref={sentinelRef} className="pointer-events-none h-20 w-full" aria-hidden />
+      <div ref={sentinelRef} className="pointer-events-none h-px w-full" aria-hidden />
       <header
         data-review="utility"
         data-scrolled={scrolled ? "true" : "false"}
@@ -58,7 +58,7 @@ export function StickyHeader({
         <div className="hazard-edge h-1 w-full" aria-hidden />
         <div
           className={`sticky-header-inner mx-auto flex max-w-6xl items-center justify-between gap-3 px-5 md:gap-4 md:px-10 ${
-            scrolled ? "py-2.5" : "py-3.5"
+            scrolled ? "py-2.5" : "py-3"
           }`}
         >
           <div className="min-w-0 flex-1">
