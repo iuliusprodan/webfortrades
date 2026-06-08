@@ -91,6 +91,9 @@
 ### Components
 - `StickyHeader`, `HeroJobSheet`, `Reveal`, `FaqAccordion`, `PlaceholderImage`, `ContactForm`
 
+## v9 (2026-06-08)
+- ContactForm: email, optional photo upload, two-up field layout on desktop
+
 ## Run locally
 
 ```bash

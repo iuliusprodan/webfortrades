@@ -75,5 +75,8 @@
 ### Components
 - `StickyHeader`, `HeroFocal`, `Reveal`, `FaqAccordion`, `PlaceholderImage` (`embedded` variant)
 
+### v9 (2026-06-08)
+- Quote form: email field, optional multi-image upload with thumbnails, two-up short fields on desktop (name+email, phone+postcode)
+
 ## Live
 https://electrical-site-f5aasn.vercel.app

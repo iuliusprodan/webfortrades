@@ -27,5 +27,8 @@
 - Mobile hero: vertically centred (`items-center`, `100svh` min-height) so headline sits upper-middle without scrolling
 - Legibility: stronger scrim (`bg-hero-dark/35` + deeper gradients), eyebrow bumped to `text-white/95` semibold
 
+### v3 (2026-06-08)
+- Quote form: email field, optional multi-image upload with thumbnails, two-up short fields on desktop (name+email, phone+postcode)
+
 ## Live
 https://plumbing-site-o6leu5.vercel.app

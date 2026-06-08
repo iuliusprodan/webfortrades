@@ -79,5 +79,8 @@
 ### Components
 - `StickyHeader`, `HeroJobSheet`, `Reveal`, `FaqAccordion`, `PlaceholderImage`, `ContactForm`
 
+### v9 (2026-06-08)
+- Quote form: email field, optional multi-image upload with thumbnails, two-up short fields on desktop (name+email, phone+postcode)
+
 ## Live
 https://mechanic-site-qwny08.vercel.app

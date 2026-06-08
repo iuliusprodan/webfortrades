@@ -27,6 +27,9 @@
 - Mobile hero centred vertically (`items-center`, `min-h-[100svh]`)
 - Stronger hero scrim + white eyebrow for legibility
 
+## v3 (2026-06-08)
+- ContactForm: email, optional photo upload, two-up field layout on desktop
+
 ## Run locally
 
 ```bash
