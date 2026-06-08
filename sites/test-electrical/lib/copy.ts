@@ -5,7 +5,7 @@ export function heroHeadline(): string {
 }
 
 export function heroSub(): string {
-  return `Domestic electrical work across Cambridgeshire — fuse boards, EV chargers, rewires, the lot. Run by ${ownerName()}, ${brief.years_trading} years on the road around Cambridge, Ely and the villages.`;
+  return `Domestic electrical work across Cambridgeshire. Fuse boards, EV chargers, rewires. Run by ${ownerName()}, ${brief.years_trading} years on the road around Cambridge, Ely and the villages.`;
 }
 
 export function reviewThemes(): string[] {
@@ -20,7 +20,7 @@ export function reviewThemes(): string[] {
 
 export function reviewHeadline(text: string): string {
   const t = text.toLowerCase();
-  if (/ev charger|same week/.test(t)) return "EV charger fitted same week — tidy and explained.";
+  if (/ev charger|same week/.test(t)) return "EV charger fitted same week. Tidy and explained.";
   if (/tripping|circuit|couldn't find/.test(t)) return "Found the fault two others missed.";
   if (/rewire|professional/.test(t)) return "Professional from quote to finish.";
   if (/fair|price/.test(t)) return "Fair price, explained everything.";
@@ -31,7 +31,11 @@ export function reviewHeadline(text: string): string {
 export function photoCaption(index: number): string {
   const service = brief.services[index % brief.services.length];
   const place = brief.service_area[index % brief.service_area.length];
-  return `No. ${String(index + 1).padStart(2, "0")} — ${service} · ${place}`;
+  return `No. ${String(index + 1).padStart(2, "0")} - ${service} · ${place}`;
+}
+
+export function heroFocalCaption(): string {
+  return `EV charger install · ${areaLabel()}`;
 }
 
 export function serviceDescription(title: string): string {
@@ -43,11 +47,11 @@ export function serviceDescription(title: string): string {
   if (/rewir/.test(t))
     return "Whole-house and partial rewires planned around how you actually live in the place. 1930s housing a speciality.";
   if (/fault/.test(t))
-    return "Tripping circuits, dead sockets, nuisance RCD trips — diagnosed on the first visit, plain English on the fix.";
+    return "Tripping circuits, dead sockets, nuisance RCD trips. Diagnosed on the first visit, plain English on the fix.";
   if (/eicr|safety/.test(t))
     return "Landlord and pre-sale reports with clear remedial lists. No scare tactics, just what's required.";
   if (/outdoor|garden|light/.test(t))
-    return "Deck lights, path markers, security floods — RCD-protected, weatherproofed, properly tested.";
+    return "Deck lights, path markers, security floods. RCD-protected, weatherproofed, properly tested.";
   return `Straightforward ${title.toLowerCase()} for homes across ${areaLabel()} and nearby.`;
 }
 
@@ -65,9 +69,9 @@ export function serviceTags(title: string): string[] {
 export function ownerNoteParagraphs(): string[] {
   const owner = ownerName();
   return [
-    `Most of the work through this van is repeat business or a name passed at the school gates — quietly, on jobs done well. The Google reviews for ${brief.business_name} say the same things: tidy, fair, explained properly.`,
+    `Most of the work through this van is repeat business or a name passed at the school gates. Quietly, on jobs done well. The Google reviews for ${brief.business_name} say the same things: tidy, fair, explained properly.`,
     `I'm ${owner}. One van, no call-centre, no rotating subcontractors. If I scuff a skirting board or leave a cable route I'd be embarrassed by, I come back and put it right.`,
-    `${brief.years_trading} years around Cambridge, Histon, Trumpington and out to Ely. I quote after I've seen the job — or clear photos for smaller pieces — and the figure on the phone is the figure on the invoice.`,
+    `${brief.years_trading} years around Cambridge, Histon, Trumpington and out to Ely. I quote after I've seen the job, or clear photos for smaller pieces. The figure on the phone is the figure on the invoice.`,
   ];
 }
 
@@ -77,7 +81,7 @@ export function faqItems(): { q: string; a: string }[] {
   return [
     {
       q: "What areas do you cover?",
-      a: `Cambridge and the surrounding towns — ${areas}, plus most of CB1, CB2, CB3 and CB4. Bit further out? Ring and ask.`,
+      a: `Cambridge and the surrounding towns: ${areas}, plus most of CB1, CB2, CB3 and CB4. Bit further out? Ring and ask.`,
     },
     {
       q: "Are you a sole trader or a firm?",
@@ -85,7 +89,7 @@ export function faqItems(): { q: string; a: string }[] {
     },
     {
       q: "Do you install EV chargers?",
-      a: "Yes — home and driveway, with the right cable route and load check. OZEV grant paperwork where you're eligible.",
+      a: "Yes. Home and driveway, with the right cable route and load check. OZEV grant paperwork where you're eligible.",
     },
     {
       q: "Do you give written quotes?",

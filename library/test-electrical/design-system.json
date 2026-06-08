@@ -1,0 +1,40 @@
+{
+  "slug": "test-electrical",
+  "business_name": "Hartley Electrical",
+  "version": "2",
+  "direction": "quiet-premium-editorial",
+  "trade": "editorial-electric",
+  "fonts": {
+    "display": "Syne",
+    "body": "DM Sans"
+  },
+  "separator": "✦",
+  "colors": {
+    "accent": "#d97706",
+    "accentForeground": "#1c1917",
+    "background": "#f8f6f2",
+    "foreground": "#1a1a2e",
+    "muted": "#e8e4dc",
+    "mutedForeground": "#5c5a6e",
+    "border": "#d4cfc4",
+    "surface": "#ffffff",
+    "heroDark": "#1a1a2e"
+  },
+  "patterns": {
+    "header": "sticky-condense-blur",
+    "hero": "split-grid-focal-frame",
+    "gallery": "numbered-captions-placeholder",
+    "services": "numbered-01-list",
+    "marquee": "towns-and-themes-48s",
+    "faq": "accordion-single-open",
+    "motion": "scroll-reveal-stagger-reduced-motion-safe"
+  },
+  "components": [
+    "StickyHeader",
+    "HeroFocal",
+    "Reveal",
+    "FaqAccordion",
+    "PlaceholderImage",
+    "ContactForm"
+  ]
+}

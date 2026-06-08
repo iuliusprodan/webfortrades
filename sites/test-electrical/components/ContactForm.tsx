@@ -40,8 +40,8 @@ export function ContactForm({ ownerName, phone, services }: ContactFormProps) {
   if (sent) {
     return (
       <p className="rounded-2xl border border-border bg-surface p-6 text-muted-fg">
-        Message ready. If your phone didn&apos;t open, call {phone ?? ownerName} directly —
-        quickest is still the phone.
+        Message ready. If your phone didn&apos;t open, call {phone ?? ownerName} directly.
+        Quickest is still the phone.
       </p>
     );
   }
@@ -106,7 +106,7 @@ export function ContactForm({ ownerName, phone, services }: ContactFormProps) {
       </label>
       <button
         type="submit"
-        className="focus-ring mt-6 min-h-tap w-full rounded-full bg-accent px-6 py-3 font-medium text-accent-fg"
+        className="btn-primary focus-ring mt-6 min-h-tap w-full"
       >
         Send to {ownerName}
       </button>

@@ -14,14 +14,16 @@ export function PlaceholderImage({
 
   return (
     <div
-      className={`flex ${aspectClass} w-full flex-col items-center justify-center rounded-2xl border border-dashed border-border bg-muted`}
+      className={`card-hover relative ${aspectClass} w-full overflow-hidden rounded-2xl border border-border bg-gradient-to-br from-muted to-surface`}
       role="img"
       aria-label={`Placeholder: ${label}`}
     >
-      <span className="font-mono text-[10px] uppercase tracking-[0.2em] text-muted-fg">
-        Placeholder
-      </span>
-      <span className="mt-2 max-w-[80%] text-center text-xs text-muted-fg">{label}</span>
+      <div className="absolute inset-0 flex flex-col items-center justify-center p-4">
+        <span className="font-mono text-[10px] uppercase tracking-[0.2em] text-muted-fg">
+          Gallery slot
+        </span>
+        <span className="mt-2 max-w-[85%] text-center text-xs text-muted-fg">{label}</span>
+      </div>
     </div>
   );
 }

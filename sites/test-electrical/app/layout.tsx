@@ -13,7 +13,7 @@ const dmSans = DM_Sans({ subsets: ["latin"], variable: "--font-body" });
 const description = `${brief.trade} in ${brief.service_area[0]}. Fuse boards, EV chargers, rewires. Call ${brief.phone}.`;
 
 export const metadata: Metadata = {
-  title: `${brief.business_name} — ${brief.trade}`,
+  title: `${brief.business_name} | ${brief.trade}`,
   description,
   openGraph: {
     title: brief.business_name,
