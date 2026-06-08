@@ -1,0 +1,20 @@
+{
+  "slug": "roofer",
+  "business_name": "Stonegate Roofing",
+  "owner_name": "Craig",
+  "trade": "Roofer",
+  "phone": "07700 900567",
+  "email": "craig@example.com",
+  "address": "Sheffield, UK",
+  "hours": "Mon-Sat 7:30-18:00, emergency call-out for storm damage",
+  "services": ["Roof repairs","Re-roofing and new roofs","Flat and EPDM roofing","Chimney and lead work","Gutters, fascias and soffits","Storm damage and emergency repairs"],
+  "service_area": ["Sheffield","Rotherham","Chesterfield","Dronfield","Hillsborough","Ecclesall"],
+  "reviews": [
+    {"name":"Ian","rating":5,"text":"Sorted a bad leak after the storms within two days. Scaffold up, fixed properly, no mess left behind."},
+    {"name":"Deborah","rating":5,"text":"Full re-roof on a 1900s terrace. Fair fixed price and the new ridge line looks spot on."},
+    {"name":"Tom","rating":5,"text":"Replaced the fascias and guttering. Turned up when they said and cleaned up after. Proper job."}
+  ],
+  "years_trading": 18,
+  "rating": 4.9,
+  "review_count": 88
+}

@@ -1,0 +1,116 @@
+"use client";
+
+import { useEffect, useState } from "react";
+
+const COMPACT_AT = 80;
+const EXPAND_AT = 20;
+
+function useHeaderScrolled(): boolean {
+  const [scrolled, setScrolled] = useState(false);
+
+  useEffect(() => {
+    const update = () => {
+      const y = window.scrollY;
+      setScrolled((prev) => {
+        if (y > COMPACT_AT) return true;
+        if (y < EXPAND_AT) return false;
+        return prev;
+      });
+    };
+
+    update();
+    window.addEventListener("scroll", update, { passive: true });
+    return () => window.removeEventListener("scroll", update);
+  }, []);
+
+  return scrolled;
+}
+
+interface StickyHeaderProps {
+  businessName: string;
+  trade: string;
+  area: string;
+  rating: number;
+  reviewCount: number;
+  phone: string;
+  phoneHref: string;
+  ownerName: string;
+  quoteHref?: string;
+}
+
+export function StickyHeader({
+  businessName,
+  trade,
+  area,
+  rating,
+  reviewCount,
+  phone,
+  phoneHref,
+  ownerName,
+  quoteHref = "#contact",
+}: StickyHeaderProps) {
+  const scrolled = useHeaderScrolled();
+
+  const callLabel = scrolled ? phone : `Call ${ownerName} - ${phone}`;
+  const quoteLabel = scrolled ? "Get quote" : "Get a free quote";
+
+  return (
+    <header
+      data-review="utility"
+      data-scrolled={scrolled ? "true" : "false"}
+      className={`sticky-header sticky top-0 z-50 border-b transition-[background-color,box-shadow,border-color,backdrop-filter] duration-300 ease-in-out ${
+        scrolled
+          ? "border-border bg-surface/98 shadow-lg backdrop-blur-lg"
+          : "border-border/80 bg-background/95 backdrop-blur-md"
+      }`}
+    >
+      <div className="accent-bar" aria-hidden />
+      <div
+        className={`sticky-header-inner mx-auto flex max-w-6xl items-center justify-between gap-3 px-5 md:gap-4 md:px-10 ${
+          scrolled ? "py-2.5" : "py-3"
+        }`}
+      >
+        <div className="min-w-0 flex-1">
+          <p
+            className={`sticky-header-title font-display uppercase text-foreground transition-[font-size,line-height] duration-300 ease-in-out ${
+              scrolled ? "text-sm tracking-wide" : "text-base tracking-wide md:text-lg"
+            }`}
+          >
+            {businessName}
+          </p>
+          <p
+            className={`sticky-header-meta hidden truncate text-sm text-muted-fg transition-[max-height,opacity,margin] duration-300 ease-in-out md:block ${
+              scrolled
+                ? "max-h-0 opacity-0"
+                : "mt-0.5 max-h-8 text-xs uppercase tracking-wider opacity-100 md:text-sm"
+            }`}
+          >
+            {trade}
+            <span className="mx-1.5 text-border">·</span>
+            {area}
+            <span className="mx-1.5 text-border">·</span>
+            {rating}★ · {reviewCount} reviews
+          </p>
+        </div>
+        <div className="hidden shrink-0 items-center gap-2 md:flex">
+          <a
+            href={quoteHref}
+            className={`btn-primary focus-ring whitespace-nowrap transition-[padding,font-size] duration-300 ease-in-out ${
+              scrolled ? "px-3 py-2.5 text-xs" : "px-5 py-3 text-sm"
+            }`}
+          >
+            {quoteLabel}
+          </a>
+          <a
+            href={phoneHref}
+            className={`btn-secondary focus-ring whitespace-nowrap transition-[padding,font-size] duration-300 ease-in-out ${
+              scrolled ? "px-3 py-2.5 text-xs" : "px-5 py-3 text-sm"
+            }`}
+          >
+            {callLabel}
+          </a>
+        </div>
+      </div>
+    </header>
+  );
+}

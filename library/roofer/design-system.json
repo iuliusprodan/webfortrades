@@ -1,0 +1,46 @@
+{
+  "slug": "roofer",
+  "business_name": "Stonegate Roofing",
+  "version": "1",
+  "direction": "rugged-industrial-strength",
+  "trade": "roofer",
+  "fonts": {
+    "display": "Archivo Black",
+    "body": "Barlow"
+  },
+  "separator": "·",
+  "colors": {
+    "accent": "#e85d04",
+    "accentForeground": "#1a1a1a",
+    "background": "#1e282c",
+    "foreground": "#ece8e4",
+    "muted": "#3a4a50",
+    "mutedForeground": "#a89f94",
+    "border": "#4a5a60",
+    "surface": "#2c3a3f",
+    "stone": "#c8b8a8"
+  },
+  "patterns": {
+    "header": "sticky-compact-scroll-hysteresis-mobile-logo-only-accent-bar",
+    "hero": "split-bold-headline-solid-focal-image",
+    "gallery": "standalone-finished-work-numbered",
+    "services": "numbered-01-list",
+    "marquee": "trust-strip-18s-mobile-28s-desktop",
+    "faq": "accordion-single-open",
+    "motion": "scroll-reveal-stagger-reduced-motion-safe",
+    "corners": "sharp-square",
+    "cta": "uppercase-bold-quote-primary-call-secondary",
+    "reviews": "equal-height-flex-bottom-attribution",
+    "footer": "webfortrades-credit-link-mobile-bar-offset",
+    "mobileBar": "sticky-dual-cta-call-craig",
+    "contactForm": "email-photo-upload-two-up-desktop"
+  },
+  "components": [
+    "StickyHeader",
+    "HeroSolidFocal",
+    "Reveal",
+    "FaqAccordion",
+    "PlaceholderImage",
+    "ContactForm"
+  ]
+}

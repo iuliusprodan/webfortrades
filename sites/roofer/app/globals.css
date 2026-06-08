@@ -1,0 +1,175 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-accent: #e85d04;
+  --color-accent-fg: #1a1a1a;
+  --color-background: #1e282c;
+  --color-foreground: #ece8e4;
+  --color-muted: #3a4a50;
+  --color-muted-fg: #a89f94;
+  --color-border: #4a5a60;
+  --color-surface: #2c3a3f;
+  --color-stone: #c8b8a8;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-background font-body text-foreground antialiased;
+}
+
+::selection {
+  background: color-mix(in srgb, var(--color-accent) 40%, var(--color-background));
+  color: var(--color-foreground);
+}
+
+@layer utilities {
+  .section-pad {
+    @apply px-5 py-16 md:px-10 md:py-24 lg:px-16;
+  }
+
+  .display-heading {
+    @apply font-display text-[2.75rem] uppercase leading-[0.95] tracking-[-0.02em] md:text-[3.75rem] lg:text-[4.5rem];
+  }
+
+  .section-label {
+    @apply text-[11px] font-semibold uppercase tracking-[0.3em] text-stone;
+  }
+
+  .slate-grid {
+    background-image:
+      linear-gradient(var(--color-border) 1px, transparent 1px),
+      linear-gradient(90deg, var(--color-border) 1px, transparent 1px);
+    background-size: 32px 32px;
+  }
+
+  .accent-bar {
+    @apply h-1 w-full bg-accent;
+  }
+
+  .focus-ring {
+    @apply focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent;
+  }
+
+  .card {
+    @apply overflow-hidden border border-border bg-surface;
+  }
+
+  .btn-primary {
+    @apply inline-flex min-h-tap items-center justify-center bg-accent px-6 font-display text-sm font-normal uppercase tracking-[0.12em] text-accent-fg transition-all duration-200 hover:brightness-110 hover:shadow-lg active:scale-[0.98] md:text-base;
+  }
+
+  .btn-secondary {
+    @apply inline-flex min-h-tap items-center justify-center border-2 border-border bg-muted font-display text-sm font-normal uppercase tracking-[0.1em] text-foreground transition-all duration-200 active:scale-[0.98] md:text-base;
+  }
+
+  .btn-secondary:hover {
+    border-color: color-mix(in srgb, var(--color-accent) 55%, var(--color-border));
+    background-color: color-mix(in srgb, var(--color-muted) 80%, var(--color-surface));
+  }
+
+  .card-hover {
+    @apply transition-all duration-300 hover:-translate-y-0.5 hover:shadow-lg;
+  }
+
+  .card-hover:hover {
+    border-color: color-mix(in srgb, var(--color-accent) 40%, var(--color-border));
+  }
+
+  .sticky-header-inner {
+    transition: padding 300ms ease-in-out;
+  }
+
+  .sticky-header-meta {
+    overflow: hidden;
+  }
+}
+
+.reveal {
+  opacity: 0;
+  transform: translateY(18px);
+  transition:
+    opacity 0.55s ease-out,
+    transform 0.55s ease-out;
+}
+
+.reveal-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.faq-panel {
+  grid-template-rows: 0fr;
+  opacity: 0;
+}
+
+.faq-panel-open {
+  grid-template-rows: 1fr;
+  opacity: 1;
+}
+
+.faq-panel-closed {
+  grid-template-rows: 0fr;
+  opacity: 0;
+}
+
+@keyframes marquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.marquee-track {
+  animation: marquee 18s linear infinite;
+}
+
+@media (min-width: 768px) {
+  .marquee-track {
+    animation-duration: 28s;
+  }
+}
+
+.site-footer {
+  @apply pt-10 md:py-10;
+  padding-bottom: calc(6rem + env(safe-area-inset-bottom, 0px));
+}
+
+@media (min-width: 768px) {
+  .site-footer {
+    padding-bottom: 2.5rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  .marquee-track {
+    animation: none;
+  }
+
+  .reveal {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+
+  .card-hover,
+  .btn-primary,
+  .btn-secondary {
+    transition: none;
+  }
+
+  .faq-panel,
+  .faq-chevron {
+    transition: none !important;
+  }
+}
