@@ -3,8 +3,12 @@ approval_mode: "ask_before_send"   # auto | ask_before_build | ask_before_send |
 
 pricing:
   currency: GBP
-  target_min: 200
-  target_max: 400
+  starter: 300
+  standard: 500
+  premium: 800
+  # legacy aliases for scripts
+  target_min: 300
+  target_max: 800
 
 outreach:
   from_name: "Julius"

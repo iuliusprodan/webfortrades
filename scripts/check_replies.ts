@@ -138,7 +138,7 @@ function suggestedReply(
     return `Hi ${owner},\n\nGood to hear — glad the site landed okay. Easiest is a quick call: what day suits you for ten minutes? I'll walk you through what's there and what (if anything) you'd want changed.\n\nJulius\n${config.outreach.from_email}`;
   }
 
-  return `Hi ${owner},\n\nThanks for getting back — you asked: "${snippet.slice(0, 120)}${snippet.length > 120 ? "…" : ""}"\n\nShort answer: it's a one-off site build (typically £300–800 depending on scope), you own it outright, and there's no monthly fee unless you want hosting support. Happy to explain on a quick call if easier.\n\nJulius\n${config.outreach.from_email}`;
+  return `Hi ${owner},\n\nThanks for getting back. You asked: "${snippet.slice(0, 120)}${snippet.length > 120 ? "…" : ""}"\n\nShort answer: it's a one-off site build. Starter £300, Standard £500, Premium £800 depending on scope. You own it outright, no monthly fee unless you want hosting support. Happy to explain on a quick call if easier.\n\nJulius\n${config.outreach.from_email}`;
 }
 
 async function fetchInboxReplies(
@@ -247,7 +247,7 @@ Julius`;
     case 4:
       body = `Hi ${owner},
 
-Quick clarity in case helpful: if you want to keep the site, it's a simple one-off — typically £300–800 depending on tweaks, and you own it outright. No monthly tie-in.
+Quick clarity in case helpful: if you want to keep the site, it's a simple one-off. Starter £300, Standard £500, Premium £800 depending on tweaks. You own it outright. No monthly tie-in.
 
 Preview: ${url}
 

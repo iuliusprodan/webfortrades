@@ -20,3 +20,30 @@
 - After each run, append what worked/failed to memory.md (design directions used, subject lines
   that got opens, niches that converted). Read memory.md at the start of future runs.
 - Be honest about low confidence. Flag, don't fabricate.
+
+## Writing style (ALL website copy and all your messages)
+- NEVER use em dashes. Use a normal hyphen ( - ), a comma, or a full stop instead.
+- Plain British English. No hype, no jargon.
+
+## Publishing (every site, every time)
+- Whenever you finish or change a site, ALWAYS publish it: push to GitHub
+  (iuliusprodan/webfortrades) and deploy to Vercel, then give me the live https link.
+  I should never have to ask.
+
+## Pricing (GBP, one-off, no contracts)
+- Starter: 300 - one professionally designed one-page site.
+- Standard: 500 - if they want more (extra sections / pages).
+- Premium: 800 - the best, full build.
+- Quote the tier that fits the ask. Never invent prices. Keep config.yaml pricing in step.
+
+## House fonts
+- Default pairing is Syne (display) + DM Sans (body). Reuse it across businesses unless a trade
+  clearly needs a different feel (e.g. an industrial / mechanic ops-log look).
+
+## Template library
+- Keep a library of every finished site in /library. After each build, save its
+  design-system.json, build-notes.md, a screenshot, and a one-line entry in /library/index.md
+  (slug, trade, design direction, fonts, palette, live URL, vibe).
+- Before building, READ /library/index.md. If a past site fits the new business, use it as a
+  reference and decide for yourself how far to diverge: close, somewhat different, or very
+  different. Log which entry you referenced and how much you changed in build-notes.md.
