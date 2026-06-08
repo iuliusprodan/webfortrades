@@ -5,6 +5,12 @@
 - Library reference: test-electrical (deliberate **very different** divergence)
 - Divergence: dark steel + safety yellow vs cream/amber editorial; grotesk + mono vs Syne/DM Sans; utilitarian job-sheet tone vs quiet Cambridge editorial
 
+## v4 changes (2026-06-08)
+
+### Header
+- Compact on scroll restored with smooth transitions; 80px IO sentinel (no jiggle)
+- Mobile: logo only. Desktop: meta strip + dual CTAs that condense on scroll
+
 ## v3 changes (2026-06-08)
 
 ### Mobile bar

@@ -7,13 +7,18 @@
 - v2 polish: sticky condensing header, hero focal frame, scroll reveals, FAQ accordion
 - v3 polish: dual CTAs, square corners site-wide
 - v4 fix: stable header, equal review cards, footer link
+- v5 header: compact scroll restored, mobile logo-only
+
+## v5 changes (2026-06-08)
+
+### Header
+- Compact on scroll restored with smooth transitions; 80px IO sentinel (no jiggle)
+- Mobile: logo only. Desktop: meta strip + dual CTAs that condense on scroll
 
 ## v4 changes (2026-06-08)
 
 ### Header
-- Fixed height in both scroll states (no padding, text or button size changes)
-- Scrolled state toggles via IntersectionObserver sentinel (no raw scroll threshold jiggle)
-- Only background opacity, blur, border and shadow change on scroll
+- IntersectionObserver sentinel replaces raw scroll threshold (fixes jiggle)
 
 ### Reviews
 - Equal-height cards with flex column layout; quote flexes, name + stars pinned to bottom baseline

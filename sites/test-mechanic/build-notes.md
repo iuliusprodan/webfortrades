@@ -6,6 +6,14 @@
 - Divergence: dark steel palette, safety yellow accent, Space Grotesk + IBM Plex Mono, job-sheet captions, utilitarian uppercase type
 - v2 fix: stable header, equal review cards, footer link
 - v3 extras: mobile bar, job ticket hero, accent restraint
+- v4 header: compact scroll restored, mobile logo-only
+
+## v4 changes (2026-06-08)
+
+### Header
+- Compact on scroll restored: smaller title, meta fades, shorter CTA labels (desktop)
+- 80px IntersectionObserver sentinel prevents flip-flop; smooth padding/height transitions
+- Mobile: business name only (no header CTAs, no meta strip). Desktop keeps both
 
 ## v3 changes (2026-06-08)
 

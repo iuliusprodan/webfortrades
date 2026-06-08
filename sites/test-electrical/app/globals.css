@@ -66,6 +66,14 @@ body {
   .card-hover:hover {
     border-color: color-mix(in srgb, var(--color-accent) 30%, var(--color-border));
   }
+
+  .sticky-header-inner {
+    transition: padding 300ms ease-in-out;
+  }
+
+  .sticky-header-meta {
+    overflow: hidden;
+  }
 }
 
 .reveal {

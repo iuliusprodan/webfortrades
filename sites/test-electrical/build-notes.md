@@ -4,12 +4,19 @@
 - Direction: quiet-premium-editorial (Syne + DM Sans, amber accent on navy)
 - v3 polish: dual CTAs, square corners site-wide
 - v4 fix: stable header, equal review cards, footer link
+- v5 header: compact scroll restored, mobile logo-only
+
+## v5 changes (2026-06-08)
+
+### Header
+- Compact on scroll restored: smaller title, meta fades, shorter CTA labels (desktop)
+- 80px IntersectionObserver sentinel prevents flip-flop; smooth padding/height transitions
+- Mobile: business name only (no header CTAs, no meta strip). Desktop keeps both
 
 ## v4 changes (2026-06-08)
 
 ### Header
-- Fixed height in both scroll states; IntersectionObserver sentinel toggles scrolled style
-- Only background, blur, border and shadow change (no layout shift)
+- IntersectionObserver sentinel toggles scrolled style (replaced raw scroll threshold)
 
 ### Reviews
 - Equal-height flex cards; name + stars bottom-aligned on shared baseline

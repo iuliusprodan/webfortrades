@@ -40,23 +40,41 @@ export function StickyHeader({
     return () => observer.disconnect();
   }, []);
 
+  const callLabel = scrolled ? phone : `Call ${ownerName} - ${phone}`;
+  const quoteLabel = scrolled ? "Get a quote" : "Get a free quote";
+
   return (
     <>
-      <div ref={sentinelRef} className="pointer-events-none h-px w-full" aria-hidden />
+      <div ref={sentinelRef} className="pointer-events-none h-20 w-full" aria-hidden />
       <header
         data-review="utility"
-        className={`sticky top-0 z-50 border-b transition-[background-color,box-shadow,border-color,backdrop-filter] duration-300 ${
+        data-scrolled={scrolled ? "true" : "false"}
+        className={`sticky-header sticky top-0 z-50 border-b transition-[background-color,box-shadow,border-color,backdrop-filter] duration-300 ease-in-out ${
           scrolled
             ? "border-border bg-surface/95 shadow-sm backdrop-blur-lg"
             : "border-border/70 bg-surface/80 backdrop-blur-md"
         }`}
       >
-        <div className="mx-auto flex max-w-6xl items-center justify-between gap-3 px-5 py-3.5 md:gap-4 md:px-10">
+        <div
+          className={`sticky-header-inner mx-auto flex max-w-6xl items-center justify-between gap-3 px-5 md:gap-4 md:px-10 ${
+            scrolled ? "py-2.5" : "py-4"
+          }`}
+        >
           <div className="min-w-0 flex-1">
-            <p className="font-display text-lg font-semibold text-foreground md:text-xl">
+            <p
+              className={`sticky-header-title font-display font-semibold text-foreground transition-[font-size,line-height] duration-300 ease-in-out ${
+                scrolled ? "text-base md:text-base" : "text-lg md:text-xl"
+              }`}
+            >
               {businessName}
             </p>
-            <p className="mt-0.5 min-h-5 truncate text-xs text-muted-fg md:text-sm">
+            <p
+              className={`sticky-header-meta hidden truncate text-muted-fg transition-[max-height,opacity,margin] duration-300 ease-in-out md:block ${
+                scrolled
+                  ? "max-h-0 opacity-0"
+                  : "mt-0.5 max-h-8 text-xs opacity-100 md:text-sm"
+              }`}
+            >
               {trade}
               <span className="mx-1.5 text-border">·</span>
               {area}
@@ -64,18 +82,22 @@ export function StickyHeader({
               {rating}★ · {reviewCount} reviews
             </p>
           </div>
-          <div className="flex shrink-0 items-center gap-2">
+          <div className="hidden shrink-0 items-center gap-2 md:flex">
             <a
               href={quoteHref}
-              className="btn-primary focus-ring whitespace-nowrap px-4 py-2.5 text-sm md:px-5 md:text-base"
+              className={`btn-primary focus-ring whitespace-nowrap transition-[padding,font-size] duration-300 ease-in-out ${
+                scrolled ? "px-3 py-2 text-xs" : "px-4 py-2.5 text-sm md:px-5 md:text-base"
+              }`}
             >
-              Get a free quote
+              {quoteLabel}
             </a>
             <a
               href={phoneHref}
-              className="btn-secondary focus-ring whitespace-nowrap px-4 py-2.5 text-sm md:px-5 md:text-base"
+              className={`btn-secondary focus-ring whitespace-nowrap transition-[padding,font-size] duration-300 ease-in-out ${
+                scrolled ? "px-3 py-2 text-xs" : "px-4 py-2.5 text-sm md:px-5 md:text-base"
+              }`}
             >
-              Call {ownerName} - {phone}
+              {callLabel}
             </a>
           </div>
         </div>
