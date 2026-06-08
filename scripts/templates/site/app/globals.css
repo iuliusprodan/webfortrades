@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-accent: #c45c26;
+  --color-accent-fg: #ffffff;
+  --color-background: #faf8f5;
+  --color-foreground: #1c1917;
+  --color-muted: #e7e5e4;
+  --color-muted-fg: #57534e;
+  --color-border: #d6d3d1;
+  --color-surface: #ffffff;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-background font-body text-foreground antialiased;
+}
+
+::selection {
+  background: color-mix(in srgb, var(--color-accent) 25%, white);
+}
+
+@layer utilities {
+  .section-pad {
+    @apply px-5 py-16 md:px-10 md:py-24 lg:px-16;
+  }
+
+  .display-heading {
+    @apply font-display text-[2.35rem] font-semibold leading-[1.02] tracking-[-0.02em] md:text-6xl lg:text-[4.5rem];
+  }
+
+  .section-label {
+    @apply font-mono text-[11px] uppercase tracking-[0.22em] text-muted-fg;
+  }
+
+  .focus-ring {
+    @apply focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent;
+  }
+}
+
+@keyframes marquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.marquee-track {
+  animation: marquee 40s linear infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .marquee-track {
+    animation: none;
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "business_name": "PLACEHOLDER",
+  "owner_name": null,
+  "phone": null,
+  "email": null,
+  "address": "",
+  "opening_hours": [],
+  "services": [],
+  "service_area": [],
+  "photos": [],
+  "reviews": [],
+  "social": { "facebook": null, "instagram": null },
+  "brand": { "colours": [], "logo_url": null },
+  "sources": []
+}

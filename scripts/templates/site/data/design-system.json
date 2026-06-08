@@ -1,0 +1,18 @@
+{
+  "slug": "placeholder",
+  "business_name": "PLACEHOLDER",
+  "direction": "quiet-premium-editorial",
+  "trade": "editorial-electric",
+  "fonts": { "display": "Syne", "body": "DM Sans" },
+  "separator": "✦",
+  "colors": {
+    "accent": "#c45c26",
+    "accentForeground": "#ffffff",
+    "background": "#faf8f5",
+    "foreground": "#1c1917",
+    "muted": "#e7e5e4",
+    "mutedForeground": "#57534e",
+    "border": "#d6d3d1",
+    "surface": "#ffffff"
+  }
+}

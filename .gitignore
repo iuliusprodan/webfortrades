@@ -1,0 +1,7 @@
+.env
+node_modules/
+leads.db
+leads.db-*
+sites/*/node_modules/
+sites/*/.next/
+sites/*/out/

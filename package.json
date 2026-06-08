@@ -1,0 +1,32 @@
+{
+  "name": "autonomous-web-agency",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "db:init": "tsx scripts/init-db.ts",
+    "db:test": "tsx scripts/db.ts",
+    "prospect": "tsx scripts/prospect.ts",
+    "gather": "tsx scripts/gather.ts",
+    "build:site": "tsx scripts/build.ts",
+    "review": "tsx scripts/review.ts",
+    "deploy": "tsx scripts/deploy.ts",
+    "outreach": "tsx scripts/outreach.ts",
+    "followup": "tsx scripts/check_replies.ts"
+  },
+  "dependencies": {
+    "better-sqlite3": "^11.8.1",
+    "imapflow": "^1.0.186",
+    "nodemailer": "^6.10.0",
+    "playwright": "^1.51.1",
+    "sharp": "^0.33.5",
+    "yaml": "^2.7.0"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^7.6.12",
+    "@types/nodemailer": "^6.4.17",
+    "tsx": "^4.19.3",
+    "typescript": "^5.8.2",
+    "vercel": "^41.7.0"
+  }
+}

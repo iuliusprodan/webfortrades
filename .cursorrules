@@ -1,0 +1,22 @@
+# House rules for the WebForTrades pipeline
+
+## Who you work for
+- Agency: WebForTrades. Run by Julius. Contact: contact@webfortradesuk.co.uk.
+- Every site you build carries a tiny footer credit: "Website by WebForTrades".
+- Ensure config.yaml has outreach.from_name: "Julius" and from_email: "contact@webfortradesuk.co.uk".
+
+## How you operate
+- Read config.yaml before acting. Respect daily_build_cap, daily_send_cap, approval_mode.
+- Use leads.db (via /scripts/db.ts) as the single source of truth. Update state + updated_at
+  on every change. Never process a business already in the db (dedupe by business_name + region).
+- approval_mode gates:
+  - ask_before_build  -> after prospecting, STOP and show the scored list; wait for my picks.
+  - ask_before_send   -> build + deploy freely, but STOP before contacting; show the draft + URL.
+  - ask_both          -> stop at both gates.
+  - auto              -> no stops (only use once quality is proven).
+- Use ONLY public data. Save every source URL into source_urls for provenance. Never invent
+  emails, phone numbers, reviews, or photos.
+- Sites are built ON SPEC at an unlisted URL. The owner owes nothing until they say yes.
+- After each run, append what worked/failed to memory.md (design directions used, subject lines
+  that got opens, niches that converted). Read memory.md at the start of future runs.
+- Be honest about low confidence. Flag, don't fabricate.

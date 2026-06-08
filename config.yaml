@@ -1,0 +1,15 @@
+daily_build_cap: 10
+approval_mode: "ask_before_send"   # auto | ask_before_build | ask_before_send | ask_both
+
+pricing:
+  currency: GBP
+  target_min: 200
+  target_max: 400
+
+outreach:
+  from_name: "Julius"
+  agency_name: "WebForTrades"
+  from_email: "contact@webfortradesuk.co.uk"
+  daily_send_cap: 15
+  sequence_touches: 5
+  tone: "friendly, concise, no hard sell"

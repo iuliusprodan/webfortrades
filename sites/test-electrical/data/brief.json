@@ -1,0 +1,20 @@
+{
+  "slug": "test-electrical",
+  "business_name": "Hartley Electrical",
+  "owner_name": "Dave",
+  "trade": "Domestic electrician",
+  "phone": "07700 900123",
+  "email": "dave@example.com",
+  "address": "Cambridge, UK",
+  "hours": "Mon-Fri 8:00-18:00, Sat 9:00-13:00",
+  "services": ["Fuse board upgrades","EV charger installation","Rewiring","Fault finding","EICR safety certificates","Outdoor & garden lighting"],
+  "service_area": ["Cambridge","Ely","Newmarket","St Ives","Histon","Trumpington"],
+  "reviews": [
+    {"name":"Sarah","rating":5,"text":"Dave fitted our EV charger same week. Tidy, fair price, explained everything."},
+    {"name":"Mark","rating":5,"text":"Sorted a tripping circuit two other electricians couldn't find. Highly recommend."},
+    {"name":"Priya","rating":5,"text":"Full rewire on our 1930s house. Professional from quote to finish."}
+  ],
+  "years_trading": 6,
+  "rating": 5.0,
+  "review_count": 47
+}
