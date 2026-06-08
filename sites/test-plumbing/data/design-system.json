@@ -1,0 +1,19 @@
+{
+  "slug": "test-plumbing",
+  "business_name": "Tidewell Plumbing",
+  "direction": "confident-blue-trust",
+  "trade": "trust-plumber",
+  "fonts": { "display": "Fraunces", "body": "Inter" },
+  "separator": "·",
+  "colors": {
+    "accent": "#1a8fd1",
+    "accentForeground": "#ffffff",
+    "background": "#f4f8fc",
+    "foreground": "#0c2d4a",
+    "muted": "#e2ecf5",
+    "mutedForeground": "#5b7490",
+    "border": "#c8d9ea",
+    "surface": "#ffffff",
+    "heroDark": "#0a2540"
+  }
+}

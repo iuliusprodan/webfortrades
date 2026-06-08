@@ -1,0 +1,20 @@
+{
+  "slug": "test-plumbing",
+  "business_name": "Tidewell Plumbing",
+  "owner_name": "Sam",
+  "trade": "Plumber",
+  "phone": "07700 900789",
+  "email": "sam@example.com",
+  "address": "Bristol, UK",
+  "hours": "Mon-Sat 8:00-18:00, 24h emergency callout",
+  "services": ["Emergency leak repairs","Bathroom installations","Boiler and cylinder repairs","Burst and frozen pipes","Tap, toilet and shower fixes","Drain unblocking"],
+  "service_area": ["Bristol","Bedminster","Clifton","Bishopston","Fishponds","Keynsham"],
+  "reviews": [
+    {"name":"Hannah","rating":5,"text":"Came out within the hour for a burst pipe under the sink. Calm, clean, sorted it fast."},
+    {"name":"Geoff","rating":5,"text":"Fitted our whole bathroom over a week. Tidy work and a fair fixed price."},
+    {"name":"Priya","rating":5,"text":"Honest about what the boiler actually needed instead of upselling. Will use again."}
+  ],
+  "years_trading": 11,
+  "rating": 5.0,
+  "review_count": 73
+}

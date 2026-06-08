@@ -1,0 +1,45 @@
+{
+  "slug": "test-plumbing",
+  "business_name": "Tidewell Plumbing",
+  "version": "1",
+  "direction": "confident-blue-trust",
+  "trade": "trust-plumber",
+  "fonts": {
+    "display": "Fraunces",
+    "body": "Inter"
+  },
+  "separator": "·",
+  "colors": {
+    "accent": "#1a8fd1",
+    "accentForeground": "#ffffff",
+    "background": "#f4f8fc",
+    "foreground": "#0c2d4a",
+    "muted": "#e2ecf5",
+    "mutedForeground": "#5b7490",
+    "border": "#c8d9ea",
+    "surface": "#ffffff",
+    "heroDark": "#0a2540"
+  },
+  "patterns": {
+    "header": "sticky-compact-scroll-hysteresis-mobile-logo-only",
+    "hero": "full-bleed-image-overlay-left-copy",
+    "gallery": "numbered-captions-placeholder",
+    "services": "numbered-01-list-rounded",
+    "marquee": "trust-strip-24s-mobile-38s-desktop",
+    "faq": "accordion-single-open-rounded",
+    "motion": "scroll-reveal-stagger-reduced-motion-safe",
+    "corners": "soft-rounded-lg-xl",
+    "cta": "quote-primary-call-secondary",
+    "reviews": "equal-height-flex-bottom-attribution",
+    "footer": "webfortrades-credit-link-mobile-bar-offset",
+    "mobileBar": "sticky-dual-cta-call-sam"
+  },
+  "components": [
+    "StickyHeader",
+    "HeroFullBleed",
+    "Reveal",
+    "FaqAccordion",
+    "PlaceholderImage",
+    "ContactForm"
+  ]
+}

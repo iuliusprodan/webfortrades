@@ -1,0 +1,163 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-accent: #1a8fd1;
+  --color-accent-fg: #ffffff;
+  --color-background: #f4f8fc;
+  --color-foreground: #0c2d4a;
+  --color-muted: #e2ecf5;
+  --color-muted-fg: #5b7490;
+  --color-border: #c8d9ea;
+  --color-surface: #ffffff;
+  --color-hero-dark: #0a2540;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-background font-body text-foreground antialiased;
+}
+
+::selection {
+  background: color-mix(in srgb, var(--color-accent) 25%, white);
+}
+
+@layer utilities {
+  .section-pad {
+    @apply px-5 py-16 md:px-10 md:py-24 lg:px-16;
+  }
+
+  .display-heading {
+    @apply font-display text-[2.5rem] font-semibold leading-[1.05] tracking-[-0.02em] md:text-[3.5rem] lg:text-[4rem];
+  }
+
+  .section-label {
+    @apply text-xs font-medium uppercase tracking-[0.2em] text-accent;
+  }
+
+  .focus-ring {
+    @apply focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent;
+  }
+
+  .card {
+    @apply overflow-hidden rounded-xl border border-border bg-surface;
+  }
+
+  .btn-primary {
+    @apply inline-flex min-h-tap items-center justify-center rounded-lg bg-accent font-medium text-accent-fg transition-all duration-200 hover:brightness-105 hover:shadow-md active:scale-[0.98];
+  }
+
+  .btn-secondary {
+    @apply inline-flex min-h-tap items-center justify-center rounded-lg border border-border bg-surface font-medium text-foreground transition-all duration-200 active:scale-[0.98];
+  }
+
+  .btn-secondary:hover {
+    border-color: color-mix(in srgb, var(--color-accent) 40%, var(--color-border));
+    background-color: color-mix(in srgb, var(--color-muted) 60%, var(--color-surface));
+  }
+
+  .card-hover {
+    @apply transition-all duration-300 hover:-translate-y-0.5 hover:shadow-md;
+  }
+
+  .card-hover:hover {
+    border-color: color-mix(in srgb, var(--color-accent) 30%, var(--color-border));
+  }
+
+  .sticky-header-inner {
+    transition: padding 300ms ease-in-out;
+  }
+
+  .sticky-header-meta {
+    overflow: hidden;
+  }
+}
+
+.reveal {
+  opacity: 0;
+  transform: translateY(18px);
+  transition:
+    opacity 0.55s ease-out,
+    transform 0.55s ease-out;
+}
+
+.reveal-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.faq-panel {
+  grid-template-rows: 0fr;
+  opacity: 0;
+}
+
+.faq-panel-open {
+  grid-template-rows: 1fr;
+  opacity: 1;
+}
+
+.faq-panel-closed {
+  grid-template-rows: 0fr;
+  opacity: 0;
+}
+
+@keyframes marquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.marquee-track {
+  animation: marquee 24s linear infinite;
+}
+
+@media (min-width: 768px) {
+  .marquee-track {
+    animation-duration: 38s;
+  }
+}
+
+.site-footer {
+  @apply pt-10 md:py-10;
+  padding-bottom: calc(5.75rem + env(safe-area-inset-bottom, 0px));
+}
+
+@media (min-width: 768px) {
+  .site-footer {
+    padding-bottom: 2.5rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  .marquee-track {
+    animation: none;
+  }
+
+  .reveal {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+
+  .card-hover,
+  .btn-primary,
+  .btn-secondary {
+    transition: none;
+  }
+
+  .faq-panel,
+  .faq-chevron {
+    transition: none !important;
+  }
+}
