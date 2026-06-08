@@ -10,12 +10,19 @@
 - v5 polish: faster marquee, footer clearance, tighter header top
 - v6 fix: header scroll trigger (hysteresis)
 - v7 mobile hero: centred copy, stacked full-width CTAs
+- v8 hero: left-aligned copy, job-sheet corner z-index
+
+## v8 changes (2026-06-08)
+
+### Hero
+- Eyebrow, headline and paragraph left-aligned on all breakpoints
+- Mobile CTAs unchanged (full-width stacked)
+- Job-sheet yellow corner brackets raised above blur/overlay (`z-20`)
 
 ## v7 changes (2026-06-08)
 
 ### Mobile hero
-- Eyebrow, headline and paragraph centre-aligned on mobile
-- CTAs stacked full width (quote primary, call below); desktop unchanged
+- CTAs stacked full width (quote primary, call below); desktop row layout unchanged
 
 ## v6 changes (2026-06-08)
 

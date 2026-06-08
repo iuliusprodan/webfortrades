@@ -54,14 +54,14 @@ export default function HomePage() {
         >
           <div className="mx-auto grid max-w-6xl gap-10 lg:grid-cols-[1.05fr_0.95fr] lg:items-center lg:gap-14">
             <Reveal>
-              <div className="text-center md:text-left">
+              <div>
                 <p className="section-label mb-3">
                   Manchester / {brief.years_trading} years mobile
                 </p>
                 <h1 id="hero-heading" className="display-heading mb-4">
                   {heroHeadline()}
                 </h1>
-                <p className="mx-auto max-w-md text-base leading-relaxed text-muted-fg md:mx-0 md:text-lg">
+                <p className="max-w-md text-base leading-relaxed text-muted-fg md:text-lg">
                   {heroSub()}
                 </p>
                 <div className="mt-7 flex w-full flex-col gap-3 md:w-auto md:flex-row md:flex-wrap">
