@@ -48,14 +48,14 @@ export default function HomePage() {
       <main className="pb-24 md:pb-0">
         <section
           data-review="hero"
-          className="relative flex min-h-[min(88vh,760px)] items-end border-b border-border"
+          className="relative flex min-h-[min(100svh,820px)] items-center border-b border-border md:min-h-[min(88vh,760px)] md:items-end"
           aria-labelledby="hero-heading"
         >
           <HeroFullBleed />
-          <div className="relative z-10 w-full px-5 pb-14 pt-28 md:px-10 md:pb-20 md:pt-32 lg:px-16">
+          <div className="relative z-10 w-full px-5 pb-10 pt-24 md:px-10 md:pb-20 md:pt-32 lg:px-16">
             <Reveal>
               <div className="mx-auto max-w-6xl">
-                <p className="section-label mb-3 text-sky-200">
+                <p className="mb-3 text-xs font-semibold uppercase tracking-[0.22em] text-white/95">
                   Bristol · {brief.years_trading} years · 24h emergencies
                 </p>
                 <h1

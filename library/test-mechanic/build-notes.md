@@ -80,4 +80,4 @@
 - `StickyHeader`, `HeroJobSheet`, `Reveal`, `FaqAccordion`, `PlaceholderImage`, `ContactForm`
 
 ## Live
-https://test-mechanic.vercel.app
+https://mechanic-site-qwny08.vercel.app

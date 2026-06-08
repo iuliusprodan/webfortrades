@@ -76,4 +76,4 @@
 - `StickyHeader`, `HeroFocal`, `Reveal`, `FaqAccordion`, `PlaceholderImage` (`embedded` variant)
 
 ## Live
-https://test-electrical.vercel.app
+https://electrical-site-f5aasn.vercel.app

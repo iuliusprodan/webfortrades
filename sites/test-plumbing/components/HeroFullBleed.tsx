@@ -10,8 +10,9 @@ export function HeroFullBleed() {
           backgroundSize: "40px 40px",
         }}
       />
-      <div className="absolute inset-0 bg-gradient-to-r from-hero-dark/95 via-hero-dark/75 to-hero-dark/35" />
-      <div className="absolute inset-0 bg-gradient-to-t from-hero-dark/60 via-transparent to-transparent" />
+      <div className="absolute inset-0 bg-hero-dark/35" />
+      <div className="absolute inset-0 bg-gradient-to-r from-hero-dark/[0.97] via-hero-dark/85 to-hero-dark/50" />
+      <div className="absolute inset-0 bg-gradient-to-t from-hero-dark/75 via-hero-dark/20 to-transparent" />
       <div className="absolute bottom-6 right-6 rounded-lg border border-white/20 bg-white/10 px-3 py-1.5 text-xs text-white/70 backdrop-blur-sm">
         Photo pending
       </div>

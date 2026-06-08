@@ -22,7 +22,10 @@
 ### Components
 - `StickyHeader`, `HeroFullBleed`, `Reveal`, `FaqAccordion`, `PlaceholderImage`, `ContactForm`
 
-## Live
-https://test-plumbing-kappa.vercel.app
+### v2 (2026-06-08)
+- Unguessable production alias: `plumbing-site-o6leu5.vercel.app`
+- Mobile hero: vertically centred (`items-center`, `100svh` min-height) so headline sits upper-middle without scrolling
+- Legibility: stronger scrim (`bg-hero-dark/35` + deeper gradients), eyebrow bumped to `text-white/95` semibold
 
-(`test-plumbing.vercel.app` is taken globally on Vercel; serves an unrelated Swedish plumbing site.)
+## Live
+https://plumbing-site-o6leu5.vercel.app

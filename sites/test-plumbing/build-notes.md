@@ -22,6 +22,11 @@
 ### Components
 - `StickyHeader`, `HeroFullBleed`, `Reveal`, `FaqAccordion`, `PlaceholderImage`, `ContactForm`
 
+## v2 (2026-06-08)
+- Production alias: https://plumbing-site-o6leu5.vercel.app
+- Mobile hero centred vertically (`items-center`, `min-h-[100svh]`)
+- Stronger hero scrim + white eyebrow for legibility
+
 ## Run locally
 
 ```bash

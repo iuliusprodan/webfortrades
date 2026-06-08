@@ -14,7 +14,7 @@ Reference implementation for WebForTrades **quiet-premium-editorial** electric t
 5. No em dashes in copy
 
 ## Live
-https://test-electrical.vercel.app
+https://electrical-site-f5aasn.vercel.app
 
 ## Source
 `sites/test-electrical/`
