@@ -4,7 +4,34 @@ import { fileURLToPath } from "node:url";
 import { execSync } from "node:child_process";
 import { parse as parseYaml } from "yaml";
 import { getLeadBySlug, getNextGatheredLead, updateLead } from "./db.js";
-import { extractPaletteFromDir } from "./palette.js";
+import { syncLibraryFromSite } from "./library_sync.js";
+import {
+  basedLocationLabel,
+  resolveBusinessName,
+} from "./site_content.js";
+import { generateBuildId } from "./build_marker.js";
+import { requireSiteBuildChecklist } from "./site_checklist.js";
+import { requireSiteDesignSkillRead } from "./site_design_skill.js";
+import {
+  formatArtifactNotes,
+  requireSiteArtifacts,
+} from "./site_artifacts.js";
+import { buildSiteMetadata } from "./site_metadata.js";
+import { extractLikelyContactNameFromReviews } from "./contact_name.js";
+import { contactabilityBlocksPipeline } from "./contactability.js";
+import {
+  validateBusinessLocation,
+  buildVerifiedServiceArea,
+} from "./location_validation.js";
+import {
+  chooseDesignDirection,
+  PALETTE_PRESETS,
+  type CreativeConstraint,
+} from "./design_direction.js";
+import { selectGalleryPhotos } from "./image_gallery.js";
+import { buildCreativeBrief, saveCreativeBrief } from "./creative_brief.js";
+import { deriveBusinessServices } from "./business_services.js";
+import { hasOpenDesignPort, loadSiteDesignConfig, OD_PORT_MARKER } from "./site_config.js";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.join(__dirname, "..");
@@ -13,70 +40,108 @@ const TEMPLATE = path.join(__dirname, "templates", "site");
 interface Brief {
   business_name: string;
   owner_name: string | null;
+  contact_name?: string | null;
+  contact_name_source?: "google_reviews" | null;
+  contact_name_confidence?: "high" | "medium" | "low" | null;
+  contact_name_evidence_count?: number;
+  contact_name_usage_allowed?: boolean;
+  possible_contact_name?: string | null;
   phone: string | null;
   email: string | null;
   address: string;
   opening_hours: string[];
   services: string[];
   service_area: string[];
-  photos: { local: string; source_url: string; width: number; height: number }[];
+  based_location?: string | null;
+  google_rating?: number | null;
+  google_review_count?: number | null;
+  google_review_count_sourced?: boolean;
+  service_areas_inferred?: boolean;
+  google_maps_url?: string | null;
+  website_status?: string | null;
+  website_url?: string | null;
+  photos: {
+    local: string;
+    source_url: string;
+    width: number;
+    height: number;
+    classification?: string;
+    pair_id?: string | null;
+    caption?: string;
+    cluster_id?: string;
+  }[];
   reviews: { text: string; reviewer: string; rating: number }[];
-  social: { facebook: string | null; instagram: string | null };
-  brand: { colours: string[]; logo_url: string | null };
-  sources: string[];
+  social: {
+    facebook: string | null;
+    instagram: string | null;
+    youtube?: string | null;
+    tiktok?: string | null;
+  };
+  gallery_layout?: "before_after_pairs" | "completed_project_gallery";
+  brand: { colours: string[]; logo_url: string | null; logo_local?: string | null };
+  facebook?: {
+    url: string | null;
+    verified: boolean;
+    verification_reasons: string[];
+    logo_path: string | null;
+    logo_palette: string[];
+    photos_found: number;
+    photos_selected: number;
+  };
+  source_urls?: string[];
+  sources?: string[];
+  notes?: string[];
+  location_validation_status?: string;
 }
 
-type TradeStyle = "editorial-electric" | "warm-heating" | "industrial-mechanic";
-
-function parseArgs(): { slug?: string } {
+function parseArgs(): {
+  slug?: string;
+  allowManualReview?: boolean;
+  allowLocationMismatch?: boolean;
+  enforceSiteSkill?: boolean;
+} {
   const args = process.argv.slice(2);
   let slug: string | undefined;
+  let allowManualReview = false;
+  let allowLocationMismatch = false;
+  let enforceSiteSkill = false;
   for (let i = 0; i < args.length; i++) {
     if (args[i] === "--slug" && args[i + 1]) slug = args[++i];
+    else if (args[i] === "--allow-manual-review") allowManualReview = true;
+    else if (args[i] === "--allow-location-mismatch") allowLocationMismatch = true;
+    else if (args[i] === "--enforce-site-skill") enforceSiteSkill = true;
   }
-  return { slug };
+  return { slug, allowManualReview, allowLocationMismatch, enforceSiteSkill };
 }
 
-function detectTrade(brief: Brief): TradeStyle {
-  const blob = [brief.business_name, ...brief.services].join(" ").toLowerCase();
-  if (/mechanic|motor|garage|vehicle|tyre|tire|brake|mot|diagnostic|exhaust/.test(blob)) {
-    return "industrial-mechanic";
+function loadCreativeConstraint(slug: string): CreativeConstraint | null {
+  const p = path.join(ROOT, "briefs", slug, "creative-constraint.json");
+  if (!fs.existsSync(p)) return null;
+  try {
+    return JSON.parse(fs.readFileSync(p, "utf8")) as CreativeConstraint;
+  } catch {
+    return null;
   }
-  if (/heat|plumb|gas|boiler|radiator|hvac|central heating/.test(blob)) {
-    return "warm-heating";
-  }
-  return "editorial-electric";
 }
 
-function tradeMeta(style: TradeStyle): {
-  direction: string;
-  displayFont: string;
-  bodyFont: string;
-  separator: string;
-} {
-  switch (style) {
-    case "warm-heating":
-      return {
-        direction: "solid-warm-editorial",
-        displayFont: "Fraunces",
-        bodyFont: "Work Sans",
-        separator: "◆",
-      };
-    case "industrial-mechanic":
-      return {
-        direction: "industrial-ops-log",
-        displayFont: "Space Mono",
-        bodyFont: "IBM Plex Sans",
-        separator: "/",
-      };
-    default:
-      return {
-        direction: "quiet-premium-editorial",
-        displayFont: "Syne",
-        bodyFont: "DM Sans",
-        separator: "✦",
-      };
+function copySkillArtifacts(slug: string, dataDir: string): void {
+  const briefDirPath = path.join(ROOT, "briefs", slug);
+  for (const file of ["section-plan.json", "site-strategy.json", "source-evidence.json"]) {
+    const src = path.join(briefDirPath, file);
+    if (fs.existsSync(src)) {
+      fs.copyFileSync(src, path.join(dataDir, file));
+    }
   }
+}
+
+function loadSectionPlanHeroHeadline(slug: string): string | null {
+  const planPath = path.join(ROOT, "briefs", slug, "section-plan.json");
+  if (!fs.existsSync(planPath)) return null;
+  const plan = JSON.parse(fs.readFileSync(planPath, "utf8")) as {
+    sections?: { id: string; heading: string | null }[];
+  };
+  const hero = plan.sections?.find((s) => /hero/.test(s.id));
+  return hero?.heading?.trim() ?? null;
 }
 
 function copyDir(src: string, dest: string): void {
@@ -107,15 +172,44 @@ function writeBuildNotes(
   siteDir: string,
   slug: string,
   brief: Brief,
-  design: object
+  design: object,
+  siteUrl: string,
+  creativeBriefPath: string,
+  siteMetadata: ReturnType<typeof buildSiteMetadata>,
+  artifactNotes: string,
+  skillPath: string
 ): void {
-  const notes = `# Build notes — ${brief.business_name}
+  const statLines: string[] = [];
+  if (typeof brief.google_rating === "number" && brief.google_rating > 0) {
+    statLines.push(`${brief.google_rating}★ average rating (Google Places)`);
+  }
+  if (brief.google_review_count_sourced && typeof brief.google_review_count === "number") {
+    statLines.push(`${brief.google_review_count} Google reviews (Google Places)`);
+  }
+  const statsUsed =
+    statLines.length > 0 ? statLines.join("; ") : "none (only strong sourced stats shown)";
+
+  const notes = `# Build notes - ${brief.business_name}
 
 - Slug: \`${slug}\`
+- Checklist: read \`prompts/site-build-checklist.md\` before build
+- Site design skill: read \`${skillPath}\` before build
+- Plan-driven build: section plan from \`briefs/${slug}/section-plan.json\`
+${artifactNotes}
+- Creative brief: \`${creativeBriefPath}\`
+- Metadata title: ${siteMetadata.title}
+- Metadata description: ${siteMetadata.description}
+- OG image strategy: run \`npm run preview:site -- --slug ${slug}\` after build
 - Trade style: ${(design as { direction: string }).direction}
-- Photos used: ${brief.photos.length}
+- Location validation: ${brief.location_validation_status ?? "OK"}
+- Headline stats: ${statsUsed}
+- Photos used: ${brief.photos.length} (not shown as stats)
 - Services: ${brief.services.length}
-- Reviews: ${brief.reviews.length}
+- Review snippets: ${brief.reviews.length} (not used as total count)
+- Google review count (sourced): ${brief.google_review_count_sourced ? brief.google_review_count : "not sourced"}
+- Google Maps URL: ${brief.google_maps_url ?? "none"}
+- Service areas inferred: ${brief.service_areas_inferred ? "yes" : "no"}
+- Build ID: ${siteMetadata.buildId}
 - Static export: \`output: 'export'\` for Vercel
 
 ## Design system
@@ -132,8 +226,53 @@ npm run dev
   fs.writeFileSync(path.join(siteDir, "build-notes.md"), notes);
 }
 
+function prepareBriefForSite(
+  brief: Brief,
+  lead: { region: string | null; niche: string | null }
+): Brief {
+  const reviewsBlob = brief.reviews.map((r) => r.text).join(" ");
+  const location = validateBusinessLocation({
+    address: brief.address,
+    prospectRegion: lead.region,
+  });
+
+  const { services, strategy: serviceStrategy } = deriveBusinessServices({
+    businessName: brief.business_name,
+    rawServices: brief.services,
+    reviewsBlob,
+    niche: lead.niche,
+    photoCount: brief.photos.length,
+  });
+
+  const service_area = buildVerifiedServiceArea(location, brief.service_area);
+  const based_location =
+    location.basedLocation ??
+    basedLocationLabel(brief.address, location.basedCity ?? lead.region);
+
+  const contactFields = extractLikelyContactNameFromReviews(
+    brief.reviews.map((r) => ({ text: r.text, reviewer: r.reviewer })),
+    brief.business_name
+  );
+
+  return {
+    ...brief,
+    ...contactFields,
+    services,
+    service_area,
+    based_location,
+    service_areas_inferred: brief.service_areas_inferred ?? true,
+    location_validation_status: location.status,
+    _serviceStrategy: serviceStrategy,
+    _location: location,
+  } as Brief & { _serviceStrategy: string; _location: ReturnType<typeof validateBusinessLocation> };
+}
+
 async function main(): Promise<void> {
-  const { slug: slugArg } = parseArgs();
+  requireSiteBuildChecklist();
+  console.log("Read site-build-checklist.md");
+  const skill = requireSiteDesignSkillRead();
+  console.log(`Read site design skill: ${skill.path}`);
+  const { slug: slugArg, allowManualReview, allowLocationMismatch, enforceSiteSkill } = parseArgs();
   const lead = slugArg ? getLeadBySlug(slugArg) : getNextGatheredLead();
 
   if (!lead?.slug) {
@@ -143,48 +282,184 @@ async function main(): Promise<void> {
     process.exit(1);
   }
 
+  const blockReason = contactabilityBlocksPipeline(lead, { allowManualReview });
+  if (blockReason) {
+    console.error(
+      `Build blocked for ${lead.business_name}: ${blockReason}\nUse --allow-manual-review to override NEEDS_MANUAL_REVIEW only.`
+    );
+    process.exit(1);
+  }
+
   const slug = lead.slug;
+  const artifactStatus = requireSiteArtifacts(slug, { enforce: enforceSiteSkill });
   const briefPath = path.join(ROOT, "briefs", slug, "brief.json");
   if (!fs.existsSync(briefPath)) {
     console.error(`Missing brief: ${briefPath}`);
     process.exit(1);
   }
 
-  const brief = JSON.parse(fs.readFileSync(briefPath, "utf8")) as Brief;
+  const briefRaw = JSON.parse(fs.readFileSync(briefPath, "utf8")) as Brief;
+  const businessName = resolveBusinessName(briefRaw, lead);
+  const briefPrepared = prepareBriefForSite(
+    { ...briefRaw, business_name: briefRaw.business_name?.trim() || businessName },
+    lead
+  ) as Brief & {
+    _serviceStrategy: string;
+    _location: ReturnType<typeof validateBusinessLocation>;
+  };
+
+  const location = briefPrepared._location;
+  if (
+    location.status === "MISSING_ADDRESS" &&
+    !allowManualReview
+  ) {
+    console.error(`Build blocked: no verifiable location for ${lead.business_name}`);
+    process.exit(1);
+  }
+
+  if (location.status === "LOCATION_MISMATCH_NEEDS_REVIEW" && location.addressCity) {
+    console.warn(
+      `Location note: using Google address city (${location.addressCity}), not prospect region (${location.prospectRegion}).`
+    );
+  }
+
   const imagesSrc = path.join(ROOT, "briefs", slug, "images");
+  const gallery = await selectGalleryPhotos(briefPrepared.photos, imagesSrc, {
+    maxGallery: briefPrepared.photos.length <= 4 ? 3 : 6,
+    maxPerCluster: 2,
+    basedCity: location.basedCity,
+    preferFacebookWhenRepetitive: Boolean(briefPrepared.facebook?.verified),
+  });
+
+  const constraint = loadCreativeConstraint(slug);
+  if (constraint) {
+    console.log(
+      `Creative constraint: ${constraint.label ?? "custom"} (palette=${constraint.paletteKey ?? "-"}, fonts=${constraint.fontPairKey ?? "-"}, layout=${constraint.layoutFamily ?? "-"})`
+    );
+  }
+
+  const logoColors = briefPrepared.brand.colours?.length
+    ? briefPrepared.brand.colours
+    : briefPrepared.facebook?.logo_palette ?? [];
+
+  const reviewsBlob = briefPrepared.reviews.map((r) => r.text).join(" ");
+  const designSelection = chooseDesignDirection({
+    slug,
+    businessName: briefPrepared.business_name,
+    services: briefPrepared.services,
+    reviewsBlob,
+    niche: lead.niche,
+    basedCity: location.basedCity,
+    photoCount: briefPrepared.photos.length,
+    logoColors,
+    root: ROOT,
+    constraint,
+  });
+
+  const paletteKey =
+    PALETTE_PRESETS.find((p) => p.colors.accent === designSelection.colors.accent)?.key ??
+    designSelection.direction;
+
+  const creativeBrief = buildCreativeBrief({
+    slug,
+    businessName: briefPrepared.business_name,
+    niche: lead.niche,
+    location,
+    design: designSelection,
+    logoColors,
+    photoColors: [designSelection.colors.accent],
+    logoAvailable: Boolean(briefPrepared.brand.logo_url || briefPrepared.brand.logo_local),
+    services: briefPrepared.services,
+    serviceStrategy: briefPrepared._serviceStrategy,
+    gallery,
+    paletteKey,
+    facebook: briefPrepared.facebook
+      ? {
+          url: briefPrepared.facebook.url,
+          verified: briefPrepared.facebook.verified,
+          verification_reasons: briefPrepared.facebook.verification_reasons,
+          logo_path: briefPrepared.facebook.logo_path,
+          logo_used: Boolean(briefPrepared.brand.logo_local),
+          photos_found: briefPrepared.facebook.photos_found,
+          photos_selected: gallery.photos.filter((p) =>
+            p.source_type?.startsWith("facebook")
+          ).length,
+          logo_palette: briefPrepared.facebook.logo_palette ?? logoColors,
+        }
+      : null,
+  });
+  saveCreativeBrief(ROOT, creativeBrief);
+  console.log(`Creative brief saved: briefs/${slug}/creative-brief.json`);
+
+  const planHero = loadSectionPlanHeroHeadline(slug);
+  if (planHero) {
+    designSelection.heroHeadline = planHero.replace(/\.$/, "");
+    designSelection.heroHeadlineKey = `${slug}-plan-hero`;
+    console.log(`Plan-driven hero: ${designSelection.heroHeadline}`);
+  }
+
+  const brief: Brief = {
+    ...briefPrepared,
+    photos: gallery.photos,
+  };
+  delete (brief as { _serviceStrategy?: string })._serviceStrategy;
+  delete (brief as { _location?: unknown })._location;
+
   const siteDir = path.join(ROOT, "sites", slug);
   const dataDir = path.join(siteDir, "data");
   const publicImages = path.join(siteDir, "public", "images");
+  const siteDesign = loadSiteDesignConfig();
+  const preserveOdPort =
+    siteDesign.od_port_use_next_build_only && hasOpenDesignPort(siteDir);
 
   if (fs.existsSync(siteDir)) {
-    fs.rmSync(siteDir, { recursive: true, force: true });
+    if (preserveOdPort) {
+      console.log(
+        `Open Design port detected (${OD_PORT_MARKER}). Skipping template wipe for sites/${slug}.`
+      );
+    } else {
+      fs.rmSync(siteDir, { recursive: true, force: true });
+      copyDir(TEMPLATE, siteDir);
+    }
+  } else {
+    copyDir(TEMPLATE, siteDir);
   }
 
-  copyDir(TEMPLATE, siteDir);
   fs.mkdirSync(dataDir, { recursive: true });
   fs.mkdirSync(publicImages, { recursive: true });
+  copySkillArtifacts(slug, dataDir);
 
-  fs.copyFileSync(briefPath, path.join(dataDir, "brief.json"));
+  const siteUrl = lead.site_url ?? `https://${slug}.vercel.app`;
+  const buildId = generateBuildId(slug);
+  const siteMetadata = buildSiteMetadata(brief, siteUrl, buildId, slug);
+  fs.writeFileSync(
+    path.join(dataDir, "site-metadata.json"),
+    JSON.stringify(siteMetadata, null, 2) + "\n"
+  );
+
+  fs.writeFileSync(path.join(dataDir, "brief.json"), JSON.stringify(brief, null, 2) + "\n");
+  fs.writeFileSync(briefPath, JSON.stringify(brief, null, 2) + "\n");
 
   if (fs.existsSync(imagesSrc)) {
-    for (const f of fs.readdirSync(imagesSrc)) {
-      if (/\.(webp|jpg|jpeg|png)$/i.test(f)) {
-        fs.copyFileSync(path.join(imagesSrc, f), path.join(publicImages, f));
-      }
-    }
+    copyDir(imagesSrc, publicImages);
   }
 
-  const colors = await extractPaletteFromDir(imagesSrc);
-  const trade = detectTrade(brief);
-  const meta = tradeMeta(trade);
   const designSystem = {
     slug,
     business_name: brief.business_name,
-    direction: meta.direction,
-    trade,
-    fonts: { display: meta.displayFont, body: meta.bodyFont },
-    separator: meta.separator,
-    colors,
+    direction: designSelection.direction,
+    trade: "custom",
+    fontPairKey: designSelection.fontPairKey,
+    layoutFamily: designSelection.layoutFamily,
+    statsStyle: designSelection.statsStyle,
+    reviewsStyle: designSelection.reviewsStyle,
+    galleryStyle: designSelection.galleryStyle,
+    ctaStyle: designSelection.ctaStyle,
+    heroHeadline: designSelection.heroHeadline,
+    heroHeadlineKey: designSelection.heroHeadlineKey,
+    fonts: designSelection.fonts,
+    separator: designSelection.separator,
+    colors: designSelection.colors,
   };
 
   fs.writeFileSync(
@@ -201,8 +476,18 @@ async function main(): Promise<void> {
     "{{BUSINESS_NAME}}": brief.business_name,
   });
 
-  writeBuildNotes(siteDir, slug, brief, designSystem);
-  appendMemory(meta.direction, colors, slug);
+  writeBuildNotes(
+    siteDir,
+    slug,
+    brief,
+    designSystem,
+    siteUrl,
+    `briefs/${slug}/creative-brief.md`,
+    siteMetadata,
+    formatArtifactNotes(artifactStatus),
+    skill.path.replace(ROOT + path.sep, "")
+  );
+  appendMemory(designSelection.direction, designSelection.colors, slug);
 
   console.log(`Installing dependencies in sites/${slug}...`);
   execSync("npm install", { cwd: siteDir, stdio: "inherit" });
@@ -212,11 +497,15 @@ async function main(): Promise<void> {
 
   updateLead(lead.id, { state: "BUILT" });
 
+  syncLibraryFromSite(slug, siteDir, lead, null);
+
   const config = parseYaml(fs.readFileSync(path.join(ROOT, "config.yaml"), "utf8")) as {
     daily_build_cap: number;
   };
 
   console.log(`\n✓ Built sites/${slug}`);
+  console.log(`✓ Design: ${designSelection.fonts.display} + ${designSelection.fonts.body}, ${paletteKey}`);
+  console.log(`✓ Location: ${brief.based_location} (${location.status})`);
   console.log(`✓ State → BUILT (lead id=${lead.id})`);
   console.log(`\nLocal dev URL: http://localhost:3000`);
   console.log(`Run: cd sites/${slug} && npm run dev`);
