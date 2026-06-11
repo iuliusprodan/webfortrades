@@ -10,10 +10,59 @@ pricing:
   target_min: 300
   target_max: 800
 
+# Email: Namecheap Private Email (contact@webfortradesuk.co.uk)
+# SMTP mail.privateemail.com:465 secure=true | IMAP mail.privateemail.com:993 secure=true
+# Username is the full email address. Credentials live in .env (see .env.example).
 outreach:
   from_name: "Julius"
   agency_name: "WebForTrades"
   from_email: "contact@webfortradesuk.co.uk"
+  channels: ["whatsapp", "email"]
+  primary_channel: "whatsapp"
+  whatsapp_mode: "approval_first"
+  whatsapp_check_enabled: true
+  sending_enabled: false   # set true only when Julius explicitly enables live sends
+  test_recipient_only: true   # redirect all outbound test sends to MY_OWN_TEST_NUMBER
   daily_send_cap: 15
+  whatsapp_daily_cap: 10
+  min_minutes_between_whatsapp: 3
   sequence_touches: 5
   tone: "friendly, concise, no hard sell"
+  # per_send: ask before each lead | batch: one approval at preflight then auto-send
+  approval_mode: per_send
+
+qualification:
+  require_contact_method: true
+  no_email_requires_whatsapp: true
+  disqualify_no_email_no_whatsapp: true
+  whatsapp_errors_manual_review: true
+
+site_design:
+  skill_enforced: false
+  require_source_evidence: true
+  require_site_strategy: true
+  require_section_plan: true
+  require_pitch_insight: true
+  clone_review_enabled: true
+  text_only_wordmarks: true
+  ban_owner_name_section_titles: true
+  require_section_variation_matrix: true
+  od_port_use_next_build_only: true
+  od_port_require_section_ids: true   # fail port validation if <3 data-section-id in built HTML
+  scroll_video_enabled: false   # scroll.mp4 / poster / contact-sheet generation off by default
+
+batch:
+  open_design_default: false
+  port_concurrency_default: 4
+  port_concurrency_max: 8
+  port_timeout_minutes_default: 60
+  port_timeout_minutes_max: 120
+  port_retry_max: 1
+  port_token_budget_default: 6000000
+  port_token_per_slug_default: 450000
+  port_poll_interval_ms: 5000
+  port_bail_grace_ms: 10000
+  port_retry_backoff_ms: 30000
+  deploy_concurrency_default: 3
+  port_duration_warn_minutes_default: 15
+  od_concurrency_default: 5
