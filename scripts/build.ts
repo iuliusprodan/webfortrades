@@ -31,6 +31,7 @@ import {
 import { selectGalleryPhotos } from "./image_gallery.js";
 import { buildCreativeBrief, saveCreativeBrief } from "./creative_brief.js";
 import { deriveBusinessServices } from "./business_services.js";
+import { evaluateSectionIntegrityHtml } from "./checks/section_integrity.js";
 import { hasOpenDesignPort, loadSiteDesignConfig, OD_PORT_MARKER } from "./site_config.js";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
@@ -494,6 +495,21 @@ async function main(): Promise<void> {
 
   console.log("Building static site...");
   execSync("npm run build", { cwd: siteDir, stdio: "inherit" });
+
+  const indexHtml = path.join(siteDir, "out", "index.html");
+  if (fs.existsSync(indexHtml)) {
+    const integrityIssues = evaluateSectionIntegrityHtml(fs.readFileSync(indexHtml, "utf8")).filter(
+      (i) => i.severity === "error"
+    );
+    if (integrityIssues.length) {
+      console.error("Section integrity check failed on built HTML:");
+      for (const issue of integrityIssues) {
+        console.error(`  [error] ${issue.message}`);
+      }
+      throw new Error("Section integrity check failed. Fix before review or deploy.");
+    }
+    console.log("Section integrity check passed (built HTML).");
+  }
 
   updateLead(lead.id, { state: "BUILT" });
 
