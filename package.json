@@ -14,6 +14,12 @@
     "review": "tsx scripts/review.ts",
     "review:batch": "tsx scripts/review_batch.ts",
     "batch:sites": "tsx scripts/batch_sites.ts",
+    "batch:bail-port": "tsx scripts/batch_bail_port.ts",
+    "batch:tail-ports": "tsx scripts/batch_tail_ports.ts",
+    "test:batch-config": "tsx scripts/checks/batch_config.test.ts",
+    "test:batch-port-policy": "tsx scripts/checks/batch_port_policy.test.ts",
+    "test:batch-port-control": "tsx scripts/checks/batch_port_control.test.ts",
+    "test:batch-port-pool": "tsx scripts/checks/batch_port_pool.test.ts",
     "test:deploy-alias": "tsx scripts/deploy_alias.test.ts",
     "test:deploy-style": "tsx scripts/style_verify.test.ts",
     "deploy": "tsx scripts/deploy.ts",
@@ -60,6 +66,8 @@
     "test:pitch-gate-validity": "tsx scripts/checks/pitch_gate_validity.test.ts",
     "test:od-port-guard": "tsx scripts/checks/od_port_guard.test.ts",
     "test:places-sanitize": "tsx scripts/sanitize_places_photo_urls.ts --check",
+    "og:generate": "tsx scripts/og_generate.ts",
+    "og:batch": "tsx scripts/og_generate.ts",
     "test:qualification": "tsx scripts/contactability.test.ts && tsx scripts/test_qualification.ts --live --slug bristol-plumbing-co"
   },
   "dependencies": {

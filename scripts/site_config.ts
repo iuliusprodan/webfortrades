@@ -17,6 +17,8 @@ export interface SiteDesignConfig {
   ban_owner_name_section_titles: boolean;
   require_section_variation_matrix: boolean;
   od_port_use_next_build_only: boolean;
+  od_port_require_section_ids: boolean;
+  scroll_video_enabled: boolean;
 }
 
 const DEFAULT_SITE_DESIGN: SiteDesignConfig = {
@@ -30,6 +32,8 @@ const DEFAULT_SITE_DESIGN: SiteDesignConfig = {
   ban_owner_name_section_titles: false,
   require_section_variation_matrix: false,
   od_port_use_next_build_only: false,
+  od_port_require_section_ids: true,
+  scroll_video_enabled: false,
 };
 
 export function loadSiteDesignConfig(): SiteDesignConfig {
@@ -49,4 +53,8 @@ export const OD_PORT_MARKER = ".od-port";
 
 export function hasOpenDesignPort(siteDir: string): boolean {
   return fs.existsSync(path.join(siteDir, OD_PORT_MARKER));
+}
+
+export function isScrollVideoEnabled(): boolean {
+  return loadSiteDesignConfig().scroll_video_enabled;
 }

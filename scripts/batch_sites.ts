@@ -7,6 +7,9 @@ import {
   type Lead,
 } from "./db.js";
 import { runPool, runCommand, withFileLock } from "./concurrency.js";
+import { isScrollVideoEnabled, hasOpenDesignPort } from "./site_config.js";
+import { loadBatchConfig, clampPortConcurrency, clampPortTimeoutMinutes } from "./batch_config.js";
+import { runPortPool } from "./batch_port_pool.js";
 import { evaluatePitchReadiness } from "./pitch_gate.js";
 import { loadDeployManifest } from "./vercel_alias.js";
 import {
@@ -169,6 +172,10 @@ type JobStatus =
   | "PENDING"
   | "GATHERING"
   | "SKIPPED_CONTACTABILITY"
+  | "PORTING"
+  | "PORTED"
+  | "FAILED_PORT"
+  | "BAILED_PORT"
   | "BUILDING"
   | "BUILT"
   | "PREVIEWING"
@@ -198,10 +205,11 @@ interface Job {
     og_image: string;
     screenshots: string;
     video: string;
+    port_log: string;
     log: string;
   };
   status: JobStatus;
-  stages: Record<string, { ok: boolean; code: number | null; ms: number }>;
+  stages: Record<string, { ok: boolean; code: number | null; ms: number; attempts?: number }>;
   verified_url: string | null;
   alias_status: string | null;
   ready_to_pitch: boolean;
@@ -220,6 +228,13 @@ interface BatchOptions {
   previewVideo: boolean;
   dryRunLeads: boolean;
   allowManualReview: boolean;
+  openDesign: boolean;
+  portConcurrency: number;
+  portTimeoutMinutes: number;
+  portRetry: number;
+  portTokenBudget: number;
+  portTokenPerSlug: number;
+  failFastPort: boolean;
 }
 
 function parseBool(value: string | undefined, fallback: boolean): boolean {
@@ -228,16 +243,24 @@ function parseBool(value: string | undefined, fallback: boolean): boolean {
 }
 
 function parseArgs(): BatchOptions {
+  const batchCfg = loadBatchConfig();
   const args = process.argv.slice(2);
   let location = "";
   let niche = "";
   let count = 8;
   let concurrency = 3;
-  let deployConcurrency = 1;
+  let deployConcurrency = batchCfg.deploy_concurrency_default;
   let deploy = true;
   let previewVideo = true;
   let dryRunLeads = false;
   let allowManualReview = false;
+  let openDesign = batchCfg.open_design_default;
+  let portConcurrency = batchCfg.port_concurrency_default;
+  let portTimeoutMinutes = batchCfg.port_timeout_minutes_default;
+  let portRetry = batchCfg.port_retry_max;
+  let portTokenBudget = batchCfg.port_token_budget_default;
+  let portTokenPerSlug = batchCfg.port_token_per_slug_default;
+  let failFastPort = false;
   let sawNoOutreach = false;
 
   for (let i = 0; i < args.length; i++) {
@@ -246,11 +269,21 @@ function parseArgs(): BatchOptions {
     else if (a === "--niche" && args[i + 1]) niche = args[++i];
     else if (a === "--count" && args[i + 1]) count = Math.max(1, parseInt(args[++i], 10) || 8);
     else if (a === "--concurrency" && args[i + 1]) concurrency = Math.max(1, parseInt(args[++i], 10) || 3);
-    else if (a === "--deploy-concurrency" && args[i + 1]) deployConcurrency = Math.max(1, parseInt(args[++i], 10) || 2);
+    else if (a === "--deploy-concurrency" && args[i + 1])
+      deployConcurrency = Math.max(1, parseInt(args[++i], 10) || batchCfg.deploy_concurrency_default);
     else if (a === "--deploy") deploy = parseBool(args[++i], true);
     else if (a === "--preview-video") previewVideo = parseBool(args[++i], true);
     else if (a === "--dry-run-leads") dryRunLeads = true;
     else if (a === "--allow-manual-review") allowManualReview = true;
+    else if (a === "--open-design") openDesign = parseBool(args[++i], true);
+    else if (a === "--port-concurrency" && args[i + 1])
+      portConcurrency = clampPortConcurrency(parseInt(args[++i], 10) || batchCfg.port_concurrency_default);
+    else if (a === "--port-timeout-minutes" && args[i + 1])
+      portTimeoutMinutes = clampPortTimeoutMinutes(parseInt(args[++i], 10) || batchCfg.port_timeout_minutes_default);
+    else if (a === "--port-retry" && args[i + 1]) portRetry = Math.max(0, Math.min(1, parseInt(args[++i], 10) || 1));
+    else if (a === "--port-token-budget" && args[i + 1]) portTokenBudget = parseInt(args[++i], 10) || 0;
+    else if (a === "--port-token-per-slug" && args[i + 1]) portTokenPerSlug = parseInt(args[++i], 10) || 0;
+    else if (a === "--fail-fast-port") failFastPort = true;
     else if (a === "--no-outreach") sawNoOutreach = true;
     else if (a === "--send" || a === "--outreach") {
       console.error("batch:sites never sends outreach. Remove --send/--outreach.");
@@ -269,6 +302,13 @@ function parseArgs(): BatchOptions {
     previewVideo,
     dryRunLeads,
     allowManualReview,
+    openDesign,
+    portConcurrency,
+    portTimeoutMinutes,
+    portRetry,
+    portTokenBudget,
+    portTokenPerSlug,
+    failFastPort,
   };
 }
 
@@ -296,6 +336,11 @@ async function timed<T>(
 
 async function runSiteWorker(job: Job, slot: number, opts: BatchOptions): Promise<void> {
   const log = job.paths.log;
+
+  if (job.status === "FAILED_PORT" || job.status === "BAILED_PORT") {
+    return;
+  }
+
   fs.writeFileSync(log, `# ${job.slug} batch worker log\n`);
 
   // 1. Gather (skip if already gathered with a brief, to avoid redundant API calls).
@@ -412,10 +457,34 @@ async function runSiteWorker(job: Job, slot: number, opts: BatchOptions): Promis
     buildArgs.push("--allow-manual-review");
   }
 
-  // 3. Build.
+  // 3. Build (template path) or post-port next build (Open Design path).
   job.status = "BUILDING";
   saveJob(job);
-  if (!(await timed(job, "build", () => npm(buildArgs, slot, log)))) {
+
+  if (opts.openDesign) {
+    const siteDir = path.join(ROOT, "sites", job.slug);
+    if (!hasOpenDesignPort(siteDir)) {
+      job.status = "FAILED";
+      job.errors.push("Open Design enabled but port missing for this slug");
+      saveJob(job);
+      return;
+    }
+    const outIndex = path.join(siteDir, "out", "index.html");
+    if (!fs.existsSync(outIndex)) {
+      if (
+        !(await timed(job, "build", () =>
+          runCommand("npm", ["run", "build"], { cwd: siteDir, logFile: log })
+        ))
+      ) {
+        job.status = "FAILED";
+        job.errors.push("next build failed after port");
+        saveJob(job);
+        return;
+      }
+    } else {
+      job.stages.build = { ok: true, code: 0, ms: 0 };
+    }
+  } else if (!(await timed(job, "build", () => npm(buildArgs, slot, log)))) {
     job.status = "FAILED";
     job.errors.push("build failed");
     saveJob(job);
@@ -516,6 +585,7 @@ function buildJob(lead: Lead, direction: CreativeConstraint & { label: string })
       og_image: path.join("sites", slug, "public", "og-image.png"),
       screenshots: path.join("screenshots", slug),
       video: path.join("briefs", slug, "outreach", "site-scroll.mp4"),
+      port_log: path.join(BATCH_DIR, "jobs", `${slug}.port.log`),
       log: path.join(BATCH_DIR, "jobs", `${slug}.log`),
     },
     status: "PENDING",
@@ -591,7 +661,16 @@ function writeReports(
   opts: BatchOptions,
   jobs: Job[],
   uniqueness: { score: number; issues: { severity: string; message: string }[] },
-  batchReviewResult: string
+  batchReviewResult: string,
+  portSummary?: {
+    wall_clock_ms: number;
+    ok: number;
+    failed: number;
+    bailed: number;
+    skipped: number;
+    total_tokens: number;
+    token_budget_exceeded: boolean;
+  }
 ): { jsonPath: string; mdPath: string } {
   const deployed = jobs.filter((j) => j.status === "DEPLOYED");
   const reportJson = {
@@ -602,6 +681,9 @@ function writeReports(
     requested_count: opts.count,
     site_concurrency: opts.concurrency,
     deploy_concurrency: opts.deployConcurrency,
+    open_design: opts.openDesign,
+    port_concurrency: opts.openDesign ? opts.portConcurrency : null,
+    port_timeout_minutes: opts.openDesign ? opts.portTimeoutMinutes : null,
     deploy_enabled: opts.deploy,
     preview_video: opts.previewVideo,
     allow_manual_review: opts.allowManualReview,
@@ -610,11 +692,14 @@ function writeReports(
     test_recipient_only: true,
     batch_review: { result: batchReviewResult, creative_uniqueness_score: uniqueness.score },
     creative_uniqueness_issues: uniqueness.issues,
+    port_summary: portSummary ?? null,
     counts: {
       selected: jobs.length,
       deployed: deployed.length,
       skipped_contactability: jobs.filter((j) => j.status === "SKIPPED_CONTACTABILITY").length,
-      failed: jobs.filter((j) => j.status === "FAILED").length,
+      failed: jobs.filter((j) => j.status === "FAILED" || j.status === "FAILED_PORT").length,
+      bailed_port: jobs.filter((j) => j.status === "BAILED_PORT").length,
+      ported: jobs.filter((j) => j.status === "PORTED" || j.stages.port?.ok).length,
       ready_to_pitch: jobs.filter((j) => j.ready_to_pitch).length,
     },
     // review:batch reads top-level `slugs` first: verify only deployed sites
@@ -637,6 +722,7 @@ function writeReports(
       ready_blockers: j.ready_blockers,
       warnings: j.warnings,
       errors: j.errors,
+      stages: j.stages,
     })),
   };
 
@@ -648,8 +734,13 @@ function writeReports(
   lines.push("");
   lines.push(`Location: ${opts.location} | Niche: ${opts.niche} | Requested: ${opts.count}`);
   lines.push(
-    `Concurrency: site=${opts.concurrency}, deploy=${opts.deployConcurrency} | Deploy: ${opts.deploy ? "on" : "off"} | Preview video: ${opts.previewVideo ? "on" : "off"}`
+    `Concurrency: site=${opts.concurrency}, deploy=${opts.deployConcurrency}${opts.openDesign ? `, port=${opts.portConcurrency}` : ""} | Deploy: ${opts.deploy ? "on" : "off"} | Preview video: ${opts.previewVideo ? "on" : "off"} | Open Design: ${opts.openDesign ? "on" : "off"}`
   );
+  if (portSummary) {
+    lines.push(
+      `Port phase: ${Math.round(portSummary.wall_clock_ms / 60000)} min wall | ok=${portSummary.ok} failed=${portSummary.failed} bailed=${portSummary.bailed} skipped=${portSummary.skipped}`
+    );
+  }
   lines.push("");
   lines.push("**No outreach sent.** sending_enabled=false, test_recipient_only=true.");
   lines.push("");
@@ -680,8 +771,17 @@ function writeReports(
   lines.push(
     `npm run batch:sites -- --location ${opts.location} --niche ${opts.niche} --count ${opts.count} --concurrency ${opts.concurrency} --no-outreach`
   );
+  if (opts.openDesign) {
+    lines.push(`npm run batch:tail-ports -- --batch ${batchId}`);
+  }
   lines.push(`npm run review:batch -- --batch ${path.relative(ROOT, jsonPath)}`);
   lines.push("```");
+  if (opts.openDesign) {
+    lines.push("");
+    lines.push("## Port pause / unpause");
+    lines.push(`Pause new port spawns: \`touch data/batches/${batchId}/pause\``);
+    lines.push(`Unpause: \`rm data/batches/${batchId}/pause\` (in-flight ports continue until done or timeout)`);
+  }
   lines.push("");
   lines.push("Not run: `npm run outreach -- --send`, `npm run send:whatsapp-pitch -- --live`");
 
@@ -693,6 +793,12 @@ function writeReports(
 
 async function main(): Promise<void> {
   const opts = parseArgs();
+  if (opts.previewVideo && !isScrollVideoEnabled()) {
+    console.log(
+      "Preview video disabled by site_design.scroll_video_enabled=false in config.yaml."
+    );
+    opts.previewVideo = false;
+  }
   if (!opts.location || !opts.niche) {
     console.error(
       'Usage: npm run batch:sites -- --location "Bristol" --niche "plumbers" --count 8 --concurrency 3 --no-outreach [--deploy true] [--preview-video true] [--dry-run-leads] [--allow-manual-review]'
@@ -783,12 +889,87 @@ async function main(): Promise<void> {
 
   writeState("selected");
 
+  let portSummary: Awaited<ReturnType<typeof runPortPool>> | undefined;
+
   if (opts.dryRunLeads) {
     console.log("\n--dry-run-leads: stopping after selection. No build, deploy, or outreach.");
     writeState("dry-run-complete");
     const { mdPath } = writeReports(batchId, opts, jobs, { score: 100, issues: [] }, "SKIPPED");
     console.log(`Report: ${path.relative(ROOT, mdPath)}`);
     return;
+  }
+
+  if (opts.openDesign) {
+    const batchCfg = loadBatchConfig();
+    const portConfig = {
+      ...batchCfg,
+      port_timeout_minutes_default: opts.portTimeoutMinutes,
+      port_retry_max: opts.portRetry,
+      port_token_budget_default: opts.portTokenBudget,
+      port_token_per_slug_default: opts.portTokenPerSlug,
+    };
+    console.log(
+      `\nRunning Open Design port pool (concurrency ${opts.portConcurrency}, timeout ${opts.portTimeoutMinutes} min)...`
+    );
+    writeState("port");
+    portSummary = await runPortPool(
+      batchId,
+      jobs.map((j) => j.slug),
+      {
+        concurrency: opts.portConcurrency,
+        config: portConfig,
+        dryRun: process.env.WFT_PORT_DRY_RUN === "1",
+      }
+    );
+    fs.writeFileSync(
+      path.join(BATCH_DIR, "port-summary.json"),
+      JSON.stringify(portSummary, null, 2) + "\n"
+    );
+
+    for (const job of jobs) {
+      const result = portSummary.results[job.slug];
+      if (result) {
+        job.stages.port = {
+          ok: result.ok,
+          code: result.ok ? 0 : 1,
+          ms: result.ms,
+          attempts: result.attempts,
+        };
+        if (result.status === "PORTED" || result.status === "SKIPPED") {
+          job.status = "PORTED";
+        } else if (result.status === "BAILED_PORT") {
+          job.status = "BAILED_PORT";
+          job.errors.push(result.error ?? "port bailed");
+        } else {
+          job.status = "FAILED_PORT";
+          job.errors.push(result.error ?? "port failed");
+        }
+      } else {
+        job.warnings.push("No OD artifact - port not queued for this slug");
+      }
+      saveJob(job);
+    }
+
+    console.log(
+      `Port pool done: ok=${portSummary.ok} failed=${portSummary.failed} bailed=${portSummary.bailed} skipped=${portSummary.skipped} (${Math.round(portSummary.wall_clock_ms / 1000)}s wall)`
+    );
+    if (portSummary.token_budget_exceeded) {
+      console.warn("Port token budget exceeded - new spawns were blocked; in-flight ports were allowed to finish.");
+    }
+    if (opts.failFastPort && portSummary.failed > 0) {
+      console.error("fail-fast-port: stopping batch after port failures.");
+      writeState("port-failed");
+      const { mdPath } = writeReports(
+        batchId,
+        opts,
+        jobs,
+        { score: 100, issues: [] },
+        "SKIPPED",
+        portSummary
+      );
+      console.log(`Report: ${path.relative(ROOT, mdPath)}`);
+      process.exit(1);
+    }
   }
 
   // PARALLEL: per-site gather -> build -> preview -> review, up to concurrency.
@@ -816,7 +997,7 @@ async function main(): Promise<void> {
 
   // CENTRAL: batch review (URL verification etc.) after all sites finish.
   let batchReviewResult = "SKIPPED";
-  const { jsonPath } = writeReports(batchId, opts, jobs, uniqueness, batchReviewResult);
+  const { jsonPath } = writeReports(batchId, opts, jobs, uniqueness, batchReviewResult, portSummary);
 
   const anyDeployed = jobs.some((j) => j.status === "DEPLOYED");
   if (opts.deploy && anyDeployed) {
@@ -837,7 +1018,8 @@ async function main(): Promise<void> {
     opts,
     jobs,
     uniqueness,
-    batchReviewResult
+    batchReviewResult,
+    portSummary
   );
   writeState("complete");
 
