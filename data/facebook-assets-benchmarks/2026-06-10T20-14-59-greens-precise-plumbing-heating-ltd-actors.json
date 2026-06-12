@@ -1,0 +1,182 @@
+{
+  "slug": "greens-precise-plumbing-heating-ltd",
+  "business_name": "Greens Precise Plumbing & Heating ltd",
+  "facebook_url": "https://www.facebook.com/GPPlumbingandHeatingLtd",
+  "facebook_verified": true,
+  "ran_at": "2026-06-10T20:14:59.625Z",
+  "read_only": false,
+  "public_html": {
+    "attempted": true,
+    "max_width": null,
+    "max_height": null,
+    "image_count": 0
+  },
+  "meta_graph": {
+    "configured": false,
+    "status": "Meta Graph API: not configured (public HTML fallback only)",
+    "max_width": null,
+    "photos_downloaded": 0,
+    "permission_required": false
+  },
+  "apify": {
+    "configured": true,
+    "status": "Apify failed: Input buffer has corrupt header: glib: XML parse error: Error domain 1 code 76 on line 83 column 78 of data: Opening and ending tag mismatch: html line 1 and body (fallback to public HTML)",
+    "max_width": null,
+    "photos_downloaded": 0,
+    "actor": "crawlerbros/facebook-photos-scraper",
+    "cost_estimate": "~$0.022 USD (20 items @ $1.1/1000)",
+    "requires_login": false,
+    "via_mcp": false
+  },
+  "apify_actors": [
+    {
+      "actor_id": "apify/facebook-posts-scraper",
+      "attempted": true,
+      "success": false,
+      "accepts_page_url": true,
+      "page_id_required": false,
+      "requires_login": false,
+      "uses_apify_storage": true,
+      "images_found": 57,
+      "images_downloaded": 0,
+      "largest_metadata_width": 526,
+      "largest_saved_width": null,
+      "count_gte_600": 0,
+      "count_gte_800": 0,
+      "count_gte_1000": 0,
+      "cost_estimate": "~$0.040 USD (20 items @ $2/1000)",
+      "failure_reason": "APIFY_POSTS_IMAGES_TOO_SMALL",
+      "saved_paths": [],
+      "quality": {
+        "gallery_ready": false,
+        "hero_ready": false,
+        "preferred_gallery": false,
+        "largest_width": 526,
+        "code": "APIFY_POSTS_IMAGES_TOO_SMALL"
+      }
+    },
+    {
+      "actor_id": "apify/facebook-photos-scraper",
+      "attempted": true,
+      "success": false,
+      "accepts_page_url": true,
+      "page_id_required": false,
+      "requires_login": false,
+      "uses_apify_storage": true,
+      "images_found": 20,
+      "images_downloaded": 0,
+      "largest_metadata_width": null,
+      "largest_saved_width": null,
+      "count_gte_600": 0,
+      "count_gte_800": 0,
+      "count_gte_1000": 0,
+      "cost_estimate": "~$0.022 USD (20 items @ $1.1/1000)",
+      "failure_reason": "FBCDN_DOWNLOAD_BLOCKED",
+      "saved_paths": [],
+      "quality": {
+        "gallery_ready": false,
+        "hero_ready": false,
+        "preferred_gallery": false,
+        "largest_width": null,
+        "code": "LOW_RES"
+      }
+    },
+    {
+      "actor_id": "igview-owner/facebook-page-photos-downloader",
+      "attempted": true,
+      "success": false,
+      "accepts_page_url": true,
+      "page_id_required": false,
+      "requires_login": false,
+      "uses_apify_storage": true,
+      "images_found": 8,
+      "images_downloaded": 0,
+      "largest_metadata_width": null,
+      "largest_saved_width": null,
+      "count_gte_600": 0,
+      "count_gte_800": 0,
+      "count_gte_1000": 0,
+      "cost_estimate": "~$0.010 USD (9 items @ $1.1/1000)",
+      "failure_reason": "FBCDN_DOWNLOAD_BLOCKED",
+      "saved_paths": [],
+      "quality": {
+        "gallery_ready": false,
+        "hero_ready": false,
+        "preferred_gallery": false,
+        "largest_width": null,
+        "code": "LOW_RES"
+      }
+    },
+    {
+      "actor_id": "simpleapi/facebook-photos-scraper",
+      "attempted": true,
+      "success": false,
+      "accepts_page_url": true,
+      "page_id_required": false,
+      "requires_login": false,
+      "uses_apify_storage": false,
+      "images_found": 0,
+      "images_downloaded": 0,
+      "largest_metadata_width": null,
+      "largest_saved_width": null,
+      "count_gte_600": 0,
+      "count_gte_800": 0,
+      "count_gte_1000": 0,
+      "cost_estimate": "~$0.022 USD (20 items @ $1.1/1000)",
+      "failure_reason": "Apify run start failed HTTP 403",
+      "saved_paths": [],
+      "quality": {
+        "gallery_ready": false,
+        "hero_ready": false,
+        "preferred_gallery": false,
+        "largest_width": null,
+        "code": "LOW_RES"
+      }
+    },
+    {
+      "actor_id": "crawlerbros/facebook-photos-scraper",
+      "attempted": true,
+      "success": false,
+      "accepts_page_url": true,
+      "page_id_required": false,
+      "requires_login": false,
+      "uses_apify_storage": false,
+      "images_found": 0,
+      "images_downloaded": 0,
+      "largest_metadata_width": null,
+      "largest_saved_width": null,
+      "count_gte_600": 0,
+      "count_gte_800": 0,
+      "count_gte_1000": 0,
+      "cost_estimate": "~$0.022 USD (20 items @ $1.1/1000)",
+      "failure_reason": "Input buffer has corrupt header: glib: XML parse error: Error domain 1 code 76 on line 83 column 78 of data: Opening and ending tag mismatch: html line 1 and body",
+      "saved_paths": [],
+      "quality": {
+        "gallery_ready": false,
+        "hero_ready": false,
+        "preferred_gallery": false,
+        "largest_width": null,
+        "code": "LOW_RES"
+      }
+    }
+  ],
+  "google_places": {
+    "max_width": 1600,
+    "image_count": 16
+  },
+  "website": {
+    "max_width": null,
+    "image_count": 0
+  },
+  "manual_assets": {
+    "recommended": false,
+    "note": "Not required if recommendation uses Apify or Google Places."
+  },
+  "facebook_before_max_width": 320,
+  "facebook_after_max_width": 320,
+  "beats_320px_limit": false,
+  "gallery_ready": false,
+  "hero_ready": false,
+  "recommendation": "USE_GOOGLE_PLACES",
+  "failures": []
+}

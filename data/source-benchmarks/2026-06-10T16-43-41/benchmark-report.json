@@ -1,0 +1,41 @@
+{
+  "generated_at": "2026-06-10T16:43:41.453Z",
+  "read_only": true,
+  "results": [
+    {
+      "slug": "bristol-plumbing-co",
+      "business_name": "Bristol Plumbing Co.",
+      "ran_at": "2026-06-10T16:43:41.453Z",
+      "read_only": true,
+      "extraction": {
+        "phone": "07972 176630",
+        "email": null,
+        "website_url": null,
+        "website_classification": null,
+        "facebook_url": null,
+        "facebook_verified": false,
+        "logo_found": false,
+        "logo_source": null,
+        "logo_score": null,
+        "cover_image": false,
+        "photo_count_found": 10,
+        "photo_count_selected": 10,
+        "review_count": 26,
+        "google_rating": 5,
+        "services_count": 6,
+        "location": "114 Jacob St, Bristol BS2 0AF, UK",
+        "source_confidence": "medium",
+        "layout_recommendation": "Enough photos for photo-led layout"
+      },
+      "lead_validity": {
+        "status": "NO_WEBSITE_READY",
+        "ready_for_build": true,
+        "ready_for_design": false,
+        "pitch_type": "no_website",
+        "warnings": []
+      },
+      "failures": [],
+      "duration_ms": 2
+    }
+  ]
+}

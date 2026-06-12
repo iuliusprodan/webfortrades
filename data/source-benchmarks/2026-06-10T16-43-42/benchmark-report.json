@@ -1,0 +1,46 @@
+{
+  "generated_at": "2026-06-10T16:44:00.879Z",
+  "read_only": true,
+  "results": [
+    {
+      "slug": "corvell-ltd",
+      "business_name": "Corvell ltd",
+      "ran_at": "2026-06-10T16:44:00.879Z",
+      "read_only": true,
+      "extraction": {
+        "phone": "07804 693411",
+        "email": "info@corvell.co.uk",
+        "website_url": "https://corvell.co.uk/",
+        "website_classification": "HAS_REAL_SITE",
+        "facebook_url": "https://www.facebook.com/p/Corvell-Bathrooms-61560222691293",
+        "facebook_verified": true,
+        "logo_found": true,
+        "logo_source": "favicon",
+        "logo_score": 68,
+        "cover_image": false,
+        "photo_count_found": 16,
+        "photo_count_selected": 14,
+        "review_count": 13,
+        "google_rating": 5,
+        "services_count": 4,
+        "location": "34 Pool Rd, Kingswood, Bristol BS15 1XN, UK",
+        "source_confidence": "high",
+        "layout_recommendation": "Enough photos for photo-led layout"
+      },
+      "lead_validity": {
+        "status": "HAS_REAL_SITE_SKIP",
+        "ready_for_build": false,
+        "ready_for_design": false,
+        "pitch_type": "skip",
+        "warnings": [
+          "Facebook photo URLs found but downloads failed",
+          "Real website exists - do not use no-website pitch"
+        ]
+      },
+      "failures": [
+        "Facebook photo URLs found but downloads failed"
+      ],
+      "duration_ms": 18609
+    }
+  ]
+}

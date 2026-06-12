@@ -1,0 +1,45 @@
+{
+  "generated_at": "2026-06-10T16:43:40.625Z",
+  "read_only": true,
+  "results": [
+    {
+      "slug": "greens-precise-plumbing-heating-ltd",
+      "business_name": "Greens Precise Plumbing & Heating ltd",
+      "ran_at": "2026-06-10T16:43:40.625Z",
+      "read_only": true,
+      "extraction": {
+        "phone": "07309 553552",
+        "email": "info@gpplumbingltd.com",
+        "website_url": "https://gpplumbingltd.com/",
+        "website_classification": "NEEDS_MANUAL_REVIEW",
+        "facebook_url": "https://www.facebook.com/GPPlumbingandHeatingLtd",
+        "facebook_verified": true,
+        "logo_found": false,
+        "logo_source": null,
+        "logo_score": null,
+        "cover_image": false,
+        "photo_count_found": 16,
+        "photo_count_selected": 16,
+        "review_count": 45,
+        "google_rating": 5,
+        "services_count": 0,
+        "location": "K&R Construction Ltd, Cemex Uk Materials, Kings Dock, Port Tennant, Swansea SA1 8QT, UK",
+        "source_confidence": "high",
+        "layout_recommendation": "Enough photos for photo-led layout"
+      },
+      "lead_validity": {
+        "status": "BROKEN_SITE_READY",
+        "ready_for_build": false,
+        "ready_for_design": false,
+        "pitch_type": "no_website",
+        "warnings": [
+          "Website fetch failed for logo discovery: 202"
+        ]
+      },
+      "failures": [
+        "Website fetch failed for logo discovery: 202"
+      ],
+      "duration_ms": 54007
+    }
+  ]
+}

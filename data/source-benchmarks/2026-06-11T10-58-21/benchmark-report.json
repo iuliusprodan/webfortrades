@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-06-11T10:58:26.735Z",
+  "read_only": true,
+  "results": [
+    {
+      "slug": "west-park-electrics",
+      "business_name": "West Park Electrics",
+      "ran_at": "2026-06-11T10:58:26.734Z",
+      "read_only": true,
+      "extraction": {
+        "phone": "07889 228995",
+        "email": null,
+        "website_url": "http://www.wpe.co.uk/",
+        "website_classification": "BROKEN_OR_BAD_SITE",
+        "facebook_url": null,
+        "facebook_verified": false,
+        "logo_found": false,
+        "logo_source": null,
+        "logo_score": null,
+        "cover_image": false,
+        "photo_count_found": 6,
+        "photo_count_selected": 6,
+        "review_count": 30,
+        "google_rating": 5,
+        "services_count": 0,
+        "location": "14 Latchmere Rd, Leeds LS16 5DF, UK",
+        "source_confidence": "low",
+        "layout_recommendation": "Enough photos for photo-led layout",
+        "meta_graph_api_configured": false,
+        "meta_graph_api_status": "Meta Graph API: not configured (public HTML fallback only)",
+        "facebook_largest_width": null,
+        "facebook_media_quality": null,
+        "manual_asset_review_recommended": false,
+        "apify_configured": true,
+        "apify_status": "Apify failed: unknown (fallback to public HTML)"
+      },
+      "lead_validity": {
+        "status": "INSUFFICIENT_EVIDENCE",
+        "ready_for_build": false,
+        "ready_for_design": false,
+        "pitch_type": "manual_review",
+        "warnings": [
+          "Website fetch failed for logo discovery: 200",
+          "Source confidence is low - lean site or manual review recommended"
+        ]
+      },
+      "failures": [
+        "Website fetch failed for logo discovery: 200"
+      ],
+      "duration_ms": 5717
+    }
+  ]
+}

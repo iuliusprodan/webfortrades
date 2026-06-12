@@ -1,0 +1,46 @@
+{
+  "slug": "greens-precise-plumbing-heating-ltd",
+  "business_name": "Greens Precise Plumbing & Heating ltd",
+  "facebook_url": "https://www.facebook.com/GPPlumbingandHeatingLtd",
+  "facebook_verified": true,
+  "ran_at": "2026-06-10T19:57:32.713Z",
+  "read_only": false,
+  "public_html": {
+    "attempted": true,
+    "max_width": null,
+    "max_height": null,
+    "image_count": 0
+  },
+  "meta_graph": {
+    "configured": false,
+    "status": "Meta Graph API: not configured (public HTML fallback only)",
+    "max_width": null,
+    "photos_downloaded": 0,
+    "permission_required": false
+  },
+  "apify": {
+    "configured": true,
+    "status": "Apify failed: apify_images_found_but_download_failed (fallback to public HTML)",
+    "max_width": null,
+    "photos_downloaded": 0,
+    "actor": "apify/facebook-posts-scraper",
+    "cost_estimate": "~$0.040 USD (20 items @ $2/1000)",
+    "requires_login": false,
+    "via_mcp": false
+  },
+  "google_places": {
+    "max_width": 1600,
+    "image_count": 16
+  },
+  "website": {
+    "max_width": null,
+    "image_count": 0
+  },
+  "facebook_before_max_width": 320,
+  "facebook_after_max_width": 320,
+  "beats_320px_limit": false,
+  "gallery_ready": false,
+  "hero_ready": false,
+  "recommendation": "Facebook still low-res. Prefer Google Places photos for gallery. Run Apify enrichment or manual asset export.",
+  "failures": []
+}

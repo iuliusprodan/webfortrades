@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-06-10T20:49:33.103Z",
+  "read_only": true,
+  "results": [
+    {
+      "slug": "jt-plumbing",
+      "business_name": "JT Plumbing",
+      "ran_at": "2026-06-10T20:49:33.103Z",
+      "read_only": true,
+      "extraction": {
+        "phone": "07817 850729",
+        "email": "jtplumbingbristol@gmail.com",
+        "website_url": null,
+        "website_classification": "NO_WEBSITE",
+        "facebook_url": "https://www.facebook.com/jtplumbingbristol",
+        "facebook_verified": true,
+        "logo_found": false,
+        "logo_source": null,
+        "logo_score": null,
+        "cover_image": false,
+        "photo_count_found": 4,
+        "photo_count_selected": 4,
+        "review_count": 16,
+        "google_rating": 4.9,
+        "services_count": 5,
+        "location": "64 Malvern Rd, Bristol BS5 8JB, UK",
+        "source_confidence": "high",
+        "layout_recommendation": "Limited photos - compact gallery with review-led hero",
+        "meta_graph_api_configured": false,
+        "meta_graph_api_status": "Meta Graph API: not configured (public HTML fallback only)",
+        "facebook_largest_width": null,
+        "facebook_media_quality": null,
+        "manual_asset_review_recommended": false,
+        "apify_configured": true,
+        "apify_status": "Apify failed: FBCDN_DOWNLOAD_BLOCKED (fallback to public HTML)"
+      },
+      "lead_validity": {
+        "status": "NO_WEBSITE_READY",
+        "ready_for_build": false,
+        "ready_for_design": false,
+        "pitch_type": "no_website",
+        "warnings": [
+          "Apify: FBCDN_DOWNLOAD_BLOCKED",
+          "Facebook photo URLs found but downloads failed"
+        ]
+      },
+      "failures": [
+        "Apify: FBCDN_DOWNLOAD_BLOCKED",
+        "Facebook photo URLs found but downloads failed"
+      ],
+      "duration_ms": 50654
+    }
+  ]
+}

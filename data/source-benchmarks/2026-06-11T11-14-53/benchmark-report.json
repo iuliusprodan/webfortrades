@@ -1,0 +1,50 @@
+{
+  "generated_at": "2026-06-11T11:14:57.502Z",
+  "read_only": true,
+  "results": [
+    {
+      "slug": "bbr-plumbing-heating-bristol-bristol-boiler-repairs",
+      "business_name": "BBR Plumbing & Heating Bristol - Bristol Boiler Repairs",
+      "ran_at": "2026-06-11T11:14:57.502Z",
+      "read_only": true,
+      "extraction": {
+        "phone": "07854 476888",
+        "email": "bristolboilerrepairs247@gmail.com",
+        "website_url": "https://bristolboilerrepairs.co.uk/",
+        "website_classification": "BROKEN_OR_BAD_SITE",
+        "facebook_url": null,
+        "facebook_verified": false,
+        "logo_found": true,
+        "logo_source": "apple_touch_icon",
+        "logo_score": 60,
+        "cover_image": false,
+        "photo_count_found": 2,
+        "photo_count_selected": 2,
+        "review_count": 31,
+        "google_rating": 5,
+        "services_count": 1,
+        "location": "4 Crantock Ave, Headley Ln, Bristol BS13 7QW, UK",
+        "source_confidence": "medium",
+        "layout_recommendation": "Very few good photos - proof-led or typography-led layout required. No placeholder boxes.",
+        "meta_graph_api_configured": false,
+        "meta_graph_api_status": "Meta Graph API: not configured (public HTML fallback only)",
+        "facebook_largest_width": null,
+        "facebook_media_quality": null,
+        "manual_asset_review_recommended": false,
+        "apify_configured": false,
+        "apify_status": "Apify: not configured (set APIFY_TOKEN in .env for high-res Facebook fallback)"
+      },
+      "lead_validity": {
+        "status": "BROKEN_SITE_READY",
+        "ready_for_build": true,
+        "ready_for_design": true,
+        "pitch_type": "no_website",
+        "warnings": [
+          "Very few photos - use proof-led or typography-led layout"
+        ]
+      },
+      "failures": [],
+      "duration_ms": 3809
+    }
+  ]
+}

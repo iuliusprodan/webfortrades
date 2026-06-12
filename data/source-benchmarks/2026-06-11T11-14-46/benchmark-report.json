@@ -1,0 +1,50 @@
+{
+  "generated_at": "2026-06-11T11:14:46.903Z",
+  "read_only": true,
+  "results": [
+    {
+      "slug": "alexander-s-painters-decorators",
+      "business_name": "Alexander’s Painters&Decorators",
+      "ran_at": "2026-06-11T11:14:46.903Z",
+      "read_only": true,
+      "extraction": {
+        "phone": "07944 444082",
+        "email": null,
+        "website_url": null,
+        "website_classification": null,
+        "facebook_url": null,
+        "facebook_verified": false,
+        "logo_found": false,
+        "logo_source": null,
+        "logo_score": null,
+        "cover_image": false,
+        "photo_count_found": 9,
+        "photo_count_selected": 9,
+        "review_count": 34,
+        "google_rating": 5,
+        "services_count": 4,
+        "location": "64 Grange Rd, Bramhall, Stockport SK7 3BD, UK",
+        "source_confidence": "low",
+        "layout_recommendation": "Enough photos for photo-led layout",
+        "meta_graph_api_configured": false,
+        "meta_graph_api_status": "Meta Graph API: not configured (public HTML fallback only)",
+        "facebook_largest_width": null,
+        "facebook_media_quality": null,
+        "manual_asset_review_recommended": false,
+        "apify_configured": false,
+        "apify_status": "Apify: not configured (set APIFY_TOKEN in .env for high-res Facebook fallback)"
+      },
+      "lead_validity": {
+        "status": "INSUFFICIENT_EVIDENCE",
+        "ready_for_build": false,
+        "ready_for_design": false,
+        "pitch_type": "manual_review",
+        "warnings": [
+          "Source confidence is low - lean site or manual review recommended"
+        ]
+      },
+      "failures": [],
+      "duration_ms": 6
+    }
+  ]
+}
