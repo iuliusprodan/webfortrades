@@ -1,6 +1,6 @@
 import fs from "node:fs";
 import path from "node:path";
-import { execSync } from "node:child_process";
+import { execSync, spawnSync } from "node:child_process";
 import { fileURLToPath } from "node:url";
 import { getLeadBySlug, getNextDeployableLead, updateLead } from "./db.js";
 import { syncLibraryFromSite } from "./library_sync.js";
@@ -19,6 +19,7 @@ import {
   saveStyleVerifyManifest,
 } from "./style_verify.js";
 import { evaluateSectionIntegrityHtml } from "./checks/section_integrity.js";
+import { STAGE_TIMEOUT_MS } from "./lib/stage_timeout.js";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.join(__dirname, "..");
@@ -167,7 +168,21 @@ async function runDeploy(
   }
 
   console.log(`Building sites/${slug}...`);
-  execSync("npm run build", { cwd: siteDir, stdio: "inherit" });
+  const buildResult = spawnSync("npm", ["run", "build"], {
+    cwd: siteDir,
+    encoding: "utf8",
+    stdio: ["pipe", "pipe", "pipe"],
+    timeout: STAGE_TIMEOUT_MS.nextBuild,
+  });
+  if (buildResult.error?.message?.includes("ETIMEDOUT") || buildResult.signal === "SIGTERM") {
+    throw new Error("BAILED_TIMEOUT next_build");
+  }
+  if (buildResult.status !== 0) {
+    if (buildResult.stdout) process.stdout.write(buildResult.stdout);
+    if (buildResult.stderr) process.stderr.write(buildResult.stderr);
+    throw new Error("npm run build failed before deploy");
+  }
+  if (buildResult.stdout) process.stdout.write(buildResult.stdout);
 
   const indexHtml = path.join(siteDir, "out", "index.html");
   if (fs.existsSync(indexHtml)) {
@@ -204,16 +219,26 @@ async function runDeploy(
 
   let deployOutput = "";
   try {
-    deployOutput = execSync(deployParts.join(" "), {
+    const deployResult = spawnSync(deployParts[0]!, deployParts.slice(1), {
       cwd: siteDir,
       encoding: "utf8",
       stdio: ["pipe", "pipe", "pipe"],
       env: deployEnv,
+      timeout: STAGE_TIMEOUT_MS.vercelDeploy,
     });
+    deployOutput = [deployResult.stdout, deployResult.stderr].filter(Boolean).join("\n");
+    if (deployResult.error?.message?.includes("ETIMEDOUT") || deployResult.signal === "SIGTERM") {
+      throw new Error("BAILED_TIMEOUT vercel_deploy");
+    }
+    if (deployResult.status !== 0) {
+      if (deployOutput) process.stderr.write(deployOutput);
+      throw new Error(`Vercel deploy failed (exit ${deployResult.status ?? "?"})`);
+    }
     process.stdout.write(deployOutput);
   } catch (err) {
+    if (err instanceof Error && err.message.startsWith("BAILED_TIMEOUT")) throw err;
     const e = err as { stdout?: string; stderr?: string };
-    deployOutput = [e.stdout, e.stderr].filter(Boolean).join("\n");
+    deployOutput = [e.stdout, e.stderr, deployOutput].filter(Boolean).join("\n");
     if (deployOutput) process.stderr.write(deployOutput);
     throw err;
   }

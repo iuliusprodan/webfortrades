@@ -2,6 +2,7 @@ import fs from "node:fs";
 import path from "node:path";
 import { spawn, type ChildProcess } from "node:child_process";
 import { runCommand } from "./concurrency.js";
+import { STAGE_TIMEOUT_MS } from "./lib/stage_timeout.js";
 import { loadBatchConfig, type BatchConfig } from "./batch_config.js";
 import {
   appendPortLog,
@@ -139,8 +140,37 @@ async function runPortAttempt(ctx: PortWorkerContext, attempt: number): Promise<
       const stream = fs.createWriteStream(logFile, { flags: "a" });
       child.stdout.pipe(stream);
       child.stderr.pipe(stream);
+
+      let invokeTimedOut = false;
+      const invokeTimer = setTimeout(() => {
+        invokeTimedOut = true;
+        appendPortLog(ctx.batchId, ctx.slug, ROOT, "BAILED_TIMEOUT", "port_invoke");
+        try {
+          child.kill("SIGTERM");
+        } catch {
+          /* ignore */
+        }
+        setTimeout(() => {
+          try {
+            if (!child.killed) child.kill("SIGKILL");
+          } catch {
+            /* ignore */
+          }
+        }, 5000);
+      }, STAGE_TIMEOUT_MS.portInvoke);
+
       runWithBailWatch(ctx, () => child).then(({ code, bailed }) => {
+        clearTimeout(invokeTimer);
         stream.end();
+        if (invokeTimedOut) {
+          resolve({
+            ok: false,
+            code: null,
+            bailed: true,
+            err: "BAILED_TIMEOUT port_invoke",
+          });
+          return;
+        }
         resolve({
           ok: code === 0 && !bailed,
           code,
@@ -150,6 +180,18 @@ async function runPortAttempt(ctx: PortWorkerContext, attempt: number): Promise<
       });
     }
   );
+
+  if (invoke.bailed && invoke.err.includes("BAILED_TIMEOUT")) {
+    writeBail(ctx.batchId, ctx.slug, ROOT, invoke.err);
+    return {
+      ok: false,
+      status: "BAILED_PORT",
+      ms: Date.now() - start,
+      attempts: attempt,
+      tokens: readPortTokens(ctx.slug),
+      error: invoke.err,
+    };
+  }
 
   if (invoke.bailed) {
     return {
@@ -336,7 +378,10 @@ export async function runPortWorker(ctx: PortWorkerContext): Promise<PortWorkerR
     return { ok: true, status: "PORTED", ms: Date.now() - start, attempts: 1, tokens: 0 };
   }
 
-  const timeoutMs = ctx.config.port_timeout_minutes_default * 60_000;
+  const timeoutMs = Math.min(
+    ctx.config.port_timeout_minutes_default * 60_000,
+    STAGE_TIMEOUT_MS.portInvoke + STAGE_TIMEOUT_MS.nextBuild + 120_000
+  );
   let attempts = 0;
   let last: PortWorkerResult | null = null;
 

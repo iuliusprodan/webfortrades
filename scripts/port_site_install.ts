@@ -1,6 +1,8 @@
 import fs from "node:fs";
 import path from "node:path";
 import { runCommand, type CommandResult } from "./concurrency.js";
+import { runPortSiteEmDashGate } from "./port_site_em_dashes.js";
+import { STAGE_TIMEOUT_MS, runCommandWithHardTimeout } from "./lib/stage_timeout.js";
 
 /** Shown when build is attempted without a fresh npm install. */
 export const PORT_INSTALL_REQUIRED_MSG =
@@ -80,9 +82,24 @@ export async function runPortSiteBuild(
     if (!install.ok) return { ok: false, error: install.error };
   }
 
+  const slug = path.basename(siteDir);
+  const dashGate = runPortSiteEmDashGate(slug);
+  if (!dashGate.ok) return dashGate;
+
   const run = options.runCommandFn ?? runCommand;
-  const build = await run("npm", ["run", "build"], { cwd: siteDir, logFile: options.logFile });
+  const build = options.runCommandFn
+    ? await run("npm", ["run", "build"], { cwd: siteDir, logFile: options.logFile })
+    : await runCommandWithHardTimeout(
+        "npm",
+        ["run", "build"],
+        "next_build",
+        STAGE_TIMEOUT_MS.nextBuild,
+        { cwd: siteDir, logFile: options.logFile }
+      );
   if (!build.ok) {
+    if ("timedOut" in build && build.timedOut) {
+      return { ok: false, error: "BAILED_TIMEOUT next_build" };
+    }
     return { ok: false, error: "next build failed after port" };
   }
   return { ok: true };
