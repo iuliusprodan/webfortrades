@@ -1,0 +1,56 @@
+{
+  "slug": "edgar-landscapes-driveways-ltd",
+  "reviewed_at": "2026-06-11T23:03:54.134Z",
+  "read_only": true,
+  "passed": true,
+  "clone_score": 9,
+  "business_specificity_estimate": 91,
+  "scores": {
+    "section_order_similarity": 0,
+    "heading_reuse": 0,
+    "hero_pattern_reuse": 20,
+    "cta_strip_reuse": 0,
+    "service_list_shape_reuse": 30,
+    "review_block_reuse": 20,
+    "contact_section_reuse": 40,
+    "copy_phrase_reuse": 0,
+    "palette_font_layout_similarity": 0,
+    "overall_clone_score": 9,
+    "business_specificity_estimate": 91
+  },
+  "issues": [
+    {
+      "severity": "warn",
+      "message": "High section overlap (91%) with nfs-plumbing-heating"
+    },
+    {
+      "severity": "warn",
+      "message": "High section overlap (91%) with rm-electrical"
+    },
+    {
+      "severity": "warn",
+      "message": "Identical section order as stay-dry-roofing"
+    },
+    {
+      "severity": "warn",
+      "message": "High section overlap (100%) with stay-dry-roofing"
+    },
+    {
+      "severity": "warn",
+      "message": "High section overlap (91%) with west-park-electrics"
+    }
+  ],
+  "missing_artifacts": [],
+  "template_headings_found": [],
+  "section_plan_generic": false,
+  "compared_slugs": [
+    "painters-force-ltd",
+    "rm-electrical",
+    "roofer",
+    "southwest-plumber-emergency-plumbing-heating",
+    "stay-dry-roofing",
+    "the-lock-dr",
+    "tom-baker-plumbing-and-gas-solutions",
+    "west-park-electrics"
+  ]
+}

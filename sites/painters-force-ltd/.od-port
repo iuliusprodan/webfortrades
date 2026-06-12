@@ -1,0 +1,8 @@
+ported=2026-06-11T23:45:00Z
+source=open-design-artifacts/painters-force-ltd/
+reference=docs/open-design-next-porting-notes.md
+agent=cursor-agent
+fonts=next/font/google Instrument Serif (display) + Source Sans 3 (body)
+images=briefs/painters-force-ltd/images/*.webp -> public/assets/images/
+section_ids=review-led-hero,stats-sourced-only,what-customers-keep-mentioning,gallery-lean,service-explainers,process-section,review-wall,local-coverage,simple-contact,quote-form
+notes=Address privacy: public copy uses Nottingham NG7 4AA only (no street). Map embed uses postcode area query.

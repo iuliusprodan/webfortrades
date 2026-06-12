@@ -1,0 +1,705 @@
+{
+  "business_name": "A.M.T Roofing Penarth",
+  "owner_name": null,
+  "contact_name": null,
+  "contact_name_source": null,
+  "contact_name_confidence": "low",
+  "contact_name_evidence_count": 1,
+  "contact_name_usage_allowed": false,
+  "possible_contact_name": "Completely",
+  "phone": "07464 879664",
+  "email": "amtroofing@outlook.com",
+  "phone_type": "mobile",
+  "whatsapp_candidate": true,
+  "email_available": true,
+  "whatsapp_available": "not_checked",
+  "contactability_status": "CONTACTABLE",
+  "contactability_reason": "email found, email-only outreach if WhatsApp unavailable",
+  "preferred_channel": "email",
+  "address": "Penlan Rise, Llandough, Penarth CF64 2LS, UK",
+  "opening_hours": [
+    "Monday: 7:30 AM – 10:00 PM",
+    "Tuesday: 8:00 AM – 8:00 PM",
+    "Wednesday: 8:00 AM – 8:00 PM",
+    "Thursday: 8:00 AM – 8:00 PM",
+    "Friday: 8:00 AM – 8:00 PM",
+    "Saturday: 8:00 AM – 8:00 PM",
+    "Sunday: 8:00 AM – 8:00 PM"
+  ],
+  "services": [
+    "Roofing",
+    "Leak and burst pipe repairs"
+  ],
+  "services_meta": [
+    {
+      "name": "Roofing",
+      "source": "google",
+      "direct": true
+    },
+    {
+      "name": "Leak and burst pipe repairs",
+      "source": "review",
+      "direct": false
+    }
+  ],
+  "service_confidence": "inferred",
+  "service_sources": [
+    "google",
+    "name",
+    "review",
+    "niche"
+  ],
+  "service_area": [
+    "Penarth",
+    "Cardiff",
+    "Penlan Rise, Llandough, Penarth",
+    "Penlan Rise",
+    "Llandough",
+    "Penarth CF64 2LS"
+  ],
+  "based_location": "Penarth, CF64",
+  "google_rating": 4.7,
+  "google_review_count": 61,
+  "google_review_count_sourced": true,
+  "service_areas_inferred": true,
+  "google_maps_url": "https://maps.google.com/?cid=1564530328914605086",
+  "website_status": "SOCIAL_OR_DIRECTORY_ONLY",
+  "website_check_notes": "reason=social_or_directory_host; url=https://www.facebook.com/p/AMT-Roofing-100063748024972/; Social URL stored as website_url - reclassified as SOCIAL_OR_DIRECTORY_ONLY",
+  "website_url": null,
+  "photos": [
+    {
+      "local": "images/01-places.webp",
+      "source_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3kBrewtBLeXr2YE23GsLRzzAFMpTO7UBFL7c2U5K6DoDIC73qfkMojeTlFUOMDGtBIbwNIBM7tj49gWLGeZHEYzB8rrE_8KYiFmCvKnAxU9gZcyccaK5Jy8XuVfs2GL5USoW9wonxkgD4vIZjir36MRG9eTtGmmHQ4o6uo0zS3xSmDiDHu216eFyD5VHl3-g9i1sUXE0CDp8_HxQIIPgOCG2I16QWE0kvMDw_zO6cf8KZqBqV-3AHXqv5JVGXT92JrrKZvdjhOefm-VBDLTjYLInIYZk9AbmSc0wY7DpOJoJS6qH3LZLdBwHan7573lrx4A6iieLfPCMLKRKtMi8U2-ErL232jSqYlSeMpYdmFxa-nmOpDSxfZL7BHpBwDxitjJfkatLGM0F1pFoabH2u6WV-Rq7ulEJ8bqXrID8J2mT7RTYFstSkOt1rzxtQT0&key=REDACTED",
+      "width": 1200,
+      "height": 1600,
+      "classification": "completed_project",
+      "pair_id": null,
+      "source_type": "google_places"
+    },
+    {
+      "local": "images/02-places.webp",
+      "source_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3lpj68JliJYydNbKOVoLhXuhA9NEwYa_gh5tQejjyKk0t2wxmUNXeWR9L15NMbW1eyUfUYCQF0yVudFfGJqbTX6zEGnIrOVt4NjJeD0j0IG7WLkCIp_eaauX3KyTOfnBoHCkVPc0wOQwXlCZLNlN30M74mrnmHvFPqZJCNYk4Qdl64lXyqVODK8kHOZ2cfOUJZeY918I0y0MpyflS76OAlnWUZ5SwoBroLSpjvkz37O4YNg_Nkou-4F55lQfcJTrMwMRNsVAqtO_RUJXl0QeXnmRK9vhp5l7q2RGwq9B0KNYA_UZebjvJl6V3Iti-MjOzfIdmVcGZcPwa6DPr7jXnVkbtIK9SKJnKP00I2xodfEwu2oBfti981nXyJMw2evJCybKEpLpRxtO-6AhwKJFVo1ujmHb8J2USAlQN6rIYe_-DcFgFrNaB9nrS3UbuoI&key=REDACTED",
+      "width": 1600,
+      "height": 1200,
+      "classification": "completed_project",
+      "pair_id": null,
+      "source_type": "google_places"
+    },
+    {
+      "local": "images/03-places.webp",
+      "source_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3lFyQQ9YfSIkZOpnLKhzIoRQahHY_7qmdnu3dCTuvK7MRn4ZB3VRDn4VJvlF3JumGDgJxLjyLigCQuW59SoIA_VUxq90wv4kvy1AXGFEuVZ3D2cdyz2KV5eRgmnHpWqnCitfaK01nsoTNwedw5LeigQFSng0zlvFdOIWirlXDgIDHHy9fTlNcDNZEen2TkGh9R9SZIWDCYDPQFcAxnkDQQCCpuYG0kaTl_OkmMcrRK6OqRg3MZjYL3sGRNo58zSav-56kpvX4cqcKrkvZKE58kqcms_8-yX59073dyVNeugNW62zywFohcYzh8lsfgoFdyDdNjOnt3HHg8ESVm5f8zBXRu8o9rC3q3lRfalw9sHZFx0onFltdXtNjdDf4618jK6Dx2XKrIarN_-ZeGSgC73Bq3vk382nC2jHzniBpCKqA&key=REDACTED",
+      "width": 1200,
+      "height": 1600,
+      "classification": "completed_project",
+      "pair_id": null,
+      "source_type": "google_places"
+    },
+    {
+      "local": "images/04-places.webp",
+      "source_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3mqG7mbEBFTAbSIrEp4FKZy-u6_Pjsf6a0WG9eP5qNiujVKbG2Qj8N2zXDzUgIuloH9SfAThq2xZUzR7wD9Kn_zUQ1JujiiHijFH5_aIKDMYtQasgJyb2VGqLJRAfjh25NOvZWah-2yMiCUoj82PbTALB9-deferv4Rilg63kuZ5sYmpVNwoK39Qw-60VjQMfyXPUbn5_HCA8yyF7622XRthwSS4wLV_CyuqMB-wqFyuG4n_GisIjj8VR9gDIYyh27Txnlccrv7DoGzsPPRy2IdiQyDyJ60SQubIDvnIHtgPF39aoobPJOiut5e_Y9dx0Pa7rADbPnj8GBiBEv-11gzs70ZgiLPVn3rQsL-vzfa9Lr9KSTA_KHOFpeGKvb86VWQd1Ldn9djeh2gs7466jdmE4jdbU3tCAPSwcRsy7AGIvEiMXMuHkLgHZ3IBA&key=REDACTED",
+      "width": 1600,
+      "height": 1200,
+      "classification": "completed_project",
+      "pair_id": null,
+      "source_type": "google_places"
+    },
+    {
+      "local": "images/05-places.webp",
+      "source_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3nUQXZPK6LEXOEwq5GJA4ZjuxiFLDYrJmltnWQRu-MUTVRwLGHztexw4iiLP4bMgQheyM-2uNIzeDUn5cS1OLTV60HzlEUinl1AOcNHAdMII_pxz65yCgOzPWg-2UZBXsJHgXlemZi9kBwr-HkyQz01nKdwEUPNLkO2wLnDidL_gfVb_Jei9WySWe9d7bwhCvP60DBcuHRGm7noGhiIMkb1Zsxmcqbqo9lBklen7AhjLfXqs2j5HRiIT9kdTtmNrqJ4WDMULyei8TEpfAYQ4F9iPknQwmIWfTOavxpjKT_KavwT6Yooq4OZFciNGks4lBjiK6kDy7_SSMNH3UfFCPL_Cxl2gIQz-YEUeedEbMXkNxrJqC9Fr8h_YBPpn7NX6jitRsQYjHZoku6xI1Dn9MrnyCXjpS9Fh36Go1hdpSeQCGOT&key=REDACTED",
+      "width": 1200,
+      "height": 1600,
+      "classification": "completed_project",
+      "pair_id": null,
+      "source_type": "google_places"
+    },
+    {
+      "local": "images/06-places.webp",
+      "source_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3l0GhZb_X9Snfsse4N0krlQovHJtJLWk0DFVl7S2_SUZRk1gIe7KNaDsGJn-ENj3_DdR5f8iah3XyR0XqnGXaRwZ2fv-WXZIt5WAcF8X-xi1SviqEIYv3xOIFdPFiA9Tk8a6D3ActRFmeWrrVmJNe28t-okvXwZ4sUbHdGmT-TrNCg95glq_K2YOBWMy0F3ysS5debN5cc_OcGJuXMv7icG6rEarjNOBjD3feegZiJHBQO9Y8jxbQ-1MseKaV6vWZXPMTfzvgxLpcfxsjT1hcbHKZbY7a4lRrE3GQp-nOmUkyJpCA5dkGDZ7eCGFFySAC4OHGcqbNcl1Isj6bVC8TLXRqhztVVfAhTwpNxcxKwI0-Cig7RCGP7W09K7qOBxBmwZQbDympYpBJ56LGotfZV54eDtQn_IzSB12x77oS-6zhS1R497l6pMcM_jQFqH&key=REDACTED",
+      "width": 1600,
+      "height": 1200,
+      "classification": "completed_project",
+      "pair_id": null,
+      "source_type": "google_places"
+    },
+    {
+      "local": "images/07-places.webp",
+      "source_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3lJcWJ3GZVLInr3ZzFAyielStKgDFMPBfBreGiC4PP-xGVNjyHyP7B3pC9GECO6bIcGUOG8ovNqML6FF84-63g--D3o8NmWkzAp32Ij2Zoys6VW33U58mNgjWUUNXtWq8--9GMS0Jq5C60M1SynQYrVCGckkBIbiqi9kbf24znSV2p5B6xcJJVUGSdEPgXSJW-d-kIqhSu5CzHUHvKuhYDskzAyejekobeY1cl9mj7cfS6RrcoSL2KDoTISr-IRhOPQQiSksHSb48ZDaloPoSXVe41jg-hZicscGX1Y6jqhBCpQNH_YZ2dkmsaonwmMQzRXMomLaGZOkrHWBqf0t1f4TktthKopNpwUlZBRnORd1YM5nMWZbcXPKKiFAWzXjSZj2Lc1-MlqCEX5aqkI3AQqr3yXarBoTH56AE_ZQ-zXT3E&key=REDACTED",
+      "width": 1200,
+      "height": 1600,
+      "classification": "completed_project",
+      "pair_id": null,
+      "source_type": "google_places"
+    },
+    {
+      "local": "images/08-places.webp",
+      "source_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3mPUbTw4IeTbDqrbqIXrw54M5H2OMTa9yqailg5VaDbzcmYgFddRf-TR6jP9IsX228hge1UzTY3Eq2n_uHGdDie_HFbQogNXTKaJYDu3yu2F7Fdyj0aRcspenXbDbYL0m2MLUTgW8YMpddNxTW-CidU75zgj5LbBbrxE1evYt4sL78iLSxGHQ3YDTz5xzrYpBpQj0oD8mZ0db60fH_U1LPyWSWJxeco_Npw-V9oS6IRxW324Hwx4DC2H5nKCCepyRct5QOYK4ZWa1H8uEDyKre9y_7M_GCX759O_9DHzx-q_Hop43SDZnHDKUXqWd6Q3gng0QYGjyvCYEVyBbtXhVSZmxsVPy2eHbbgMxCk7VK2QzDqs1t3wNaM8v1gJZhxmmSSHUPl2oLMPEIgvwOP6_5IVWRYA0d5-8dA5B30pyqTfBAV&key=REDACTED",
+      "width": 1600,
+      "height": 1136,
+      "classification": "completed_project",
+      "pair_id": null,
+      "source_type": "google_places"
+    },
+    {
+      "local": "images/09-places.webp",
+      "source_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3lP2veGDPyGtO17N45vzljKYTjo2hRXZaiyxz_dVinQQwnfRB535iaZVkeAXqtFs-STfRgCK6Nmyn1G5E0SIeJ0K3zmGu341mTim-qhFlfyBsBeLFFkSeCHFEczJWqdD17xZeYY3X540DdqLtgCsZuQnmu2qNiTvFxIUVOBBrF0g-y6Zfv_wAkXGQFaEICa17ukCzk3rv6zkDPsYSeqqKUBw7i2uKhGSSNO27s4brKf6VUyfT7WwbJiOZGhaLPXmocGgi66BfsM3Ljor_N4dZkK6JWYXm1VDdm-w-gsVZJ-jeUZudt7EVQWC8-gvJ_Rgx0OugczaqE7wdzueadR2h1F_F8kRfo-ATSzjlxoLCiOvYXHR2p7isgq_D2lQARZ18vT6w5yINxj-AiuH5Sb2WwPWwhwjauU0b-YvfuTatig-YFjrd50HArxIcwwyCEA&key=REDACTED",
+      "width": 1200,
+      "height": 1600,
+      "classification": "completed_project",
+      "pair_id": null,
+      "source_type": "google_places"
+    },
+    {
+      "local": "images/10-places.webp",
+      "source_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3nMuJ3RZaQZwJJLvRkyD9ZD5p71LfNqUpcC7-8UjVO-NkyJ-adQNyZu1_ZikN8juGdh7xd6zmKOPJNKWQNlm7E2iCf1tcM6F4Pk2855HnCZNSnrIB-qLnFSCa97jXPCNqbmr5OPwu3zDWLkkv8SffOx2szKHWUibiQYWkiMWECfHyr9kTJCtKZM1lrgL36ssUGrbsa6CP7KTCzeRgHY22Dw7TTAwbpoMMYdjJ66Vh3CVHioZDJoq6KS7mcL14tn-QPCzwAiWk4JrjedFzFVKs2B2-TQ09fdAfAq3xWWcfJpEgqj2u7qbPpRpkPWZR5hTwbhtTGVCrOQY-5vRWMyZKCM8VcQxdLYy3-nydMD6vDPfl_z_i1PnUMQOja8sasC6K_g1XAubiJnhbUMSpDsESRWM8fSR6_Th6lPYD2XhjFOE6gu&key=REDACTED",
+      "width": 1600,
+      "height": 1200,
+      "classification": "completed_project",
+      "pair_id": null,
+      "source_type": "google_places"
+    },
+    {
+      "local": "images/facebook/01-facebook.webp",
+      "source_url": "https://scontent-lhr6-1.xx.fbcdn.net/v/t39.30808-6/474561799_1189759526492304_7886710718142912335_n.jpg?stp=cp6_dst-jpg_tt6&cstp=mx2048x1536&ctp=s2048x1536&_nc_cat=109&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=bwoh3TsUAaQQ7kNvwEIwc1q&_nc_oc=AdoHXpks1MIqg2eZ2zL8uOPPGK-Jq6-TFzyUpl0EVnJf7NW8dlaKXse7opI8kMSgG8vcZFj6DgLzs7TPWhbBmaCQ&_nc_zt=23&_nc_ht=scontent-lhr6-1.xx&_nc_gid=WCkPFNS4gcj9MJmz7YQTBw&_nc_ss=7b20f&oh=00_Af8dseRRopM4ogVgWby2xb8NRKMdnwoHX3I02cZJQ5ehbw&oe=6A30F12C",
+      "width": 2048,
+      "height": 1536,
+      "classification": "completed_project",
+      "pair_id": null,
+      "source_type": "facebook_photo",
+      "selected": false,
+      "selection_reason": "Downloaded via http (public HTML/CDN)"
+    },
+    {
+      "local": "images/facebook/02-facebook.webp",
+      "source_url": "https://scontent-lhr6-1.xx.fbcdn.net/v/t39.30808-6/719257096_1644545051013747_8043808518665640185_n.jpg?stp=c256.0.1536.1536a_cp6_dst-jpg_tt6&cstp=mx1536x1536&ctp=s851x315&_nc_cat=103&ccb=1-7&_nc_sid=8a6525&_nc_ohc=DNwGns6BhBcQ7kNvwFa0vIv&_nc_oc=AdpqGCAKETSRq1WIyCdh6w7I0XmUej_g1RoLEh6Kzv_TfVQ6GxKUcamazMuJKdcY9rhY3ksSqKeDCmpeORNsq_gn&_nc_zt=23&_nc_ht=scontent-lhr6-1.xx&_nc_gid=WCkPFNS4gcj9MJmz7YQTBw&_nc_ss=7b20f&oh=00_Af8yqShljYyXSZus2uiybFp2T5e7eIhiVCw1eA7_nV1Tig&oe=6A30FCBD",
+      "width": 315,
+      "height": 315,
+      "classification": "completed_project",
+      "pair_id": null,
+      "source_type": "facebook_photo",
+      "selected": false,
+      "selection_reason": "Downloaded via http (public HTML/CDN)"
+    },
+    {
+      "local": "images/facebook/03-facebook.webp",
+      "source_url": "https://scontent-lhr6-1.xx.fbcdn.net/v/t39.30808-6/718153684_1644545021013750_1955126457565387773_n.jpg?stp=c256.0.1536.1536a_cp6_dst-jpg_tt6&cstp=mx1536x1536&ctp=s851x315&_nc_cat=103&ccb=1-7&_nc_sid=8a6525&_nc_ohc=yBUETXpj_cIQ7kNvwGfkWOi&_nc_oc=Adrof3hec7opPka9o0xjKFKKbr8NjAOOgEQqnZDrawsi_mH65lQrIwqyFbMFC6SxlMTNEn5XjvsWP6BjPp5OX_Sc&_nc_zt=23&_nc_ht=scontent-lhr6-1.xx&_nc_gid=WCkPFNS4gcj9MJmz7YQTBw&_nc_ss=7b20f&oh=00_Af9CdR0duQxKg9xGl9TK9_b_xRCqX14AJzXGcigXnlLcKA&oe=6A3106D0",
+      "width": 315,
+      "height": 315,
+      "classification": "completed_project",
+      "pair_id": null,
+      "source_type": "facebook_photo",
+      "selected": false,
+      "selection_reason": "Downloaded via http (public HTML/CDN)"
+    },
+    {
+      "local": "images/facebook/04-facebook.webp",
+      "source_url": "https://scontent-lhr6-1.xx.fbcdn.net/v/t39.30808-6/718363645_1644544954347090_3870800638094073978_n.jpg?stp=c256.0.1536.1536a_cp6_dst-jpg_tt6&cstp=mx1536x1536&ctp=s851x315&_nc_cat=103&ccb=1-7&_nc_sid=8a6525&_nc_ohc=9Ix5bMzLaLoQ7kNvwEi96Mo&_nc_oc=Adq6SOm99fFGOVQQPX1vq2fctTgfSiEsAGrrdQsSpQW0XlgyHVpCXtfKdQtNI4yiOKHkHB3247OfUDoDJyFqlpBD&_nc_zt=23&_nc_ht=scontent-lhr6-1.xx&_nc_gid=WCkPFNS4gcj9MJmz7YQTBw&_nc_ss=7b20f&oh=00_Af-9-zSB904UXPz4LjHEPXMbcacm-mZslSsRAk52frPlyw&oe=6A3107BE",
+      "width": 315,
+      "height": 315,
+      "classification": "completed_project",
+      "pair_id": null,
+      "source_type": "facebook_photo",
+      "selected": false,
+      "selection_reason": "Downloaded via http (public HTML/CDN)"
+    },
+    {
+      "local": "images/facebook/05-facebook.webp",
+      "source_url": "https://scontent-lhr6-1.xx.fbcdn.net/v/t39.30808-6/718676982_1644545031013749_5994540511295397796_n.jpg?stp=c256.0.1536.1536a_cp6_dst-jpg_tt6&cstp=mx1536x1536&ctp=s851x315&_nc_cat=103&ccb=1-7&_nc_sid=8a6525&_nc_ohc=T2iaJuosbUQQ7kNvwHvtmg1&_nc_oc=AdqDOQD2kWYZckemYJsVooA4ypaYsKBAj1kH63YYkuASUd-SxgEaE8TG8G0MXD9D48NVvzijxxxT2Op7w_gQvpys&_nc_zt=23&_nc_ht=scontent-lhr6-1.xx&_nc_gid=WCkPFNS4gcj9MJmz7YQTBw&_nc_ss=7b20f&oh=00_Af9hm4UHfUH_ImCElJ9Z1wS34lSWoulQZGcULT6G2p0crg&oe=6A310DF3",
+      "width": 315,
+      "height": 315,
+      "classification": "completed_project",
+      "pair_id": null,
+      "source_type": "facebook_photo",
+      "selected": false,
+      "selection_reason": "Downloaded via http (public HTML/CDN)"
+    },
+    {
+      "local": "images/facebook/06-facebook.webp",
+      "source_url": "https://scontent-lhr6-1.xx.fbcdn.net/v/t39.30808-6/720335851_1644544947680424_2235456930936633537_n.jpg?stp=c256.0.1536.1536a_cp6_dst-jpg_tt6&cstp=mx1536x1536&ctp=s851x315&_nc_cat=109&ccb=1-7&_nc_sid=8a6525&_nc_ohc=ER4PUaEhCCgQ7kNvwGAMf9Y&_nc_oc=AdqjCamVLmw4IzCi7HgyWhkWnAf85pcgBO8b5ymLbQF1_WlytvKRV-R85KNgmXy19JnHMKbKcchbDmYo_xg2D_q8&_nc_zt=23&_nc_ht=scontent-lhr6-1.xx&_nc_gid=WCkPFNS4gcj9MJmz7YQTBw&_nc_ss=7b20f&oh=00_Af95ZCZZENFOqvNIFlk18etniD-wHk62N1YSU84dHeHYMg&oe=6A30FBDE",
+      "width": 315,
+      "height": 315,
+      "classification": "completed_project",
+      "pair_id": null,
+      "source_type": "facebook_photo",
+      "selected": false,
+      "selection_reason": "Downloaded via http (public HTML/CDN)"
+    },
+    {
+      "local": "images/facebook/07-facebook.webp",
+      "source_url": "https://scontent-lhr6-2.xx.fbcdn.net/v/t39.30808-6/710827474_1640297774771808_832801191222800755_n.jpg?stp=c0.79.720.720a_cp6_dst-jpg_tt6&cstp=mx720x720&ctp=s851x315&_nc_cat=100&ccb=1-7&_nc_sid=8a6525&_nc_ohc=HJ6MFj5ZIp4Q7kNvwG2xAis&_nc_oc=Ado40YpQbiRjoh9m91nyZu59rLLsjs7y_Bcpik0zno1hNj42GM0xW3tgO3BZmA8tq24u8mRwaT5mHlJJzzt0iqB7&_nc_zt=23&_nc_ht=scontent-lhr6-2.xx&_nc_gid=WCkPFNS4gcj9MJmz7YQTBw&_nc_ss=7b20f&oh=00_Af-MReKBbtHIf8pFt5gRonGdOFd1N2fJu17Zqakk6aKucg&oe=6A30FEF5",
+      "width": 315,
+      "height": 315,
+      "classification": "completed_project",
+      "pair_id": null,
+      "source_type": "facebook_photo",
+      "selected": false,
+      "selection_reason": "Downloaded via http (public HTML/CDN)"
+    },
+    {
+      "local": "images/facebook/08-facebook.webp",
+      "source_url": "https://scontent-lhr6-1.xx.fbcdn.net/v/t39.30808-6/710742247_1640297748105144_8340408961705891740_n.jpg?stp=c120.0.720.720a_cp6_dst-jpg_tt6&cstp=mx720x720&ctp=s851x315&_nc_cat=108&ccb=1-7&_nc_sid=8a6525&_nc_ohc=5iFfXInPQrsQ7kNvwHJnPlv&_nc_oc=AdobARPuHiH1wfx8PTIRwcKmllUMFM5z7TkfstVo2Kf7B2C1V0N7zF47LBnXnRo6yisVUitVj4q9G4Ajtm-5Om02&_nc_zt=23&_nc_ht=scontent-lhr6-1.xx&_nc_gid=WCkPFNS4gcj9MJmz7YQTBw&_nc_ss=7b20f&oh=00_Af9RqIww3pfGhROENHjyykbTeFQU6ZNqwhd56O2s4I7vWA&oe=6A310205",
+      "width": 315,
+      "height": 315,
+      "classification": "completed_project",
+      "pair_id": null,
+      "source_type": "facebook_photo",
+      "selected": false,
+      "selection_reason": "Downloaded via http (public HTML/CDN)"
+    },
+    {
+      "local": "images/facebook/09-facebook.webp",
+      "source_url": "https://scontent-lhr8-1.xx.fbcdn.net/v/t39.30808-6/710782077_1640297704771815_358473561486666352_n.jpg?stp=c120.0.720.720a_cp6_dst-jpg_tt6&cstp=mx720x720&ctp=s851x315&_nc_cat=107&ccb=1-7&_nc_sid=8a6525&_nc_ohc=09rLOMK4ghcQ7kNvwG92s2a&_nc_oc=AdoRwWhDDF_jt3bcflCphXC1kH5lBWB6I_fa_ELPG5_q_zaVx2hyaaw4xdQC8GTsj_VgtAzsvrblLv-yMPYKjGdX&_nc_zt=23&_nc_ht=scontent-lhr8-1.xx&_nc_gid=WCkPFNS4gcj9MJmz7YQTBw&_nc_ss=7b20f&oh=00_Af_DBsDQD2fPxY631DrRPVSMCZTAQ2xjUWQ2YWr1W4wFYg&oe=6A3110DC",
+      "width": 315,
+      "height": 315,
+      "classification": "completed_project",
+      "pair_id": null,
+      "source_type": "facebook_photo",
+      "selected": false,
+      "selection_reason": "Downloaded via http (public HTML/CDN)"
+    },
+    {
+      "local": "images/facebook/10-facebook.webp",
+      "source_url": "https://scontent-lhr11-1.xx.fbcdn.net/v/t39.30808-6/710827269_1640297674771818_2439952730512062576_n.jpg?stp=c120.0.720.720a_cp6_dst-jpg_tt6&cstp=mx720x720&ctp=s851x315&_nc_cat=110&ccb=1-7&_nc_sid=8a6525&_nc_ohc=nlYHrdshk5AQ7kNvwHK4rYw&_nc_oc=AdrBDgJtSeGLtG3yfr-dOpfc8--veoMyIwx1QMfKLv5OkoH4Nl0EuWOU8CyQCfBZiqjAh_wfdAyqCyL4P6vGTeuN&_nc_zt=23&_nc_ht=scontent-lhr11-1.xx&_nc_gid=WCkPFNS4gcj9MJmz7YQTBw&_nc_ss=7b20f&oh=00_Af8DY52f-vBABlSoHmi1Txkf6mh7ce4umqfViwbQyEzKeQ&oe=6A30FF17",
+      "width": 315,
+      "height": 315,
+      "classification": "completed_project",
+      "pair_id": null,
+      "source_type": "facebook_photo",
+      "selected": false,
+      "selection_reason": "Downloaded via http (public HTML/CDN)"
+    }
+  ],
+  "reviews": [
+    {
+      "text": "These guys have done a fantastic job on our roof. They had patience and communicated clearly with us when giving our quote (very competitive by the way). They also were very timely and did a darn good job of getting this roof on. They were very respectful to my family and they cleaned up after themselves exceptionally well.  They pointed out little things along the way that they went ahead and fixed while up there which really saved us both time and money later on.\n\nI know we wont have to worry about a thing with our new roof, but if any of our friends have an issue, I know exactly who I'm recommending... A.M.T. Roofing for the win!!",
+      "reviewer": "Hunter",
+      "rating": 5
+    },
+    {
+      "text": "If I could add more stars I would! Completely professional from start to finish.\n\nAsh’s expertise is outstanding. We’re delighted with our new roof. Super efficient, we felt completely at ease and took all his expert advice on board.\n\nWe had a new roof in our old house and the A.M.T crew were far superior. Competitive pricing and 100% professional. Amazing communication throughout.\n\nAsh is a total perfectionist, we even had our neighbours comment on how nice our new roof is!\n\nLocal business too! If you need a roofer and you can get them… book asap!",
+      "reviewer": "Mr",
+      "rating": 5
+    },
+    {
+      "text": "AMT roofing carried out a complete strip off and re roof of my Victorian age property in Cardiff - 20/10 service and quality from the outset, even with the weather the guys worked solid and made sure everything was clean and tidy after every shift. Also replaced all my guttering / fascia / down pipes to a great standard. Would highly recommend to anyone. Thanks again AMT Roofing",
+      "reviewer": "Michael",
+      "rating": 5
+    },
+    {
+      "text": "Roof leak reported on Wednesday fixed by the Friday (would have been Thursday if not for the weather). Responded quickly after leaving a message and work was very professional and to high standard. Communication was clear with price set prior to work. Cannot recommend enough!",
+      "reviewer": "Huw",
+      "rating": 5
+    },
+    {
+      "text": "Ashley did a great job on our roof. Very professional and friendly at a good price - thanks again!",
+      "reviewer": "Owen",
+      "rating": 5
+    }
+  ],
+  "social": {
+    "facebook": "https://www.facebook.com/p/AMT-Roofing-100063748024972",
+    "instagram": null,
+    "youtube": null,
+    "tiktok": null
+  },
+  "gallery_layout": "completed_project_gallery",
+  "photo_classification_summary": {
+    "completed_project": 20
+  },
+  "brand": {
+    "colours": [],
+    "logo_url": null,
+    "logo_local": null
+  },
+  "facebook": {
+    "url": "https://www.facebook.com/p/AMT-Roofing-100063748024972",
+    "verified": true,
+    "confidence": "medium",
+    "verification_reasons": [
+      "Phone number matches Google/lead phone",
+      "Public email visible on page (amtroofing@outlook.com)"
+    ],
+    "phone_match": true,
+    "name_match": false,
+    "location_match": false,
+    "status": "OK",
+    "needs_manual_review": false,
+    "logo_path": null,
+    "logo_source": null,
+    "logo_palette": [],
+    "assets": [
+      {
+        "local": "images/facebook/01-facebook.webp",
+        "source_url": "https://scontent-lhr6-1.xx.fbcdn.net/v/t39.30808-6/474561799_1189759526492304_7886710718142912335_n.jpg?stp=cp6_dst-jpg_tt6&cstp=mx2048x1536&ctp=s2048x1536&_nc_cat=109&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=bwoh3TsUAaQQ7kNvwEIwc1q&_nc_oc=AdoHXpks1MIqg2eZ2zL8uOPPGK-Jq6-TFzyUpl0EVnJf7NW8dlaKXse7opI8kMSgG8vcZFj6DgLzs7TPWhbBmaCQ&_nc_zt=23&_nc_ht=scontent-lhr6-1.xx&_nc_gid=fH-z3t1atVHyQEDBK1DNRQ&_nc_ss=7b20f&oh=00_Af9oXygpJdq--IOVigLlCNwTuakxT6rXu0JHGtH31E-W2g&oe=6A30F12C",
+        "source_type": "facebook_photo",
+        "width": 2048,
+        "height": 1536,
+        "hash": "6e503ca49597e01c736a29605012dc7147af208e01545b983b8cd26e84792da4",
+        "cluster_id": null,
+        "selected": false,
+        "selection_reason": "Downloaded via http (public HTML/CDN)",
+        "classification": "completed_project"
+      },
+      {
+        "local": "images/facebook/02-facebook.webp",
+        "source_url": "https://scontent-lhr6-1.xx.fbcdn.net/v/t39.30808-6/719257096_1644545051013747_8043808518665640185_n.jpg?stp=c256.0.1536.1536a_cp6_dst-jpg_tt6&cstp=mx1536x1536&ctp=s851x315&_nc_cat=103&ccb=1-7&_nc_sid=8a6525&_nc_ohc=DNwGns6BhBcQ7kNvwFa0vIv&_nc_oc=AdpqGCAKETSRq1WIyCdh6w7I0XmUej_g1RoLEh6Kzv_TfVQ6GxKUcamazMuJKdcY9rhY3ksSqKeDCmpeORNsq_gn&_nc_zt=23&_nc_ht=scontent-lhr6-1.xx&_nc_gid=fH-z3t1atVHyQEDBK1DNRQ&_nc_ss=7b20f&oh=00_Af__O6LI4_EOYd4WMN8xpAj8uKSROjzqUj9rCo6BxGYBzQ&oe=6A30FCBD",
+        "source_type": "facebook_photo",
+        "width": 315,
+        "height": 315,
+        "hash": "6691be269993311759a32aa609a1df7a5a02a7a92a6f3dd7210d077838e88543",
+        "cluster_id": null,
+        "selected": false,
+        "selection_reason": "Downloaded via http (public HTML/CDN)",
+        "classification": "completed_project"
+      },
+      {
+        "local": "images/facebook/03-facebook.webp",
+        "source_url": "https://scontent-lhr6-1.xx.fbcdn.net/v/t39.30808-6/718153684_1644545021013750_1955126457565387773_n.jpg?stp=c256.0.1536.1536a_cp6_dst-jpg_tt6&cstp=mx1536x1536&ctp=s851x315&_nc_cat=103&ccb=1-7&_nc_sid=8a6525&_nc_ohc=yBUETXpj_cIQ7kNvwGfkWOi&_nc_oc=Adrof3hec7opPka9o0xjKFKKbr8NjAOOgEQqnZDrawsi_mH65lQrIwqyFbMFC6SxlMTNEn5XjvsWP6BjPp5OX_Sc&_nc_zt=23&_nc_ht=scontent-lhr6-1.xx&_nc_gid=fH-z3t1atVHyQEDBK1DNRQ&_nc_ss=7b20f&oh=00_Af_D1WJHuJpyo7YWAds7_0iaIIHZVIF5QdUOjKFJvE-LNg&oe=6A3106D0",
+        "source_type": "facebook_photo",
+        "width": 315,
+        "height": 315,
+        "hash": "c29e215bb41384f92c6ea3aecccecc31f561f9ac45c74ae57313c0e925f55fb3",
+        "cluster_id": null,
+        "selected": false,
+        "selection_reason": "Downloaded via http (public HTML/CDN)",
+        "classification": "completed_project"
+      },
+      {
+        "local": "images/facebook/04-facebook.webp",
+        "source_url": "https://scontent-lhr6-1.xx.fbcdn.net/v/t39.30808-6/718363645_1644544954347090_3870800638094073978_n.jpg?stp=c256.0.1536.1536a_cp6_dst-jpg_tt6&cstp=mx1536x1536&ctp=s851x315&_nc_cat=103&ccb=1-7&_nc_sid=8a6525&_nc_ohc=9Ix5bMzLaLoQ7kNvwEi96Mo&_nc_oc=Adq6SOm99fFGOVQQPX1vq2fctTgfSiEsAGrrdQsSpQW0XlgyHVpCXtfKdQtNI4yiOKHkHB3247OfUDoDJyFqlpBD&_nc_zt=23&_nc_ht=scontent-lhr6-1.xx&_nc_gid=fH-z3t1atVHyQEDBK1DNRQ&_nc_ss=7b20f&oh=00_Af9iMhf22ReZ-O2xm2Icev_E-MsHDjI_j-0TNS2J7MwBOg&oe=6A3107BE",
+        "source_type": "facebook_photo",
+        "width": 315,
+        "height": 315,
+        "hash": "2e2fe45301781417d92f885faf53e2dc2504a344b64c492d47eb9897e11d8417",
+        "cluster_id": null,
+        "selected": false,
+        "selection_reason": "Downloaded via http (public HTML/CDN)",
+        "classification": "completed_project"
+      },
+      {
+        "local": "images/facebook/05-facebook.webp",
+        "source_url": "https://scontent-lhr6-1.xx.fbcdn.net/v/t39.30808-6/718676982_1644545031013749_5994540511295397796_n.jpg?stp=c256.0.1536.1536a_cp6_dst-jpg_tt6&cstp=mx1536x1536&ctp=s851x315&_nc_cat=103&ccb=1-7&_nc_sid=8a6525&_nc_ohc=T2iaJuosbUQQ7kNvwHvtmg1&_nc_oc=AdqDOQD2kWYZckemYJsVooA4ypaYsKBAj1kH63YYkuASUd-SxgEaE8TG8G0MXD9D48NVvzijxxxT2Op7w_gQvpys&_nc_zt=23&_nc_ht=scontent-lhr6-1.xx&_nc_gid=fH-z3t1atVHyQEDBK1DNRQ&_nc_ss=7b20f&oh=00_Af8iNeVyqGjPGat7uhCLxwMYqZv98kDzB38axQxFoS2CQg&oe=6A310DF3",
+        "source_type": "facebook_photo",
+        "width": 315,
+        "height": 315,
+        "hash": "a298340d36a26dd1fe3d73918cf665cf45f99efbddb4bfe531c6a7a4c39f0d7a",
+        "cluster_id": null,
+        "selected": false,
+        "selection_reason": "Downloaded via http (public HTML/CDN)",
+        "classification": "completed_project"
+      },
+      {
+        "local": "images/facebook/06-facebook.webp",
+        "source_url": "https://scontent-lhr6-1.xx.fbcdn.net/v/t39.30808-6/720335851_1644544947680424_2235456930936633537_n.jpg?stp=c256.0.1536.1536a_cp6_dst-jpg_tt6&cstp=mx1536x1536&ctp=s851x315&_nc_cat=109&ccb=1-7&_nc_sid=8a6525&_nc_ohc=ER4PUaEhCCgQ7kNvwGAMf9Y&_nc_oc=AdqjCamVLmw4IzCi7HgyWhkWnAf85pcgBO8b5ymLbQF1_WlytvKRV-R85KNgmXy19JnHMKbKcchbDmYo_xg2D_q8&_nc_zt=23&_nc_ht=scontent-lhr6-1.xx&_nc_gid=fH-z3t1atVHyQEDBK1DNRQ&_nc_ss=7b20f&oh=00_Af8ezNDS_neCtiFZnh4tfDi045FjY6yquX4q6Yz6Elecjg&oe=6A30FBDE",
+        "source_type": "facebook_photo",
+        "width": 315,
+        "height": 315,
+        "hash": "f0527707856a68cf78dafaab6a8af58e744928978f6cdeb4e991b1f25e6c73d6",
+        "cluster_id": null,
+        "selected": false,
+        "selection_reason": "Downloaded via http (public HTML/CDN)",
+        "classification": "completed_project"
+      },
+      {
+        "local": "images/facebook/07-facebook.webp",
+        "source_url": "https://scontent-lhr6-2.xx.fbcdn.net/v/t39.30808-6/710827474_1640297774771808_832801191222800755_n.jpg?stp=c0.79.720.720a_cp6_dst-jpg_tt6&cstp=mx720x720&ctp=s851x315&_nc_cat=100&ccb=1-7&_nc_sid=8a6525&_nc_ohc=HJ6MFj5ZIp4Q7kNvwG2xAis&_nc_oc=Ado40YpQbiRjoh9m91nyZu59rLLsjs7y_Bcpik0zno1hNj42GM0xW3tgO3BZmA8tq24u8mRwaT5mHlJJzzt0iqB7&_nc_zt=23&_nc_ht=scontent-lhr6-2.xx&_nc_gid=fH-z3t1atVHyQEDBK1DNRQ&_nc_ss=7b20f&oh=00_Af-6_R88GcfZqiYehA04C7Misahww4q-RZQC1CE-ufNpQA&oe=6A30FEF5",
+        "source_type": "facebook_photo",
+        "width": 315,
+        "height": 315,
+        "hash": "faca6409c5203ba444f5326521bcca78a71fb33a593e941b37068b9ebbbb5964",
+        "cluster_id": null,
+        "selected": false,
+        "selection_reason": "Downloaded via http (public HTML/CDN)",
+        "classification": "completed_project"
+      },
+      {
+        "local": "images/facebook/08-facebook.webp",
+        "source_url": "https://scontent-lhr6-1.xx.fbcdn.net/v/t39.30808-6/710742247_1640297748105144_8340408961705891740_n.jpg?stp=c120.0.720.720a_cp6_dst-jpg_tt6&cstp=mx720x720&ctp=s851x315&_nc_cat=108&ccb=1-7&_nc_sid=8a6525&_nc_ohc=5iFfXInPQrsQ7kNvwHJnPlv&_nc_oc=AdobARPuHiH1wfx8PTIRwcKmllUMFM5z7TkfstVo2Kf7B2C1V0N7zF47LBnXnRo6yisVUitVj4q9G4Ajtm-5Om02&_nc_zt=23&_nc_ht=scontent-lhr6-1.xx&_nc_gid=fH-z3t1atVHyQEDBK1DNRQ&_nc_ss=7b20f&oh=00_Af8qqhRD0bEJZHXSDjFjHk8I7-QoqrI896OlG-4DEWDhHA&oe=6A310205",
+        "source_type": "facebook_photo",
+        "width": 315,
+        "height": 315,
+        "hash": "a83e935c72b6712a8884183b5d10ad8372a2689af1f9d90b908932d1eff77233",
+        "cluster_id": null,
+        "selected": false,
+        "selection_reason": "Downloaded via http (public HTML/CDN)",
+        "classification": "completed_project"
+      },
+      {
+        "local": "images/facebook/09-facebook.webp",
+        "source_url": "https://scontent-lhr8-1.xx.fbcdn.net/v/t39.30808-6/710782077_1640297704771815_358473561486666352_n.jpg?stp=c120.0.720.720a_cp6_dst-jpg_tt6&cstp=mx720x720&ctp=s851x315&_nc_cat=107&ccb=1-7&_nc_sid=8a6525&_nc_ohc=09rLOMK4ghcQ7kNvwG92s2a&_nc_oc=AdoRwWhDDF_jt3bcflCphXC1kH5lBWB6I_fa_ELPG5_q_zaVx2hyaaw4xdQC8GTsj_VgtAzsvrblLv-yMPYKjGdX&_nc_zt=23&_nc_ht=scontent-lhr8-1.xx&_nc_gid=fH-z3t1atVHyQEDBK1DNRQ&_nc_ss=7b20f&oh=00_Af9C80tOvbuJlxbr1BqMRLGPTcbIYU3njVhPEGGBtu-6PA&oe=6A3110DC",
+        "source_type": "facebook_photo",
+        "width": 315,
+        "height": 315,
+        "hash": "a54b411956ed2ef01183b7f3d1d5993e97bcbc73d9747daf0744778b3965e60f",
+        "cluster_id": null,
+        "selected": false,
+        "selection_reason": "Downloaded via http (public HTML/CDN)",
+        "classification": "completed_project"
+      },
+      {
+        "local": "images/facebook/10-facebook.webp",
+        "source_url": "https://scontent-lhr11-1.xx.fbcdn.net/v/t39.30808-6/710827269_1640297674771818_2439952730512062576_n.jpg?stp=c120.0.720.720a_cp6_dst-jpg_tt6&cstp=mx720x720&ctp=s851x315&_nc_cat=110&ccb=1-7&_nc_sid=8a6525&_nc_ohc=nlYHrdshk5AQ7kNvwHK4rYw&_nc_oc=AdrBDgJtSeGLtG3yfr-dOpfc8--veoMyIwx1QMfKLv5OkoH4Nl0EuWOU8CyQCfBZiqjAh_wfdAyqCyL4P6vGTeuN&_nc_zt=23&_nc_ht=scontent-lhr11-1.xx&_nc_gid=fH-z3t1atVHyQEDBK1DNRQ&_nc_ss=7b20f&oh=00_Af8gNtvX1kPcKq_-YaGYqXK6TPRCn9D3_Xch5H1BBk8MbQ&oe=6A30FF17",
+        "source_type": "facebook_photo",
+        "width": 315,
+        "height": 315,
+        "hash": "2337ef8999294571f28e84ff45e807598616bddeeec83ddbb52a872085905a85",
+        "cluster_id": null,
+        "selected": false,
+        "selection_reason": "Downloaded via http (public HTML/CDN)",
+        "classification": "completed_project"
+      }
+    ],
+    "photos_found": 10,
+    "photos_attempted": 10,
+    "photos_downloaded": 10,
+    "photos_rejected": 0,
+    "photo_download_failures": [],
+    "photos_selected": 10,
+    "evidence": [
+      "Log in\nForgotten account?\nA.M.T Roofing \n4.7K likes • 4.7K followers\nMore\nPosts\nAbout\nReels\nPhotos\nIntro\nWe cover all aspects of roofing from roofing repairs for a damaged or leaking roof, new roofs, flat\nPage · Roofing service\nPenarth, United Kingdom\n07464 879664\namtroofing@outlook.com\nClosed now\n100% recommend (24 reviews)﻿\nPhotos\nSee All Photos\nInformation about Page Insights data\n \n · Privacy\n \n · Terms\n \n · Advertising\n \n · Ad choices \n \n · Cookies\n \n · More\nA.M.T Roofing\n \n2d\n \n·\n0:00 / 0:18\nAll reactions:\n5\n1\nLike\nComment\nSara Carter\nNice job \n2d\nSee more from A.M.T Roofing | Penarth\nEmail address or phone number\nPassword\nLog in\nForgotten password?\nor\nCreate new account",
+      "Meta Graph API: not configured (public HTML fallback only)",
+      "Apify: not configured (set APIFY_TOKEN in .env for high-res Facebook fallback)"
+    ],
+    "graph": {
+      "attempted": false,
+      "success": false,
+      "page_id": null,
+      "photos_found": 0,
+      "photos_downloaded": 0,
+      "largest_width": null,
+      "largest_height": null,
+      "failure_reason": "META_GRAPH_API_TOKEN not configured",
+      "permission_required": false
+    },
+    "apify": {
+      "attempted": false,
+      "success": false,
+      "actor": null,
+      "photos_found": 0,
+      "photos_downloaded": 0,
+      "largest_width": null,
+      "largest_height": null,
+      "failure_reason": "APIFY_TOKEN not configured",
+      "cost_estimate": null,
+      "requires_login": false,
+      "via_mcp": false
+    },
+    "facebook_media_quality": "HIGH_RES",
+    "manual_asset_review_recommended": false
+  },
+  "source_urls": [
+    "https://maps.google.com/?cid=1564530328914605086",
+    "https://www.facebook.com/p/AMT-Roofing-100063748024972/",
+    "https://www.facebook.com/p/AMT-Roofing-100063748024972",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3kBrewtBLeXr2YE23GsLRzzAFMpTO7UBFL7c2U5K6DoDIC73qfkMojeTlFUOMDGtBIbwNIBM7tj49gWLGeZHEYzB8rrE_8KYiFmCvKnAxU9gZcyccaK5Jy8XuVfs2GL5USoW9wonxkgD4vIZjir36MRG9eTtGmmHQ4o6uo0zS3xSmDiDHu216eFyD5VHl3-g9i1sUXE0CDp8_HxQIIPgOCG2I16QWE0kvMDw_zO6cf8KZqBqV-3AHXqv5JVGXT92JrrKZvdjhOefm-VBDLTjYLInIYZk9AbmSc0wY7DpOJoJS6qH3LZLdBwHan7573lrx4A6iieLfPCMLKRKtMi8U2-ErL232jSqYlSeMpYdmFxa-nmOpDSxfZL7BHpBwDxitjJfkatLGM0F1pFoabH2u6WV-Rq7ulEJ8bqXrID8J2mT7RTYFstSkOt1rzxtQT0&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3lpj68JliJYydNbKOVoLhXuhA9NEwYa_gh5tQejjyKk0t2wxmUNXeWR9L15NMbW1eyUfUYCQF0yVudFfGJqbTX6zEGnIrOVt4NjJeD0j0IG7WLkCIp_eaauX3KyTOfnBoHCkVPc0wOQwXlCZLNlN30M74mrnmHvFPqZJCNYk4Qdl64lXyqVODK8kHOZ2cfOUJZeY918I0y0MpyflS76OAlnWUZ5SwoBroLSpjvkz37O4YNg_Nkou-4F55lQfcJTrMwMRNsVAqtO_RUJXl0QeXnmRK9vhp5l7q2RGwq9B0KNYA_UZebjvJl6V3Iti-MjOzfIdmVcGZcPwa6DPr7jXnVkbtIK9SKJnKP00I2xodfEwu2oBfti981nXyJMw2evJCybKEpLpRxtO-6AhwKJFVo1ujmHb8J2USAlQN6rIYe_-DcFgFrNaB9nrS3UbuoI&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3lFyQQ9YfSIkZOpnLKhzIoRQahHY_7qmdnu3dCTuvK7MRn4ZB3VRDn4VJvlF3JumGDgJxLjyLigCQuW59SoIA_VUxq90wv4kvy1AXGFEuVZ3D2cdyz2KV5eRgmnHpWqnCitfaK01nsoTNwedw5LeigQFSng0zlvFdOIWirlXDgIDHHy9fTlNcDNZEen2TkGh9R9SZIWDCYDPQFcAxnkDQQCCpuYG0kaTl_OkmMcrRK6OqRg3MZjYL3sGRNo58zSav-56kpvX4cqcKrkvZKE58kqcms_8-yX59073dyVNeugNW62zywFohcYzh8lsfgoFdyDdNjOnt3HHg8ESVm5f8zBXRu8o9rC3q3lRfalw9sHZFx0onFltdXtNjdDf4618jK6Dx2XKrIarN_-ZeGSgC73Bq3vk382nC2jHzniBpCKqA&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3mqG7mbEBFTAbSIrEp4FKZy-u6_Pjsf6a0WG9eP5qNiujVKbG2Qj8N2zXDzUgIuloH9SfAThq2xZUzR7wD9Kn_zUQ1JujiiHijFH5_aIKDMYtQasgJyb2VGqLJRAfjh25NOvZWah-2yMiCUoj82PbTALB9-deferv4Rilg63kuZ5sYmpVNwoK39Qw-60VjQMfyXPUbn5_HCA8yyF7622XRthwSS4wLV_CyuqMB-wqFyuG4n_GisIjj8VR9gDIYyh27Txnlccrv7DoGzsPPRy2IdiQyDyJ60SQubIDvnIHtgPF39aoobPJOiut5e_Y9dx0Pa7rADbPnj8GBiBEv-11gzs70ZgiLPVn3rQsL-vzfa9Lr9KSTA_KHOFpeGKvb86VWQd1Ldn9djeh2gs7466jdmE4jdbU3tCAPSwcRsy7AGIvEiMXMuHkLgHZ3IBA&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3nUQXZPK6LEXOEwq5GJA4ZjuxiFLDYrJmltnWQRu-MUTVRwLGHztexw4iiLP4bMgQheyM-2uNIzeDUn5cS1OLTV60HzlEUinl1AOcNHAdMII_pxz65yCgOzPWg-2UZBXsJHgXlemZi9kBwr-HkyQz01nKdwEUPNLkO2wLnDidL_gfVb_Jei9WySWe9d7bwhCvP60DBcuHRGm7noGhiIMkb1Zsxmcqbqo9lBklen7AhjLfXqs2j5HRiIT9kdTtmNrqJ4WDMULyei8TEpfAYQ4F9iPknQwmIWfTOavxpjKT_KavwT6Yooq4OZFciNGks4lBjiK6kDy7_SSMNH3UfFCPL_Cxl2gIQz-YEUeedEbMXkNxrJqC9Fr8h_YBPpn7NX6jitRsQYjHZoku6xI1Dn9MrnyCXjpS9Fh36Go1hdpSeQCGOT&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3l0GhZb_X9Snfsse4N0krlQovHJtJLWk0DFVl7S2_SUZRk1gIe7KNaDsGJn-ENj3_DdR5f8iah3XyR0XqnGXaRwZ2fv-WXZIt5WAcF8X-xi1SviqEIYv3xOIFdPFiA9Tk8a6D3ActRFmeWrrVmJNe28t-okvXwZ4sUbHdGmT-TrNCg95glq_K2YOBWMy0F3ysS5debN5cc_OcGJuXMv7icG6rEarjNOBjD3feegZiJHBQO9Y8jxbQ-1MseKaV6vWZXPMTfzvgxLpcfxsjT1hcbHKZbY7a4lRrE3GQp-nOmUkyJpCA5dkGDZ7eCGFFySAC4OHGcqbNcl1Isj6bVC8TLXRqhztVVfAhTwpNxcxKwI0-Cig7RCGP7W09K7qOBxBmwZQbDympYpBJ56LGotfZV54eDtQn_IzSB12x77oS-6zhS1R497l6pMcM_jQFqH&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3lJcWJ3GZVLInr3ZzFAyielStKgDFMPBfBreGiC4PP-xGVNjyHyP7B3pC9GECO6bIcGUOG8ovNqML6FF84-63g--D3o8NmWkzAp32Ij2Zoys6VW33U58mNgjWUUNXtWq8--9GMS0Jq5C60M1SynQYrVCGckkBIbiqi9kbf24znSV2p5B6xcJJVUGSdEPgXSJW-d-kIqhSu5CzHUHvKuhYDskzAyejekobeY1cl9mj7cfS6RrcoSL2KDoTISr-IRhOPQQiSksHSb48ZDaloPoSXVe41jg-hZicscGX1Y6jqhBCpQNH_YZ2dkmsaonwmMQzRXMomLaGZOkrHWBqf0t1f4TktthKopNpwUlZBRnORd1YM5nMWZbcXPKKiFAWzXjSZj2Lc1-MlqCEX5aqkI3AQqr3yXarBoTH56AE_ZQ-zXT3E&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3mPUbTw4IeTbDqrbqIXrw54M5H2OMTa9yqailg5VaDbzcmYgFddRf-TR6jP9IsX228hge1UzTY3Eq2n_uHGdDie_HFbQogNXTKaJYDu3yu2F7Fdyj0aRcspenXbDbYL0m2MLUTgW8YMpddNxTW-CidU75zgj5LbBbrxE1evYt4sL78iLSxGHQ3YDTz5xzrYpBpQj0oD8mZ0db60fH_U1LPyWSWJxeco_Npw-V9oS6IRxW324Hwx4DC2H5nKCCepyRct5QOYK4ZWa1H8uEDyKre9y_7M_GCX759O_9DHzx-q_Hop43SDZnHDKUXqWd6Q3gng0QYGjyvCYEVyBbtXhVSZmxsVPy2eHbbgMxCk7VK2QzDqs1t3wNaM8v1gJZhxmmSSHUPl2oLMPEIgvwOP6_5IVWRYA0d5-8dA5B30pyqTfBAV&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3lP2veGDPyGtO17N45vzljKYTjo2hRXZaiyxz_dVinQQwnfRB535iaZVkeAXqtFs-STfRgCK6Nmyn1G5E0SIeJ0K3zmGu341mTim-qhFlfyBsBeLFFkSeCHFEczJWqdD17xZeYY3X540DdqLtgCsZuQnmu2qNiTvFxIUVOBBrF0g-y6Zfv_wAkXGQFaEICa17ukCzk3rv6zkDPsYSeqqKUBw7i2uKhGSSNO27s4brKf6VUyfT7WwbJiOZGhaLPXmocGgi66BfsM3Ljor_N4dZkK6JWYXm1VDdm-w-gsVZJ-jeUZudt7EVQWC8-gvJ_Rgx0OugczaqE7wdzueadR2h1F_F8kRfo-ATSzjlxoLCiOvYXHR2p7isgq_D2lQARZ18vT6w5yINxj-AiuH5Sb2WwPWwhwjauU0b-YvfuTatig-YFjrd50HArxIcwwyCEA&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3nMuJ3RZaQZwJJLvRkyD9ZD5p71LfNqUpcC7-8UjVO-NkyJ-adQNyZu1_ZikN8juGdh7xd6zmKOPJNKWQNlm7E2iCf1tcM6F4Pk2855HnCZNSnrIB-qLnFSCa97jXPCNqbmr5OPwu3zDWLkkv8SffOx2szKHWUibiQYWkiMWECfHyr9kTJCtKZM1lrgL36ssUGrbsa6CP7KTCzeRgHY22Dw7TTAwbpoMMYdjJ66Vh3CVHioZDJoq6KS7mcL14tn-QPCzwAiWk4JrjedFzFVKs2B2-TQ09fdAfAq3xWWcfJpEgqj2u7qbPpRpkPWZR5hTwbhtTGVCrOQY-5vRWMyZKCM8VcQxdLYy3-nydMD6vDPfl_z_i1PnUMQOja8sasC6K_g1XAubiJnhbUMSpDsESRWM8fSR6_Th6lPYD2XhjFOE6gu&key=REDACTED",
+    "https://scontent-lhr6-2.xx.fbcdn.net/v/t39.30808-1/424589917_905578258243767_1874912091971095678_n.jpg?stp=dst-jpg_tt6&amp;cstp=mx1170x1170&amp;ctp=s720x720&amp;_nc_cat=104&amp;ccb=1-7&amp;_nc_sid=3ab345&amp;_nc_ohc=zISeuWdoelAQ7kNvwG7jWmt&amp;_nc_oc=AdqlEqiSW9_LwNcfV9pgIgnSebsJOX4AjlAv2To3NRRvARTthrE7J93i9DF-zBlbcX4u-_ldvgtr3P3qjcOkp1Ck&amp;_nc_zt=24&amp;_nc_ht=scontent-lhr6-2.xx&amp;_nc_gid=Z7AYDNWhIlwPoMskNUdkkg&amp;_nc_ss=7c289&amp;oh=00_Af8-fGuGCnrf3KLva5S1d3NO2q5GPd9c-l8dYQkY9HCf9Q&amp;oe=6A311DFC",
+    "https://scontent-lhr6-2.xx.fbcdn.net/v/t39.30808-1/424589917_905578258243767_1874912091971095678_n.jpg?stp=dst-jpg_tt6&amp;cstp=mx1170x1170&amp;ctp=s720x720&amp;_nc_cat=104&amp;ccb=1-7&amp;_nc_sid=3ab345&amp;_nc_ohc=zISeuWdoelAQ7kNvwG7jWmt&amp;_nc_oc=AdqlEqiSW9_LwNcfV9pgIgnSebsJOX4AjlAv2To3NRRvARTthrE7J93i9DF-zBlbcX4u-_ldvgtr3P3qjcOkp1Ck&amp;_nc_zt=24&amp;_nc_ht=scontent-lhr6-2.xx&amp;_nc_gid=eAcQIz6GR4yqW4c7uYUjgA&amp;_nc_ss=7c289&amp;oh=00_Af-UyZpVuKEGQ5t3EB1HlmUTc2ecgaog5e6B3RbYV3Aj8g&amp;oe=6A311DFC",
+    "https://scontent-lhr6-1.xx.fbcdn.net/v/t39.30808-6/474561799_1189759526492304_7886710718142912335_n.jpg?stp=cp6_dst-jpg_tt6&cstp=mx2048x1536&ctp=s2048x1536&_nc_cat=109&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=bwoh3TsUAaQQ7kNvwEIwc1q&_nc_oc=AdoHXpks1MIqg2eZ2zL8uOPPGK-Jq6-TFzyUpl0EVnJf7NW8dlaKXse7opI8kMSgG8vcZFj6DgLzs7TPWhbBmaCQ&_nc_zt=23&_nc_ht=scontent-lhr6-1.xx&_nc_gid=WCkPFNS4gcj9MJmz7YQTBw&_nc_ss=7b20f&oh=00_Af8dseRRopM4ogVgWby2xb8NRKMdnwoHX3I02cZJQ5ehbw&oe=6A30F12C",
+    "https://scontent-lhr6-1.xx.fbcdn.net/v/t39.30808-6/719257096_1644545051013747_8043808518665640185_n.jpg?stp=c256.0.1536.1536a_cp6_dst-jpg_tt6&cstp=mx1536x1536&ctp=s851x315&_nc_cat=103&ccb=1-7&_nc_sid=8a6525&_nc_ohc=DNwGns6BhBcQ7kNvwFa0vIv&_nc_oc=AdpqGCAKETSRq1WIyCdh6w7I0XmUej_g1RoLEh6Kzv_TfVQ6GxKUcamazMuJKdcY9rhY3ksSqKeDCmpeORNsq_gn&_nc_zt=23&_nc_ht=scontent-lhr6-1.xx&_nc_gid=WCkPFNS4gcj9MJmz7YQTBw&_nc_ss=7b20f&oh=00_Af8yqShljYyXSZus2uiybFp2T5e7eIhiVCw1eA7_nV1Tig&oe=6A30FCBD",
+    "https://scontent-lhr6-1.xx.fbcdn.net/v/t39.30808-6/718153684_1644545021013750_1955126457565387773_n.jpg?stp=c256.0.1536.1536a_cp6_dst-jpg_tt6&cstp=mx1536x1536&ctp=s851x315&_nc_cat=103&ccb=1-7&_nc_sid=8a6525&_nc_ohc=yBUETXpj_cIQ7kNvwGfkWOi&_nc_oc=Adrof3hec7opPka9o0xjKFKKbr8NjAOOgEQqnZDrawsi_mH65lQrIwqyFbMFC6SxlMTNEn5XjvsWP6BjPp5OX_Sc&_nc_zt=23&_nc_ht=scontent-lhr6-1.xx&_nc_gid=WCkPFNS4gcj9MJmz7YQTBw&_nc_ss=7b20f&oh=00_Af9CdR0duQxKg9xGl9TK9_b_xRCqX14AJzXGcigXnlLcKA&oe=6A3106D0",
+    "https://scontent-lhr6-1.xx.fbcdn.net/v/t39.30808-6/718363645_1644544954347090_3870800638094073978_n.jpg?stp=c256.0.1536.1536a_cp6_dst-jpg_tt6&cstp=mx1536x1536&ctp=s851x315&_nc_cat=103&ccb=1-7&_nc_sid=8a6525&_nc_ohc=9Ix5bMzLaLoQ7kNvwEi96Mo&_nc_oc=Adq6SOm99fFGOVQQPX1vq2fctTgfSiEsAGrrdQsSpQW0XlgyHVpCXtfKdQtNI4yiOKHkHB3247OfUDoDJyFqlpBD&_nc_zt=23&_nc_ht=scontent-lhr6-1.xx&_nc_gid=WCkPFNS4gcj9MJmz7YQTBw&_nc_ss=7b20f&oh=00_Af-9-zSB904UXPz4LjHEPXMbcacm-mZslSsRAk52frPlyw&oe=6A3107BE",
+    "https://scontent-lhr6-1.xx.fbcdn.net/v/t39.30808-6/718676982_1644545031013749_5994540511295397796_n.jpg?stp=c256.0.1536.1536a_cp6_dst-jpg_tt6&cstp=mx1536x1536&ctp=s851x315&_nc_cat=103&ccb=1-7&_nc_sid=8a6525&_nc_ohc=T2iaJuosbUQQ7kNvwHvtmg1&_nc_oc=AdqDOQD2kWYZckemYJsVooA4ypaYsKBAj1kH63YYkuASUd-SxgEaE8TG8G0MXD9D48NVvzijxxxT2Op7w_gQvpys&_nc_zt=23&_nc_ht=scontent-lhr6-1.xx&_nc_gid=WCkPFNS4gcj9MJmz7YQTBw&_nc_ss=7b20f&oh=00_Af9hm4UHfUH_ImCElJ9Z1wS34lSWoulQZGcULT6G2p0crg&oe=6A310DF3",
+    "https://scontent-lhr6-1.xx.fbcdn.net/v/t39.30808-6/720335851_1644544947680424_2235456930936633537_n.jpg?stp=c256.0.1536.1536a_cp6_dst-jpg_tt6&cstp=mx1536x1536&ctp=s851x315&_nc_cat=109&ccb=1-7&_nc_sid=8a6525&_nc_ohc=ER4PUaEhCCgQ7kNvwGAMf9Y&_nc_oc=AdqjCamVLmw4IzCi7HgyWhkWnAf85pcgBO8b5ymLbQF1_WlytvKRV-R85KNgmXy19JnHMKbKcchbDmYo_xg2D_q8&_nc_zt=23&_nc_ht=scontent-lhr6-1.xx&_nc_gid=WCkPFNS4gcj9MJmz7YQTBw&_nc_ss=7b20f&oh=00_Af95ZCZZENFOqvNIFlk18etniD-wHk62N1YSU84dHeHYMg&oe=6A30FBDE",
+    "https://scontent-lhr6-2.xx.fbcdn.net/v/t39.30808-6/710827474_1640297774771808_832801191222800755_n.jpg?stp=c0.79.720.720a_cp6_dst-jpg_tt6&cstp=mx720x720&ctp=s851x315&_nc_cat=100&ccb=1-7&_nc_sid=8a6525&_nc_ohc=HJ6MFj5ZIp4Q7kNvwG2xAis&_nc_oc=Ado40YpQbiRjoh9m91nyZu59rLLsjs7y_Bcpik0zno1hNj42GM0xW3tgO3BZmA8tq24u8mRwaT5mHlJJzzt0iqB7&_nc_zt=23&_nc_ht=scontent-lhr6-2.xx&_nc_gid=WCkPFNS4gcj9MJmz7YQTBw&_nc_ss=7b20f&oh=00_Af-MReKBbtHIf8pFt5gRonGdOFd1N2fJu17Zqakk6aKucg&oe=6A30FEF5",
+    "https://scontent-lhr6-1.xx.fbcdn.net/v/t39.30808-6/710742247_1640297748105144_8340408961705891740_n.jpg?stp=c120.0.720.720a_cp6_dst-jpg_tt6&cstp=mx720x720&ctp=s851x315&_nc_cat=108&ccb=1-7&_nc_sid=8a6525&_nc_ohc=5iFfXInPQrsQ7kNvwHJnPlv&_nc_oc=AdobARPuHiH1wfx8PTIRwcKmllUMFM5z7TkfstVo2Kf7B2C1V0N7zF47LBnXnRo6yisVUitVj4q9G4Ajtm-5Om02&_nc_zt=23&_nc_ht=scontent-lhr6-1.xx&_nc_gid=WCkPFNS4gcj9MJmz7YQTBw&_nc_ss=7b20f&oh=00_Af9RqIww3pfGhROENHjyykbTeFQU6ZNqwhd56O2s4I7vWA&oe=6A310205",
+    "https://scontent-lhr8-1.xx.fbcdn.net/v/t39.30808-6/710782077_1640297704771815_358473561486666352_n.jpg?stp=c120.0.720.720a_cp6_dst-jpg_tt6&cstp=mx720x720&ctp=s851x315&_nc_cat=107&ccb=1-7&_nc_sid=8a6525&_nc_ohc=09rLOMK4ghcQ7kNvwG92s2a&_nc_oc=AdoRwWhDDF_jt3bcflCphXC1kH5lBWB6I_fa_ELPG5_q_zaVx2hyaaw4xdQC8GTsj_VgtAzsvrblLv-yMPYKjGdX&_nc_zt=23&_nc_ht=scontent-lhr8-1.xx&_nc_gid=WCkPFNS4gcj9MJmz7YQTBw&_nc_ss=7b20f&oh=00_Af_DBsDQD2fPxY631DrRPVSMCZTAQ2xjUWQ2YWr1W4wFYg&oe=6A3110DC",
+    "https://scontent-lhr11-1.xx.fbcdn.net/v/t39.30808-6/710827269_1640297674771818_2439952730512062576_n.jpg?stp=c120.0.720.720a_cp6_dst-jpg_tt6&cstp=mx720x720&ctp=s851x315&_nc_cat=110&ccb=1-7&_nc_sid=8a6525&_nc_ohc=nlYHrdshk5AQ7kNvwHK4rYw&_nc_oc=AdrBDgJtSeGLtG3yfr-dOpfc8--veoMyIwx1QMfKLv5OkoH4Nl0EuWOU8CyQCfBZiqjAh_wfdAyqCyL4P6vGTeuN&_nc_zt=23&_nc_ht=scontent-lhr11-1.xx&_nc_gid=WCkPFNS4gcj9MJmz7YQTBw&_nc_ss=7b20f&oh=00_Af8DY52f-vBABlSoHmi1Txkf6mh7ce4umqfViwbQyEzKeQ&oe=6A30FF17"
+  ],
+  "notes": [
+    "Facebook verified (high): 10 photo(s) from public page",
+    "owner_name not found in public sources",
+    "possible_contact_name \"Completely\" from 1 review mention; not used in copy",
+    "contactability=CONTACTABLE",
+    "email found, email-only outreach if WhatsApp unavailable",
+    "Google address city (Penarth) differs from prospect region (Cardiff)",
+    "Facebook verified (medium): Phone number matches Google/lead phone; Public email visible on page (amtroofing@outlook.com)",
+    "Photo discovery: 11/20 selected (Enough photos for photo-led layout)"
+  ],
+  "missing_fields": [
+    "owner_name",
+    "instagram"
+  ],
+  "invalid_website_candidates": [
+    "https://www.facebook.com/p/AMT-Roofing-100063748024972/"
+  ],
+  "website_url_validation": {
+    "validated_at": "2026-06-11T22:04:18.311Z",
+    "issue": "social_as_official",
+    "note": "Social URL stored as website_url - reclassified as SOCIAL_OR_DIRECTORY_ONLY",
+    "previous_url": "https://www.facebook.com/p/AMT-Roofing-100063748024972/"
+  },
+  "prospect_region": "Cardiff",
+  "location_validation_status": "LOCATION_MISMATCH_NEEDS_REVIEW",
+  "directory_probes": [
+    {
+      "platform": "checkatrade",
+      "candidate_url": "https://www.checkatrade.com/trades/a-m-t-roofing-penarth",
+      "status": "NOT_FOUND",
+      "confidence": "rejected",
+      "title": null,
+      "rating": null,
+      "review_count": null,
+      "phone_visible": false,
+      "verification_reasons": [],
+      "note": "search_deferred: A.M.T Roofing Penarth Penarth CF64 2LS site:checkatrade.com"
+    },
+    {
+      "platform": "trustatrader",
+      "candidate_url": "https://www.trustatrader.com/traders/a-m-t-roofing-penarth",
+      "status": "NOT_FOUND",
+      "confidence": "rejected",
+      "title": null,
+      "rating": null,
+      "review_count": null,
+      "phone_visible": false,
+      "verification_reasons": [],
+      "note": "search_deferred: A.M.T Roofing Penarth Penarth CF64 2LS site:trustatrader.com"
+    },
+    {
+      "platform": "yell",
+      "candidate_url": "https://www.yell.com/biz/a-m-t-roofing-penarth-penarth-cf64-2ls/",
+      "status": "NOT_FOUND",
+      "confidence": "rejected",
+      "title": null,
+      "rating": null,
+      "review_count": null,
+      "phone_visible": false,
+      "verification_reasons": [],
+      "note": "search_deferred: A.M.T Roofing Penarth Penarth CF64 2LS site:yell.com"
+    },
+    {
+      "platform": "mybuilder",
+      "candidate_url": "https://www.mybuilder.com/profile/a-m-t-roofing-penarth",
+      "status": "NOT_FOUND",
+      "confidence": "rejected",
+      "title": null,
+      "rating": null,
+      "review_count": null,
+      "phone_visible": false,
+      "verification_reasons": [],
+      "note": "search_deferred: A.M.T Roofing Penarth Penarth CF64 2LS site:mybuilder.com"
+    },
+    {
+      "platform": "rated_people",
+      "candidate_url": "https://www.ratedpeople.com/profile/a-m-t-roofing-penarth",
+      "status": "NOT_FOUND",
+      "confidence": "rejected",
+      "title": null,
+      "rating": null,
+      "review_count": null,
+      "phone_visible": false,
+      "verification_reasons": [],
+      "note": "search_deferred: A.M.T Roofing Penarth Penarth CF64 2LS site:ratedpeople.com"
+    },
+    {
+      "platform": "houzz",
+      "candidate_url": "https://www.houzz.co.uk/professionals/a-m-t-roofing-penarth",
+      "status": "NOT_FOUND",
+      "confidence": "rejected",
+      "title": null,
+      "rating": null,
+      "review_count": null,
+      "phone_visible": false,
+      "verification_reasons": [],
+      "note": "search_deferred: A.M.T Roofing Penarth Penarth CF64 2LS site:houzz.co.uk"
+    },
+    {
+      "platform": "bark",
+      "candidate_url": "https://www.bark.com/en/gb/company/a-m-t-roofing-penarth/",
+      "status": "NOT_FOUND",
+      "confidence": "rejected",
+      "title": null,
+      "rating": null,
+      "review_count": null,
+      "phone_visible": false,
+      "verification_reasons": [],
+      "note": "search_deferred: A.M.T Roofing Penarth Penarth CF64 2LS site:bark.com"
+    },
+    {
+      "platform": "nextdoor",
+      "candidate_url": "https://nextdoor.co.uk/pages/a-m-t-roofing-penarth/",
+      "status": "NOT_FOUND",
+      "confidence": "rejected",
+      "title": null,
+      "rating": null,
+      "review_count": null,
+      "phone_visible": false,
+      "verification_reasons": [],
+      "note": "search_deferred: A.M.T Roofing Penarth Penarth CF64 2LS site:nextdoor.co.uk"
+    }
+  ],
+  "enrichment": {
+    "enriched_at": "2026-06-11T22:04:36.671Z",
+    "email_domain_checked": false,
+    "website_discovery_run": true
+  },
+  "lead_validity": {
+    "lead_validity_status": "SOCIAL_ONLY_READY",
+    "lead_validity_reason": "Social presence only, no real website",
+    "pitch_type": "social_only",
+    "website_status": "SOCIAL_OR_DIRECTORY_ONLY",
+    "website_url": null,
+    "website_discovery_classification": "NO_WEBSITE",
+    "email_domain_website": {
+      "classification": "NO_WEBSITE",
+      "db_status": "NO_WEBSITE",
+      "domain": null,
+      "initial_url": null,
+      "final_url": null,
+      "status_code": null,
+      "title": null,
+      "reason": "generic_or_invalid_email_domain",
+      "probes": [],
+      "text_snippet": null
+    },
+    "source_confidence_summary": {
+      "overall": "high",
+      "verified_platforms": [
+        "facebook"
+      ],
+      "rejected_platforms": [
+        "google_places"
+      ],
+      "notes": [
+        "1 source(s) rejected for low confidence"
+      ]
+    },
+    "ready_for_build": false,
+    "ready_for_design": false,
+    "ready_for_pitch": false,
+    "manual_review_required": true,
+    "has_real_website": false,
+    "truly_no_website": true,
+    "warnings": [
+      "LOCATION_MISMATCH_NEEDS_REVIEW",
+      "Location mismatch: LOCATION_MISMATCH_NEEDS_REVIEW - pitch blocked until resolved"
+    ],
+    "manual_asset_status": "OK",
+    "pause_before_open_design": false,
+    "manual_asset_folder": "briefs/a-m-t-roofing-penarth/images/manual/"
+  },
+  "source_quality": {
+    "source_quality_status": "FAIL",
+    "source_quality_reason": "Email present but email-domain website discovery not completed",
+    "website_url_validated": true,
+    "email_domain_checked": false,
+    "enrichment_complete": true,
+    "logo_discovery_attempted": true,
+    "photo_discovery_attempted": true,
+    "directory_probes_attempted": true,
+    "warnings": [
+      "Lead validity requires manual review"
+    ],
+    "blockers": [
+      "Email present but email-domain website discovery not completed"
+    ]
+  }
+}

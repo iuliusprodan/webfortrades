@@ -1,0 +1,385 @@
+{
+  "business_name": "RM ELECTRICAL",
+  "owner_name": null,
+  "contact_name": "Ryan",
+  "contact_name_source": "google_reviews",
+  "contact_name_confidence": "high",
+  "contact_name_evidence_count": 5,
+  "contact_name_usage_allowed": true,
+  "possible_contact_name": null,
+  "phone": "07807 319073",
+  "email": null,
+  "phone_type": "mobile",
+  "whatsapp_candidate": true,
+  "email_available": false,
+  "whatsapp_available": "available",
+  "contactability_status": "CONTACTABLE",
+  "contactability_reason": "no email found, WhatsApp available",
+  "preferred_channel": "whatsapp",
+  "address": "Argie Ave, Kirkstall, Leeds LS4 2QR, UK",
+  "opening_hours": [
+    "Monday: Open 24 hours",
+    "Tuesday: Open 24 hours",
+    "Wednesday: Open 24 hours",
+    "Thursday: Open 24 hours",
+    "Friday: Open 24 hours",
+    "Saturday: Open 24 hours",
+    "Sunday: Open 24 hours"
+  ],
+  "services": [
+    "Boiler repairs and servicing"
+  ],
+  "services_meta": [
+    {
+      "name": "Boiler repairs and servicing",
+      "source": "review",
+      "direct": false
+    }
+  ],
+  "service_confidence": "inferred",
+  "service_sources": [
+    "google",
+    "review",
+    "niche"
+  ],
+  "service_area": [
+    "Leeds",
+    "Kirkstall",
+    "Leeds LS4 2QR"
+  ],
+  "based_location": "Leeds, LS4",
+  "google_rating": 5,
+  "google_review_count": 21,
+  "google_review_count_sourced": true,
+  "service_areas_inferred": true,
+  "google_maps_url": "https://maps.google.com/?cid=1826696652184966720",
+  "website_status": "SOCIAL_OR_DIRECTORY_ONLY",
+  "website_check_notes": "reason=social_or_directory_host; url=https://www.instagram.com/rm.electrical_?igsh=azQ1Zm5pcjVldTBi; Social URL stored as website_url - reclassified as SOCIAL_OR_DIRECTORY_ONLY",
+  "website_url": null,
+  "photos": [
+    {
+      "local": "images/01-places.webp",
+      "source_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3n36NjLWDdgYvyGsrD_LvytWU0u6uA_-5Z-_lFGTIzamzPXhra7vEQ-YqrjjiGZrnque9xEqGeQ3stAuHOcrW39hCsOiaAvzNnAe4kyt58JuO74y0v6kvb6kKgMMaFedAnWd7GconkqPtp271WnCaE460xjfavhzZgDCqZaFbKQOsZKDuwkk0JEQ9G81SJujdzeOjb3g3WwiwbCjKi47ZE9Diaji12aebbplYfxKS3zwto_Ksjc9NO8M2yTXVqpcoFbRjWRroNTgP_iH8Ax3objfPAuC7Bv2f2nPBiaO6Zm0Mdw3c-4HpgT8AhAt5QXOv9PfMUh0WKx2GHqEtBNSr93Na9truZIsnFlBMbQ5ZzyhooICoaRgknQgdUreDRC0TMSbhytKPlBC_ClJS5fJkvlN27FkTGnm_wA_vUqNAYzww&key=REDACTED",
+      "width": 900,
+      "height": 1600,
+      "classification": "completed_project",
+      "pair_id": null,
+      "source_type": "google_places"
+    },
+    {
+      "local": "images/02-places.webp",
+      "source_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3moof7-sG56ng_Bw8yWHTV6alPzrLyCAKn-_Ie4utUPp7p5CoLjrZDmaVHW6IXrDQXadJsAbLBhGw8jU3Z51Q6BPKLXq1hjCXRqdm5whq6EdxxB-PvxWw6bR8P6q9yQCXAYnNV-r7gbkz67HSW8p4SEq6lqN2qOTIldVVACzcJtsSNNWhTtZc3SKpcXf_x6qkXG1bmoM_FOfdXPDLfEBTG_AWTBF2TLrN5Wuo-JPmn9_AnnTtEcaGQ5swq7vN1FKqNf5rm_jlXHzlxKd2DfJy0TLPC7MYtYWRlFipMCvSgoLXMcqPjNNwv0K6zxOYhgahMCDgpbwdO_hpR4zRNYMlc6pyFKgemtiToHgcq9kHgYA0H2BOJhhFu9gMSKVKqBJ3MMh-8JjKOAFq4V7jYcIn0pfkxugDcHx5K0OLJAW9Mq7_X9GmAP1W5vLZAzPTIp&key=REDACTED",
+      "width": 900,
+      "height": 1600,
+      "classification": "completed_project",
+      "pair_id": null,
+      "source_type": "google_places"
+    },
+    {
+      "local": "images/03-places.webp",
+      "source_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3nJyRIseMZ--XbCCKP7aPydlo0OZTrkQKk_OUon6PfERuPbWqfHNVEasU4Q54mPW6t4nbiDWnbqwzBlV3jBMZd-jWhjTxuB8OC0w9Q51_DWwTG06Ty87DuoSkGsf1eB5qb_Tps8hWXeQWvxwwFhPDJV5kkaPRhyeqGjV89qjuyZkqyA1E1FnwKvhUUBIa2hiWt9N9xlubEsdM80yP_zl8vu8YZ0Sl8vSfjmXEBGvoi6sq0m8duGNXb8IJd3i5CawDdu4hpU6JHiedL8iNfxXKww2yr0nSjQS8WkjZX8KTFq96B2RQooE8rvitnrmTG61qugZ06q04UJgMZ2GCeyKlAIwHMqL_fdjMUBrPgGcBNnCg2YCJvX3eKuTsuMGoz78bH6vBGRD9oDBUqEBg7PV2_xjbzV43eARKVOr4oK1f8BKw&key=REDACTED",
+      "width": 1200,
+      "height": 1600,
+      "classification": "completed_project",
+      "pair_id": null,
+      "source_type": "google_places"
+    },
+    {
+      "local": "images/04-places.webp",
+      "source_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3lK9TpS7fSZPYtuu6pi5IaGG8ZSHpK4DpvyILS6nlAsObPLoJLbRqkRICxFhnUh4xo28LV97w_ui9HtAM_LjaGjer2H_o4yGbilEq_i8S8rkWkJvo3bsiWAi79fIEPBKL6RBZ1fiAxw-bDiJfg_7BEcXLD4HSUJZ8oHRp4xXz_w3QjHjBCBdomMh24n8qW3AJkmng2ge60T41pfEULOkWenej_CJk-1JPOQq7duN584tIOFl1jX4nOEiBsLx3fJJl9TO17idRUx14g6-HZf9XvxPH8K5qcAI1JS9QfgHKgwlpTARs9Y9h6dyKAALqHmP5n4rVVLHsMsKnGqP6PnkDOwrcw5R3SvYaXQQm1cCEvF7wGHemLJXi6ccAMA3sTHIGaGdZkChfLXi1QlCT9Au5dzcDIwydf36jfOpnLG5folj-XH&key=REDACTED",
+      "width": 1200,
+      "height": 1600,
+      "classification": "completed_project",
+      "pair_id": null,
+      "source_type": "google_places"
+    },
+    {
+      "local": "images/05-places.webp",
+      "source_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3lHSoI1YWwazJ2Fnnfseq173vzckWb6h9KTlpgd5Dx-uFRU4HxnJq36JzF-K_DWxTjy8vGIPpYW2H1bild-afPQnpZfuTcAL1DuzCKWUzYt__kg5LbjzvIUuhbjihnmn_RZFeZzK7w2_ngizCcZvLX5lTyDa43hPIQ3OSb_fvHl4lK5CYSB0m4vNlG625VHaMpqyQkp3gZZsmp9s2-IMFRgU-WrD-PbBeLyXTuwPjNRwNnWZDKg3QBj2B0jn2L9wTMpzkZNC_SijnLwSrOyR0WOn09RQwrrsbkKa4VbRyiogegqTt5yYffrUqxnPCFfXu_Eyd6fS55giFeZzENiFxyYvsZYubuvaf60SpXXYrwtUToRXywP6Ts39dZZWD-cSzkbfjeLj-YxjvPMdud_N3vTfzoLktRgKaXzSzNpx-e8YJJR&key=REDACTED",
+      "width": 1200,
+      "height": 1600,
+      "classification": "completed_project",
+      "pair_id": null,
+      "source_type": "google_places"
+    },
+    {
+      "local": "images/06-places.webp",
+      "source_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3mmYi0NeKyewxw7Xo1xLDgtsUViPczTyP8YqucbyPD4ojpa8KKPciCH7I5jxkKWYTN0rpPn8afvZzzpKjO2wH5SYCBZQVXj0RcFnn7Ou5bU81xKp9xvUMt4zceTVjFpTlZUb0WfU7gDOP0lcjp_1FNhE3xtnT_LYRtMnGQPleeJspVf5duZWi2rrX4QSTu43Ly18aP8Kgh2cl4DG4yFVYJl9YDuhMNUIpS2P-E90lh0Tcj8m7KjzSdmItXJ9VD0nCRpizwWsYJTiZw16EsI1v0Le3aObcwFQTsR8R76yvEBt_XjFRkZRnVVxSWSnipC1azj4zq0Uz2xyqPCAQJp4SXBkxRDkDyF8IxUnYFJ0HKVMB1U3P17cCzDzb4ysVBfclxUFP3kmoT3Ve66W65ynFeSjFvtfyH7MXlmWKQ92sGo7qih&key=REDACTED",
+      "width": 900,
+      "height": 1600,
+      "classification": "completed_project",
+      "pair_id": null,
+      "source_type": "google_places"
+    },
+    {
+      "local": "images/07-places.webp",
+      "source_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3mH-8yqPljql1PAnTMgxqQB0b73I4zSLzm7D5tJD2ekDRSKyLmZ5MqimFI0reD1vHmdMwWkJzI_CGguR2Xpo31V_74Kpw-dyLviTSlZCu34yRjwLYRKUgWMiWVBBL1S1g9EmluTYfxnAFz-n5YjxUj5duehCkZ_B7nNvoetBedzHgh_NJIbKavweivOrRUqS3ESX8qYyWp1UT1h22yadqla9OTwVyhNikwGdCnKOjraRrSV2ibgRKSF8T90y47FqWA5o5OeZSIQUrM_glH4ag1eshvFFLYvXeIL508bGC_w5ybKjBJpRgGh67A7lrr7EujQAV8hA9wtYkeQFqIlXFZ0votnPdXYg5KrvYwDbEJK4z8uvFNzjFSUeUIp7slgJN_NcIwqr-n3HRNzcadkynsp8X7Y5IyjrpJw_zn4JfSuOv7s&key=REDACTED",
+      "width": 1200,
+      "height": 1600,
+      "classification": "completed_project",
+      "pair_id": null,
+      "source_type": "google_places"
+    },
+    {
+      "local": "images/08-places.webp",
+      "source_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3l3a0SW84wGdxcwxMHLIaJHq-lahHwzwjS_6--NwADfpChOgkSyt3xgsVNCHONtwPjNHptvpxhGXZFDFtqv_Tp6l45hNND9larKIdd7ZCRB0tdNrkIu0Q_VOVw0tzocuatMGYXIsPP49bOBnbQk3QMZzNF8lzOJA-8N1hIhfaTPpdMNu5FgzlCnAZRxihilRWGL2o3nG1srY58AGP5xDMWmxUmRqEkgF3HlKFQulsDNF86miGNiiAQmqMUkhSKhVNUZ3IC7Nre9Hq0NS67TljRiDQod-JAUVDleCRPEHDtXIgN5M83YkeB5VU2fhjoZ0kEEH3gtuJa3naaqlLi-Tv7sSBgKbQ1HPpu8jT6sYeZtBo9dic9Hn7CdKMMXsFu7JKizB5cCe1rk6bVxPvbOnBrSanJqJrvhGeqDpSZakXrHGQ&key=REDACTED",
+      "width": 1200,
+      "height": 1600,
+      "classification": "completed_project",
+      "pair_id": null,
+      "source_type": "google_places"
+    },
+    {
+      "local": "images/09-places.webp",
+      "source_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3kVMzqUa_KQvfXxf8ERrMsOpMin8SHaoYYOWsqE1NxQC7eIKqbehkiaqEgbesj_qpt9-3Q8aqQaqbyUW07VBEZVJZ7kcjiMivuo72TqzLy3BaIt0c0p1rS13Uc0S6Ufzs5gk_gIZTmVUHgJarQpsBntDGxJ4N-ICkXhp1kqMH6bud4GVw6M6mGDPUFYrXKq8MS3ODI8o3jAIeii1qwDl0d42hwHbUa9pd3dUNoOaR34SONO-3T-OKuKSMg8-tiVezati0_FyaiY-UgT2tf0z0HalQuOnsKe4Rf6NhepGWGSu5AnB4RdRvUyrUvpH9LpQYacA6zAeeDzZCDK5qAD8rfncAihsq0X9KxylWm4SP13XQeTQ0ovRszV1k94XKjF4KIQ4Nr2vAFxOF17mRKIRBwuhJ_a_vvpJGM66FSoMt1tpQ&key=REDACTED",
+      "width": 1200,
+      "height": 1600,
+      "classification": "completed_project",
+      "pair_id": null,
+      "source_type": "google_places"
+    },
+    {
+      "local": "images/10-places.webp",
+      "source_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3nBriTKk9WQuIKh4jX8sCG-m3pcZd1Y0XBhLO13iY79MY_vdiBF4xR6-sdogLNmrx__Y3mE_KPor1LKFR-DkwNDDSVrQPn0_vyExcXtBrldXQVOLq87TQyLt-5k0asHQjgHUB2rzkjkDIY7q_0fJRdPP8-yF-liCVGje747HTsCgbG8rSA9VasZgvuLut7PeUAgVscEzfrFOCGU5BpvJI9SmHlKE3iB-ZJjBxRyNlioTTen2lZU8IhqiO-xuU4-MbO_6BO8eo4xGdTdbmKozcJgvZWjBKzrzAXsRd8aCS0AfwIu6_q03Huq5-dkRyJ9UWdVUx3tAAeoPLfKvKyyT2bOmPkyBZU9sL-YbfdUB9WqsqT8kw91bjcZvPBpnrgx3UAzsDA-_kxj9KzGkuzATKJxtbaGGFzBUJ6_4uPDsqA&key=REDACTED",
+      "width": 900,
+      "height": 1600,
+      "classification": "completed_project",
+      "pair_id": null,
+      "source_type": "google_places"
+    }
+  ],
+  "reviews": [
+    {
+      "text": "Called Ryan on a Thursday asking to come replace our induction hob, he asked if he could come over on the following Monday as he was busy until then, i explained how  I needed it sooner & despite being booked up he managed to fit the job in the very next day . Excellent job done at a very fair price.  Definitely recommend.",
+      "reviewer": "David",
+      "rating": 5
+    },
+    {
+      "text": "Called Ryan who came round, quoted the job and completed it to a very high standard. Changed all spot lights in the kitchen, fixed a fault and swapped out two other light fittings. Would highly recommend them, prompt, fast, great customer service and very good price. A+",
+      "reviewer": "Gareth",
+      "rating": 5
+    },
+    {
+      "text": "Ryan fitted a security light and did a great job. From the first communication, he was polite, friendly and punctual. Everything was straightforward and I was very happy with the cost of the job. Would recommend and use again!",
+      "reviewer": "Mark",
+      "rating": 5
+    },
+    {
+      "text": "Great Service. Ryan was really professional; efficient; and tidy.\nWe had a number of small electrical jobs that Ryan sorted to a high standard\nWe would happily recommend his company and will definitely use again",
+      "reviewer": "Annette",
+      "rating": 5
+    },
+    {
+      "text": "We had an issue with the non live wire at our boiler. Ryan sorted it out efficiently. He was reasonable with price, very clean and done an amazing job for us. Would highly recommend.",
+      "reviewer": "Zahid",
+      "rating": 5
+    }
+  ],
+  "social": {
+    "facebook": null,
+    "instagram": null,
+    "youtube": null,
+    "tiktok": null
+  },
+  "gallery_layout": "completed_project_gallery",
+  "photo_classification_summary": {
+    "completed_project": 10
+  },
+  "brand": {
+    "colours": [],
+    "logo_url": null,
+    "logo_local": null
+  },
+  "source_urls": [
+    "https://maps.google.com/?cid=1826696652184966720",
+    "https://www.instagram.com/rm.electrical_?igsh=azQ1Zm5pcjVldTBi",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3n36NjLWDdgYvyGsrD_LvytWU0u6uA_-5Z-_lFGTIzamzPXhra7vEQ-YqrjjiGZrnque9xEqGeQ3stAuHOcrW39hCsOiaAvzNnAe4kyt58JuO74y0v6kvb6kKgMMaFedAnWd7GconkqPtp271WnCaE460xjfavhzZgDCqZaFbKQOsZKDuwkk0JEQ9G81SJujdzeOjb3g3WwiwbCjKi47ZE9Diaji12aebbplYfxKS3zwto_Ksjc9NO8M2yTXVqpcoFbRjWRroNTgP_iH8Ax3objfPAuC7Bv2f2nPBiaO6Zm0Mdw3c-4HpgT8AhAt5QXOv9PfMUh0WKx2GHqEtBNSr93Na9truZIsnFlBMbQ5ZzyhooICoaRgknQgdUreDRC0TMSbhytKPlBC_ClJS5fJkvlN27FkTGnm_wA_vUqNAYzww&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3moof7-sG56ng_Bw8yWHTV6alPzrLyCAKn-_Ie4utUPp7p5CoLjrZDmaVHW6IXrDQXadJsAbLBhGw8jU3Z51Q6BPKLXq1hjCXRqdm5whq6EdxxB-PvxWw6bR8P6q9yQCXAYnNV-r7gbkz67HSW8p4SEq6lqN2qOTIldVVACzcJtsSNNWhTtZc3SKpcXf_x6qkXG1bmoM_FOfdXPDLfEBTG_AWTBF2TLrN5Wuo-JPmn9_AnnTtEcaGQ5swq7vN1FKqNf5rm_jlXHzlxKd2DfJy0TLPC7MYtYWRlFipMCvSgoLXMcqPjNNwv0K6zxOYhgahMCDgpbwdO_hpR4zRNYMlc6pyFKgemtiToHgcq9kHgYA0H2BOJhhFu9gMSKVKqBJ3MMh-8JjKOAFq4V7jYcIn0pfkxugDcHx5K0OLJAW9Mq7_X9GmAP1W5vLZAzPTIp&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3nJyRIseMZ--XbCCKP7aPydlo0OZTrkQKk_OUon6PfERuPbWqfHNVEasU4Q54mPW6t4nbiDWnbqwzBlV3jBMZd-jWhjTxuB8OC0w9Q51_DWwTG06Ty87DuoSkGsf1eB5qb_Tps8hWXeQWvxwwFhPDJV5kkaPRhyeqGjV89qjuyZkqyA1E1FnwKvhUUBIa2hiWt9N9xlubEsdM80yP_zl8vu8YZ0Sl8vSfjmXEBGvoi6sq0m8duGNXb8IJd3i5CawDdu4hpU6JHiedL8iNfxXKww2yr0nSjQS8WkjZX8KTFq96B2RQooE8rvitnrmTG61qugZ06q04UJgMZ2GCeyKlAIwHMqL_fdjMUBrPgGcBNnCg2YCJvX3eKuTsuMGoz78bH6vBGRD9oDBUqEBg7PV2_xjbzV43eARKVOr4oK1f8BKw&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3lK9TpS7fSZPYtuu6pi5IaGG8ZSHpK4DpvyILS6nlAsObPLoJLbRqkRICxFhnUh4xo28LV97w_ui9HtAM_LjaGjer2H_o4yGbilEq_i8S8rkWkJvo3bsiWAi79fIEPBKL6RBZ1fiAxw-bDiJfg_7BEcXLD4HSUJZ8oHRp4xXz_w3QjHjBCBdomMh24n8qW3AJkmng2ge60T41pfEULOkWenej_CJk-1JPOQq7duN584tIOFl1jX4nOEiBsLx3fJJl9TO17idRUx14g6-HZf9XvxPH8K5qcAI1JS9QfgHKgwlpTARs9Y9h6dyKAALqHmP5n4rVVLHsMsKnGqP6PnkDOwrcw5R3SvYaXQQm1cCEvF7wGHemLJXi6ccAMA3sTHIGaGdZkChfLXi1QlCT9Au5dzcDIwydf36jfOpnLG5folj-XH&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3lHSoI1YWwazJ2Fnnfseq173vzckWb6h9KTlpgd5Dx-uFRU4HxnJq36JzF-K_DWxTjy8vGIPpYW2H1bild-afPQnpZfuTcAL1DuzCKWUzYt__kg5LbjzvIUuhbjihnmn_RZFeZzK7w2_ngizCcZvLX5lTyDa43hPIQ3OSb_fvHl4lK5CYSB0m4vNlG625VHaMpqyQkp3gZZsmp9s2-IMFRgU-WrD-PbBeLyXTuwPjNRwNnWZDKg3QBj2B0jn2L9wTMpzkZNC_SijnLwSrOyR0WOn09RQwrrsbkKa4VbRyiogegqTt5yYffrUqxnPCFfXu_Eyd6fS55giFeZzENiFxyYvsZYubuvaf60SpXXYrwtUToRXywP6Ts39dZZWD-cSzkbfjeLj-YxjvPMdud_N3vTfzoLktRgKaXzSzNpx-e8YJJR&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3mmYi0NeKyewxw7Xo1xLDgtsUViPczTyP8YqucbyPD4ojpa8KKPciCH7I5jxkKWYTN0rpPn8afvZzzpKjO2wH5SYCBZQVXj0RcFnn7Ou5bU81xKp9xvUMt4zceTVjFpTlZUb0WfU7gDOP0lcjp_1FNhE3xtnT_LYRtMnGQPleeJspVf5duZWi2rrX4QSTu43Ly18aP8Kgh2cl4DG4yFVYJl9YDuhMNUIpS2P-E90lh0Tcj8m7KjzSdmItXJ9VD0nCRpizwWsYJTiZw16EsI1v0Le3aObcwFQTsR8R76yvEBt_XjFRkZRnVVxSWSnipC1azj4zq0Uz2xyqPCAQJp4SXBkxRDkDyF8IxUnYFJ0HKVMB1U3P17cCzDzb4ysVBfclxUFP3kmoT3Ve66W65ynFeSjFvtfyH7MXlmWKQ92sGo7qih&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3mH-8yqPljql1PAnTMgxqQB0b73I4zSLzm7D5tJD2ekDRSKyLmZ5MqimFI0reD1vHmdMwWkJzI_CGguR2Xpo31V_74Kpw-dyLviTSlZCu34yRjwLYRKUgWMiWVBBL1S1g9EmluTYfxnAFz-n5YjxUj5duehCkZ_B7nNvoetBedzHgh_NJIbKavweivOrRUqS3ESX8qYyWp1UT1h22yadqla9OTwVyhNikwGdCnKOjraRrSV2ibgRKSF8T90y47FqWA5o5OeZSIQUrM_glH4ag1eshvFFLYvXeIL508bGC_w5ybKjBJpRgGh67A7lrr7EujQAV8hA9wtYkeQFqIlXFZ0votnPdXYg5KrvYwDbEJK4z8uvFNzjFSUeUIp7slgJN_NcIwqr-n3HRNzcadkynsp8X7Y5IyjrpJw_zn4JfSuOv7s&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3l3a0SW84wGdxcwxMHLIaJHq-lahHwzwjS_6--NwADfpChOgkSyt3xgsVNCHONtwPjNHptvpxhGXZFDFtqv_Tp6l45hNND9larKIdd7ZCRB0tdNrkIu0Q_VOVw0tzocuatMGYXIsPP49bOBnbQk3QMZzNF8lzOJA-8N1hIhfaTPpdMNu5FgzlCnAZRxihilRWGL2o3nG1srY58AGP5xDMWmxUmRqEkgF3HlKFQulsDNF86miGNiiAQmqMUkhSKhVNUZ3IC7Nre9Hq0NS67TljRiDQod-JAUVDleCRPEHDtXIgN5M83YkeB5VU2fhjoZ0kEEH3gtuJa3naaqlLi-Tv7sSBgKbQ1HPpu8jT6sYeZtBo9dic9Hn7CdKMMXsFu7JKizB5cCe1rk6bVxPvbOnBrSanJqJrvhGeqDpSZakXrHGQ&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3kVMzqUa_KQvfXxf8ERrMsOpMin8SHaoYYOWsqE1NxQC7eIKqbehkiaqEgbesj_qpt9-3Q8aqQaqbyUW07VBEZVJZ7kcjiMivuo72TqzLy3BaIt0c0p1rS13Uc0S6Ufzs5gk_gIZTmVUHgJarQpsBntDGxJ4N-ICkXhp1kqMH6bud4GVw6M6mGDPUFYrXKq8MS3ODI8o3jAIeii1qwDl0d42hwHbUa9pd3dUNoOaR34SONO-3T-OKuKSMg8-tiVezati0_FyaiY-UgT2tf0z0HalQuOnsKe4Rf6NhepGWGSu5AnB4RdRvUyrUvpH9LpQYacA6zAeeDzZCDK5qAD8rfncAihsq0X9KxylWm4SP13XQeTQ0ovRszV1k94XKjF4KIQ4Nr2vAFxOF17mRKIRBwuhJ_a_vvpJGM66FSoMt1tpQ&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3nBriTKk9WQuIKh4jX8sCG-m3pcZd1Y0XBhLO13iY79MY_vdiBF4xR6-sdogLNmrx__Y3mE_KPor1LKFR-DkwNDDSVrQPn0_vyExcXtBrldXQVOLq87TQyLt-5k0asHQjgHUB2rzkjkDIY7q_0fJRdPP8-yF-liCVGje747HTsCgbG8rSA9VasZgvuLut7PeUAgVscEzfrFOCGU5BpvJI9SmHlKE3iB-ZJjBxRyNlioTTen2lZU8IhqiO-xuU4-MbO_6BO8eo4xGdTdbmKozcJgvZWjBKzrzAXsRd8aCS0AfwIu6_q03Huq5-dkRyJ9UWdVUx3tAAeoPLfKvKyyT2bOmPkyBZU9sL-YbfdUB9WqsqT8kw91bjcZvPBpnrgx3UAzsDA-_kxj9KzGkuzATKJxtbaGGFzBUJ6_4uPDsqA&key=REDACTED",
+    "https://scontent-lhr6-1.cdninstagram.com/v/t51.2885-19/362894581_1500288880743423_7287989397219016024_n.jpg?stp=dst-jpg_s100x100_tt6&amp;_nc_cat=103&amp;ccb=7-5&amp;_nc_sid=bf7eb4&amp;efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&amp;_nc_ohc=jcRtRHqdCEgQ7kNvwEIRTkN&amp;_nc_oc=AdoK8SMSIjxDuZmlR79G2FuWuh2GV6lk2TuJIYs4AYw85_7vBmCCM_9tBvW3ILnbOCnKVNrFf_d72oOGA1tZcXrg&amp;_nc_zt=24&amp;_nc_ht=scontent-lhr6-1.cdninstagram.com&amp;_nc_ss=7c689&amp;oh=00_Af_mkOVS3-j7mfA-cXtFsF2v1rHxJTMC-JXRcO4iO4Ixmg&amp;oe=6A30EE45"
+  ],
+  "notes": [
+    "owner_name not found in public sources",
+    "email not found in public sources",
+    "contact_name \"Ryan\" from 5 Google review mention(s) (high confidence); owner_name not set",
+    "contactability=CONTACTABLE",
+    "no email found, WhatsApp available",
+    "Photo discovery: 10/10 selected (Enough photos for photo-led layout)"
+  ],
+  "missing_fields": [
+    "owner_name",
+    "email",
+    "facebook",
+    "instagram"
+  ],
+  "invalid_website_candidates": [
+    "https://www.instagram.com/rm.electrical_?igsh=azQ1Zm5pcjVldTBi"
+  ],
+  "website_url_validation": {
+    "validated_at": "2026-06-11T22:04:18.311Z",
+    "issue": "social_as_official",
+    "note": "Social URL stored as website_url - reclassified as SOCIAL_OR_DIRECTORY_ONLY",
+    "previous_url": "https://www.instagram.com/rm.electrical_?igsh=azQ1Zm5pcjVldTBi"
+  },
+  "prospect_region": "Leeds",
+  "location_validation_status": "OK",
+  "directory_probes": [
+    {
+      "platform": "checkatrade",
+      "candidate_url": "https://www.checkatrade.com/trades/rm-electrical",
+      "status": "NOT_FOUND",
+      "confidence": "rejected",
+      "title": null,
+      "rating": null,
+      "review_count": null,
+      "phone_visible": false,
+      "verification_reasons": [],
+      "note": "search_deferred: RM ELECTRICAL Leeds LS4 2QR site:checkatrade.com"
+    },
+    {
+      "platform": "trustatrader",
+      "candidate_url": "https://www.trustatrader.com/traders/rm-electrical",
+      "status": "NOT_FOUND",
+      "confidence": "rejected",
+      "title": null,
+      "rating": null,
+      "review_count": null,
+      "phone_visible": false,
+      "verification_reasons": [],
+      "note": "search_deferred: RM ELECTRICAL Leeds LS4 2QR site:trustatrader.com"
+    },
+    {
+      "platform": "yell",
+      "candidate_url": "https://www.yell.com/biz/rm-electrical-leeds-ls4-2qr/",
+      "status": "NOT_FOUND",
+      "confidence": "rejected",
+      "title": null,
+      "rating": null,
+      "review_count": null,
+      "phone_visible": false,
+      "verification_reasons": [],
+      "note": "search_deferred: RM ELECTRICAL Leeds LS4 2QR site:yell.com"
+    },
+    {
+      "platform": "mybuilder",
+      "candidate_url": "https://www.mybuilder.com/profile/rm-electrical",
+      "status": "NOT_FOUND",
+      "confidence": "rejected",
+      "title": null,
+      "rating": null,
+      "review_count": null,
+      "phone_visible": false,
+      "verification_reasons": [],
+      "note": "search_deferred: RM ELECTRICAL Leeds LS4 2QR site:mybuilder.com"
+    },
+    {
+      "platform": "rated_people",
+      "candidate_url": "https://www.ratedpeople.com/profile/rm-electrical",
+      "status": "NOT_FOUND",
+      "confidence": "rejected",
+      "title": null,
+      "rating": null,
+      "review_count": null,
+      "phone_visible": false,
+      "verification_reasons": [],
+      "note": "search_deferred: RM ELECTRICAL Leeds LS4 2QR site:ratedpeople.com"
+    },
+    {
+      "platform": "houzz",
+      "candidate_url": "https://www.houzz.co.uk/professionals/rm-electrical",
+      "status": "NOT_FOUND",
+      "confidence": "rejected",
+      "title": null,
+      "rating": null,
+      "review_count": null,
+      "phone_visible": false,
+      "verification_reasons": [],
+      "note": "search_deferred: RM ELECTRICAL Leeds LS4 2QR site:houzz.co.uk"
+    },
+    {
+      "platform": "bark",
+      "candidate_url": "https://www.bark.com/en/gb/company/rm-electrical/",
+      "status": "NOT_FOUND",
+      "confidence": "rejected",
+      "title": null,
+      "rating": null,
+      "review_count": null,
+      "phone_visible": false,
+      "verification_reasons": [],
+      "note": "search_deferred: RM ELECTRICAL Leeds LS4 2QR site:bark.com"
+    },
+    {
+      "platform": "nextdoor",
+      "candidate_url": "https://nextdoor.co.uk/pages/rm-electrical/",
+      "status": "NOT_FOUND",
+      "confidence": "rejected",
+      "title": null,
+      "rating": null,
+      "review_count": null,
+      "phone_visible": false,
+      "verification_reasons": [],
+      "note": "search_deferred: RM ELECTRICAL Leeds LS4 2QR site:nextdoor.co.uk"
+    }
+  ],
+  "enrichment": {
+    "enriched_at": "2026-06-11T22:04:32.727Z",
+    "email_domain_checked": false,
+    "website_discovery_run": true
+  },
+  "lead_validity": {
+    "lead_validity_status": "INSUFFICIENT_EVIDENCE",
+    "lead_validity_reason": "Enrichment incomplete or source confidence too low",
+    "pitch_type": "manual_review",
+    "website_status": "SOCIAL_OR_DIRECTORY_ONLY",
+    "website_url": null,
+    "website_discovery_classification": null,
+    "email_domain_website": null,
+    "source_confidence_summary": {
+      "overall": "low",
+      "verified_platforms": [],
+      "rejected_platforms": [
+        "google_places"
+      ],
+      "notes": [
+        "No verified sources with medium or high confidence",
+        "1 source(s) rejected for low confidence"
+      ]
+    },
+    "ready_for_build": false,
+    "ready_for_design": false,
+    "ready_for_pitch": false,
+    "manual_review_required": true,
+    "has_real_website": false,
+    "truly_no_website": true,
+    "warnings": [
+      "Source enrichment not complete - run enrich:lead before build",
+      "Source confidence is low - lean site or manual review recommended"
+    ],
+    "manual_asset_status": "OK",
+    "pause_before_open_design": false,
+    "manual_asset_folder": "briefs/rm-electrical/images/manual/"
+  },
+  "source_quality": {
+    "source_quality_status": "FAIL",
+    "source_quality_reason": "Source enrichment not complete",
+    "website_url_validated": true,
+    "email_domain_checked": true,
+    "enrichment_complete": false,
+    "logo_discovery_attempted": true,
+    "photo_discovery_attempted": true,
+    "directory_probes_attempted": true,
+    "warnings": [
+      "Lead validity requires manual review"
+    ],
+    "blockers": [
+      "Source enrichment not complete"
+    ]
+  }
+}

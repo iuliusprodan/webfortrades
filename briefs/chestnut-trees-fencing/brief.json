@@ -1,0 +1,358 @@
+{
+  "business_name": "Chestnut Trees & Fencing",
+  "owner_name": null,
+  "contact_name": "Dan",
+  "contact_name_source": "google_reviews",
+  "contact_name_confidence": "high",
+  "contact_name_evidence_count": 3,
+  "contact_name_usage_allowed": true,
+  "possible_contact_name": null,
+  "phone": "07790 163439",
+  "email": null,
+  "phone_type": "mobile",
+  "whatsapp_candidate": true,
+  "email_available": false,
+  "whatsapp_available": "available",
+  "contactability_status": "CONTACTABLE",
+  "contactability_reason": "no email found, WhatsApp available",
+  "preferred_channel": "whatsapp",
+  "address": "1 New Estate, Newton St Cyres, Sweetham, Exeter EX5 5AR, UK",
+  "opening_hours": [
+    "Monday: 8:00 AM – 8:00 PM",
+    "Tuesday: 8:00 AM – 8:00 PM",
+    "Wednesday: 8:00 AM – 8:00 PM",
+    "Thursday: 8:00 AM – 8:00 PM",
+    "Friday: 8:00 AM – 8:00 PM",
+    "Saturday: Closed",
+    "Sunday: Closed"
+  ],
+  "services": [
+    "Building & construction",
+    "fencing"
+  ],
+  "services_meta": [
+    {
+      "name": "Building & construction",
+      "source": "google",
+      "direct": true
+    },
+    {
+      "name": "fencing",
+      "source": "niche",
+      "direct": false
+    }
+  ],
+  "service_confidence": "inferred",
+  "service_sources": [
+    "google",
+    "niche"
+  ],
+  "service_area": [
+    "Exeter",
+    "Newton St Cyres",
+    "Sweetham",
+    "Exeter EX5 5AR"
+  ],
+  "based_location": "Exeter, EX5",
+  "google_rating": 4.9,
+  "google_review_count": 57,
+  "google_review_count_sourced": true,
+  "service_areas_inferred": true,
+  "google_maps_url": "https://maps.google.com/?cid=13688766968420209735",
+  "website_status": "NO_WEBSITE",
+  "website_check_notes": "google_places_website=empty; website_url empty",
+  "website_url": null,
+  "photos": [
+    {
+      "local": "images/02-places.webp",
+      "source_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3l_pvTVpsUGNUr0amvmVvfdkiHu_7S9g65JPCaRAWLddNEYqeM58aCdbjVp-vWPhK6SLoHtzoXx3giPaYGLNaX66n9bwkSg-2ASprRvopm1SBHYurbvQLkJE_S-sU49CgBcifzzyB6o3XBymMeEHfAiA62JLubKtk1PWtht1fxa_IDyNlodHQEaYiiLhnb7FCpiBiVnXNkCFs8_mjPYRfVqPDOAh6BPoF7clVpj6-4K7NbAEr6LzxFyx3z3ZpJg7RVb82QlUFoz2sQr4SBXV3McHhXfVFOYnHe4A-N0uJU_Xq7pi2w-3PKZf8HWgZw0bdkV1oRx70q_RwU5APyWxb3p4odY4GsDqS_pW0e7iiW--R-SAfE9WY99gJwUf1Tv3Hz0SNsO2AKwYzHvei7LTuAqYUKodB6TdpDtgZlG41wYfIztq5u-h4-1Qh9yGssa&key=REDACTED",
+      "width": 1200,
+      "height": 1600,
+      "classification": "completed_project",
+      "pair_id": null,
+      "source_type": "google_places"
+    },
+    {
+      "local": "images/03-places.webp",
+      "source_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3mf35DoLgPwlV8ZiHB1PxAqpcPgyh3FpCOnFHZREZ-ltpYKvf9Ptkxfj9q-JevseqFd9e4Iisna8bLC12jhtK4KfaFnF6a7bwCEFZq_GvpPFLud_HqHxKACqHZ0WzQ1xTEipRWvZun1zd__IzuaAaFl67CM4vR6HheYVgWFp1lPnlvMUXUCcDhZ3lMxVRntgSThELjf1TPF9zmTM_QVfm34FBzXIoadPjRzFIUMi0a-ENGC9WAf4wN_DUi3YGR5251fagc-6t0ELpkrDhPYfR75oSE1W0lQOtzkbAF4tcwhUEJy32JlvsLZTp8NAG3nrlZpsZ1JAB9dEVXwDgroKPHH5eDW90s2VVmXwf3vmp4fv-aGikjwQjKXtHzn9-aFOqGQQLfQI7ZweaL20fVW037y72NYO5lb0XJ9ZHirX8fjgTbPjVuGsLHwshqA_w&key=REDACTED",
+      "width": 1600,
+      "height": 1205,
+      "classification": "completed_project",
+      "pair_id": null,
+      "source_type": "google_places"
+    },
+    {
+      "local": "images/04-places.webp",
+      "source_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3mZq3_izVNVEFRy4S8CyFaiqTCyn-D737kO95TtwXVRsc6g-bTT2Xltr-kxTzqgCwx07WXtcRsATMM_vJ5PBm8QUGOtBWMLAFUWVov7e0rjYx5oCHlGviNYpQdXKAqqr2Dh7gdXNKibl9E6wcfYWIotv-DMpfUhN9BB5UQmWiAXNhL4Rc5J2wcMtqWAN7hEwga6Jfb5Pij-XiEkkLbcmicIMpsIvotrTSi-VI0wkR6iQkH859dWxvXF7Y7jBuleupkGl8LT_JjJI_7F9XWbzG4V4OgMOXcjx0i92Nhae4C99-tGDi1aKJey9-03UecW-dT2NDfIrKRFyiejPOfEBykXL6-VWkpTDKdLylVMdH37A7Zvl7zPwcCBxioyXrAaRXwt5iIzBWffZmR2P5AuNBK8CTbU8551ChxVXXEntbQO2Eptped0Mdd3rvWhH2p8&key=REDACTED",
+      "width": 1200,
+      "height": 1600,
+      "classification": "completed_project",
+      "pair_id": null,
+      "source_type": "google_places"
+    },
+    {
+      "local": "images/05-places.webp",
+      "source_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3k1f5-4-StLz5nlJCZtPTzDqZSgerXDDA8z1ZioXNGE_4M2OFJqXC7g3J2wHeOqxgZYQwQi0pHhrjbB-xRj9omDWDUQvbsIQAtuWtJddkudt5wE3z8RR-k1ke-Hqbn9V-X13YCCG5jQAHTrjHbAtzKKQdTT_6i_uWSdI-5iYgDGjN_dsUMZnQZqA7YBNLytyo9RX47mJtdAxrVWwtAN_kgSGdcfUWl0ShVDWr9ptNFa_jwXOMZxZxxWF39twyctOM7RH7HVelSV0KxWd3FFfrnEsjoEc6id7WNR1QgFOhfwKviymrQ20deCeH-5YJX02rGEtsJ-xKFMuZvofDXXlgubvtvZkiaMd1rNqYlTpdhHd3rWoccv-r0dii6yXt8G3GDGDhZzEEdBNrEDNP_QDlODXarj71GW3Hg8meehkBUIVRaq&key=REDACTED",
+      "width": 1600,
+      "height": 1200,
+      "classification": "completed_project",
+      "pair_id": null,
+      "source_type": "google_places"
+    },
+    {
+      "local": "images/06-places.webp",
+      "source_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3nhL21FwVjDcBr57OX7b9z4br7GRgeCfyq4qYQlw6EsgkuGY4KzrgU95o6w3BfMxCSmJUSzT5xP_xCA2AVYM0ZNv3M8Jz-tAuFmUjhVK1xYKLTLTAuOXe7mxFrr2pmFua-H5Mf3Oe45sVyRvC4pel4i-Zm9REcz2HrXVrLSJ2WG1aDXQMGmcf6Os7pzrQ9oBpTyVwcPm6r2LgPoGbIPym8pcs7Ya7RcNthD7pDazJF5eJQBs2yQD3xdxOjXuDyhheG9sdCe7ci5oQHIIkYlbHQGIsoiWrU-WfqPYIpBfx2p_Yp8mut_Sqm_424WoIpTCsPcniELeyGrIxLq4SF6Wq9Wb2zpcV4gka_awr3lVkmoaLNAS1i48br3EmyhQCpuo-5dl2kyuJJ5Xu3YvPDVIAcEd72HlBHxKeogAU4R2FVo8Ui9&key=REDACTED",
+      "width": 1200,
+      "height": 1200,
+      "classification": "completed_project",
+      "pair_id": null,
+      "source_type": "google_places"
+    },
+    {
+      "local": "images/07-places.webp",
+      "source_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3lu9Al_LkNEPjNhz_LLb5uK6YigS00d4bPvIv7dXGgDg5gwBFTmyk8LgLyIjLHeH1gOddWtPSyrl1k3j9d26PSXfJWd1ApWifPzQW15tV1GsiMhH1e3wZgn8VdZgEwTsT85bmbS7y7H7TPEfnje7YSfBFIFDrY8EnayKh2uqPrWKpGIHr9uANFoV6W96iHq_TNTuoFqEVkCXPtJP6iDB8WF1TP02vZBXmUwzY8RHLBLkLIToknI90hUQtYC4E08X-YrQUOEgyjCgNlhcNiD3PkQEA5mq7wzySztxxNT5ir3iuv7ZvdkU3q0g0jPjQb03xehag5M-OnOiAAvCwlQ7DxqYySU-FadCVkRMmT6HcJ8xYsePcU4yqKeAev02Y9Z7pCGs3j5J0YiUhXa2LPlEHhAyu-EEewTD6u5FOP4QWHlo1E&key=REDACTED",
+      "width": 1200,
+      "height": 1200,
+      "classification": "completed_project",
+      "pair_id": null,
+      "source_type": "google_places"
+    },
+    {
+      "local": "images/08-places.webp",
+      "source_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3lzAljUHE7dVzGoxYaRFe5MPV3ELvIPE15x235Pbl8ag0F9c_5PbW-Sj924xx8SJt6Mv-3l6nCM4cUlTfO2RyUGhaqL4gOqPNtvFyqqiAR02AUninFI6hLSrYL0o7zrTEXXcV2XWwzQid6zU5ggQfLmFPcFrlJQxfYfaFfrV4olCeBhjeyIpJashHDRMZiTLOi_xAkZrFP_kPLl6NDgQvKsoQ-MPyR-An8u1j5PuIagOJP7mNzIoYI7t3EUHpqmAB-9oLc0ikWf910pLS-luXx75OEh5ruGS58XM-q0rJwnjsub_bJsLvx80BecB-vmUlxTAgvtxAn8MtXUJW_8V06EYM5wLvuqZXzs89OKhZ_V-MMR2nQTjcd2FZxPrWZQoWkZSn6h54c5RBKyhVXD9Bzk8xyrKbEPd4eCyWu547zi5Bo8OFuDwrFGM5xly7VU&key=REDACTED",
+      "width": 1600,
+      "height": 1205,
+      "classification": "completed_project",
+      "pair_id": null,
+      "source_type": "google_places"
+    }
+  ],
+  "reviews": [
+    {
+      "text": "Yesterday Chestnut Trees came to fell one large tree and reduce a second by 50% in our garden. They did it in one day.\n\nThey cut the felled tree and branches into workable pieces which I can now easily cut into logs.\n\nThey machine chipped the smaller branches making a great mound of wood chipping which I can use as a mulch around the garden.\n\nThe logs were stacked and everything was cleared up very thoroughly.\n\nDan was very knowledgeable and gave us good advice before and during the job. This was helpful in us making the best decisions about what to do.\n\nDan was very mindful of what we wanted and listened carefully during discussions. He was friendly and highly skilled in his craft. We were blown away watching him climb our huge trees so effortlessly.\n\nWe can highly recommend Chestnut Trees for any large or small jobs. A highly professional company who we are very happy to use again and to recommend to others.",
+      "reviewer": "joe",
+      "rating": 5
+    },
+    {
+      "text": "Chestnut trees have just complete cutting a number of trees on my property, it appeared to me a very tricky operation in a confined area with overhead cables, and neighbours fences to consider.   They calmly and professionally completed the job and left the garden tidy.  They were very communicative, polite and accommodating and I would have no hesitation in recommending them to anyone.",
+      "reviewer": "AWT",
+      "rating": 5
+    },
+    {
+      "text": "Chestnut trees came to remove large Horse chestnut tree that had died.\nDan is amazing ,climbing up into the canopy of the tree to remove branches, everything was cleared away and left tidy. A very hardworking ,and tidy work man. Thank you for all your hard work",
+      "reviewer": "Helen",
+      "rating": 5
+    },
+    {
+      "text": "Chestnut Trees have been doing my hedges for\nSeveral years, reliable, and so tidy, everything cleared away. My hedges look pristine again after my annual trim. My neighbours are so impressed they have given them work also. Thanks so much Dan\nGreat job.",
+      "reviewer": "Helen",
+      "rating": 5
+    },
+    {
+      "text": "So happy with chestnut trees. They worked extremely quickly and did an excellent job clearing up afterwards. This is despite the fact our site and access is a bit challenging.",
+      "reviewer": "Andrew",
+      "rating": 5
+    }
+  ],
+  "social": {
+    "facebook": null,
+    "instagram": null,
+    "youtube": null,
+    "tiktok": null
+  },
+  "gallery_layout": "completed_project_gallery",
+  "photo_classification_summary": {
+    "completed_project": 7
+  },
+  "brand": {
+    "colours": [],
+    "logo_url": null,
+    "logo_local": null
+  },
+  "source_urls": [
+    "https://maps.google.com/?cid=13688766968420209735",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3nDut3cNazC4PsaxUk9Arvq8_qc0jGhletgM4i03Xh1ePkBjzV9yVUQeAS2xs6Czq81HUV4hRdT_RNqZHZ4SgdmiVjJfWEslYphLsbX4hKTDLw5MxhIKoBPEELE3LZ43lJ41JtkQB5Kcp-4OMVdKpRVz7ZzfjU9DEW2zkM93vTuuhHmRNU6KUIsIrvSmprFDDVHOYqYW5OPMARzCPd7W1VICq3qCVqim7lctWgJuEmVBnXDXDYAWjEyhnybnPPGcsXdTuQ_50OdUcqz8LchzdXhE7IWJFtcuObA46JkEc05y3HZfTdkkQ92dFzc-fZiqGe1uiAb42khI41Up_JWVmoKTvnBzKuhZJQwtNdWOqijwzG7breb9v00R083gyL_9MmigR7mB1yDLRFJt-4Q0_bM8iRZ7KX4Rb0Yc2K7_wND6w&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3l_pvTVpsUGNUr0amvmVvfdkiHu_7S9g65JPCaRAWLddNEYqeM58aCdbjVp-vWPhK6SLoHtzoXx3giPaYGLNaX66n9bwkSg-2ASprRvopm1SBHYurbvQLkJE_S-sU49CgBcifzzyB6o3XBymMeEHfAiA62JLubKtk1PWtht1fxa_IDyNlodHQEaYiiLhnb7FCpiBiVnXNkCFs8_mjPYRfVqPDOAh6BPoF7clVpj6-4K7NbAEr6LzxFyx3z3ZpJg7RVb82QlUFoz2sQr4SBXV3McHhXfVFOYnHe4A-N0uJU_Xq7pi2w-3PKZf8HWgZw0bdkV1oRx70q_RwU5APyWxb3p4odY4GsDqS_pW0e7iiW--R-SAfE9WY99gJwUf1Tv3Hz0SNsO2AKwYzHvei7LTuAqYUKodB6TdpDtgZlG41wYfIztq5u-h4-1Qh9yGssa&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3mf35DoLgPwlV8ZiHB1PxAqpcPgyh3FpCOnFHZREZ-ltpYKvf9Ptkxfj9q-JevseqFd9e4Iisna8bLC12jhtK4KfaFnF6a7bwCEFZq_GvpPFLud_HqHxKACqHZ0WzQ1xTEipRWvZun1zd__IzuaAaFl67CM4vR6HheYVgWFp1lPnlvMUXUCcDhZ3lMxVRntgSThELjf1TPF9zmTM_QVfm34FBzXIoadPjRzFIUMi0a-ENGC9WAf4wN_DUi3YGR5251fagc-6t0ELpkrDhPYfR75oSE1W0lQOtzkbAF4tcwhUEJy32JlvsLZTp8NAG3nrlZpsZ1JAB9dEVXwDgroKPHH5eDW90s2VVmXwf3vmp4fv-aGikjwQjKXtHzn9-aFOqGQQLfQI7ZweaL20fVW037y72NYO5lb0XJ9ZHirX8fjgTbPjVuGsLHwshqA_w&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3mZq3_izVNVEFRy4S8CyFaiqTCyn-D737kO95TtwXVRsc6g-bTT2Xltr-kxTzqgCwx07WXtcRsATMM_vJ5PBm8QUGOtBWMLAFUWVov7e0rjYx5oCHlGviNYpQdXKAqqr2Dh7gdXNKibl9E6wcfYWIotv-DMpfUhN9BB5UQmWiAXNhL4Rc5J2wcMtqWAN7hEwga6Jfb5Pij-XiEkkLbcmicIMpsIvotrTSi-VI0wkR6iQkH859dWxvXF7Y7jBuleupkGl8LT_JjJI_7F9XWbzG4V4OgMOXcjx0i92Nhae4C99-tGDi1aKJey9-03UecW-dT2NDfIrKRFyiejPOfEBykXL6-VWkpTDKdLylVMdH37A7Zvl7zPwcCBxioyXrAaRXwt5iIzBWffZmR2P5AuNBK8CTbU8551ChxVXXEntbQO2Eptped0Mdd3rvWhH2p8&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3k1f5-4-StLz5nlJCZtPTzDqZSgerXDDA8z1ZioXNGE_4M2OFJqXC7g3J2wHeOqxgZYQwQi0pHhrjbB-xRj9omDWDUQvbsIQAtuWtJddkudt5wE3z8RR-k1ke-Hqbn9V-X13YCCG5jQAHTrjHbAtzKKQdTT_6i_uWSdI-5iYgDGjN_dsUMZnQZqA7YBNLytyo9RX47mJtdAxrVWwtAN_kgSGdcfUWl0ShVDWr9ptNFa_jwXOMZxZxxWF39twyctOM7RH7HVelSV0KxWd3FFfrnEsjoEc6id7WNR1QgFOhfwKviymrQ20deCeH-5YJX02rGEtsJ-xKFMuZvofDXXlgubvtvZkiaMd1rNqYlTpdhHd3rWoccv-r0dii6yXt8G3GDGDhZzEEdBNrEDNP_QDlODXarj71GW3Hg8meehkBUIVRaq&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3nhL21FwVjDcBr57OX7b9z4br7GRgeCfyq4qYQlw6EsgkuGY4KzrgU95o6w3BfMxCSmJUSzT5xP_xCA2AVYM0ZNv3M8Jz-tAuFmUjhVK1xYKLTLTAuOXe7mxFrr2pmFua-H5Mf3Oe45sVyRvC4pel4i-Zm9REcz2HrXVrLSJ2WG1aDXQMGmcf6Os7pzrQ9oBpTyVwcPm6r2LgPoGbIPym8pcs7Ya7RcNthD7pDazJF5eJQBs2yQD3xdxOjXuDyhheG9sdCe7ci5oQHIIkYlbHQGIsoiWrU-WfqPYIpBfx2p_Yp8mut_Sqm_424WoIpTCsPcniELeyGrIxLq4SF6Wq9Wb2zpcV4gka_awr3lVkmoaLNAS1i48br3EmyhQCpuo-5dl2kyuJJ5Xu3YvPDVIAcEd72HlBHxKeogAU4R2FVo8Ui9&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3lu9Al_LkNEPjNhz_LLb5uK6YigS00d4bPvIv7dXGgDg5gwBFTmyk8LgLyIjLHeH1gOddWtPSyrl1k3j9d26PSXfJWd1ApWifPzQW15tV1GsiMhH1e3wZgn8VdZgEwTsT85bmbS7y7H7TPEfnje7YSfBFIFDrY8EnayKh2uqPrWKpGIHr9uANFoV6W96iHq_TNTuoFqEVkCXPtJP6iDB8WF1TP02vZBXmUwzY8RHLBLkLIToknI90hUQtYC4E08X-YrQUOEgyjCgNlhcNiD3PkQEA5mq7wzySztxxNT5ir3iuv7ZvdkU3q0g0jPjQb03xehag5M-OnOiAAvCwlQ7DxqYySU-FadCVkRMmT6HcJ8xYsePcU4yqKeAev02Y9Z7pCGs3j5J0YiUhXa2LPlEHhAyu-EEewTD6u5FOP4QWHlo1E&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3lzAljUHE7dVzGoxYaRFe5MPV3ELvIPE15x235Pbl8ag0F9c_5PbW-Sj924xx8SJt6Mv-3l6nCM4cUlTfO2RyUGhaqL4gOqPNtvFyqqiAR02AUninFI6hLSrYL0o7zrTEXXcV2XWwzQid6zU5ggQfLmFPcFrlJQxfYfaFfrV4olCeBhjeyIpJashHDRMZiTLOi_xAkZrFP_kPLl6NDgQvKsoQ-MPyR-An8u1j5PuIagOJP7mNzIoYI7t3EUHpqmAB-9oLc0ikWf910pLS-luXx75OEh5ruGS58XM-q0rJwnjsub_bJsLvx80BecB-vmUlxTAgvtxAn8MtXUJW_8V06EYM5wLvuqZXzs89OKhZ_V-MMR2nQTjcd2FZxPrWZQoWkZSn6h54c5RBKyhVXD9Bzk8xyrKbEPd4eCyWu547zi5Bo8OFuDwrFGM5xly7VU&key=REDACTED"
+  ],
+  "notes": [
+    "owner_name not found in public sources",
+    "email not found in public sources",
+    "contact_name \"Dan\" from 3 Google review mention(s) (high confidence); owner_name not set",
+    "contactability=CONTACTABLE",
+    "no email found, WhatsApp available",
+    "Photo discovery: 7/7 selected (Enough photos for photo-led layout)"
+  ],
+  "missing_fields": [
+    "owner_name",
+    "email",
+    "facebook",
+    "instagram"
+  ],
+  "invalid_website_candidates": [],
+  "website_url_validation": {
+    "validated_at": "2026-06-11T22:04:49.969Z",
+    "issue": "empty",
+    "note": "website_url empty",
+    "previous_url": null
+  },
+  "prospect_region": "Exeter",
+  "location_validation_status": "OK",
+  "directory_probes": [
+    {
+      "platform": "checkatrade",
+      "candidate_url": "https://www.checkatrade.com/trades/chestnut-trees-fencing",
+      "status": "NOT_FOUND",
+      "confidence": "rejected",
+      "title": null,
+      "rating": null,
+      "review_count": null,
+      "phone_visible": false,
+      "verification_reasons": [],
+      "note": "search_deferred: Chestnut Trees & Fencing Exeter EX5 5AR site:checkatrade.com"
+    },
+    {
+      "platform": "trustatrader",
+      "candidate_url": "https://www.trustatrader.com/traders/chestnut-trees-fencing",
+      "status": "NOT_FOUND",
+      "confidence": "rejected",
+      "title": null,
+      "rating": null,
+      "review_count": null,
+      "phone_visible": false,
+      "verification_reasons": [],
+      "note": "search_deferred: Chestnut Trees & Fencing Exeter EX5 5AR site:trustatrader.com"
+    },
+    {
+      "platform": "yell",
+      "candidate_url": "https://www.yell.com/biz/chestnut-trees-fencing-exeter-ex5-5ar/",
+      "status": "NOT_FOUND",
+      "confidence": "rejected",
+      "title": null,
+      "rating": null,
+      "review_count": null,
+      "phone_visible": false,
+      "verification_reasons": [],
+      "note": "search_deferred: Chestnut Trees & Fencing Exeter EX5 5AR site:yell.com"
+    },
+    {
+      "platform": "mybuilder",
+      "candidate_url": "https://www.mybuilder.com/profile/chestnut-trees-fencing",
+      "status": "NOT_FOUND",
+      "confidence": "rejected",
+      "title": null,
+      "rating": null,
+      "review_count": null,
+      "phone_visible": false,
+      "verification_reasons": [],
+      "note": "search_deferred: Chestnut Trees & Fencing Exeter EX5 5AR site:mybuilder.com"
+    },
+    {
+      "platform": "rated_people",
+      "candidate_url": "https://www.ratedpeople.com/profile/chestnut-trees-fencing",
+      "status": "NOT_FOUND",
+      "confidence": "rejected",
+      "title": null,
+      "rating": null,
+      "review_count": null,
+      "phone_visible": false,
+      "verification_reasons": [],
+      "note": "search_deferred: Chestnut Trees & Fencing Exeter EX5 5AR site:ratedpeople.com"
+    },
+    {
+      "platform": "houzz",
+      "candidate_url": "https://www.houzz.co.uk/professionals/chestnut-trees-fencing",
+      "status": "NOT_FOUND",
+      "confidence": "rejected",
+      "title": null,
+      "rating": null,
+      "review_count": null,
+      "phone_visible": false,
+      "verification_reasons": [],
+      "note": "search_deferred: Chestnut Trees & Fencing Exeter EX5 5AR site:houzz.co.uk"
+    },
+    {
+      "platform": "bark",
+      "candidate_url": "https://www.bark.com/en/gb/company/chestnut-trees-fencing/",
+      "status": "NOT_FOUND",
+      "confidence": "rejected",
+      "title": null,
+      "rating": null,
+      "review_count": null,
+      "phone_visible": false,
+      "verification_reasons": [],
+      "note": "search_deferred: Chestnut Trees & Fencing Exeter EX5 5AR site:bark.com"
+    },
+    {
+      "platform": "nextdoor",
+      "candidate_url": "https://nextdoor.co.uk/pages/chestnut-trees-fencing/",
+      "status": "NOT_FOUND",
+      "confidence": "rejected",
+      "title": null,
+      "rating": null,
+      "review_count": null,
+      "phone_visible": false,
+      "verification_reasons": [],
+      "note": "search_deferred: Chestnut Trees & Fencing Exeter EX5 5AR site:nextdoor.co.uk"
+    }
+  ],
+  "enrichment": {
+    "enriched_at": "2026-06-11T22:04:53.647Z",
+    "email_domain_checked": false,
+    "website_discovery_run": true
+  },
+  "lead_validity": {
+    "lead_validity_status": "INSUFFICIENT_EVIDENCE",
+    "lead_validity_reason": "Enrichment incomplete or source confidence too low",
+    "pitch_type": "manual_review",
+    "website_status": "NO_WEBSITE",
+    "website_url": null,
+    "website_discovery_classification": null,
+    "email_domain_website": null,
+    "source_confidence_summary": {
+      "overall": "low",
+      "verified_platforms": [],
+      "rejected_platforms": [
+        "google_places"
+      ],
+      "notes": [
+        "No verified sources with medium or high confidence",
+        "1 source(s) rejected for low confidence"
+      ]
+    },
+    "ready_for_build": false,
+    "ready_for_design": false,
+    "ready_for_pitch": false,
+    "manual_review_required": true,
+    "has_real_website": false,
+    "truly_no_website": true,
+    "warnings": [
+      "Source enrichment not complete - run enrich:lead before build",
+      "Source confidence is low - lean site or manual review recommended"
+    ],
+    "manual_asset_status": "OK",
+    "pause_before_open_design": false,
+    "manual_asset_folder": "briefs/chestnut-trees-fencing/images/manual/"
+  },
+  "source_quality": {
+    "source_quality_status": "FAIL",
+    "source_quality_reason": "Source enrichment not complete",
+    "website_url_validated": true,
+    "email_domain_checked": true,
+    "enrichment_complete": false,
+    "logo_discovery_attempted": true,
+    "photo_discovery_attempted": true,
+    "directory_probes_attempted": true,
+    "warnings": [
+      "Lead validity requires manual review"
+    ],
+    "blockers": [
+      "Source enrichment not complete"
+    ]
+  }
+}

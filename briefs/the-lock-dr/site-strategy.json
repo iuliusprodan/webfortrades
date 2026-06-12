@@ -1,0 +1,46 @@
+{
+  "slug": "the-lock-dr",
+  "business_angle": "The Lock Dr centred on bathroom refits and installations in Southampton, SO52",
+  "customer_praise_themes": [
+    "quality workmanship",
+    "reliable attendance",
+    "strong recommendations",
+    "bathroom and refit work"
+  ],
+  "named_people": [
+    "Steve"
+  ],
+  "distinctive_phrases": [
+    "We were having problems with closing our front door, and subsequently opening it, which became a real issue one evening",
+    "He also asked if all of our other locks were ok once he’d finished",
+    "I needed a locksmith to change my mum's locks as she was left vulnerable",
+    "I can't recommend The Lock Dr enough",
+    "I called Steve out for a lock that had seized all weekend"
+  ],
+  "strongest_review_quote": {
+    "text": "We were having problems with closing our front door, and subsequently opening it, which became a real issue one evening. Spoke to Steve on the phone, and he gave us some options to try to resolve the problem, and he then came out to us the following day and fixed it. He also asked if all of our other locks were ok once he’d finished. We’d been having a few minor issues with our bathroom lock, so he sorted that, too. Nothing is too much trouble for him, and he was very knowledgeable and courteous",
+    "author": "Debbie",
+    "source": "google",
+    "url": "https://maps.google.com/?cid=5408751554141722089"
+  },
+  "strongest_proof_source": {
+    "platform": "google",
+    "metric": "5 rating, 41 reviews",
+    "url": "https://maps.google.com/?cid=5408751554141722089"
+  },
+  "best_photos_rationale": "No usable photos - proof-led layout required",
+  "claims_to_avoid": [
+    "Supplier names as job locations in captions",
+    "Invented service areas"
+  ],
+  "pitch_hook_summary": "Lead with review detail about quality workmanship (Debbie)",
+  "personality": "local",
+  "evidence_strength": "moderate",
+  "suggested_site_mood": "local, calm, review-led",
+  "suggested_proof_hierarchy": [
+    "google_rating_reviews"
+  ],
+  "pitch_insight_seed": "Lead with review detail about quality workmanship (Debbie)",
+  "trade": "Locksmith",
+  "location": "Southampton, SO52"
+}

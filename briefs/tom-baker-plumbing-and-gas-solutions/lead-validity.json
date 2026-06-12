@@ -1,0 +1,34 @@
+{
+  "lead_validity_status": "PASS_WITH_WARNINGS",
+  "lead_validity_reason": "Enrichment incomplete or source confidence too low",
+  "pitch_type": "manual_review",
+  "website_status": "BROKEN_OR_BAD_SITE",
+  "website_url": "http://www.tombakerplumbingandgas.co.uk/",
+  "website_discovery_classification": "BROKEN_OR_BAD_SITE",
+  "email_domain_website": null,
+  "source_confidence_summary": {
+    "overall": "medium",
+    "verified_platforms": [
+      "google_places",
+      "email_domain_website"
+    ],
+    "rejected_platforms": [],
+    "notes": []
+  },
+  "ready_for_build": true,
+  "ready_for_design": true,
+  "ready_for_pitch": false,
+  "manual_review_required": true,
+  "has_real_website": false,
+  "truly_no_website": true,
+  "warnings": [
+    "Source enrichment not complete - run enrich:lead before build",
+    "Very few photos - use proof-led or typography-led layout",
+    "Batch waiver 2026-06-11: Google Places plus broken_or_domain_probe"
+  ],
+  "manual_asset_status": "OK",
+  "pause_before_open_design": false,
+  "manual_asset_folder": "briefs/tom-baker-plumbing-and-gas-solutions/images/manual/",
+  "batch_waiver_applied": true,
+  "batch_waiver_note": "Batch waiver 2026-06-11: Google Places plus broken_or_domain_probe"
+}

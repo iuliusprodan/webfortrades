@@ -1,0 +1,8 @@
+ported=2026-06-11T23:55:00Z
+source=open-design-artifacts/tom-baker-plumbing-and-gas-solutions/
+reference=docs/open-design-next-porting-notes.md
+agent=cursor-agent
+fonts=next/font/google Plus Jakarta Sans (display + body)
+images=briefs/tom-baker-plumbing-and-gas-solutions/images/*.webp -> public/assets/images/
+section_ids=review-led-hero,stats-sourced-only,emergency-callout,service-explainers,featured-review-story,process-section,review-wall,local-coverage,simple-contact,quote-form
+notes=Address privacy: public copy uses Bristol BS15 only (no street). Primary CTA links to #quote. Mobile sticky bar added per pipeline rules.

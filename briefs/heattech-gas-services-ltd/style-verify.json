@@ -1,0 +1,90 @@
+{
+  "slug": "heattech-gas-services-ltd",
+  "updated_at": "2026-06-12T00:30:08.723Z",
+  "url": "https://heattech-gas-services-ltd.vercel.app",
+  "ok": false,
+  "screenshot": "/Users/iuliusprodan/.cursor/website/screenshots/heattech-gas-services-ltd/live-verify.png",
+  "stylesheet": {
+    "bytes": 38277,
+    "hasPreflight": true,
+    "hasUtilities": true,
+    "utilityMarkers": [
+      ".flex",
+      ".grid",
+      ".mx-auto",
+      ".items-center",
+      ".justify-",
+      ".max-w-",
+      ".px-/.py-",
+      ".rounded",
+      ".gap-"
+    ]
+  },
+  "metrics": {
+    "bodyFontFamily": "\"DM Sans\", \"DM Sans Fallback\", -apple-system, \"system-ui\", \"Segoe UI\", system-ui, sans-serif, -apple-system, \"system-ui\", \"Segoe UI\", system-ui, sans-serif",
+    "bodyBoxSizing": "border-box",
+    "bodyMarginTop": 0,
+    "bodyMarginLeft": 0,
+    "appliedRuleCount": 779,
+    "styleSheetCount": 1,
+    "biggestGraphic": {
+      "tag": "IMG",
+      "w": 1140,
+      "h": 1520,
+      "src": "https://heattech-gas-services-ltd.vercel.app/assets/images/10-places.webp"
+    },
+    "primaryButton": {
+      "found": true,
+      "background": "rgba(0, 0, 0, 0)",
+      "borderRadius": "8px",
+      "paddingTop": "0px"
+    },
+    "bodyText": "Heattech Gas Services Ltd\nEDINBURGH · BUILDING & CONSTRUCTION\nServices\nWork\nReviews\nContact\n07506 042175\nGet a quote\n“I have had both Brett and Ryan visit on separate issues with my boiler.”\nGoogle review\n\nHeattech Gas Services Ltd serves Edinburgh EH15 for building, plumbing, heating and gas work.\n"
+  },
+  "css_assets": [
+    {
+      "url": "https://heattech-gas-services-ltd.vercel.app/_next/static/css/395f6e884ac2a2af.css",
+      "status": 200,
+      "bytes": 38277
+    }
+  ],
+  "js_assets": [
+    {
+      "url": "https://heattech-gas-services-ltd.vercel.app/_next/static/chunks/4bd1b696-c023c6e3521b1417.js",
+      "status": 200,
+      "bytes": 173019
+    },
+    {
+      "url": "https://heattech-gas-services-ltd.vercel.app/_next/static/chunks/255-eb4aecc3ff015961.js",
+      "status": 200,
+      "bytes": 173611
+    },
+    {
+      "url": "https://heattech-gas-services-ltd.vercel.app/_next/static/chunks/main-app-f9b5d20365cb8be2.js",
+      "status": 200,
+      "bytes": 557
+    },
+    {
+      "url": "https://heattech-gas-services-ltd.vercel.app/_next/static/chunks/app/page-f32dad73367ebfb0.js",
+      "status": 200,
+      "bytes": 4204
+    },
+    {
+      "url": "https://heattech-gas-services-ltd.vercel.app/_next/static/chunks/polyfills-42372ed130431b0a.js",
+      "status": 200,
+      "bytes": 112594
+    },
+    {
+      "url": "https://heattech-gas-services-ltd.vercel.app/_next/static/chunks/webpack-e3d2a0c01dbd01af.js",
+      "status": 200,
+      "bytes": 3769
+    }
+  ],
+  "failed_assets": [],
+  "issues": [
+    {
+      "severity": "error",
+      "message": "section_integrity: gallery renders single column on desktop (1 columns at 1280px viewport). Use CSS columns masonry or grid with 3 cols >=1024px, 2 cols 640-1023px."
+    }
+  ]
+}

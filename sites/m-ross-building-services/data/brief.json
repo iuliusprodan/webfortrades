@@ -1,0 +1,383 @@
+{
+  "business_name": "M. Ross building services",
+  "owner_name": null,
+  "contact_name": null,
+  "contact_name_source": null,
+  "contact_name_confidence": "low",
+  "contact_name_evidence_count": 1,
+  "contact_name_usage_allowed": false,
+  "possible_contact_name": "Like",
+  "phone": "07760 104629",
+  "email": null,
+  "phone_type": "mobile",
+  "whatsapp_candidate": true,
+  "email_available": false,
+  "whatsapp_available": "available",
+  "contactability_status": "CONTACTABLE",
+  "contactability_reason": "no email found, WhatsApp available",
+  "preferred_channel": "whatsapp",
+  "address": "St Michael's Pl, Brighton and Hove, Brighton BN1 3FU, UK",
+  "opening_hours": [
+    "Monday: Open 24 hours",
+    "Tuesday: Open 24 hours",
+    "Wednesday: Open 24 hours",
+    "Thursday: Open 24 hours",
+    "Friday: Open 24 hours",
+    "Saturday: Open 24 hours",
+    "Sunday: Open 24 hours"
+  ],
+  "services": [
+    "Roofing"
+  ],
+  "services_meta": [
+    {
+      "name": "Roofing",
+      "source": "google",
+      "direct": true
+    }
+  ],
+  "service_confidence": "inferred",
+  "service_sources": [
+    "google",
+    "review",
+    "niche"
+  ],
+  "service_area": [
+    "Brighton",
+    "St Michael'S Pl, Brighton And Hove, Brighton",
+    "St Michael'S Pl",
+    "Brighton And Hove",
+    "Brighton BN1 3FU"
+  ],
+  "based_location": "Brighton, BN1",
+  "google_rating": 5,
+  "google_review_count": 13,
+  "google_review_count_sourced": true,
+  "service_areas_inferred": true,
+  "google_maps_url": "https://maps.google.com/?cid=6879426606290362114",
+  "website_status": "NO_WEBSITE",
+  "website_check_notes": "google_places_website=empty; website_url empty",
+  "website_url": null,
+  "photos": [
+    {
+      "local": "images/01-places.webp",
+      "source_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3lGIJTUGcewmAyex1xEC78JDldtMB2b4fNMBw3T-y3mJLFtfhuRHP74yfIvckNsIOfBKXdYy-K8XdEavOpcIkyt6cHltbDjsSIifQGMZNtyb1WkmmMH6ckYK6uR0Dpi535nvM4xUd5tiMUK178sclkQ3OKp-kED3hQY2-VzpqroXSw1qJIuM9IBgw9otbkS8E_sY9o7RDH7St2TskFmACySNBjNfkbAEHnUcGz4SnfppPrJY5bZdhExBSolo8PnPxMTPSwDEoYzZZjdD79CN087aMvjPgJxiCLw2S4H4PrjyapXQ5ikN1EQEqFyE0xXtN6hNiOEayzyKtx-dRJ6l2Or79SH1OH8W2Thrh7-HuoLhLGVACDNiShhmSAkcsZC9PKb3bKVSl5JH7GUgrgYEvUZBus3GqKQGDvyQGEtVuhHkWOHheF5BM_4_197Jg&key=REDACTED",
+      "width": 1200,
+      "height": 1600,
+      "classification": "completed_project",
+      "pair_id": null,
+      "source_type": "google_places"
+    },
+    {
+      "local": "images/02-places.webp",
+      "source_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3mAmswbIzAGtA8j-Q4Wmyl-SrU6_3vNJlLNYYbQygU-lGfEbAjebz8qjPqjTynINeFtLP2tLKA3XeO0sLNFzeOpyQG8584sK6PuvL4-BjVYwCu1ZREe4HE2Zs0NxyHlMHIe6jyeFAMhwHfeK91aDRrScvgMttjA5PF8yxZW25v2FcsINianoL0u0DrajEmY-HFigQlwYs5rkfyIMGU1HDT2QcBPIbLYMoq6KavscyzOdJFOA3G8QSQyMYV5Ny8neRSzOCBlS0uWySgNPvxT8LlS_eU5ITwqLcz_cdwEWr9fiZM1sc98xAhP7pTGx7CyjJ1AXIXRhOPa2UkdEqJ5Fs2b_mWGD62N-xQBJ2uchAqhNEvIPPNKbvWUxGjiNxJnfe5qBLT_zwhN4siOAmtYT9Cf0m57TRYTMlpZd9eoaodrORe8hrNFcrX0oG4tL1CD&key=REDACTED",
+      "width": 1200,
+      "height": 1600,
+      "classification": "completed_project",
+      "pair_id": null,
+      "source_type": "google_places"
+    },
+    {
+      "local": "images/03-places.webp",
+      "source_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3nnwzX60f7EO3gGCOP2F4zklPDR_kv_ZBhUMIqOgZBBba4v1dKL5ZJJm3px2erSHtKfgqdp20M9jv9WyYD69glT-rd-LJDSLgmpfnoIUI7D2cUQYxITUFdROJ-rSgnuFW2_zUXFjXRzY42Ui6vb8x9WENdqIXTpxkfCKHTKOOWxPkDWeTo0qcSTNw5IZCB_MQMGwqgKUY4gb-SVECYBaZSqUWWPY71MAsUMCK_o8wVT5TCs4ZTuTBMKLRVFZbt1peAGW6BgFdtYhknbJ4He-dB37CkgwzOzUzHF23B8jWfnKzF6uSdJ172wtoCFpurlJrQyY08_CzJvWkEO6KcAhqmnRKdt9bn9gdG0j4wiOtHh9GotCkZsbiT5TSmc2JgAeNkz_ynnUfcXotot71-dTFr-2ChKC3V9x1zvcdjuctFlqY4B3fSVPbRVwntxVc-w&key=REDACTED",
+      "width": 1200,
+      "height": 1600,
+      "classification": "completed_project",
+      "pair_id": null,
+      "source_type": "google_places"
+    },
+    {
+      "local": "images/04-places.webp",
+      "source_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3nY5xJbwWsocIBFwO-UFquz4E0iOn-cyXt3eUa73cvTGFJJBY1za7Qw4K_3XzJlqy-RLeXzuzL_t5Q-LEOpiGCEDrcl3B9V668woT8VO2T6q3XcGj9e-gLTvQ_Y-LnWj_vlBDsljQxeAQv0f309IKrKCN4K_QE2eLH57VDDh3EBquQcSXVHu5gsWvchmvDTj0iV2YuXGQGWPUXqnfKvkqAUTms4gTboUGsy1AcFRTUIMQtkKTSHkZD5cZGbDDb3W2OSqqqLWkRZN0mn51esr37tsTAntR-wt6TQ45q3dqkbrilTBLMQhGeO-I-ZiVHSvUhWRH3uMJcBiGRjflgpt8oUIdJaJiVNxWHlRjbcXSBq1sU_pXeA7BIKaARl5zPwpNHsFexsFemSaal95W5Ie2PmFG6afmz_mORPPbTuKprPKat88vjz3ywipJSVDnnW&key=REDACTED",
+      "width": 1125,
+      "height": 1472,
+      "classification": "completed_project",
+      "pair_id": null,
+      "source_type": "google_places"
+    },
+    {
+      "local": "images/05-places.webp",
+      "source_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3kBMvBkqhBzANoqF1o4bWCAxlOejSmOOiYgFRawyfR8ew7NxwNZqB9f1GXZRRb-2LrY_t46l7ei7lWYBJ5kSiEKf5fsYhDIpGNfwF87u-5EHqXnV4tpx61AfeTebTHEgUj6Shn5cxy0E00_kvHTfkCBig6EdI36FZ6lNq3FZitWQax0Go4s-1YeF2yYzv3ufHMBuWCa-LHrTujU_Ox95YjrzEJNPz__t1LxWfSSeNXdI2boZdDkGg2CZmFcnxaDuE2LPDK0Y5whNgIfFhA-ShDb33JVgxLP-5O5cM4FOfjIHtSmnST0GsJbfVqXJd2LxsSV4zX1xTyCPh3n2gSdO6yV-6SIuGMiiPfkW-ArUazgrCKIJNlDmZX6KxzVRmMOTfZ5XkyEbyrS0BrEOZMlIFRXPg8Abc2oqpfe6mDHm0pRlinqDFjKGjfgM8-_UdBb&key=REDACTED",
+      "width": 1600,
+      "height": 900,
+      "classification": "completed_project",
+      "pair_id": null,
+      "source_type": "google_places"
+    },
+    {
+      "local": "images/06-places.webp",
+      "source_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3n6nBbXGjPAb7sdrBmF_qoRqIhNRGWEx99qfZHOJByBHZBAei6md4W2bLZSHECqSFyqop_cAYj1XoKt0yMnsvxprQf6NzFUpvhtY01_YPhUF3aU9gR15KPhPEOHHKlsYrHw5KQhID6rRS5C589eFktO4YHPScSxzzrDq42_lTjvDuHMw0VhC_4oDxhhv7O7bCtioNRy_-JAUSx6NOAm-nVQeMuDL2iBsn1_f70DUjeDysuKTYi9Tu68XxZiZCNrjYkbnEBLxH8q07DhAkW4eHJUz_fkE06sjN_B-c74EKPwZzpGaWBY7z4B7i3LYK0ELqukeGQuEH7_n1LkcQS1QF6gWwnOZ5ZhL7_IsSZ5RSI7zqjml_8Fwh04FZspjKBZLnby5JZ2LLyCON283W4dxVEbtPFh1BfKUgkyr1XE4kAGvmihd8BByMB4dnqrug&key=REDACTED",
+      "width": 1200,
+      "height": 1600,
+      "classification": "completed_project",
+      "pair_id": null,
+      "source_type": "google_places"
+    },
+    {
+      "local": "images/07-places.webp",
+      "source_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3ksBTFXi3SCVstemHFk5pKwJyxJMfBh6ylJNp-fEDcPP0vF-JlTlH3zMKkJh5ijSEVpQD6hb6OEO453g6RxNlF0BfJXNBIW749FuCRLGGqS06O-zzrBFi21aWElGZxMzG59STD_z69c-uEVBZV9hJxsL9TlufRiKzVBMkuf9xWFw93WCxklqcE63c0zp0UMsM_dT5KNGXrgf0VeSSypkjTa9mtWiJ2Qfy0WYAFfJM5VEHtBWCaV1A9IzbO0bBHLQnwuy6nB-vGB-gsM9RAwEA-A1orY7_MVPB-Ibcmm9qcfq2dFqz7uHmL_J7LbbxEUSZQqsaQlmO485O9ELg5HfpVyxHviQWUdgBa8OMY9dTzeHP5VkFwSlxhKtiqioViAEl3bsXfceUhO4r5t3Bt5TkZhAm9NlxZEULUeZQZFb5qKzJCmW3irHJv6sR0EuWcf&key=REDACTED",
+      "width": 1600,
+      "height": 1200,
+      "classification": "completed_project",
+      "pair_id": null,
+      "source_type": "google_places"
+    },
+    {
+      "local": "images/08-places.webp",
+      "source_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3nOi8oVU77hq7mcRqrBZbHf91gYLtpjKgQ7qsrTWyEyjHqYXetqsiZtFwb2Wbtp2dm3XEXUnNrWncno3I692X17-lE5i5bi7FVdNe4nNX0QNOiuzpFeMZ81wqpuEkOzGslHo5pU4JsEAb4twAgjXuS99VquoVQzcEj7z7n-ogwZxcrpjK5hdwmsdG2VQduLB4jw6yfcefnqUjVB6doYj_9ruyVjzKBFHI6rSfaXFfuYwYe9R80iltl71q316BH4WftQM7Q6Q5J23aXnvc5vC6uXn26k0tJUMzWld5iDTCJw6gIfPasdl8nhWeOEcsi23yPYUUItCgEqhGfgeSkBw5KCuQxeHIvxNUhTHJarhnkcQ-PQZYlOEawkWVvAiORerZk1Ej3n-OtcvP-1a8MqGldwpZCnvK2-i_O9iDBl7Hcu9W0CaUb_a3tzFN9gzD2M&key=REDACTED",
+      "width": 1600,
+      "height": 1200,
+      "classification": "completed_project",
+      "pair_id": null,
+      "source_type": "google_places"
+    },
+    {
+      "local": "images/09-places.webp",
+      "source_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3ln6oIKAf4isvOde9QvsqVDpV4N9wa91vI2qYgMtEO8yQBk4cMZbnQ8eHkNQ4_dQJtQYSr_ay9ro-5iiaN5zPguTf4aVIOgooQgwXZaILX1S5YPrW14iBuXE1c0u8c7ETH4KqyslAXoGj7whZhzN76GbAr1uEH9ZHHRECMsSptpOHFNNimC3667oof9PIRphi5V-QIQqQdQF4EvQycMXQyjBxubFxl01P2954_sB_y4c-JxPhAa-a67x4B2rjtsEazbdya18wB7xTJeb3uu6RNy1DwzYEEwpmiciNX5eca7GuPMyK20AwivosUZkNJ5kvWCbNOLW-DmURhArCZ4KFK1WxPPk56F1VRE7tLTxvjxM9KEXyVG0MbC1Pgueosc277eo6TpYkwnbUBhO7wbiOwDmMKPo7X01LCeFQhuwNktKTpskcY01WvaDa2mSOzG&key=REDACTED",
+      "width": 1600,
+      "height": 1200,
+      "classification": "completed_project",
+      "pair_id": null,
+      "source_type": "google_places"
+    },
+    {
+      "local": "images/10-places.webp",
+      "source_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3lF1YELNuRBoiU0eYdQdACc27KyJXwDE5elLmNCCBBFLYpVVWaCl7STmc1KFw5DRLE80JmAE79cPL2dTTR5n1aE1Bcj8ntAU0PraTwL69PmPcaMihp2rkJuiu5F9JuEQZQApv8Yp1bK6L0gWyf7oohk9NVztiOwYXaPdXRp2FWdBVcS9vXLvBYQFkG19tDO_muEttaETzhs3siRH6wI7FjkANjUGPdQLI9ul1DvEdzng99HDDbvqroq8a6Y5oZxifToI9B6MHmE9FsSEEDu6IUZVAGFsa67v4iwgZ901WmraW19Q88Ssy0F4shNA8cdEp_97I1NHCBfGxsHeDADiD_jHTVr_fd4OB7PpaLzws7d63sMKvZFqEJl-vdOkl-wln6VH6OLRYfZZQYtNZGWEjL2mQjfN1Jd0KhDupkpizt0VwVBQ4GNJbuDmIgskG_0&key=REDACTED",
+      "width": 1125,
+      "height": 861,
+      "classification": "completed_project",
+      "pair_id": null,
+      "source_type": "google_places"
+    }
+  ],
+  "reviews": [
+    {
+      "text": "Like many older properties in Brighton, mine is suffering the wear and tear of wind and rain, with the firewalls in particular admitting water through cracks. Mark and his team repaired and added further weatherproofing to the firewalls, and, while the scaffolding was up, filled in cracks in the rendering, repaired a dodgy gutter and, to seal the deal, repainted the front of the house to cheer the place up. Mark and his team are very efficient, friendly and document in photos what work needs to be done and the finished results. I couldn’t recommend them more highly.",
+      "reviewer": "Mat",
+      "rating": 5
+    },
+    {
+      "text": "Fantastic service they came on time and were professional through and through…roof is weather proof going on to year 5\n\nCouldn’t recommend enough 10 ⭐️ review",
+      "reviewer": "Callum",
+      "rating": 5
+    },
+    {
+      "text": "Mr Ross did a Full roof with lots of other extras we were very happy with the job and price would definitely definitely recommend",
+      "reviewer": "Connor",
+      "rating": 5
+    },
+    {
+      "text": "Amazing professional work had a great experience using this company would recommend highly",
+      "reviewer": "Numan",
+      "rating": 5
+    },
+    {
+      "text": "What great guy with a real good skills I would highly recommend using him",
+      "reviewer": "Kj",
+      "rating": 5
+    }
+  ],
+  "social": {
+    "facebook": null,
+    "instagram": null,
+    "youtube": null,
+    "tiktok": null
+  },
+  "gallery_layout": "completed_project_gallery",
+  "photo_classification_summary": {
+    "completed_project": 10
+  },
+  "brand": {
+    "colours": [],
+    "logo_url": null,
+    "logo_local": null
+  },
+  "source_urls": [
+    "https://maps.google.com/?cid=6879426606290362114",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3lGIJTUGcewmAyex1xEC78JDldtMB2b4fNMBw3T-y3mJLFtfhuRHP74yfIvckNsIOfBKXdYy-K8XdEavOpcIkyt6cHltbDjsSIifQGMZNtyb1WkmmMH6ckYK6uR0Dpi535nvM4xUd5tiMUK178sclkQ3OKp-kED3hQY2-VzpqroXSw1qJIuM9IBgw9otbkS8E_sY9o7RDH7St2TskFmACySNBjNfkbAEHnUcGz4SnfppPrJY5bZdhExBSolo8PnPxMTPSwDEoYzZZjdD79CN087aMvjPgJxiCLw2S4H4PrjyapXQ5ikN1EQEqFyE0xXtN6hNiOEayzyKtx-dRJ6l2Or79SH1OH8W2Thrh7-HuoLhLGVACDNiShhmSAkcsZC9PKb3bKVSl5JH7GUgrgYEvUZBus3GqKQGDvyQGEtVuhHkWOHheF5BM_4_197Jg&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3mAmswbIzAGtA8j-Q4Wmyl-SrU6_3vNJlLNYYbQygU-lGfEbAjebz8qjPqjTynINeFtLP2tLKA3XeO0sLNFzeOpyQG8584sK6PuvL4-BjVYwCu1ZREe4HE2Zs0NxyHlMHIe6jyeFAMhwHfeK91aDRrScvgMttjA5PF8yxZW25v2FcsINianoL0u0DrajEmY-HFigQlwYs5rkfyIMGU1HDT2QcBPIbLYMoq6KavscyzOdJFOA3G8QSQyMYV5Ny8neRSzOCBlS0uWySgNPvxT8LlS_eU5ITwqLcz_cdwEWr9fiZM1sc98xAhP7pTGx7CyjJ1AXIXRhOPa2UkdEqJ5Fs2b_mWGD62N-xQBJ2uchAqhNEvIPPNKbvWUxGjiNxJnfe5qBLT_zwhN4siOAmtYT9Cf0m57TRYTMlpZd9eoaodrORe8hrNFcrX0oG4tL1CD&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3nnwzX60f7EO3gGCOP2F4zklPDR_kv_ZBhUMIqOgZBBba4v1dKL5ZJJm3px2erSHtKfgqdp20M9jv9WyYD69glT-rd-LJDSLgmpfnoIUI7D2cUQYxITUFdROJ-rSgnuFW2_zUXFjXRzY42Ui6vb8x9WENdqIXTpxkfCKHTKOOWxPkDWeTo0qcSTNw5IZCB_MQMGwqgKUY4gb-SVECYBaZSqUWWPY71MAsUMCK_o8wVT5TCs4ZTuTBMKLRVFZbt1peAGW6BgFdtYhknbJ4He-dB37CkgwzOzUzHF23B8jWfnKzF6uSdJ172wtoCFpurlJrQyY08_CzJvWkEO6KcAhqmnRKdt9bn9gdG0j4wiOtHh9GotCkZsbiT5TSmc2JgAeNkz_ynnUfcXotot71-dTFr-2ChKC3V9x1zvcdjuctFlqY4B3fSVPbRVwntxVc-w&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3nY5xJbwWsocIBFwO-UFquz4E0iOn-cyXt3eUa73cvTGFJJBY1za7Qw4K_3XzJlqy-RLeXzuzL_t5Q-LEOpiGCEDrcl3B9V668woT8VO2T6q3XcGj9e-gLTvQ_Y-LnWj_vlBDsljQxeAQv0f309IKrKCN4K_QE2eLH57VDDh3EBquQcSXVHu5gsWvchmvDTj0iV2YuXGQGWPUXqnfKvkqAUTms4gTboUGsy1AcFRTUIMQtkKTSHkZD5cZGbDDb3W2OSqqqLWkRZN0mn51esr37tsTAntR-wt6TQ45q3dqkbrilTBLMQhGeO-I-ZiVHSvUhWRH3uMJcBiGRjflgpt8oUIdJaJiVNxWHlRjbcXSBq1sU_pXeA7BIKaARl5zPwpNHsFexsFemSaal95W5Ie2PmFG6afmz_mORPPbTuKprPKat88vjz3ywipJSVDnnW&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3kBMvBkqhBzANoqF1o4bWCAxlOejSmOOiYgFRawyfR8ew7NxwNZqB9f1GXZRRb-2LrY_t46l7ei7lWYBJ5kSiEKf5fsYhDIpGNfwF87u-5EHqXnV4tpx61AfeTebTHEgUj6Shn5cxy0E00_kvHTfkCBig6EdI36FZ6lNq3FZitWQax0Go4s-1YeF2yYzv3ufHMBuWCa-LHrTujU_Ox95YjrzEJNPz__t1LxWfSSeNXdI2boZdDkGg2CZmFcnxaDuE2LPDK0Y5whNgIfFhA-ShDb33JVgxLP-5O5cM4FOfjIHtSmnST0GsJbfVqXJd2LxsSV4zX1xTyCPh3n2gSdO6yV-6SIuGMiiPfkW-ArUazgrCKIJNlDmZX6KxzVRmMOTfZ5XkyEbyrS0BrEOZMlIFRXPg8Abc2oqpfe6mDHm0pRlinqDFjKGjfgM8-_UdBb&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3n6nBbXGjPAb7sdrBmF_qoRqIhNRGWEx99qfZHOJByBHZBAei6md4W2bLZSHECqSFyqop_cAYj1XoKt0yMnsvxprQf6NzFUpvhtY01_YPhUF3aU9gR15KPhPEOHHKlsYrHw5KQhID6rRS5C589eFktO4YHPScSxzzrDq42_lTjvDuHMw0VhC_4oDxhhv7O7bCtioNRy_-JAUSx6NOAm-nVQeMuDL2iBsn1_f70DUjeDysuKTYi9Tu68XxZiZCNrjYkbnEBLxH8q07DhAkW4eHJUz_fkE06sjN_B-c74EKPwZzpGaWBY7z4B7i3LYK0ELqukeGQuEH7_n1LkcQS1QF6gWwnOZ5ZhL7_IsSZ5RSI7zqjml_8Fwh04FZspjKBZLnby5JZ2LLyCON283W4dxVEbtPFh1BfKUgkyr1XE4kAGvmihd8BByMB4dnqrug&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3ksBTFXi3SCVstemHFk5pKwJyxJMfBh6ylJNp-fEDcPP0vF-JlTlH3zMKkJh5ijSEVpQD6hb6OEO453g6RxNlF0BfJXNBIW749FuCRLGGqS06O-zzrBFi21aWElGZxMzG59STD_z69c-uEVBZV9hJxsL9TlufRiKzVBMkuf9xWFw93WCxklqcE63c0zp0UMsM_dT5KNGXrgf0VeSSypkjTa9mtWiJ2Qfy0WYAFfJM5VEHtBWCaV1A9IzbO0bBHLQnwuy6nB-vGB-gsM9RAwEA-A1orY7_MVPB-Ibcmm9qcfq2dFqz7uHmL_J7LbbxEUSZQqsaQlmO485O9ELg5HfpVyxHviQWUdgBa8OMY9dTzeHP5VkFwSlxhKtiqioViAEl3bsXfceUhO4r5t3Bt5TkZhAm9NlxZEULUeZQZFb5qKzJCmW3irHJv6sR0EuWcf&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3nOi8oVU77hq7mcRqrBZbHf91gYLtpjKgQ7qsrTWyEyjHqYXetqsiZtFwb2Wbtp2dm3XEXUnNrWncno3I692X17-lE5i5bi7FVdNe4nNX0QNOiuzpFeMZ81wqpuEkOzGslHo5pU4JsEAb4twAgjXuS99VquoVQzcEj7z7n-ogwZxcrpjK5hdwmsdG2VQduLB4jw6yfcefnqUjVB6doYj_9ruyVjzKBFHI6rSfaXFfuYwYe9R80iltl71q316BH4WftQM7Q6Q5J23aXnvc5vC6uXn26k0tJUMzWld5iDTCJw6gIfPasdl8nhWeOEcsi23yPYUUItCgEqhGfgeSkBw5KCuQxeHIvxNUhTHJarhnkcQ-PQZYlOEawkWVvAiORerZk1Ej3n-OtcvP-1a8MqGldwpZCnvK2-i_O9iDBl7Hcu9W0CaUb_a3tzFN9gzD2M&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3ln6oIKAf4isvOde9QvsqVDpV4N9wa91vI2qYgMtEO8yQBk4cMZbnQ8eHkNQ4_dQJtQYSr_ay9ro-5iiaN5zPguTf4aVIOgooQgwXZaILX1S5YPrW14iBuXE1c0u8c7ETH4KqyslAXoGj7whZhzN76GbAr1uEH9ZHHRECMsSptpOHFNNimC3667oof9PIRphi5V-QIQqQdQF4EvQycMXQyjBxubFxl01P2954_sB_y4c-JxPhAa-a67x4B2rjtsEazbdya18wB7xTJeb3uu6RNy1DwzYEEwpmiciNX5eca7GuPMyK20AwivosUZkNJ5kvWCbNOLW-DmURhArCZ4KFK1WxPPk56F1VRE7tLTxvjxM9KEXyVG0MbC1Pgueosc277eo6TpYkwnbUBhO7wbiOwDmMKPo7X01LCeFQhuwNktKTpskcY01WvaDa2mSOzG&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3lF1YELNuRBoiU0eYdQdACc27KyJXwDE5elLmNCCBBFLYpVVWaCl7STmc1KFw5DRLE80JmAE79cPL2dTTR5n1aE1Bcj8ntAU0PraTwL69PmPcaMihp2rkJuiu5F9JuEQZQApv8Yp1bK6L0gWyf7oohk9NVztiOwYXaPdXRp2FWdBVcS9vXLvBYQFkG19tDO_muEttaETzhs3siRH6wI7FjkANjUGPdQLI9ul1DvEdzng99HDDbvqroq8a6Y5oZxifToI9B6MHmE9FsSEEDu6IUZVAGFsa67v4iwgZ901WmraW19Q88Ssy0F4shNA8cdEp_97I1NHCBfGxsHeDADiD_jHTVr_fd4OB7PpaLzws7d63sMKvZFqEJl-vdOkl-wln6VH6OLRYfZZQYtNZGWEjL2mQjfN1Jd0KhDupkpizt0VwVBQ4GNJbuDmIgskG_0&key=REDACTED"
+  ],
+  "notes": [
+    "owner_name not found in public sources",
+    "email not found in public sources",
+    "possible_contact_name \"Like\" from 1 review mention; not used in copy",
+    "contactability=CONTACTABLE",
+    "no email found, WhatsApp available",
+    "Photo discovery: 10/10 selected (Enough photos for photo-led layout)"
+  ],
+  "missing_fields": [
+    "owner_name",
+    "email",
+    "facebook",
+    "instagram"
+  ],
+  "invalid_website_candidates": [],
+  "website_url_validation": {
+    "validated_at": "2026-06-11T22:04:57.430Z",
+    "issue": "empty",
+    "note": "website_url empty",
+    "previous_url": null
+  },
+  "prospect_region": "Brighton",
+  "location_validation_status": "OK",
+  "directory_probes": [
+    {
+      "platform": "checkatrade",
+      "candidate_url": "https://www.checkatrade.com/trades/m-ross-building-services",
+      "status": "NOT_FOUND",
+      "confidence": "rejected",
+      "title": null,
+      "rating": null,
+      "review_count": null,
+      "phone_visible": false,
+      "verification_reasons": [],
+      "note": "search_deferred: M. Ross building services Brighton BN1 3FU site:checkatrade.com"
+    },
+    {
+      "platform": "trustatrader",
+      "candidate_url": "https://www.trustatrader.com/traders/m-ross-building-services",
+      "status": "NOT_FOUND",
+      "confidence": "rejected",
+      "title": null,
+      "rating": null,
+      "review_count": null,
+      "phone_visible": false,
+      "verification_reasons": [],
+      "note": "search_deferred: M. Ross building services Brighton BN1 3FU site:trustatrader.com"
+    },
+    {
+      "platform": "yell",
+      "candidate_url": "https://www.yell.com/biz/m-ross-building-services-brighton-bn1-3fu/",
+      "status": "NOT_FOUND",
+      "confidence": "rejected",
+      "title": null,
+      "rating": null,
+      "review_count": null,
+      "phone_visible": false,
+      "verification_reasons": [],
+      "note": "search_deferred: M. Ross building services Brighton BN1 3FU site:yell.com"
+    },
+    {
+      "platform": "mybuilder",
+      "candidate_url": "https://www.mybuilder.com/profile/m-ross-building-services",
+      "status": "NOT_FOUND",
+      "confidence": "rejected",
+      "title": null,
+      "rating": null,
+      "review_count": null,
+      "phone_visible": false,
+      "verification_reasons": [],
+      "note": "search_deferred: M. Ross building services Brighton BN1 3FU site:mybuilder.com"
+    },
+    {
+      "platform": "rated_people",
+      "candidate_url": "https://www.ratedpeople.com/profile/m-ross-building-services",
+      "status": "NOT_FOUND",
+      "confidence": "rejected",
+      "title": null,
+      "rating": null,
+      "review_count": null,
+      "phone_visible": false,
+      "verification_reasons": [],
+      "note": "search_deferred: M. Ross building services Brighton BN1 3FU site:ratedpeople.com"
+    },
+    {
+      "platform": "houzz",
+      "candidate_url": "https://www.houzz.co.uk/professionals/m-ross-building-services",
+      "status": "NOT_FOUND",
+      "confidence": "rejected",
+      "title": null,
+      "rating": null,
+      "review_count": null,
+      "phone_visible": false,
+      "verification_reasons": [],
+      "note": "search_deferred: M. Ross building services Brighton BN1 3FU site:houzz.co.uk"
+    },
+    {
+      "platform": "bark",
+      "candidate_url": "https://www.bark.com/en/gb/company/m-ross-building-services/",
+      "status": "NOT_FOUND",
+      "confidence": "rejected",
+      "title": null,
+      "rating": null,
+      "review_count": null,
+      "phone_visible": false,
+      "verification_reasons": [],
+      "note": "search_deferred: M. Ross building services Brighton BN1 3FU site:bark.com"
+    },
+    {
+      "platform": "nextdoor",
+      "candidate_url": "https://nextdoor.co.uk/pages/m-ross-building-services/",
+      "status": "NOT_FOUND",
+      "confidence": "rejected",
+      "title": null,
+      "rating": null,
+      "review_count": null,
+      "phone_visible": false,
+      "verification_reasons": [],
+      "note": "search_deferred: M. Ross building services Brighton BN1 3FU site:nextdoor.co.uk"
+    }
+  ],
+  "enrichment": {
+    "enriched_at": "2026-06-11T22:05:02.194Z",
+    "email_domain_checked": false,
+    "website_discovery_run": true
+  },
+  "lead_validity": {
+    "lead_validity_status": "INSUFFICIENT_EVIDENCE",
+    "lead_validity_reason": "Enrichment incomplete or source confidence too low",
+    "pitch_type": "manual_review",
+    "website_status": "NO_WEBSITE",
+    "website_url": null,
+    "website_discovery_classification": null,
+    "email_domain_website": null,
+    "source_confidence_summary": {
+      "overall": "low",
+      "verified_platforms": [],
+      "rejected_platforms": [
+        "google_places"
+      ],
+      "notes": [
+        "No verified sources with medium or high confidence",
+        "1 source(s) rejected for low confidence"
+      ]
+    },
+    "ready_for_build": false,
+    "ready_for_design": false,
+    "ready_for_pitch": false,
+    "manual_review_required": true,
+    "has_real_website": false,
+    "truly_no_website": true,
+    "warnings": [
+      "Source enrichment not complete - run enrich:lead before build",
+      "Source confidence is low - lean site or manual review recommended"
+    ],
+    "manual_asset_status": "OK",
+    "pause_before_open_design": false,
+    "manual_asset_folder": "briefs/m-ross-building-services/images/manual/"
+  },
+  "source_quality": {
+    "source_quality_status": "FAIL",
+    "source_quality_reason": "Source enrichment not complete",
+    "website_url_validated": true,
+    "email_domain_checked": true,
+    "enrichment_complete": false,
+    "logo_discovery_attempted": true,
+    "photo_discovery_attempted": true,
+    "directory_probes_attempted": true,
+    "warnings": [
+      "Lead validity requires manual review"
+    ],
+    "blockers": [
+      "Source enrichment not complete"
+    ]
+  }
+}

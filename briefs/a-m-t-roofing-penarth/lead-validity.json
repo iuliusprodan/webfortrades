@@ -1,0 +1,48 @@
+{
+  "lead_validity_status": "SOCIAL_ONLY_READY",
+  "lead_validity_reason": "Social presence only, no real website",
+  "pitch_type": "social_only",
+  "website_status": "SOCIAL_OR_DIRECTORY_ONLY",
+  "website_url": null,
+  "website_discovery_classification": "NO_WEBSITE",
+  "email_domain_website": {
+    "classification": "NO_WEBSITE",
+    "db_status": "NO_WEBSITE",
+    "domain": null,
+    "initial_url": null,
+    "final_url": null,
+    "status_code": null,
+    "title": null,
+    "reason": "generic_or_invalid_email_domain",
+    "probes": [],
+    "text_snippet": null
+  },
+  "source_confidence_summary": {
+    "overall": "high",
+    "verified_platforms": [
+      "facebook"
+    ],
+    "rejected_platforms": [
+      "google_places"
+    ],
+    "notes": [
+      "1 source(s) rejected for low confidence"
+    ]
+  },
+  "ready_for_build": true,
+  "ready_for_design": true,
+  "ready_for_pitch": false,
+  "manual_review_required": true,
+  "has_real_website": false,
+  "truly_no_website": true,
+  "warnings": [
+    "LOCATION_MISMATCH_NEEDS_REVIEW",
+    "Location mismatch: LOCATION_MISMATCH_NEEDS_REVIEW - pitch blocked until resolved",
+    "Batch waiver 2026-06-11: Google Places plus facebook_in_brief"
+  ],
+  "manual_asset_status": "OK",
+  "pause_before_open_design": false,
+  "manual_asset_folder": "briefs/a-m-t-roofing-penarth/images/manual/",
+  "batch_waiver_applied": true,
+  "batch_waiver_note": "Batch waiver 2026-06-11: Google Places plus facebook_in_brief"
+}

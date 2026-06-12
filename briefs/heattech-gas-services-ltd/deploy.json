@@ -1,0 +1,31 @@
+{
+  "slug": "heattech-gas-services-ltd",
+  "updated_at": "2026-06-12T00:36:55.272Z",
+  "preferred_alias": "heattech-gas-services-ltd",
+  "deployment_url": "https://heattech-gas-services-8nlmbst08-iulius-projects-0cb33a7b.vercel.app",
+  "verified_url": "https://heattech-gas-services-ltd.vercel.app",
+  "final_url": "https://heattech-gas-services-ltd.vercel.app",
+  "alias_status": "VERIFIED",
+  "candidates": [
+    {
+      "hostname": "heattech-gas-services-ltd",
+      "url": "https://heattech-gas-services-ltd.vercel.app",
+      "preflight": "already_ours",
+      "detail": "Build marker heattech-gas-services-ltd:20260611-od-port",
+      "assign": "alias_assigned",
+      "verify": "verified"
+    }
+  ],
+  "verification": {
+    "ok": true,
+    "httpStatus": 200,
+    "markerFound": true,
+    "businessNameFound": true,
+    "phoneFound": true,
+    "marker": {
+      "buildId": "heattech-gas-services-ltd:20260611-od-port",
+      "slug": "heattech-gas-services-ltd"
+    },
+    "errors": []
+  }
+}

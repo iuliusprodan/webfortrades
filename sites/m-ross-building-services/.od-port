@@ -1,0 +1,7 @@
+ported from open-design-artifacts/m-ross-building-services
+2026-06-12T00:00:00.000Z
+cursor-agent port per docs/open-design-next-porting-notes.md
+fonts=next/font/google DM Sans (display + body, system-like sans)
+images=briefs/m-ross-building-services/images/*.webp -> public/assets/images/
+section_ids=review-led-hero,stats-sourced-only,what-customers-keep-mentioning,gallery-lean,service-explainers,featured-review-story,process-section,review-wall,local-coverage,simple-contact,quote-form
+notes=Address privacy: public copy uses Brighton BN1 only (no street). Primary CTA links to #quote.

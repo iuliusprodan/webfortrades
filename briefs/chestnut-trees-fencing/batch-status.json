@@ -1,0 +1,13 @@
+{
+  "slug": "chestnut-trees-fencing",
+  "batch_id": "2026-06-11-ten-build",
+  "port_started_at": "2026-06-11T22:32:44.276Z",
+  "port_attempts": 1,
+  "updated_at": "2026-06-11T23:03:52.593Z",
+  "port_completed_at": "2026-06-11T23:01:58.706Z",
+  "port_ms": 120064,
+  "port_tokens": 0,
+  "build_id": "chestnut-trees-fencing:20260611-od-port",
+  "clone_review": "PASS",
+  "clone_score": 19
+}

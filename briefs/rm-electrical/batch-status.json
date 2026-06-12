@@ -1,0 +1,13 @@
+{
+  "slug": "rm-electrical",
+  "batch_id": "2026-06-11-ten-build",
+  "port_started_at": "2026-06-11T22:27:27.177Z",
+  "port_attempts": 1,
+  "updated_at": "2026-06-11T23:03:51.593Z",
+  "port_completed_at": "2026-06-11T22:59:58.113Z",
+  "port_ms": 294875,
+  "port_tokens": 0,
+  "build_id": "rm-electrical:20260611-od-port",
+  "clone_review": "PASS",
+  "clone_score": 20
+}

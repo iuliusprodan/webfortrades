@@ -1,0 +1,20 @@
+{
+  "slug": "tom-baker-plumbing-and-gas-solutions",
+  "opening_line": "Hi - I read a review where Claire mentioned tidy finishes on a job with Tom Baker Plumbing and Gas Solutions. That stood out.",
+  "source_quote": "Tom is knowledgeable, professional & efficient. He was able to respond quickly to a leak in my heating & as well as fixing the leak, I also wanted him to fit a new boiler. He gave great advice on the most suitable boiler & the best place to locate it. He worked alone whilst I was out at work & was t",
+  "source_evidence": "google: 4.9 rating, 15 reviews",
+  "why_this_angle": "Lead with review detail about tidy finishes (Claire)",
+  "suggested_whatsapp": "Hi, Julius here. I build websites for local trades. One of your Google reviews from Claire mentioned tidy finishes - I mocked up a one-page site around that. No obligation - want a quick look?",
+  "price_recommendation_gbp": 275,
+  "price_tier": "starter",
+  "follow_up_replies": [
+    {
+      "trigger": "price",
+      "text": "One-page site from £300. Includes mobile layout and quote form."
+    },
+    {
+      "trigger": "not interested",
+      "text": "No problem - I will remove the preview. Thanks for your time."
+    }
+  ]
+}

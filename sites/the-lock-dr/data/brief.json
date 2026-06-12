@@ -1,0 +1,51 @@
+{
+  "business_name": "The Lock Dr",
+  "owner_name": "Steve",
+  "contact_name": "Steve",
+  "contact_name_source": "google_reviews",
+  "contact_name_confidence": "high",
+  "contact_name_evidence_count": 3,
+  "contact_name_usage_allowed": true,
+  "possible_contact_name": null,
+  "phone": "07859 881354",
+  "email": null,
+  "phone_type": "mobile",
+  "whatsapp_candidate": true,
+  "email_available": false,
+  "whatsapp_available": "available",
+  "contactability_status": "CONTACTABLE",
+  "contactability_reason": "no email found, WhatsApp available",
+  "preferred_channel": "whatsapp",
+  "address": "Wingreen, North Baddesley, Southampton SO52 9DX, UK",
+  "opening_hours": [
+    "Monday: Open 24 hours",
+    "Tuesday: Open 24 hours",
+    "Wednesday: Open 24 hours",
+    "Thursday: Open 24 hours",
+    "Friday: Open 24 hours",
+    "Saturday: Open 24 hours",
+    "Sunday: Open 24 hours"
+  ],
+  "services": [
+    "Locksmith",
+    "Bathroom installations",
+    "locksmiths"
+  ],
+  "service_area": [
+    "Southampton",
+    "Wingreen, Southampton",
+    "Wingreen",
+    "North Baddesley",
+    "Southampton SO52 9DX"
+  ],
+  "based_location": "Southampton, SO52",
+  "google_rating": 5,
+  "google_review_count": 41,
+  "google_review_count_sourced": true,
+  "google_maps_url": "https://maps.google.com/?cid=5408751554141722089",
+  "website_status": "NO_WEBSITE",
+  "website_url": null,
+  "source_urls": [
+    "https://maps.google.com/?cid=5408751554141722089"
+  ]
+}

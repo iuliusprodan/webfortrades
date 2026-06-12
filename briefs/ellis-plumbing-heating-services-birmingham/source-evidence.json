@@ -1,0 +1,328 @@
+{
+  "slug": "ellis-plumbing-heating-services-birmingham",
+  "gathered_at": "2026-06-11T22:04:32.528Z",
+  "attempted_sources": [
+    {
+      "platform": "google_places",
+      "status": "found",
+      "url": "https://maps.google.com/?cid=16223918444705757032"
+    },
+    {
+      "platform": "google_reviews",
+      "status": "found",
+      "url": "https://maps.google.com/?cid=16223918444705757032"
+    },
+    {
+      "platform": "google_photos",
+      "status": "found",
+      "url": "https://maps.google.com/?cid=16223918444705757032"
+    },
+    {
+      "platform": "facebook",
+      "status": "not_found",
+      "url": null,
+      "search_query": "Ellis Plumbing & Heating Services Birmingham Birmingham B14 0GG",
+      "reason": "No URL in brief or source_urls (directory scrape not run in this phase)"
+    },
+    {
+      "platform": "instagram",
+      "status": "found",
+      "url": "https://www.instagram.com/ephs_plumbing_heating?utm_source=qr&igsh=MXE2cDN0a29jOXZvdg=="
+    },
+    {
+      "platform": "official_website",
+      "status": "not_found",
+      "url": null,
+      "search_query": "Ellis Plumbing & Heating Services Birmingham Birmingham B14 0GG",
+      "reason": "No URL in brief or source_urls (directory scrape not run in this phase)"
+    },
+    {
+      "platform": "checkatrade",
+      "status": "not_attempted",
+      "url": null,
+      "search_query": "Ellis Plumbing & Heating Services Birmingham Birmingham B14 0GG",
+      "reason": "Manual search required in this phase"
+    },
+    {
+      "platform": "trustatrader",
+      "status": "not_attempted",
+      "url": null,
+      "search_query": "Ellis Plumbing & Heating Services Birmingham Birmingham B14 0GG",
+      "reason": "Manual search required in this phase"
+    },
+    {
+      "platform": "mybuilder",
+      "status": "not_attempted",
+      "url": null,
+      "search_query": "Ellis Plumbing & Heating Services Birmingham Birmingham B14 0GG",
+      "reason": "Manual search required in this phase"
+    },
+    {
+      "platform": "rated_people",
+      "status": "not_attempted",
+      "url": null,
+      "search_query": "Ellis Plumbing & Heating Services Birmingham Birmingham B14 0GG",
+      "reason": "Manual search required in this phase"
+    },
+    {
+      "platform": "bark",
+      "status": "not_attempted",
+      "url": null,
+      "search_query": "Ellis Plumbing & Heating Services Birmingham Birmingham B14 0GG",
+      "reason": "Manual search required in this phase"
+    },
+    {
+      "platform": "yell",
+      "status": "not_attempted",
+      "url": null,
+      "search_query": "Ellis Plumbing & Heating Services Birmingham Birmingham B14 0GG",
+      "reason": "Manual search required in this phase"
+    },
+    {
+      "platform": "companies_house",
+      "status": "not_attempted",
+      "url": null,
+      "search_query": "Ellis Plumbing & Heating Services Birmingham Birmingham B14 0GG",
+      "reason": "Manual search required in this phase"
+    },
+    {
+      "platform": "directories",
+      "status": "not_attempted",
+      "search_query": "Ellis Plumbing & Heating Services Birmingham Birmingham B14 0GG",
+      "reason": "Generic directory sweep not automated yet"
+    }
+  ],
+  "sources": [
+    {
+      "platform": "google_places",
+      "url": "https://maps.google.com/?cid=16223918444705757032",
+      "verified": true,
+      "verification_method": "place_id_from_gather",
+      "phone_match": true,
+      "notes": "Primary gather source"
+    }
+  ],
+  "sources_found": [
+    "google_places",
+    "google_reviews",
+    "google_photos",
+    "instagram"
+  ],
+  "sources_verified": [
+    "google_places"
+  ],
+  "strongest_proof_source": {
+    "platform": "google",
+    "metric": "5 rating, 108 reviews",
+    "url": "https://maps.google.com/?cid=16223918444705757032"
+  },
+  "best_review_details": [
+    {
+      "text": "Ish came out at short notice to repair and service an old boiler for my niece who has learning difficulties.  He ensured there was hot water and heating to all radiators and everything is working perfectly since his visit last week.  He quoted a price before the visit and that's what he charged.  Even though the boiler was old, he didn't try to get us to install a new boiler just before Christmas,",
+      "author": "Tim",
+      "rating": 5,
+      "source": "google"
+    },
+    {
+      "text": "Brilliant service, called at 10pm last night due to a problem with my boiler, sent over some photos and the problem was identified straightaway, came round this morning and completed the repair and serviced the boiler! Such a smooth, hassle free and quick process, I was incredibly relieved to have this sorted so quickly and efficiently at a really reasonable price. Thanks so much!",
+      "author": "Lyahna",
+      "rating": 5,
+      "source": "google"
+    },
+    {
+      "text": "Ish fitted me a beautiful new bathroom complete with tiling , plumbing, heating and all my appliances. Nothing was to much of an ask and he went above and beyond to fix some unforeseen issues that I had. Ish was very professional and tidy throughout the rest of my home which is appreciated! highly recommend.",
+      "author": "chanai23",
+      "rating": 5,
+      "source": "google"
+    }
+  ],
+  "image_source_summary": {
+    "google_photos": 8,
+    "facebook_photos": 0,
+    "directory_photos": 0,
+    "manual_photos": 0,
+    "other": 0,
+    "preferred_source": "google_places",
+    "notes": "Google Places photos preferred for gallery when high quality",
+    "priority_order": [
+      "official_website",
+      "google_places",
+      "directory",
+      "manual_asset",
+      "facebook_evidence",
+      "proof_led"
+    ]
+  },
+  "manual_review_flags": [],
+  "enrichment_complete": true,
+  "risks": [],
+  "manual_asset_review_recommended": false,
+  "manual_asset_status": "OK",
+  "asset_readiness": {
+    "manual_asset_status": "OK",
+    "usable_automatic_count": 8,
+    "usable_manual_count": 0,
+    "usable_total_count": 8,
+    "has_hero_candidate": true,
+    "pause_before_open_design": false,
+    "pause_message": null,
+    "layout_recommendation": "photo_led",
+    "image_slots": [
+      {
+        "slot": "hero",
+        "desired": "Best finished project photo or strong proof visual",
+        "source_status": "automatic"
+      },
+      {
+        "slot": "gallery_1",
+        "desired": "Finished work close-up or wide project shot",
+        "source_status": "automatic"
+      },
+      {
+        "slot": "gallery_2",
+        "desired": "Finished work close-up or wide project shot",
+        "source_status": "automatic"
+      },
+      {
+        "slot": "gallery_3",
+        "desired": "Finished work close-up or wide project shot",
+        "source_status": "automatic"
+      },
+      {
+        "slot": "gallery_4",
+        "desired": "Finished work close-up or wide project shot",
+        "source_status": "automatic"
+      }
+    ],
+    "manual_folder": "briefs/ellis-plumbing-heating-services-birmingham/images/manual/"
+  },
+  "image_slots": [
+    {
+      "slot": "hero",
+      "desired": "Best finished project photo or strong proof visual",
+      "source_status": "automatic"
+    },
+    {
+      "slot": "gallery_1",
+      "desired": "Finished work close-up or wide project shot",
+      "source_status": "automatic"
+    },
+    {
+      "slot": "gallery_2",
+      "desired": "Finished work close-up or wide project shot",
+      "source_status": "automatic"
+    },
+    {
+      "slot": "gallery_3",
+      "desired": "Finished work close-up or wide project shot",
+      "source_status": "automatic"
+    },
+    {
+      "slot": "gallery_4",
+      "desired": "Finished work close-up or wide project shot",
+      "source_status": "automatic"
+    }
+  ],
+  "email": null,
+  "email_found": false,
+  "email_domain_checked": false,
+  "email_domain_website": null,
+  "website_discovery": null,
+  "website_status": "SOCIAL_OR_DIRECTORY_ONLY",
+  "truly_no_website": true,
+  "logo_found": false,
+  "logo_path": null,
+  "facebook_url": null,
+  "facebook_verified": false,
+  "source_verifications": [],
+  "source_confidence": null,
+  "image_manifest": [
+    {
+      "local": "images/01-places.webp",
+      "source": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3klsC_vYJ6IFRCaF7nwv4FycWw9NnZwe3cGrAvCVeRoDu__aolGDqS1VT8FBOgif2LIqK9P-tGb2fXX3_aJ5g3l0ePwcICSfvcPmqe5MwKlHIlpLOo3LfUwN2DanduXQbS-sYQwolIwtSzbGBu63Agp-fvRSERp3h-JkcGM94DvjLwB1lCgu7bAi4iDevgpgsLiLm5VpuM102BRnZAqaNVsSZSOGZePsbc_9kjJiMEruYJBoTmDK5O6ihMwRufQrM74yL07pbjQmJUwPD8lv9FmmkV0yhebFD17_wvt79piiVH2T_S8bL3qBWORxM8DEN44RiGzK4k-JqL7elyWIeqEpHgHBeBxNiQuJkXEzvr45ciwccrKG3lorfHhTEOYRMMMesQ-8t_Rq4EzSWWcfytdSz3UPOSHYV-vI_0HihI&key=REDACTED",
+      "source_type": "google_places",
+      "confidence": "medium",
+      "purpose": "gallery",
+      "selected": true,
+      "reason": "Default from gather"
+    },
+    {
+      "local": "images/04-places.webp",
+      "source": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3lwCqm-MU0ZSocbIOvqOMiFOoQDgYsa1mwbV_PJpocQ-Hh_30I1UHLlWFaLcZD0fHNLtGHnicusfPWniThNbezNDdcyox-jeIShW1AgBix1RWwd0gakXS68nu-gS0vlmsCiBcQXKXZV304BIYhyy5Ki2AuzA1ev2ebQPvIRY58wTsxnDpbaK8NvE8R0wUzza54WUUDDMCRGl2IwNh9FQXjtG5DCsNXm-FrejqjPgDsNyxMElArjs08Ia5U4GtWrixRbAplm5SCjreYrtEdl-8YlZvdLF0kd0-LRnOyx6_1mcR28oul1R_YkXNXa4HHyuJgUxP7ZGjLBSel1GyTL9LPHLDDRpsLaLMDliLAUCHonJvhJXZsr9u7JYSrl4cUGt6iShF9_y7qXU8o7PxkR6WqB1NNqOoweX-QRn-yIZ_o&key=REDACTED",
+      "source_type": "google_places",
+      "confidence": "medium",
+      "purpose": "gallery",
+      "selected": true,
+      "reason": "Default from gather"
+    },
+    {
+      "local": "images/05-places.webp",
+      "source": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3mm8hRs9hmYBmtIiHOb0zy-xcTt9Him1nYBL508ZQBnZ-mKd0S0PtVIzI1cjdRuqiU-oUdCFZ72Wn4Kjjcnt88wwJfxJ2DU51GnNX5r_zDX_Qgi25qtaXbGTU6nionuSqC-jO_f1FhJf1_k34ZCME2bIlcwXIscqAsMjQ4tSoLs2UjcpKkimxONqRjMXUlvGKkLHgUlnAtchXDSW1id8rbtmW14tEtGNV7FBa8YGtmHBg36-aIFL38rQoGse7YtfFZlgx1ZFvzs_qfn_uPdYRNaTXMQGsToHFf0Jv_dWHUUZx4765INrQXW-skUB0--Pv5TRIuM3hCkhzOkXRfEtYzd6YVyj5F3NL4VYFnQW0b4x9EZMjtsbDj6lWtjDiGjFPsIpPOJEJumIotXWEpLdM9cme14FZKp6V8d0apP5OXAmg&key=REDACTED",
+      "source_type": "google_places",
+      "confidence": "medium",
+      "purpose": "gallery",
+      "selected": true,
+      "reason": "Default from gather"
+    },
+    {
+      "local": "images/06-places.webp",
+      "source": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3kFuHRJY5PjYsZXjOpFcNWZKho5BZRhotOV-vPm-Rw60PTrJnkE93B42-Hd6gfJkAm7qTiKgQm4yeWsxp5dR6c6nTZntwET_nC3iKBkUFDQT5g33AX11UjSGP0JRhUFkSJMLuIZ_WCsEBY3C-hTYqfBD2YOJqvMLADhHhtwMnL-7vIcfXhmiwfRSlOuFe8plDIf5dRxrppsqGtqTfszWbbToy_mYU4F_K-tIOuJ1y81mXjAAhVbhq0Rt5kNSiGLpHUU84Bu5xUUZ-jNLbnl4Jnh-M3cmOVoxaMqY4KgcdVOT7cglxd3HJV9Sxmcu0SNYyWd1TaMVJw9jNAufuA434UdRxCYQi86Wnh3RvOLHGyK5U-Wh8UjD0cxUFKcik0enO06b8XLaj3P8bwE6t00GSVPF1MwxOR3JTs-48R_ScxcHvu4&key=REDACTED",
+      "source_type": "google_places",
+      "confidence": "medium",
+      "purpose": "gallery",
+      "selected": true,
+      "reason": "Default from gather"
+    },
+    {
+      "local": "images/07-places.webp",
+      "source": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3kawvnPkBdgh5-BoUpmMN2MmbVnjNFCgVNvWOOXZSdOhZbGQ6ZTeTpmw39B6ZKNJ1BL-fMQCYOgWChX1FXBIN_r1K4bJAR94ZCrPGWQ53MMZ1eXFhVeaho0z-lzmUkelEr4UPsZRRcSXo3PbYDaSvqB6KRWxXKbeDAimlTYcdIVpXhD3iG2q28_gvT-wsVhhGRhdur9Gnen81nI0jx_8E-zuXwLix1OG8HUIuBQOwdnouFKULOIpJy3ahK54OJyhJjv36Oac3G8di0QuSAlnFcX_s97D3kdB6VZqmrwU_PktRNVUCrIp-Fagj80b6J4eUy3CYYFgOcpZTyRMyj2wYjNvADnJ4XUUdkM59UtpwaJrWWo58kTrT7lb5zvPb69oknoEeCt4vehs1xcD3a9qYgQQJNMCc0-gEw62rz-UIyGhEm4&key=REDACTED",
+      "source_type": "google_places",
+      "confidence": "medium",
+      "purpose": "gallery",
+      "selected": true,
+      "reason": "Default from gather"
+    },
+    {
+      "local": "images/08-places.webp",
+      "source": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3nNRUJmix4Z79awq7sTGfeJktYqj2K9UemFI_3s6d-6Cx3CpLw7m7pci3cyzfIfMTwLp7BxqMkkiJHeBKfMXyOX9402EimD7EScQxgDS97m7Ss8y-9EW8hR-7LsGe91MVUvGpZpa7BtfliZh8xl0L6VNOCgkMM6i-8ud2TLfPHTv0WrYYPr1Su5O1aL8Gj299K2_t9khUa5WkuK5WrZdiQRCeAgqLhyf6C0w1vqu5ywKcBsOW9MotsAvJ97UfT49bsSE6JjbEfzDCii4iftN7ICfaeuXZkNi2wGxWPhZ_fkre1Ibo3EyJshtBloVc7SONen1BgtK17dgf4iSpwpJZIj_vfZ0Jd--o15bI8QabEHPazBsN9smsqw-0vshK9EGitREnMxB39k1N_tWnJbkkrxTXsVswWF9N6EhpdvSyJWyO-l&key=REDACTED",
+      "source_type": "google_places",
+      "confidence": "medium",
+      "purpose": "gallery",
+      "selected": true,
+      "reason": "Default from gather"
+    },
+    {
+      "local": "images/09-places.webp",
+      "source": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3nfa1DPNtkKxxLlehDbr0BE-N_fVHIwVLwbDxlkHdj8VimCaFKryu9rh9zWZCZMffRrRh96ppsPtgrQ-8Paf5RXD1T36Y9BSDgERUGVhpd87C_zur7gAPR4PnmC6pjSKNxnq3emmJeuW-pAKy2HwN1EXPnCOMxqkWGFKGesxWRCGsXvkhfqWnxtdIOUOGF_lOBYCHDz1IPundiZmOFydKRP3Skx7YfxwP9_8WDfubIN0Na3K8Al3KxokktQYnDaMWTszv7OIXf2UspxCktzEtM-qO4U06o_3m0dGvvaJ_4FjUEGjlb6oEf4e46q8LrvzbS2GHzXWnIxFCHBoloOQEMeimNkWXP2XW1YdwwmmvHi4HcFaHhqW3gAQtsf5J4S83tEOkpd4Mb1cS9_7zY6lFgtDKzdYGvzHfi104A_WH1hog&key=REDACTED",
+      "source_type": "google_places",
+      "confidence": "medium",
+      "purpose": "gallery",
+      "selected": true,
+      "reason": "Default from gather"
+    },
+    {
+      "local": "images/10-places.webp",
+      "source": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3lJBiUMOHmD-cF9QFd0b3RZ-bb8F2K_YpbPQGESI_cNPJ__bPKO-0Lz2iB1lSCWnUB9Cgi1vnGa9dKp-Q_5te3T0SRwbcUNXpRVfQH_BzirZM-zjJBIwlnZFGiOLxgUJCXxmaFrngMs2Q3kEHNjZoiLLfilAwAb5fQ4wGKJLbFCaLJZB-Emwf6RLV9BYXbKk64IVE02KQ6Z96rydTWAzQ0nXaZnIG6fKTvhM53GX3PZKWeyljWTG7zedAtg71poWdiuD3zjbfkAh310sEY-OiadKK2L93cz3tyM6yUiGbVeCLG_rNX1V3Qk8OvZJ9e99KR4JrttFE-bDbmPUuABQdJHkHz9P5GayysCCC2HYei3HH6iDZHjzi9rr345HZMKwjVMX-Rlly7lFe0lvXutfuFD7taCVIJ7oDIhykJV38-hB8nu&key=REDACTED",
+      "source_type": "google_places",
+      "confidence": "medium",
+      "purpose": "gallery",
+      "selected": true,
+      "reason": "Default from gather"
+    }
+  ],
+  "selected_images": [
+    "images/01-places.webp",
+    "images/04-places.webp",
+    "images/05-places.webp",
+    "images/06-places.webp",
+    "images/07-places.webp",
+    "images/08-places.webp",
+    "images/09-places.webp",
+    "images/10-places.webp"
+  ],
+  "lead_validity_status": "INSUFFICIENT_EVIDENCE",
+  "ready_for_build": false,
+  "registry_source_count": 0,
+  "batch_waiver_applied": true,
+  "batch_waiver_note": "Batch waiver 2026-06-11: Google Places plus contact_name_in_brief"
+}

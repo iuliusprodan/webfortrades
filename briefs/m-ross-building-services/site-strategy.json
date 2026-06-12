@@ -1,0 +1,47 @@
+{
+  "slug": "m-ross-building-services",
+  "business_angle": "M. Ross building services - customers praise quality workmanship and reliable attendance in Brighton, BN1",
+  "customer_praise_themes": [
+    "quality workmanship",
+    "reliable attendance",
+    "fair pricing",
+    "clear communication",
+    "strong recommendations"
+  ],
+  "named_people": [
+    "Mark"
+  ],
+  "distinctive_phrases": [
+    "I couldn’t recommend them more highly",
+    "Amazing professional work had a great experience using this company would recommend highly",
+    "What great guy with a real good skills I would highly recommend using him"
+  ],
+  "strongest_review_quote": {
+    "text": "Like many older properties in Brighton, mine is suffering the wear and tear of wind and rain, with the firewalls in particular admitting water through cracks. Mark and his team repaired and added further weatherproofing to the firewalls, and, while the scaffolding was up, filled in cracks in the rendering, repaired a dodgy gutter and, to seal the deal, repainted the front of the house to cheer the place up. Mark and his team are very efficient, friendly and document in photos what work needs to ",
+    "author": "Mat",
+    "source": "google",
+    "url": "https://maps.google.com/?cid=6879426606290362114"
+  },
+  "strongest_proof_source": {
+    "platform": "google",
+    "metric": "5 rating, 13 reviews",
+    "url": "https://maps.google.com/?cid=6879426606290362114"
+  },
+  "best_photos_rationale": "Google Places photos preferred for gallery when high quality",
+  "claims_to_avoid": [
+    "Fake owner or founder claims",
+    "Supplier names as job locations in captions",
+    "Invented service areas"
+  ],
+  "pitch_hook_summary": "Lead with review detail about quality workmanship (Mat)",
+  "personality": "local",
+  "evidence_strength": "moderate",
+  "suggested_site_mood": "local, calm, review-led",
+  "suggested_proof_hierarchy": [
+    "google_rating_reviews",
+    "photo_gallery"
+  ],
+  "pitch_insight_seed": "Lead with review detail about quality workmanship (Mat)",
+  "trade": "Roofing",
+  "location": "Brighton, BN1"
+}

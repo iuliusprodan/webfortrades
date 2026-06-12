@@ -1,0 +1,43 @@
+{
+  "slug": "rm-electrical",
+  "updated_at": "2026-06-12T00:30:32.969Z",
+  "preferred_alias": "rm-electrical",
+  "deployment_url": "https://rm-electrical-evhkewofp-iulius-projects-0cb33a7b.vercel.app",
+  "verified_url": "https://rm-electrical-ls4.vercel.app",
+  "final_url": "https://rm-electrical-ls4.vercel.app",
+  "alias_status": "VERIFIED",
+  "candidates": [
+    {
+      "hostname": "rm-electrical",
+      "url": "https://rm-electrical.vercel.app",
+      "preflight": "taken_by_other_site",
+      "detail": "HTTP 200 without our build marker"
+    },
+    {
+      "hostname": "rm-electrical-leeds",
+      "url": "https://rm-electrical-leeds.vercel.app",
+      "preflight": "taken_by_other_site",
+      "detail": "HTTP 200 without our build marker"
+    },
+    {
+      "hostname": "rm-electrical-ls4",
+      "url": "https://rm-electrical-ls4.vercel.app",
+      "preflight": "already_ours",
+      "detail": "Build marker rm-electrical:20260611-od-port",
+      "assign": "alias_assigned",
+      "verify": "verified"
+    }
+  ],
+  "verification": {
+    "ok": true,
+    "httpStatus": 200,
+    "markerFound": true,
+    "businessNameFound": true,
+    "phoneFound": true,
+    "marker": {
+      "buildId": "rm-electrical:20260611-od-port",
+      "slug": "rm-electrical"
+    },
+    "errors": []
+  }
+}

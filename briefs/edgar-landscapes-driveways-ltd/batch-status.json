@@ -1,0 +1,13 @@
+{
+  "slug": "edgar-landscapes-driveways-ltd",
+  "batch_id": "2026-06-11-ten-build",
+  "port_started_at": "2026-06-11T22:33:24.448Z",
+  "port_attempts": 1,
+  "updated_at": "2026-06-11T23:03:54.136Z",
+  "port_completed_at": "2026-06-11T23:02:26.934Z",
+  "port_ms": 147104,
+  "port_tokens": 0,
+  "build_id": "edgar-landscapes-driveways-ltd:20260611-od-port",
+  "clone_review": "PASS",
+  "clone_score": 9
+}

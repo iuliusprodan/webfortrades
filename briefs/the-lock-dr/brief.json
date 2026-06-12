@@ -1,0 +1,292 @@
+{
+  "business_name": "The Lock Dr",
+  "owner_name": "Steve",
+  "contact_name": "Steve",
+  "contact_name_source": "google_reviews",
+  "contact_name_confidence": "high",
+  "contact_name_evidence_count": 3,
+  "contact_name_usage_allowed": true,
+  "possible_contact_name": null,
+  "phone": "07859 881354",
+  "email": null,
+  "phone_type": "mobile",
+  "whatsapp_candidate": true,
+  "email_available": false,
+  "whatsapp_available": "available",
+  "contactability_status": "CONTACTABLE",
+  "contactability_reason": "no email found, WhatsApp available",
+  "preferred_channel": "whatsapp",
+  "address": "Wingreen, North Baddesley, Southampton SO52 9DX, UK",
+  "opening_hours": [
+    "Monday: Open 24 hours",
+    "Tuesday: Open 24 hours",
+    "Wednesday: Open 24 hours",
+    "Thursday: Open 24 hours",
+    "Friday: Open 24 hours",
+    "Saturday: Open 24 hours",
+    "Sunday: Open 24 hours"
+  ],
+  "services": [
+    "Locksmith",
+    "Bathroom installations",
+    "locksmiths"
+  ],
+  "services_meta": [
+    {
+      "name": "Locksmith",
+      "source": "google",
+      "direct": true
+    },
+    {
+      "name": "Bathroom installations",
+      "source": "review",
+      "direct": false
+    },
+    {
+      "name": "locksmiths",
+      "source": "niche",
+      "direct": false
+    }
+  ],
+  "service_confidence": "inferred",
+  "service_sources": [
+    "google",
+    "review",
+    "niche"
+  ],
+  "service_area": [
+    "Southampton",
+    "Wingreen, Southampton",
+    "Wingreen",
+    "North Baddesley",
+    "Southampton SO52 9DX"
+  ],
+  "based_location": "Southampton, SO52",
+  "google_rating": 5,
+  "google_review_count": 41,
+  "google_review_count_sourced": true,
+  "service_areas_inferred": true,
+  "google_maps_url": "https://maps.google.com/?cid=5408751554141722089",
+  "website_status": "NO_WEBSITE",
+  "website_check_notes": "google_places_website=empty; website_url empty",
+  "website_url": null,
+  "photos": [],
+  "reviews": [
+    {
+      "text": "We were having problems with closing our front door, and subsequently opening it, which became a real issue one evening. Spoke to Steve on the phone, and he gave us some options to try to resolve the problem, and he then came out to us the following day and fixed it. He also asked if all of our other locks were ok once he’d finished. We’d been having a few minor issues with our bathroom lock, so he sorted that, too. Nothing is too much trouble for him, and he was very knowledgeable and courteous. Highly recommend!",
+      "reviewer": "Debbie",
+      "rating": 5
+    },
+    {
+      "text": "I needed a locksmith to change my mum's locks as she was left vulnerable. I can't recommend The Lock Dr enough! From the time I called to the time the job was complete was around 45 minutes! Exceptional service! Will 100% use again!! Thank you for making my mum safe!",
+      "reviewer": "Mark",
+      "rating": 5
+    },
+    {
+      "text": "I called Steve out for a lock that had seized all weekend. Typically, he arrives and the lock finally unlocks by itself! Got some great advice on how I can help stop this happening again, thank you so much for your time",
+      "reviewer": "Mike",
+      "rating": 5
+    },
+    {
+      "text": "Great Service from Steve. Very prompt replies and a great bloke to do business with. Helped me remove a lock that had mechanically failed. Thank you very much Steve!",
+      "reviewer": "Ian",
+      "rating": 5
+    },
+    {
+      "text": "I use Steven for all our lock work in Southampton I always get great feedback from customers, if you need a honest reliable locksmith then look no further !",
+      "reviewer": "Paul",
+      "rating": 5
+    }
+  ],
+  "social": {
+    "facebook": null,
+    "instagram": null,
+    "youtube": null,
+    "tiktok": null
+  },
+  "gallery_layout": "completed_project_gallery",
+  "photo_classification_summary": {},
+  "brand": {
+    "colours": [],
+    "logo_url": null,
+    "logo_local": null
+  },
+  "source_urls": [
+    "https://maps.google.com/?cid=5408751554141722089"
+  ],
+  "notes": [
+    "email not found in public sources",
+    "contact_name \"Steve\" from 3 Google review mention(s) (high confidence); owner_name not set",
+    "only 0 usable photos kept (target 6-15)",
+    "contactability=CONTACTABLE",
+    "no email found, WhatsApp available"
+  ],
+  "missing_fields": [
+    "email",
+    "photos",
+    "facebook",
+    "instagram"
+  ],
+  "invalid_website_candidates": [],
+  "website_url_validation": {
+    "validated_at": "2026-06-11T22:04:49.064Z",
+    "issue": "empty",
+    "note": "website_url empty",
+    "previous_url": null
+  },
+  "prospect_region": "Southampton",
+  "location_validation_status": "OK",
+  "directory_probes": [
+    {
+      "platform": "checkatrade",
+      "candidate_url": "https://www.checkatrade.com/trades/the-lock-dr",
+      "status": "NOT_FOUND",
+      "confidence": "rejected",
+      "title": null,
+      "rating": null,
+      "review_count": null,
+      "phone_visible": false,
+      "verification_reasons": [],
+      "note": "search_deferred: The Lock Dr Southampton SO52 9DX site:checkatrade.com"
+    },
+    {
+      "platform": "trustatrader",
+      "candidate_url": "https://www.trustatrader.com/traders/the-lock-dr",
+      "status": "NOT_FOUND",
+      "confidence": "rejected",
+      "title": null,
+      "rating": null,
+      "review_count": null,
+      "phone_visible": false,
+      "verification_reasons": [],
+      "note": "search_deferred: The Lock Dr Southampton SO52 9DX site:trustatrader.com"
+    },
+    {
+      "platform": "yell",
+      "candidate_url": "https://www.yell.com/biz/the-lock-dr-southampton-so52-9dx/",
+      "status": "NOT_FOUND",
+      "confidence": "rejected",
+      "title": null,
+      "rating": null,
+      "review_count": null,
+      "phone_visible": false,
+      "verification_reasons": [],
+      "note": "search_deferred: The Lock Dr Southampton SO52 9DX site:yell.com"
+    },
+    {
+      "platform": "mybuilder",
+      "candidate_url": "https://www.mybuilder.com/profile/the-lock-dr",
+      "status": "NOT_FOUND",
+      "confidence": "rejected",
+      "title": null,
+      "rating": null,
+      "review_count": null,
+      "phone_visible": false,
+      "verification_reasons": [],
+      "note": "search_deferred: The Lock Dr Southampton SO52 9DX site:mybuilder.com"
+    },
+    {
+      "platform": "rated_people",
+      "candidate_url": "https://www.ratedpeople.com/profile/the-lock-dr",
+      "status": "NOT_FOUND",
+      "confidence": "rejected",
+      "title": null,
+      "rating": null,
+      "review_count": null,
+      "phone_visible": false,
+      "verification_reasons": [],
+      "note": "search_deferred: The Lock Dr Southampton SO52 9DX site:ratedpeople.com"
+    },
+    {
+      "platform": "houzz",
+      "candidate_url": "https://www.houzz.co.uk/professionals/the-lock-dr",
+      "status": "NOT_FOUND",
+      "confidence": "rejected",
+      "title": null,
+      "rating": null,
+      "review_count": null,
+      "phone_visible": false,
+      "verification_reasons": [],
+      "note": "search_deferred: The Lock Dr Southampton SO52 9DX site:houzz.co.uk"
+    },
+    {
+      "platform": "bark",
+      "candidate_url": "https://www.bark.com/en/gb/company/the-lock-dr/",
+      "status": "NOT_FOUND",
+      "confidence": "rejected",
+      "title": null,
+      "rating": null,
+      "review_count": null,
+      "phone_visible": false,
+      "verification_reasons": [],
+      "note": "search_deferred: The Lock Dr Southampton SO52 9DX site:bark.com"
+    },
+    {
+      "platform": "nextdoor",
+      "candidate_url": "https://nextdoor.co.uk/pages/the-lock-dr/",
+      "status": "NOT_FOUND",
+      "confidence": "rejected",
+      "title": null,
+      "rating": null,
+      "review_count": null,
+      "phone_visible": false,
+      "verification_reasons": [],
+      "note": "search_deferred: The Lock Dr Southampton SO52 9DX site:nextdoor.co.uk"
+    }
+  ],
+  "enrichment": {
+    "enriched_at": "2026-06-11T22:04:53.918Z",
+    "email_domain_checked": false,
+    "website_discovery_run": true
+  },
+  "lead_validity": {
+    "lead_validity_status": "INSUFFICIENT_EVIDENCE",
+    "lead_validity_reason": "Enrichment incomplete or source confidence too low",
+    "pitch_type": "manual_review",
+    "website_status": "NO_WEBSITE",
+    "website_url": null,
+    "website_discovery_classification": null,
+    "email_domain_website": null,
+    "source_confidence_summary": {
+      "overall": "low",
+      "verified_platforms": [],
+      "rejected_platforms": [
+        "google_places"
+      ],
+      "notes": [
+        "No verified sources with medium or high confidence",
+        "1 source(s) rejected for low confidence"
+      ]
+    },
+    "ready_for_build": false,
+    "ready_for_design": false,
+    "ready_for_pitch": false,
+    "manual_review_required": true,
+    "has_real_website": false,
+    "truly_no_website": true,
+    "warnings": [
+      "Source enrichment not complete - run enrich:lead before build",
+      "Source confidence is low - lean site or manual review recommended",
+      "Very few photos - use proof-led or typography-led layout"
+    ],
+    "manual_asset_status": "OK",
+    "pause_before_open_design": false,
+    "manual_asset_folder": "briefs/the-lock-dr/images/manual/"
+  },
+  "source_quality": {
+    "source_quality_status": "FAIL",
+    "source_quality_reason": "Source enrichment not complete",
+    "website_url_validated": true,
+    "email_domain_checked": true,
+    "enrichment_complete": false,
+    "logo_discovery_attempted": true,
+    "photo_discovery_attempted": true,
+    "directory_probes_attempted": true,
+    "warnings": [
+      "Lead validity requires manual review"
+    ],
+    "blockers": [
+      "Source enrichment not complete"
+    ]
+  }
+}

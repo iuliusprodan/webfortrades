@@ -1,0 +1,31 @@
+{
+  "slug": "tom-baker-plumbing-and-gas-solutions",
+  "updated_at": "2026-06-12T00:31:40.069Z",
+  "preferred_alias": "tom-baker-plumbing-and-gas-solutions",
+  "deployment_url": "https://tom-baker-plumbing-and-gas-solutions-e1ah3luyw.vercel.app",
+  "verified_url": "https://tom-baker-plumbing-and-gas-solutions.vercel.app",
+  "final_url": "https://tom-baker-plumbing-and-gas-solutions.vercel.app",
+  "alias_status": "VERIFIED",
+  "candidates": [
+    {
+      "hostname": "tom-baker-plumbing-and-gas-solutions",
+      "url": "https://tom-baker-plumbing-and-gas-solutions.vercel.app",
+      "preflight": "already_ours",
+      "detail": "Build marker tom-baker-plumbing-and-gas-solutions:20260611-od-port",
+      "assign": "alias_assigned",
+      "verify": "verified"
+    }
+  ],
+  "verification": {
+    "ok": true,
+    "httpStatus": 200,
+    "markerFound": true,
+    "businessNameFound": true,
+    "phoneFound": true,
+    "marker": {
+      "buildId": "tom-baker-plumbing-and-gas-solutions:20260611-od-port",
+      "slug": "tom-baker-plumbing-and-gas-solutions"
+    },
+    "errors": []
+  }
+}

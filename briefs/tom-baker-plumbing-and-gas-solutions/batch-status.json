@@ -1,0 +1,13 @@
+{
+  "slug": "tom-baker-plumbing-and-gas-solutions",
+  "batch_id": "2026-06-11-ten-build",
+  "port_started_at": "2026-06-11T22:44:15.330Z",
+  "port_attempts": 1,
+  "updated_at": "2026-06-11T23:03:54.654Z",
+  "port_completed_at": "2026-06-11T23:03:45.045Z",
+  "port_ms": 94266,
+  "port_tokens": 0,
+  "build_id": "tom-baker-plumbing-and-gas-solutions:20260611-od-port",
+  "clone_review": "PASS",
+  "clone_score": 9
+}

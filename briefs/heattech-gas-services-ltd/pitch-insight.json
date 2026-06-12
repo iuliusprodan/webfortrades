@@ -1,0 +1,20 @@
+{
+  "slug": "heattech-gas-services-ltd",
+  "opening_line": "Hi - I read a review where Anne mentioned quality workmanship on a job with Heattech Gas Services Ltd. That stood out.",
+  "source_quote": "I have had  both Brett and Ryan visit on separate issues with my boiler.\nThey responded very quickly to my requests for a visit and fitted me in at very short notice .\nThey were so efficient at diagnosing the problem and dealing with it there and then.\nOn the most  recent visit Ryan did a great job ",
+  "source_evidence": "google: 5 rating, 73 reviews",
+  "why_this_angle": "Lead with review detail about quality workmanship (Anne)",
+  "suggested_whatsapp": "Hi, Julius here. I build websites for local trades. One of your Google reviews from Anne mentioned quality workmanship - I mocked up a one-page site around that. No obligation - want a quick look?",
+  "price_recommendation_gbp": 275,
+  "price_tier": "starter",
+  "follow_up_replies": [
+    {
+      "trigger": "price",
+      "text": "One-page site from £300. Includes mobile layout and quote form."
+    },
+    {
+      "trigger": "not interested",
+      "text": "No problem - I will remove the preview. Thanks for your time."
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "slug": "m-ross-building-services",
+  "opening_line": "Hi - I read a review where Mat mentioned quality workmanship on a job with M. Ross building services. That stood out.",
+  "source_quote": "Like many older properties in Brighton, mine is suffering the wear and tear of wind and rain, with the firewalls in particular admitting water through cracks. Mark and his team repaired and added further weatherproofing to the firewalls, and, while the scaffolding was up, filled in cracks in the ren",
+  "source_evidence": "google: 5 rating, 13 reviews",
+  "why_this_angle": "Lead with review detail about quality workmanship (Mat)",
+  "suggested_whatsapp": "Hi, Julius here. I build websites for local trades. One of your Google reviews from Mat mentioned quality workmanship - I mocked up a one-page site around that. No obligation - want a quick look?",
+  "price_recommendation_gbp": 275,
+  "price_tier": "starter",
+  "follow_up_replies": [
+    {
+      "trigger": "price",
+      "text": "One-page site from £300. Includes mobile layout and quote form."
+    },
+    {
+      "trigger": "not interested",
+      "text": "No problem - I will remove the preview. Thanks for your time."
+    }
+  ]
+}

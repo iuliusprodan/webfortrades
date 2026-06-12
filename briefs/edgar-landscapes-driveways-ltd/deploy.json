@@ -1,0 +1,31 @@
+{
+  "slug": "edgar-landscapes-driveways-ltd",
+  "updated_at": "2026-06-12T00:34:31.537Z",
+  "preferred_alias": "edgar-landscapes-driveways-ltd",
+  "deployment_url": "https://edgar-landscapes-driveways-9gd4swfxw-iulius-projects-0cb33a7b.vercel.app",
+  "verified_url": "https://edgar-landscapes-driveways-ltd.vercel.app",
+  "final_url": "https://edgar-landscapes-driveways-ltd.vercel.app",
+  "alias_status": "VERIFIED",
+  "candidates": [
+    {
+      "hostname": "edgar-landscapes-driveways-ltd",
+      "url": "https://edgar-landscapes-driveways-ltd.vercel.app",
+      "preflight": "already_ours",
+      "detail": "Build marker edgar-landscapes-driveways-ltd:20260611-od-port",
+      "assign": "alias_assigned",
+      "verify": "verified"
+    }
+  ],
+  "verification": {
+    "ok": true,
+    "httpStatus": 200,
+    "markerFound": true,
+    "businessNameFound": true,
+    "phoneFound": true,
+    "marker": {
+      "buildId": "edgar-landscapes-driveways-ltd:20260611-od-port",
+      "slug": "edgar-landscapes-driveways-ltd"
+    },
+    "errors": []
+  }
+}

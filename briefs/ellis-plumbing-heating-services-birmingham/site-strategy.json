@@ -1,0 +1,50 @@
+{
+  "slug": "ellis-plumbing-heating-services-birmingham",
+  "business_angle": "Ellis Plumbing & Heating Services Birmingham centred on bathroom refits and installations in Birmingham, B14",
+  "customer_praise_themes": [
+    "tidy finishes",
+    "quality workmanship",
+    "reliable attendance",
+    "fair pricing",
+    "strong recommendations",
+    "bathroom and refit work"
+  ],
+  "named_people": [
+    "Ish"
+  ],
+  "distinctive_phrases": [
+    "Ish came out at short notice to repair and service an old boiler for my niece who has learning difficulties",
+    "He quoted a price before the visit and that's what he charged",
+    "Ish fitted me a beautiful new bathroom complete with tiling , plumbing, heating and all my appliances",
+    "Nothing was to much of an ask and he went above and beyond to fix some unforeseen issues that I had",
+    "Ishmael provided me with a new radiator and installation"
+  ],
+  "strongest_review_quote": {
+    "text": "Ish came out at short notice to repair and service an old boiler for my niece who has learning difficulties.  He ensured there was hot water and heating to all radiators and everything is working perfectly since his visit last week.  He quoted a price before the visit and that's what he charged.  Even though the boiler was old, he didn't try to get us to install a new boiler just before Christmas, but gave an honest assessment of what might go wrong, but was able to keep it going for us for now.",
+    "author": "Tim",
+    "source": "google",
+    "url": "https://maps.google.com/?cid=16223918444705757032"
+  },
+  "strongest_proof_source": {
+    "platform": "google",
+    "metric": "5 rating, 108 reviews",
+    "url": "https://maps.google.com/?cid=16223918444705757032"
+  },
+  "best_photos_rationale": "Google Places photos preferred for gallery when high quality",
+  "claims_to_avoid": [
+    "Fake owner or founder claims",
+    "Supplier names as job locations in captions",
+    "Invented service areas"
+  ],
+  "pitch_hook_summary": "Lead with review detail about tidy finishes (Tim)",
+  "personality": "practical",
+  "evidence_strength": "moderate",
+  "suggested_site_mood": "clean, straightforward, proof-led",
+  "suggested_proof_hierarchy": [
+    "google_rating_reviews",
+    "photo_gallery"
+  ],
+  "pitch_insight_seed": "Lead with review detail about tidy finishes (Tim)",
+  "trade": "Building & construction",
+  "location": "Birmingham, B14"
+}

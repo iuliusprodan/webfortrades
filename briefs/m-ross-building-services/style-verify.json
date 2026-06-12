@@ -1,0 +1,94 @@
+{
+  "slug": "m-ross-building-services",
+  "updated_at": "2026-06-12T00:25:31.195Z",
+  "url": "https://m-ross-building-services.vercel.app",
+  "ok": false,
+  "screenshot": "/Users/iuliusprodan/.cursor/website/screenshots/m-ross-building-services/live-verify.png",
+  "stylesheet": {
+    "bytes": 37732,
+    "hasPreflight": true,
+    "hasUtilities": true,
+    "utilityMarkers": [
+      ".flex",
+      ".grid",
+      ".mx-auto",
+      ".items-center",
+      ".justify-",
+      ".max-w-",
+      ".px-/.py-",
+      ".rounded",
+      ".gap-"
+    ]
+  },
+  "metrics": {
+    "bodyFontFamily": "\"DM Sans\", \"DM Sans Fallback\", -apple-system, \"system-ui\", \"Segoe UI\", system-ui, sans-serif",
+    "bodyBoxSizing": "border-box",
+    "bodyMarginTop": 0,
+    "bodyMarginLeft": 0,
+    "appliedRuleCount": 774,
+    "styleSheetCount": 1,
+    "biggestGraphic": {
+      "tag": "IMG",
+      "w": 506,
+      "h": 675,
+      "src": "https://m-ross-building-services.vercel.app/assets/images/03-places.webp"
+    },
+    "primaryButton": {
+      "found": true,
+      "background": "rgba(0, 0, 0, 0)",
+      "borderRadius": "8px",
+      "paddingTop": "8px"
+    },
+    "bodyText": "M. Ross building services\nReviews\nWork\nServices\nContact\nGet a quote\n\n5.0\nFROM 13 GOOGLE REVIEWS\n\nLike many older properties in Brighton, mine is suffering the wear and tear of wind and rain, with the firewalls in particular admitting water through cracks.\nMat, Google review\nGet a quote\nCall 07760 10"
+  },
+  "css_assets": [
+    {
+      "url": "https://m-ross-building-services.vercel.app/_next/static/css/e1150d2eccfc10ca.css",
+      "status": 200,
+      "bytes": 37732
+    }
+  ],
+  "js_assets": [
+    {
+      "url": "https://m-ross-building-services.vercel.app/_next/static/chunks/4bd1b696-c023c6e3521b1417.js",
+      "status": 200,
+      "bytes": 173019
+    },
+    {
+      "url": "https://m-ross-building-services.vercel.app/_next/static/chunks/255-eb4aecc3ff015961.js",
+      "status": 200,
+      "bytes": 173611
+    },
+    {
+      "url": "https://m-ross-building-services.vercel.app/_next/static/chunks/main-app-f9b5d20365cb8be2.js",
+      "status": 200,
+      "bytes": 557
+    },
+    {
+      "url": "https://m-ross-building-services.vercel.app/_next/static/chunks/app/page-bf30cdb151e2aaec.js",
+      "status": 200,
+      "bytes": 4509
+    },
+    {
+      "url": "https://m-ross-building-services.vercel.app/_next/static/chunks/polyfills-42372ed130431b0a.js",
+      "status": 200,
+      "bytes": 112594
+    },
+    {
+      "url": "https://m-ross-building-services.vercel.app/_next/static/chunks/webpack-036ab32e694d8d6f.js",
+      "status": 200,
+      "bytes": 3765
+    }
+  ],
+  "failed_assets": [],
+  "issues": [
+    {
+      "severity": "warn",
+      "message": "section_integrity: no gallery block found for column check"
+    },
+    {
+      "severity": "error",
+      "message": "section_integrity: section \"3 services explained plainly\" promises explanatory copy but items average 0.0 description words (0/0 items have text). Add one-line evidence-based descriptions or remove promise wording."
+    }
+  ]
+}

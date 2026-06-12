@@ -1,0 +1,356 @@
+{
+  "slug": "edgar-landscapes-driveways-ltd",
+  "gathered_at": "2026-06-11T22:06:07.218Z",
+  "attempted_sources": [
+    {
+      "platform": "google_places",
+      "status": "found",
+      "url": "https://maps.google.com/?cid=9980755847186953696"
+    },
+    {
+      "platform": "google_reviews",
+      "status": "found",
+      "url": "https://maps.google.com/?cid=9980755847186953696"
+    },
+    {
+      "platform": "google_photos",
+      "status": "found",
+      "url": "https://maps.google.com/?cid=9980755847186953696"
+    },
+    {
+      "platform": "facebook",
+      "status": "not_found",
+      "url": null,
+      "search_query": "Edgar Landscapes & driveways Ltd Liverpool L11 1EP",
+      "reason": "No URL in brief or source_urls (directory scrape not run in this phase)"
+    },
+    {
+      "platform": "instagram",
+      "status": "not_found",
+      "url": null,
+      "search_query": "Edgar Landscapes & driveways Ltd Liverpool L11 1EP",
+      "reason": "No URL in brief or source_urls (directory scrape not run in this phase)"
+    },
+    {
+      "platform": "official_website",
+      "status": "found",
+      "url": "https://edgarlandscapesdriveways.co.uk/"
+    },
+    {
+      "platform": "checkatrade",
+      "status": "not_attempted",
+      "url": null,
+      "search_query": "Edgar Landscapes & driveways Ltd Liverpool L11 1EP",
+      "reason": "Manual search required in this phase"
+    },
+    {
+      "platform": "trustatrader",
+      "status": "not_attempted",
+      "url": null,
+      "search_query": "Edgar Landscapes & driveways Ltd Liverpool L11 1EP",
+      "reason": "Manual search required in this phase"
+    },
+    {
+      "platform": "mybuilder",
+      "status": "not_attempted",
+      "url": null,
+      "search_query": "Edgar Landscapes & driveways Ltd Liverpool L11 1EP",
+      "reason": "Manual search required in this phase"
+    },
+    {
+      "platform": "rated_people",
+      "status": "not_attempted",
+      "url": null,
+      "search_query": "Edgar Landscapes & driveways Ltd Liverpool L11 1EP",
+      "reason": "Manual search required in this phase"
+    },
+    {
+      "platform": "bark",
+      "status": "not_attempted",
+      "url": null,
+      "search_query": "Edgar Landscapes & driveways Ltd Liverpool L11 1EP",
+      "reason": "Manual search required in this phase"
+    },
+    {
+      "platform": "yell",
+      "status": "not_attempted",
+      "url": null,
+      "search_query": "Edgar Landscapes & driveways Ltd Liverpool L11 1EP",
+      "reason": "Manual search required in this phase"
+    },
+    {
+      "platform": "companies_house",
+      "status": "not_attempted",
+      "url": null,
+      "search_query": "Edgar Landscapes & driveways Ltd Liverpool L11 1EP",
+      "reason": "Manual search required in this phase"
+    },
+    {
+      "platform": "directories",
+      "status": "not_attempted",
+      "search_query": "Edgar Landscapes & driveways Ltd Liverpool L11 1EP",
+      "reason": "Generic directory sweep not automated yet"
+    }
+  ],
+  "sources": [
+    {
+      "platform": "google_places",
+      "url": "https://maps.google.com/?cid=9980755847186953696",
+      "verified": true,
+      "verification_method": "place_id_from_gather",
+      "phone_match": true,
+      "notes": "Primary gather source"
+    },
+    {
+      "platform": "official_website",
+      "url": "https://edgarlandscapesdriveways.co.uk/",
+      "verified": false,
+      "verification_method": "cross_check_needed",
+      "phone_match": true,
+      "notes": "BROKEN_OR_BAD_SITE"
+    }
+  ],
+  "sources_found": [
+    "google_places",
+    "google_reviews",
+    "google_photos",
+    "official_website"
+  ],
+  "sources_verified": [
+    "google_places"
+  ],
+  "strongest_proof_source": {
+    "platform": "google",
+    "metric": "5 rating, 40 reviews",
+    "url": "https://maps.google.com/?cid=9980755847186953696"
+  },
+  "best_review_details": [
+    {
+      "text": "After meeting Bill, Josh and Tony, it was clear from the very start, we didn't need to search other companies and check the price quoted. It was clear that they knew, what they were doing and were passionate about making sure the project was completed correctly and that we would be happy with it as well. This was really important to us, because of the structural work involved with walls etc. All t",
+      "author": "andrew",
+      "rating": 5,
+      "source": "google"
+    },
+    {
+      "text": "We recently had a new driveway laid by Edgar Landscapes, and we couldn’t be happier with the result. From start to finish, Bill and his team were a pleasure to deal with—courteous, professional, and clearly passionate about their work. Nothing was ever too much trouble, and they consistently went the extra mile to make sure we achieved exactly the look we wanted.\n\nBill’s motto, “trust the process,",
+      "author": "david",
+      "rating": 5,
+      "source": "google"
+    },
+    {
+      "text": "We are delighted with the transformation Edgar Landscapes have done to our garden. Bill, Tony and Josh are professional, polite and extremely hardworking. It was a pleasure to have them working at our home for the few weeks it took to complete such a massive project.\nBill communicated well throughout the whole process, so we knew what to expect and how the timeline was progressing. He gave great a",
+      "author": "Rebecca",
+      "rating": 5,
+      "source": "google"
+    }
+  ],
+  "image_source_summary": {
+    "google_photos": 10,
+    "facebook_photos": 0,
+    "directory_photos": 0,
+    "manual_photos": 0,
+    "other": 0,
+    "preferred_source": "google_places",
+    "notes": "Google Places photos preferred for gallery when high quality",
+    "priority_order": [
+      "official_website",
+      "google_places",
+      "directory",
+      "manual_asset",
+      "facebook_evidence",
+      "proof_led"
+    ]
+  },
+  "manual_review_flags": [],
+  "enrichment_complete": true,
+  "risks": [],
+  "manual_asset_review_recommended": false,
+  "manual_asset_status": "OK",
+  "asset_readiness": {
+    "manual_asset_status": "OK",
+    "usable_automatic_count": 10,
+    "usable_manual_count": 0,
+    "usable_total_count": 10,
+    "has_hero_candidate": true,
+    "pause_before_open_design": false,
+    "pause_message": null,
+    "layout_recommendation": "photo_led",
+    "image_slots": [
+      {
+        "slot": "hero",
+        "desired": "Best finished project photo or strong proof visual",
+        "source_status": "automatic"
+      },
+      {
+        "slot": "gallery_1",
+        "desired": "Finished work close-up or wide project shot",
+        "source_status": "automatic"
+      },
+      {
+        "slot": "gallery_2",
+        "desired": "Finished work close-up or wide project shot",
+        "source_status": "automatic"
+      },
+      {
+        "slot": "gallery_3",
+        "desired": "Finished work close-up or wide project shot",
+        "source_status": "automatic"
+      },
+      {
+        "slot": "gallery_4",
+        "desired": "Finished work close-up or wide project shot",
+        "source_status": "automatic"
+      }
+    ],
+    "manual_folder": "briefs/edgar-landscapes-driveways-ltd/images/manual/"
+  },
+  "image_slots": [
+    {
+      "slot": "hero",
+      "desired": "Best finished project photo or strong proof visual",
+      "source_status": "automatic"
+    },
+    {
+      "slot": "gallery_1",
+      "desired": "Finished work close-up or wide project shot",
+      "source_status": "automatic"
+    },
+    {
+      "slot": "gallery_2",
+      "desired": "Finished work close-up or wide project shot",
+      "source_status": "automatic"
+    },
+    {
+      "slot": "gallery_3",
+      "desired": "Finished work close-up or wide project shot",
+      "source_status": "automatic"
+    },
+    {
+      "slot": "gallery_4",
+      "desired": "Finished work close-up or wide project shot",
+      "source_status": "automatic"
+    }
+  ],
+  "email": "edgar.landscapes1@gmail.com",
+  "email_found": true,
+  "email_domain_checked": false,
+  "email_domain_website": null,
+  "website_discovery": null,
+  "website_status": "BROKEN_OR_BAD_SITE",
+  "truly_no_website": false,
+  "logo_found": true,
+  "logo_path": "brand/logo.webp",
+  "facebook_url": null,
+  "facebook_verified": false,
+  "source_verifications": [],
+  "source_confidence": null,
+  "image_manifest": [
+    {
+      "local": "images/01-places.webp",
+      "source": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3n2R7RHRdbkZNYxVMwCfJDlPvTsZllcFddxjChlfByFvOieGItfRYlGoFYJmp09AxvQXnHOyPUQ14XT0nBxkgbL1G66ovHt_BkZ2ozmsvTrGjX2F8mwdweJjCkb2luXQRbaSpAHve2dBw6DBLFK4GUuKv-EGrAiMKyWbQaSmrS1t8sE6EHpTAV9Ed8A9sb8tAUNaUaA3mEPiGICsBJM5q51I4QyZl2JmisUI8y-wkXekU0RJtu9yExlZHs-TDSSihCzhzypy_P7PUPpgZ8EyhiUIfTdg01QrDpMdjXQA2Jz1mqbM0fN_Koao4xGCdJQSBRd-SzDchdKS-dJuFZaPzFYiViRVDzo3y17sileFAvi8BxMlnzWYDaht6TKdXJyh42OibdPd3Eqj9DWJJ4v3YHSi164uiMQZMynCHRId80&key=REDACTED",
+      "source_type": "google_places",
+      "confidence": "medium",
+      "purpose": "gallery",
+      "selected": true,
+      "reason": "Default from gather"
+    },
+    {
+      "local": "images/02-places.webp",
+      "source": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3n4CzeOAtEApdBEcQqNBb5nC5Sg7Hr_mbFzIxuhs5d14mCRmQwq5SX2wTlpgqo5dS6zyP3WZbiX4EeJnA2oXIaYen1os93LIb4T_-FQMsLy7FP-GcHLzpmGvs7MGP1V_rjfvis1NDd63ua_Rlg3ncNGldpc0Yx1Ga7PbXZM3nrxPk5E9G-ZzXnZJj-A9MVDY5Jx2DT207cWeOWUfSG_0TQ1KFpxJJKrk8SBUl7Wu5R2toCS3t2Bqw-Oiw5EKwyOscoM3oqA_IMp7obeLLTiYU8Bqmqd9QVYVSOh7oCCcRMnf3v54ACEGrWA88g82Mjs-eSoKVVx6fHxbCp8c0IGARIvQUpDwF60V-9VZJLmV0w-eEOPELeBxzrf9bPxbLvyo44wmPoLskLqUhJtP7HiXaL2gmCrleNWC3Fa10kJWm47bZgE7CZ52MHkdZlymEZV&key=REDACTED",
+      "source_type": "google_places",
+      "confidence": "medium",
+      "purpose": "gallery",
+      "selected": true,
+      "reason": "Default from gather"
+    },
+    {
+      "local": "images/03-places.webp",
+      "source": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3l-K0Q4DTBdejAnT9JrxWvOzKEZ-XuCZczG_6tiAX8ZZd6yaTfLDZCc4F3VwyRYmNm9R92ZwEAoKiTM0OIi38nHDqbZ8UHHyIJoXu5G5MgehecArOOkJaKu2J8kXd-dXS7ercMxrgFBdculdpY74cWABJp2GirE9JNF7CdOexO_O8eFRU47PggYPaHXqf72tShxprh9YPI1F8NtJYH5VKQo9a_mbg6z4DRvaKI70O0WreevPLADB6pFrl6QWNqqC5ciMpF8Qd1vyp-LY7DEnGKQe3LZoP6U9JtV1-Ynnl5qaxxUHZV6nbbTJz5kgvXCtdDJZaVYg_F5rjzt5WT2ZBxgs-nGsqdGjY3U3ILiXFHApGEUPJC2E7UmWVLjeLSSu8dFexpp88GnW3OSTXUcyunNb9L6I3viumrf_Il0ll9-Mx90G-GNAqlIUKMoMxco&key=REDACTED",
+      "source_type": "google_places",
+      "confidence": "medium",
+      "purpose": "gallery",
+      "selected": true,
+      "reason": "Default from gather"
+    },
+    {
+      "local": "images/04-places.webp",
+      "source": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3nr3t7g4fCSvi8mahneu-Ds4pSkmYc5QmnqjnoR_Fe8UitVOBD0UJLYY6Fjy-8uiwSl8fiYOfpkPW3PcGRXFRJ-nRi67NZP2lSHCFw29lUG0dRQx2GwtfXg8wq-TSZ7ge8-_J6I7_povOF27nfx1X_1WpE-jHv48JBA3ims7mWr--neqzdBT1jwK5Y1no-iSbyDSCKAjKZG3NLilcMWHkDN2Ypqfir8wPCLbhQTX6pjARYF0qQ7Epd7Spix0N3TAZfTbat9ggCBT22yDsP-q1jUMAQEtZulxtESPbfS1oq_3ZgwJ7RWCMLP-QNc9Jp_0OePiyMMVG1edtBW98t1vyRgd9mQY4m6p7SkP1d9r_fAVxnPV9KZHYcTadEZg8rvtC7I1SHFKiQsCokQqinOTZXyXoEiRi_msO1vWRMmM0DzgWIKEAjDtCSLhk7b8KwY&key=REDACTED",
+      "source_type": "google_places",
+      "confidence": "medium",
+      "purpose": "gallery",
+      "selected": true,
+      "reason": "Default from gather"
+    },
+    {
+      "local": "images/05-places.webp",
+      "source": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3nr-hM0Cfoz7R7mF60MJp82P0C4xgkubYQRTmwLHYIlyMwDSmU0GBlGTzMQ-27e2E70lEGLInzAx231G7Zo_PDj2aJTnjJuRdxhN9Tt1N40PGyvlQ5P2ZCXAEyKmSmlh0Fm1VAzRqJOCVkeTD1ancy4ZGtfKPnKabLR_d5vXsxspRVGvJTjYZ_nKTw_iRHbnJtbEjxoK6BMods3TmrwiYYBHwjTqBFEunfwccMlFd7Ro3LRcDNNVvpfW5Psc1zDkdrSUm2i6lQ_RdlbYMUNKt7RrwPAilR7mDxbWZXBLUCndowPbra8yjk0YapZz8hzJxJLsJJxoC37rqSaq0mOKOnCNqeRoyQuifPUq9U8h8JhXICVOYxOe8GAkTfRnUGx87rTEmsjoZ8WsL7XbKPqkTc_8_an2qxxHqnRxAoRX5dSltlp-6CWFqktOM2aBFkA&key=REDACTED",
+      "source_type": "google_places",
+      "confidence": "medium",
+      "purpose": "gallery",
+      "selected": true,
+      "reason": "Default from gather"
+    },
+    {
+      "local": "images/06-places.webp",
+      "source": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3m01drTd5FSo7u0JsscFAw4yWxn3kq9-zAXWAQKyOXlz6TjNhmqEKL8UnbouqF8BCJkFA4vH_aqLnGOhC0RwjvMHv3s6_8e1rzEkH1CJlw61Dg0XEVamunrX9mZex--0KfH4xRnC8kf-Q7llu_kGRm3CzP9RsSfNWRGG9ncT0ayVbjVTXSR7RoAutM7E16m2Qive8zqkfArf_Bz8ZjhbkKQFzDzaOi7Pq5HDzSrGeC3BW1uMNhHbopeTF3ZyB9kdfb8721fiePkE_Bzkh4sF1ooKk0hnXhJUx56PtU2bWAv8PhZYdfu3OGnh1Fs-yDLiUK1K8smnLruoDOzpLoLbob6MY3j_GtEInEuMkGIVPhtOqYTzrPrXCZ8pghkjr9OuneazNF5MESlUPC3B60ZPXyMg0TLvtGV0C6eAbPOlGs&key=REDACTED",
+      "source_type": "google_places",
+      "confidence": "medium",
+      "purpose": "gallery",
+      "selected": true,
+      "reason": "Default from gather"
+    },
+    {
+      "local": "images/07-places.webp",
+      "source": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3lbc0jshj7pUwcyoANFaoXGUQHQpanQro8mTD9nUjFK4NUiRqSNSUgt-zgTZKcynUI62Q5CsKrcEykFzHVZ0DNmU7iDDrAoRjRyTjgkQq-SjeefXdaVIaaxgj7vtiYAfv5X8e5PGCiqwDzqQcR0c27lM2w6JCiFt_umUYLCJORuAzwiASnCN96vbif2rLvJJELz2DWcdIGVHaBOZThA-tfz-FTFgM-mSffYe2g0hCUXG1gKKEx4CzdWjJ75EIst8YrbbQRFAUw6xamX2pydvzKh40u0obfO53C_lU9AIBnvsjX1DHHuiBxdajtl_ePdn7DUeuow8viNrVWaR-QIkCHtN34tMzjePL-PneFKQcJgqoxmjDdnUxyUCdZFQWwAyJKf-D5mcohRgpgmFH1eZIrXxHuVes1jC9JDxCzoZDd-nQ&key=REDACTED",
+      "source_type": "google_places",
+      "confidence": "medium",
+      "purpose": "gallery",
+      "selected": true,
+      "reason": "Default from gather"
+    },
+    {
+      "local": "images/08-places.webp",
+      "source": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3m4DQcPbaRS6op5WCqIU5eMYgl-lHpNTMN4oec7RY56VTFa4Wp8iz1u6wSPzkSef8hVH1piVpV3eq-VyHtSe9Gs4EQY6QIqtly9_iS7imenN6yyjVEMS_tyTwck_wYkWr7eTmSoccR4nVeIsrYvqZuJZcu_JaFecXa8O7r7uBUP1VwfgmKtjb--5fDwsG0SRxRLqoMSzITg_pjB5yG1N9mRH4jg6JsyL7UVkPGPN9uxjM3quDqP0OP_o8MMf9rNeGQ10heEJEudYr9ndJewTb1jzEd-uiQl0hNXGGBsHI1vFngs_ZsJr8On4MuWqKYQbpToxff1vQ3iDNIMVTx_knr6TXW69kWSWZonjbPiLvoNlhMZwbd0QyhYLLaTXrjnvKi-cRA4ZS01UF6E-cxNpeZtj3f9lH-Z8l6PUoxCFYC3hcKUZLLQy4OfVt-vCw&key=REDACTED",
+      "source_type": "google_places",
+      "confidence": "medium",
+      "purpose": "gallery",
+      "selected": true,
+      "reason": "Default from gather"
+    },
+    {
+      "local": "images/09-places.webp",
+      "source": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3kpxPn9nO4iEt0aSVczPnYhrDiFUZ71TlRTWpghx-7IDOHufbcY176QHvPJ_LeoXMHPGTQsdDA5QD5vCPsqltlVIYOouyVKIWSP6hzmNm6vXguq91qyuMu9ogNpFjroAa3e1mSIvMEMzZeJxAmLSpbj3XjFNeDB3Wf0WMJNsAogU8oQVcCNxpHbU06fthmdPjl3_tp1rWkq1Q4fjPky93Al9bkzISnCs-iaYzazS7pkjG2ZVMy8z1MCSOQkzaLilpuO5TZk_QLj0efq2yYseOMJBx6prWUa6Q66_LGcG8yk36xzmu_ZUQyeqWwZ0TvjNAfF7OfRgBT9cJWOhdhzRH_EHKYWiQFBBp4wa23K57PUq-U9N1rRlyuCjl8ynYA3Bh_l7trZ366-PRURZlLpqP93p9Tq8c6GiER3gax4XmzhnZsaNQhJzWIa24LBLYjv&key=REDACTED",
+      "source_type": "google_places",
+      "confidence": "medium",
+      "purpose": "gallery",
+      "selected": true,
+      "reason": "Default from gather"
+    },
+    {
+      "local": "images/10-places.webp",
+      "source": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3lIBL_FutNSSmNOIlNpkvbRh1mMl4EOscGIzQFr-b-zpFMZru2fz1dPh1-UsA0eJtZ6udO6NB8z55C9XcnY_iAuXPCYnBQeK03qr08bA4FfZe49Er57A98Pmcuwu1DqHjFxFEq1BISUosmA2FprtThuyLF0F5ZdJc3dQOvruEEjIgWKhVKvF26DqFitP7u86k1B2QmHntPD_iJkdQxGb2NWwEbop19RIUea2IJsPIcxOgA-7KAerEFcvKn9cNA6iznf_dmCNzKV46l1_KMGrCnwHaIE1VWyOxsX-nVLM7-Yex6VpilZneT0uc7AngjLeALTEpW_-Lhf3aI337yYYknSWuSTZ7ArKfrYi7oBZoxg005V0FCVJrwp5GrcI0squr1NpPk0rVtCoEIQo7A__8MJvCUmJnW3XhKZdrQU7EYQVbFg98AYrQJp_QSNv6wL&key=REDACTED",
+      "source_type": "google_places",
+      "confidence": "medium",
+      "purpose": "gallery",
+      "selected": true,
+      "reason": "Default from gather"
+    }
+  ],
+  "selected_images": [
+    "images/01-places.webp",
+    "images/02-places.webp",
+    "images/03-places.webp",
+    "images/04-places.webp",
+    "images/05-places.webp",
+    "images/06-places.webp",
+    "images/07-places.webp",
+    "images/08-places.webp",
+    "images/09-places.webp",
+    "images/10-places.webp"
+  ],
+  "lead_validity_status": "HAS_REAL_SITE_SKIP",
+  "ready_for_build": false,
+  "registry_source_count": 0,
+  "batch_waiver_applied": true,
+  "batch_waiver_note": "Batch waiver 2026-06-11: Google Places plus broken_or_domain_probe"
+}

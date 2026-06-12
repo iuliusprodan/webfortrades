@@ -1,0 +1,30 @@
+{
+  "slug": "the-lock-dr",
+  "updated_at": "2026-06-12T00:22:10.812Z",
+  "preferred_alias": "the-lock-dr",
+  "deployment_url": "https://the-lock-oxnb5it5a-iulius-projects-0cb33a7b.vercel.app",
+  "verified_url": "https://the-lock-dr.vercel.app",
+  "final_url": "https://the-lock-dr.vercel.app",
+  "alias_status": "VERIFIED",
+  "candidates": [
+    {
+      "hostname": "the-lock-dr",
+      "url": "https://the-lock-dr.vercel.app",
+      "preflight": "already_ours",
+      "detail": "Build marker the-lock-dr:20260611-od-port",
+      "verify": "verified"
+    }
+  ],
+  "verification": {
+    "ok": true,
+    "httpStatus": 200,
+    "markerFound": true,
+    "businessNameFound": true,
+    "phoneFound": true,
+    "marker": {
+      "buildId": "the-lock-dr:20260611-od-port",
+      "slug": "the-lock-dr"
+    },
+    "errors": []
+  }
+}

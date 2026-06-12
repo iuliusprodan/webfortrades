@@ -1,0 +1,20 @@
+{
+  "slug": "a-m-t-roofing-penarth",
+  "opening_line": "Hi - I read a review where Hunter mentioned tidy finishes on a job with A.M.T Roofing Penarth. That stood out.",
+  "source_quote": "These guys have done a fantastic job on our roof. They had patience and communicated clearly with us when giving our quote (very competitive by the way). They also were very timely and did a darn good job of getting this roof on. They were very respectful to my family and they cleaned up after thems",
+  "source_evidence": "facebook: 10 public photos, phone verified",
+  "why_this_angle": "Lead with review detail about tidy finishes (Hunter)",
+  "suggested_whatsapp": "Hi, Julius here. I build websites for local trades. One of your Google reviews from Hunter mentioned tidy finishes - I mocked up a one-page site around that. No obligation - want a quick look?",
+  "price_recommendation_gbp": 270,
+  "price_tier": "starter",
+  "follow_up_replies": [
+    {
+      "trigger": "price",
+      "text": "One-page site from £300. Includes mobile layout and quote form."
+    },
+    {
+      "trigger": "not interested",
+      "text": "No problem - I will remove the preview. Thanks for your time."
+    }
+  ]
+}

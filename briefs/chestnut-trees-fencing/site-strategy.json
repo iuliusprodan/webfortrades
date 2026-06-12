@@ -1,0 +1,49 @@
+{
+  "slug": "chestnut-trees-fencing",
+  "business_angle": "Chestnut Trees & Fencing - customers praise tidy finishes and quality workmanship in Exeter, EX5",
+  "customer_praise_themes": [
+    "tidy finishes",
+    "quality workmanship",
+    "reliable attendance",
+    "clear communication",
+    "strong recommendations"
+  ],
+  "named_people": [
+    "Dan"
+  ],
+  "distinctive_phrases": [
+    "Yesterday Chestnut Trees came to fell one large tree and reduce a second by 50% in our garden",
+    "They did it in one day",
+    "They calmly and professionally completed the job and left the garden tidy",
+    "They were very communicative, polite and accommodating and I would have no hesitation in recommending them to anyone",
+    "Chestnut trees came to remove large Horse chestnut tree that had died"
+  ],
+  "strongest_review_quote": {
+    "text": "Yesterday Chestnut Trees came to fell one large tree and reduce a second by 50% in our garden. They did it in one day.\n\nThey cut the felled tree and branches into workable pieces which I can now easily cut into logs.\n\nThey machine chipped the smaller branches making a great mound of wood chipping which I can use as a mulch around the garden.\n\nThe logs were stacked and everything was cleared up very thoroughly.\n\nDan was very knowledgeable and gave us good advice before and during the job. This wa",
+    "author": "joe",
+    "source": "google",
+    "url": "https://maps.google.com/?cid=13688766968420209735"
+  },
+  "strongest_proof_source": {
+    "platform": "google",
+    "metric": "4.9 rating, 57 reviews",
+    "url": "https://maps.google.com/?cid=13688766968420209735"
+  },
+  "best_photos_rationale": "Google Places photos preferred for gallery when high quality",
+  "claims_to_avoid": [
+    "Fake owner or founder claims",
+    "Supplier names as job locations in captions",
+    "Invented service areas"
+  ],
+  "pitch_hook_summary": "Lead with review detail about tidy finishes (joe)",
+  "personality": "local",
+  "evidence_strength": "moderate",
+  "suggested_site_mood": "local, calm, review-led",
+  "suggested_proof_hierarchy": [
+    "google_rating_reviews",
+    "photo_gallery"
+  ],
+  "pitch_insight_seed": "Lead with review detail about tidy finishes (joe)",
+  "trade": "Building & construction",
+  "location": "Exeter, EX5"
+}

@@ -1,0 +1,90 @@
+{
+  "slug": "rm-electrical",
+  "updated_at": "2026-06-12T00:30:40.839Z",
+  "url": "https://rm-electrical-ls4.vercel.app",
+  "ok": true,
+  "screenshot": "/Users/iuliusprodan/.cursor/website/screenshots/rm-electrical/live-verify.png",
+  "stylesheet": {
+    "bytes": 36462,
+    "hasPreflight": true,
+    "hasUtilities": true,
+    "utilityMarkers": [
+      ".flex",
+      ".grid",
+      ".mx-auto",
+      ".items-center",
+      ".justify-",
+      ".max-w-",
+      ".px-/.py-",
+      ".rounded",
+      ".gap-"
+    ]
+  },
+  "metrics": {
+    "bodyFontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", system-ui, sans-serif",
+    "bodyBoxSizing": "border-box",
+    "bodyMarginTop": 0,
+    "bodyMarginLeft": 0,
+    "appliedRuleCount": 775,
+    "styleSheetCount": 1,
+    "biggestGraphic": {
+      "tag": "IMG",
+      "w": 608,
+      "h": 1081,
+      "src": "https://rm-electrical-ls4.vercel.app/assets/images/01-places.webp"
+    },
+    "primaryButton": {
+      "found": true,
+      "background": "oklch(0.22 0.04 250)",
+      "borderRadius": "6px",
+      "paddingTop": "12px"
+    },
+    "bodyText": "RM ELECTRICAL\nWork\nServices\nReviews\nAreas\nGet a quote\nCall 07807 319073\n\nELECTRICIAN · LEEDS LS4\n\nCalled Ryan on a Thursday asking to come replace our induction hob. Despite being booked up, he managed to fit the job in the very next day. Excellent job done at a very fair price.\n\nDAVID · GOOGLE REVI"
+  },
+  "css_assets": [
+    {
+      "url": "https://rm-electrical-ls4.vercel.app/_next/static/css/1e7ebc071ac3542d.css",
+      "status": 200,
+      "bytes": 36462
+    }
+  ],
+  "js_assets": [
+    {
+      "url": "https://rm-electrical-ls4.vercel.app/_next/static/chunks/4bd1b696-c023c6e3521b1417.js",
+      "status": 200,
+      "bytes": 173019
+    },
+    {
+      "url": "https://rm-electrical-ls4.vercel.app/_next/static/chunks/255-eb4aecc3ff015961.js",
+      "status": 200,
+      "bytes": 173611
+    },
+    {
+      "url": "https://rm-electrical-ls4.vercel.app/_next/static/chunks/main-app-f9b5d20365cb8be2.js",
+      "status": 200,
+      "bytes": 557
+    },
+    {
+      "url": "https://rm-electrical-ls4.vercel.app/_next/static/chunks/app/page-a9de096d530aded0.js",
+      "status": 200,
+      "bytes": 2924
+    },
+    {
+      "url": "https://rm-electrical-ls4.vercel.app/_next/static/chunks/polyfills-42372ed130431b0a.js",
+      "status": 200,
+      "bytes": 112594
+    },
+    {
+      "url": "https://rm-electrical-ls4.vercel.app/_next/static/chunks/webpack-24f76e09bfb7f512.js",
+      "status": 200,
+      "bytes": 3770
+    }
+  ],
+  "failed_assets": [],
+  "issues": [
+    {
+      "severity": "warn",
+      "message": "section_integrity: no gallery block found for column check"
+    }
+  ]
+}

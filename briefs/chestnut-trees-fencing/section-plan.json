@@ -1,0 +1,139 @@
+{
+  "slug": "chestnut-trees-fencing",
+  "created_at": "2026-06-11T22:06:12.912Z",
+  "sections": [
+    {
+      "id": "review-led-hero",
+      "priority": 1,
+      "heading": "Yesterday Chestnut Trees came to fell one large tree and reduce a second by 50% in our gar.",
+      "justification": "Strongest review quote defines the business",
+      "background_mood": "cool"
+    },
+    {
+      "id": "stats-sourced-only",
+      "priority": 2,
+      "heading": null,
+      "justification": "Google rating and review count sourced from Places",
+      "background_mood": "accent"
+    },
+    {
+      "id": "what-customers-keep-mentioning",
+      "priority": 3,
+      "heading": "What Exeter customers mention most",
+      "justification": "Clear repeated praise themes in reviews",
+      "background_mood": "surface"
+    },
+    {
+      "id": "gallery-lean",
+      "priority": 4,
+      "heading": "Recent plumbing work in Exeter",
+      "justification": "Lean gallery, max 2 per cluster",
+      "background_mood": "light"
+    },
+    {
+      "id": "service-explainers",
+      "priority": 5,
+      "heading": "3 services explained plainly",
+      "justification": "Evidence-based service list, not fixed 06 grid",
+      "background_mood": "surface"
+    },
+    {
+      "id": "featured-review-story",
+      "priority": 6,
+      "heading": "Customers mention Dan by name",
+      "justification": "Single contact name with review evidence",
+      "background_mood": "warm"
+    },
+    {
+      "id": "process-section",
+      "priority": 7,
+      "heading": "How a job with us works",
+      "justification": "Process section adds business-specific clarity",
+      "background_mood": "cool"
+    },
+    {
+      "id": "review-wall",
+      "priority": 8,
+      "heading": "4.9 on Google reviews",
+      "justification": "Full review quotes, not synthetic headlines",
+      "background_mood": "light"
+    },
+    {
+      "id": "local-coverage",
+      "priority": 9,
+      "heading": "Based in Exeter",
+      "justification": "Location verified from Google address",
+      "background_mood": "accent"
+    },
+    {
+      "id": "simple-contact",
+      "priority": 10,
+      "heading": "Get a quote from Chestnut Trees & Fencing",
+      "justification": "Business-specific contact, not generic phone line copy",
+      "background_mood": "dark"
+    },
+    {
+      "id": "quote-form",
+      "priority": 11,
+      "heading": null,
+      "justification": "Quote form at contact anchor",
+      "background_mood": "dark"
+    }
+  ],
+  "omitted_defaults": [
+    "owner-note",
+    "about-van-template",
+    "generic-stats-band",
+    "faq"
+  ],
+  "omitted_reasons": {
+    "owner-note": "Using team-person or featured-review instead of generic owner note",
+    "about-van-template": "Avoid \"One van. One trade.\" template block",
+    "generic-stats-band": "Stats only when sourced",
+    "faq": "FAQ omitted - reviews already answer common questions",
+    "gallery-default": "Insufficient photos for full gallery"
+  },
+  "generic_plan": false,
+  "compared_against": [
+    "jt-plumbing",
+    "nfs-plumbing-heating",
+    "rm-electrical",
+    "stay-dry-roofing",
+    "west-park-electrics"
+  ],
+  "clone_warnings": [
+    "High section overlap (91%) with nfs-plumbing-heating",
+    "High section overlap (91%) with rm-electrical",
+    "Identical section order as stay-dry-roofing",
+    "High section overlap (100%) with stay-dry-roofing",
+    "High section overlap (91%) with west-park-electrics"
+  ],
+  "image_slots": [
+    {
+      "slot": "hero",
+      "desired": "Best finished project photo or strong proof visual",
+      "source_status": "automatic"
+    },
+    {
+      "slot": "gallery_1",
+      "desired": "Finished work close-up or wide project shot",
+      "source_status": "automatic"
+    },
+    {
+      "slot": "gallery_2",
+      "desired": "Finished work close-up or wide project shot",
+      "source_status": "automatic"
+    },
+    {
+      "slot": "gallery_3",
+      "desired": "Finished work close-up or wide project shot",
+      "source_status": "automatic"
+    },
+    {
+      "slot": "gallery_4",
+      "desired": "Finished work close-up or wide project shot",
+      "source_status": "automatic"
+    }
+  ],
+  "layout_recommendation": "photo_led"
+}

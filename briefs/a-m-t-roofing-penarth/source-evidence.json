@@ -1,0 +1,476 @@
+{
+  "slug": "a-m-t-roofing-penarth",
+  "gathered_at": "2026-06-11T22:04:36.671Z",
+  "attempted_sources": [
+    {
+      "platform": "google_places",
+      "status": "found",
+      "url": "https://maps.google.com/?cid=1564530328914605086"
+    },
+    {
+      "platform": "google_reviews",
+      "status": "found",
+      "url": "https://maps.google.com/?cid=1564530328914605086"
+    },
+    {
+      "platform": "google_photos",
+      "status": "found",
+      "url": "https://maps.google.com/?cid=1564530328914605086"
+    },
+    {
+      "platform": "facebook",
+      "status": "found",
+      "url": "https://www.facebook.com/p/AMT-Roofing-100063748024972/"
+    },
+    {
+      "platform": "instagram",
+      "status": "not_found",
+      "url": null,
+      "search_query": "A.M.T Roofing Penarth Penarth CF64 2LS",
+      "reason": "No URL in brief or source_urls (directory scrape not run in this phase)"
+    },
+    {
+      "platform": "official_website",
+      "status": "not_found",
+      "url": null,
+      "search_query": "A.M.T Roofing Penarth Penarth CF64 2LS",
+      "reason": "No URL in brief or source_urls (directory scrape not run in this phase)"
+    },
+    {
+      "platform": "checkatrade",
+      "status": "not_attempted",
+      "url": null,
+      "search_query": "A.M.T Roofing Penarth Penarth CF64 2LS",
+      "reason": "Manual search required in this phase"
+    },
+    {
+      "platform": "trustatrader",
+      "status": "not_attempted",
+      "url": null,
+      "search_query": "A.M.T Roofing Penarth Penarth CF64 2LS",
+      "reason": "Manual search required in this phase"
+    },
+    {
+      "platform": "mybuilder",
+      "status": "not_attempted",
+      "url": null,
+      "search_query": "A.M.T Roofing Penarth Penarth CF64 2LS",
+      "reason": "Manual search required in this phase"
+    },
+    {
+      "platform": "rated_people",
+      "status": "not_attempted",
+      "url": null,
+      "search_query": "A.M.T Roofing Penarth Penarth CF64 2LS",
+      "reason": "Manual search required in this phase"
+    },
+    {
+      "platform": "bark",
+      "status": "not_attempted",
+      "url": null,
+      "search_query": "A.M.T Roofing Penarth Penarth CF64 2LS",
+      "reason": "Manual search required in this phase"
+    },
+    {
+      "platform": "yell",
+      "status": "not_attempted",
+      "url": null,
+      "search_query": "A.M.T Roofing Penarth Penarth CF64 2LS",
+      "reason": "Manual search required in this phase"
+    },
+    {
+      "platform": "companies_house",
+      "status": "not_attempted",
+      "url": null,
+      "search_query": "A.M.T Roofing Penarth Penarth CF64 2LS",
+      "reason": "Manual search required in this phase"
+    },
+    {
+      "platform": "directories",
+      "status": "not_attempted",
+      "search_query": "A.M.T Roofing Penarth Penarth CF64 2LS",
+      "reason": "Generic directory sweep not automated yet"
+    }
+  ],
+  "sources": [
+    {
+      "platform": "google_places",
+      "url": "https://maps.google.com/?cid=1564530328914605086",
+      "verified": true,
+      "verification_method": "place_id_from_gather",
+      "phone_match": true,
+      "notes": "Primary gather source"
+    },
+    {
+      "platform": "facebook",
+      "url": "https://www.facebook.com/p/AMT-Roofing-100063748024972",
+      "verified": true,
+      "verification_method": "facebook_source_module",
+      "phone_match": true,
+      "notes": "Phone number matches Google/lead phone; Public email visible on page (amtroofing@outlook.com)"
+    }
+  ],
+  "sources_found": [
+    "google_places",
+    "google_reviews",
+    "google_photos",
+    "facebook"
+  ],
+  "sources_verified": [
+    "google_places",
+    "facebook"
+  ],
+  "strongest_proof_source": {
+    "platform": "facebook",
+    "metric": "10 public photos, phone verified",
+    "url": "https://www.facebook.com/p/AMT-Roofing-100063748024972"
+  },
+  "best_review_details": [
+    {
+      "text": "These guys have done a fantastic job on our roof. They had patience and communicated clearly with us when giving our quote (very competitive by the way). They also were very timely and did a darn good job of getting this roof on. They were very respectful to my family and they cleaned up after themselves exceptionally well.  They pointed out little things along the way that they went ahead and fix",
+      "author": "Hunter",
+      "rating": 5,
+      "source": "google"
+    },
+    {
+      "text": "If I could add more stars I would! Completely professional from start to finish.\n\nAsh’s expertise is outstanding. We’re delighted with our new roof. Super efficient, we felt completely at ease and took all his expert advice on board.\n\nWe had a new roof in our old house and the A.M.T crew were far superior. Competitive pricing and 100% professional. Amazing communication throughout.\n\nAsh is a total",
+      "author": "Mr",
+      "rating": 5,
+      "source": "google"
+    },
+    {
+      "text": "AMT roofing carried out a complete strip off and re roof of my Victorian age property in Cardiff - 20/10 service and quality from the outset, even with the weather the guys worked solid and made sure everything was clean and tidy after every shift. Also replaced all my guttering / fascia / down pipes to a great standard. Would highly recommend to anyone. Thanks again AMT Roofing",
+      "author": "Michael",
+      "rating": 5,
+      "source": "google"
+    }
+  ],
+  "image_source_summary": {
+    "google_photos": 10,
+    "facebook_photos": 10,
+    "directory_photos": 0,
+    "manual_photos": 0,
+    "other": 0,
+    "preferred_source": "google_places",
+    "notes": "Google Places photos preferred for gallery when high quality",
+    "priority_order": [
+      "official_website",
+      "google_places",
+      "directory",
+      "manual_asset",
+      "facebook_evidence",
+      "proof_led"
+    ]
+  },
+  "manual_review_flags": [
+    "LOCATION_MISMATCH_NEEDS_REVIEW"
+  ],
+  "enrichment_complete": true,
+  "risks": [
+    "Location: LOCATION_MISMATCH_NEEDS_REVIEW"
+  ],
+  "facebook_graph": {
+    "attempted": false,
+    "success": false,
+    "page_id": null,
+    "photos_found": 0,
+    "photos_downloaded": 0,
+    "largest_width": null,
+    "largest_height": null,
+    "failure_reason": "META_GRAPH_API_TOKEN not configured",
+    "permission_required": false
+  },
+  "facebook_apify": {
+    "attempted": false,
+    "success": false,
+    "actor": null,
+    "photos_found": 0,
+    "photos_downloaded": 0,
+    "largest_width": null,
+    "largest_height": null,
+    "failure_reason": "APIFY_TOKEN not configured",
+    "cost_estimate": null,
+    "requires_login": false,
+    "via_mcp": false
+  },
+  "facebook_media_quality": "HIGH_RES",
+  "manual_asset_review_recommended": false,
+  "manual_asset_status": "OK",
+  "asset_readiness": {
+    "manual_asset_status": "OK",
+    "usable_automatic_count": 11,
+    "usable_manual_count": 0,
+    "usable_total_count": 11,
+    "has_hero_candidate": true,
+    "pause_before_open_design": false,
+    "pause_message": null,
+    "layout_recommendation": "photo_led",
+    "image_slots": [
+      {
+        "slot": "hero",
+        "desired": "Best finished project photo or strong proof visual",
+        "source_status": "automatic"
+      },
+      {
+        "slot": "gallery_1",
+        "desired": "Finished work close-up or wide project shot",
+        "source_status": "automatic"
+      },
+      {
+        "slot": "gallery_2",
+        "desired": "Finished work close-up or wide project shot",
+        "source_status": "automatic"
+      },
+      {
+        "slot": "gallery_3",
+        "desired": "Finished work close-up or wide project shot",
+        "source_status": "automatic"
+      },
+      {
+        "slot": "gallery_4",
+        "desired": "Finished work close-up or wide project shot",
+        "source_status": "automatic"
+      }
+    ],
+    "manual_folder": "briefs/a-m-t-roofing-penarth/images/manual/"
+  },
+  "image_slots": [
+    {
+      "slot": "hero",
+      "desired": "Best finished project photo or strong proof visual",
+      "source_status": "automatic"
+    },
+    {
+      "slot": "gallery_1",
+      "desired": "Finished work close-up or wide project shot",
+      "source_status": "automatic"
+    },
+    {
+      "slot": "gallery_2",
+      "desired": "Finished work close-up or wide project shot",
+      "source_status": "automatic"
+    },
+    {
+      "slot": "gallery_3",
+      "desired": "Finished work close-up or wide project shot",
+      "source_status": "automatic"
+    },
+    {
+      "slot": "gallery_4",
+      "desired": "Finished work close-up or wide project shot",
+      "source_status": "automatic"
+    }
+  ],
+  "email": "amtroofing@outlook.com",
+  "email_found": true,
+  "email_domain_checked": false,
+  "email_domain_website": null,
+  "website_discovery": null,
+  "website_status": "SOCIAL_OR_DIRECTORY_ONLY",
+  "truly_no_website": true,
+  "logo_found": false,
+  "logo_path": null,
+  "facebook_url": "https://www.facebook.com/p/AMT-Roofing-100063748024972",
+  "facebook_verified": true,
+  "source_verifications": [],
+  "source_confidence": null,
+  "image_manifest": [
+    {
+      "local": "images/01-places.webp",
+      "source": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3kBrewtBLeXr2YE23GsLRzzAFMpTO7UBFL7c2U5K6DoDIC73qfkMojeTlFUOMDGtBIbwNIBM7tj49gWLGeZHEYzB8rrE_8KYiFmCvKnAxU9gZcyccaK5Jy8XuVfs2GL5USoW9wonxkgD4vIZjir36MRG9eTtGmmHQ4o6uo0zS3xSmDiDHu216eFyD5VHl3-g9i1sUXE0CDp8_HxQIIPgOCG2I16QWE0kvMDw_zO6cf8KZqBqV-3AHXqv5JVGXT92JrrKZvdjhOefm-VBDLTjYLInIYZk9AbmSc0wY7DpOJoJS6qH3LZLdBwHan7573lrx4A6iieLfPCMLKRKtMi8U2-ErL232jSqYlSeMpYdmFxa-nmOpDSxfZL7BHpBwDxitjJfkatLGM0F1pFoabH2u6WV-Rq7ulEJ8bqXrID8J2mT7RTYFstSkOt1rzxtQT0&key=REDACTED",
+      "source_type": "google_places",
+      "confidence": "medium",
+      "purpose": "gallery",
+      "selected": true,
+      "reason": "Default from gather"
+    },
+    {
+      "local": "images/02-places.webp",
+      "source": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3lpj68JliJYydNbKOVoLhXuhA9NEwYa_gh5tQejjyKk0t2wxmUNXeWR9L15NMbW1eyUfUYCQF0yVudFfGJqbTX6zEGnIrOVt4NjJeD0j0IG7WLkCIp_eaauX3KyTOfnBoHCkVPc0wOQwXlCZLNlN30M74mrnmHvFPqZJCNYk4Qdl64lXyqVODK8kHOZ2cfOUJZeY918I0y0MpyflS76OAlnWUZ5SwoBroLSpjvkz37O4YNg_Nkou-4F55lQfcJTrMwMRNsVAqtO_RUJXl0QeXnmRK9vhp5l7q2RGwq9B0KNYA_UZebjvJl6V3Iti-MjOzfIdmVcGZcPwa6DPr7jXnVkbtIK9SKJnKP00I2xodfEwu2oBfti981nXyJMw2evJCybKEpLpRxtO-6AhwKJFVo1ujmHb8J2USAlQN6rIYe_-DcFgFrNaB9nrS3UbuoI&key=REDACTED",
+      "source_type": "google_places",
+      "confidence": "medium",
+      "purpose": "gallery",
+      "selected": true,
+      "reason": "Default from gather"
+    },
+    {
+      "local": "images/03-places.webp",
+      "source": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3lFyQQ9YfSIkZOpnLKhzIoRQahHY_7qmdnu3dCTuvK7MRn4ZB3VRDn4VJvlF3JumGDgJxLjyLigCQuW59SoIA_VUxq90wv4kvy1AXGFEuVZ3D2cdyz2KV5eRgmnHpWqnCitfaK01nsoTNwedw5LeigQFSng0zlvFdOIWirlXDgIDHHy9fTlNcDNZEen2TkGh9R9SZIWDCYDPQFcAxnkDQQCCpuYG0kaTl_OkmMcrRK6OqRg3MZjYL3sGRNo58zSav-56kpvX4cqcKrkvZKE58kqcms_8-yX59073dyVNeugNW62zywFohcYzh8lsfgoFdyDdNjOnt3HHg8ESVm5f8zBXRu8o9rC3q3lRfalw9sHZFx0onFltdXtNjdDf4618jK6Dx2XKrIarN_-ZeGSgC73Bq3vk382nC2jHzniBpCKqA&key=REDACTED",
+      "source_type": "google_places",
+      "confidence": "medium",
+      "purpose": "gallery",
+      "selected": true,
+      "reason": "Default from gather"
+    },
+    {
+      "local": "images/04-places.webp",
+      "source": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3mqG7mbEBFTAbSIrEp4FKZy-u6_Pjsf6a0WG9eP5qNiujVKbG2Qj8N2zXDzUgIuloH9SfAThq2xZUzR7wD9Kn_zUQ1JujiiHijFH5_aIKDMYtQasgJyb2VGqLJRAfjh25NOvZWah-2yMiCUoj82PbTALB9-deferv4Rilg63kuZ5sYmpVNwoK39Qw-60VjQMfyXPUbn5_HCA8yyF7622XRthwSS4wLV_CyuqMB-wqFyuG4n_GisIjj8VR9gDIYyh27Txnlccrv7DoGzsPPRy2IdiQyDyJ60SQubIDvnIHtgPF39aoobPJOiut5e_Y9dx0Pa7rADbPnj8GBiBEv-11gzs70ZgiLPVn3rQsL-vzfa9Lr9KSTA_KHOFpeGKvb86VWQd1Ldn9djeh2gs7466jdmE4jdbU3tCAPSwcRsy7AGIvEiMXMuHkLgHZ3IBA&key=REDACTED",
+      "source_type": "google_places",
+      "confidence": "medium",
+      "purpose": "gallery",
+      "selected": true,
+      "reason": "Default from gather"
+    },
+    {
+      "local": "images/05-places.webp",
+      "source": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3nUQXZPK6LEXOEwq5GJA4ZjuxiFLDYrJmltnWQRu-MUTVRwLGHztexw4iiLP4bMgQheyM-2uNIzeDUn5cS1OLTV60HzlEUinl1AOcNHAdMII_pxz65yCgOzPWg-2UZBXsJHgXlemZi9kBwr-HkyQz01nKdwEUPNLkO2wLnDidL_gfVb_Jei9WySWe9d7bwhCvP60DBcuHRGm7noGhiIMkb1Zsxmcqbqo9lBklen7AhjLfXqs2j5HRiIT9kdTtmNrqJ4WDMULyei8TEpfAYQ4F9iPknQwmIWfTOavxpjKT_KavwT6Yooq4OZFciNGks4lBjiK6kDy7_SSMNH3UfFCPL_Cxl2gIQz-YEUeedEbMXkNxrJqC9Fr8h_YBPpn7NX6jitRsQYjHZoku6xI1Dn9MrnyCXjpS9Fh36Go1hdpSeQCGOT&key=REDACTED",
+      "source_type": "google_places",
+      "confidence": "medium",
+      "purpose": "gallery",
+      "selected": true,
+      "reason": "Default from gather"
+    },
+    {
+      "local": "images/06-places.webp",
+      "source": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3l0GhZb_X9Snfsse4N0krlQovHJtJLWk0DFVl7S2_SUZRk1gIe7KNaDsGJn-ENj3_DdR5f8iah3XyR0XqnGXaRwZ2fv-WXZIt5WAcF8X-xi1SviqEIYv3xOIFdPFiA9Tk8a6D3ActRFmeWrrVmJNe28t-okvXwZ4sUbHdGmT-TrNCg95glq_K2YOBWMy0F3ysS5debN5cc_OcGJuXMv7icG6rEarjNOBjD3feegZiJHBQO9Y8jxbQ-1MseKaV6vWZXPMTfzvgxLpcfxsjT1hcbHKZbY7a4lRrE3GQp-nOmUkyJpCA5dkGDZ7eCGFFySAC4OHGcqbNcl1Isj6bVC8TLXRqhztVVfAhTwpNxcxKwI0-Cig7RCGP7W09K7qOBxBmwZQbDympYpBJ56LGotfZV54eDtQn_IzSB12x77oS-6zhS1R497l6pMcM_jQFqH&key=REDACTED",
+      "source_type": "google_places",
+      "confidence": "medium",
+      "purpose": "gallery",
+      "selected": true,
+      "reason": "Default from gather"
+    },
+    {
+      "local": "images/07-places.webp",
+      "source": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3lJcWJ3GZVLInr3ZzFAyielStKgDFMPBfBreGiC4PP-xGVNjyHyP7B3pC9GECO6bIcGUOG8ovNqML6FF84-63g--D3o8NmWkzAp32Ij2Zoys6VW33U58mNgjWUUNXtWq8--9GMS0Jq5C60M1SynQYrVCGckkBIbiqi9kbf24znSV2p5B6xcJJVUGSdEPgXSJW-d-kIqhSu5CzHUHvKuhYDskzAyejekobeY1cl9mj7cfS6RrcoSL2KDoTISr-IRhOPQQiSksHSb48ZDaloPoSXVe41jg-hZicscGX1Y6jqhBCpQNH_YZ2dkmsaonwmMQzRXMomLaGZOkrHWBqf0t1f4TktthKopNpwUlZBRnORd1YM5nMWZbcXPKKiFAWzXjSZj2Lc1-MlqCEX5aqkI3AQqr3yXarBoTH56AE_ZQ-zXT3E&key=REDACTED",
+      "source_type": "google_places",
+      "confidence": "medium",
+      "purpose": "gallery",
+      "selected": true,
+      "reason": "Default from gather"
+    },
+    {
+      "local": "images/08-places.webp",
+      "source": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3mPUbTw4IeTbDqrbqIXrw54M5H2OMTa9yqailg5VaDbzcmYgFddRf-TR6jP9IsX228hge1UzTY3Eq2n_uHGdDie_HFbQogNXTKaJYDu3yu2F7Fdyj0aRcspenXbDbYL0m2MLUTgW8YMpddNxTW-CidU75zgj5LbBbrxE1evYt4sL78iLSxGHQ3YDTz5xzrYpBpQj0oD8mZ0db60fH_U1LPyWSWJxeco_Npw-V9oS6IRxW324Hwx4DC2H5nKCCepyRct5QOYK4ZWa1H8uEDyKre9y_7M_GCX759O_9DHzx-q_Hop43SDZnHDKUXqWd6Q3gng0QYGjyvCYEVyBbtXhVSZmxsVPy2eHbbgMxCk7VK2QzDqs1t3wNaM8v1gJZhxmmSSHUPl2oLMPEIgvwOP6_5IVWRYA0d5-8dA5B30pyqTfBAV&key=REDACTED",
+      "source_type": "google_places",
+      "confidence": "medium",
+      "purpose": "gallery",
+      "selected": true,
+      "reason": "Default from gather"
+    },
+    {
+      "local": "images/09-places.webp",
+      "source": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3lP2veGDPyGtO17N45vzljKYTjo2hRXZaiyxz_dVinQQwnfRB535iaZVkeAXqtFs-STfRgCK6Nmyn1G5E0SIeJ0K3zmGu341mTim-qhFlfyBsBeLFFkSeCHFEczJWqdD17xZeYY3X540DdqLtgCsZuQnmu2qNiTvFxIUVOBBrF0g-y6Zfv_wAkXGQFaEICa17ukCzk3rv6zkDPsYSeqqKUBw7i2uKhGSSNO27s4brKf6VUyfT7WwbJiOZGhaLPXmocGgi66BfsM3Ljor_N4dZkK6JWYXm1VDdm-w-gsVZJ-jeUZudt7EVQWC8-gvJ_Rgx0OugczaqE7wdzueadR2h1F_F8kRfo-ATSzjlxoLCiOvYXHR2p7isgq_D2lQARZ18vT6w5yINxj-AiuH5Sb2WwPWwhwjauU0b-YvfuTatig-YFjrd50HArxIcwwyCEA&key=REDACTED",
+      "source_type": "google_places",
+      "confidence": "medium",
+      "purpose": "gallery",
+      "selected": true,
+      "reason": "Default from gather"
+    },
+    {
+      "local": "images/10-places.webp",
+      "source": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3nMuJ3RZaQZwJJLvRkyD9ZD5p71LfNqUpcC7-8UjVO-NkyJ-adQNyZu1_ZikN8juGdh7xd6zmKOPJNKWQNlm7E2iCf1tcM6F4Pk2855HnCZNSnrIB-qLnFSCa97jXPCNqbmr5OPwu3zDWLkkv8SffOx2szKHWUibiQYWkiMWECfHyr9kTJCtKZM1lrgL36ssUGrbsa6CP7KTCzeRgHY22Dw7TTAwbpoMMYdjJ66Vh3CVHioZDJoq6KS7mcL14tn-QPCzwAiWk4JrjedFzFVKs2B2-TQ09fdAfAq3xWWcfJpEgqj2u7qbPpRpkPWZR5hTwbhtTGVCrOQY-5vRWMyZKCM8VcQxdLYy3-nydMD6vDPfl_z_i1PnUMQOja8sasC6K_g1XAubiJnhbUMSpDsESRWM8fSR6_Th6lPYD2XhjFOE6gu&key=REDACTED",
+      "source_type": "google_places",
+      "confidence": "medium",
+      "purpose": "gallery",
+      "selected": true,
+      "reason": "Default from gather"
+    },
+    {
+      "local": "images/facebook/01-facebook.webp",
+      "source": "https://scontent-lhr6-1.xx.fbcdn.net/v/t39.30808-6/474561799_1189759526492304_7886710718142912335_n.jpg?stp=cp6_dst-jpg_tt6&cstp=mx2048x1536&ctp=s2048x1536&_nc_cat=109&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=bwoh3TsUAaQQ7kNvwEIwc1q&_nc_oc=AdoHXpks1MIqg2eZ2zL8uOPPGK-Jq6-TFzyUpl0EVnJf7NW8dlaKXse7opI8kMSgG8vcZFj6DgLzs7TPWhbBmaCQ&_nc_zt=23&_nc_ht=scontent-lhr6-1.xx&_nc_gid=WCkPFNS4gcj9MJmz7YQTBw&_nc_ss=7b20f&oh=00_Af8dseRRopM4ogVgWby2xb8NRKMdnwoHX3I02cZJQ5ehbw&oe=6A30F12C",
+      "source_type": "facebook_photo",
+      "confidence": "high",
+      "purpose": "skipped",
+      "selected": false,
+      "reason": "Downloaded via http (public HTML/CDN)"
+    },
+    {
+      "local": "images/facebook/02-facebook.webp",
+      "source": "https://scontent-lhr6-1.xx.fbcdn.net/v/t39.30808-6/719257096_1644545051013747_8043808518665640185_n.jpg?stp=c256.0.1536.1536a_cp6_dst-jpg_tt6&cstp=mx1536x1536&ctp=s851x315&_nc_cat=103&ccb=1-7&_nc_sid=8a6525&_nc_ohc=DNwGns6BhBcQ7kNvwFa0vIv&_nc_oc=AdpqGCAKETSRq1WIyCdh6w7I0XmUej_g1RoLEh6Kzv_TfVQ6GxKUcamazMuJKdcY9rhY3ksSqKeDCmpeORNsq_gn&_nc_zt=23&_nc_ht=scontent-lhr6-1.xx&_nc_gid=WCkPFNS4gcj9MJmz7YQTBw&_nc_ss=7b20f&oh=00_Af8yqShljYyXSZus2uiybFp2T5e7eIhiVCw1eA7_nV1Tig&oe=6A30FCBD",
+      "source_type": "facebook_photo",
+      "confidence": "high",
+      "purpose": "skipped",
+      "selected": false,
+      "reason": "Downloaded via http (public HTML/CDN)"
+    },
+    {
+      "local": "images/facebook/03-facebook.webp",
+      "source": "https://scontent-lhr6-1.xx.fbcdn.net/v/t39.30808-6/718153684_1644545021013750_1955126457565387773_n.jpg?stp=c256.0.1536.1536a_cp6_dst-jpg_tt6&cstp=mx1536x1536&ctp=s851x315&_nc_cat=103&ccb=1-7&_nc_sid=8a6525&_nc_ohc=yBUETXpj_cIQ7kNvwGfkWOi&_nc_oc=Adrof3hec7opPka9o0xjKFKKbr8NjAOOgEQqnZDrawsi_mH65lQrIwqyFbMFC6SxlMTNEn5XjvsWP6BjPp5OX_Sc&_nc_zt=23&_nc_ht=scontent-lhr6-1.xx&_nc_gid=WCkPFNS4gcj9MJmz7YQTBw&_nc_ss=7b20f&oh=00_Af9CdR0duQxKg9xGl9TK9_b_xRCqX14AJzXGcigXnlLcKA&oe=6A3106D0",
+      "source_type": "facebook_photo",
+      "confidence": "high",
+      "purpose": "skipped",
+      "selected": false,
+      "reason": "Downloaded via http (public HTML/CDN)"
+    },
+    {
+      "local": "images/facebook/04-facebook.webp",
+      "source": "https://scontent-lhr6-1.xx.fbcdn.net/v/t39.30808-6/718363645_1644544954347090_3870800638094073978_n.jpg?stp=c256.0.1536.1536a_cp6_dst-jpg_tt6&cstp=mx1536x1536&ctp=s851x315&_nc_cat=103&ccb=1-7&_nc_sid=8a6525&_nc_ohc=9Ix5bMzLaLoQ7kNvwEi96Mo&_nc_oc=Adq6SOm99fFGOVQQPX1vq2fctTgfSiEsAGrrdQsSpQW0XlgyHVpCXtfKdQtNI4yiOKHkHB3247OfUDoDJyFqlpBD&_nc_zt=23&_nc_ht=scontent-lhr6-1.xx&_nc_gid=WCkPFNS4gcj9MJmz7YQTBw&_nc_ss=7b20f&oh=00_Af-9-zSB904UXPz4LjHEPXMbcacm-mZslSsRAk52frPlyw&oe=6A3107BE",
+      "source_type": "facebook_photo",
+      "confidence": "high",
+      "purpose": "skipped",
+      "selected": false,
+      "reason": "Downloaded via http (public HTML/CDN)"
+    },
+    {
+      "local": "images/facebook/05-facebook.webp",
+      "source": "https://scontent-lhr6-1.xx.fbcdn.net/v/t39.30808-6/718676982_1644545031013749_5994540511295397796_n.jpg?stp=c256.0.1536.1536a_cp6_dst-jpg_tt6&cstp=mx1536x1536&ctp=s851x315&_nc_cat=103&ccb=1-7&_nc_sid=8a6525&_nc_ohc=T2iaJuosbUQQ7kNvwHvtmg1&_nc_oc=AdqDOQD2kWYZckemYJsVooA4ypaYsKBAj1kH63YYkuASUd-SxgEaE8TG8G0MXD9D48NVvzijxxxT2Op7w_gQvpys&_nc_zt=23&_nc_ht=scontent-lhr6-1.xx&_nc_gid=WCkPFNS4gcj9MJmz7YQTBw&_nc_ss=7b20f&oh=00_Af9hm4UHfUH_ImCElJ9Z1wS34lSWoulQZGcULT6G2p0crg&oe=6A310DF3",
+      "source_type": "facebook_photo",
+      "confidence": "high",
+      "purpose": "skipped",
+      "selected": false,
+      "reason": "Downloaded via http (public HTML/CDN)"
+    },
+    {
+      "local": "images/facebook/06-facebook.webp",
+      "source": "https://scontent-lhr6-1.xx.fbcdn.net/v/t39.30808-6/720335851_1644544947680424_2235456930936633537_n.jpg?stp=c256.0.1536.1536a_cp6_dst-jpg_tt6&cstp=mx1536x1536&ctp=s851x315&_nc_cat=109&ccb=1-7&_nc_sid=8a6525&_nc_ohc=ER4PUaEhCCgQ7kNvwGAMf9Y&_nc_oc=AdqjCamVLmw4IzCi7HgyWhkWnAf85pcgBO8b5ymLbQF1_WlytvKRV-R85KNgmXy19JnHMKbKcchbDmYo_xg2D_q8&_nc_zt=23&_nc_ht=scontent-lhr6-1.xx&_nc_gid=WCkPFNS4gcj9MJmz7YQTBw&_nc_ss=7b20f&oh=00_Af95ZCZZENFOqvNIFlk18etniD-wHk62N1YSU84dHeHYMg&oe=6A30FBDE",
+      "source_type": "facebook_photo",
+      "confidence": "high",
+      "purpose": "skipped",
+      "selected": false,
+      "reason": "Downloaded via http (public HTML/CDN)"
+    },
+    {
+      "local": "images/facebook/07-facebook.webp",
+      "source": "https://scontent-lhr6-2.xx.fbcdn.net/v/t39.30808-6/710827474_1640297774771808_832801191222800755_n.jpg?stp=c0.79.720.720a_cp6_dst-jpg_tt6&cstp=mx720x720&ctp=s851x315&_nc_cat=100&ccb=1-7&_nc_sid=8a6525&_nc_ohc=HJ6MFj5ZIp4Q7kNvwG2xAis&_nc_oc=Ado40YpQbiRjoh9m91nyZu59rLLsjs7y_Bcpik0zno1hNj42GM0xW3tgO3BZmA8tq24u8mRwaT5mHlJJzzt0iqB7&_nc_zt=23&_nc_ht=scontent-lhr6-2.xx&_nc_gid=WCkPFNS4gcj9MJmz7YQTBw&_nc_ss=7b20f&oh=00_Af-MReKBbtHIf8pFt5gRonGdOFd1N2fJu17Zqakk6aKucg&oe=6A30FEF5",
+      "source_type": "facebook_photo",
+      "confidence": "high",
+      "purpose": "skipped",
+      "selected": false,
+      "reason": "Downloaded via http (public HTML/CDN)"
+    },
+    {
+      "local": "images/facebook/08-facebook.webp",
+      "source": "https://scontent-lhr6-1.xx.fbcdn.net/v/t39.30808-6/710742247_1640297748105144_8340408961705891740_n.jpg?stp=c120.0.720.720a_cp6_dst-jpg_tt6&cstp=mx720x720&ctp=s851x315&_nc_cat=108&ccb=1-7&_nc_sid=8a6525&_nc_ohc=5iFfXInPQrsQ7kNvwHJnPlv&_nc_oc=AdobARPuHiH1wfx8PTIRwcKmllUMFM5z7TkfstVo2Kf7B2C1V0N7zF47LBnXnRo6yisVUitVj4q9G4Ajtm-5Om02&_nc_zt=23&_nc_ht=scontent-lhr6-1.xx&_nc_gid=WCkPFNS4gcj9MJmz7YQTBw&_nc_ss=7b20f&oh=00_Af9RqIww3pfGhROENHjyykbTeFQU6ZNqwhd56O2s4I7vWA&oe=6A310205",
+      "source_type": "facebook_photo",
+      "confidence": "high",
+      "purpose": "skipped",
+      "selected": false,
+      "reason": "Downloaded via http (public HTML/CDN)"
+    },
+    {
+      "local": "images/facebook/09-facebook.webp",
+      "source": "https://scontent-lhr8-1.xx.fbcdn.net/v/t39.30808-6/710782077_1640297704771815_358473561486666352_n.jpg?stp=c120.0.720.720a_cp6_dst-jpg_tt6&cstp=mx720x720&ctp=s851x315&_nc_cat=107&ccb=1-7&_nc_sid=8a6525&_nc_ohc=09rLOMK4ghcQ7kNvwG92s2a&_nc_oc=AdoRwWhDDF_jt3bcflCphXC1kH5lBWB6I_fa_ELPG5_q_zaVx2hyaaw4xdQC8GTsj_VgtAzsvrblLv-yMPYKjGdX&_nc_zt=23&_nc_ht=scontent-lhr8-1.xx&_nc_gid=WCkPFNS4gcj9MJmz7YQTBw&_nc_ss=7b20f&oh=00_Af_DBsDQD2fPxY631DrRPVSMCZTAQ2xjUWQ2YWr1W4wFYg&oe=6A3110DC",
+      "source_type": "facebook_photo",
+      "confidence": "high",
+      "purpose": "skipped",
+      "selected": false,
+      "reason": "Downloaded via http (public HTML/CDN)"
+    },
+    {
+      "local": "images/facebook/10-facebook.webp",
+      "source": "https://scontent-lhr11-1.xx.fbcdn.net/v/t39.30808-6/710827269_1640297674771818_2439952730512062576_n.jpg?stp=c120.0.720.720a_cp6_dst-jpg_tt6&cstp=mx720x720&ctp=s851x315&_nc_cat=110&ccb=1-7&_nc_sid=8a6525&_nc_ohc=nlYHrdshk5AQ7kNvwHK4rYw&_nc_oc=AdrBDgJtSeGLtG3yfr-dOpfc8--veoMyIwx1QMfKLv5OkoH4Nl0EuWOU8CyQCfBZiqjAh_wfdAyqCyL4P6vGTeuN&_nc_zt=23&_nc_ht=scontent-lhr11-1.xx&_nc_gid=WCkPFNS4gcj9MJmz7YQTBw&_nc_ss=7b20f&oh=00_Af8DY52f-vBABlSoHmi1Txkf6mh7ce4umqfViwbQyEzKeQ&oe=6A30FF17",
+      "source_type": "facebook_photo",
+      "confidence": "high",
+      "purpose": "skipped",
+      "selected": false,
+      "reason": "Downloaded via http (public HTML/CDN)"
+    }
+  ],
+  "selected_images": [
+    "images/01-places.webp",
+    "images/02-places.webp",
+    "images/03-places.webp",
+    "images/04-places.webp",
+    "images/05-places.webp",
+    "images/06-places.webp",
+    "images/07-places.webp",
+    "images/08-places.webp",
+    "images/09-places.webp",
+    "images/10-places.webp"
+  ],
+  "lead_validity_status": "SOCIAL_ONLY_READY",
+  "ready_for_build": false,
+  "registry_source_count": 0,
+  "batch_waiver_applied": true,
+  "batch_waiver_note": "Batch waiver 2026-06-11: Google Places plus facebook_in_brief"
+}

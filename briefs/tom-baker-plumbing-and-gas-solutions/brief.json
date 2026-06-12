@@ -1,0 +1,331 @@
+{
+  "business_name": "Tom Baker Plumbing and Gas Solutions",
+  "owner_name": null,
+  "contact_name": null,
+  "contact_name_source": null,
+  "contact_name_confidence": "low",
+  "contact_name_evidence_count": 1,
+  "contact_name_usage_allowed": false,
+  "possible_contact_name": "Worcester",
+  "phone": "07535 601836",
+  "email": null,
+  "phone_type": "mobile",
+  "whatsapp_candidate": true,
+  "email_available": false,
+  "whatsapp_available": "available",
+  "contactability_status": "CONTACTABLE",
+  "contactability_reason": "no email found, WhatsApp available",
+  "preferred_channel": "whatsapp",
+  "address": "Flat 9, 12 The Park, Bristol BS15 4BP, UK",
+  "opening_hours": [],
+  "services": [
+    "Gas work",
+    "General plumbing",
+    "Tap, toilet and shower repairs",
+    "Boiler repairs and servicing",
+    "Leak and burst pipe repairs",
+    "Heating and radiators"
+  ],
+  "services_meta": [
+    {
+      "name": "Gas work",
+      "source": "name",
+      "direct": false
+    },
+    {
+      "name": "General plumbing",
+      "source": "name",
+      "direct": false
+    },
+    {
+      "name": "Tap, toilet and shower repairs",
+      "source": "review",
+      "direct": false
+    },
+    {
+      "name": "Boiler repairs and servicing",
+      "source": "review",
+      "direct": false
+    },
+    {
+      "name": "Leak and burst pipe repairs",
+      "source": "review",
+      "direct": false
+    },
+    {
+      "name": "Heating and radiators",
+      "source": "review",
+      "direct": false
+    }
+  ],
+  "service_confidence": "mixed",
+  "service_sources": [
+    "google",
+    "name",
+    "review",
+    "niche"
+  ],
+  "service_area": [
+    "Bristol",
+    "Flat 9, 12 The Park, Bristol",
+    "Flat 9",
+    "Bristol BS15 4BP",
+    "Redfield",
+    "St George",
+    "Easton",
+    "Bedminster",
+    "Clifton"
+  ],
+  "based_location": "Bristol, BS15",
+  "google_rating": 4.9,
+  "google_review_count": 15,
+  "google_review_count_sourced": true,
+  "service_areas_inferred": true,
+  "google_maps_url": "https://maps.google.com/?cid=520602424352751028",
+  "website_status": "BROKEN_OR_BAD_SITE",
+  "website_check_notes": "reason=fetch_error; url=http://www.tombakerplumbingandgas.co.uk/; final=http://www.tombakerplumbingandgas.co.uk/",
+  "website_url": "http://www.tombakerplumbingandgas.co.uk/",
+  "photos": [
+    {
+      "local": "images/01-places.webp",
+      "source_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3mmlLQ1tfpTywRQYo0FR9FpTkVgBoQ_zSvO5Ihm7wjxefcei89WDQcIy_dD0roBG7XssKsVLcTe5rWrPhP_6kIKh1gW9HuAv-O105vFZ4kPQOpzd7mIL0drA_QLLvCXd0MxRjgUr_rVTwQfvV7vzjn25f1VUlm3BOKIQBDSbieAXLfoFwVHhr8yZnCnFesRlUoxYEx74raBx51ZSB01s8Ijci7VPzYE7Qkht2uUxJUFqOvvJrTrLEjJ43Lm6TDZiM8Zc0EArwZ1Lt8ePxNdDHIVBUCkNngSBvCt1rDx--W7PRHEpbaAk8r4q8SDyEAGmfBZhJjm7oF9rI4Q5yMKFxhcSG3i4s5sXooOuHBGjb27b2GSiNn2E30gEdKpapr7s33Z3__MFstmbhTqWlBpqKig_TLH_uEVsnAEHwCWsyvoCg&key=REDACTED",
+      "width": 1200,
+      "height": 1600,
+      "classification": "completed_project",
+      "pair_id": null,
+      "source_type": "google_places"
+    },
+    {
+      "local": "images/02-places.webp",
+      "source_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3lYY5-bL3aypkly8dbGxMruHBwT8O5e_xOu39aa299VKEx0bX0LWdQeEjAOKHKsQXAMy6ONaVmuq_TnUnWmbTlCHlq7SQlf_JNg0RqGmibQ3kM8SApwK76A6aCT1Lczf_GmDg4eZ1yOKaed2tmD69UM_8RUGHWBnyXjmBx8TlIFZ4SXpCO0MklmlF5UiaASNZW0KP-pPnK1qKer94hjZAQ0Lr1a0YMj4CtX0_0rtYHQlY2vmc9vLl9sDViQrDJShOW2Ji0Lh5WRYJ1g3pIn1wj6eG-lEOIHgZUUoCtc_ByaCtqoZeFbuH0AzajB5yjG-r_OrlBZGqStEmrwAb8_LvSW7Q7aQm4FBxqVFKBIZ4a287qPr8VihKcYnNzAMs0V4CbZlZFZNTAD6K0bFdn3Hw4q_8smtUQyEnq6rOQqYHoV7A&key=REDACTED",
+      "width": 1200,
+      "height": 1600,
+      "classification": "completed_project",
+      "pair_id": null,
+      "source_type": "google_places"
+    }
+  ],
+  "reviews": [
+    {
+      "text": "Tom is knowledgeable, professional & efficient. He was able to respond quickly to a leak in my heating & as well as fixing the leak, I also wanted him to fit a new boiler. He gave great advice on the most suitable boiler & the best place to locate it. He worked alone whilst I was out at work & was totally trustworthy, along with being incredibly tidy in his work, even staying late on his last day, to ensure he left everything tidy. A very conscientious, friendly & professional person, with high standards. I would highly recommend to others.",
+      "reviewer": "Claire",
+      "rating": 5
+    },
+    {
+      "text": "Tom came over at short notice and fitted a new stop tap and fixed our toilet. He was very polite and left everything clean and tidy. The price was very reasonable too!\n\nI'd happily recommend him to anyone looking for good plumber.",
+      "reviewer": "Neil",
+      "rating": 5
+    },
+    {
+      "text": "Had a new Worcester boiler fitted by Tom, very pleased with the work he has done for a reasonable price. He considered our requirements and was courteous in our home. I couldn't recommend him more.",
+      "reviewer": "Doug",
+      "rating": 5
+    },
+    {
+      "text": "Tom is 100% professional and reliable. I have called on Tom twice and completely trust his honesty and workmanship and he’s a really nice guy. Thanks Tom for your work.",
+      "reviewer": "Jules",
+      "rating": 5
+    },
+    {
+      "text": "Thank you so much for sorting out our coffee machine leak. Fast and professional service, up to very high standards. Highly recommend.",
+      "reviewer": "Sweven",
+      "rating": 5
+    }
+  ],
+  "social": {
+    "facebook": null,
+    "instagram": null,
+    "youtube": null,
+    "tiktok": null
+  },
+  "gallery_layout": "completed_project_gallery",
+  "photo_classification_summary": {
+    "completed_project": 2
+  },
+  "brand": {
+    "colours": [],
+    "logo_url": null,
+    "logo_local": null
+  },
+  "source_urls": [
+    "https://maps.google.com/?cid=520602424352751028",
+    "http://www.tombakerplumbingandgas.co.uk/",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3mmlLQ1tfpTywRQYo0FR9FpTkVgBoQ_zSvO5Ihm7wjxefcei89WDQcIy_dD0roBG7XssKsVLcTe5rWrPhP_6kIKh1gW9HuAv-O105vFZ4kPQOpzd7mIL0drA_QLLvCXd0MxRjgUr_rVTwQfvV7vzjn25f1VUlm3BOKIQBDSbieAXLfoFwVHhr8yZnCnFesRlUoxYEx74raBx51ZSB01s8Ijci7VPzYE7Qkht2uUxJUFqOvvJrTrLEjJ43Lm6TDZiM8Zc0EArwZ1Lt8ePxNdDHIVBUCkNngSBvCt1rDx--W7PRHEpbaAk8r4q8SDyEAGmfBZhJjm7oF9rI4Q5yMKFxhcSG3i4s5sXooOuHBGjb27b2GSiNn2E30gEdKpapr7s33Z3__MFstmbhTqWlBpqKig_TLH_uEVsnAEHwCWsyvoCg&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3lYY5-bL3aypkly8dbGxMruHBwT8O5e_xOu39aa299VKEx0bX0LWdQeEjAOKHKsQXAMy6ONaVmuq_TnUnWmbTlCHlq7SQlf_JNg0RqGmibQ3kM8SApwK76A6aCT1Lczf_GmDg4eZ1yOKaed2tmD69UM_8RUGHWBnyXjmBx8TlIFZ4SXpCO0MklmlF5UiaASNZW0KP-pPnK1qKer94hjZAQ0Lr1a0YMj4CtX0_0rtYHQlY2vmc9vLl9sDViQrDJShOW2Ji0Lh5WRYJ1g3pIn1wj6eG-lEOIHgZUUoCtc_ByaCtqoZeFbuH0AzajB5yjG-r_OrlBZGqStEmrwAb8_LvSW7Q7aQm4FBxqVFKBIZ4a287qPr8VihKcYnNzAMs0V4CbZlZFZNTAD6K0bFdn3Hw4q_8smtUQyEnq6rOQqYHoV7A&key=REDACTED"
+  ],
+  "notes": [
+    "owner_name not found in public sources",
+    "email not found in public sources",
+    "possible_contact_name \"Worcester\" from 1 review mention; not used in copy",
+    "only 2 usable photos kept (target 6-15)",
+    "contactability=CONTACTABLE",
+    "no email found, WhatsApp available",
+    "Logo discovery: Website fetch failed for logo discovery: network_error",
+    "Photo discovery: 2/2 selected (Very few good photos - proof-led or typography-led layout required. No placeholder boxes.)"
+  ],
+  "missing_fields": [
+    "owner_name",
+    "email",
+    "photos",
+    "facebook",
+    "instagram"
+  ],
+  "website_url_validation": {
+    "validated_at": "2026-06-11T22:05:04.812Z",
+    "issue": null,
+    "note": "website_url valid",
+    "previous_url": "http://www.tombakerplumbingandgas.co.uk/"
+  },
+  "prospect_region": "Bristol",
+  "location_validation_status": "OK",
+  "directory_probes": [
+    {
+      "platform": "checkatrade",
+      "candidate_url": "https://www.checkatrade.com/trades/tom-baker-plumbing-and-gas-solutions",
+      "status": "NOT_FOUND",
+      "confidence": "rejected",
+      "title": null,
+      "rating": null,
+      "review_count": null,
+      "phone_visible": false,
+      "verification_reasons": [],
+      "note": "search_deferred: Tom Baker Plumbing and Gas Solutions Bristol BS15 4BP site:checkatrade.com"
+    },
+    {
+      "platform": "trustatrader",
+      "candidate_url": "https://www.trustatrader.com/traders/tom-baker-plumbing-and-gas-solutions",
+      "status": "NOT_FOUND",
+      "confidence": "rejected",
+      "title": null,
+      "rating": null,
+      "review_count": null,
+      "phone_visible": false,
+      "verification_reasons": [],
+      "note": "search_deferred: Tom Baker Plumbing and Gas Solutions Bristol BS15 4BP site:trustatrader.com"
+    },
+    {
+      "platform": "yell",
+      "candidate_url": "https://www.yell.com/biz/tom-baker-plumbing-and-gas-solutions-bristol-bs15-4bp/",
+      "status": "NOT_FOUND",
+      "confidence": "rejected",
+      "title": null,
+      "rating": null,
+      "review_count": null,
+      "phone_visible": false,
+      "verification_reasons": [],
+      "note": "search_deferred: Tom Baker Plumbing and Gas Solutions Bristol BS15 4BP site:yell.com"
+    },
+    {
+      "platform": "mybuilder",
+      "candidate_url": "https://www.mybuilder.com/profile/tom-baker-plumbing-and-gas-solutions",
+      "status": "NOT_FOUND",
+      "confidence": "rejected",
+      "title": null,
+      "rating": null,
+      "review_count": null,
+      "phone_visible": false,
+      "verification_reasons": [],
+      "note": "search_deferred: Tom Baker Plumbing and Gas Solutions Bristol BS15 4BP site:mybuilder.com"
+    },
+    {
+      "platform": "rated_people",
+      "candidate_url": "https://www.ratedpeople.com/profile/tom-baker-plumbing-and-gas-solutions",
+      "status": "NOT_FOUND",
+      "confidence": "rejected",
+      "title": null,
+      "rating": null,
+      "review_count": null,
+      "phone_visible": false,
+      "verification_reasons": [],
+      "note": "search_deferred: Tom Baker Plumbing and Gas Solutions Bristol BS15 4BP site:ratedpeople.com"
+    },
+    {
+      "platform": "houzz",
+      "candidate_url": "https://www.houzz.co.uk/professionals/tom-baker-plumbing-and-gas-solutions",
+      "status": "NOT_FOUND",
+      "confidence": "rejected",
+      "title": null,
+      "rating": null,
+      "review_count": null,
+      "phone_visible": false,
+      "verification_reasons": [],
+      "note": "search_deferred: Tom Baker Plumbing and Gas Solutions Bristol BS15 4BP site:houzz.co.uk"
+    },
+    {
+      "platform": "bark",
+      "candidate_url": "https://www.bark.com/en/gb/company/tom-baker-plumbing-and-gas-solutions/",
+      "status": "NOT_FOUND",
+      "confidence": "rejected",
+      "title": null,
+      "rating": null,
+      "review_count": null,
+      "phone_visible": false,
+      "verification_reasons": [],
+      "note": "search_deferred: Tom Baker Plumbing and Gas Solutions Bristol BS15 4BP site:bark.com"
+    },
+    {
+      "platform": "nextdoor",
+      "candidate_url": "https://nextdoor.co.uk/pages/tom-baker-plumbing-and-gas-solutions/",
+      "status": "NOT_FOUND",
+      "confidence": "rejected",
+      "title": null,
+      "rating": null,
+      "review_count": null,
+      "phone_visible": false,
+      "verification_reasons": [],
+      "note": "search_deferred: Tom Baker Plumbing and Gas Solutions Bristol BS15 4BP site:nextdoor.co.uk"
+    }
+  ],
+  "enrichment": {
+    "enriched_at": "2026-06-11T22:05:07.193Z",
+    "email_domain_checked": false,
+    "website_discovery_run": true
+  },
+  "lead_validity": {
+    "lead_validity_status": "INSUFFICIENT_EVIDENCE",
+    "lead_validity_reason": "Enrichment incomplete or source confidence too low",
+    "pitch_type": "manual_review",
+    "website_status": "BROKEN_OR_BAD_SITE",
+    "website_url": "http://www.tombakerplumbingandgas.co.uk/",
+    "website_discovery_classification": "BROKEN_OR_BAD_SITE",
+    "email_domain_website": null,
+    "source_confidence_summary": {
+      "overall": "medium",
+      "verified_platforms": [
+        "google_places",
+        "email_domain_website"
+      ],
+      "rejected_platforms": [],
+      "notes": []
+    },
+    "ready_for_build": false,
+    "ready_for_design": false,
+    "ready_for_pitch": false,
+    "manual_review_required": true,
+    "has_real_website": false,
+    "truly_no_website": true,
+    "warnings": [
+      "Source enrichment not complete - run enrich:lead before build",
+      "Very few photos - use proof-led or typography-led layout"
+    ],
+    "manual_asset_status": "OK",
+    "pause_before_open_design": false,
+    "manual_asset_folder": "briefs/tom-baker-plumbing-and-gas-solutions/images/manual/"
+  },
+  "source_quality": {
+    "source_quality_status": "FAIL",
+    "source_quality_reason": "Source enrichment not complete",
+    "website_url_validated": true,
+    "email_domain_checked": true,
+    "enrichment_complete": false,
+    "logo_discovery_attempted": true,
+    "photo_discovery_attempted": true,
+    "directory_probes_attempted": true,
+    "warnings": [
+      "Lead validity requires manual review"
+    ],
+    "blockers": [
+      "Source enrichment not complete"
+    ]
+  }
+}

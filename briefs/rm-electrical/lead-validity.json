@@ -1,0 +1,36 @@
+{
+  "lead_validity_status": "PASS_WITH_WARNINGS",
+  "lead_validity_reason": "Enrichment incomplete or source confidence too low",
+  "pitch_type": "manual_review",
+  "website_status": "SOCIAL_OR_DIRECTORY_ONLY",
+  "website_url": null,
+  "website_discovery_classification": null,
+  "email_domain_website": null,
+  "source_confidence_summary": {
+    "overall": "low",
+    "verified_platforms": [],
+    "rejected_platforms": [
+      "google_places"
+    ],
+    "notes": [
+      "No verified sources with medium or high confidence",
+      "1 source(s) rejected for low confidence"
+    ]
+  },
+  "ready_for_build": true,
+  "ready_for_design": true,
+  "ready_for_pitch": false,
+  "manual_review_required": true,
+  "has_real_website": false,
+  "truly_no_website": true,
+  "warnings": [
+    "Source enrichment not complete - run enrich:lead before build",
+    "Source confidence is low - lean site or manual review recommended",
+    "Batch waiver 2026-06-11: Google Places plus contact_name_in_brief"
+  ],
+  "manual_asset_status": "OK",
+  "pause_before_open_design": false,
+  "manual_asset_folder": "briefs/rm-electrical/images/manual/",
+  "batch_waiver_applied": true,
+  "batch_waiver_note": "Batch waiver 2026-06-11: Google Places plus contact_name_in_brief"
+}

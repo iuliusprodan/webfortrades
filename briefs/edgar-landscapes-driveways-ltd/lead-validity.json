@@ -1,0 +1,46 @@
+{
+  "lead_validity_status": "HAS_REAL_SITE_SKIP",
+  "lead_validity_reason": "generic_or_invalid_email_domain",
+  "pitch_type": "skip",
+  "website_status": "BROKEN_OR_BAD_SITE",
+  "website_url": "https://edgarlandscapesdriveways.co.uk/",
+  "website_discovery_classification": "NO_WEBSITE",
+  "email_domain_website": {
+    "classification": "NO_WEBSITE",
+    "db_status": "NO_WEBSITE",
+    "domain": null,
+    "initial_url": null,
+    "final_url": null,
+    "status_code": null,
+    "title": null,
+    "reason": "generic_or_invalid_email_domain",
+    "probes": [],
+    "text_snippet": null
+  },
+  "source_confidence_summary": {
+    "overall": "low",
+    "verified_platforms": [],
+    "rejected_platforms": [
+      "google_places",
+      "email_domain_website"
+    ],
+    "notes": [
+      "No verified sources with medium or high confidence",
+      "2 source(s) rejected for low confidence"
+    ]
+  },
+  "ready_for_build": true,
+  "ready_for_design": true,
+  "ready_for_pitch": false,
+  "manual_review_required": true,
+  "has_real_website": true,
+  "truly_no_website": false,
+  "warnings": [
+    "Real website exists - do not use no-website pitch",
+    "Batch waiver 2026-06-11: Google Places plus broken_or_domain_probe"
+  ],
+  "manual_asset_status": "OK",
+  "pause_before_open_design": false,
+  "batch_waiver_applied": true,
+  "batch_waiver_note": "Batch waiver 2026-06-11: Google Places plus broken_or_domain_probe"
+}

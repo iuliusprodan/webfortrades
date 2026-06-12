@@ -1,0 +1,392 @@
+{
+  "business_name": "Ellis Plumbing & Heating Services Birmingham",
+  "owner_name": null,
+  "contact_name": "Ish",
+  "contact_name_source": "google_reviews",
+  "contact_name_confidence": "high",
+  "contact_name_evidence_count": 3,
+  "contact_name_usage_allowed": true,
+  "possible_contact_name": null,
+  "phone": "07854 027655",
+  "email": null,
+  "phone_type": "mobile",
+  "whatsapp_candidate": true,
+  "email_available": false,
+  "whatsapp_available": "available",
+  "contactability_status": "CONTACTABLE",
+  "contactability_reason": "no email found, WhatsApp available",
+  "preferred_channel": "whatsapp",
+  "address": "Alcester Rd S, King's Heath, Birmingham B14 0GG, UK",
+  "opening_hours": [
+    "Monday: Open 24 hours",
+    "Tuesday: Open 24 hours",
+    "Wednesday: Open 24 hours",
+    "Thursday: Open 24 hours",
+    "Friday: Open 24 hours",
+    "Saturday: Open 24 hours",
+    "Sunday: 7:00 AM – 6:30 PM"
+  ],
+  "services": [
+    "Building & construction",
+    "Heating and radiators",
+    "General plumbing",
+    "Boiler repairs and servicing",
+    "Bathroom installations"
+  ],
+  "services_meta": [
+    {
+      "name": "Building & construction",
+      "source": "google",
+      "direct": true
+    },
+    {
+      "name": "Heating and radiators",
+      "source": "name",
+      "direct": false
+    },
+    {
+      "name": "General plumbing",
+      "source": "name",
+      "direct": false
+    },
+    {
+      "name": "Boiler repairs and servicing",
+      "source": "review",
+      "direct": false
+    },
+    {
+      "name": "Bathroom installations",
+      "source": "review",
+      "direct": false
+    }
+  ],
+  "service_confidence": "mixed",
+  "service_sources": [
+    "google",
+    "name",
+    "review",
+    "niche"
+  ],
+  "service_area": [
+    "Birmingham",
+    "King'S Heath",
+    "Birmingham B14 0GG"
+  ],
+  "based_location": "Birmingham, B14",
+  "google_rating": 5,
+  "google_review_count": 108,
+  "google_review_count_sourced": true,
+  "service_areas_inferred": true,
+  "google_maps_url": "https://maps.google.com/?cid=16223918444705757032",
+  "website_status": "SOCIAL_OR_DIRECTORY_ONLY",
+  "website_check_notes": "reason=social_or_directory_host; url=https://www.instagram.com/ephs_plumbing_heating?utm_source=qr&igsh=MXE2cDN0a29jOXZvdg==; Social URL stored as website_url - reclassified as SOCIAL_OR_DIRECTORY_ONLY",
+  "website_url": null,
+  "photos": [
+    {
+      "local": "images/01-places.webp",
+      "source_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3klsC_vYJ6IFRCaF7nwv4FycWw9NnZwe3cGrAvCVeRoDu__aolGDqS1VT8FBOgif2LIqK9P-tGb2fXX3_aJ5g3l0ePwcICSfvcPmqe5MwKlHIlpLOo3LfUwN2DanduXQbS-sYQwolIwtSzbGBu63Agp-fvRSERp3h-JkcGM94DvjLwB1lCgu7bAi4iDevgpgsLiLm5VpuM102BRnZAqaNVsSZSOGZePsbc_9kjJiMEruYJBoTmDK5O6ihMwRufQrM74yL07pbjQmJUwPD8lv9FmmkV0yhebFD17_wvt79piiVH2T_S8bL3qBWORxM8DEN44RiGzK4k-JqL7elyWIeqEpHgHBeBxNiQuJkXEzvr45ciwccrKG3lorfHhTEOYRMMMesQ-8t_Rq4EzSWWcfytdSz3UPOSHYV-vI_0HihI&key=REDACTED",
+      "width": 1200,
+      "height": 1600,
+      "classification": "completed_project",
+      "pair_id": null,
+      "source_type": "google_places"
+    },
+    {
+      "local": "images/04-places.webp",
+      "source_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3lwCqm-MU0ZSocbIOvqOMiFOoQDgYsa1mwbV_PJpocQ-Hh_30I1UHLlWFaLcZD0fHNLtGHnicusfPWniThNbezNDdcyox-jeIShW1AgBix1RWwd0gakXS68nu-gS0vlmsCiBcQXKXZV304BIYhyy5Ki2AuzA1ev2ebQPvIRY58wTsxnDpbaK8NvE8R0wUzza54WUUDDMCRGl2IwNh9FQXjtG5DCsNXm-FrejqjPgDsNyxMElArjs08Ia5U4GtWrixRbAplm5SCjreYrtEdl-8YlZvdLF0kd0-LRnOyx6_1mcR28oul1R_YkXNXa4HHyuJgUxP7ZGjLBSel1GyTL9LPHLDDRpsLaLMDliLAUCHonJvhJXZsr9u7JYSrl4cUGt6iShF9_y7qXU8o7PxkR6WqB1NNqOoweX-QRn-yIZ_o&key=REDACTED",
+      "width": 1200,
+      "height": 1600,
+      "classification": "completed_project",
+      "pair_id": null,
+      "source_type": "google_places"
+    },
+    {
+      "local": "images/05-places.webp",
+      "source_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3mm8hRs9hmYBmtIiHOb0zy-xcTt9Him1nYBL508ZQBnZ-mKd0S0PtVIzI1cjdRuqiU-oUdCFZ72Wn4Kjjcnt88wwJfxJ2DU51GnNX5r_zDX_Qgi25qtaXbGTU6nionuSqC-jO_f1FhJf1_k34ZCME2bIlcwXIscqAsMjQ4tSoLs2UjcpKkimxONqRjMXUlvGKkLHgUlnAtchXDSW1id8rbtmW14tEtGNV7FBa8YGtmHBg36-aIFL38rQoGse7YtfFZlgx1ZFvzs_qfn_uPdYRNaTXMQGsToHFf0Jv_dWHUUZx4765INrQXW-skUB0--Pv5TRIuM3hCkhzOkXRfEtYzd6YVyj5F3NL4VYFnQW0b4x9EZMjtsbDj6lWtjDiGjFPsIpPOJEJumIotXWEpLdM9cme14FZKp6V8d0apP5OXAmg&key=REDACTED",
+      "width": 1200,
+      "height": 1600,
+      "classification": "completed_project",
+      "pair_id": null,
+      "source_type": "google_places"
+    },
+    {
+      "local": "images/06-places.webp",
+      "source_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3kFuHRJY5PjYsZXjOpFcNWZKho5BZRhotOV-vPm-Rw60PTrJnkE93B42-Hd6gfJkAm7qTiKgQm4yeWsxp5dR6c6nTZntwET_nC3iKBkUFDQT5g33AX11UjSGP0JRhUFkSJMLuIZ_WCsEBY3C-hTYqfBD2YOJqvMLADhHhtwMnL-7vIcfXhmiwfRSlOuFe8plDIf5dRxrppsqGtqTfszWbbToy_mYU4F_K-tIOuJ1y81mXjAAhVbhq0Rt5kNSiGLpHUU84Bu5xUUZ-jNLbnl4Jnh-M3cmOVoxaMqY4KgcdVOT7cglxd3HJV9Sxmcu0SNYyWd1TaMVJw9jNAufuA434UdRxCYQi86Wnh3RvOLHGyK5U-Wh8UjD0cxUFKcik0enO06b8XLaj3P8bwE6t00GSVPF1MwxOR3JTs-48R_ScxcHvu4&key=REDACTED",
+      "width": 900,
+      "height": 1600,
+      "classification": "completed_project",
+      "pair_id": null,
+      "source_type": "google_places"
+    },
+    {
+      "local": "images/07-places.webp",
+      "source_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3kawvnPkBdgh5-BoUpmMN2MmbVnjNFCgVNvWOOXZSdOhZbGQ6ZTeTpmw39B6ZKNJ1BL-fMQCYOgWChX1FXBIN_r1K4bJAR94ZCrPGWQ53MMZ1eXFhVeaho0z-lzmUkelEr4UPsZRRcSXo3PbYDaSvqB6KRWxXKbeDAimlTYcdIVpXhD3iG2q28_gvT-wsVhhGRhdur9Gnen81nI0jx_8E-zuXwLix1OG8HUIuBQOwdnouFKULOIpJy3ahK54OJyhJjv36Oac3G8di0QuSAlnFcX_s97D3kdB6VZqmrwU_PktRNVUCrIp-Fagj80b6J4eUy3CYYFgOcpZTyRMyj2wYjNvADnJ4XUUdkM59UtpwaJrWWo58kTrT7lb5zvPb69oknoEeCt4vehs1xcD3a9qYgQQJNMCc0-gEw62rz-UIyGhEm4&key=REDACTED",
+      "width": 1200,
+      "height": 1600,
+      "classification": "completed_project",
+      "pair_id": null,
+      "source_type": "google_places"
+    },
+    {
+      "local": "images/08-places.webp",
+      "source_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3nNRUJmix4Z79awq7sTGfeJktYqj2K9UemFI_3s6d-6Cx3CpLw7m7pci3cyzfIfMTwLp7BxqMkkiJHeBKfMXyOX9402EimD7EScQxgDS97m7Ss8y-9EW8hR-7LsGe91MVUvGpZpa7BtfliZh8xl0L6VNOCgkMM6i-8ud2TLfPHTv0WrYYPr1Su5O1aL8Gj299K2_t9khUa5WkuK5WrZdiQRCeAgqLhyf6C0w1vqu5ywKcBsOW9MotsAvJ97UfT49bsSE6JjbEfzDCii4iftN7ICfaeuXZkNi2wGxWPhZ_fkre1Ibo3EyJshtBloVc7SONen1BgtK17dgf4iSpwpJZIj_vfZ0Jd--o15bI8QabEHPazBsN9smsqw-0vshK9EGitREnMxB39k1N_tWnJbkkrxTXsVswWF9N6EhpdvSyJWyO-l&key=REDACTED",
+      "width": 1200,
+      "height": 1600,
+      "classification": "completed_project",
+      "pair_id": null,
+      "source_type": "google_places"
+    },
+    {
+      "local": "images/09-places.webp",
+      "source_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3nfa1DPNtkKxxLlehDbr0BE-N_fVHIwVLwbDxlkHdj8VimCaFKryu9rh9zWZCZMffRrRh96ppsPtgrQ-8Paf5RXD1T36Y9BSDgERUGVhpd87C_zur7gAPR4PnmC6pjSKNxnq3emmJeuW-pAKy2HwN1EXPnCOMxqkWGFKGesxWRCGsXvkhfqWnxtdIOUOGF_lOBYCHDz1IPundiZmOFydKRP3Skx7YfxwP9_8WDfubIN0Na3K8Al3KxokktQYnDaMWTszv7OIXf2UspxCktzEtM-qO4U06o_3m0dGvvaJ_4FjUEGjlb6oEf4e46q8LrvzbS2GHzXWnIxFCHBoloOQEMeimNkWXP2XW1YdwwmmvHi4HcFaHhqW3gAQtsf5J4S83tEOkpd4Mb1cS9_7zY6lFgtDKzdYGvzHfi104A_WH1hog&key=REDACTED",
+      "width": 1440,
+      "height": 1440,
+      "classification": "completed_project",
+      "pair_id": null,
+      "source_type": "google_places"
+    },
+    {
+      "local": "images/10-places.webp",
+      "source_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3lJBiUMOHmD-cF9QFd0b3RZ-bb8F2K_YpbPQGESI_cNPJ__bPKO-0Lz2iB1lSCWnUB9Cgi1vnGa9dKp-Q_5te3T0SRwbcUNXpRVfQH_BzirZM-zjJBIwlnZFGiOLxgUJCXxmaFrngMs2Q3kEHNjZoiLLfilAwAb5fQ4wGKJLbFCaLJZB-Emwf6RLV9BYXbKk64IVE02KQ6Z96rydTWAzQ0nXaZnIG6fKTvhM53GX3PZKWeyljWTG7zedAtg71poWdiuD3zjbfkAh310sEY-OiadKK2L93cz3tyM6yUiGbVeCLG_rNX1V3Qk8OvZJ9e99KR4JrttFE-bDbmPUuABQdJHkHz9P5GayysCCC2HYei3HH6iDZHjzi9rr345HZMKwjVMX-Rlly7lFe0lvXutfuFD7taCVIJ7oDIhykJV38-hB8nu&key=REDACTED",
+      "width": 1200,
+      "height": 1600,
+      "classification": "completed_project",
+      "pair_id": null,
+      "source_type": "google_places"
+    }
+  ],
+  "reviews": [
+    {
+      "text": "Ish came out at short notice to repair and service an old boiler for my niece who has learning difficulties.  He ensured there was hot water and heating to all radiators and everything is working perfectly since his visit last week.  He quoted a price before the visit and that's what he charged.  Even though the boiler was old, he didn't try to get us to install a new boiler just before Christmas, but gave an honest assessment of what might go wrong, but was able to keep it going for us for now.  Much appreciated Ish, and we will use you from now on.  Many thanks.",
+      "reviewer": "Tim",
+      "rating": 5
+    },
+    {
+      "text": "Brilliant service, called at 10pm last night due to a problem with my boiler, sent over some photos and the problem was identified straightaway, came round this morning and completed the repair and serviced the boiler! Such a smooth, hassle free and quick process, I was incredibly relieved to have this sorted so quickly and efficiently at a really reasonable price. Thanks so much!",
+      "reviewer": "Lyahna",
+      "rating": 5
+    },
+    {
+      "text": "Ish fitted me a beautiful new bathroom complete with tiling , plumbing, heating and all my appliances. Nothing was to much of an ask and he went above and beyond to fix some unforeseen issues that I had. Ish was very professional and tidy throughout the rest of my home which is appreciated! highly recommend.",
+      "reviewer": "chanai23",
+      "rating": 5
+    },
+    {
+      "text": "Ishmael provided me with a new radiator and installation. He was knowledgeable, efficient, and very responsive even prior to the day of installation. The radiator is working well, looks great and very happy with it all. Thank you Ishmael for your hardwork and for fitting me in so quickly.",
+      "reviewer": "Sunny",
+      "rating": 5
+    },
+    {
+      "text": "Was recommended Ish through a friend and he’s been great, had 4 radiators removed prior to plastering and reinstalled after along with a new hive thermostat. Reliable and professional thank you",
+      "reviewer": "Nees",
+      "rating": 5
+    }
+  ],
+  "social": {
+    "facebook": null,
+    "instagram": null,
+    "youtube": null,
+    "tiktok": null
+  },
+  "gallery_layout": "completed_project_gallery",
+  "photo_classification_summary": {
+    "completed_project": 8
+  },
+  "brand": {
+    "colours": [],
+    "logo_url": null,
+    "logo_local": null
+  },
+  "source_urls": [
+    "https://maps.google.com/?cid=16223918444705757032",
+    "https://www.instagram.com/ephs_plumbing_heating?utm_source=qr&igsh=MXE2cDN0a29jOXZvdg==",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3klsC_vYJ6IFRCaF7nwv4FycWw9NnZwe3cGrAvCVeRoDu__aolGDqS1VT8FBOgif2LIqK9P-tGb2fXX3_aJ5g3l0ePwcICSfvcPmqe5MwKlHIlpLOo3LfUwN2DanduXQbS-sYQwolIwtSzbGBu63Agp-fvRSERp3h-JkcGM94DvjLwB1lCgu7bAi4iDevgpgsLiLm5VpuM102BRnZAqaNVsSZSOGZePsbc_9kjJiMEruYJBoTmDK5O6ihMwRufQrM74yL07pbjQmJUwPD8lv9FmmkV0yhebFD17_wvt79piiVH2T_S8bL3qBWORxM8DEN44RiGzK4k-JqL7elyWIeqEpHgHBeBxNiQuJkXEzvr45ciwccrKG3lorfHhTEOYRMMMesQ-8t_Rq4EzSWWcfytdSz3UPOSHYV-vI_0HihI&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3mPmPq4BiOszlhr87oWXtf2b6uE8-NMi1LdMTmKnXbF03NXU3KxyDusv1VikGrAMzchPdRw0C0AR9ISaAujCNKl83eg-IHZ7Xs1E1T9RND2cn4Zm8I1LrDe0Rb_q2S9iE3AjQCsjLpYV5HoF1OQyGTFg6KaslosW5sIhFtv5IGo9c19rgmyvIwMiS5dS4AsVCHeZG7j2XViSprvFF441w6B5nsxjmNAjDVZdp0X0slyqhLYuF8IJ55kAEQ60H_rSvheLxLkK-o7OwIkNDcWlnE40QyiSQJHXHm9oysr0gVV58XWmOiSHewnvyfdjXUAbrEJwECrxai3Sj2awwQkrPb6pYGdQvwnn97zvwYFeD8SyBHPgmorHmmgk9gQr0XGJauxUhY1vWRH-oEX49PkHiIgub_yu1vBr2aNmyIoboUCdq4KctTcZABCsyRQ3Cuq&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3lrxBZ9gAT5tJgj7zzf5NZ1WILtHe3fQWUvquEjgTVFj_h9LSoKuCzXD44-l6drdEpbcyYvsYkZejP5fBGhN6rWBSws4OXyNmITqn6GH0eNGCoC58KVq1mbcn9-lZwMy5rKohx11a17P9h1yJdISEKcKVWgCFrdsH65E7M0COtcuI64bb-bSAHYMrj5YYUisjM18dA7G9YCgjmp3rrV5CqnkfGt-URnbVSU6EGadu7d69xwsFD3BU1bk2hY_qQG9FXWoPhQvILbiVd0hdqtxciy4ttwV_v3DeV24vdnQTIKfew2KFFzthk7qoOn1K6ovPlTNsFlsW5EuHN-ZjyFZDwlSxsc03IbaZUNtDtck2ezgvLCobX4ULCcK9_dyMW8x0mIUsh1_Uf73ZzhOB5KZJ8sqtMz770GdeL0kIqOOWU&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3lwCqm-MU0ZSocbIOvqOMiFOoQDgYsa1mwbV_PJpocQ-Hh_30I1UHLlWFaLcZD0fHNLtGHnicusfPWniThNbezNDdcyox-jeIShW1AgBix1RWwd0gakXS68nu-gS0vlmsCiBcQXKXZV304BIYhyy5Ki2AuzA1ev2ebQPvIRY58wTsxnDpbaK8NvE8R0wUzza54WUUDDMCRGl2IwNh9FQXjtG5DCsNXm-FrejqjPgDsNyxMElArjs08Ia5U4GtWrixRbAplm5SCjreYrtEdl-8YlZvdLF0kd0-LRnOyx6_1mcR28oul1R_YkXNXa4HHyuJgUxP7ZGjLBSel1GyTL9LPHLDDRpsLaLMDliLAUCHonJvhJXZsr9u7JYSrl4cUGt6iShF9_y7qXU8o7PxkR6WqB1NNqOoweX-QRn-yIZ_o&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3mm8hRs9hmYBmtIiHOb0zy-xcTt9Him1nYBL508ZQBnZ-mKd0S0PtVIzI1cjdRuqiU-oUdCFZ72Wn4Kjjcnt88wwJfxJ2DU51GnNX5r_zDX_Qgi25qtaXbGTU6nionuSqC-jO_f1FhJf1_k34ZCME2bIlcwXIscqAsMjQ4tSoLs2UjcpKkimxONqRjMXUlvGKkLHgUlnAtchXDSW1id8rbtmW14tEtGNV7FBa8YGtmHBg36-aIFL38rQoGse7YtfFZlgx1ZFvzs_qfn_uPdYRNaTXMQGsToHFf0Jv_dWHUUZx4765INrQXW-skUB0--Pv5TRIuM3hCkhzOkXRfEtYzd6YVyj5F3NL4VYFnQW0b4x9EZMjtsbDj6lWtjDiGjFPsIpPOJEJumIotXWEpLdM9cme14FZKp6V8d0apP5OXAmg&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3kFuHRJY5PjYsZXjOpFcNWZKho5BZRhotOV-vPm-Rw60PTrJnkE93B42-Hd6gfJkAm7qTiKgQm4yeWsxp5dR6c6nTZntwET_nC3iKBkUFDQT5g33AX11UjSGP0JRhUFkSJMLuIZ_WCsEBY3C-hTYqfBD2YOJqvMLADhHhtwMnL-7vIcfXhmiwfRSlOuFe8plDIf5dRxrppsqGtqTfszWbbToy_mYU4F_K-tIOuJ1y81mXjAAhVbhq0Rt5kNSiGLpHUU84Bu5xUUZ-jNLbnl4Jnh-M3cmOVoxaMqY4KgcdVOT7cglxd3HJV9Sxmcu0SNYyWd1TaMVJw9jNAufuA434UdRxCYQi86Wnh3RvOLHGyK5U-Wh8UjD0cxUFKcik0enO06b8XLaj3P8bwE6t00GSVPF1MwxOR3JTs-48R_ScxcHvu4&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3kawvnPkBdgh5-BoUpmMN2MmbVnjNFCgVNvWOOXZSdOhZbGQ6ZTeTpmw39B6ZKNJ1BL-fMQCYOgWChX1FXBIN_r1K4bJAR94ZCrPGWQ53MMZ1eXFhVeaho0z-lzmUkelEr4UPsZRRcSXo3PbYDaSvqB6KRWxXKbeDAimlTYcdIVpXhD3iG2q28_gvT-wsVhhGRhdur9Gnen81nI0jx_8E-zuXwLix1OG8HUIuBQOwdnouFKULOIpJy3ahK54OJyhJjv36Oac3G8di0QuSAlnFcX_s97D3kdB6VZqmrwU_PktRNVUCrIp-Fagj80b6J4eUy3CYYFgOcpZTyRMyj2wYjNvADnJ4XUUdkM59UtpwaJrWWo58kTrT7lb5zvPb69oknoEeCt4vehs1xcD3a9qYgQQJNMCc0-gEw62rz-UIyGhEm4&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3nNRUJmix4Z79awq7sTGfeJktYqj2K9UemFI_3s6d-6Cx3CpLw7m7pci3cyzfIfMTwLp7BxqMkkiJHeBKfMXyOX9402EimD7EScQxgDS97m7Ss8y-9EW8hR-7LsGe91MVUvGpZpa7BtfliZh8xl0L6VNOCgkMM6i-8ud2TLfPHTv0WrYYPr1Su5O1aL8Gj299K2_t9khUa5WkuK5WrZdiQRCeAgqLhyf6C0w1vqu5ywKcBsOW9MotsAvJ97UfT49bsSE6JjbEfzDCii4iftN7ICfaeuXZkNi2wGxWPhZ_fkre1Ibo3EyJshtBloVc7SONen1BgtK17dgf4iSpwpJZIj_vfZ0Jd--o15bI8QabEHPazBsN9smsqw-0vshK9EGitREnMxB39k1N_tWnJbkkrxTXsVswWF9N6EhpdvSyJWyO-l&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3nfa1DPNtkKxxLlehDbr0BE-N_fVHIwVLwbDxlkHdj8VimCaFKryu9rh9zWZCZMffRrRh96ppsPtgrQ-8Paf5RXD1T36Y9BSDgERUGVhpd87C_zur7gAPR4PnmC6pjSKNxnq3emmJeuW-pAKy2HwN1EXPnCOMxqkWGFKGesxWRCGsXvkhfqWnxtdIOUOGF_lOBYCHDz1IPundiZmOFydKRP3Skx7YfxwP9_8WDfubIN0Na3K8Al3KxokktQYnDaMWTszv7OIXf2UspxCktzEtM-qO4U06o_3m0dGvvaJ_4FjUEGjlb6oEf4e46q8LrvzbS2GHzXWnIxFCHBoloOQEMeimNkWXP2XW1YdwwmmvHi4HcFaHhqW3gAQtsf5J4S83tEOkpd4Mb1cS9_7zY6lFgtDKzdYGvzHfi104A_WH1hog&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3lJBiUMOHmD-cF9QFd0b3RZ-bb8F2K_YpbPQGESI_cNPJ__bPKO-0Lz2iB1lSCWnUB9Cgi1vnGa9dKp-Q_5te3T0SRwbcUNXpRVfQH_BzirZM-zjJBIwlnZFGiOLxgUJCXxmaFrngMs2Q3kEHNjZoiLLfilAwAb5fQ4wGKJLbFCaLJZB-Emwf6RLV9BYXbKk64IVE02KQ6Z96rydTWAzQ0nXaZnIG6fKTvhM53GX3PZKWeyljWTG7zedAtg71poWdiuD3zjbfkAh310sEY-OiadKK2L93cz3tyM6yUiGbVeCLG_rNX1V3Qk8OvZJ9e99KR4JrttFE-bDbmPUuABQdJHkHz9P5GayysCCC2HYei3HH6iDZHjzi9rr345HZMKwjVMX-Rlly7lFe0lvXutfuFD7taCVIJ7oDIhykJV38-hB8nu&key=REDACTED",
+    "https://scontent-lhr6-2.cdninstagram.com/v/t51.82787-19/639463941_18074505761577810_8428125884704468556_n.jpg?stp=dst-jpg_s100x100_tt6&amp;_nc_cat=105&amp;ccb=7-5&amp;_nc_sid=bf7eb4&amp;efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy45NjkuQzMifQ%3D%3D&amp;_nc_ohc=y9A-L-AORfUQ7kNvwFtUVYR&amp;_nc_oc=AdrJbHAUavcOQyzfaB8jYvgEgEMYX4HNeZcqFUNsqB3xrxZM5l-pywDN-udWqyqN8lOOLF8Zr3ELKZIPUGMS8_ri&amp;_nc_zt=24&amp;_nc_ht=scontent-lhr6-2.cdninstagram.com&amp;_nc_gid=1RDEBYwfCz-n8EJi1NFoDA&amp;_nc_ss=7c689&amp;oh=00_Af_Ki3tErTBXlY0-iLsQ_XkjojW982UNlnR1EBV2-mzHJQ&amp;oe=6A30FC2A"
+  ],
+  "notes": [
+    "owner_name not found in public sources",
+    "email not found in public sources",
+    "contact_name \"Ish\" from 3 Google review mention(s) (high confidence); owner_name not set",
+    "contactability=CONTACTABLE",
+    "no email found, WhatsApp available",
+    "Photo discovery: 8/8 selected (Enough photos for photo-led layout)"
+  ],
+  "missing_fields": [
+    "owner_name",
+    "email",
+    "facebook",
+    "instagram"
+  ],
+  "invalid_website_candidates": [
+    "https://www.instagram.com/ephs_plumbing_heating?utm_source=qr&igsh=MXE2cDN0a29jOXZvdg=="
+  ],
+  "website_url_validation": {
+    "validated_at": "2026-06-11T22:04:18.311Z",
+    "issue": "social_as_official",
+    "note": "Social URL stored as website_url - reclassified as SOCIAL_OR_DIRECTORY_ONLY",
+    "previous_url": "https://www.instagram.com/ephs_plumbing_heating?utm_source=qr&igsh=MXE2cDN0a29jOXZvdg=="
+  },
+  "prospect_region": "Birmingham",
+  "location_validation_status": "OK",
+  "directory_probes": [
+    {
+      "platform": "checkatrade",
+      "candidate_url": "https://www.checkatrade.com/trades/ellis-plumbing-heating-services-birmingham",
+      "status": "NOT_FOUND",
+      "confidence": "rejected",
+      "title": null,
+      "rating": null,
+      "review_count": null,
+      "phone_visible": false,
+      "verification_reasons": [],
+      "note": "search_deferred: Ellis Plumbing & Heating Services Birmingham Birmingham B14 0GG site:checkatrade.com"
+    },
+    {
+      "platform": "trustatrader",
+      "candidate_url": "https://www.trustatrader.com/traders/ellis-plumbing-heating-services-birmingham",
+      "status": "NOT_FOUND",
+      "confidence": "rejected",
+      "title": null,
+      "rating": null,
+      "review_count": null,
+      "phone_visible": false,
+      "verification_reasons": [],
+      "note": "search_deferred: Ellis Plumbing & Heating Services Birmingham Birmingham B14 0GG site:trustatrader.com"
+    },
+    {
+      "platform": "yell",
+      "candidate_url": "https://www.yell.com/biz/ellis-plumbing-heating-services-birmingham-birmingham-b14-0gg/",
+      "status": "NOT_FOUND",
+      "confidence": "rejected",
+      "title": null,
+      "rating": null,
+      "review_count": null,
+      "phone_visible": false,
+      "verification_reasons": [],
+      "note": "search_deferred: Ellis Plumbing & Heating Services Birmingham Birmingham B14 0GG site:yell.com"
+    },
+    {
+      "platform": "mybuilder",
+      "candidate_url": "https://www.mybuilder.com/profile/ellis-plumbing-heating-services-birmingham",
+      "status": "NOT_FOUND",
+      "confidence": "rejected",
+      "title": null,
+      "rating": null,
+      "review_count": null,
+      "phone_visible": false,
+      "verification_reasons": [],
+      "note": "search_deferred: Ellis Plumbing & Heating Services Birmingham Birmingham B14 0GG site:mybuilder.com"
+    },
+    {
+      "platform": "rated_people",
+      "candidate_url": "https://www.ratedpeople.com/profile/ellis-plumbing-heating-services-birmingham",
+      "status": "NOT_FOUND",
+      "confidence": "rejected",
+      "title": null,
+      "rating": null,
+      "review_count": null,
+      "phone_visible": false,
+      "verification_reasons": [],
+      "note": "search_deferred: Ellis Plumbing & Heating Services Birmingham Birmingham B14 0GG site:ratedpeople.com"
+    },
+    {
+      "platform": "houzz",
+      "candidate_url": "https://www.houzz.co.uk/professionals/ellis-plumbing-heating-services-birmingham",
+      "status": "NOT_FOUND",
+      "confidence": "rejected",
+      "title": null,
+      "rating": null,
+      "review_count": null,
+      "phone_visible": false,
+      "verification_reasons": [],
+      "note": "search_deferred: Ellis Plumbing & Heating Services Birmingham Birmingham B14 0GG site:houzz.co.uk"
+    },
+    {
+      "platform": "bark",
+      "candidate_url": "https://www.bark.com/en/gb/company/ellis-plumbing-heating-services-birmingham/",
+      "status": "NOT_FOUND",
+      "confidence": "rejected",
+      "title": null,
+      "rating": null,
+      "review_count": null,
+      "phone_visible": false,
+      "verification_reasons": [],
+      "note": "search_deferred: Ellis Plumbing & Heating Services Birmingham Birmingham B14 0GG site:bark.com"
+    },
+    {
+      "platform": "nextdoor",
+      "candidate_url": "https://nextdoor.co.uk/pages/ellis-plumbing-heating-services-birmingham/",
+      "status": "NOT_FOUND",
+      "confidence": "rejected",
+      "title": null,
+      "rating": null,
+      "review_count": null,
+      "phone_visible": false,
+      "verification_reasons": [],
+      "note": "search_deferred: Ellis Plumbing & Heating Services Birmingham Birmingham B14 0GG site:nextdoor.co.uk"
+    }
+  ],
+  "enrichment": {
+    "enriched_at": "2026-06-11T22:04:32.528Z",
+    "email_domain_checked": false,
+    "website_discovery_run": true
+  },
+  "lead_validity": {
+    "lead_validity_status": "INSUFFICIENT_EVIDENCE",
+    "lead_validity_reason": "Enrichment incomplete or source confidence too low",
+    "pitch_type": "manual_review",
+    "website_status": "SOCIAL_OR_DIRECTORY_ONLY",
+    "website_url": null,
+    "website_discovery_classification": null,
+    "email_domain_website": null,
+    "source_confidence_summary": {
+      "overall": "low",
+      "verified_platforms": [],
+      "rejected_platforms": [
+        "google_places"
+      ],
+      "notes": [
+        "No verified sources with medium or high confidence",
+        "1 source(s) rejected for low confidence"
+      ]
+    },
+    "ready_for_build": false,
+    "ready_for_design": false,
+    "ready_for_pitch": false,
+    "manual_review_required": true,
+    "has_real_website": false,
+    "truly_no_website": true,
+    "warnings": [
+      "Source enrichment not complete - run enrich:lead before build",
+      "Source confidence is low - lean site or manual review recommended"
+    ],
+    "manual_asset_status": "OK",
+    "pause_before_open_design": false,
+    "manual_asset_folder": "briefs/ellis-plumbing-heating-services-birmingham/images/manual/"
+  },
+  "source_quality": {
+    "source_quality_status": "FAIL",
+    "source_quality_reason": "Source enrichment not complete",
+    "website_url_validated": true,
+    "email_domain_checked": true,
+    "enrichment_complete": false,
+    "logo_discovery_attempted": true,
+    "photo_discovery_attempted": true,
+    "directory_probes_attempted": true,
+    "warnings": [
+      "Lead validity requires manual review"
+    ],
+    "blockers": [
+      "Source enrichment not complete"
+    ]
+  }
+}

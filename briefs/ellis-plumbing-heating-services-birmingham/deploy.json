@@ -1,0 +1,31 @@
+{
+  "slug": "ellis-plumbing-heating-services-birmingham",
+  "updated_at": "2026-06-12T00:29:34.243Z",
+  "preferred_alias": "ellis-plumbing-heating-services-birmingham",
+  "deployment_url": "https://ellis-plumbing-heating-services-birmingham-e3flgsr2j.vercel.app",
+  "verified_url": "https://ellis-plumbing-heating-services-birmingham.vercel.app",
+  "final_url": "https://ellis-plumbing-heating-services-birmingham.vercel.app",
+  "alias_status": "VERIFIED",
+  "candidates": [
+    {
+      "hostname": "ellis-plumbing-heating-services-birmingham",
+      "url": "https://ellis-plumbing-heating-services-birmingham.vercel.app",
+      "preflight": "already_ours",
+      "detail": "Build marker ellis-plumbing-heating-services-birmingham:20260611-od-port",
+      "assign": "alias_assigned",
+      "verify": "verified"
+    }
+  ],
+  "verification": {
+    "ok": true,
+    "httpStatus": 200,
+    "markerFound": true,
+    "businessNameFound": true,
+    "phoneFound": true,
+    "marker": {
+      "buildId": "ellis-plumbing-heating-services-birmingham:20260611-od-port",
+      "slug": "ellis-plumbing-heating-services-birmingham"
+    },
+    "errors": []
+  }
+}

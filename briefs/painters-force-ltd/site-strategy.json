@@ -1,0 +1,45 @@
+{
+  "slug": "painters-force-ltd",
+  "business_angle": "Painters Force LTD - customers praise quality workmanship and reliable attendance in Nottingham, NG7",
+  "customer_praise_themes": [
+    "quality workmanship",
+    "reliable attendance",
+    "strong recommendations"
+  ],
+  "named_people": [],
+  "distinctive_phrases": [
+    "I recently had the pleasure of hiring Painters Force LTD who truly exceeded all my expectations",
+    "From start to finish, their work was nothing short of exceptional",
+    "Absolutely outstanding job done on the warehouse decorating",
+    "The transformation is simply remarkable",
+    "Excellent service promote,worked to complete a whole house in a week"
+  ],
+  "strongest_review_quote": {
+    "text": "I recently had the pleasure of hiring Painters Force LTD who truly exceeded all my expectations. From start to finish, their work was nothing short of exceptional. Their attention to detail was extraordinary, as they carefully listened to my vision and offered insightful suggestions to enhance the overall aesthetic of my home.  If you desire a flawlessly painted home go for these guys.",
+    "author": "Jowita",
+    "source": "google",
+    "url": "https://maps.google.com/?cid=5705655930724980249"
+  },
+  "strongest_proof_source": {
+    "platform": "google",
+    "metric": "5 rating, 16 reviews",
+    "url": "https://maps.google.com/?cid=5705655930724980249"
+  },
+  "best_photos_rationale": "Google Places photos preferred for gallery when high quality",
+  "claims_to_avoid": [
+    "Fake owner or founder claims",
+    "Supplier names as job locations in captions",
+    "Invented service areas"
+  ],
+  "pitch_hook_summary": "Lead with review detail about quality workmanship (Jowita)",
+  "personality": "craft",
+  "evidence_strength": "moderate",
+  "suggested_site_mood": "warm, photo-led, craft detail",
+  "suggested_proof_hierarchy": [
+    "google_rating_reviews",
+    "photo_gallery"
+  ],
+  "pitch_insight_seed": "Lead with review detail about quality workmanship (Jowita)",
+  "trade": "Building & construction",
+  "location": "Nottingham, NG7"
+}

@@ -1,0 +1,348 @@
+{
+  "slug": "rm-electrical",
+  "gathered_at": "2026-06-11T22:04:32.727Z",
+  "attempted_sources": [
+    {
+      "platform": "google_places",
+      "status": "found",
+      "url": "https://maps.google.com/?cid=1826696652184966720"
+    },
+    {
+      "platform": "google_reviews",
+      "status": "found",
+      "url": "https://maps.google.com/?cid=1826696652184966720"
+    },
+    {
+      "platform": "google_photos",
+      "status": "found",
+      "url": "https://maps.google.com/?cid=1826696652184966720"
+    },
+    {
+      "platform": "facebook",
+      "status": "not_found",
+      "url": null,
+      "search_query": "RM ELECTRICAL Leeds LS4 2QR",
+      "reason": "No URL in brief or source_urls (directory scrape not run in this phase)"
+    },
+    {
+      "platform": "instagram",
+      "status": "found",
+      "url": "https://www.instagram.com/rm.electrical_?igsh=azQ1Zm5pcjVldTBi"
+    },
+    {
+      "platform": "official_website",
+      "status": "not_found",
+      "url": null,
+      "search_query": "RM ELECTRICAL Leeds LS4 2QR",
+      "reason": "No URL in brief or source_urls (directory scrape not run in this phase)"
+    },
+    {
+      "platform": "checkatrade",
+      "status": "not_attempted",
+      "url": null,
+      "search_query": "RM ELECTRICAL Leeds LS4 2QR",
+      "reason": "Manual search required in this phase"
+    },
+    {
+      "platform": "trustatrader",
+      "status": "not_attempted",
+      "url": null,
+      "search_query": "RM ELECTRICAL Leeds LS4 2QR",
+      "reason": "Manual search required in this phase"
+    },
+    {
+      "platform": "mybuilder",
+      "status": "not_attempted",
+      "url": null,
+      "search_query": "RM ELECTRICAL Leeds LS4 2QR",
+      "reason": "Manual search required in this phase"
+    },
+    {
+      "platform": "rated_people",
+      "status": "not_attempted",
+      "url": null,
+      "search_query": "RM ELECTRICAL Leeds LS4 2QR",
+      "reason": "Manual search required in this phase"
+    },
+    {
+      "platform": "bark",
+      "status": "not_attempted",
+      "url": null,
+      "search_query": "RM ELECTRICAL Leeds LS4 2QR",
+      "reason": "Manual search required in this phase"
+    },
+    {
+      "platform": "yell",
+      "status": "not_attempted",
+      "url": null,
+      "search_query": "RM ELECTRICAL Leeds LS4 2QR",
+      "reason": "Manual search required in this phase"
+    },
+    {
+      "platform": "companies_house",
+      "status": "not_attempted",
+      "url": null,
+      "search_query": "RM ELECTRICAL Leeds LS4 2QR",
+      "reason": "Manual search required in this phase"
+    },
+    {
+      "platform": "directories",
+      "status": "not_attempted",
+      "search_query": "RM ELECTRICAL Leeds LS4 2QR",
+      "reason": "Generic directory sweep not automated yet"
+    }
+  ],
+  "sources": [
+    {
+      "platform": "google_places",
+      "url": "https://maps.google.com/?cid=1826696652184966720",
+      "verified": true,
+      "verification_method": "place_id_from_gather",
+      "phone_match": true,
+      "notes": "Primary gather source"
+    }
+  ],
+  "sources_found": [
+    "google_places",
+    "google_reviews",
+    "google_photos",
+    "instagram"
+  ],
+  "sources_verified": [
+    "google_places"
+  ],
+  "strongest_proof_source": {
+    "platform": "google",
+    "metric": "5 rating, 21 reviews",
+    "url": "https://maps.google.com/?cid=1826696652184966720"
+  },
+  "best_review_details": [
+    {
+      "text": "Called Ryan on a Thursday asking to come replace our induction hob, he asked if he could come over on the following Monday as he was busy until then, i explained how  I needed it sooner & despite being booked up he managed to fit the job in the very next day . Excellent job done at a very fair price.  Definitely recommend.",
+      "author": "David",
+      "rating": 5,
+      "source": "google"
+    },
+    {
+      "text": "Called Ryan who came round, quoted the job and completed it to a very high standard. Changed all spot lights in the kitchen, fixed a fault and swapped out two other light fittings. Would highly recommend them, prompt, fast, great customer service and very good price. A+",
+      "author": "Gareth",
+      "rating": 5,
+      "source": "google"
+    },
+    {
+      "text": "Ryan fitted a security light and did a great job. From the first communication, he was polite, friendly and punctual. Everything was straightforward and I was very happy with the cost of the job. Would recommend and use again!",
+      "author": "Mark",
+      "rating": 5,
+      "source": "google"
+    }
+  ],
+  "image_source_summary": {
+    "google_photos": 10,
+    "facebook_photos": 0,
+    "directory_photos": 0,
+    "manual_photos": 0,
+    "other": 0,
+    "preferred_source": "google_places",
+    "notes": "Google Places photos preferred for gallery when high quality",
+    "priority_order": [
+      "official_website",
+      "google_places",
+      "directory",
+      "manual_asset",
+      "facebook_evidence",
+      "proof_led"
+    ]
+  },
+  "manual_review_flags": [],
+  "enrichment_complete": true,
+  "risks": [],
+  "manual_asset_review_recommended": false,
+  "manual_asset_status": "OK",
+  "asset_readiness": {
+    "manual_asset_status": "OK",
+    "usable_automatic_count": 10,
+    "usable_manual_count": 0,
+    "usable_total_count": 10,
+    "has_hero_candidate": true,
+    "pause_before_open_design": false,
+    "pause_message": null,
+    "layout_recommendation": "photo_led",
+    "image_slots": [
+      {
+        "slot": "hero",
+        "desired": "Best finished project photo or strong proof visual",
+        "source_status": "automatic"
+      },
+      {
+        "slot": "gallery_1",
+        "desired": "Finished work close-up or wide project shot",
+        "source_status": "automatic"
+      },
+      {
+        "slot": "gallery_2",
+        "desired": "Finished work close-up or wide project shot",
+        "source_status": "automatic"
+      },
+      {
+        "slot": "gallery_3",
+        "desired": "Finished work close-up or wide project shot",
+        "source_status": "automatic"
+      },
+      {
+        "slot": "gallery_4",
+        "desired": "Finished work close-up or wide project shot",
+        "source_status": "automatic"
+      }
+    ],
+    "manual_folder": "briefs/rm-electrical/images/manual/"
+  },
+  "image_slots": [
+    {
+      "slot": "hero",
+      "desired": "Best finished project photo or strong proof visual",
+      "source_status": "automatic"
+    },
+    {
+      "slot": "gallery_1",
+      "desired": "Finished work close-up or wide project shot",
+      "source_status": "automatic"
+    },
+    {
+      "slot": "gallery_2",
+      "desired": "Finished work close-up or wide project shot",
+      "source_status": "automatic"
+    },
+    {
+      "slot": "gallery_3",
+      "desired": "Finished work close-up or wide project shot",
+      "source_status": "automatic"
+    },
+    {
+      "slot": "gallery_4",
+      "desired": "Finished work close-up or wide project shot",
+      "source_status": "automatic"
+    }
+  ],
+  "email": null,
+  "email_found": false,
+  "email_domain_checked": false,
+  "email_domain_website": null,
+  "website_discovery": null,
+  "website_status": "SOCIAL_OR_DIRECTORY_ONLY",
+  "truly_no_website": true,
+  "logo_found": false,
+  "logo_path": null,
+  "facebook_url": null,
+  "facebook_verified": false,
+  "source_verifications": [],
+  "source_confidence": null,
+  "image_manifest": [
+    {
+      "local": "images/01-places.webp",
+      "source": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3n36NjLWDdgYvyGsrD_LvytWU0u6uA_-5Z-_lFGTIzamzPXhra7vEQ-YqrjjiGZrnque9xEqGeQ3stAuHOcrW39hCsOiaAvzNnAe4kyt58JuO74y0v6kvb6kKgMMaFedAnWd7GconkqPtp271WnCaE460xjfavhzZgDCqZaFbKQOsZKDuwkk0JEQ9G81SJujdzeOjb3g3WwiwbCjKi47ZE9Diaji12aebbplYfxKS3zwto_Ksjc9NO8M2yTXVqpcoFbRjWRroNTgP_iH8Ax3objfPAuC7Bv2f2nPBiaO6Zm0Mdw3c-4HpgT8AhAt5QXOv9PfMUh0WKx2GHqEtBNSr93Na9truZIsnFlBMbQ5ZzyhooICoaRgknQgdUreDRC0TMSbhytKPlBC_ClJS5fJkvlN27FkTGnm_wA_vUqNAYzww&key=REDACTED",
+      "source_type": "google_places",
+      "confidence": "medium",
+      "purpose": "gallery",
+      "selected": true,
+      "reason": "Default from gather"
+    },
+    {
+      "local": "images/02-places.webp",
+      "source": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3moof7-sG56ng_Bw8yWHTV6alPzrLyCAKn-_Ie4utUPp7p5CoLjrZDmaVHW6IXrDQXadJsAbLBhGw8jU3Z51Q6BPKLXq1hjCXRqdm5whq6EdxxB-PvxWw6bR8P6q9yQCXAYnNV-r7gbkz67HSW8p4SEq6lqN2qOTIldVVACzcJtsSNNWhTtZc3SKpcXf_x6qkXG1bmoM_FOfdXPDLfEBTG_AWTBF2TLrN5Wuo-JPmn9_AnnTtEcaGQ5swq7vN1FKqNf5rm_jlXHzlxKd2DfJy0TLPC7MYtYWRlFipMCvSgoLXMcqPjNNwv0K6zxOYhgahMCDgpbwdO_hpR4zRNYMlc6pyFKgemtiToHgcq9kHgYA0H2BOJhhFu9gMSKVKqBJ3MMh-8JjKOAFq4V7jYcIn0pfkxugDcHx5K0OLJAW9Mq7_X9GmAP1W5vLZAzPTIp&key=REDACTED",
+      "source_type": "google_places",
+      "confidence": "medium",
+      "purpose": "gallery",
+      "selected": true,
+      "reason": "Default from gather"
+    },
+    {
+      "local": "images/03-places.webp",
+      "source": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3nJyRIseMZ--XbCCKP7aPydlo0OZTrkQKk_OUon6PfERuPbWqfHNVEasU4Q54mPW6t4nbiDWnbqwzBlV3jBMZd-jWhjTxuB8OC0w9Q51_DWwTG06Ty87DuoSkGsf1eB5qb_Tps8hWXeQWvxwwFhPDJV5kkaPRhyeqGjV89qjuyZkqyA1E1FnwKvhUUBIa2hiWt9N9xlubEsdM80yP_zl8vu8YZ0Sl8vSfjmXEBGvoi6sq0m8duGNXb8IJd3i5CawDdu4hpU6JHiedL8iNfxXKww2yr0nSjQS8WkjZX8KTFq96B2RQooE8rvitnrmTG61qugZ06q04UJgMZ2GCeyKlAIwHMqL_fdjMUBrPgGcBNnCg2YCJvX3eKuTsuMGoz78bH6vBGRD9oDBUqEBg7PV2_xjbzV43eARKVOr4oK1f8BKw&key=REDACTED",
+      "source_type": "google_places",
+      "confidence": "medium",
+      "purpose": "gallery",
+      "selected": true,
+      "reason": "Default from gather"
+    },
+    {
+      "local": "images/04-places.webp",
+      "source": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3lK9TpS7fSZPYtuu6pi5IaGG8ZSHpK4DpvyILS6nlAsObPLoJLbRqkRICxFhnUh4xo28LV97w_ui9HtAM_LjaGjer2H_o4yGbilEq_i8S8rkWkJvo3bsiWAi79fIEPBKL6RBZ1fiAxw-bDiJfg_7BEcXLD4HSUJZ8oHRp4xXz_w3QjHjBCBdomMh24n8qW3AJkmng2ge60T41pfEULOkWenej_CJk-1JPOQq7duN584tIOFl1jX4nOEiBsLx3fJJl9TO17idRUx14g6-HZf9XvxPH8K5qcAI1JS9QfgHKgwlpTARs9Y9h6dyKAALqHmP5n4rVVLHsMsKnGqP6PnkDOwrcw5R3SvYaXQQm1cCEvF7wGHemLJXi6ccAMA3sTHIGaGdZkChfLXi1QlCT9Au5dzcDIwydf36jfOpnLG5folj-XH&key=REDACTED",
+      "source_type": "google_places",
+      "confidence": "medium",
+      "purpose": "gallery",
+      "selected": true,
+      "reason": "Default from gather"
+    },
+    {
+      "local": "images/05-places.webp",
+      "source": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3lHSoI1YWwazJ2Fnnfseq173vzckWb6h9KTlpgd5Dx-uFRU4HxnJq36JzF-K_DWxTjy8vGIPpYW2H1bild-afPQnpZfuTcAL1DuzCKWUzYt__kg5LbjzvIUuhbjihnmn_RZFeZzK7w2_ngizCcZvLX5lTyDa43hPIQ3OSb_fvHl4lK5CYSB0m4vNlG625VHaMpqyQkp3gZZsmp9s2-IMFRgU-WrD-PbBeLyXTuwPjNRwNnWZDKg3QBj2B0jn2L9wTMpzkZNC_SijnLwSrOyR0WOn09RQwrrsbkKa4VbRyiogegqTt5yYffrUqxnPCFfXu_Eyd6fS55giFeZzENiFxyYvsZYubuvaf60SpXXYrwtUToRXywP6Ts39dZZWD-cSzkbfjeLj-YxjvPMdud_N3vTfzoLktRgKaXzSzNpx-e8YJJR&key=REDACTED",
+      "source_type": "google_places",
+      "confidence": "medium",
+      "purpose": "gallery",
+      "selected": true,
+      "reason": "Default from gather"
+    },
+    {
+      "local": "images/06-places.webp",
+      "source": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3mmYi0NeKyewxw7Xo1xLDgtsUViPczTyP8YqucbyPD4ojpa8KKPciCH7I5jxkKWYTN0rpPn8afvZzzpKjO2wH5SYCBZQVXj0RcFnn7Ou5bU81xKp9xvUMt4zceTVjFpTlZUb0WfU7gDOP0lcjp_1FNhE3xtnT_LYRtMnGQPleeJspVf5duZWi2rrX4QSTu43Ly18aP8Kgh2cl4DG4yFVYJl9YDuhMNUIpS2P-E90lh0Tcj8m7KjzSdmItXJ9VD0nCRpizwWsYJTiZw16EsI1v0Le3aObcwFQTsR8R76yvEBt_XjFRkZRnVVxSWSnipC1azj4zq0Uz2xyqPCAQJp4SXBkxRDkDyF8IxUnYFJ0HKVMB1U3P17cCzDzb4ysVBfclxUFP3kmoT3Ve66W65ynFeSjFvtfyH7MXlmWKQ92sGo7qih&key=REDACTED",
+      "source_type": "google_places",
+      "confidence": "medium",
+      "purpose": "gallery",
+      "selected": true,
+      "reason": "Default from gather"
+    },
+    {
+      "local": "images/07-places.webp",
+      "source": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3mH-8yqPljql1PAnTMgxqQB0b73I4zSLzm7D5tJD2ekDRSKyLmZ5MqimFI0reD1vHmdMwWkJzI_CGguR2Xpo31V_74Kpw-dyLviTSlZCu34yRjwLYRKUgWMiWVBBL1S1g9EmluTYfxnAFz-n5YjxUj5duehCkZ_B7nNvoetBedzHgh_NJIbKavweivOrRUqS3ESX8qYyWp1UT1h22yadqla9OTwVyhNikwGdCnKOjraRrSV2ibgRKSF8T90y47FqWA5o5OeZSIQUrM_glH4ag1eshvFFLYvXeIL508bGC_w5ybKjBJpRgGh67A7lrr7EujQAV8hA9wtYkeQFqIlXFZ0votnPdXYg5KrvYwDbEJK4z8uvFNzjFSUeUIp7slgJN_NcIwqr-n3HRNzcadkynsp8X7Y5IyjrpJw_zn4JfSuOv7s&key=REDACTED",
+      "source_type": "google_places",
+      "confidence": "medium",
+      "purpose": "gallery",
+      "selected": true,
+      "reason": "Default from gather"
+    },
+    {
+      "local": "images/08-places.webp",
+      "source": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3l3a0SW84wGdxcwxMHLIaJHq-lahHwzwjS_6--NwADfpChOgkSyt3xgsVNCHONtwPjNHptvpxhGXZFDFtqv_Tp6l45hNND9larKIdd7ZCRB0tdNrkIu0Q_VOVw0tzocuatMGYXIsPP49bOBnbQk3QMZzNF8lzOJA-8N1hIhfaTPpdMNu5FgzlCnAZRxihilRWGL2o3nG1srY58AGP5xDMWmxUmRqEkgF3HlKFQulsDNF86miGNiiAQmqMUkhSKhVNUZ3IC7Nre9Hq0NS67TljRiDQod-JAUVDleCRPEHDtXIgN5M83YkeB5VU2fhjoZ0kEEH3gtuJa3naaqlLi-Tv7sSBgKbQ1HPpu8jT6sYeZtBo9dic9Hn7CdKMMXsFu7JKizB5cCe1rk6bVxPvbOnBrSanJqJrvhGeqDpSZakXrHGQ&key=REDACTED",
+      "source_type": "google_places",
+      "confidence": "medium",
+      "purpose": "gallery",
+      "selected": true,
+      "reason": "Default from gather"
+    },
+    {
+      "local": "images/09-places.webp",
+      "source": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3kVMzqUa_KQvfXxf8ERrMsOpMin8SHaoYYOWsqE1NxQC7eIKqbehkiaqEgbesj_qpt9-3Q8aqQaqbyUW07VBEZVJZ7kcjiMivuo72TqzLy3BaIt0c0p1rS13Uc0S6Ufzs5gk_gIZTmVUHgJarQpsBntDGxJ4N-ICkXhp1kqMH6bud4GVw6M6mGDPUFYrXKq8MS3ODI8o3jAIeii1qwDl0d42hwHbUa9pd3dUNoOaR34SONO-3T-OKuKSMg8-tiVezati0_FyaiY-UgT2tf0z0HalQuOnsKe4Rf6NhepGWGSu5AnB4RdRvUyrUvpH9LpQYacA6zAeeDzZCDK5qAD8rfncAihsq0X9KxylWm4SP13XQeTQ0ovRszV1k94XKjF4KIQ4Nr2vAFxOF17mRKIRBwuhJ_a_vvpJGM66FSoMt1tpQ&key=REDACTED",
+      "source_type": "google_places",
+      "confidence": "medium",
+      "purpose": "gallery",
+      "selected": true,
+      "reason": "Default from gather"
+    },
+    {
+      "local": "images/10-places.webp",
+      "source": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3nBriTKk9WQuIKh4jX8sCG-m3pcZd1Y0XBhLO13iY79MY_vdiBF4xR6-sdogLNmrx__Y3mE_KPor1LKFR-DkwNDDSVrQPn0_vyExcXtBrldXQVOLq87TQyLt-5k0asHQjgHUB2rzkjkDIY7q_0fJRdPP8-yF-liCVGje747HTsCgbG8rSA9VasZgvuLut7PeUAgVscEzfrFOCGU5BpvJI9SmHlKE3iB-ZJjBxRyNlioTTen2lZU8IhqiO-xuU4-MbO_6BO8eo4xGdTdbmKozcJgvZWjBKzrzAXsRd8aCS0AfwIu6_q03Huq5-dkRyJ9UWdVUx3tAAeoPLfKvKyyT2bOmPkyBZU9sL-YbfdUB9WqsqT8kw91bjcZvPBpnrgx3UAzsDA-_kxj9KzGkuzATKJxtbaGGFzBUJ6_4uPDsqA&key=REDACTED",
+      "source_type": "google_places",
+      "confidence": "medium",
+      "purpose": "gallery",
+      "selected": true,
+      "reason": "Default from gather"
+    }
+  ],
+  "selected_images": [
+    "images/01-places.webp",
+    "images/02-places.webp",
+    "images/03-places.webp",
+    "images/04-places.webp",
+    "images/05-places.webp",
+    "images/06-places.webp",
+    "images/07-places.webp",
+    "images/08-places.webp",
+    "images/09-places.webp",
+    "images/10-places.webp"
+  ],
+  "lead_validity_status": "INSUFFICIENT_EVIDENCE",
+  "ready_for_build": false,
+  "registry_source_count": 0,
+  "batch_waiver_applied": true,
+  "batch_waiver_note": "Batch waiver 2026-06-11: Google Places plus contact_name_in_brief"
+}

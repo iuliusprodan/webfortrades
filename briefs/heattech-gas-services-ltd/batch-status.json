@@ -1,0 +1,13 @@
+{
+  "slug": "heattech-gas-services-ltd",
+  "batch_id": "2026-06-11-ten-build",
+  "port_started_at": "2026-06-11T22:27:27.184Z",
+  "port_attempts": 1,
+  "updated_at": "2026-06-11T23:03:52.598Z",
+  "port_completed_at": "2026-06-11T22:59:59.828Z",
+  "port_ms": 296576,
+  "port_tokens": 0,
+  "build_id": "heattech-gas-services-ltd:20260611-od-port",
+  "clone_review": "PASS",
+  "clone_score": 9
+}

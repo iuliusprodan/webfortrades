@@ -1,0 +1,50 @@
+{
+  "slug": "tom-baker-plumbing-and-gas-solutions",
+  "business_angle": "Tom Baker Plumbing and Gas Solutions - customers praise tidy finishes and quality workmanship in Bristol, BS15",
+  "customer_praise_themes": [
+    "tidy finishes",
+    "quality workmanship",
+    "reliable attendance",
+    "fair pricing",
+    "clear communication",
+    "strong recommendations"
+  ],
+  "named_people": [
+    "Tom"
+  ],
+  "distinctive_phrases": [
+    "Tom is knowledgeable, professional & efficient",
+    "He gave great advice on the most suitable boiler & the best place to locate it",
+    "Tom came over at short notice and fitted a new stop tap and fixed our toilet",
+    "He was very polite and left everything clean and tidy",
+    "Had a new Worcester boiler fitted by Tom, very pleased with the work he has done for a reasonable price"
+  ],
+  "strongest_review_quote": {
+    "text": "Tom is knowledgeable, professional & efficient. He was able to respond quickly to a leak in my heating & as well as fixing the leak, I also wanted him to fit a new boiler. He gave great advice on the most suitable boiler & the best place to locate it. He worked alone whilst I was out at work & was totally trustworthy, along with being incredibly tidy in his work, even staying late on his last day, to ensure he left everything tidy. A very conscientious, friendly & professional person, with high ",
+    "author": "Claire",
+    "source": "google",
+    "url": "https://maps.google.com/?cid=520602424352751028"
+  },
+  "strongest_proof_source": {
+    "platform": "google",
+    "metric": "4.9 rating, 15 reviews",
+    "url": "https://maps.google.com/?cid=520602424352751028"
+  },
+  "best_photos_rationale": "Google Places photos preferred for gallery when high quality",
+  "claims_to_avoid": [
+    "Fake owner or founder claims",
+    "Supplier names as job locations in captions",
+    "Invented service areas"
+  ],
+  "pitch_hook_summary": "Lead with review detail about tidy finishes (Claire)",
+  "personality": "practical",
+  "evidence_strength": "moderate",
+  "suggested_site_mood": "clean, straightforward, proof-led",
+  "suggested_proof_hierarchy": [
+    "google_rating_reviews",
+    "photo_gallery"
+  ],
+  "pitch_insight_seed": "Lead with review detail about tidy finishes (Claire)",
+  "trade": "Gas work",
+  "location": "Bristol, BS15"
+}

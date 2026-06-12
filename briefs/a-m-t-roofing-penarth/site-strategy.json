@@ -1,0 +1,50 @@
+{
+  "slug": "a-m-t-roofing-penarth",
+  "business_angle": "A.M.T Roofing Penarth - customers praise tidy finishes and quality workmanship in Penarth, CF64",
+  "customer_praise_themes": [
+    "tidy finishes",
+    "quality workmanship",
+    "fair pricing",
+    "clear communication",
+    "strong recommendations"
+  ],
+  "named_people": [],
+  "distinctive_phrases": [
+    "These guys have done a fantastic job on our roof",
+    "They had patience and communicated clearly with us when giving our quote (very competitive by the way)",
+    "If I could add more stars I would",
+    "Completely professional from start to finish",
+    "Also replaced all my guttering / fascia / down pipes to a great standard"
+  ],
+  "strongest_review_quote": {
+    "text": "These guys have done a fantastic job on our roof. They had patience and communicated clearly with us when giving our quote (very competitive by the way). They also were very timely and did a darn good job of getting this roof on. They were very respectful to my family and they cleaned up after themselves exceptionally well.  They pointed out little things along the way that they went ahead and fixed while up there which really saved us both time and money later on.\n\nI know we wont have to worry ",
+    "author": "Hunter",
+    "source": "google",
+    "url": "https://maps.google.com/?cid=1564530328914605086"
+  },
+  "strongest_proof_source": {
+    "platform": "facebook",
+    "metric": "10 public photos, phone verified",
+    "url": "https://www.facebook.com/p/AMT-Roofing-100063748024972"
+  },
+  "best_photos_rationale": "Google Places photos preferred for gallery when high quality",
+  "claims_to_avoid": [
+    "Wrong prospect region in copy",
+    "Fake owner or founder claims",
+    "Supplier names as job locations in captions",
+    "Invented service areas"
+  ],
+  "pitch_hook_summary": "Lead with review detail about tidy finishes (Hunter)",
+  "personality": "local",
+  "evidence_strength": "strong",
+  "suggested_site_mood": "local, calm, review-led",
+  "suggested_proof_hierarchy": [
+    "facebook_verified",
+    "google_rating_reviews",
+    "facebook",
+    "photo_gallery"
+  ],
+  "pitch_insight_seed": "Lead with review detail about tidy finishes (Hunter)",
+  "trade": "Roofing",
+  "location": "Penarth, CF64"
+}

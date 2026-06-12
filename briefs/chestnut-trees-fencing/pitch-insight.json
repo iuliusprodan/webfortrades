@@ -1,0 +1,20 @@
+{
+  "slug": "chestnut-trees-fencing",
+  "opening_line": "Hi - I read a review where joe mentioned tidy finishes on a job with Chestnut Trees & Fencing. That stood out.",
+  "source_quote": "Yesterday Chestnut Trees came to fell one large tree and reduce a second by 50% in our garden. They did it in one day.\n\nThey cut the felled tree and branches into workable pieces which I can now easily cut into logs.\n\nThey machine chipped the smaller branches making a great mound of wood chipping wh",
+  "source_evidence": "google: 4.9 rating, 57 reviews",
+  "why_this_angle": "Lead with review detail about tidy finishes (joe)",
+  "suggested_whatsapp": "Hi, Julius here. I build websites for local trades. One of your Google reviews from joe mentioned tidy finishes - I mocked up a one-page site around that. No obligation - want a quick look?",
+  "price_recommendation_gbp": 275,
+  "price_tier": "starter",
+  "follow_up_replies": [
+    {
+      "trigger": "price",
+      "text": "One-page site from £300. Includes mobile layout and quote form."
+    },
+    {
+      "trigger": "not interested",
+      "text": "No problem - I will remove the preview. Thanks for your time."
+    }
+  ]
+}

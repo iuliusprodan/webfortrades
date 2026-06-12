@@ -1,0 +1,4 @@
+ported from open-design-artifacts/ellis-plumbing-heating-services-birmingham/ 2026-06-11T23:30:00Z
+artifact: artifact.html + artifact.css
+fonts: next/font/google Outfit (--font-display)
+images: public/assets/images/*.webp (8 files)

@@ -1,0 +1,131 @@
+{
+  "slug": "painters-force-ltd",
+  "created_at": "2026-06-11T22:06:14.472Z",
+  "sections": [
+    {
+      "id": "review-led-hero",
+      "priority": 1,
+      "heading": "I recently had the pleasure of hiring Painters Force LTD who truly exceeded all my expecta.",
+      "justification": "Strongest review quote defines the business",
+      "background_mood": "cool"
+    },
+    {
+      "id": "stats-sourced-only",
+      "priority": 2,
+      "heading": null,
+      "justification": "Google rating and review count sourced from Places",
+      "background_mood": "accent"
+    },
+    {
+      "id": "what-customers-keep-mentioning",
+      "priority": 3,
+      "heading": "What Nottingham customers mention most",
+      "justification": "Clear repeated praise themes in reviews",
+      "background_mood": "surface"
+    },
+    {
+      "id": "gallery-lean",
+      "priority": 4,
+      "heading": "Recent plumbing work in Nottingham",
+      "justification": "Lean gallery, max 2 per cluster",
+      "background_mood": "light"
+    },
+    {
+      "id": "service-explainers",
+      "priority": 5,
+      "heading": "4 services explained plainly",
+      "justification": "Evidence-based service list, not fixed 06 grid",
+      "background_mood": "surface"
+    },
+    {
+      "id": "process-section",
+      "priority": 6,
+      "heading": "How a job with us works",
+      "justification": "Process section adds business-specific clarity",
+      "background_mood": "cool"
+    },
+    {
+      "id": "review-wall",
+      "priority": 7,
+      "heading": "5 on Google reviews",
+      "justification": "Full review quotes, not synthetic headlines",
+      "background_mood": "light"
+    },
+    {
+      "id": "local-coverage",
+      "priority": 8,
+      "heading": "Based in Nottingham",
+      "justification": "Location verified from Google address",
+      "background_mood": "accent"
+    },
+    {
+      "id": "simple-contact",
+      "priority": 9,
+      "heading": "Get a quote from Painters Force LTD",
+      "justification": "Business-specific contact, not generic phone line copy",
+      "background_mood": "dark"
+    },
+    {
+      "id": "quote-form",
+      "priority": 10,
+      "heading": null,
+      "justification": "Quote form at contact anchor",
+      "background_mood": "dark"
+    }
+  ],
+  "omitted_defaults": [
+    "owner-note",
+    "about-van-template",
+    "generic-stats-band",
+    "faq"
+  ],
+  "omitted_reasons": {
+    "owner-note": "No verified owner - avoid fake founder note",
+    "about-van-template": "Avoid \"One van. One trade.\" template block",
+    "generic-stats-band": "Stats only when sourced",
+    "faq": "FAQ omitted - reviews already answer common questions",
+    "gallery-default": "Insufficient photos for full gallery"
+  },
+  "generic_plan": false,
+  "compared_against": [
+    "nfs-plumbing-heating",
+    "rm-electrical",
+    "stay-dry-roofing",
+    "the-lock-dr",
+    "west-park-electrics"
+  ],
+  "clone_warnings": [
+    "High section overlap (90%) with nfs-plumbing-heating",
+    "High section overlap (90%) with rm-electrical",
+    "High section overlap (100%) with stay-dry-roofing",
+    "High section overlap (90%) with west-park-electrics"
+  ],
+  "image_slots": [
+    {
+      "slot": "hero",
+      "desired": "Best finished project photo or strong proof visual",
+      "source_status": "automatic"
+    },
+    {
+      "slot": "gallery_1",
+      "desired": "Finished work close-up or wide project shot",
+      "source_status": "automatic"
+    },
+    {
+      "slot": "gallery_2",
+      "desired": "Finished work close-up or wide project shot",
+      "source_status": "automatic"
+    },
+    {
+      "slot": "gallery_3",
+      "desired": "Finished work close-up or wide project shot",
+      "source_status": "automatic"
+    },
+    {
+      "slot": "gallery_4",
+      "desired": "Finished work close-up or wide project shot",
+      "source_status": "automatic"
+    }
+  ],
+  "layout_recommendation": "photo_led"
+}

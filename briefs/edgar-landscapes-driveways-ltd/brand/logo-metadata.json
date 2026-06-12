@@ -1,0 +1,29 @@
+{
+  "selected": {
+    "source_url": "https://firebasestorage.googleapis.com/v0/b/websitesforfree-73cd4.appspot.com/o/XBku3Zc8hHRE1xM185MkuxgRa6Q2%2FrxplEnQ2KQQMKXvSaGGD%2F8946D5C0-0363-4766-B72C-CAFD5A04A3CC_250x10000.webp?alt=media&amp;token=bf4911a0-e330-482d-971d-82992a9eb547",
+    "source_type": "favicon",
+    "source_confidence": "medium",
+    "width": 250,
+    "height": 249,
+    "score": 60,
+    "has_transparency": false,
+    "aspect_ratio": 1,
+    "likely_logo": true,
+    "notes": "250x249"
+  },
+  "candidates": [
+    {
+      "source_url": "https://firebasestorage.googleapis.com/v0/b/websitesforfree-73cd4.appspot.com/o/XBku3Zc8hHRE1xM185MkuxgRa6Q2%2FrxplEnQ2KQQMKXvSaGGD%2F8946D5C0-0363-4766-B72C-CAFD5A04A3CC_250x10000.webp?alt=media&amp;token=bf4911a0-e330-482d-971d-82992a9eb547",
+      "source_type": "favicon",
+      "source_confidence": "medium",
+      "width": 250,
+      "height": 249,
+      "score": 60,
+      "has_transparency": false,
+      "aspect_ratio": 1,
+      "likely_logo": true,
+      "notes": "250x249"
+    }
+  ],
+  "failures": []
+}

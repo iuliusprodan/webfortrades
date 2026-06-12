@@ -1,0 +1,90 @@
+{
+  "slug": "chestnut-trees-fencing",
+  "updated_at": "2026-06-12T00:22:41.532Z",
+  "url": "https://chestnut-trees-fencing.vercel.app",
+  "ok": true,
+  "screenshot": "/Users/iuliusprodan/.cursor/website/screenshots/chestnut-trees-fencing/live-verify.png",
+  "stylesheet": {
+    "bytes": 40879,
+    "hasPreflight": true,
+    "hasUtilities": true,
+    "utilityMarkers": [
+      ".flex",
+      ".grid",
+      ".mx-auto",
+      ".items-center",
+      ".justify-",
+      ".max-w-",
+      ".px-/.py-",
+      ".rounded",
+      ".gap-"
+    ]
+  },
+  "metrics": {
+    "bodyFontFamily": "\"DM Sans\", \"DM Sans Fallback\", system-ui, -apple-system, \"system-ui\", \"Segoe UI\", sans-serif",
+    "bodyBoxSizing": "border-box",
+    "bodyMarginTop": 0,
+    "bodyMarginLeft": 0,
+    "appliedRuleCount": 802,
+    "styleSheetCount": 1,
+    "biggestGraphic": {
+      "tag": "IMG",
+      "w": 692,
+      "h": 692,
+      "src": "https://chestnut-trees-fencing.vercel.app/assets/images/06-places.webp"
+    },
+    "primaryButton": {
+      "found": true,
+      "background": "oklch(1 0 0)",
+      "borderRadius": "6px",
+      "paddingTop": "0px"
+    },
+    "bodyText": "Skip to content\nChestnut Trees & Fencing\nWork\nServices\nReviews\nCoverage\nContact\nCall\n07790 163439\nTREE SURGERY · EXETER\n4.9\nGOOGLE RATING\n\n“Yesterday Chestnut Trees came to fell one large tree and reduce a second by 50% in our garden.”\n\njoe · Google review\n\nProfessional tree work and fencing for hom"
+  },
+  "css_assets": [
+    {
+      "url": "https://chestnut-trees-fencing.vercel.app/_next/static/css/a498d487623eaddf.css",
+      "status": 200,
+      "bytes": 40879
+    }
+  ],
+  "js_assets": [
+    {
+      "url": "https://chestnut-trees-fencing.vercel.app/_next/static/chunks/4bd1b696-c023c6e3521b1417.js",
+      "status": 200,
+      "bytes": 173019
+    },
+    {
+      "url": "https://chestnut-trees-fencing.vercel.app/_next/static/chunks/255-eb4aecc3ff015961.js",
+      "status": 200,
+      "bytes": 173611
+    },
+    {
+      "url": "https://chestnut-trees-fencing.vercel.app/_next/static/chunks/main-app-f9b5d20365cb8be2.js",
+      "status": 200,
+      "bytes": 557
+    },
+    {
+      "url": "https://chestnut-trees-fencing.vercel.app/_next/static/chunks/app/page-95aef29ec6b92597.js",
+      "status": 200,
+      "bytes": 5160
+    },
+    {
+      "url": "https://chestnut-trees-fencing.vercel.app/_next/static/chunks/polyfills-42372ed130431b0a.js",
+      "status": 200,
+      "bytes": 112594
+    },
+    {
+      "url": "https://chestnut-trees-fencing.vercel.app/_next/static/chunks/webpack-95a63c8302cf2efe.js",
+      "status": 200,
+      "bytes": 3770
+    }
+  ],
+  "failed_assets": [],
+  "issues": [
+    {
+      "severity": "warn",
+      "message": "section_integrity: no gallery block found for column check"
+    }
+  ]
+}

@@ -1,0 +1,373 @@
+{
+  "business_name": "Painters Force LTD",
+  "owner_name": null,
+  "contact_name": null,
+  "contact_name_source": null,
+  "contact_name_confidence": "low",
+  "contact_name_evidence_count": 1,
+  "contact_name_usage_allowed": false,
+  "possible_contact_name": "Absolutely",
+  "phone": "07849 279308",
+  "email": null,
+  "phone_type": "mobile",
+  "whatsapp_candidate": true,
+  "email_available": false,
+  "whatsapp_available": "available",
+  "contactability_status": "CONTACTABLE",
+  "contactability_reason": "no email found, WhatsApp available",
+  "preferred_channel": "whatsapp",
+  "address": "11 Bentinck Rd, Nottingham NG7 4AA, UK",
+  "opening_hours": [
+    "Monday: 9:00 AM – 5:00 PM",
+    "Tuesday: 9:00 AM – 5:00 PM",
+    "Wednesday: 9:00 AM – 5:00 PM",
+    "Thursday: 9:00 AM – 5:00 PM",
+    "Friday: 9:00 AM – 5:00 PM",
+    "Saturday: 9:00 AM – 5:00 PM",
+    "Sunday: Closed"
+  ],
+  "services": [
+    "Building & construction",
+    "Painting & decorating",
+    "Painting and decorating",
+    "painters"
+  ],
+  "services_meta": [
+    {
+      "name": "Building & construction",
+      "source": "google",
+      "direct": true
+    },
+    {
+      "name": "Painting & decorating",
+      "source": "google",
+      "direct": true
+    },
+    {
+      "name": "Painting and decorating",
+      "source": "name",
+      "direct": false
+    },
+    {
+      "name": "painters",
+      "source": "niche",
+      "direct": false
+    }
+  ],
+  "service_confidence": "mixed",
+  "service_sources": [
+    "google",
+    "name",
+    "niche"
+  ],
+  "service_area": [
+    "Nottingham",
+    "Nottingham NG7 4AA"
+  ],
+  "based_location": "Nottingham, NG7",
+  "google_rating": 5,
+  "google_review_count": 16,
+  "google_review_count_sourced": true,
+  "service_areas_inferred": true,
+  "google_maps_url": "https://maps.google.com/?cid=5705655930724980249",
+  "website_status": "BROKEN_OR_BAD_SITE",
+  "website_check_notes": "reason=fetch_error; url=https://paintersforceltd.com/; final=https://paintersforceltd.com/",
+  "website_url": "https://paintersforceltd.com/",
+  "photos": [
+    {
+      "local": "images/02-places.webp",
+      "source_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3m71h8xKHjAwBg1evYQJnqPXul-JGa941zSytTTKiaG48E4SS4GI9RqazclloeWaB63pUhPw4-oz9vXaTIdjC_OOmB0qGVufgdCcJ59VuT8Doiq9R79P5kY4AAVbjUiZ8sY209XChoPdDa4jegB7Fg6z7LWkQJjOD0VMMbSP0lBpJm_sb5NDxz9gAnluplwIVxygR-XxUNv6gBhhgO-pdURZLBzuz2gwtC-gHj042AhoqUHCNa_kcwDUe8XzD3X1SdSqNzp_wqyDfun-ysjj3DgGp8Y1lRytCF6eNgqQyJgMDlEli-f81WMnXl_QXYoLsTAV0XwWy8J70VTWnD7LUg8x0GWIynxGALt8vQ-3pSxeDEnUyqCew18tCcGcvF6_-QZsOGJQlX5SrazZuRMOwOtT1L3HvOUek8yiFw7bc6jr9iD&key=REDACTED",
+      "width": 1600,
+      "height": 1200,
+      "classification": "completed_project",
+      "pair_id": null,
+      "source_type": "google_places"
+    },
+    {
+      "local": "images/03-places.webp",
+      "source_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3mRHrB-arHE4UqOPA-0WOLQEk5TcdaLkPa5VLVF_CfPUjDxCkPo26_-WJvTmlhjLVBCDTQLmUAtfT0NHtGseJJlHvq2Z5nP9mNpbzGIXEHACATz_-QmyBuQeQGQSxllCvvdPpK5gbrXC3yl3F-jKtTCZHNCcujkaSyh0mLW837tWRGwFTBWG3QB70xC_G3WHX9Jx9j07sZLBGTMHe7B9l6PWMd666KLXX3EP_Sq3hVldzDQlCzsiPBgvyD6q2_WWl1zfsWAZqiNl3gYAhcP3few1TMkNosPBDAIZxzaS6A43bUVaYA210jJBAhA8YMtYN7rhK9vpj6eRXzZVrjUSGHTHkc9Np0k6EvFY7TXvSALJbRJVq8UUuXYImlN1YZBDKI7Oyaxrr-GtEKJTE13O9Dr-aiSL0j_kAbuGUiVfZgQSPTTBRVUe1RFUiofwgcD&key=REDACTED",
+      "width": 1600,
+      "height": 721,
+      "classification": "completed_project",
+      "pair_id": null,
+      "source_type": "google_places"
+    },
+    {
+      "local": "images/04-places.webp",
+      "source_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3lvCkKtA6FmQD4p2CG7eBh_GxMKi3uAfTD-fMeiFPFpOqK2aapB3F51e5YqATBSFCTaJIeFRX8Sh0KRalmitiVD1-hlpfjRzgnlHzKnGcJHUx1vv6AD_s6bCF7mCv7i2pCe9_cyzCrgIOnKuRexG6pYu4V33Q-uSpMonWGH9Ede5ofnXPxpb-mnpBzSRMmVWZrm0t5Bh4WeP0SNmyIvYiahzABbj3G2tmggMJ0HPPQ6q7y6bKMS5qIo2XZyPyW05es97R3075rz94yOLVxORJOgxnWNqYvN24E0fsmiCdt2So4kyuSPPaRAR4pE8iqvfPRV5sFksCoNLh1fNQgYmZsIlljSBCx3odRal-nLnINePq9DRQ58_eBXoOGq0_MF43LM_UeAyO8sNa4VnpNRh0Dx1Ap3iciYGIutbO3KwkY&key=REDACTED",
+      "width": 810,
+      "height": 1080,
+      "classification": "completed_project",
+      "pair_id": null,
+      "source_type": "google_places"
+    },
+    {
+      "local": "images/05-places.webp",
+      "source_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3lOFMppBwS_y25-y1V642HvXrprJWkb7cpVVri-ENLQyoCqbVwmD7HELu98EHpgRN1ksyHJTHYwEmbEHx354oo95uj3HwOSYXGtq1_FQGRSy5JjpvZXFJXAxH0M3aLPrWNXmk7LFqq3LtXnsPB4xp1gg8bbdZNVLgzRp9IFmMKCAoWhRLXE7mOene0R7TXs3g6coT9v6-pVGSNRpUc3SYeby26iz1DiRkFpvcVzvOKnR5MePYWHxevlPank5cjNOpB1jNucHTlijd9H0n7vzgo8_rzufFItJcGcxbHqFAVBmOhCqNT2aznB7N9eCZkKCIFAojdiT8B9DqR0PNnza12p4fK7kr8xW6JCTJo4N2_RgVmMy8do9sVNzA9Fy0oykRUbXWoaNw1sLlEoJSCNiG9EM6B1ZRViKAsL-qAwC2nb0cvJ&key=REDACTED",
+      "width": 1200,
+      "height": 1600,
+      "classification": "completed_project",
+      "pair_id": null,
+      "source_type": "google_places"
+    },
+    {
+      "local": "images/06-places.webp",
+      "source_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3lsVN8elzUtIEFVicUr6dICaVYeQ2bj8Xl_kaOXSCWplB9Wy_2K_DdEPkPvC5dmgZzWerpaiKHkRAbSL46foKDF1_Qlm68KTrthKmbTvU5EyinLA59k3hoF6S2DOmi9wEoBhPNsk9w5GmY7N48CiK8Q2_oZ5xLjo-8JE4h1rBTqt8vLjzjaSgCC2ScKgj2t05MoguTneOprLPbZ1ncDUElj-nXGht9ZRjVusX6PRe4iBQhUWbsn9I-VWqqk74riH1ILjeSm_P6qF0CJIDgfAJql-VFdXu5k4ams1cBjYMC_SVoRGkFhQcSaV6T9fr9Dk7e1mH4TmickynpTqDn1XhhROzOAampQesvQvfEf-nSzcQkvlgiuSXsHC2yWrC2NMfqXAPvtwq_nKx7Z8lZ7ymoOxsfRr2PTBoR58KmugnirGA&key=REDACTED",
+      "width": 960,
+      "height": 720,
+      "classification": "completed_project",
+      "pair_id": null,
+      "source_type": "google_places"
+    },
+    {
+      "local": "images/09-places.webp",
+      "source_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3kSbl8uWfriWm75RRDmB_lrWlIRudvnaTWXuC37vQg9NRPnXUnN1CHdoVihrknykhSoQYLqnYDbNILNKk7OT4QCtO7IegHEzer7AflI1Uejb-xYCJXcCp5XRotqFx3Z0NaZG648KJ6zc7xxpLhtPI6uxML0gic_neEjL3cRgMCy2_ey5PcVME3TqIrisD93sWplx40UNc3F8KHOm-60eNOaerBPAPnYdBw7k3z1e3CjkXBn8MFIqCBIdonqSxw_A1DSzWSrJpS_DtQ4ou6YXy1-7bgQcAJRFvTI-UdXwQRUfgrfwHq16ZJ4F3zA3iCIvyDq_qq9tJH75phXeAQW3Txlob8FScC8Z48m_6g-dGqse1NXDadm-6645M5kFEdJ7QeEg1cJIQzfXfdz7gJgt7dmAfgsit1jU_0MMab9x8JAe1AG&key=REDACTED",
+      "width": 1440,
+      "height": 1080,
+      "classification": "completed_project",
+      "pair_id": null,
+      "source_type": "google_places"
+    },
+    {
+      "local": "images/10-places.webp",
+      "source_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3mCibRByuBOR05cVDbhjebOlF5L9hzcLcEe6tQAuaeRnHWTnJ7gWBftcZH25dWI66H4N27PgKoCQN79BIAWy-phHUq5o2SFb4YJ6oBAo9JRBPZFO4aK2UFpoGpvhwl4F8M-NfKFVEks8D0uKVaZRqrb3rijv5_2uOu1ibf1kztHSEfE6VRRqyfRbc2b-T1DiUivpLfsif_NLUy6JlIqWD757qZPBGYBp9dPiMFXxYdv-s4hSah51Sk_8iyOjsoDBFFxq8OTCS8jkVHyliHGxLYcXZv1SJdgNjbmlrA4WMbLcyIJbaM-6PwVjmz27cmalKZY76J-mrfUOu6Dizk6ugvsSbNM1VYWsNrM5dNdzrclPEgys3lg-Z4AFHf6k5Wqd4jgvKFq-NnkMH-MkskMOTw4XpbLl9KsRmxKEGLNbWbADLw&key=REDACTED",
+      "width": 1600,
+      "height": 1200,
+      "classification": "completed_project",
+      "pair_id": null,
+      "source_type": "google_places"
+    }
+  ],
+  "reviews": [
+    {
+      "text": "I recently had the pleasure of hiring Painters Force LTD who truly exceeded all my expectations. From start to finish, their work was nothing short of exceptional. Their attention to detail was extraordinary, as they carefully listened to my vision and offered insightful suggestions to enhance the overall aesthetic of my home.  If you desire a flawlessly painted home go for these guys.",
+      "reviewer": "Jowita",
+      "rating": 5
+    },
+    {
+      "text": "Absolutely outstanding job done on the warehouse decorating! The transformation is simply remarkable. The team was professional, efficient, and brought a creative touch that exceeded our expectations. Our warehouse has never looked better. Highly recommended.",
+      "reviewer": "Fabian",
+      "rating": 5
+    },
+    {
+      "text": "Excellent service promote,worked to complete a whole house in a week. Highly recommended. Great job they advised on paints and what was best products to use for different surfaces. I would use this company again. Competivtive pricing too.",
+      "reviewer": "Vanessa",
+      "rating": 5
+    },
+    {
+      "text": "If you need a reliable commercial painting contractor, look no further. The team provided excellent service, and my business has never looked better. I’m thrilled with their work!",
+      "reviewer": "RALIAT",
+      "rating": 5
+    },
+    {
+      "text": "Their team of commercial painting contractors worked diligently and completed the project ahead of schedule.\n\nThe fresh vibrant look of our building has received many compliments.",
+      "reviewer": "benjamin",
+      "rating": 5
+    }
+  ],
+  "social": {
+    "facebook": null,
+    "instagram": null,
+    "youtube": null,
+    "tiktok": null
+  },
+  "gallery_layout": "completed_project_gallery",
+  "photo_classification_summary": {
+    "completed_project": 7
+  },
+  "brand": {
+    "colours": [],
+    "logo_url": null,
+    "logo_local": null
+  },
+  "source_urls": [
+    "https://maps.google.com/?cid=5705655930724980249",
+    "https://paintersforceltd.com/",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3mOKSbW2p9bebpA4sh269OxKtgmDPqZF8sjYHdvjiUtNCmFOnGVgavITuORe7MkINQWz-SexcbdWE4itDOVOuqmGitVwoijYDJJpHRbXwaNnRpW_tToJmJ4z0qzEx1JJE1bXdy37QSQKUSY44UJiIaIdl58Se0iR5PU08o7Sl3Gu3KyySxUExdBfTl2g7FJeTpJGodmaWZ1nUH8GZMoLLSmOb4kVD_47bXjbif0DLWKq4Gd1paLQvE0w3amDOlNIp3LcdUiQ18cIqWYb4g7SLPgsFEp99T3LyvChElP0muHdS-gSGa6f-aR7GiFdvImmLB6zDjsN2pEc4r3Vgpn7MDHONxhRK3rSXv1tW4KgnPP33CspuXMCp4OCpiSF8KQI0VKbI5m_u0toGDQDnFNR_dj8I57Q9VSQziJAPz7PeM&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3m71h8xKHjAwBg1evYQJnqPXul-JGa941zSytTTKiaG48E4SS4GI9RqazclloeWaB63pUhPw4-oz9vXaTIdjC_OOmB0qGVufgdCcJ59VuT8Doiq9R79P5kY4AAVbjUiZ8sY209XChoPdDa4jegB7Fg6z7LWkQJjOD0VMMbSP0lBpJm_sb5NDxz9gAnluplwIVxygR-XxUNv6gBhhgO-pdURZLBzuz2gwtC-gHj042AhoqUHCNa_kcwDUe8XzD3X1SdSqNzp_wqyDfun-ysjj3DgGp8Y1lRytCF6eNgqQyJgMDlEli-f81WMnXl_QXYoLsTAV0XwWy8J70VTWnD7LUg8x0GWIynxGALt8vQ-3pSxeDEnUyqCew18tCcGcvF6_-QZsOGJQlX5SrazZuRMOwOtT1L3HvOUek8yiFw7bc6jr9iD&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3mRHrB-arHE4UqOPA-0WOLQEk5TcdaLkPa5VLVF_CfPUjDxCkPo26_-WJvTmlhjLVBCDTQLmUAtfT0NHtGseJJlHvq2Z5nP9mNpbzGIXEHACATz_-QmyBuQeQGQSxllCvvdPpK5gbrXC3yl3F-jKtTCZHNCcujkaSyh0mLW837tWRGwFTBWG3QB70xC_G3WHX9Jx9j07sZLBGTMHe7B9l6PWMd666KLXX3EP_Sq3hVldzDQlCzsiPBgvyD6q2_WWl1zfsWAZqiNl3gYAhcP3few1TMkNosPBDAIZxzaS6A43bUVaYA210jJBAhA8YMtYN7rhK9vpj6eRXzZVrjUSGHTHkc9Np0k6EvFY7TXvSALJbRJVq8UUuXYImlN1YZBDKI7Oyaxrr-GtEKJTE13O9Dr-aiSL0j_kAbuGUiVfZgQSPTTBRVUe1RFUiofwgcD&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3lvCkKtA6FmQD4p2CG7eBh_GxMKi3uAfTD-fMeiFPFpOqK2aapB3F51e5YqATBSFCTaJIeFRX8Sh0KRalmitiVD1-hlpfjRzgnlHzKnGcJHUx1vv6AD_s6bCF7mCv7i2pCe9_cyzCrgIOnKuRexG6pYu4V33Q-uSpMonWGH9Ede5ofnXPxpb-mnpBzSRMmVWZrm0t5Bh4WeP0SNmyIvYiahzABbj3G2tmggMJ0HPPQ6q7y6bKMS5qIo2XZyPyW05es97R3075rz94yOLVxORJOgxnWNqYvN24E0fsmiCdt2So4kyuSPPaRAR4pE8iqvfPRV5sFksCoNLh1fNQgYmZsIlljSBCx3odRal-nLnINePq9DRQ58_eBXoOGq0_MF43LM_UeAyO8sNa4VnpNRh0Dx1Ap3iciYGIutbO3KwkY&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3lOFMppBwS_y25-y1V642HvXrprJWkb7cpVVri-ENLQyoCqbVwmD7HELu98EHpgRN1ksyHJTHYwEmbEHx354oo95uj3HwOSYXGtq1_FQGRSy5JjpvZXFJXAxH0M3aLPrWNXmk7LFqq3LtXnsPB4xp1gg8bbdZNVLgzRp9IFmMKCAoWhRLXE7mOene0R7TXs3g6coT9v6-pVGSNRpUc3SYeby26iz1DiRkFpvcVzvOKnR5MePYWHxevlPank5cjNOpB1jNucHTlijd9H0n7vzgo8_rzufFItJcGcxbHqFAVBmOhCqNT2aznB7N9eCZkKCIFAojdiT8B9DqR0PNnza12p4fK7kr8xW6JCTJo4N2_RgVmMy8do9sVNzA9Fy0oykRUbXWoaNw1sLlEoJSCNiG9EM6B1ZRViKAsL-qAwC2nb0cvJ&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3lsVN8elzUtIEFVicUr6dICaVYeQ2bj8Xl_kaOXSCWplB9Wy_2K_DdEPkPvC5dmgZzWerpaiKHkRAbSL46foKDF1_Qlm68KTrthKmbTvU5EyinLA59k3hoF6S2DOmi9wEoBhPNsk9w5GmY7N48CiK8Q2_oZ5xLjo-8JE4h1rBTqt8vLjzjaSgCC2ScKgj2t05MoguTneOprLPbZ1ncDUElj-nXGht9ZRjVusX6PRe4iBQhUWbsn9I-VWqqk74riH1ILjeSm_P6qF0CJIDgfAJql-VFdXu5k4ams1cBjYMC_SVoRGkFhQcSaV6T9fr9Dk7e1mH4TmickynpTqDn1XhhROzOAampQesvQvfEf-nSzcQkvlgiuSXsHC2yWrC2NMfqXAPvtwq_nKx7Z8lZ7ymoOxsfRr2PTBoR58KmugnirGA&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3mHIky8FBk-M_ybU7ID6QQoXw78AejqzoE4UF0gWSlH8ZIuPxRp62UTf02tSuMOmystNhK4ZvEQxjucq5QuAZ9c7RebQbI3cWQYI5yMrd6wM5RVn3dzcaKO-GfVGuRm112onCLnA5eRYYbEf1Bp_Oeh4xDSGBdwBGAVCmIb0Rl9GDOrObYl7lHXd5jBxFVfzx0reGXNIhmPBKBZrjQqahA794eXM31dA8rePyyOwG76F-N37RJ0jLXBejY9DH9DufjNXtTXGLKr6msD73nt3PRTcVXeM6k7wFWIqeY7IrdGL0aBU2XqcDpL1el70xeivzeIwn06eHMxTUX81UFhXwb8XZyeG81Lqkl4R0NkRx13bfZXjfScCaIRf9peG6EhyuEsInzkyRRabhBoERIu6jJ8h2dwBE2ABStWx5RbjKwwAA&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3m9eh0tzANS1R6l5EbH6v6p3fw6bPM_Yk1d2KAcba_0YUQ3x_EZjWkVv_L9NyV-aOJIF_VZ5TbZDd-Z2-s7mCeLvodFhBLRUDG97ANxgnfK7s-MbX87QWE-bL5bMx3IGNxtcFfiTLCVEgXsY0w_AZmV8gP8hQLEIF-O1XYeghHBSlLv1_nrrEksYunoQ5ShINSp5vI4KX03gSrWrr9ULf1QKoGCJtFE2PMiMI27C7IV7MvU0BozioBZDi42YhjgGaIg35lMOTgEq_NyrE8aFcDeoMj6CVCNgTEJ0j2xIgYZmLPvAMpDRsI8v_mpf9tmSnC2E51WySpFqTGEBxKBqI_fa4BViiJ2aWnklgSQTY-DDa3zotC_kxP5hcB74WGTHMIZJhElINWRqqxhH-N-Ta_IslH3pZZ2D4aru86IwC4T4g&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3kSbl8uWfriWm75RRDmB_lrWlIRudvnaTWXuC37vQg9NRPnXUnN1CHdoVihrknykhSoQYLqnYDbNILNKk7OT4QCtO7IegHEzer7AflI1Uejb-xYCJXcCp5XRotqFx3Z0NaZG648KJ6zc7xxpLhtPI6uxML0gic_neEjL3cRgMCy2_ey5PcVME3TqIrisD93sWplx40UNc3F8KHOm-60eNOaerBPAPnYdBw7k3z1e3CjkXBn8MFIqCBIdonqSxw_A1DSzWSrJpS_DtQ4ou6YXy1-7bgQcAJRFvTI-UdXwQRUfgrfwHq16ZJ4F3zA3iCIvyDq_qq9tJH75phXeAQW3Txlob8FScC8Z48m_6g-dGqse1NXDadm-6645M5kFEdJ7QeEg1cJIQzfXfdz7gJgt7dmAfgsit1jU_0MMab9x8JAe1AG&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3mCibRByuBOR05cVDbhjebOlF5L9hzcLcEe6tQAuaeRnHWTnJ7gWBftcZH25dWI66H4N27PgKoCQN79BIAWy-phHUq5o2SFb4YJ6oBAo9JRBPZFO4aK2UFpoGpvhwl4F8M-NfKFVEks8D0uKVaZRqrb3rijv5_2uOu1ibf1kztHSEfE6VRRqyfRbc2b-T1DiUivpLfsif_NLUy6JlIqWD757qZPBGYBp9dPiMFXxYdv-s4hSah51Sk_8iyOjsoDBFFxq8OTCS8jkVHyliHGxLYcXZv1SJdgNjbmlrA4WMbLcyIJbaM-6PwVjmz27cmalKZY76J-mrfUOu6Dizk6ugvsSbNM1VYWsNrM5dNdzrclPEgys3lg-Z4AFHf6k5Wqd4jgvKFq-NnkMH-MkskMOTw4XpbLl9KsRmxKEGLNbWbADLw&key=REDACTED"
+  ],
+  "notes": [
+    "owner_name not found in public sources",
+    "email not found in public sources",
+    "possible_contact_name \"Absolutely\" from 1 review mention; not used in copy",
+    "contactability=CONTACTABLE",
+    "no email found, WhatsApp available",
+    "Logo discovery: Website fetch failed for logo discovery: network_error",
+    "Photo discovery: 7/7 selected (Enough photos for photo-led layout)"
+  ],
+  "missing_fields": [
+    "owner_name",
+    "email",
+    "facebook",
+    "instagram"
+  ],
+  "website_url_validation": {
+    "validated_at": "2026-06-11T22:04:57.311Z",
+    "issue": null,
+    "note": "website_url valid",
+    "previous_url": "https://paintersforceltd.com/"
+  },
+  "prospect_region": "Nottingham",
+  "location_validation_status": "OK",
+  "directory_probes": [
+    {
+      "platform": "checkatrade",
+      "candidate_url": "https://www.checkatrade.com/trades/painters-force-ltd",
+      "status": "NOT_FOUND",
+      "confidence": "rejected",
+      "title": null,
+      "rating": null,
+      "review_count": null,
+      "phone_visible": false,
+      "verification_reasons": [],
+      "note": "search_deferred: Painters Force LTD Nottingham NG7 4AA site:checkatrade.com"
+    },
+    {
+      "platform": "trustatrader",
+      "candidate_url": "https://www.trustatrader.com/traders/painters-force-ltd",
+      "status": "NOT_FOUND",
+      "confidence": "rejected",
+      "title": null,
+      "rating": null,
+      "review_count": null,
+      "phone_visible": false,
+      "verification_reasons": [],
+      "note": "search_deferred: Painters Force LTD Nottingham NG7 4AA site:trustatrader.com"
+    },
+    {
+      "platform": "yell",
+      "candidate_url": "https://www.yell.com/biz/painters-force-ltd-nottingham-ng7-4aa/",
+      "status": "NOT_FOUND",
+      "confidence": "rejected",
+      "title": null,
+      "rating": null,
+      "review_count": null,
+      "phone_visible": false,
+      "verification_reasons": [],
+      "note": "search_deferred: Painters Force LTD Nottingham NG7 4AA site:yell.com"
+    },
+    {
+      "platform": "mybuilder",
+      "candidate_url": "https://www.mybuilder.com/profile/painters-force-ltd",
+      "status": "NOT_FOUND",
+      "confidence": "rejected",
+      "title": null,
+      "rating": null,
+      "review_count": null,
+      "phone_visible": false,
+      "verification_reasons": [],
+      "note": "search_deferred: Painters Force LTD Nottingham NG7 4AA site:mybuilder.com"
+    },
+    {
+      "platform": "rated_people",
+      "candidate_url": "https://www.ratedpeople.com/profile/painters-force-ltd",
+      "status": "NOT_FOUND",
+      "confidence": "rejected",
+      "title": null,
+      "rating": null,
+      "review_count": null,
+      "phone_visible": false,
+      "verification_reasons": [],
+      "note": "search_deferred: Painters Force LTD Nottingham NG7 4AA site:ratedpeople.com"
+    },
+    {
+      "platform": "houzz",
+      "candidate_url": "https://www.houzz.co.uk/professionals/painters-force-ltd",
+      "status": "NOT_FOUND",
+      "confidence": "rejected",
+      "title": null,
+      "rating": null,
+      "review_count": null,
+      "phone_visible": false,
+      "verification_reasons": [],
+      "note": "search_deferred: Painters Force LTD Nottingham NG7 4AA site:houzz.co.uk"
+    },
+    {
+      "platform": "bark",
+      "candidate_url": "https://www.bark.com/en/gb/company/painters-force-ltd/",
+      "status": "NOT_FOUND",
+      "confidence": "rejected",
+      "title": null,
+      "rating": null,
+      "review_count": null,
+      "phone_visible": false,
+      "verification_reasons": [],
+      "note": "search_deferred: Painters Force LTD Nottingham NG7 4AA site:bark.com"
+    },
+    {
+      "platform": "nextdoor",
+      "candidate_url": "https://nextdoor.co.uk/pages/painters-force-ltd/",
+      "status": "NOT_FOUND",
+      "confidence": "rejected",
+      "title": null,
+      "rating": null,
+      "review_count": null,
+      "phone_visible": false,
+      "verification_reasons": [],
+      "note": "search_deferred: Painters Force LTD Nottingham NG7 4AA site:nextdoor.co.uk"
+    }
+  ],
+  "enrichment": {
+    "enriched_at": "2026-06-11T22:05:04.069Z",
+    "email_domain_checked": false,
+    "website_discovery_run": true
+  },
+  "lead_validity": {
+    "lead_validity_status": "INSUFFICIENT_EVIDENCE",
+    "lead_validity_reason": "Enrichment incomplete or source confidence too low",
+    "pitch_type": "manual_review",
+    "website_status": "BROKEN_OR_BAD_SITE",
+    "website_url": "https://paintersforceltd.com/",
+    "website_discovery_classification": "BROKEN_OR_BAD_SITE",
+    "email_domain_website": null,
+    "source_confidence_summary": {
+      "overall": "low",
+      "verified_platforms": [],
+      "rejected_platforms": [
+        "google_places",
+        "email_domain_website"
+      ],
+      "notes": [
+        "No verified sources with medium or high confidence",
+        "2 source(s) rejected for low confidence"
+      ]
+    },
+    "ready_for_build": false,
+    "ready_for_design": false,
+    "ready_for_pitch": false,
+    "manual_review_required": true,
+    "has_real_website": false,
+    "truly_no_website": true,
+    "warnings": [
+      "Source enrichment not complete - run enrich:lead before build",
+      "Source confidence is low - lean site or manual review recommended"
+    ],
+    "manual_asset_status": "OK",
+    "pause_before_open_design": false,
+    "manual_asset_folder": "briefs/painters-force-ltd/images/manual/"
+  },
+  "source_quality": {
+    "source_quality_status": "FAIL",
+    "source_quality_reason": "Source enrichment not complete",
+    "website_url_validated": true,
+    "email_domain_checked": true,
+    "enrichment_complete": false,
+    "logo_discovery_attempted": true,
+    "photo_discovery_attempted": true,
+    "directory_probes_attempted": true,
+    "warnings": [
+      "Lead validity requires manual review"
+    ],
+    "blockers": [
+      "Source enrichment not complete"
+    ]
+  }
+}

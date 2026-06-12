@@ -1,0 +1,18 @@
+{
+  "source_quality_status": "PASS_WITH_WARNINGS",
+  "source_quality_reason": "Source enrichment not complete",
+  "website_url_validated": true,
+  "email_domain_checked": true,
+  "enrichment_complete": true,
+  "logo_discovery_attempted": true,
+  "photo_discovery_attempted": true,
+  "directory_probes_attempted": true,
+  "warnings": [
+    "Lead validity requires manual review",
+    "Batch waiver 2026-06-11: Google Places plus broken_or_domain_probe"
+  ],
+  "blockers": [],
+  "source_quality_relaxed": true,
+  "batch_waiver_applied": true,
+  "batch_waiver_note": "Batch waiver 2026-06-11: Google Places plus broken_or_domain_probe"
+}

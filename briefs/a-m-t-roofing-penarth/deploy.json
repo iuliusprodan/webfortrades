@@ -1,0 +1,30 @@
+{
+  "slug": "a-m-t-roofing-penarth",
+  "updated_at": "2026-06-12T00:19:33.083Z",
+  "preferred_alias": "a-m-t-roofing-penarth",
+  "deployment_url": "https://a-m-t-roofing-penarth-dpurnfugo-iulius-projects-0cb33a7b.vercel.app",
+  "verified_url": "https://a-m-t-roofing-penarth.vercel.app",
+  "final_url": "https://a-m-t-roofing-penarth.vercel.app",
+  "alias_status": "VERIFIED",
+  "candidates": [
+    {
+      "hostname": "a-m-t-roofing-penarth",
+      "url": "https://a-m-t-roofing-penarth.vercel.app",
+      "preflight": "already_ours",
+      "detail": "Build marker a-m-t-roofing-penarth:20260611-od-port",
+      "verify": "verified"
+    }
+  ],
+  "verification": {
+    "ok": true,
+    "httpStatus": 200,
+    "markerFound": true,
+    "businessNameFound": true,
+    "phoneFound": true,
+    "marker": {
+      "buildId": "a-m-t-roofing-penarth:20260611-od-port",
+      "slug": "a-m-t-roofing-penarth"
+    },
+    "errors": []
+  }
+}

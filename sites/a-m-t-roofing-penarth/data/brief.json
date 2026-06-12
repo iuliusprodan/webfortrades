@@ -1,0 +1,121 @@
+{
+  "business_name": "A.M.T Roofing Penarth",
+  "owner_name": null,
+  "contact_name": null,
+  "contact_name_source": null,
+  "contact_name_confidence": "low",
+  "contact_name_evidence_count": 1,
+  "contact_name_usage_allowed": false,
+  "possible_contact_name": "Completely",
+  "phone": "07464 879664",
+  "email": "amtroofing@outlook.com",
+  "phone_type": "mobile",
+  "whatsapp_candidate": true,
+  "email_available": true,
+  "whatsapp_available": "not_checked",
+  "contactability_status": "CONTACTABLE",
+  "contactability_reason": "email found, email-only outreach if WhatsApp unavailable",
+  "preferred_channel": "email",
+  "address": "Penlan Rise, Llandough, Penarth CF64 2LS, UK",
+  "opening_hours": [
+    "Monday: 7:30 AM – 10:00 PM",
+    "Tuesday: 8:00 AM – 8:00 PM",
+    "Wednesday: 8:00 AM – 8:00 PM",
+    "Thursday: 8:00 AM – 8:00 PM",
+    "Friday: 8:00 AM – 8:00 PM",
+    "Saturday: 8:00 AM – 8:00 PM",
+    "Sunday: 8:00 AM – 8:00 PM"
+  ],
+  "services": [
+    "Roofing",
+    "Leak and burst pipe repairs"
+  ],
+  "services_meta": [
+    {
+      "name": "Roofing",
+      "source": "google",
+      "direct": true
+    },
+    {
+      "name": "Leak and burst pipe repairs",
+      "source": "review",
+      "direct": false
+    }
+  ],
+  "service_confidence": "inferred",
+  "service_sources": [
+    "google",
+    "name",
+    "review",
+    "niche"
+  ],
+  "service_area": [
+    "Penarth",
+    "Cardiff",
+    "Penlan Rise, Llandough, Penarth",
+    "Penlan Rise",
+    "Llandough",
+    "Penarth CF64 2LS"
+  ],
+  "based_location": "Penarth, CF64",
+  "google_rating": 4.7,
+  "google_review_count": 61,
+  "google_review_count_sourced": true,
+  "service_areas_inferred": true,
+  "google_maps_url": "https://maps.google.com/?cid=1564530328914605086",
+  "website_status": "SOCIAL_OR_DIRECTORY_ONLY",
+  "website_check_notes": "reason=social_or_directory_host; url=https://www.facebook.com/p/AMT-Roofing-100063748024972/; Social URL stored as website_url - reclassified as SOCIAL_OR_DIRECTORY_ONLY",
+  "website_url": null,
+  "photos": [
+    {
+      "local": "images/01-places.webp",
+      "source_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3kBrewtBLeXr2YE23GsLRzzAFMpTO7UBFL7c2U5K6DoDIC73qfkMojeTlFUOMDGtBIbwNIBM7tj49gWLGeZHEYzB8rrE_8KYiFmCvKnAxU9gZcyccaK5Jy8XuVfs2GL5USoW9wonxkgD4vIZjir36MRG9eTtGmmHQ4o6uo0zS3xSmDiDHu216eFyD5VHl3-g9i1sUXE0CDp8_HxQIIPgOCG2I16QWE0kvMDw_zO6cf8KZqBqV-3AHXqv5JVGXT92JrrKZvdjhOefm-VBDLTjYLInIYZk9AbmSc0wY7DpOJoJS6qH3LZLdBwHan7573lrx4A6iieLfPCMLKRKtMi8U2-ErL232jSqYlSeMpYdmFxa-nmOpDSxfZL7BHpBwDxitjJfkatLGM0F1pFoabH2u6WV-Rq7ulEJ8bqXrID8J2mT7RTYFstSkOt1rzxtQT0&key=REDACTED",
+      "width": 1200,
+      "height": 1600,
+      "classification": "completed_project",
+      "pair_id": null,
+      "source_type": "google_places"
+    }
+  ],
+  "reviews": [
+    {
+      "text": "These guys have done a fantastic job on our roof.",
+      "reviewer": "Hunter",
+      "rating": 5
+    }
+  ],
+  "social": {
+    "facebook": "https://www.facebook.com/p/AMT-Roofing-100063748024972",
+    "instagram": null,
+    "youtube": null,
+    "tiktok": null
+  },
+  "gallery_layout": "completed_project_gallery",
+  "photo_classification_summary": {
+    "completed_project": 20
+  },
+  "brand": {
+    "colours": [],
+    "logo_url": null,
+    "logo_local": null
+  },
+  "source_urls": [
+    "https://maps.google.com/?cid=1564530328914605086"
+  ],
+  "notes": [
+    "Facebook verified (high): 10 photo(s) from public page"
+  ],
+  "missing_fields": [
+    "owner_name",
+    "instagram"
+  ],
+  "prospect_region": "Cardiff",
+  "location_validation_status": "LOCATION_MISMATCH_NEEDS_REVIEW",
+  "lead_validity": {
+    "ready_for_build": false
+  },
+  "source_quality": {
+    "enrichment_complete": true,
+    "source_quality_status": "FAIL"
+  }
+}

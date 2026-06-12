@@ -1,0 +1,46 @@
+{
+  "business_name": "RM ELECTRICAL",
+  "owner_name": null,
+  "contact_name": "Ryan",
+  "contact_name_source": "google_reviews",
+  "contact_name_confidence": "high",
+  "contact_name_evidence_count": 5,
+  "contact_name_usage_allowed": true,
+  "possible_contact_name": null,
+  "phone": "07807 319073",
+  "email": null,
+  "phone_type": "mobile",
+  "whatsapp_candidate": true,
+  "email_available": false,
+  "whatsapp_available": "available",
+  "contactability_status": "CONTACTABLE",
+  "contactability_reason": "no email found, WhatsApp available",
+  "preferred_channel": "whatsapp",
+  "address": "Argie Ave, Kirkstall, Leeds LS4 2QR, UK",
+  "opening_hours": [
+    "Monday: Open 24 hours",
+    "Tuesday: Open 24 hours",
+    "Wednesday: Open 24 hours",
+    "Thursday: Open 24 hours",
+    "Friday: Open 24 hours",
+    "Saturday: Open 24 hours",
+    "Sunday: Open 24 hours"
+  ],
+  "services": [
+    "Boiler repairs and servicing"
+  ],
+  "service_area": [
+    "Leeds",
+    "Kirkstall",
+    "Leeds LS4 2QR"
+  ],
+  "based_location": "Leeds, LS4",
+  "google_rating": 5,
+  "google_review_count": 21,
+  "google_review_count_sourced": true,
+  "google_maps_url": "https://maps.google.com/?cid=1826696652184966720",
+  "website_status": "SOCIAL_OR_DIRECTORY_ONLY",
+  "website_url": null,
+  "prospect_region": "Leeds",
+  "location_validation_status": "OK"
+}

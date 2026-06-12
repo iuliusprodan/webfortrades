@@ -1,0 +1,90 @@
+{
+  "slug": "ellis-plumbing-heating-services-birmingham",
+  "updated_at": "2026-06-12T00:29:41.401Z",
+  "url": "https://ellis-plumbing-heating-services-birmingham.vercel.app",
+  "ok": true,
+  "screenshot": "/Users/iuliusprodan/.cursor/website/screenshots/ellis-plumbing-heating-services-birmingham/live-verify.png",
+  "stylesheet": {
+    "bytes": 37343,
+    "hasPreflight": true,
+    "hasUtilities": true,
+    "utilityMarkers": [
+      ".flex",
+      ".grid",
+      ".mx-auto",
+      ".items-center",
+      ".justify-",
+      ".max-w-",
+      ".px-/.py-",
+      ".rounded",
+      ".gap-"
+    ]
+  },
+  "metrics": {
+    "bodyFontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", system-ui, sans-serif",
+    "bodyBoxSizing": "border-box",
+    "bodyMarginTop": 0,
+    "bodyMarginLeft": 0,
+    "appliedRuleCount": 781,
+    "styleSheetCount": 1,
+    "biggestGraphic": {
+      "tag": "IMG",
+      "w": 1150,
+      "h": 1438,
+      "src": "https://ellis-plumbing-heating-services-birmingham.vercel.app/assets/images/06-places.webp"
+    },
+    "primaryButton": {
+      "found": true,
+      "background": "oklch(1 0 0)",
+      "borderRadius": "10px",
+      "paddingTop": "0px"
+    },
+    "bodyText": "Ellis Plumbing & Heating Services Birmingham\nWork\nServices\nReviews\nAreas\nGet a quote\nCall 07854 027655\n\nPLUMBING & HEATING · KING'S HEATH B14\n\nIsh came out at short notice to repair and service an old boiler for my niece who has learning difficulties. He ensured there was hot water and heating to al"
+  },
+  "css_assets": [
+    {
+      "url": "https://ellis-plumbing-heating-services-birmingham.vercel.app/_next/static/css/c9e6370d26a4c361.css",
+      "status": 200,
+      "bytes": 37343
+    }
+  ],
+  "js_assets": [
+    {
+      "url": "https://ellis-plumbing-heating-services-birmingham.vercel.app/_next/static/chunks/4bd1b696-c023c6e3521b1417.js",
+      "status": 200,
+      "bytes": 173019
+    },
+    {
+      "url": "https://ellis-plumbing-heating-services-birmingham.vercel.app/_next/static/chunks/255-eb4aecc3ff015961.js",
+      "status": 200,
+      "bytes": 173611
+    },
+    {
+      "url": "https://ellis-plumbing-heating-services-birmingham.vercel.app/_next/static/chunks/main-app-f9b5d20365cb8be2.js",
+      "status": 200,
+      "bytes": 557
+    },
+    {
+      "url": "https://ellis-plumbing-heating-services-birmingham.vercel.app/_next/static/chunks/app/page-4bf5abe967e258d2.js",
+      "status": 200,
+      "bytes": 3354
+    },
+    {
+      "url": "https://ellis-plumbing-heating-services-birmingham.vercel.app/_next/static/chunks/polyfills-42372ed130431b0a.js",
+      "status": 200,
+      "bytes": 112594
+    },
+    {
+      "url": "https://ellis-plumbing-heating-services-birmingham.vercel.app/_next/static/chunks/webpack-24f76e09bfb7f512.js",
+      "status": 200,
+      "bytes": 3770
+    }
+  ],
+  "failed_assets": [],
+  "issues": [
+    {
+      "severity": "warn",
+      "message": "section_integrity: no gallery block found for column check"
+    }
+  ]
+}

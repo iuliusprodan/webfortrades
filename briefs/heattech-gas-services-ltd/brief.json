@@ -1,0 +1,393 @@
+{
+  "business_name": "Heattech Gas Services Ltd",
+  "owner_name": null,
+  "contact_name": "Ryan",
+  "contact_name_source": "google_reviews",
+  "contact_name_confidence": "high",
+  "contact_name_evidence_count": 5,
+  "contact_name_usage_allowed": true,
+  "possible_contact_name": null,
+  "phone": "07506 042175",
+  "email": null,
+  "phone_type": "mobile",
+  "whatsapp_candidate": true,
+  "email_available": false,
+  "whatsapp_available": "available",
+  "contactability_status": "CONTACTABLE",
+  "contactability_reason": "no email found, WhatsApp available",
+  "preferred_channel": "whatsapp",
+  "address": "6 Hoffmann Pl, Edinburgh EH15 3FD, UK",
+  "opening_hours": [
+    "Monday: Open 24 hours",
+    "Tuesday: Open 24 hours",
+    "Wednesday: Open 24 hours",
+    "Thursday: Open 24 hours",
+    "Friday: Open 24 hours",
+    "Saturday: Open 24 hours",
+    "Sunday: Open 24 hours"
+  ],
+  "services": [
+    "Building & construction",
+    "Gas work",
+    "Boiler repairs and servicing",
+    "Heating and radiators",
+    "Leak and burst pipe repairs",
+    "gas engineers"
+  ],
+  "services_meta": [
+    {
+      "name": "Building & construction",
+      "source": "google",
+      "direct": true
+    },
+    {
+      "name": "Gas work",
+      "source": "name",
+      "direct": false
+    },
+    {
+      "name": "Boiler repairs and servicing",
+      "source": "review",
+      "direct": false
+    },
+    {
+      "name": "Heating and radiators",
+      "source": "review",
+      "direct": false
+    },
+    {
+      "name": "Leak and burst pipe repairs",
+      "source": "review",
+      "direct": false
+    },
+    {
+      "name": "gas engineers",
+      "source": "niche",
+      "direct": false
+    }
+  ],
+  "service_confidence": "mixed",
+  "service_sources": [
+    "google",
+    "name",
+    "review",
+    "niche"
+  ],
+  "service_area": [
+    "Edinburgh",
+    "Edinburgh EH15 3FD"
+  ],
+  "based_location": "Edinburgh, EH15",
+  "google_rating": 5,
+  "google_review_count": 73,
+  "google_review_count_sourced": true,
+  "service_areas_inferred": true,
+  "google_maps_url": "https://maps.google.com/?cid=8485131330488922106",
+  "website_status": "NO_WEBSITE",
+  "website_check_notes": "google_places_website=empty; website_url empty",
+  "website_url": null,
+  "photos": [
+    {
+      "local": "images/01-places.webp",
+      "source_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3kwMiI80pVNCjQFgwFtgsGLthcO-NBJYDRSSVw7OyFd6uHmv9Cn6n0DdaOr7oRX3TKBsuwKVF0zs6bCDj_UIsPPJBg8H-DRobZpLgcuxuMGw9poB2SRjE-UAWJZyx1QZfXnBsF5BqOND9sDRikTFF7dJyGJdBo2tlMFavAPpEJb5uWYF3cneyfvhyYQ2hpPrBGRbyALUlmmAMTzV2wIU1H-900xtWQhJ5YeI2pvfURnAUH0cL-aQTRzclYLeCgEXTMnJj7OZ88RFplcxIjs-yUmVN0_V2zDtb4967JiPIQpId-hUiFk_WNetd5FjDNYPTSfJzylPV3igbulqyYf8qkx0lcxKBy5MUhl0CFq6tqlG3lJhm12ugpaNBjoZNe99j99aNf0xl70_LXwTXWu-vr1PEQ7hEj-_RRdzO85qWCy8Q&key=REDACTED",
+      "width": 1200,
+      "height": 1600,
+      "classification": "completed_project",
+      "pair_id": null,
+      "source_type": "google_places"
+    },
+    {
+      "local": "images/02-places.webp",
+      "source_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3m-LEcHQ94NF5-gFsz8NPgGT40AsbtBic4PkYh5LEMW0BAlWvjV8uHWGIbcsRC5DhtjMP_bB-RcN93Xut7oGszmA742wGV_snl3ZEUF_H9y2Bz9PqRq3AaAisIgh5jGz9J-gTDUWY5ijYV0MfMCPFxecipDvEv2xkmpxUvLGbsYmw8dWDdyaLlkasq2zfr8xp2hTn2tMoOFJ_L89CYmtlo3adEmc0MqfZbA1FN0vdM4mkT8Vnx4iOIl0DKBYZ0Im85ZZ-0geEzTACaYFmEdTQ_1FcLNDmd07yfI45zMNz0h-eIKoezL_qKEnsZhvIHSHbKARI1_rZbxTAX7YTmhiAb_Yf3TyuHsjn9YazOE3LNXzDJfSuJ0ll4X47T-xLwmmcax7V84fdE-59mMCCPmlB4uTf_-Eca1JXO0RvyfnTVVig&key=REDACTED",
+      "width": 1200,
+      "height": 1600,
+      "classification": "completed_project",
+      "pair_id": null,
+      "source_type": "google_places"
+    },
+    {
+      "local": "images/03-places.webp",
+      "source_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3naJ_7Hz1ZHWdIlLW6YOJCmVOS8KX6CS_0NTafxuSWp81qQgI9DgI7h15t2vn2COatoMwQ1UM-OjxsXq_qpm-H6iJUsVVnYIVJ91XdPuJxJKpxKXtCnQavS73ORzgze7UuKD325C_Cp9Z9G6s6jPKrYLvEzJ7hHeqcdp1CVRcAEwrfyJNLZKU91UJjIf-qrkwR4iSPc-yt6XhYWwS_8nBuQDqcDyqEbzco9ZdKEzsHv0HR_QTagVmAVFalWVzIIhQRl87UFf14TZYiW00JW5HrcoHQUBZyw2k9Ir_ttxk8xY66IxDb2B4LNL-Jm4GyHj4pkg30zwCXfsf__bqXnPYXz_HvlElzg2H7-Vc-fqbIkcaDKT3aK3XaC98lCwX7CMt_JXLXB2cHGWz8DtYlDjeH7dZNjSshuQAzgF-LR5Wyklw&key=REDACTED",
+      "width": 1200,
+      "height": 1600,
+      "classification": "completed_project",
+      "pair_id": null,
+      "source_type": "google_places"
+    },
+    {
+      "local": "images/04-places.webp",
+      "source_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3nAq_rcvsmSn1jLSNozVYvZ7cYYkeKxGLSYTLMXbyO0xkX_NAJyBaxjB1RSXB61Yqs48DVavMt4eQcv-OGduaDtxt_XH_wSj9bK9NTV2F_9IgFCmJ583dbjP2He32zOV-bjTjo9bTrjbgmT7MznlTnv9c2uNN7ZJo2VDe4vs40kFz-EYyvT5kzEwbA8Y0JG1fWHR4Aa6kVcPUCHjp3JSM9lCSTq8uesEC-SGWK2K4pcI4xOT_XwoxJsujX_6lmPgS8cN-mrEa0pkYJM8fT4hlFAAq4v856NEEfHLfyeIVeGMozQ5EAk6fAJ0GXBqCmWkC7XURDAz9CadaomRtGLkk1sHXAaVKPzHZDA_11BDoHlAYJlf72Nkjy27pn0u5UJCfJ2o99gbu9_flmn1blKsK11ukvFaQ9ss2AiLDoaj3EwxrQ&key=REDACTED",
+      "width": 1200,
+      "height": 1600,
+      "classification": "completed_project",
+      "pair_id": null,
+      "source_type": "google_places"
+    },
+    {
+      "local": "images/06-places.webp",
+      "source_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3lC-3RM-r46l0Vji76SP8nzI8ezPuZ5RjWT-oonbNZ04hHBRdUvkAHDlHhh5kayR6l3gCjiV2V7Af-lRufN_G6pyvyWyn506LesyjhpnnCZGwcaff4sjGipolH25KNmwhPG3h6_CMFnL0Ndw6q4E_qTLu_6t81AJ2b9LtZEFfoP-SPMBmdEWIU3HiEUGCptlBe2rc90bQFnBYiO_-4aXiDm5S3VATz4V-SzUl_RZewRq_bj-qS77qSQA8uFyKC8e4NJTBWtKZQ4E6UHtdzxtCFhIClr4OLBA9zB3nvQ7kKk_OpN38GU30KMEySQzkIIeVYWfjuqIrPnPeNkW8Vx43nXcctrILdAoQcxTMuwiSeDWPu6Df-IwdJRtQyNiL8a-tbxhvXn7ZNdzkIv2nS4tzfy_kF-DpVyQR4Fv6eZ28--QUsf&key=REDACTED",
+      "width": 1600,
+      "height": 1200,
+      "classification": "completed_project",
+      "pair_id": null,
+      "source_type": "google_places"
+    },
+    {
+      "local": "images/08-places.webp",
+      "source_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3m9d-7FemeDgwhTyYP_MD2fZ2GPHKtMQND14pYzc7lIf8CKk7B3j9WKxeR9PrL3iiYNpyLnY4kkzkVQz4JGWvkKUSeoVip3PEDYfhNv6E7yEbAANv1K1tfaQtMJ3LvYIcQou47eOCCZcLMUxR98ksTFRT8lTNwWpYugjdao5z_a3EZll2Dzfa-ttAoHckm4qEgqnSZ9qDPG5Y-EQ-3ZXQpHuvu4Fr7q6noY7Z33CZP6SVW1Zbh4b58ZSQ2f6Wcp-WlgtwiQ955ya7VHtQjpMM-Dp9U48vHMh6_Bg-6AkRXJafq4rcEdHAMZZm9ozUJne9KWfJP-kjbHp_JdiBPrsie5j46j-ALCALaPkyKbZ4ngO4fJPlzdEMNONmY3CAJsBzieHd348K7s8ledJqsoSOeF_Atog7_FOe9AL48AAybXro2h&key=REDACTED",
+      "width": 1200,
+      "height": 1600,
+      "classification": "completed_project",
+      "pair_id": null,
+      "source_type": "google_places"
+    },
+    {
+      "local": "images/09-places.webp",
+      "source_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3lCcGfwTVmZvLzqFVO3OaEWpu_w4Y8UwOVtza6hMcvql3I5q1aJkp-WMUmTf7_-kQeYKKFxDXb5v8aT-KwvaGQkNfztkLGGU1y9apA8oRt2D_Aouw7v_r4wsC_MRZQC5YL3pLf0uEPGdNOUBoZR0t2w__skiQdWIh5BLs0fkxFOUcN3d7gGzeLlW2BMc6ERy2Bbc9Pnct4oy8w6q3K6V_OOouhk3nqUxy3HuKjrNNhv-2Jev6AilfKudXDwvcVywo2IWM1ijrzAyBhSM3n4QXdqKdrc42aqxar9JEgHN0jI_KpzQ3Sn_KQJvT0cj02LRviFPnom0MVc7TLvkGvnUNDa6FAFyRfe-lUc763fsvqVB2Qe1b0DYryw0Ngg2UbjXmzHWE86ft9LuwM0N_bDQyo8rV_7w2BmWWgGj3g5-pDA3BXo&key=REDACTED",
+      "width": 1600,
+      "height": 1200,
+      "classification": "completed_project",
+      "pair_id": null,
+      "source_type": "google_places"
+    },
+    {
+      "local": "images/10-places.webp",
+      "source_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3lDnPj1HhSn7fZbjVRuvVx0eH2hJYeHP7s7Um4TrVjQN5vQeasy3zmKmysratyrDLPybS9gMsAL_pEQviivjbOX6LH5lGMZwHez0jb551A7TCDwaOhwb3ww2PeuHcYgLpoyD0FZMs3iPKdNpSqbu3yX-yoGizTHTKPV6w_yyaYiV53h5brjyAMzxd7M25wnBpSPd-tWoSTN_CouGN1v2-cnZ0vJr1H9ICbzuj9VzdyuThcW4pOJSU8FhqWQMCpBP6Wb9vT5m_vylsklObAxTLu3dqnFJLy5OZU_SY_gc-WkZW-pKEEIoo6swy8uI6Y4NWIm2pXXlDas4Kph_iN7KMJ2j9lQ3U1ZRztkUIylIsEHBp6UJnEcB0Ym4fa1-oldVirMoFLYLQs3EHog8ENv7EZ3AraD-jEgxHZh102slX1n4g&key=REDACTED",
+      "width": 1200,
+      "height": 1600,
+      "classification": "completed_project",
+      "pair_id": null,
+      "source_type": "google_places"
+    }
+  ],
+  "reviews": [
+    {
+      "text": "I have had  both Brett and Ryan visit on separate issues with my boiler.\nThey responded very quickly to my requests for a visit and fitted me in at very short notice .\nThey were so efficient at diagnosing the problem and dealing with it there and then.\nOn the most  recent visit Ryan did a great job of tracing a pipe leak and resolving the issue immediately.\nWithin 45 mins I went from no heating or water to fully operational again!\nLovely guys . Can’t recommend them enough.",
+      "reviewer": "Anne",
+      "rating": 5
+    },
+    {
+      "text": "Second time using Heattech and would not hesitate to using them again!\nA professional company who deliver a quality service and give sound constructive advice.\nRyan and Brett are both very professional, polite and a pleasure to do business with. Nothing is too much trouble and I was happy to wait for them to fit my boiler replacement at their earliest convenience. It was the right decision as they did a first class job!",
+      "reviewer": "Fi",
+      "rating": 5
+    },
+    {
+      "text": "Heattech Gas Services Ltd responded very quickly and booked a visit one day later  I texted. Ryan is a professional gas engineer. For years, two other companies serviced our boiler but never identified why some of our radiators weren’t working properly. Ryan found the issue and fixed it. We’re really glad he came — definitely we will use them for regular servicing from now on. Highly recommend.",
+      "reviewer": "Ebru",
+      "rating": 5
+    },
+    {
+      "text": "Ryan was fantastic from start to finish. Friendly, professional and incredibly efficient. His communication was spot on, with timely responses every step of the way, and the job itself was carried out to a high standard. Highly recommended.",
+      "reviewer": "Naomi",
+      "rating": 5
+    },
+    {
+      "text": "Ryan came and did the diagnostics and Brett did our job and both were fantastic! Great at communicating and we went from no heating at all to everything working in a few hours. Can’t recommend them enough they were super thorough.",
+      "reviewer": "Lena",
+      "rating": 5
+    }
+  ],
+  "social": {
+    "facebook": null,
+    "instagram": null,
+    "youtube": null,
+    "tiktok": null
+  },
+  "gallery_layout": "completed_project_gallery",
+  "photo_classification_summary": {
+    "completed_project": 8
+  },
+  "brand": {
+    "colours": [],
+    "logo_url": null,
+    "logo_local": null
+  },
+  "source_urls": [
+    "https://maps.google.com/?cid=8485131330488922106",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3kwMiI80pVNCjQFgwFtgsGLthcO-NBJYDRSSVw7OyFd6uHmv9Cn6n0DdaOr7oRX3TKBsuwKVF0zs6bCDj_UIsPPJBg8H-DRobZpLgcuxuMGw9poB2SRjE-UAWJZyx1QZfXnBsF5BqOND9sDRikTFF7dJyGJdBo2tlMFavAPpEJb5uWYF3cneyfvhyYQ2hpPrBGRbyALUlmmAMTzV2wIU1H-900xtWQhJ5YeI2pvfURnAUH0cL-aQTRzclYLeCgEXTMnJj7OZ88RFplcxIjs-yUmVN0_V2zDtb4967JiPIQpId-hUiFk_WNetd5FjDNYPTSfJzylPV3igbulqyYf8qkx0lcxKBy5MUhl0CFq6tqlG3lJhm12ugpaNBjoZNe99j99aNf0xl70_LXwTXWu-vr1PEQ7hEj-_RRdzO85qWCy8Q&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3m-LEcHQ94NF5-gFsz8NPgGT40AsbtBic4PkYh5LEMW0BAlWvjV8uHWGIbcsRC5DhtjMP_bB-RcN93Xut7oGszmA742wGV_snl3ZEUF_H9y2Bz9PqRq3AaAisIgh5jGz9J-gTDUWY5ijYV0MfMCPFxecipDvEv2xkmpxUvLGbsYmw8dWDdyaLlkasq2zfr8xp2hTn2tMoOFJ_L89CYmtlo3adEmc0MqfZbA1FN0vdM4mkT8Vnx4iOIl0DKBYZ0Im85ZZ-0geEzTACaYFmEdTQ_1FcLNDmd07yfI45zMNz0h-eIKoezL_qKEnsZhvIHSHbKARI1_rZbxTAX7YTmhiAb_Yf3TyuHsjn9YazOE3LNXzDJfSuJ0ll4X47T-xLwmmcax7V84fdE-59mMCCPmlB4uTf_-Eca1JXO0RvyfnTVVig&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3naJ_7Hz1ZHWdIlLW6YOJCmVOS8KX6CS_0NTafxuSWp81qQgI9DgI7h15t2vn2COatoMwQ1UM-OjxsXq_qpm-H6iJUsVVnYIVJ91XdPuJxJKpxKXtCnQavS73ORzgze7UuKD325C_Cp9Z9G6s6jPKrYLvEzJ7hHeqcdp1CVRcAEwrfyJNLZKU91UJjIf-qrkwR4iSPc-yt6XhYWwS_8nBuQDqcDyqEbzco9ZdKEzsHv0HR_QTagVmAVFalWVzIIhQRl87UFf14TZYiW00JW5HrcoHQUBZyw2k9Ir_ttxk8xY66IxDb2B4LNL-Jm4GyHj4pkg30zwCXfsf__bqXnPYXz_HvlElzg2H7-Vc-fqbIkcaDKT3aK3XaC98lCwX7CMt_JXLXB2cHGWz8DtYlDjeH7dZNjSshuQAzgF-LR5Wyklw&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3nAq_rcvsmSn1jLSNozVYvZ7cYYkeKxGLSYTLMXbyO0xkX_NAJyBaxjB1RSXB61Yqs48DVavMt4eQcv-OGduaDtxt_XH_wSj9bK9NTV2F_9IgFCmJ583dbjP2He32zOV-bjTjo9bTrjbgmT7MznlTnv9c2uNN7ZJo2VDe4vs40kFz-EYyvT5kzEwbA8Y0JG1fWHR4Aa6kVcPUCHjp3JSM9lCSTq8uesEC-SGWK2K4pcI4xOT_XwoxJsujX_6lmPgS8cN-mrEa0pkYJM8fT4hlFAAq4v856NEEfHLfyeIVeGMozQ5EAk6fAJ0GXBqCmWkC7XURDAz9CadaomRtGLkk1sHXAaVKPzHZDA_11BDoHlAYJlf72Nkjy27pn0u5UJCfJ2o99gbu9_flmn1blKsK11ukvFaQ9ss2AiLDoaj3EwxrQ&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3lF8NBBlBh6XFhQfS1TO_hRsOjGNO5RO3SejZoBfHGSHyxJEGl44Lw3I24CFvEXzrjYjLNfCXGwCXTvra_FyMzUrzGPJfUuqRity-ZzNW4t19o2CDDvcrTrTKTLun4jnR_ct1AizVMNSVFf6nu9dU7E2ay3H0j-o1iKYhoNLSmKtdTvgrOR-t99MGMaeGpQw7MdYXIZJQgUgFbDpSHdTvLWIdTU-NIu0yyz6QnM2fW0TjSBG01DV_FglSfHFfugGOo7CCccvt1psARidDsgW2DzDiNNyhya53yrs_8DOup87OJRX9Rd5LPz6wO1TKrD48n56IkFsHX50AZKliJGKF39-7dU7VM7bCFhLdjVtJ-aegCsW3AuqppJRvZDANE2DmYNMbTLJWUII7oixF4yR-b994ET-pQpZByY1Tb8nQQ&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3lC-3RM-r46l0Vji76SP8nzI8ezPuZ5RjWT-oonbNZ04hHBRdUvkAHDlHhh5kayR6l3gCjiV2V7Af-lRufN_G6pyvyWyn506LesyjhpnnCZGwcaff4sjGipolH25KNmwhPG3h6_CMFnL0Ndw6q4E_qTLu_6t81AJ2b9LtZEFfoP-SPMBmdEWIU3HiEUGCptlBe2rc90bQFnBYiO_-4aXiDm5S3VATz4V-SzUl_RZewRq_bj-qS77qSQA8uFyKC8e4NJTBWtKZQ4E6UHtdzxtCFhIClr4OLBA9zB3nvQ7kKk_OpN38GU30KMEySQzkIIeVYWfjuqIrPnPeNkW8Vx43nXcctrILdAoQcxTMuwiSeDWPu6Df-IwdJRtQyNiL8a-tbxhvXn7ZNdzkIv2nS4tzfy_kF-DpVyQR4Fv6eZ28--QUsf&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3lw-hK6xO7NhvBKuKxs4vXJ5RXfm7gr9fP4Qpui1h-2KGqPBdo654cgcXQtvwaQH50heXyyzQnVowMBwv5BIcA5cHfcUhuwOBnE2MAkht79W1bR8xgHWuN7x3knHw7-nNwlemOCz0VcEpP_JdNfLB-f3SFaFpIEuyRr1I93EtutCHbwEepeAxE9rANOJar2_qXAjn_Hv2SeLdlRa5VU1e4ucUUB5Yk_QhhH5PCZDS1gEghjCv0oCx4c979VnzWKt-SY-DkYqne-bCTgse7g9Jwp5DlGEGKX95CIy8b8qHUC1LH2sJf4yXjc1-0z14s3tWPYIK1pbEbh9MpoV-egAI9L8jz7V_DvY-evqgyoJA1yi6CSxZhRDrF_WmqmJt21ii4LjlwIWSqW79MTXuchMhYuF6Gj5YDkbYeuFgU5acn_TzJ2&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3m9d-7FemeDgwhTyYP_MD2fZ2GPHKtMQND14pYzc7lIf8CKk7B3j9WKxeR9PrL3iiYNpyLnY4kkzkVQz4JGWvkKUSeoVip3PEDYfhNv6E7yEbAANv1K1tfaQtMJ3LvYIcQou47eOCCZcLMUxR98ksTFRT8lTNwWpYugjdao5z_a3EZll2Dzfa-ttAoHckm4qEgqnSZ9qDPG5Y-EQ-3ZXQpHuvu4Fr7q6noY7Z33CZP6SVW1Zbh4b58ZSQ2f6Wcp-WlgtwiQ955ya7VHtQjpMM-Dp9U48vHMh6_Bg-6AkRXJafq4rcEdHAMZZm9ozUJne9KWfJP-kjbHp_JdiBPrsie5j46j-ALCALaPkyKbZ4ngO4fJPlzdEMNONmY3CAJsBzieHd348K7s8ledJqsoSOeF_Atog7_FOe9AL48AAybXro2h&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3lCcGfwTVmZvLzqFVO3OaEWpu_w4Y8UwOVtza6hMcvql3I5q1aJkp-WMUmTf7_-kQeYKKFxDXb5v8aT-KwvaGQkNfztkLGGU1y9apA8oRt2D_Aouw7v_r4wsC_MRZQC5YL3pLf0uEPGdNOUBoZR0t2w__skiQdWIh5BLs0fkxFOUcN3d7gGzeLlW2BMc6ERy2Bbc9Pnct4oy8w6q3K6V_OOouhk3nqUxy3HuKjrNNhv-2Jev6AilfKudXDwvcVywo2IWM1ijrzAyBhSM3n4QXdqKdrc42aqxar9JEgHN0jI_KpzQ3Sn_KQJvT0cj02LRviFPnom0MVc7TLvkGvnUNDa6FAFyRfe-lUc763fsvqVB2Qe1b0DYryw0Ngg2UbjXmzHWE86ft9LuwM0N_bDQyo8rV_7w2BmWWgGj3g5-pDA3BXo&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3lDnPj1HhSn7fZbjVRuvVx0eH2hJYeHP7s7Um4TrVjQN5vQeasy3zmKmysratyrDLPybS9gMsAL_pEQviivjbOX6LH5lGMZwHez0jb551A7TCDwaOhwb3ww2PeuHcYgLpoyD0FZMs3iPKdNpSqbu3yX-yoGizTHTKPV6w_yyaYiV53h5brjyAMzxd7M25wnBpSPd-tWoSTN_CouGN1v2-cnZ0vJr1H9ICbzuj9VzdyuThcW4pOJSU8FhqWQMCpBP6Wb9vT5m_vylsklObAxTLu3dqnFJLy5OZU_SY_gc-WkZW-pKEEIoo6swy8uI6Y4NWIm2pXXlDas4Kph_iN7KMJ2j9lQ3U1ZRztkUIylIsEHBp6UJnEcB0Ym4fa1-oldVirMoFLYLQs3EHog8ENv7EZ3AraD-jEgxHZh102slX1n4g&key=REDACTED"
+  ],
+  "notes": [
+    "owner_name not found in public sources",
+    "email not found in public sources",
+    "contact_name \"Ryan\" from 5 Google review mention(s) (high confidence); owner_name not set",
+    "contactability=CONTACTABLE",
+    "no email found, WhatsApp available",
+    "Photo discovery: 8/8 selected (Enough photos for photo-led layout)"
+  ],
+  "missing_fields": [
+    "owner_name",
+    "email",
+    "facebook",
+    "instagram"
+  ],
+  "invalid_website_candidates": [],
+  "website_url_validation": {
+    "validated_at": "2026-06-11T22:04:49.061Z",
+    "issue": "empty",
+    "note": "website_url empty",
+    "previous_url": null
+  },
+  "prospect_region": "Edinburgh",
+  "location_validation_status": "OK",
+  "directory_probes": [
+    {
+      "platform": "checkatrade",
+      "candidate_url": "https://www.checkatrade.com/trades/heattech-gas-services-ltd",
+      "status": "NOT_FOUND",
+      "confidence": "rejected",
+      "title": null,
+      "rating": null,
+      "review_count": null,
+      "phone_visible": false,
+      "verification_reasons": [],
+      "note": "search_deferred: Heattech Gas Services Ltd Edinburgh EH15 3FD site:checkatrade.com"
+    },
+    {
+      "platform": "trustatrader",
+      "candidate_url": "https://www.trustatrader.com/traders/heattech-gas-services-ltd",
+      "status": "NOT_FOUND",
+      "confidence": "rejected",
+      "title": null,
+      "rating": null,
+      "review_count": null,
+      "phone_visible": false,
+      "verification_reasons": [],
+      "note": "search_deferred: Heattech Gas Services Ltd Edinburgh EH15 3FD site:trustatrader.com"
+    },
+    {
+      "platform": "yell",
+      "candidate_url": "https://www.yell.com/biz/heattech-gas-services-ltd-edinburgh-eh15-3fd/",
+      "status": "NOT_FOUND",
+      "confidence": "rejected",
+      "title": null,
+      "rating": null,
+      "review_count": null,
+      "phone_visible": false,
+      "verification_reasons": [],
+      "note": "search_deferred: Heattech Gas Services Ltd Edinburgh EH15 3FD site:yell.com"
+    },
+    {
+      "platform": "mybuilder",
+      "candidate_url": "https://www.mybuilder.com/profile/heattech-gas-services-ltd",
+      "status": "NOT_FOUND",
+      "confidence": "rejected",
+      "title": null,
+      "rating": null,
+      "review_count": null,
+      "phone_visible": false,
+      "verification_reasons": [],
+      "note": "search_deferred: Heattech Gas Services Ltd Edinburgh EH15 3FD site:mybuilder.com"
+    },
+    {
+      "platform": "rated_people",
+      "candidate_url": "https://www.ratedpeople.com/profile/heattech-gas-services-ltd",
+      "status": "NOT_FOUND",
+      "confidence": "rejected",
+      "title": null,
+      "rating": null,
+      "review_count": null,
+      "phone_visible": false,
+      "verification_reasons": [],
+      "note": "search_deferred: Heattech Gas Services Ltd Edinburgh EH15 3FD site:ratedpeople.com"
+    },
+    {
+      "platform": "houzz",
+      "candidate_url": "https://www.houzz.co.uk/professionals/heattech-gas-services-ltd",
+      "status": "NOT_FOUND",
+      "confidence": "rejected",
+      "title": null,
+      "rating": null,
+      "review_count": null,
+      "phone_visible": false,
+      "verification_reasons": [],
+      "note": "search_deferred: Heattech Gas Services Ltd Edinburgh EH15 3FD site:houzz.co.uk"
+    },
+    {
+      "platform": "bark",
+      "candidate_url": "https://www.bark.com/en/gb/company/heattech-gas-services-ltd/",
+      "status": "NOT_FOUND",
+      "confidence": "rejected",
+      "title": null,
+      "rating": null,
+      "review_count": null,
+      "phone_visible": false,
+      "verification_reasons": [],
+      "note": "search_deferred: Heattech Gas Services Ltd Edinburgh EH15 3FD site:bark.com"
+    },
+    {
+      "platform": "nextdoor",
+      "candidate_url": "https://nextdoor.co.uk/pages/heattech-gas-services-ltd/",
+      "status": "NOT_FOUND",
+      "confidence": "rejected",
+      "title": null,
+      "rating": null,
+      "review_count": null,
+      "phone_visible": false,
+      "verification_reasons": [],
+      "note": "search_deferred: Heattech Gas Services Ltd Edinburgh EH15 3FD site:nextdoor.co.uk"
+    }
+  ],
+  "enrichment": {
+    "enriched_at": "2026-06-11T22:04:51.616Z",
+    "email_domain_checked": false,
+    "website_discovery_run": true
+  },
+  "lead_validity": {
+    "lead_validity_status": "INSUFFICIENT_EVIDENCE",
+    "lead_validity_reason": "Enrichment incomplete or source confidence too low",
+    "pitch_type": "manual_review",
+    "website_status": "NO_WEBSITE",
+    "website_url": null,
+    "website_discovery_classification": null,
+    "email_domain_website": null,
+    "source_confidence_summary": {
+      "overall": "low",
+      "verified_platforms": [],
+      "rejected_platforms": [
+        "google_places"
+      ],
+      "notes": [
+        "No verified sources with medium or high confidence",
+        "1 source(s) rejected for low confidence"
+      ]
+    },
+    "ready_for_build": false,
+    "ready_for_design": false,
+    "ready_for_pitch": false,
+    "manual_review_required": true,
+    "has_real_website": false,
+    "truly_no_website": true,
+    "warnings": [
+      "Source enrichment not complete - run enrich:lead before build",
+      "Source confidence is low - lean site or manual review recommended"
+    ],
+    "manual_asset_status": "OK",
+    "pause_before_open_design": false,
+    "manual_asset_folder": "briefs/heattech-gas-services-ltd/images/manual/"
+  },
+  "source_quality": {
+    "source_quality_status": "FAIL",
+    "source_quality_reason": "Source enrichment not complete",
+    "website_url_validated": true,
+    "email_domain_checked": true,
+    "enrichment_complete": false,
+    "logo_discovery_attempted": true,
+    "photo_discovery_attempted": true,
+    "directory_probes_attempted": true,
+    "warnings": [
+      "Lead validity requires manual review"
+    ],
+    "blockers": [
+      "Source enrichment not complete"
+    ]
+  }
+}

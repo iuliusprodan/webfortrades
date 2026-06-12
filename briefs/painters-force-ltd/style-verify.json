@@ -1,0 +1,94 @@
+{
+  "slug": "painters-force-ltd",
+  "updated_at": "2026-06-12T00:24:29.632Z",
+  "url": "https://painters-force-ltd.vercel.app",
+  "ok": true,
+  "screenshot": "/Users/iuliusprodan/.cursor/website/screenshots/painters-force-ltd/live-verify.png",
+  "stylesheet": {
+    "bytes": 42880,
+    "hasPreflight": true,
+    "hasUtilities": true,
+    "utilityMarkers": [
+      ".flex",
+      ".grid",
+      ".mx-auto",
+      ".items-center",
+      ".justify-",
+      ".max-w-",
+      ".px-/.py-",
+      ".rounded",
+      ".gap-"
+    ]
+  },
+  "metrics": {
+    "bodyFontFamily": "\"Source Sans 3\", \"Source Sans 3 Fallback\", -apple-system, \"system-ui\", \"Segoe UI\", system-ui, sans-serif",
+    "bodyBoxSizing": "border-box",
+    "bodyMarginTop": 0,
+    "bodyMarginLeft": 0,
+    "appliedRuleCount": 800,
+    "styleSheetCount": 1,
+    "biggestGraphic": {
+      "tag": "IMG",
+      "w": 566,
+      "h": 755,
+      "src": "https://painters-force-ltd.vercel.app/assets/images/05-places.webp"
+    },
+    "primaryButton": {
+      "found": true,
+      "background": "rgba(0, 0, 0, 0)",
+      "borderRadius": "0px",
+      "paddingTop": "0px"
+    },
+    "bodyText": "Painters Force LTD\nServices\nGallery\nReviews\nAreas\nContact\n07849 279308\nGet a quote\nQuote\n\nBUILDING & PAINTING · NOTTINGHAM NG7\n\nI recently had the pleasure of hiring Painters Force LTD who truly exceeded all my expectations.\n\n5.0 · 16 Google reviews\n\nGet a quote\nCall 07849 279308\n\nFrom start to fini"
+  },
+  "css_assets": [
+    {
+      "url": "https://painters-force-ltd.vercel.app/_next/static/css/a58d185f3a08a699.css",
+      "status": 200,
+      "bytes": 42880
+    }
+  ],
+  "js_assets": [
+    {
+      "url": "https://painters-force-ltd.vercel.app/_next/static/chunks/4bd1b696-c023c6e3521b1417.js",
+      "status": 200,
+      "bytes": 173019
+    },
+    {
+      "url": "https://painters-force-ltd.vercel.app/_next/static/chunks/255-eb4aecc3ff015961.js",
+      "status": 200,
+      "bytes": 173611
+    },
+    {
+      "url": "https://painters-force-ltd.vercel.app/_next/static/chunks/main-app-f9b5d20365cb8be2.js",
+      "status": 200,
+      "bytes": 557
+    },
+    {
+      "url": "https://painters-force-ltd.vercel.app/_next/static/chunks/app/page-88a2889c6d6765b5.js",
+      "status": 200,
+      "bytes": 3590
+    },
+    {
+      "url": "https://painters-force-ltd.vercel.app/_next/static/chunks/polyfills-42372ed130431b0a.js",
+      "status": 200,
+      "bytes": 112594
+    },
+    {
+      "url": "https://painters-force-ltd.vercel.app/_next/static/chunks/webpack-99e0fa11e8995ea3.js",
+      "status": 200,
+      "bytes": 3769
+    }
+  ],
+  "failed_assets": [],
+  "issues": [
+    {
+      "severity": "warn",
+      "message": "section_integrity: no gallery block found for column check"
+    },
+    {
+      "severity": "warn",
+      "message": "Primary CTA has no background and no border radius (may be unstyled)"
+    }
+  ]
+}

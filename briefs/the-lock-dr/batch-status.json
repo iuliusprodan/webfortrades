@@ -1,0 +1,13 @@
+{
+  "slug": "the-lock-dr",
+  "batch_id": "2026-06-11-ten-build",
+  "port_started_at": "2026-06-11T22:30:52.964Z",
+  "port_attempts": 1,
+  "updated_at": "2026-06-11T23:03:52.961Z",
+  "port_completed_at": "2026-06-11T23:02:33.045Z",
+  "port_ms": 154928,
+  "port_tokens": 0,
+  "build_id": "the-lock-dr:20260611-od-port",
+  "clone_review": "PASS",
+  "clone_score": 18
+}

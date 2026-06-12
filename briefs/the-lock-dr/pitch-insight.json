@@ -1,0 +1,20 @@
+{
+  "slug": "the-lock-dr",
+  "opening_line": "Hi - I read a review where Debbie mentioned quality workmanship on a job with The Lock Dr. That stood out.",
+  "source_quote": "We were having problems with closing our front door, and subsequently opening it, which became a real issue one evening. Spoke to Steve on the phone, and he gave us some options to try to resolve the problem, and he then came out to us the following day and fixed it. He also asked if all of our othe",
+  "source_evidence": "google: 5 rating, 41 reviews",
+  "why_this_angle": "Lead with review detail about quality workmanship (Debbie)",
+  "suggested_whatsapp": "Hi, Julius here. I build websites for local trades. One of your Google reviews from Debbie mentioned quality workmanship - I mocked up a one-page site around that. No obligation - want a quick look?",
+  "price_recommendation_gbp": 275,
+  "price_tier": "starter",
+  "follow_up_replies": [
+    {
+      "trigger": "price",
+      "text": "One-page site from £300. Includes mobile layout and quote form."
+    },
+    {
+      "trigger": "not interested",
+      "text": "No problem - I will remove the preview. Thanks for your time."
+    }
+  ]
+}

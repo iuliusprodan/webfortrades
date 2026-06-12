@@ -1,0 +1,12 @@
+{
+  "slug": "m-ross-building-services",
+  "batch_id": "2026-06-11-ten-build",
+  "port_started_at": "2026-06-11T23:44:30.501Z",
+  "port_attempts": 1,
+  "updated_at": "2026-06-11T23:49:39.812Z",
+  "clone_review": "FAIL",
+  "clone_score": 29,
+  "port_completed_at": "2026-06-11T23:49:39.811Z",
+  "port_ms": 309310,
+  "port_tokens": 0
+}

@@ -1,0 +1,50 @@
+{
+  "slug": "rm-electrical",
+  "business_angle": "RM ELECTRICAL - customers praise tidy finishes and quality workmanship in Leeds, LS4",
+  "customer_praise_themes": [
+    "tidy finishes",
+    "quality workmanship",
+    "reliable attendance",
+    "fair pricing",
+    "clear communication",
+    "strong recommendations"
+  ],
+  "named_people": [
+    "Ryan"
+  ],
+  "distinctive_phrases": [
+    "Excellent job done at a very fair price",
+    "Called Ryan who came round, quoted the job and completed it to a very high standard",
+    "Changed all spot lights in the kitchen, fixed a fault and swapped out two other light fittings",
+    "Ryan fitted a security light and did a great job",
+    "From the first communication, he was polite, friendly and punctual"
+  ],
+  "strongest_review_quote": {
+    "text": "Called Ryan on a Thursday asking to come replace our induction hob, he asked if he could come over on the following Monday as he was busy until then, i explained how  I needed it sooner & despite being booked up he managed to fit the job in the very next day . Excellent job done at a very fair price.  Definitely recommend.",
+    "author": "David",
+    "source": "google",
+    "url": "https://maps.google.com/?cid=1826696652184966720"
+  },
+  "strongest_proof_source": {
+    "platform": "google",
+    "metric": "5 rating, 21 reviews",
+    "url": "https://maps.google.com/?cid=1826696652184966720"
+  },
+  "best_photos_rationale": "Google Places photos preferred for gallery when high quality",
+  "claims_to_avoid": [
+    "Fake owner or founder claims",
+    "Supplier names as job locations in captions",
+    "Invented service areas"
+  ],
+  "pitch_hook_summary": "Lead with review detail about tidy finishes (David)",
+  "personality": "practical",
+  "evidence_strength": "moderate",
+  "suggested_site_mood": "clean, straightforward, proof-led",
+  "suggested_proof_hierarchy": [
+    "google_rating_reviews",
+    "photo_gallery"
+  ],
+  "pitch_insight_seed": "Lead with review detail about tidy finishes (David)",
+  "trade": "Boiler repairs and servicing",
+  "location": "Leeds, LS4"
+}

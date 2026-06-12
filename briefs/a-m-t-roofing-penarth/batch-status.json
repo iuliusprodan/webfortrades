@@ -1,0 +1,13 @@
+{
+  "slug": "a-m-t-roofing-penarth",
+  "batch_id": "2026-06-11-ten-build",
+  "port_started_at": "2026-06-11T22:27:27.179Z",
+  "port_attempts": 1,
+  "updated_at": "2026-06-11T23:03:51.593Z",
+  "port_completed_at": "2026-06-11T23:00:00.881Z",
+  "port_ms": 297639,
+  "port_tokens": 0,
+  "build_id": "a-m-t-roofing-penarth:20260611-od-port",
+  "clone_review": "PASS",
+  "clone_score": 21
+}

@@ -1,0 +1,49 @@
+{
+  "slug": "edgar-landscapes-driveways-ltd",
+  "business_angle": "Edgar Landscapes & driveways Ltd - customers praise tidy finishes and quality workmanship in Liverpool, L11",
+  "customer_praise_themes": [
+    "tidy finishes",
+    "quality workmanship",
+    "fair pricing",
+    "clear communication",
+    "strong recommendations"
+  ],
+  "named_people": [
+    "Bill"
+  ],
+  "distinctive_phrases": [
+    "This was really important to us, because of the structural work involved with walls etc",
+    "They are all ready to share there experience and knowledge, to make sure you will be happy with everything",
+    "We recently had a new driveway laid by Edgar Landscapes, and we couldn’t be happier with the result",
+    "Bill’s motto, “trust the process,” really shone through in the quality and craftsmanship of the finished driveway",
+    "We are delighted with the transformation Edgar Landscapes have done to our garden"
+  ],
+  "strongest_review_quote": {
+    "text": "After meeting Bill, Josh and Tony, it was clear from the very start, we didn't need to search other companies and check the price quoted. It was clear that they knew, what they were doing and were passionate about making sure the project was completed correctly and that we would be happy with it as well. This was really important to us, because of the structural work involved with walls etc. All the work completed is done to the highest standard and everything was discussed making sure we were h",
+    "author": "andrew",
+    "source": "google",
+    "url": "https://maps.google.com/?cid=9980755847186953696"
+  },
+  "strongest_proof_source": {
+    "platform": "google",
+    "metric": "5 rating, 40 reviews",
+    "url": "https://maps.google.com/?cid=9980755847186953696"
+  },
+  "best_photos_rationale": "Google Places photos preferred for gallery when high quality",
+  "claims_to_avoid": [
+    "Fake owner or founder claims",
+    "Supplier names as job locations in captions",
+    "Invented service areas"
+  ],
+  "pitch_hook_summary": "Lead with review detail about tidy finishes (andrew)",
+  "personality": "local",
+  "evidence_strength": "moderate",
+  "suggested_site_mood": "local, calm, review-led",
+  "suggested_proof_hierarchy": [
+    "google_rating_reviews",
+    "photo_gallery"
+  ],
+  "pitch_insight_seed": "Lead with review detail about tidy finishes (andrew)",
+  "trade": "Building & construction",
+  "location": "Liverpool, L11"
+}

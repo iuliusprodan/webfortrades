@@ -1,0 +1,30 @@
+{
+  "slug": "painters-force-ltd",
+  "updated_at": "2026-06-12T00:24:14.891Z",
+  "preferred_alias": "painters-force-ltd",
+  "deployment_url": "https://painters-force-hdlzntf71-iulius-projects-0cb33a7b.vercel.app",
+  "verified_url": "https://painters-force-ltd.vercel.app",
+  "final_url": "https://painters-force-ltd.vercel.app",
+  "alias_status": "VERIFIED",
+  "candidates": [
+    {
+      "hostname": "painters-force-ltd",
+      "url": "https://painters-force-ltd.vercel.app",
+      "preflight": "already_ours",
+      "detail": "Build marker painters-force-ltd:20260611-od-port",
+      "verify": "verified"
+    }
+  ],
+  "verification": {
+    "ok": true,
+    "httpStatus": 200,
+    "markerFound": true,
+    "businessNameFound": true,
+    "phoneFound": true,
+    "marker": {
+      "buildId": "painters-force-ltd:20260611-od-port",
+      "slug": "painters-force-ltd"
+    },
+    "errors": []
+  }
+}

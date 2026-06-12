@@ -1,0 +1,20 @@
+{
+  "business_name": "Heattech Gas Services Ltd",
+  "phone": "07506 042175",
+  "email": null,
+  "address": "6 Hoffmann Pl, Edinburgh EH15 3FD, UK",
+  "service_area": ["Edinburgh", "Edinburgh EH15 3FD"],
+  "google_rating": 5,
+  "google_review_count": 73,
+  "google_review_count_sourced": true,
+  "services": [
+    "Building & construction",
+    "Gas work",
+    "Boiler repairs and servicing",
+    "Heating and radiators",
+    "Leak and burst pipe repairs",
+    "gas engineers"
+  ],
+  "reviews": [],
+  "photos": []
+}
