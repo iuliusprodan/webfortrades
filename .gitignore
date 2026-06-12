@@ -45,3 +45,17 @@ previews/
 
 # Ad-hoc batch scripts (never commit)
 scripts/_tmp_*
+
+# Outreach privacy — never commit live send history, drafts, or contacted leads
+outreach/contacted-leads.md
+outreach/drafts/
+outreach/*.local.*
+data/outreach-log.jsonl
+data/outreach-failures.jsonl
+
+# Operational logs (batch runs, gather traces)
+data/*.log
+data/greens-gather-fb.log
+
+# Port pool dry-run test artefacts
+briefs/batch-pool-dry-*
