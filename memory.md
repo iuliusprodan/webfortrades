@@ -9,3 +9,284 @@
 - Added: sticky condensing header, hero focal frame, scroll reveals, FAQ accordion, card hovers
 - Copy rule: no em dashes
 - Saved to /library/test-electrical/
+
+## Build: bristol-plumbing-co (2026-06-09)
+- Direction: solid-warm-editorial
+- Palette: {"accent":"#4b2500","accentForeground":"#ffffff","background":"#faf8f5","foreground":"#1c1917","muted":"#e7e5e4","mutedForeground":"#57534e","border":"#d6d3d1","surface":"#ffffff"}
+
+## Build: bristol-plumbing-co (2026-06-09)
+- Direction: solid-warm-editorial
+- Palette: {"accent":"#4b2500","accentForeground":"#ffffff","background":"#faf8f5","foreground":"#1c1917","muted":"#e7e5e4","mutedForeground":"#57534e","border":"#d6d3d1","surface":"#ffffff"}
+
+## Build: bristol-plumbing-co (2026-06-09)
+- Direction: solid-warm-editorial
+- Palette: {"accent":"#4b2500","accentForeground":"#ffffff","background":"#faf8f5","foreground":"#1c1917","muted":"#e7e5e4","mutedForeground":"#57534e","border":"#d6d3d1","surface":"#ffffff"}
+
+## Build: bristol-plumbing-co (2026-06-09)
+- Direction: solid-warm-editorial
+- Palette: {"accent":"#4b2500","accentForeground":"#ffffff","background":"#faf8f5","foreground":"#1c1917","muted":"#e7e5e4","mutedForeground":"#57534e","border":"#d6d3d1","surface":"#ffffff"}
+
+## Build: bristol-plumbing-co (2026-06-09)
+- Direction: solid-warm-editorial
+- Palette: {"accent":"#4b2500","accentForeground":"#ffffff","background":"#faf8f5","foreground":"#1c1917","muted":"#e7e5e4","mutedForeground":"#57534e","border":"#d6d3d1","surface":"#ffffff"}
+
+## Build: bristol-plumbing-co (2026-06-09)
+- Direction: solid-warm-editorial
+- Palette: {"accent":"#4b2500","accentForeground":"#ffffff","background":"#faf8f5","foreground":"#1c1917","muted":"#e7e5e4","mutedForeground":"#57534e","border":"#d6d3d1","surface":"#ffffff"}
+
+## Build: bristol-plumbing-co (2026-06-09)
+- Direction: solid-warm-editorial
+- Palette: {"accent":"#4b2500","accentForeground":"#ffffff","background":"#faf8f5","foreground":"#1c1917","muted":"#e7e5e4","mutedForeground":"#57534e","border":"#d6d3d1","surface":"#ffffff"}
+
+## Build: jt-plumbing (2026-06-09)
+- Direction: solid-warm-editorial
+- Palette: {"accent":"#602e03","accentForeground":"#ffffff","background":"#faf8f5","foreground":"#1c1917","muted":"#e7e5e4","mutedForeground":"#57534e","border":"#d6d3d1","surface":"#ffffff"}
+
+## Build: nfs-plumbing-heating (2026-06-09)
+- Direction: solid-warm-editorial
+- Palette: {"accent":"#372209","accentForeground":"#ffffff","background":"#faf8f5","foreground":"#1c1917","muted":"#e7e5e4","mutedForeground":"#57534e","border":"#d6d3d1","surface":"#ffffff"}
+
+## Build: greens-precise-plumbing-heating-ltd (2026-06-09)
+- Direction: solid-warm-editorial
+- Palette: {"accent":"#040200","accentForeground":"#ffffff","background":"#faf8f5","foreground":"#1c1917","muted":"#e7e5e4","mutedForeground":"#57534e","border":"#d6d3d1","surface":"#ffffff"}
+
+## Batch run 2026-06-09 (3 sites, no outreach)
+- jt-plumbing, nfs-plumbing-heating, greens-precise-plumbing-heating-ltd all DEPLOYED
+- Report: outreach/batch-site-run-2026-06-09.md
+
+## Build: jt-plumbing (2026-06-09)
+- Direction: trust_blue_archivo_ibm_plex_split_hero_editorial
+- Palette: {"accent":"#1a8fd1","accentForeground":"#ffffff","background":"#f4f8fc","foreground":"#0c2d4a","muted":"#dbeafe","mutedForeground":"#475569","border":"#bfdbfe","surface":"#ffffff"}
+
+## Build: jt-plumbing (2026-06-09)
+- Direction: trust_blue_archivo_ibm_plex_split_hero_editorial
+- Palette: {"accent":"#1a8fd1","accentForeground":"#ffffff","background":"#f4f8fc","foreground":"#0c2d4a","muted":"#dbeafe","mutedForeground":"#475569","border":"#bfdbfe","surface":"#ffffff"}
+
+## Build: nfs-plumbing-heating (2026-06-09)
+- Direction: navy_brass_heating_space_grotesk_inter_full_bleed_hero
+- Palette: {"accent":"#c9a227","accentForeground":"#1a1208","background":"#f5f0e8","foreground":"#0c2d4a","muted":"#e8e0d4","mutedForeground":"#4a5568","border":"#d4c4a8","surface":"#ffffff"}
+
+## Build: greens-precise-plumbing-heating-ltd (2026-06-09)
+- Direction: forest_green_inter_fraunces_stacked_hero_proof
+- Palette: {"accent":"#2d5a3d","accentForeground":"#ffffff","background":"#f6f8f4","foreground":"#1c2420","muted":"#dce8de","mutedForeground":"#4b5c52","border":"#c5d4c9","surface":"#ffffff"}
+
+## Build: greens-precise-plumbing-heating-ltd (2026-06-09)
+- Direction: forest_green_inter_fraunces_stacked_hero_proof
+- Palette: {"accent":"#2d5a3d","accentForeground":"#ffffff","background":"#f6f8f4","foreground":"#1c2420","muted":"#dce8de","mutedForeground":"#4b5c52","border":"#c5d4c9","surface":"#ffffff"}
+
+## Build: jt-plumbing (2026-06-10)
+- Direction: trust_blue_archivo_ibm_plex_split_hero_editorial
+- Palette: {"accent":"#1a8fd1","accentForeground":"#ffffff","background":"#f4f8fc","foreground":"#0c2d4a","muted":"#dbeafe","mutedForeground":"#475569","border":"#bfdbfe","surface":"#ffffff"}
+
+## Build: nfs-plumbing-heating (2026-06-10)
+- Direction: navy_brass_heating_space_grotesk_inter_full_bleed_hero
+- Palette: {"accent":"#c9a227","accentForeground":"#1a1208","background":"#f5f0e8","foreground":"#0c2d4a","muted":"#e8e0d4","mutedForeground":"#4a5568","border":"#d4c4a8","surface":"#ffffff"}
+
+## Build: greens-precise-plumbing-heating-ltd (2026-06-10)
+- Direction: forest_green_inter_fraunces_stacked_hero_proof
+- Palette: {"accent":"#2d5a3d","accentForeground":"#ffffff","background":"#f6f8f4","foreground":"#1c2420","muted":"#dce8de","mutedForeground":"#4b5c52","border":"#c5d4c9","surface":"#ffffff"}
+
+## Build: bbr-plumbing-heating-bristol-bristol-boiler-repairs (2026-06-10)
+- Direction: navy_brass_heating_space_grotesk_inter_full_bleed_hero
+- Palette: {"accent":"#c9a227","accentForeground":"#1a1208","background":"#f5f0e8","foreground":"#0c2d4a","muted":"#e8e0d4","mutedForeground":"#4a5568","border":"#d4c4a8","surface":"#ffffff"}
+
+## Build: southwest-plumber-emergency-plumbing-heating (2026-06-10)
+- Direction: navy_brass_heating_space_grotesk_inter_full_bleed_hero
+- Palette: {"accent":"#c9a227","accentForeground":"#1a1208","background":"#f5f0e8","foreground":"#0c2d4a","muted":"#e8e0d4","mutedForeground":"#4a5568","border":"#d4c4a8","surface":"#ffffff"}
+
+## Build: corvell-ltd (2026-06-10)
+- Direction: trust_blue_archivo_ibm_plex_split_hero_editorial
+- Palette: {"accent":"#1a8fd1","accentForeground":"#ffffff","background":"#f4f8fc","foreground":"#0c2d4a","muted":"#dbeafe","mutedForeground":"#475569","border":"#bfdbfe","surface":"#ffffff"}
+
+## Build: jkl-clifton-plumbers-drain-cleaning (2026-06-10)
+- Direction: navy_brass_heating_space_grotesk_inter_full_bleed_hero
+- Palette: {"accent":"#c9a227","accentForeground":"#1a1208","background":"#f5f0e8","foreground":"#0c2d4a","muted":"#e8e0d4","mutedForeground":"#4a5568","border":"#d4c4a8","surface":"#ffffff"}
+
+## Build: mayerplumbing (2026-06-10)
+- Direction: trust_blue_archivo_ibm_plex_split_hero_editorial
+- Palette: {"accent":"#1a8fd1","accentForeground":"#ffffff","background":"#f4f8fc","foreground":"#0c2d4a","muted":"#dbeafe","mutedForeground":"#475569","border":"#bfdbfe","surface":"#ffffff"}
+
+## Build: jt-plumbing (2026-06-10)
+- Direction: slate_plumbing_dm_sans_lora_compact_local
+- Palette: {"accent":"#3d5a73","accentForeground":"#ffffff","background":"#f7f9fb","foreground":"#1e293b","muted":"#e2e8f0","mutedForeground":"#64748b","border":"#cbd5e1","surface":"#ffffff"}
+
+## Build: bbr-plumbing-heating-bristol-bristol-boiler-repairs (2026-06-10)
+- Direction: burgundy_graphite_archivo_ibm_plex_split_hero_editorial
+- Palette: {"accent":"#7c2d3a","accentForeground":"#ffffff","background":"#faf7f5","foreground":"#292524","muted":"#e7e5e4","mutedForeground":"#57534e","border":"#d6d3d1","surface":"#ffffff"}
+
+## Build: corvell-ltd (2026-06-10)
+- Direction: steel_blue_ops_syne_dm_sans_compact_local
+- Palette: {"accent":"#4f7fa8","accentForeground":"#ffffff","background":"#eef1f4","foreground":"#16202b","muted":"#dde3ea","mutedForeground":"#566472","border":"#c3cdd8","surface":"#ffffff"}
+
+## Build: bbr-plumbing-heating-bristol-bristol-boiler-repairs (2026-06-10)
+- Direction: burgundy_graphite_archivo_ibm_plex_split_hero_editorial
+- Palette: {"accent":"#7c2d3a","accentForeground":"#ffffff","background":"#faf7f5","foreground":"#292524","muted":"#e7e5e4","mutedForeground":"#57534e","border":"#d6d3d1","surface":"#ffffff"}
+
+## Build: corvell-ltd (2026-06-10)
+- Direction: steel_blue_ops_syne_dm_sans_compact_local
+- Palette: {"accent":"#4f7fa8","accentForeground":"#ffffff","background":"#eef1f4","foreground":"#16202b","muted":"#dde3ea","mutedForeground":"#566472","border":"#c3cdd8","surface":"#ffffff"}
+
+## Build: bbr-plumbing-heating-bristol-bristol-boiler-repairs (2026-06-10)
+- Direction: burgundy_graphite_archivo_ibm_plex_split_hero_editorial
+- Palette: {"accent":"#7c2d3a","accentForeground":"#ffffff","background":"#faf7f5","foreground":"#292524","muted":"#e7e5e4","mutedForeground":"#57534e","border":"#d6d3d1","surface":"#ffffff"}
+
+## Build: corvell-ltd (2026-06-10)
+- Direction: steel_blue_ops_syne_dm_sans_compact_local
+- Palette: {"accent":"#4f7fa8","accentForeground":"#ffffff","background":"#eef1f4","foreground":"#16202b","muted":"#dde3ea","mutedForeground":"#566472","border":"#c3cdd8","surface":"#ffffff"}
+
+## Build: bbr-plumbing-heating-bristol-bristol-boiler-repairs (2026-06-10)
+- Direction: burgundy_graphite_archivo_ibm_plex_split_hero_editorial
+- Palette: {"accent":"#7c2d3a","accentForeground":"#ffffff","background":"#faf7f5","foreground":"#292524","muted":"#e7e5e4","mutedForeground":"#57534e","border":"#d6d3d1","surface":"#ffffff"}
+
+## Build: corvell-ltd (2026-06-10)
+- Direction: steel_blue_ops_syne_dm_sans_compact_local
+- Palette: {"accent":"#4f7fa8","accentForeground":"#ffffff","background":"#eef1f4","foreground":"#16202b","muted":"#dde3ea","mutedForeground":"#566472","border":"#c3cdd8","surface":"#ffffff"}
+
+## Build: bbr-plumbing-heating-bristol-bristol-boiler-repairs (2026-06-10)
+- Direction: burgundy_graphite_archivo_ibm_plex_split_hero_editorial
+- Palette: {"accent":"#7c2d3a","accentForeground":"#ffffff","background":"#faf7f5","foreground":"#292524","muted":"#e7e5e4","mutedForeground":"#57534e","border":"#d6d3d1","surface":"#ffffff"}
+
+## Build: corvell-ltd (2026-06-10)
+- Direction: steel_blue_ops_syne_dm_sans_compact_local
+- Palette: {"accent":"#4f7fa8","accentForeground":"#ffffff","background":"#eef1f4","foreground":"#16202b","muted":"#dde3ea","mutedForeground":"#566472","border":"#c3cdd8","surface":"#ffffff"}
+
+## Build: greens-precise-plumbing-heating-ltd (2026-06-10)
+- Direction: forest_green_inter_fraunces_stacked_hero_proof
+- Palette: {"accent":"#2d5a3d","accentForeground":"#ffffff","background":"#f6f8f4","foreground":"#1c2420","muted":"#dce8de","mutedForeground":"#4b5c52","border":"#c5d4c9","surface":"#ffffff"}
+
+## Build: corvell-ltd (2026-06-10)
+- Direction: warm_cream_bathroom_dm_sans_lora_stacked_hero_proof
+- Palette: {"accent":"#b15c38","accentForeground":"#ffffff","background":"#faf4ec","foreground":"#2b2018","muted":"#efe3d4","mutedForeground":"#6b5847","border":"#e0cdb8","surface":"#ffffff"}
+
+## Build: corvell-ltd (2026-06-10)
+- Direction: warm_cream_bathroom_manrope_source_serif_stacked_hero_proof
+- Palette: {"accent":"#b15c38","accentForeground":"#ffffff","background":"#faf4ec","foreground":"#2b2018","muted":"#efe3d4","mutedForeground":"#6b5847","border":"#e0cdb8","surface":"#ffffff"}
+
+## Build: alexander-s-painters-decorators (2026-06-11)
+- Direction: warm_cream_bathroom_archivo_ibm_plex_stacked_hero_proof
+- Palette: {"accent":"#b15c38","accentForeground":"#ffffff","background":"#faf4ec","foreground":"#2b2018","muted":"#efe3d4","mutedForeground":"#6b5847","border":"#e0cdb8","surface":"#ffffff"}
+
+## Build: west-park-electrics (2026-06-11)
+- Direction: charcoal_orange_space_mono_ibm_plex_split_hero_editorial
+- Palette: {"accent":"#e85d04","accentForeground":"#ffffff","background":"#f5f5f4","foreground":"#1c1917","muted":"#e7e5e4","mutedForeground":"#57534e","border":"#d6d3d1","surface":"#ffffff"}
+
+## Batch: 2026-06-11-five-site (Open Design, design+deploy only)
+- Wall clock ~33 min for 5 parallel OD builds (NFS, BBR, West Park, Stay Dry, Alexander's)
+- All 5 deployed verified; READY_TO_PITCH false; no OG, no scroll video, no outreach
+- Clone review FAIL on all 5: shared jt-plumbing-style section order after OD port (~91% overlap). Palettes/fonts differ but layout stack too similar for gate
+- Critical: never run `npm run build:site` after Open Design port (wipes OD artifact, restores template skeleton). Use `next build` + `deploy` only
+- BBR canonical URL is `-bs13` alias; slug/bristol aliases still pointed at pre-OD builds at batch end
+- Stay Dry: enrich found HAS_REAL_SITE (sheffieldroofer.co.uk); pitch framing must be redesign not no-site
+- OD stay-dry first run hit agent looping; recovered on alternate project webfortrades-stay-dry-roofing-pilot-b1f4
+- Batch waivers worked: Google Places + secondary signal → PASS_WITH_WARNINGS, source_quality_relaxed true
+
+## 2026-06-11 polish pass
+
+Five-site polish after Open Design batch: text wordmarks, section-variation matrix, owner-name title ban, per-site fixes, redeploy. No outreach, no OG, no scroll video.
+
+**What worked first time:** Adding `data-section-id` on every main block and physically reordering DOM sections dropped clone scores from ~29–39 (FAIL) to 19–32 (PASS) on all five sites. Text-only wordmarks (remove raster logos, use display typeface business name) needed no follow-up once header/footer/sticky were touched. Owner-name section generalisation (What customers say / Why customers come back) was a straight title swap with review quotes unchanged. NFS map fix (Bristol BS3 area query) and West Park letterhead removal (typography hero + proof bar) landed in one edit each.
+
+**Slowest step:** Vercel deploy verification. One NFS deploy hit transient EPIPE mid-poll; retry succeeded. Sequential deploy with live style verify is ~5–6 min per site and dominates wall clock after local builds finish. Subagent code edits were faster than deploy + alias verification.
+
+**New defaults (now in config.yaml `site_design` and docs):** `text_only_wordmarks: true`, `ban_owner_name_section_titles: true`, `require_section_variation_matrix: true`, `od_port_use_next_build_only: true`. Write `section-variation.json` before batch polish edits, not after.
+
+**Rules the batch waiver hid that should surface earlier:** Clone review reads built `out/index.html`; without ≥3 `data-section-id` markers it assumes default template order and scores 100% overlap (automatic FAIL). OD ports must include section IDs in the first pass, not in a later polish. `HAS_REAL_SITE` leads (Stay Dry) can build and deploy but must never flip `ready_for_pitch` without explicit redesign-pitch approval; internal `briefs/<slug>/notes.md` is required. Location mismatch (Alexander's Manchester vs Stockport/Bramhall) should block pitch copy before build, not only at polish.
+
+**Clone-review patterns that keep regressing:** Open Design ports inherit jt-plumbing section stack (hero → themes → services → gallery → quote → process → reviews). Palette and font diversity alone do not pass; section order and hero/gallery treatment must differ per site in the matrix. Warn-level “91% overlap” can remain even after PASS if shared section names (reviews, services, contact) dominate Jaccard; that is acceptable when overall score stays under 35.
+
+**BBR aliases after polish:** `-bs13` and slug aliases serve `20260611-polish` build. `-bristol` alias may still serve stale pre-OD HTML; use `-bs13` as canonical for pitch.
+
+## images-generate pipeline
+
+Built `npm run images:generate -- --slug <slug>` (Gemini Nano Banana via `.env.local`). Dry-run only in first ship; no live site images generated.
+
+**Niche prompt templates:** Electrician switchgear/wiring, plumbing copper pipework, roofer wet slate, painter timber panel, default abstract texture. Style suffix from `design-direction.json` paletteKey + creative-brief tone. `trade_niche` from creative-brief wins over misclassified review services (West Park had bathroom services in brief but trade is electricians).
+
+**Quality-check thresholds (defaults):** luminance mean 18–238, stdev ≥12, skin-tone heuristic ≤2.8% in upper-centre crop (face proxy), horizontal-edge text blocks ≤14%, JPEG 80KB–4MB, dimensions within 2% of 1600×1200 / 1200×1600. Tune if pro model returns flat or text-heavy frames.
+
+**Cost defaults:** pro `gemini-3-pro-image-preview` ~$0.134/image, fast `gemini-3-flash-image-preview` ~$0.101/image at 2K. Log before each API call.
+
+**Safeguards to surface early:** Refuse live run when Google Places hero ≥1000px exists (West Park 1200×1600 triggers skip). Never overwrite manifest entries with `google_places` or `manual_verified`. AI never in galleries. Document optional step in site-build-checklist; do not auto-trigger in batch until explicitly enabled.
+
+## 2026-06-11 stay-dry-roofing fix
+
+Stay Dry polish pass used a single-column desktop gallery as a clone-variation tactic. That was wrong: galleries must be multi-column on desktop (CSS columns masonry: 3 cols >=1024px, 2 cols 640-1023px, 1 col mobile). Clone variation should change section order or hero treatment, not collapse gallery columns.
+
+The services block was titled "Roofing services explained plainly" with "in plain language" in the subtitle, but the body was bare bullet names only. That is a section-copy integrity failure. Each service tile now carries a one-line description from verified Google review evidence, or the promise wording must be removed.
+
+Automated guard: `scripts/checks/section_integrity.ts` (`section_integrity` check) wired into deploy preflight (built HTML) and live style verify (Playwright at 1280px). Unit tests: `npm run test:section-integrity`. Rules documented under "Section integrity" in `docs/open-design-webfortrades-brief-format.md`.
+
+## 2026-06-11 og-and-scroll batch
+
+Five-site OG hero screenshots + desktop scroll videos via `npm run preview:assets -- --desktop-only --use-live --force-og` and per-site `scripts/og_scroll_site.ts`. No outreach. All five `DEPLOYED`, none `READY_TO_PITCH`.
+
+**Pipeline tweaks now default:**
+- OG is plain 1200×630 hero clip only (no SVG overlay compositing).
+- Capture from live production URL with `--use-live` (skips local preview server when live HTML is already deployed).
+- `preview_capture` injects solid header (`header.site-header`, `data-review="header"`), hides WebForTrades footer credit and quote-form "preview form" disclaimer during capture only.
+- Banned-word check uses viewport-visible text only, not full-page clone.
+- Dev-indicator image heuristic: 20×20 bottom-left corner, >55% very dark pixels; video validation checks first frame + ~1s only (not mid/footer frames).
+- Scroll mp4 encodes silent AAC track (`anullsrc` + `-c:a aac`).
+- `updateLayoutOgMetadata()` adds `ogImages` to `layout.tsx` (1200×630, business name + city).
+- OG-metadata redeploy may use `--skip-live-style-verify` when site was already style-verified and only `/og.png` + metadata changed.
+- `--desktop-only` skips `scroll-mobile.mp4` and `contact-sheet.jpg`.
+
+**Header capture:** Solid sticky header works with existing `PREVIEW_CAPTURE_CSS` (white 0.98 background, no backdrop-filter). No selector change to `header.bg-solid` needed; class is `site-header`.
+
+**Slowest step:** Per-site deploy (double `next build` in og_scroll_site + deploy.ts) dominates at ~2–3 min when layout metadata changes. Capture alone is ~2 min. NFS and Alexander exceeded 5 min wall clock when deploy included.
+
+**False positives fixed mid-batch:** Full-page "preview form" text tripped banned-word gate on NFS; viewport-scoped check + CSS hide on `.quote-form-intro` fixed it. Bottom-left dev-badge heuristic fired on dark footer/UI during scroll; limited to hero frames only.
+
+## Alias migration: bbr-plumbing-heating-bristol-bristol-boiler-repairs (2026-06-11)
+- Canonical URL: https://bristol-boiler-repairs.vercel.app
+- buildId: bbr-plumbing-heating-bristol-bristol-boiler-repairs:20260611-alias-fix
+- Fallback aliases kept on same deployment: slug, -bristol, -bristol-bs1, -bs13, -uk
+
+## 2026-06-11 alias + gallery fix
+- **Alias rule:** Prefer a short, brand-led Vercel alias from trade + city (e.g. `bristol-boiler-repairs.vercel.app`). Do not use raw Google Places listing slugs as the canonical alias.
+- **Manifest hygiene:** Images flagged as business card, letterhead, scanned document, certificate, or contact sheet are hero/gallery ineligible. Keep in `briefs/` as evidence only.
+- **BBR:** Migrated canonical from `-bs13` to `bristol-boiler-repairs.vercel.app`. All legacy aliases reassigned to `20260611-alias-fix`. `-bs13` kept one week as fallback on same deployment.
+- **NFS:** Removed letterhead `01-places.webp` from gallery and public. Gallery uses CSS columns masonry (`gallery--masonry`). buildId `nfs-plumbing-heating:20260611-gallery-fix`.
+- **Stay Dry:** Prior masonry fix confirmed live (`gallery--masonry`, build `20260611-section-fix`).
+- No OG or scroll video regenerated in this fix pass. No outreach sent.
+
+## OpenWA auto-start (2026-06-11)
+- Live WhatsApp sends call `ensureOpenWA()` first: starts Docker Desktop if needed, runs compose in `~/.cursor/openwa`, waits for health, tries session start.
+- Manual: `npm run openwa:ensure`. QR scan still required if session is disconnected.
+
+## 2026-06-11 outreach prep (no sends)
+- Templates stripped of WebForTrades/demo. Redesign template added for Stay Dry (`whatsapp-touch-1-redesign.md`).
+- Drafts in `outreach/drafts/<slug>-message-{1,2}.txt`. Prep report: `data/batches/2026-06-11-outreach-prep/prep-report.json`.
+- READY_TO_PITCH true: NFS, BBR, West Park. Held: Stay Dry + Alexander (WhatsApp pending OpenWA).
+- Stay Dry `og.png` fixed on canonical after redeploy + alias reassignment.
+
+## 2026-06-11 batch-approval mode
+- **Rationale:** When Julius has read all drafts upfront, per-lead chat approval adds ping-pong without extra safety. Batch mode asks once at preflight, then auto-sends with cooldowns and one-line status lines.
+- **Config:** `outreach.approval_mode` — `per_send` (default, safer) or `batch`. Root `approval_mode` (ask_before_build / ask_before_send) is unchanged.
+- **Batch flow:** Preflight table + every message pair printed. Single prompt: `Approve all N sends as drafted? (yes / yes-except <list> / no)`. Then sequential sends: 60-180s between leads, 3-6s between WA messages within a lead.
+- **Hard stops still halt:** gateway down, non-transient 4xx/5xx, recipient unavailable/blocked, >1 failure in batch, safety flag drift. Always reset `sending_enabled: false` at batch end.
+- **CLI:** `npm run send:outreach-batch -- --preflight|--live --batch-file data/batches/.../outreach-batch.json [--approval-mode batch] [--approve yes] [--run-log path]`
+- **Manifest example:** `data/batches/2026-06-11-outreach-prep/outreach-batch.json`
+- No outreach sent as part of this implementation task.
+
+## 2026-06-11 scroll-disabled and og-fast
+
+- **Scroll video off by default:** `site_design.scroll_video_enabled: false` in config.yaml. When false, no scroll.mp4, poster.jpg, contact-sheet, or ffmpeg encode runs; batch preview video and outreach video attachment are skipped. Existing `previews/` assets for the five-site cohort are kept, not deleted.
+- **Outreach without video:** WhatsApp touch 1 is a single message with the site link (blank lines around URL). Two-message + attachment only when the flag is true.
+- **Fast OG:** `npm run og:generate -- --slug <slug>` and `npm run og:batch -- --batch five-site [--concurrency 4]`. Playwright Option 1: one shared browser per worker, new context per site, viewport 1200×630, `domcontentloaded` + fonts + hero decode + one animation frame, direct clip (no networkidle, no full-page scroll). Output: `sites/<slug>/public/og.png` + `og.jpg` (mozjpeg q82, under 200KB).
+- **Benchmark (five-site, shared browser):** cold ~1.3s, warm ~1.5s/site, total ~7s vs old og_scroll path ~1,220s (included scroll + redeploy). Next bottleneck: deploy + live style verify, not OG.
+
+## 2026-06-11 port-pool reporting bug
+
+- **Symptom:** During `--from-port`, `ten_build_batch.ts` heartbeats show `in_flight=0` for the entire `runPortPool` phase even when 4 cursor-agent ports are active. `done` stays 0 until the pool resolves.
+- **Cause:** `runPortPool` in `scripts/batch_port_pool.ts` has no progress callback; `--from-port` only updates `progress` before/after the await, not per slug or worker slot.
+- **Impact:** Operators cannot tell from batch heartbeats whether ports are running, stuck, or idle. Separate `ten_build_heartbeat.ts` polling port logs works but is ad hoc.
+- **Fix (next maintenance pass, not mid-batch):** Add optional `onProgress({ slug, state, done, inFlight })` to `runPortPool`; wire `ten_build_batch.ts` and `batch_sites.ts` to update `progress` on PORT_START / PORT_OK / PORT_SUMMARY. Do not patch during an active batch.
+- **Observed:** 2026-06-11 ten-build batch, round 2, C=4 fan-out confirmed via log timestamps despite `in_flight=0` in parent heartbeat.
+
+## 2026-06-12 deployed images broken after key rotation
+
+- **Cause (E, not A/B):** Open Design port wrote `src="/assets/images/NN-places.webp"` in `sites/<slug>/app/page.tsx` but never copied `briefs/<slug>/images/*.webp` into `sites/<slug>/public/assets/images/`. Port logs show cursor-agent left `.gitkeep` only and told the operator to copy manually. Live URLs return **HTTP 404** (e.g. painters-force-ltd `/assets/images/02-places.webp`). Brief `source_url` fields contain `key=REDACTED` in JSON but deployed HTML does not embed Google photo API URLs.
+- **Why skipped this batch:** `batch_port_worker.ts` validates `.od-port` + `npm run build` but has no step to sync gallery files from `briefs/<slug>/images/` into the ported site. OD port subagent often cannot run shell copy in this environment; build proceeded with empty `public/assets/images/`.
+- **Immediate fix (2026-06-12):** `scripts/batch_copy_site_images.ts` copies brief images into each site `public/`, then rebuild + redeploy (C=3). No re-port. Redeploy also required `vercel_alias.ts` fix: when alias preflight was `already_ours`, deploy skipped `alias set` and left the hostname on an older deployment without gallery files. Fixed to always reassign alias to the new deployment URL. Removed broken `prebuild` on edgar site (`_tmp_copy_edgar_assets.mjs`). Fixed Playwright `page.evaluate` multi-arg bug in `section_integrity.ts` that crashed style verify.
+- **Durable fix (proposed, not implemented):** **Option (a) - mandatory local assets at port gate.** Before `npm run build` in `batch_port_worker`, run the same copy step as `build.ts` (`briefs/<slug>/images` → `sites/<slug>/public/assets/images/` or `public/images/` per site manifest). Fail the port if any `page.tsx`-referenced file is missing after copy. Never deploy a site whose `public/` image count is zero when the page references gallery paths. Photo URLs in briefs may keep Google `source_url` for provenance only; deployed sites must always serve local static files gathered at `npm run gather` time (already downloaded as WebP). Do not embed `GOOGLE_PLACES_API_KEY` in client HTML. Option (b) server-side proxy is unnecessary if (a) is enforced.
