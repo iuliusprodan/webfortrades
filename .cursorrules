@@ -24,6 +24,7 @@
 ## Writing style (ALL website copy and all your messages)
 - NEVER use em dashes. Use a normal hyphen ( - ), a comma, or a full stop instead.
 - Plain British English. No hype, no jargon.
+- **Evergreen review proof on public sites:** keep exact counts in source evidence and internal notes. Public copy may use plus-style phrasing when sourced (e.g. 45+ Google reviews). Omit small secondary-platform review counts if the percentage line is stronger alone (e.g. "100% recommended on Facebook", not "from 10 reviews"). Do not invent or inflate numbers. Open Design and briefs use exact evidence internally; public site copy should age well.
 
 ## Publishing (every site, every time)
 - Whenever you finish or change a site, ALWAYS publish it: push to GitHub
@@ -36,9 +37,95 @@
 - Premium: 800 - the best, full build.
 - Quote the tier that fits the ask. Never invent prices. Keep config.yaml pricing in step.
 
+## Site design skill (mandatory before any build)
+- Before creating, rebuilding, reviewing, or batch-generating any WebForTrades prospect site, read `skills/webfortrades-site-design/SKILL.md`.
+- Follow the skill over older scattered design rules when they conflict. Operational rules here (deploy, outreach, db) still apply.
+- The builder must start from evidence, not from a layout. Do not copy `scripts/templates/site/` as a finished skin.
+- Required artifacts before build (when skill enforcement is enabled): `site-strategy.json`, `source-evidence.json`, `section-plan.json`.
+- Run `npm run site:prepare -- --slug <slug>` after gather to create evidence, strategy, section plan, and pitch insight.
+- Run `npm run review:clone -- --slug <slug>` before READY_TO_PITCH. If clone review fails, the site is not ready.
+- Clone review and palette uniqueness are both required. Palette alone is not enough.
+- If site strategy is missing, do not build.
+- If the section plan is generic (default template stack + template headings), do not build.
+- If source enrichment was skipped (`enrichment_complete !== true`), do not build.
+- Every site needs `pitch-insight.json` before READY_TO_PITCH.
+- Swap test: if business name, photos, and reviews could be swapped and the site still works, the build has failed.
+
+## Open Design (visual generation)
+- **Canonical recipe:** `docs/open-design-to-vercel-recipe.md` and checklist `docs/open-design-deploy-checklist.md`. Do not rediscover daemon/agent/porting steps each run.
+- Readiness: `npm run od:status` (read-only). Brief assembly: `npm run od:prepare -- --slug <slug>`. Artifact QA: `npm run od:check -- --slug <slug>`.
+- Preferred Open Design agent: **cursor-agent** (Cursor CLI) when available and logged in. Default skill: **design-taste-frontend** unless there is a documented reason not to.
+- When Open Design generation fails due to auth, missing CLI, missing agent, or manual login/setup, **stop and ask Julius**. Do not keep retrying.
+- Do **not** repeatedly switch agents (Claude, Hermes, Antigravity, etc.) without explicit approval.
+- Retry Open Design **once** for a clear transient error, then stop and report.
+- Save Open Design outputs under `open-design-artifacts/<slug>/` for review before integrating into `sites/<slug>/`.
+- Do not integrate or deploy from Open Design until `npm run od:check` and human artifact review pass.
+- When porting artifacts: use **next/font/google** (no external Google Fonts links). Keep Tailwind layers in globals.css for style-verify compatibility (see `docs/open-design-next-porting-notes.md`).
+- Do not outreach after an Open Design deploy unless explicitly approved.
+- Every ported Open Design site must add a **quote form** (`#quote`) if the artifact omitted one. Primary CTA → `#quote`, secondary → call. Static forms must not submit or contact the business.
+- Mobile sticky CTA after hero scroll; hide near footer. If design feels too luxury/interiors for a trade, refine accent colour and display type toward premium but grounded (logo colours guide palette, trade fit matters).
+
 ## House fonts
-- Default pairing is Syne (display) + DM Sans (body). Reuse it across businesses unless a trade
-  clearly needs a different feel (e.g. an industrial / mechanic ops-log look).
+- Default pairing is Syne (display) + DM Sans (body) for electric/general editorial only.
+- Every real prospect site must get its own creative direction via `briefs/<slug>/creative-brief.json` before build.
+- Creative brief must follow site-strategy and section-plan, not palette alone.
+- Do not reuse the same palette, font pair, layout family, hero headline, section order, or section headings across consecutive sites in a batch.
+- Templates in /library are references, not finished skins. If a new site looks like a text-swapped copy of another generated site, the build has failed.
+
+## Design diversity (mandatory)
+- Run `scripts/design_direction.ts` logic before every build. Save creative brief (json + md).
+- Choose colours intentionally: from logo if available, else photos, name, niche, review tone.
+- Choose fonts intentionally from the approved pairs. Never default all plumbers to Fraunces + Work Sans.
+- Vary hero composition, stats layout, review cards, gallery density, and CTA style per site.
+- Do not reuse "Plumbing sorted properly" unless it is the best fit and not used on a recent site.
+- Batch builds: compare each site against the previous built sites. Review must fail near-duplicates.
+- Gallery: cluster near-duplicate images. Max 2 per project cluster unless very few photos overall.
+- **Gallery layout:** tiles align to the top and keep natural aspect ratio. Tiles must not overflow their column horizontally. Uneven bottom edges are acceptable. Do not stretch shorter tiles, pad empty space under an image, or force a uniform aspect ratio to line up bottoms. Prefer CSS columns masonry on desktop, or CSS Grid with `align-items: start`. Mobile is single column with natural heights. Captions sit directly under each image.
+- Google Places is the default source, but verified public Facebook pages are valuable for logos, photos, service hints and brand colours.
+- **Do not use personal logged-in Facebook scraping.** Do not automate a logged-in Facebook browser or bypass login walls.
+- **Preferred Facebook media path:** optional Meta Graph API when `META_GRAPH_API_TOKEN` is configured (`scripts/facebook_graph.ts`). **Apify is the preferred third-party fallback** when Graph is unavailable (`APIFY_TOKEN`, `scripts/apify_facebook.ts`). Apify MCP is for Cursor manual tests; the pipeline uses the Apify REST API. Public HTML/OG extraction is last resort and often returns low-res thumbnails (~315px).
+- If verified Facebook exists but only thumbnails are accessible, mark `LOW_RES_FACEBOOK_ONLY` and `NEEDS_MANUAL_ASSET_REVIEW`. Do not use a photo-led design unless high-res assets exist or are manually supplied.
+- Manual assets live in `briefs/<slug>/images/manual/`. Validate with `npm run assets:manual -- --slug <slug>`. Never put visible placeholders on the final public site. Use internal image slots or pause for manual images, or switch to proof-led layout.
+- Image source priority: official website, Google Places, directory photos, manual assets, Facebook thumbnails (evidence only), proof-led layout if weak.
+- Search for Facebook when Google photos are weak, repetitive, or missing. Verify before use (phone match is strong evidence).
+- Use public Facebook content only. Do not bypass login or private content. If blocked, mark manual review.
+- Use verified Facebook photos to improve gallery diversity. Use verified Facebook logo/brand colours where useful.
+- Log all social sources and evidence in the brief. Manual override: gather --facebook-url or enrich:lead --facebook-url.
+- Photo captions must be safe. Never use inferred service areas, suppliers, or company names as job locations.
+- **Local area map (mandatory when location evidence exists):** every prospect site should include a Google Maps embed, or a polished static map-style service area card when embed is unreliable. Use verified areas and a safe public Maps link only. Do not invent service areas. **Prefer area/postcode map queries over pinning a precise residential-looking street address.** Do not overexpose sensitive addresses when source is weak. Map section reinforces trust and locality.
+- **Address privacy (prospect sites):** avoid showing full street addresses on the public site unless the user explicitly asks or the business clearly presents the address as a public showroom, office or yard. Default public format: town/city, postcode district or postcode, and service areas (e.g. Bristol BS5, Bristol BS5 8JB, Swansea). Keep full addresses in internal evidence only (`brief.json`, `source-evidence.json`). JSON-LD should use locality and postal code, not streetAddress, unless a public premises is verified.
+- **Review copy usage:** reviews guide the copy but should not dominate every section. One strong quote section and review cards are fine. Avoid naming multiple individual reviewers across many normal business sections. Prefer natural evidence-backed copy (e.g. customers often mention tidy work, fair pricing and quick response). Do not invent named reviewers, exact jobs, certifications, years trading, guarantees, awards or emergency claims beyond evidence.
+- **Business footer (mandatory):** footer must feel like a real local business site, not only the WebForTrades credit. Include brand, contact, verified areas, quick section links, and hours when sourced. Keep WebForTrades credit smaller at the bottom linking to `https://webfortradesuk.co.uk`. No fake registrations, VAT, certifications, or guarantees.
+
+## Lead intelligence (mandatory before build)
+- Gathering is more important than design. Run `npm run enrich:lead -- --slug <slug> --no-build` after gather.
+- Run `npm run brief:quality` to clean invalid `website_url` values (Google photo URLs, social/directory misclassified as official site).
+- Do not build from Google-only if richer public sources exist (Facebook, email domain website, directories).
+- Always check email domains when email exists. Email-domain discovery is mandatory.
+- Broken-site leads (`BROKEN_SITE_READY`) differ from no-site leads. Pitch framing must match validity status.
+- Facebook images require retry and public-access verification. Record download failure reasons. Prefer Meta Graph API when configured; use Apify when Graph fails or is not configured; flag low-res-only Facebook media in `source-evidence.json`.
+- Directory probes (Checkatrade, Yell, TrustATrader, MyBuilder) are useful but must be verified. Do not bypass anti-bot protections.
+- Always verify whether the business truly lacks a website before pitching a new site.
+- If a real website exists (`HAS_REAL_SITE`), do not build by default.
+- If source evidence is incomplete (`enrichment_complete !== true`), stop before building.
+- Batch builds require enrichment, `source-quality.json` with PASS or PASS_WITH_WARNINGS, and `lead-validity.json` with `ready_for_build: true` unless `--allow-manual-review`.
+- `ready_for_build` is not the same as `ready_for_pitch`. Location mismatch blocks pitch until resolved.
+- Run `npm run benchmark:sources` before batches to verify logo, photo and website extraction quality.
+- Logo, photo and website discovery must run via `enrich:lead` before design.
+
+## Deploy URL verification (mandatory)
+- A Vercel URL is valid only if assigned to our deployment and live HTML contains the WebForTrades build marker, business name, and phone when available.
+- Never assume `https://<slug>.vercel.app` without alias assignment and verification.
+- Try business-related fallback aliases before random names. Never use "demo" in prospect URLs.
+- Store `verified_site_url` and `alias_status` on deploy. Do not pitch if verification fails.
+
+## Subtle animations (future sites)
+- Real prospect websites should include subtle, clean, professional animations by default.
+- Use restrained fade/slide-in sections, smooth CTA hover states, image hover polish, and smooth anchor scrolling.
+- Keep animations premium and minimal. No distracting movement.
+- Respect `prefers-reduced-motion`.
+- Animations must not hurt performance, readability, or mobile usability.
+- Animations must not break screenshots, OG images, or preview video capture. Preview videos use stable capture settings and avoid animation jitter.
 
 ## Template library
 - Keep a library of every finished site in /library. After each build, save its
@@ -47,3 +134,40 @@
 - Before building, READ /library/index.md. If a past site fits the new business, use it as a
   reference and decide for yourself how far to diverge: close, somewhat different, or very
   different. Log which entry you referenced and how much you changed in build-notes.md.
+
+## Outreach preview assets
+- After a real prospect site is built and reviewed, run preview:site for outreach screenshots.
+- If video previews are enabled, generate a polished desktop preview video (default 16:9, 1280 x 720).
+- Delete stale site-scroll.mp4 before regenerating. Wait for full page load before recording.
+- Generate preview assets in production mode (`next build` + serve static `out/`), not `next dev`.
+- Preview assets must not show Next.js dev indicators. Use a clean white capture-only header if blur causes video jitter.
+- For outreach, always prepare drafts for approval first. Never send while `sending_enabled=false`.
+- Attach preview video on WhatsApp when available. Keep first message short, personal, and low pressure.
+- Use verified contact names from reviews as contact names only, not owner claims.
+- Do not include price in first WhatsApp by default. Suggest £200 to £300 based on lead quality. Keep a price reply ready.
+
+## Outreach contacted lead logging
+- Every real successful outreach send must be logged in both:
+  - `data/outreach-log.jsonl` (machine-readable)
+  - `outreach/contacted-leads.md` (human-readable)
+- Failed or partial sends go to `data/outreach-failures.jsonl`.
+- Test sends to `MY_OWN_TEST_NUMBER` must never be logged as contacted leads.
+- Lead state becomes `PITCHED` only after a real successful send (text + video for WhatsApp touch 1).
+- Record contact name as `First_Name - Business_Name` when known.
+- OpenWA cannot create WhatsApp contacts directly. Record the intended name in lead metadata and create a vCard under `briefs/<slug>/outreach/` for manual import.
+
+## Site-build checklist (mandatory)
+- Before every build, rebuild, review, or deploy, read `skills/webfortrades-site-design/SKILL.md` then prompts/site-build-checklist.md.
+- scripts/build.ts and scripts/review.ts enforce this. build-notes.md must confirm both were read.
+- Outreach safety: keep `outreach.sending_enabled: false` and `outreach.test_recipient_only: true` unless Julius explicitly enables live sends.
+- Before any live WhatsApp send, run OpenWA auto-start via `ensureOpenWA()` (wired into `sendWhatsAppMessage` / `sendWhatsAppVideo`). Manual: `npm run openwa:ensure`. If session needs QR, open http://localhost:2886.
+
+## Controlled parallel batches
+- For multiple sites, use the batch orchestrator instead of running stages by hand:
+  `npm run batch:sites -- --location <loc> --niche <niche> --count <n> --concurrency 3 --no-outreach`.
+- Centralised: prospecting, lead selection, dedupe, contactability gate, SQLite writes, Vercel alias assignment, deploy verification, batch QA, outreach gates.
+- Parallelised per lead (up to --concurrency, default 3): gather, build, preview, review. Deploy runs at lower concurrency (default 2).
+- Each lead gets an isolated job in data/batches/<batch-id>/ and a distinct pre-assigned creative direction. Never let two batch sites share a palette, font pair, or hero headline.
+- SQLite is safe under concurrency (WAL + busy_timeout). Vercel alias assignment is serialised with a cross-process lock. Workers use unique ports (review 4400+slot, preview 4500+slot).
+- The batch command NEVER sends outreach and never writes contacted-leads.md or outreach-log.jsonl. A site is only READY_TO_PITCH when deploy is verified, the final URL is verified, screenshots and preview video exist, and there is no manual-review or location blocker.
+- Always test with a small batch (count 2, concurrency 2) before an 8-site batch.
