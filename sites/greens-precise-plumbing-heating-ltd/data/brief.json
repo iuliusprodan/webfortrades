@@ -1,0 +1,391 @@
+{
+  "business_name": "Greens Precise Plumbing & Heating ltd",
+  "owner_name": null,
+  "contact_name": "Callum",
+  "contact_name_source": "google_reviews",
+  "contact_name_confidence": "medium",
+  "contact_name_evidence_count": 2,
+  "contact_name_usage_allowed": true,
+  "possible_contact_name": null,
+  "phone": "07309 553552",
+  "email": "info@gpplumbingltd.com",
+  "phone_type": "mobile",
+  "whatsapp_candidate": true,
+  "email_available": true,
+  "whatsapp_available": "not_checked",
+  "contactability_status": "CONTACTABLE",
+  "contactability_reason": "email found, email-only outreach if WhatsApp unavailable",
+  "preferred_channel": "email",
+  "address": "K&R Construction Ltd, Cemex Uk Materials, Kings Dock, Port Tennant, Swansea SA1 8QT, UK",
+  "opening_hours": [
+    "Monday: 8:00 AM – 5:00 PM",
+    "Tuesday: 8:00 AM – 5:00 PM",
+    "Wednesday: 8:00 AM – 5:00 PM",
+    "Thursday: 8:00 AM – 5:00 PM",
+    "Friday: 8:00 AM – 5:00 PM",
+    "Saturday: 8:00 AM – 1:00 PM",
+    "Sunday: Closed"
+  ],
+  "services": [
+    "Heating and radiators",
+    "Boiler repairs and servicing",
+    "Bathroom installations",
+    "Leak and burst pipe repairs",
+    "Tap, toilet and shower repairs",
+    "General plumbing repairs"
+  ],
+  "services_meta": [
+    {
+      "name": "Heating and radiators",
+      "source": "name",
+      "direct": false
+    },
+    {
+      "name": "General plumbing",
+      "source": "name",
+      "direct": false
+    },
+    {
+      "name": "Leak and burst pipe repairs",
+      "source": "review",
+      "direct": false
+    },
+    {
+      "name": "Tap, toilet and shower repairs",
+      "source": "review",
+      "direct": false
+    },
+    {
+      "name": "Boiler repairs and servicing",
+      "source": "review",
+      "direct": false
+    }
+  ],
+  "service_confidence": "mixed",
+  "service_sources": [
+    "google",
+    "name",
+    "review",
+    "niche"
+  ],
+  "service_area": [
+    "Swansea",
+    "Kings Dock",
+    "Port Tennant",
+    "Swansea SA1 8QT",
+    "Sketty",
+    "Uplands",
+    "Morriston",
+    "Gorseinon"
+  ],
+  "based_location": "Swansea, SA1",
+  "google_rating": 5,
+  "google_review_count": 45,
+  "google_review_count_sourced": true,
+  "service_areas_inferred": true,
+  "google_maps_url": "https://maps.google.com/?cid=9321565324186853487",
+  "website_status": "SOCIAL_OR_DIRECTORY_ONLY",
+  "website_check_notes": "reason=social_or_directory_host; url=https://www.facebook.com/GPPlumbingandHeatingLtd/",
+  "website_url": "https://www.facebook.com/GPPlumbingandHeatingLtd/",
+  "photos": [
+    {
+      "local": "images/01-places.webp",
+      "source_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3kuaPuvX41Dm2w92pLIszbsTY21UOztKHRMJ-dQ-cw_FvmxUuXvP00mZpS4ZUNZZoCF7azQx5TOYh9-phuTl5QP-8_mP06URuq7Xj0WaI-m-CrcuB6A8URZPm2v-_-YG3TgT2qTuor7_IGKaJLeATuvoCrr6KvG3pdi7dF6G0HBnNZhAWAFOWSrMHmDkdH5G6oBowu1v4chhtErLTIPCD15CvVOdBp2GMz6HmHeuvkWzV7VhsM1gw-5BtEctkN-KIMRfkoq6GwYVyBHKHTucEb2bBWlc3vKP4uHaRrzWYml1JlcOy1weuXGrp7N1L22HMTTakESO1PI4z5sSZ0VB5ifxKdxYJN2RilL5FmPzynvIeHKS5510Hkd3U8VxDMn1djefSWORy4I9gf86WD7Z8QKnR6Hb7RPNRYx3qql6GQqNL1EHfXfEzndqlgUKw&key=REDACTED",
+      "width": 1200,
+      "height": 1600,
+      "classification": "completed_project",
+      "pair_id": null,
+      "source_type": "google_places",
+      "cluster_id": "cluster-0",
+      "selected": true,
+      "selection_reason": "Selected for gallery",
+      "caption": "Bathroom finish (same project)"
+    },
+    {
+      "local": "images/facebook/01-facebook.webp",
+      "source_url": "https://scontent-lhr6-2.xx.fbcdn.net/v/t39.30808-6/679035381_1568312301965227_1924799480495679252_n.jpg?stp=c0.169.1536.1536a_cp6_dst-jpg_tt6&cstp=mx1536x1536&ctp=s851x315&_nc_cat=105&ccb=1-7&_nc_sid=8a6525&_nc_ohc=ckEHRiU9MxMQ7kNvwFs4Xhd&_nc_oc=AdqRlulgB20ObPRNnf44AWw_EPCA4rPR8jSdKorg0dY16MWJB0CsnFz5Zwu-zqqjHV0&_nc_zt=23&_nc_ht=scontent-lhr6-2.xx&_nc_gid=bXeYg4Vxje0Dhcs-vwns8A&_nc_ss=7b20f&oh=00_Af_vfTBy-BmBI2CK78dhKoBTC9JE3zgm-pe-ZqJod7DvfQ&oe=6A2F1047",
+      "width": 315,
+      "height": 315,
+      "classification": "completed_project",
+      "pair_id": null,
+      "source_type": "facebook_photo",
+      "selected": true,
+      "selection_reason": "Selected for gallery diversity (verified Facebook photo)",
+      "cluster_id": "cluster-1",
+      "caption": "Heating pipework (same project)"
+    },
+    {
+      "local": "images/facebook/02-facebook.webp",
+      "source_url": "https://scontent-lhr6-2.xx.fbcdn.net/v/t39.30808-6/684221561_1568312225298568_7201774796594162299_n.jpg?stp=c0.169.1536.1536a_cp6_dst-jpg_tt6&cstp=mx1536x1536&ctp=s851x315&_nc_cat=105&ccb=1-7&_nc_sid=8a6525&_nc_ohc=l4LcGI2ookEQ7kNvwHjhShv&_nc_oc=Ado1OEpT9OBbs6aoENkyequqXqvEzlIjZBNpEbGKrBhn_0kSTQKtZmnl_HruzO8W8_s&_nc_zt=23&_nc_ht=scontent-lhr6-2.xx&_nc_gid=bXeYg4Vxje0Dhcs-vwns8A&_nc_ss=7b20f&oh=00_Af_E0hXX5qrvjNgsfBdyXTgfnC1MLrgEPM2Wx8IjRDiYfw&oe=6A2F1826",
+      "width": 315,
+      "height": 315,
+      "classification": "completed_project",
+      "pair_id": null,
+      "source_type": "facebook_photo",
+      "selected": true,
+      "selection_reason": "Selected for gallery diversity (verified Facebook photo)",
+      "cluster_id": "cluster-1",
+      "caption": "Van and local plumbing work (same project)"
+    },
+    {
+      "local": "images/02-places.webp",
+      "source_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3mv1qGOrNuJUvaHY1QfSVldz1B27SazF3Q6s4MQAaKam99wH89V0ho29BXJqlbqFuqdJ-rHTzcDlUyEF1Q1n_RjwiMSnpfwT2WSQpAORf9xcin5X1e_YZyD46eNs9HE_va2ikbn5V17GgxSgosGIlXDY4SC3CmHW1mOUUyzuIPLMI3bm89S_jvb-ZFUXcCqo9qLK3b8QMDyRAhSLeqPFORIZtUg9_bbuxHx77F0AKYqmF4vxeuxYyY71E3oIMhC3VW-w1SquTQH5GHQrW62uvSfGT4qpI9HB56L6FBi_MZy_C74MUN_4K3zFLpCjN_-ebOFm6l7G89sLm-JExJopiD1WYAl6MNh98sWlYLVl2ICd1tTdljjsCw5LJngyTvmXbJ44rG216urz4WKy32OqLpicdosleetxGa1RvHKodHR_cfyMI0F_iTeujNNlcbf&key=REDACTED",
+      "width": 1200,
+      "height": 1600,
+      "classification": "completed_project",
+      "pair_id": null,
+      "source_type": "google_places",
+      "cluster_id": "cluster-0",
+      "selected": true,
+      "selection_reason": "Selected for gallery",
+      "caption": "Boiler pipework (same project)"
+    }
+  ],
+  "reviews": [
+    {
+      "text": "Have used several plumbers in the past, with varying success. Some were expensive, some were unreliable - it was always hit and miss. Thought I'd give Greens Precise Plumbing a shot as I needed a new toilet and hand basin plumbed in. Callum was great, he explained the requirements for the job, provided an excellent quote and crucially delivered on the agreed costs and timescale. Highly recommended for being reliable, honest and professional - they even cleaned up after themselves!! Great job Callum and Greens Precise Plumbing 👍",
+      "reviewer": "Chris",
+      "rating": 5
+    },
+    {
+      "text": "First Class service from the Greens Plumbing team. Responsive service, easy to book and kept me updated re time of arrival so I didn’t have to wait in all day. I had a toilet that didn’t flush and a leak in the kitchen tap both dealt with very well and efficiently. The quote was spot on. I have already booked them in for a new boiler. Would definitely recommend as they could teach some other companies the meaning of Customer Service.",
+      "reviewer": "Heidi",
+      "rating": 5
+    },
+    {
+      "text": "Called greens precise plumbing and heating in the morning after I had a leak in my flush and didn't think I would be seen to at least the next days but the guys came over a couple hours later and sorted the issue out. Payment over invoice was also a breeze. Couldn't have had a better experience! Highly recommend them",
+      "reviewer": "Rhys",
+      "rating": 5
+    },
+    {
+      "text": "Excellent service from start to finish. Quick and easy quote emailed, turned up when the work was agreed to be started. Really nice shower enclosure installed and also fixed my toilet which wasn’t originally planned. Lovely, polite and professional boys did the job. The price I was very happy with too.",
+      "reviewer": "Teresa",
+      "rating": 5
+    },
+    {
+      "text": "Callum and his team arrived on time, did a great job fitting 4 radiators, 2 of which were very tricky. Finished in super quick time and tidied up after themselves. Very impressed and definitely will use his services again.",
+      "reviewer": "David",
+      "rating": 5
+    }
+  ],
+  "social": {
+    "facebook": "https://www.facebook.com/GPPlumbingandHeatingLtd",
+    "instagram": null,
+    "youtube": null,
+    "tiktok": null
+  },
+  "gallery_layout": "completed_project_gallery",
+  "photo_classification_summary": {
+    "completed_project": 16
+  },
+  "brand": {
+    "colours": [],
+    "logo_url": null,
+    "logo_local": null
+  },
+  "facebook": {
+    "url": "https://www.facebook.com/GPPlumbingandHeatingLtd",
+    "verified": true,
+    "confidence": "high",
+    "verification_reasons": [
+      "Phone number matches Google/lead phone",
+      "Business name matches or clearly aliases Google listing",
+      "Location or service area matches Google address/city",
+      "Public email visible on page (info@gpplumbingltd.com)",
+      "Intro text matches trade and local area"
+    ],
+    "phone_match": true,
+    "name_match": true,
+    "location_match": true,
+    "status": "OK",
+    "needs_manual_review": false,
+    "logo_path": null,
+    "logo_source": null,
+    "logo_palette": [],
+    "assets": [
+      {
+        "local": "images/facebook/01-facebook.webp",
+        "source_url": "https://scontent-lhr6-2.xx.fbcdn.net/v/t39.30808-6/679035381_1568312301965227_1924799480495679252_n.jpg?stp=c0.169.1536.1536a_cp6_dst-jpg_tt6&cstp=mx1536x1536&ctp=s851x315&_nc_cat=105&ccb=1-7&_nc_sid=8a6525&_nc_ohc=ckEHRiU9MxMQ7kNvwFs4Xhd&_nc_oc=AdqRlulgB20ObPRNnf44AWw_EPCA4rPR8jSdKorg0dY16MWJB0CsnFz5Zwu-zqqjHV0&_nc_zt=23&_nc_ht=scontent-lhr6-2.xx&_nc_gid=bXeYg4Vxje0Dhcs-vwns8A&_nc_ss=7b20f&oh=00_Af_vfTBy-BmBI2CK78dhKoBTC9JE3zgm-pe-ZqJod7DvfQ&oe=6A2F1047",
+        "source_type": "facebook_photo",
+        "width": 315,
+        "height": 315,
+        "hash": "3891ba66be7cefaeb8f71967b222a1617a39b6e4751355210d05b22c1b16c417",
+        "cluster_id": null,
+        "selected": false,
+        "selection_reason": "Pending gallery selection",
+        "classification": "completed_project"
+      },
+      {
+        "local": "images/facebook/02-facebook.webp",
+        "source_url": "https://scontent-lhr6-2.xx.fbcdn.net/v/t39.30808-6/684221561_1568312225298568_7201774796594162299_n.jpg?stp=c0.169.1536.1536a_cp6_dst-jpg_tt6&cstp=mx1536x1536&ctp=s851x315&_nc_cat=105&ccb=1-7&_nc_sid=8a6525&_nc_ohc=l4LcGI2ookEQ7kNvwHjhShv&_nc_oc=Ado1OEpT9OBbs6aoENkyequqXqvEzlIjZBNpEbGKrBhn_0kSTQKtZmnl_HruzO8W8_s&_nc_zt=23&_nc_ht=scontent-lhr6-2.xx&_nc_gid=bXeYg4Vxje0Dhcs-vwns8A&_nc_ss=7b20f&oh=00_Af_E0hXX5qrvjNgsfBdyXTgfnC1MLrgEPM2Wx8IjRDiYfw&oe=6A2F1826",
+        "source_type": "facebook_photo",
+        "width": 315,
+        "height": 315,
+        "hash": "e466ebd83a09aabefe8d3cb687e31e6d09fea027ad92566ac2835cc27cae9681",
+        "cluster_id": null,
+        "selected": false,
+        "selection_reason": "Pending gallery selection",
+        "classification": "completed_project"
+      },
+      {
+        "local": "images/facebook/03-facebook.webp",
+        "source_url": "https://scontent-lhr8-2.xx.fbcdn.net/v/t39.30808-6/680495535_1568312208631903_5342638469605649250_n.jpg?stp=c0.169.1536.1536a_cp6_dst-jpg_tt6&cstp=mx1536x1536&ctp=s851x315&_nc_cat=101&ccb=1-7&_nc_sid=8a6525&_nc_ohc=nlrC8mmnvQgQ7kNvwGFYNVx&_nc_oc=AdqSkj4OKgeA_nuNOtDZ3yujFo-vGnlD7tUZPCAwQQjW8u6mhVyhzBgCBz_nQQ4Zkjg&_nc_zt=23&_nc_ht=scontent-lhr8-2.xx&_nc_gid=bXeYg4Vxje0Dhcs-vwns8A&_nc_ss=7b20f&oh=00_Af8DCOB1ohe_uiH4uwr9CrLSeHLSLuGLSZDzgpUXgveQPA&oe=6A2F08C8",
+        "source_type": "facebook_photo",
+        "width": 315,
+        "height": 315,
+        "hash": "712cdab29345390e514c1017dab4a5f707919e1eda70f113a61e86ac1a81a092",
+        "cluster_id": null,
+        "selected": false,
+        "selection_reason": "Pending gallery selection",
+        "classification": "completed_project"
+      },
+      {
+        "local": "images/facebook/04-facebook.webp",
+        "source_url": "https://scontent-lhr6-1.xx.fbcdn.net/v/t39.30808-6/678617177_1568312158631908_8170117831138146876_n.jpg?stp=c0.169.1536.1536a_cp6_dst-jpg_tt6&cstp=mx1536x1536&ctp=s851x315&_nc_cat=102&ccb=1-7&_nc_sid=8a6525&_nc_ohc=4AlLrja8Q8oQ7kNvwHmD1kK&_nc_oc=AdogJI8LtkGELQqtZHz-91Ur_nZYXWDdJd0eA-KvKdZ_1UBvImScyKNzQbDiAVfFFaA&_nc_zt=23&_nc_ht=scontent-lhr6-1.xx&_nc_gid=bXeYg4Vxje0Dhcs-vwns8A&_nc_ss=7b20f&oh=00_Af-kxaF92ginfri8SAmXpAG0RYk6hk58zPPyK5gDTA5VSQ&oe=6A2F0CA2",
+        "source_type": "facebook_photo",
+        "width": 315,
+        "height": 315,
+        "hash": "7faba741215f67ab59e5408f6beed490082d72c03b98cdeaacd42b36691dc56d",
+        "cluster_id": null,
+        "selected": false,
+        "selection_reason": "Pending gallery selection",
+        "classification": "completed_project"
+      },
+      {
+        "local": "images/facebook/05-facebook.webp",
+        "source_url": "https://scontent-lhr6-1.xx.fbcdn.net/v/t39.30808-6/681432742_1568312031965254_8524333730322715589_n.jpg?stp=c0.169.1536.1536a_cp6_dst-jpg_tt6&cstp=mx1536x1536&ctp=s851x315&_nc_cat=102&ccb=1-7&_nc_sid=8a6525&_nc_ohc=zJEXQPX2jlMQ7kNvwETKhfo&_nc_oc=AdpXyrLXa1CpLijnagpnHaFQo6NY75ZZzyuhs5mIttiaJY2WzP9TTugG1F7UFQAKGiw&_nc_zt=23&_nc_ht=scontent-lhr6-1.xx&_nc_gid=bXeYg4Vxje0Dhcs-vwns8A&_nc_ss=7b20f&oh=00_Af8YVeEprkh4gd5zLhk8lKWaCo1JGAYOteGqjvk0-GtQ8g&oe=6A2F0D49",
+        "source_type": "facebook_photo",
+        "width": 315,
+        "height": 315,
+        "hash": "dd5f5a32404702e724253d2711e8ebe602e48516b7ac3b5e919d8a4dc362735a",
+        "cluster_id": null,
+        "selected": false,
+        "selection_reason": "Pending gallery selection",
+        "classification": "completed_project"
+      },
+      {
+        "local": "images/facebook/06-facebook.webp",
+        "source_url": "https://scontent-lhr8-1.xx.fbcdn.net/v/t39.30808-6/696354920_1580415844088206_877374939723367501_n.jpg?stp=c0.364.946.946a_dst-jpg_tt6&cstp=mx946x946&ctp=s851x315&_nc_cat=107&ccb=1-7&_nc_sid=09d16d&_nc_ohc=sMe40XceG0EQ7kNvwE98FF9&_nc_oc=AdotP9zDubZKJ8hVqEo4RuT4fHBa9U67VJz0HtZKT3ZmBiz7JlRAVXYy1Mo6bMKO1Q4&_nc_zt=23&_nc_ht=scontent-lhr8-1.xx&_nc_gid=bXeYg4Vxje0Dhcs-vwns8A&_nc_ss=7b20f&oh=00_Af_JyqygtGaOmKMMPt53JO06KOMtj7DUzoHTCSThYxeq5A&oe=6A2F0D83",
+        "source_type": "facebook_photo",
+        "width": 315,
+        "height": 315,
+        "hash": "7dc80560d0294703e7af4fd06a2df95f0f650c69303577ccff68b12b4ec148f3",
+        "cluster_id": null,
+        "selected": false,
+        "selection_reason": "Pending gallery selection",
+        "classification": "completed_project"
+      },
+      {
+        "local": "images/facebook/07-facebook.webp",
+        "source_url": "https://scontent-lhr6-2.xx.fbcdn.net/v/t39.30808-6/680640868_1568312271965230_8836141550113142600_n.jpg?stp=c0.364.946.946a_dst-jpg_tt6&cstp=mx946x946&ctp=s851x315&_nc_cat=104&ccb=1-7&_nc_sid=8a6525&_nc_ohc=-s_SqFYg3i4Q7kNvwGdGYjh&_nc_oc=AdqkewruOHMRDrCfG8a_AY1vPv_orRzOwyN01qtu_NqWHvMQJjUfOKJexyC5eVBanqM&_nc_zt=23&_nc_ht=scontent-lhr6-2.xx&_nc_gid=bXeYg4Vxje0Dhcs-vwns8A&_nc_ss=7b20f&oh=00_Af_ySMEdT03tO1PwJOyivUNSZs2TrV0SFVpBLgs0FkyZfw&oe=6A2F221E",
+        "source_type": "facebook_photo",
+        "width": 315,
+        "height": 315,
+        "hash": "9880fdaeda1f6985477286681e9891d374415f2dac590e4d253af8e2c1da7231",
+        "cluster_id": null,
+        "selected": false,
+        "selection_reason": "Pending gallery selection",
+        "classification": "completed_project"
+      },
+      {
+        "local": "images/facebook/08-facebook.webp",
+        "source_url": "https://scontent-lhr6-2.xx.fbcdn.net/v/t39.30808-6/684557040_1568312245298566_5352906232483178895_n.jpg?stp=c0.364.946.946a_dst-jpg_tt6&cstp=mx946x946&ctp=s851x315&_nc_cat=104&ccb=1-7&_nc_sid=8a6525&_nc_ohc=a__GsGiUwYsQ7kNvwGLR36D&_nc_oc=Adr0JLNiV0f97x3JmhRL4ENvkl5ZLjLk2zI4FKAZu59CoBT7ttLwdE-FHpi-So_iNx0&_nc_zt=23&_nc_ht=scontent-lhr6-2.xx&_nc_gid=bXeYg4Vxje0Dhcs-vwns8A&_nc_ss=7b20f&oh=00_Af-f7QtmwawGRv52Y6JZrOubj1xHNgALdXdFGq5H6SO21A&oe=6A2F1FFB",
+        "source_type": "facebook_photo",
+        "width": 315,
+        "height": 315,
+        "hash": "b5379717ccb897114af62037105c12cfc70cda6d184c8acace5bbba37892b9dc",
+        "cluster_id": null,
+        "selected": false,
+        "selection_reason": "Pending gallery selection",
+        "classification": "completed_project"
+      },
+      {
+        "local": "images/facebook/09-facebook.webp",
+        "source_url": "https://scontent-lhr6-1.xx.fbcdn.net/v/t39.30808-6/472304786_1106468451159527_8153826825648529242_n.jpg?stp=dst-jpg_fb50_s320x320_tt6&_nc_cat=110&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=pnRkD2Vx2dkQ7kNvwH4iy5e&_nc_oc=AdpDkAhUkGnWpe2v3i3F0hLYeZ4ngflyZGnR8fTmyTjdIZq145q7mFS34OEywpg5J3M&_nc_zt=23&_nc_ht=scontent-lhr6-1.xx&_nc_gid=bXeYg4Vxje0Dhcs-vwns8A&_nc_ss=7b20f&oh=00_Af9gHe_wrB2X-YhtS6ycjr0mMKjpV1Q7WIiOLjjdB28uZA&oe=6A2F1F49",
+        "source_type": "facebook_photo",
+        "width": 320,
+        "height": 320,
+        "hash": "70080ec7546d086ac7c2ba0455f7a2d709579333e158ee0290eae88fd6ccb5e9",
+        "cluster_id": null,
+        "selected": false,
+        "selection_reason": "Pending gallery selection",
+        "classification": "completed_project"
+      },
+      {
+        "local": "images/facebook/10-facebook.webp",
+        "source_url": "https://scontent-lhr8-2.xx.fbcdn.net/v/t39.30808-6/695598193_1580415854088205_8341603031885982102_n.jpg?stp=c0.132.1200.1200a_dst-jpg_tt6&cstp=mx1200x1200&ctp=s851x315&_nc_cat=101&ccb=1-7&_nc_sid=09d16d&_nc_ohc=PagPSuwR_TsQ7kNvwFIs4W3&_nc_oc=AdoVMxfa5gc90Z4T2c6jX0M8igcVGfseYCzytdRysfnINKajWELvv0leC2qmH-W7jI0&_nc_zt=23&_nc_ht=scontent-lhr8-2.xx&_nc_gid=bXeYg4Vxje0Dhcs-vwns8A&_nc_ss=7b20f&oh=00_Af8SjSnwPBvIgnxd5SbiEjdGXuVfVfFOdC5C13u7xNS69w&oe=6A2F08F6",
+        "source_type": "facebook_photo",
+        "width": 315,
+        "height": 315,
+        "hash": "43f32d1e41707833bac28f53ad1d419d3fe8abc84237e0f9184b7deda74677c4",
+        "cluster_id": null,
+        "selected": false,
+        "selection_reason": "Pending gallery selection",
+        "classification": "completed_project"
+      }
+    ],
+    "photos_found": 10,
+    "photos_selected": 10,
+    "evidence": [
+      "Log in\nForgotten account?\nGreens Precise Plumbing & Heating Ltd \n823 followers • 51 following\nMore\nPosts\nAbout\nReels\nPhotos\nIntro\nA local Plumbing & Heating company in the area of Swansea. A reliable and friendly service.\nPage · Plumbing service\nGround Floor Room 1 Metropole Chambers , Swansea, United Kingdom\n07309 553552\n+44 7309 553552\nInfo@gpplumbingltd.com\nAlways open\nPrice range · ££\n100% recommend (10 reviews)﻿\nPhotos\nSee All Photos\nInformation about Page Insights data\n \n · Privacy\n \n · Terms\n \n · Advertising\n \n · Ad choices \n \n · Cookies\n \n · More\nGreens Precise Plumbing & Heating Ltd\n11 May\n \n·\nBeautiful finish on this kitchen renovation in The Mumbles, great project to be apart of. … See more\nAll reactions:\n9\n1\n6\nLike\nComment\nSee more from Greens Precise Plumbing & Heating Ltd | Swansea\nEmail address or phone number\nPassword\nLog in\nForgotten password?\nor\nCreate new account"
+    ]
+  },
+  "source_urls": [
+    "https://maps.google.com/?cid=9321565324186853487",
+    "https://www.facebook.com/GPPlumbingandHeatingLtd/",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3nqduCGVRR_2IoNKo47TFUZrggZthdPS9ysEoCXWnn6PXIhex7IqcWpBf61KwQTjJ8luQ5Fr2H926TGMvkTBItnUBTzzoEMNnmplqPIvGb-7AyboHSOJqkEa6F5VdYgki7LT1aTJ56xDdT4_nisDQws6dlDGuGLmwMmB3ZcjKkNuzyXCNhMuoIFkNhOUb-Jx8ikoYc_yrIkD6WxPANNkBsRfvCNsIQhOMzsmV1JISSTvJWmAhUzDSlE8JYgr0YycT3S6GFrV_d7_mSfEIUA4oj1QyFMuMl0vjSpBxyHC-hyxQGKuLnbd0spxWm2MB_bMCc7cAkGEl77TWpYJ8S7-WfeEGDgcW1Rb7M14h7B8_QDfJCjil4xQdMfakp807Rsi9VtVkY8gr1hDEPZ8ooZnZZiMbYHnYD1G9ducd-2azU-PHgoBsOM5zbBG2IjKw&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3lk-BGLVWLJJMbmQrtCTA3LKB1SsGC5sFliNmUf5xLIIzN9edkXH2L1e_6_KPeTG1mkt2DkRcQ852tr275UXOh1Ublvn8xR6cZz1tHwfW4KGPqRhOZr19XwRPEVzxd9Zb-K_psW84vMAAUPr1bd5t4NGxy4h3sLK6ivTbKZ8CjS5Kt7DS46j4uiFK7Icj9mTucAWqfFmHlSLwGtxUZZ4pZzr5-AVQ3uoQo9K8a4zXyiMeW7z_7Z3-cFVAoAULgbkg8foJtgzMXCizVo6N9XqsnlRHKOuXeqWDsrekhOUq6DoHILRbJYR5Kl1b1JEUWXbVujJET5yx1Gbl4wvtNhi1JfRr4rnUCcHYXqol1mQvaPcOOyhQkVIzxA6re33jH64z-phipmIDJgFuLnJnWweICckj2sE95WuHCdfhUtL_a30ceYCDm80JcCjxVrHa7T&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3mdoOnmbM2i3Ds-opSMRCkTDwkg04McL60nGIsXllth2FWpEyUeeKyPW8ALlsbUCitHQne1flcM7Rsj9Z3RsnJEk-uMbZq0yXcFeqOUmkVdSO404nfdgYMFGsVnSRcRukIAA5v3gkFmxzkswnWHOEmUdfUU_AwQ2dHJWNcP-CbA5jF-FueDGLkX1qCklf9ddUx34dG3BMnenXUFqGT28x2CHddQ9E7mtxsNld6gHuciJ7Mlt2SZFG2bRDPQeQ_jtuG5jLVXxA56X8OPuEXP-HolnVCWPiqo8tiisB0lNRWjeDxuAqbS_OylWK7KugcADPwrvRLP77NGFS0SOItyaoOxXd74NrbOeOpXJ4ShpmQvke4jyXjYh3UjvA72S0kX_vf4VCvBSCYDQ5sQh2Ff2_qv8sG64-jAMPSwR7U-jlQte8WkTT4brC5BFvYVrrk4&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3ktS0GdGR3wbYCWZKyyRsYiFn2D-VGLcc6jBrza7oqWOKRj4EqGGHbm96V0xM6W947OFeh_Yv7Voqw8HlRRAVWA8E3Gu-06dlLibAyDw866FAop_y_mLZ-2xK4QKsKjFWOPqlASmglaLmMhHBmK3YFbeqX4kAKP_618o3eTl3IjTWJqhe3Oe_pHxKpeerg5d0koOOmRucmHZ2hw0cuiXBVY3v8ROciy_R4_OVCQYa3q2yj1T9FAbb4RD2SpdHx7gaSbSaXPrpIdj81ODAYZ-hm5l9oM5MsBU7S1WtjoxFziRircdmcRWFVpy5lubcEQeouTg8RcMudwjvHic5hxtokNYqTyGdPaQlO5kAsTHmn_fQVfHUn7_Fxa-weKCGdD-WJI_WRUgm9fs5iOJfixApGcLxP-lNiW3A7kfCC1UO1aYQ&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3lb4Esl7f0RsNrQwnlw2l3b68j0MSPLitZS1R-KcxcjhMNmZ-_d3_9KS1rmBEANyDk2sOCBzW_cvYg9SR0BTDHQrnzQjSpD0_ADzqFMrcCQE0R_3FbxJxf6ga4okPw884MMYyQdwQHX5tsUxsCRvOXaa5fTR0VZYA8gAVFM2XFAHw5i-88aIwx54SBc53d5GF1pM0k9yYZFPeLg-0rfmB_9q_0i7h_lWuEQHTuFV5BDGQGQc7hc7S5A87D1gvE-vJjAUdLuYepUIkC_Z8ikJ_Av8sq3g0aZksYYKVtXnSB6khd1VdHT0UscArAywFNTQNVwZVJ185MtXEwyF3O2F0R1RCbKVr6TKOYn-55uJpWJcvnFWNxMkPL0awPBYcHpApOBQnvMPlQVL5CaL0ERNpYMje7WDUV06rSlR42ZkLxpEh-06soU1DjihYC5vfrW&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3mQ6I8cfHMKIPVJZrGFzcaNejTNj4fB3ZtUEOoQBzsLnk-eOobthmuCsopME97CfW5ilnzydmydpvFeRd6geRqPoTHUlPZ-weknIbFa_HoYchHVGdthF3wnsbrXplRXshrUGkHMJT5hiphvcK6_iygjfZ8iueZ43EyTmwqzy5uyp1Y_NAVH015mzZ0qUButWxvYQip4YJ--5peqWfYsh20PMxSg2ziS2HWnplPPiGcCsJfmDuf11u1Vzbj8AvbVfC9Cx4fxJ1T-niDnqOddGZYWVHqUBWsGkquANJuyCDdsKOKRt7pjrqHCTYQYQrPTBwMhZImoWRvFQgNiA8jLwhacNAfX80KY4dHO51OOiQc96bTnkO7tWXhcld8il_K_cz5WKmwwrvtyhgnxf9QOBY_5aR4cAansl1drj71v9XTl3_OMeXcLcImI2FZ8dLre&key=REDACTED",
+    "https://scontent-lhr8-1.xx.fbcdn.net/v/t39.30808-1/509255498_1286303053499488_4249240694401161535_n.jpg?stp=cp6_dst-jpg_tt6&amp;cstp=mx2048x2048&amp;ctp=s720x720&amp;_nc_cat=108&amp;ccb=1-7&amp;_nc_sid=3ab345&amp;_nc_ohc=yVz08eshSqYQ7kNvwHNjSAt&amp;_nc_oc=AdrhrgMLVUvMOiQTgyY8iz_VcW6DtmMj6BsrEtPnxXtkZYWejDmevzue4DiN7KzHGFI5MrJact9JGnAInpsFEO2g&amp;_nc_zt=24&amp;_nc_ht=scontent-lhr8-1.xx&amp;_nc_gid=w3SJyWsodSoJLEwduKUoiQ&amp;_nc_ss=7c289&amp;oh=00_Af-Vkj76BbKhd8j4_Pe3VvxkUrhUXEMfKcEJk9_v4UJo7w&amp;oe=6A2E59C7",
+    "https://www.facebook.com/GPPlumbingandHeatingLtd",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3lZmtg2IVTbJo3fnxBOr-N35nQ5i2hzhhCxIbRDnfXi36YXuwW7Uf352Gn3obCfBLZmtPY7C_ozQuS7BY_QKgXbpadfaaDWXjTQNPsDr1183XQZswo8r9abnuADkG2RyG3nWt0VAwtNUrv7nZt4D9-nmM6L7bvxelekNa4ZX-8JV9YOmixRqdH__z6KuSdhV5bo5w0_E5-QNjZD9UqGeBpAToetSCGxpeilECR1_fRyyLNrELViP4tpd7r9A9WgAezrcw2mV0TIVCU7fCBam4TnkfKJoBn1bsG1kyxwmQvXTPDLdf5te92LahvQPBvdoPnWbGKZz9h_GlsF1mDQnnnEDv2ii-BZDpGiYgHAVhs4p38ToF37ftMCEe40npknkOuR3BhOj5bXn8iimwryP7mmy9Xn6jQLbNvwfJWcbO87Z4EP9Y4g2dXdg7fjhA&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3lLTu9xPvydNYF1Oq3KYhYQZlv7FdwVDKWHiekzPXG8Ja5w-fYQXEn_-mBSZfJ5Fc5_Ibio8s08ue4ybfZV0RZF0VdVklSKftazY_HiS0pOtbliMQIRVqfVWyYaVQLqVLjd2Mym8tGFUXRjD6undfXQlmlbYKVtSfs0sg9Tit9AT2O6l1EHNo964y7o2wQrLIe9VnlsKlJlmjH1opUBOpjBGvY-dzN_0IrXEPpBiXsOnwea_xxsN1z1LpRu4XOw4PIMwy1vXriQh67VGmPXbSFbxAKZxFifD7JY9wf4it2dSukenEocoiXYpdhGaempmaCD2KucjrL58PFKAzE6sWuV4BvjX_40aXFxObb2EZVzDyj_rHdsHk1B2jaVtXHfD1YfnBRJJC2kMie13gTg-Fbe9MpuGYlQeD1lXaiBcLugzI8m_vURx8dBV_0yFvAU&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3lMY7Fm1joEGhmnAWi2_bQ3ISpXEozF8X6-DZU_64jQQNeRsX7K4rKG0oXvR1YOhLApp1q9bKx9IO8b0LvD1dUrPGrSsGTvXVH2onw_pCiRsYQ4Z_Q5bHLfBjaeZoqMNB691aGEMWT2D85YhmTyV9sVzcrVe7CC-J1pZIN3TIKjLIWUrfEYHvR0fAonpVW8PKuqtAjU6vZvx17F5AGmzT4zCWgOyqNFSKgiemNbr0hI0sbqFMpxhvVuC9L9tfdYcSnpMp21cwhqjiVWxfvY1yHt2QiNS1UfOd6nFLAotrowjv2jBRgQRSIam6IrqW9U73GfLTkC8AN73f-Nj-Cu6RmXnEwDrBvwwKUBxDrdhLVp0iLtpamRARIzea8WVsURS-VCLlY6MSep0mzYEU5vuZX00cSs6em9EyuFnyg_jlVquEDP-PSA6GVGgouCfJy8&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3kta3ZfgBhvfyNxxBl9hwjPVoVH2hylYAwfgmFUc6HcfFG2xyIo0Z9jSbRFCF0nbYjPB8rNvZOIwg8z1AedKynHs5WB7aZLaykyvtiL1OX5XHmXnZ8lgq7Q1jnoc7SQ-mi7kH5uhMnsSQrJqq77XpbDU_0aCrL43iTYvll-u4j9zE9NwJWnhYeWqlQXWl0zvmuk_YbxQNPUwQ3o8jsJ0KpVMgTFIMyaoWBTQdOaRblmFqbp8hVtj9Rpf6c1uFXUwbi-VxJVb-0Lvjj-WbcihX1y0d6ITlKlAdUA3hZ3mrMIxWL4Cw2J9HRHSnLCXkc64WTXj70j1RrgTTjvPynmzUX99Vo4XaM030MWwnzuGZeMS6LkPooDGn03I3Ji6Mojq3j7KBgB3Np2iU1PN04vzGHq3Q0vHQkw-95DCOlU7w0pwQ&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3lTpGtGt4TStclUQeUege5ziB8Y1szq12cO91cQCP0V8LpjiuI8YmaA_BKjygCMVCRvhRgjsNwDg1B9481PGXSlwV5E-CQlEvBVWopSQ-au_b-zeQbSdzAVdGCFK7tdRTW3AlGy41YT8xX3VaviFaiueq2NzRGiYSbEF751St0qy9mSrgO9MBuyDT4ca0rl94x-Onitx2nevA22CKb6LGBpjYk-DfC-ouXD8Dt4tgs_-9brzsCaXiRM87-3qHLqBxaCM9NcwCpoGImm2HGEnfTeIHUp7mQK0-gnCH7YBUnffA1kanfX9ha9RhrwWsXrmGtQ7oIz1JklBdeRafsyOw2xvZ67eaJYH9KhIGqT9wa1JEiEelFAZK9nQmrDALG46ZX6dqSbbffCsbJol-AMT0rEYpL2A4u7km6p3Eji6PNh7JVnpeFhgUEEF3RSg5li&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3nHcNaoGKSEVaaGFsJZJBO7Vlye4LoT8fhbSAR2L7GRw6v6kidF14bhSOLao3fTJAI8oj6Qz52roy1msXc5Z8A0EOlfMuRX5tagRtN2zRVxkVDJiipKvuMCSO4i2WE8Y0dO_tRf8olzgzzo4afnrSzo87u9WfgO5n2igiBiRnmCic3kiO_yofxL1i69OoFOeVitqJHF-Q6JP2-Xy-DlqyV-wvUsLrSJg2njoKhgjVQoI7L5OgCCsBVtYtyrFVgx9OvAcDeO3LNzhXtOlXWiTmbGnf4Aezl9c3askc8287EeSW87ImtfN0uOEiwO0Q7M3IzxJX3f9btGLDFw18XVjuuFTbcRk0Eg-uLIkx_bmJqbv1hStQbztnfJDig44Pof-fLhLz_3t1aL1RCN6iVJ_GMpCAICT7eToWsJRFK1yYUiRMncqwKaK2rJ3H8ZvdD5&key=REDACTED",
+    "https://scontent-lhr8-1.xx.fbcdn.net/v/t39.30808-1/509255498_1286303053499488_4249240694401161535_n.jpg?stp=cp6_dst-jpg_tt6&amp;cstp=mx2048x2048&amp;ctp=s720x720&amp;_nc_cat=108&amp;ccb=1-7&amp;_nc_sid=3ab345&amp;_nc_ohc=yVz08eshSqYQ7kNvwER0BtI&amp;_nc_oc=AdptoXxXdqTVftm6f_K6OOGCa9_s9jg6w7keA4G5TmuCnzFR9USANa6xFaE2xBkBBDA&amp;_nc_zt=24&amp;_nc_ht=scontent-lhr8-1.xx&amp;_nc_gid=pnVzBApiSDSKb1KMAN9Jdg&amp;_nc_ss=7c289&amp;oh=00_Af9mzxrXt1q4ur5ewHYnCXkBfWM3WyaGwJAyiMunNmBx5A&amp;oe=6A2F0287",
+    "https://scontent-lhr8-1.xx.fbcdn.net/v/t39.30808-1/509255498_1286303053499488_4249240694401161535_n.jpg?stp=cp6_dst-jpg_tt6&amp;cstp=mx2048x2048&amp;ctp=s720x720&amp;_nc_cat=108&amp;ccb=1-7&amp;_nc_sid=3ab345&amp;_nc_ohc=yVz08eshSqYQ7kNvwER0BtI&amp;_nc_oc=AdptoXxXdqTVftm6f_K6OOGCa9_s9jg6w7keA4G5TmuCnzFR9USANa6xFaE2xBkBBDA&amp;_nc_zt=24&amp;_nc_ht=scontent-lhr8-1.xx&amp;_nc_gid=HgeqizJwGwa41effOn6Zow&amp;_nc_ss=7c289&amp;oh=00_Af-MKOPiz_BO3A2g-K-2Myg4cWDta4zDei7KDxcy-fF3ug&amp;oe=6A2F0287",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3lsxAGx0cUwYI7Z2BDjSGkLtLrEI3ob_ozJhhOagtOuS946ziOctXViRU8xJcViylkOMzlkR0DV3iAmObIWbwuikDMcY5rT35S0koKSlfOepJO3SpgLpiw5WRVNvH3on1AElJGT9m88Dy4B_P20YSnBfVmIOckIMF8yMotZd671znqeSDBOAgf-pUJJbk0h38dqrW5VMSiX1MlxhftMg2hr0LT1Gy6NRSGq8Rt1H9EyrGY6Rcio8N-enInkSLWuk8C9XvwzYP9hQhwNZrJFzOJleUgEV3qwYYfDZ62OFzUbkSaKEsAF8CTnlyd04HCiWdqcwpHeDm4mKXj46NXlNZ4lcdSOz0plA1Nciw7ep9hHwozp-sZCUtGTQFdvLVm73_Eh6fCTO-akGbTlYXVtpg0mQ-Whvziq5Q1ViSkMLxRLJeP8ujtLdIvxy5LR9Q&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3lca5sVxY2YaEnYYk-4x60eAqykS5u5FHLrCX0XxEGSUMdvDetRR8iUnvI1C6fcFwU8BdlEwYpq0faSkGZQ7HQMsA3a5zL10zcm5mvhB1iVksTJaXNUWhyK-0Rtylrllu85ji1iIeCUa83cjlZuUGOw7fqy2MjLZKJ_jenC1uuHmOMCyi9DZUfTDjxe1JZ800Ou84POr_RYz4iE_w39Rtkf8z9D1HZDjozzJcEPLlravME-NRa0UumSyYFWFuJ1iIcFMVP4TNI0n26_Tgs7xdf4MySmfXp7dlfmiWlAfzrI5awuDMj0Edm1AEpnkz8mQfdDri5F5pYQGu0zqslk7nry5c2sjsPlW_qN5w2Rokybpa5ixxoDpwVJCi-yUJGwF9JUlB-lHWXcC3IyHi21wBE4K9_r2QtiWf8Hqp3-VajK0fbkzz-ONcAJA7XAe7Q-&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3m00OD80GR59RE15zgKis87ClOSBsK-7K1kMl4aOErbYgNVrTuLBJO0sjpP93DsIx4w2pL3Ylhx05rIOr9cagcfevckcQAHnG3wZ2r0DfUZ7a32r8Kx7uzrwGQK-YoOhMbLTBt3FDs90qcF-4ijJXzpEwsCJ41sOwQ-FxkHHowF_4jBuqsKRuOHlKbP_W7grDTpBYcIzRsRjqS-Qn9qumv9nbTrGjqlSufvubMgJm5b0ocKIbomEDJNrwwyBA7vc2guafLMf-1v7yNUKyV_S0AbbJMCJDFL2YwtwKjoy0M8er4dYSP_YDDFulBXXVA3BmoyWgvDCwboQ05sY-aBoYqUIXFgKzB-5wMc_mQU34IYDvAo1arDiCadIdeZ2xp6JUKvy64Wuu_lHayT19vXEOCa8PhBKWmZU2GU7GGjfF0d3mL5nzskwNl9sY8i4IF8&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3nG5q0wB6fuDG2oeK-YINKuJZSfo6Q73wwkUfk4WWQ8Lgl0pSu7-LCXvRR9HWsmHEyAhVmihi7toM4FlP9ZmmmTf_ZyPca8R70o8HFB169GOqwRMTXw2Gs_IhHbMUfDxMTHTk8AHhI2deuXj30bWbsNOB4QafsuVrBuw4yvXK6We3TOed764QD8HGm-YtbVAXNLtyPfvBITm-eEN0ra56HSZmywlwV2uoTbQuBhAWqsHXHWksvXnUhPX6SnxdJC2l3N8h3bkgeO5W6hg0FYmBm0N8tq1QLHIeqBtCL94ExtQIGvNFObaJyuTJJeTyTz4Vc18tsrjhVNqXljiIE2GFdX6hZSRm5SxA-F6KVt1jg3gxc-ZKSVNn8TCncVCmjrq9sfoQt3rCPqbDIxGXjhz834vixauyNkeXZ1qDlXC3M0xQ&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3n0yStb1ICzjgVCKYB8YlyI3_HqapDlVp-agD3HQkT2zKl7PUkBM9_8Qa30X04WUGx7VMJMIeWU4UC5_x_0PEi2VZWbO-C-kU_l_1nUHq0rDbrDCjmFhEfm5ya7s_-yiv3_-TI4kZwgTTE9g3O0gjuKuuje9ukMAjWIa79GvMY8ZiFdEODJSVvgHhBp-yqN01irLpf0WxEQaZXg7NrW6nTzBEXePAlR_QCJkR34kpZhTHMqef0G-4VUcLc_qPaUDmQYGY7syEha9EAylYCvK2yAfwoyR81tDdtAN6e6qj_AwdgEoWCtjCrLwdtVCwPdU5SH7E2a6_mY0oIkqBPq4fx4PLRvwkxZWZ3Gfgks-PAFeLDG10imhaPnsXnucsjK01NO_oedU63cOsRYcHd5atxz3RPxVdvD1xyjVb40_E4b8Pkd-x5QBvQvtVWGkhND&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3lbLlGwzV3YQJwNewWFdqClmawp8EyRTDDEjkZY0OhYnrL2O1nErt3GCQ8lnZsuzyqxHf4WnEV0gjTWaYwgX6yoVLRfTDXZcCiMAPMgooCPo-Nma9D34atiEO2poOvotQlLns9gwoObOc5S-to7CKqtrpMq9ctIJDjJFiKK0M2R6BvP00pXSWbJqZW_pQhJyvrRLz6gEAJkZKop9Opzk-KAvqwWGHK3DkakN34ViLiWUSj6hH12bBJBp4DJAqISqsEcEpJjRcBmPkxBdBTCayw_3yErUWJF5WRWfEzUfAnZVH3Ynj0B8n1dy7eMX4sJCcBeWmFrzvH8vFRzkZ8U3sfcBKxvptJF9hKWKcz6qXO5JEgZn4scbZlsOCrrcNKzLW8EbCGdEHKHtwZozQSKIV05F8acr90AfS5-kfPcp3X7aESUGs3aI5p17NLKvjQq&key=REDACTED",
+    "https://scontent-lhr8-1.xx.fbcdn.net/v/t39.30808-1/509255498_1286303053499488_4249240694401161535_n.jpg?stp=cp6_dst-jpg_tt6&amp;cstp=mx2048x2048&amp;ctp=s720x720&amp;_nc_cat=108&amp;ccb=1-7&amp;_nc_sid=3ab345&amp;_nc_ohc=yVz08eshSqYQ7kNvwER0BtI&amp;_nc_oc=AdptoXxXdqTVftm6f_K6OOGCa9_s9jg6w7keA4G5TmuCnzFR9USANa6xFaE2xBkBBDA&amp;_nc_zt=24&amp;_nc_ht=scontent-lhr8-1.xx&amp;_nc_gid=yrgP2sLy2T16wr7yoW6N1A&amp;_nc_ss=7c289&amp;oh=00_Af_az76FPsJGrZiZlbCXEb8_BVG2R7qOVSbJWQefSxOwjg&amp;oe=6A2F0287",
+    "https://scontent-lhr8-1.xx.fbcdn.net/v/t39.30808-1/509255498_1286303053499488_4249240694401161535_n.jpg?stp=cp6_dst-jpg_tt6&amp;cstp=mx2048x2048&amp;ctp=s720x720&amp;_nc_cat=108&amp;ccb=1-7&amp;_nc_sid=3ab345&amp;_nc_ohc=yVz08eshSqYQ7kNvwER0BtI&amp;_nc_oc=AdptoXxXdqTVftm6f_K6OOGCa9_s9jg6w7keA4G5TmuCnzFR9USANa6xFaE2xBkBBDA&amp;_nc_zt=24&amp;_nc_ht=scontent-lhr8-1.xx&amp;_nc_gid=0XLWUoBCZOgL-H1ncHWN-Q&amp;_nc_ss=7c289&amp;oh=00_Af_p_bfxbPVqavcLWfO3mVg6QGPWUXZHSsEV49bihrCHQQ&amp;oe=6A2F0287",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3kuaPuvX41Dm2w92pLIszbsTY21UOztKHRMJ-dQ-cw_FvmxUuXvP00mZpS4ZUNZZoCF7azQx5TOYh9-phuTl5QP-8_mP06URuq7Xj0WaI-m-CrcuB6A8URZPm2v-_-YG3TgT2qTuor7_IGKaJLeATuvoCrr6KvG3pdi7dF6G0HBnNZhAWAFOWSrMHmDkdH5G6oBowu1v4chhtErLTIPCD15CvVOdBp2GMz6HmHeuvkWzV7VhsM1gw-5BtEctkN-KIMRfkoq6GwYVyBHKHTucEb2bBWlc3vKP4uHaRrzWYml1JlcOy1weuXGrp7N1L22HMTTakESO1PI4z5sSZ0VB5ifxKdxYJN2RilL5FmPzynvIeHKS5510Hkd3U8VxDMn1djefSWORy4I9gf86WD7Z8QKnR6Hb7RPNRYx3qql6GQqNL1EHfXfEzndqlgUKw&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3mv1qGOrNuJUvaHY1QfSVldz1B27SazF3Q6s4MQAaKam99wH89V0ho29BXJqlbqFuqdJ-rHTzcDlUyEF1Q1n_RjwiMSnpfwT2WSQpAORf9xcin5X1e_YZyD46eNs9HE_va2ikbn5V17GgxSgosGIlXDY4SC3CmHW1mOUUyzuIPLMI3bm89S_jvb-ZFUXcCqo9qLK3b8QMDyRAhSLeqPFORIZtUg9_bbuxHx77F0AKYqmF4vxeuxYyY71E3oIMhC3VW-w1SquTQH5GHQrW62uvSfGT4qpI9HB56L6FBi_MZy_C74MUN_4K3zFLpCjN_-ebOFm6l7G89sLm-JExJopiD1WYAl6MNh98sWlYLVl2ICd1tTdljjsCw5LJngyTvmXbJ44rG216urz4WKy32OqLpicdosleetxGa1RvHKodHR_cfyMI0F_iTeujNNlcbf&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3m30ONvbfu0_hmPvKCyciMQ7xRGWMV3kN2qLmjFunfGaLD7927nsECUKOQh8YjSMVPQlFPCsn46ZMl6AhS6M2VRfIx_JjFYsGz2NNV8HmxGt6iBeaPyxDj1I9cXgjIsUWGuYYeJl4GRrf8rGMxY9d93OUkBMg_7xomzQ-oGVJlt9JWjCq7kQXGAC5llZWAePpgCdrWpDVlPh-RiZ1DpVfsmDXCCXCHCb9Grmfs6wR_vn1Y50KxnOZaVR3kLrTgwBMubpKGbQEr4JkX-Z1JKrwCEaZrb3c2bvyUZcI7odq6mtuhyjePMxeAvlLhrgQYU0JISlYElBPovxp4EpmC0R3JQOIsdK99c1CChB8-7-db3FiPYeU69mMc4-8zrgNAMec9x-yS3uzx8ba5z9TVvJiDShr1gAlSbRt-oZNXP1X8NyOqUehA4bGJxgV56xnT2&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3lsNKcIGLMFdLXFXeKon6kHxo_cHoWx_BV0M4WZUQBaKHEKlc29PkV54r0VlcAeEexJb2m93NJKKsgkPgvU8GKVSxu1fIFZhjOjDoQmRO9VDtDH5M8x8ot11taj3u0Gj4Wox3Gq0RNu6Gq6PEEOV1EDJ3aGi1OjX49W7mgPUp4WBDW2PxXS4g3iydY6bo9Fl2L0-K5DZhf6I-deVb6ne8xmK9070IoPAOYko6tFtFr2-R3KPdFoCO4lBfeLvDAf7KfxVHhhhEIdRkY6fHdMbdi-acWQOJuwc2Z-_NwC8iRpMNKNtZBE096Sr_mFpmaKURN-hCU2qxMWcDFleEe13VUN6ya2BRfSu2vXYIluMj5wDAvSXlurgTsrNDyCS24c9S1Nh-qPP6UVXqOuFS2cAn55XgD0rKzgrVbxK_Mc-wu2xA&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3mp0fOKUm-CuMYoKl5MMxRAAlGSdAd6KL-OC4Zz6ALTARYRfCNoRmbZU96uM8olyenpynJCYzUt3FxsuxLwuIHq_BRSJI0OSr1CblLnSwTyQnL5MEQhzgX-SgeMAdcTnUM6h8Ca-LFkU_PW4eZb6l76NOkZjMfcn06J76dmHH_f1Ar2WKPMzIei9zCfM21NtnbC2LREWgKrWJaXNElsNvqThJOTqNTd4vJbgyju6-iXdE4tEFqlrlLjDW7Df25LYProttJcVDC2HCUONeIMS8T2NiJeWDcn7ReyW-B99mL62yNTJUg77T6De1wUQbnvEdXCz_slUcDs3ZniK2vktmLeovf_YIvk83Y5Ip5kwq7-rfxWtaUxAg6T1JbOa9HVjfry7bxUIDCxa3IyEfHHPn-LruspJdzcTRasu5Tyc4wRdNGs8iI5MjXf_NX_iInD&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3mcRmF4ehkam9SUNsFZeOjDySb2mT1c3b5klCTlF8NEVKFCPDwVKu1Qi6KkHGIBtMfMyQQ8i12YEhKmZsxNR4blWltOqJwMh_5aizowqxBsnywpyEVgIbSzGM8PLmulvMcROhRTj2qEf5DfJd1i-NoYnCx7QwIxLQslQj5y24S7E6AT_H-wUo2l_nQy8IkDMh0f6ZNTw_ht6xcuOkPvLFNVt0pAGr29Pa9Xp6NWmh1vRSGwmzeUhJsJI9Z13iT1l-0la9rUQUA2zmi1ipo3Y6rGTsbv78T27l-2Qd8_OBZFlJVQpEWKOcfRPyv7uO58W4Pu688rDGkOX_04F1nHHXumXzaIJHmPkOgfMe6TXrSATPgMgE5_7K-jsENsk-JyAZwDqy0279pVklwz2idWdIRQSlWOPhtwgXrMgPOojr2DeFWjkm-pBtSUnUm5_kNN&key=REDACTED",
+    "https://scontent-lhr8-1.xx.fbcdn.net/v/t39.30808-1/509255498_1286303053499488_4249240694401161535_n.jpg?stp=cp6_dst-jpg_tt6&amp;cstp=mx2048x2048&amp;ctp=s720x720&amp;_nc_cat=108&amp;ccb=1-7&amp;_nc_sid=3ab345&amp;_nc_ohc=yVz08eshSqYQ7kNvwER0BtI&amp;_nc_oc=AdptoXxXdqTVftm6f_K6OOGCa9_s9jg6w7keA4G5TmuCnzFR9USANa6xFaE2xBkBBDA&amp;_nc_zt=24&amp;_nc_ht=scontent-lhr8-1.xx&amp;_nc_gid=xLQ1pMbYVNWo1-e24oM1VQ&amp;_nc_ss=7c289&amp;oh=00_Af-IDArzEu7t8pMIII36sS30t7rkdvj0s9s4m2H546qqXQ&amp;oe=6A2F0287",
+    "https://scontent-lhr8-1.xx.fbcdn.net/v/t39.30808-1/509255498_1286303053499488_4249240694401161535_n.jpg?stp=cp6_dst-jpg_tt6&amp;cstp=mx2048x2048&amp;ctp=s720x720&amp;_nc_cat=108&amp;ccb=1-7&amp;_nc_sid=3ab345&amp;_nc_ohc=yVz08eshSqYQ7kNvwER0BtI&amp;_nc_oc=AdptoXxXdqTVftm6f_K6OOGCa9_s9jg6w7keA4G5TmuCnzFR9USANa6xFaE2xBkBBDA&amp;_nc_zt=24&amp;_nc_ht=scontent-lhr8-1.xx&amp;_nc_gid=lViT1sePtPGv4jD1-npR9A&amp;_nc_ss=7c289&amp;oh=00_Af86Sv4a9mq3MHIjcxxT6m0NUmBTUQfvCSOb8e31o8KjTQ&amp;oe=6A2F0287",
+    "https://scontent-lhr6-2.xx.fbcdn.net/v/t39.30808-6/679035381_1568312301965227_1924799480495679252_n.jpg?stp=c0.169.1536.1536a_cp6_dst-jpg_tt6&cstp=mx1536x1536&ctp=s851x315&_nc_cat=105&ccb=1-7&_nc_sid=8a6525&_nc_ohc=ckEHRiU9MxMQ7kNvwFs4Xhd&_nc_oc=AdqRlulgB20ObPRNnf44AWw_EPCA4rPR8jSdKorg0dY16MWJB0CsnFz5Zwu-zqqjHV0&_nc_zt=23&_nc_ht=scontent-lhr6-2.xx&_nc_gid=bXeYg4Vxje0Dhcs-vwns8A&_nc_ss=7b20f&oh=00_Af_vfTBy-BmBI2CK78dhKoBTC9JE3zgm-pe-ZqJod7DvfQ&oe=6A2F1047",
+    "https://scontent-lhr6-2.xx.fbcdn.net/v/t39.30808-6/684221561_1568312225298568_7201774796594162299_n.jpg?stp=c0.169.1536.1536a_cp6_dst-jpg_tt6&cstp=mx1536x1536&ctp=s851x315&_nc_cat=105&ccb=1-7&_nc_sid=8a6525&_nc_ohc=l4LcGI2ookEQ7kNvwHjhShv&_nc_oc=Ado1OEpT9OBbs6aoENkyequqXqvEzlIjZBNpEbGKrBhn_0kSTQKtZmnl_HruzO8W8_s&_nc_zt=23&_nc_ht=scontent-lhr6-2.xx&_nc_gid=bXeYg4Vxje0Dhcs-vwns8A&_nc_ss=7b20f&oh=00_Af_E0hXX5qrvjNgsfBdyXTgfnC1MLrgEPM2Wx8IjRDiYfw&oe=6A2F1826",
+    "https://scontent-lhr8-2.xx.fbcdn.net/v/t39.30808-6/680495535_1568312208631903_5342638469605649250_n.jpg?stp=c0.169.1536.1536a_cp6_dst-jpg_tt6&cstp=mx1536x1536&ctp=s851x315&_nc_cat=101&ccb=1-7&_nc_sid=8a6525&_nc_ohc=nlrC8mmnvQgQ7kNvwGFYNVx&_nc_oc=AdqSkj4OKgeA_nuNOtDZ3yujFo-vGnlD7tUZPCAwQQjW8u6mhVyhzBgCBz_nQQ4Zkjg&_nc_zt=23&_nc_ht=scontent-lhr8-2.xx&_nc_gid=bXeYg4Vxje0Dhcs-vwns8A&_nc_ss=7b20f&oh=00_Af8DCOB1ohe_uiH4uwr9CrLSeHLSLuGLSZDzgpUXgveQPA&oe=6A2F08C8",
+    "https://scontent-lhr6-1.xx.fbcdn.net/v/t39.30808-6/678617177_1568312158631908_8170117831138146876_n.jpg?stp=c0.169.1536.1536a_cp6_dst-jpg_tt6&cstp=mx1536x1536&ctp=s851x315&_nc_cat=102&ccb=1-7&_nc_sid=8a6525&_nc_ohc=4AlLrja8Q8oQ7kNvwHmD1kK&_nc_oc=AdogJI8LtkGELQqtZHz-91Ur_nZYXWDdJd0eA-KvKdZ_1UBvImScyKNzQbDiAVfFFaA&_nc_zt=23&_nc_ht=scontent-lhr6-1.xx&_nc_gid=bXeYg4Vxje0Dhcs-vwns8A&_nc_ss=7b20f&oh=00_Af-kxaF92ginfri8SAmXpAG0RYk6hk58zPPyK5gDTA5VSQ&oe=6A2F0CA2",
+    "https://scontent-lhr6-1.xx.fbcdn.net/v/t39.30808-6/681432742_1568312031965254_8524333730322715589_n.jpg?stp=c0.169.1536.1536a_cp6_dst-jpg_tt6&cstp=mx1536x1536&ctp=s851x315&_nc_cat=102&ccb=1-7&_nc_sid=8a6525&_nc_ohc=zJEXQPX2jlMQ7kNvwETKhfo&_nc_oc=AdpXyrLXa1CpLijnagpnHaFQo6NY75ZZzyuhs5mIttiaJY2WzP9TTugG1F7UFQAKGiw&_nc_zt=23&_nc_ht=scontent-lhr6-1.xx&_nc_gid=bXeYg4Vxje0Dhcs-vwns8A&_nc_ss=7b20f&oh=00_Af8YVeEprkh4gd5zLhk8lKWaCo1JGAYOteGqjvk0-GtQ8g&oe=6A2F0D49",
+    "https://scontent-lhr8-1.xx.fbcdn.net/v/t39.30808-6/696354920_1580415844088206_877374939723367501_n.jpg?stp=c0.364.946.946a_dst-jpg_tt6&cstp=mx946x946&ctp=s851x315&_nc_cat=107&ccb=1-7&_nc_sid=09d16d&_nc_ohc=sMe40XceG0EQ7kNvwE98FF9&_nc_oc=AdotP9zDubZKJ8hVqEo4RuT4fHBa9U67VJz0HtZKT3ZmBiz7JlRAVXYy1Mo6bMKO1Q4&_nc_zt=23&_nc_ht=scontent-lhr8-1.xx&_nc_gid=bXeYg4Vxje0Dhcs-vwns8A&_nc_ss=7b20f&oh=00_Af_JyqygtGaOmKMMPt53JO06KOMtj7DUzoHTCSThYxeq5A&oe=6A2F0D83",
+    "https://scontent-lhr6-2.xx.fbcdn.net/v/t39.30808-6/680640868_1568312271965230_8836141550113142600_n.jpg?stp=c0.364.946.946a_dst-jpg_tt6&cstp=mx946x946&ctp=s851x315&_nc_cat=104&ccb=1-7&_nc_sid=8a6525&_nc_ohc=-s_SqFYg3i4Q7kNvwGdGYjh&_nc_oc=AdqkewruOHMRDrCfG8a_AY1vPv_orRzOwyN01qtu_NqWHvMQJjUfOKJexyC5eVBanqM&_nc_zt=23&_nc_ht=scontent-lhr6-2.xx&_nc_gid=bXeYg4Vxje0Dhcs-vwns8A&_nc_ss=7b20f&oh=00_Af_ySMEdT03tO1PwJOyivUNSZs2TrV0SFVpBLgs0FkyZfw&oe=6A2F221E",
+    "https://scontent-lhr6-2.xx.fbcdn.net/v/t39.30808-6/684557040_1568312245298566_5352906232483178895_n.jpg?stp=c0.364.946.946a_dst-jpg_tt6&cstp=mx946x946&ctp=s851x315&_nc_cat=104&ccb=1-7&_nc_sid=8a6525&_nc_ohc=a__GsGiUwYsQ7kNvwGLR36D&_nc_oc=Adr0JLNiV0f97x3JmhRL4ENvkl5ZLjLk2zI4FKAZu59CoBT7ttLwdE-FHpi-So_iNx0&_nc_zt=23&_nc_ht=scontent-lhr6-2.xx&_nc_gid=bXeYg4Vxje0Dhcs-vwns8A&_nc_ss=7b20f&oh=00_Af-f7QtmwawGRv52Y6JZrOubj1xHNgALdXdFGq5H6SO21A&oe=6A2F1FFB",
+    "https://scontent-lhr6-1.xx.fbcdn.net/v/t39.30808-6/472304786_1106468451159527_8153826825648529242_n.jpg?stp=dst-jpg_fb50_s320x320_tt6&_nc_cat=110&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=pnRkD2Vx2dkQ7kNvwH4iy5e&_nc_oc=AdpDkAhUkGnWpe2v3i3F0hLYeZ4ngflyZGnR8fTmyTjdIZq145q7mFS34OEywpg5J3M&_nc_zt=23&_nc_ht=scontent-lhr6-1.xx&_nc_gid=bXeYg4Vxje0Dhcs-vwns8A&_nc_ss=7b20f&oh=00_Af9gHe_wrB2X-YhtS6ycjr0mMKjpV1Q7WIiOLjjdB28uZA&oe=6A2F1F49",
+    "https://scontent-lhr8-2.xx.fbcdn.net/v/t39.30808-6/695598193_1580415854088205_8341603031885982102_n.jpg?stp=c0.132.1200.1200a_dst-jpg_tt6&cstp=mx1200x1200&ctp=s851x315&_nc_cat=101&ccb=1-7&_nc_sid=09d16d&_nc_ohc=PagPSuwR_TsQ7kNvwFIs4W3&_nc_oc=AdoVMxfa5gc90Z4T2c6jX0M8igcVGfseYCzytdRysfnINKajWELvv0leC2qmH-W7jI0&_nc_zt=23&_nc_ht=scontent-lhr8-2.xx&_nc_gid=bXeYg4Vxje0Dhcs-vwns8A&_nc_ss=7b20f&oh=00_Af8SjSnwPBvIgnxd5SbiEjdGXuVfVfFOdC5C13u7xNS69w&oe=6A2F08F6"
+  ],
+  "notes": [
+    "Facebook verified (high): 10 photo(s) from public page",
+    "owner_name not found in public sources",
+    "contact_name \"Callum\" from 2 Google review mention(s) (medium confidence); owner_name not set",
+    "contactability=CONTACTABLE",
+    "email found, email-only outreach if WhatsApp unavailable"
+  ],
+  "missing_fields": [
+    "owner_name",
+    "instagram"
+  ],
+  "location_validation_status": "LOCATION_MISMATCH_NEEDS_REVIEW"
+}

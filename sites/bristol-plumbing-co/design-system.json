@@ -1,0 +1,21 @@
+{
+  "slug": "bristol-plumbing-co",
+  "business_name": "Bristol Plumbing Co.",
+  "direction": "solid-warm-editorial",
+  "trade": "warm-heating",
+  "fonts": {
+    "display": "Fraunces",
+    "body": "Work Sans"
+  },
+  "separator": "◆",
+  "colors": {
+    "accent": "#4b2500",
+    "accentForeground": "#ffffff",
+    "background": "#faf8f5",
+    "foreground": "#1c1917",
+    "muted": "#e7e5e4",
+    "mutedForeground": "#57534e",
+    "border": "#d6d3d1",
+    "surface": "#ffffff"
+  }
+}

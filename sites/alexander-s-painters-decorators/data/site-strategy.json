@@ -1,0 +1,49 @@
+{
+  "slug": "alexander-s-painters-decorators",
+  "business_angle": "Alexander’s Painters&Decorators: heating and plumbing with quality workmanship",
+  "customer_praise_themes": [
+    "quality workmanship",
+    "clear communication",
+    "strong recommendations",
+    "heating work"
+  ],
+  "named_people": [
+    "Neil"
+  ],
+  "distinctive_phrases": [
+    "Having our upstairs box room refurbished",
+    "He decorated the room fully, including the walls, ceiling, woodwork and the radiator",
+    "Neil is a true professional with attention to detail",
+    "He is very friendly and a perfectionist with his paint work",
+    "Neil did a great job for us"
+  ],
+  "strongest_review_quote": {
+    "text": "Having our upstairs box room refurbished. Neil came over and firstly removed all the historic wall paper (layers of it) and then saved us money on a plasterer by carefully filling and sanding everywhere that needed it. He decorated the room fully, including the walls, ceiling, woodwork and the radiator. Neil did a really good job! He’s also a really good guy; professional and also personable. I would definitely recommend him for any decorating jobs you have.",
+    "author": "Sachin",
+    "source": "google",
+    "url": "https://maps.google.com/?cid=2664396191179093018"
+  },
+  "strongest_proof_source": {
+    "platform": "google",
+    "metric": "5 rating, 34 reviews",
+    "url": "https://maps.google.com/?cid=2664396191179093018"
+  },
+  "best_photos_rationale": "Google Places photos preferred for gallery when high quality",
+  "claims_to_avoid": [
+    "Wrong prospect region in copy",
+    "Fake owner or founder claims",
+    "Supplier names as job locations in captions",
+    "Invented service areas"
+  ],
+  "pitch_hook_summary": "Lead with review detail about quality workmanship (Sachin)",
+  "personality": "craft",
+  "evidence_strength": "moderate",
+  "suggested_site_mood": "warm, photo-led, craft detail",
+  "suggested_proof_hierarchy": [
+    "google_rating_reviews",
+    "photo_gallery"
+  ],
+  "pitch_insight_seed": "Lead with review detail about quality workmanship (Sachin)",
+  "trade": "Painting & decorating",
+  "location": "Stockport, SK7"
+}

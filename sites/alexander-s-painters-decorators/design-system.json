@@ -1,0 +1,29 @@
+{
+  "slug": "alexander-s-painters-decorators",
+  "business_name": "Alexander’s Painters&Decorators",
+  "direction": "warm_cream_bathroom_archivo_ibm_plex_stacked_hero_proof",
+  "trade": "custom",
+  "fontPairKey": "archivo-ibm-plex",
+  "layoutFamily": "stacked-hero-proof",
+  "statsStyle": "inline-strip",
+  "reviewsStyle": "single-featured",
+  "galleryStyle": "featured-plus-pair",
+  "ctaStyle": "outline-band",
+  "heroHeadline": "Having our upstairs box room refurbished",
+  "heroHeadlineKey": "alexander-s-painters-decorators-plan-hero",
+  "fonts": {
+    "display": "Archivo",
+    "body": "IBM Plex Sans"
+  },
+  "separator": "·",
+  "colors": {
+    "accent": "#b15c38",
+    "accentForeground": "#ffffff",
+    "background": "#faf4ec",
+    "foreground": "#2b2018",
+    "muted": "#efe3d4",
+    "mutedForeground": "#6b5847",
+    "border": "#e0cdb8",
+    "surface": "#ffffff"
+  }
+}

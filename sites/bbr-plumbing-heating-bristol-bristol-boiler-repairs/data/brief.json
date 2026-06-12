@@ -1,0 +1,402 @@
+{
+  "business_name": "BBR Plumbing & Heating Bristol - Bristol Boiler Repairs",
+  "owner_name": null,
+  "contact_name": "Chris",
+  "contact_name_source": "google_reviews",
+  "contact_name_confidence": "high",
+  "contact_name_evidence_count": 4,
+  "contact_name_usage_allowed": true,
+  "possible_contact_name": null,
+  "phone": "07854 476888",
+  "email": "bristolboilerrepairs247@gmail.com",
+  "phone_type": "mobile",
+  "whatsapp_candidate": true,
+  "email_available": true,
+  "whatsapp_available": "not_checked",
+  "contactability_status": "CONTACTABLE",
+  "contactability_reason": "email found, email-only outreach if WhatsApp unavailable",
+  "preferred_channel": "email",
+  "address": "4 Crantock Ave, Headley Ln, Bristol BS13 7QW, UK",
+  "opening_hours": [
+    "Monday: Open 24 hours",
+    "Tuesday: Open 24 hours",
+    "Wednesday: Open 24 hours",
+    "Thursday: Open 24 hours",
+    "Friday: Open 24 hours",
+    "Saturday: Open 24 hours",
+    "Sunday: Open 24 hours"
+  ],
+  "services": [
+    "Boiler repairs and servicing",
+    "Heating and radiators",
+    "Bathroom installations",
+    "General plumbing repairs",
+    "Bathroom refits and shower installs",
+    "Vehicle repair"
+  ],
+  "services_meta": [
+    {
+      "name": "Vehicle repair",
+      "source": "google",
+      "direct": true
+    },
+    {
+      "name": "Building & construction",
+      "source": "google",
+      "direct": true
+    },
+    {
+      "name": "Boiler repairs and servicing",
+      "source": "name",
+      "direct": false
+    },
+    {
+      "name": "Heating and radiators",
+      "source": "name",
+      "direct": false
+    },
+    {
+      "name": "General plumbing",
+      "source": "name",
+      "direct": false
+    }
+  ],
+  "service_confidence": "mixed",
+  "service_sources": [
+    "google",
+    "name",
+    "niche"
+  ],
+  "service_area": [
+    "Bristol",
+    "Bristol BS13 7QW",
+    "Redfield",
+    "St George",
+    "Easton",
+    "Bedminster",
+    "Clifton",
+    "Kingswood",
+    "Fishponds"
+  ],
+  "based_location": "Bristol, BS13",
+  "google_rating": 5,
+  "google_review_count": 31,
+  "google_review_count_sourced": true,
+  "service_areas_inferred": true,
+  "google_maps_url": "https://maps.google.com/?cid=13367882432848614513",
+  "website_status": "BROKEN_OR_BAD_SITE",
+  "website_check_notes": "reason=blank_or_near_empty_page; status=200; final=https://bristolboilerrepairs.co.uk/; title=Bristol Boiler Repairs | Gas Safe Boiler Service, Installation Repair",
+  "website_url": "https://bristolboilerrepairs.co.uk/",
+  "photos": [
+    {
+      "local": "images/03-places.webp",
+      "source_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3nCKJLs3tEh-jKhS4hr6_cWj_9_Yly9sh1oP8RwCJhjeiWy9hIA3bRFr0MHrjE9qU5i_wsxaA1SK06SnryK2ybYPL4SBd3ovTuTqzOP0lj9XBW42-UxXyZB9zQKV7d5wAzi5OMBo94I-tsRmuVpDTnEx_UaGObmn23IC-iirLpykLpnQRqpjseZ4ts_fzOrW1u05Vbq-bLCxMzHKUIQH_T1qj9rovMSp-3lLU2WPyTXrW2ArDmnHd3gFFt32oOfd74Bncr39YRxDG88y1NI4BwOqIjR2jl9yh6cEF_hBfiznkuHr4ZhvBvq7FViAbZ7vbsztL76qV8Z04mfQhm6f-LGPyT19_zy1LKGUhmMjZc9-8Omla2ANaUquueKQz4c2b8dB5d-6z6hDWTxTOeUtYVqKV7UUsOFx88wxJm23ZuxCw&key=REDACTED",
+      "width": 1200,
+      "height": 1600,
+      "classification": "completed_project",
+      "pair_id": null,
+      "cluster_id": "cluster-0",
+      "caption": "Bathroom finish (same project)"
+    },
+    {
+      "local": "images/01-places.webp",
+      "source_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3kQhGUL-7e1TPqfLezW_AMcIEq0NT_UTpbkz2p9_pifKp9XrTp-4LoqWbNsUD6wC0AFZjf9IriIF_1zAoJwnOdloNAVlA3lmPdYOnJ_InHt-SSI0pZDdxVJdtgiFF1CgHWws-FeMnqtZ9sgHMAxdVIVmrYe7GTL3MqB3KT4Bo5WQ-NPuMlIsQJK7dMR8TLpHrJ_8I67xtarfhR8TZ77wD9V9LTQQpQUUkvfsMDifcw1ki9udfsoCezcvPArhpUYd528yrwsT0ffJZd9aleylgKrl-AtCGmttFbqCHhPPUd_xrrdgHjrawrYJD82wwjS0ZQMW2k6VOp1eCLXqcZON9-DjjHzV6FpLjz2uXE7uMmNrmsVhbLLRBnJZ0Z8qb6k7MYVEycsWlcv3O7QQnKzUKe8ndpVMITQr_dBAm7yiz1DT3WH4jop7qZ8nf_Ot0wM&key=REDACTED",
+      "width": 1320,
+      "height": 583,
+      "classification": "completed_project",
+      "pair_id": null,
+      "cluster_id": "cluster-0",
+      "caption": "Radiator pipework (same project)"
+    }
+  ],
+  "reviews": [
+    {
+      "text": "Bristol Boiler Repairs, and in particular Chris, were very helpful in providing quotes for 3 boilers and guiding us to the most appropriate one for our property.  They also prioritised the work as our existing boiler had broken.\nInstallation was completed on time and the work was tidy and unobtrusive.\nWe have no hesitation in recommending Bristol Boiler Repairs as both cost effective and reliable.",
+      "reviewer": "Mark",
+      "rating": 5
+    },
+    {
+      "text": "Chris completely redid my heating system having bought a house with very old plumbing system.  He was very efficient and explained everything to me as he also installed a Hive and he explained to me how it worked (I am clueless on these things).  His prices were fair in comparison and also considering his level of expertise and experience.  I would definitely recommend Bristol Boiler Repairs!",
+      "reviewer": "sarah",
+      "rating": 5
+    },
+    {
+      "text": "Chris and the chaps installed our boiler, radiators, two bathrooms, underfloor heating and powerflushed the system. They talked us through all the options available and provided installation in a timely manor. All in all very helpful, polite and friendly and didn't cost the earth. We will be using Bristol Boiler Repairs in the future on other projects. Thanks again.",
+      "reviewer": "Michael",
+      "rating": 5
+    },
+    {
+      "text": "Good customer service. Was flexible with appointment times and carrying out the job. Installed boiler and radiators to high standard, keeping me informed on progress throughout the job. Reasonably priced. Would definitely use again and recommend to all friends and family. Thanks.",
+      "reviewer": "Spike",
+      "rating": 5
+    },
+    {
+      "text": "Chris was very professional on his work. Finished it like a champ and was ready to help if problem arises in the future. Will definitely recommend if any of my friends or family, requires it. Thank you.",
+      "reviewer": "Om",
+      "rating": 5
+    }
+  ],
+  "social": {
+    "facebook": null,
+    "instagram": null,
+    "youtube": null,
+    "tiktok": null
+  },
+  "gallery_layout": "completed_project_gallery",
+  "photo_classification_summary": {
+    "completed_project": 7
+  },
+  "brand": {
+    "colours": [],
+    "logo_url": "https://bristolboilerrepairs.co.uk/_assets/images/2ccb484e102662ad55d31a4067888f45.png",
+    "logo_local": "brand/logo.webp"
+  },
+  "source_urls": [
+    "https://maps.google.com/?cid=13367882432848614513",
+    "https://bristolboilerrepairs.co.uk/",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3kttn17q42d0w8TsqQjnhxLBqE4sVOtX0PN7opAQY0VhO0_uysQkcqOch3q8P-WvtagYO9r_IUduJts-kNGmMm38Jqvm-_kcD-CFmyo5vLTKDZBfHt-1H9Mc0uW2SGOY5OBI7wnOFQYqA1V-LWauNBHbBmjqCFC-dmNHZxTADjvjd5UpLVgqD9SYAPUDmnOx4FL0SJJe7u_nJDHCKHrEum9rpcooRTCtTXKhNkGlJqS7nAjnjlsKb1Y0UmVA1Cjx83UAgqXdw6u7WYmQEodYZ0f6x7vo781oTSoFSp3WtgL-97D2wV8wiRxiKQkV7WwrPjQ68ulkL19fEWTBONRooqX_p729XeHZcQk7tamm4E_HpdxJ_itGl3cU38_OOh9Phqhfo9ufKERuJrWOiooVIsDPG-MuO2HGY-XTxpcoFF0uJ_82XaUUuKx3QstEUH6&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3l7gYt4xF0VnMAeMc2L9A3gn0Q7yObIKF1kkTjJcaEP6yX06XUl9axlis58zLdZ7NLvS7eGbUcvOGB80tjOswIhofrw2cJ-Mzb_Durv2rMWRhD5ZkGvLxmP4c0U1YNUBYuXvxmLrYrYNc-B7m3PTvfuCXlUK5J95-G9MGzMB48k9UJeCD5j8jKs4-vkY-K6qDyB1ikfjeOFniIgr_IfAhwmFjwv8q7jb3RRBhgRf94DkCCCwUwGVhn7FjhPLqSkfvaAe-XxnnxIrIMbV53BYrdDTP279ouRp8F2LVr6xgDiywgSWki8YQ9_6CQsNZWZT4MD-XwAgwnI2NN3d6_-GsE2uS3lU8dauIhZJHTREvm7YnrtOixa6r2LnVoToDTyZC7ABEI1Gi3YZakIf4b4bF6ivis4T6s3PeiV2eUtapK7fkYxZwDW27Cwz4tYxCgG&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3lv9XwrdG-Lc__giNYCYlrVuRJdNlABWSGGtcRfA6OXBisPCV463lO84rjJ5vzM0Pv_1amPoUxH5CU-3E-ORmdicT3vgISh9hpFVVzbq4bad9d-9DwRpTjpOipwiEaEGiAVZu4MqRkZw8vpBbNnUT1Wg2rroE1e5kCmDT-mgS9SYFUch-t9THszyJgWk9kRFRmtK5lZvv-PtZu3EesvmjN_JgCeZ6dPCikIWmUXVCG2GW2Gx5zaH-U3jS7-ePMttSd94VeWPQkEnPn1ds9QkU50LKHViG92ZcXG0PRHUkc51rHZbiOiNQBaoRjS4PNpwd_uI2Hjfk3XkgNoY_VSkxSu-gneu_kL9TT-cJI1Umfn2Cv9tH5bbjIsbpn7xU7Wcbvvj-ZvfT2FR9uJDTV1SMA3VG23EHLQaqryEccV76mPlg&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3lejV5OjZtOdlc8VoGEeNPm89pgimH26mFf963Nk7zX9m-jvGkH1fZTo9HRvI5dRa-jqehWs_aiUwjpMmrBPdZtsjtbZ8S1kEtHnW4CS12ZdHCm7PlzbNGgFuG3kp8PKDF7Rfid_rvS2ynrsiIy77w3zSOH6dgjhDsqXW9MVYBoZ-2pxkd5JarlFm-4PXBWKDxmxIV8HuoxhGag_ThGGdbCC9Aps7BBzljHpqmxcOBe_oAHpjbUhXfINCHnCFvBGzQJ5DYfYq4d2uFiy3ny3VeR-hJRgP5hqzQsWlbYq8Ios94w083colnili7buu2JxVWzUt3MW-xxly5IHVOtt_APfKO7lctSiAgsSgxBfT-OGsMLVUVKFcReGZew9co2pSJw1He8mjD0zoI6gsyAikv43ZJk4nS9tzYO9362S5IxSg&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3kEEXx1bIM8hu0P4oarotHdL0neS4HL-MNrml6RjuG_fwkuaIfGzWUbSVXJNWE9rfr20iUvoKLTBUr242N2MsdE-d7CgTHVqEzyMbVUwwl67T8aU0gMd8nAsOezzMMe2CUbNQbUq2r-Zaj3Pu-TGri_20kByREj706jPxgQHJcuE3NGmH2sFA1ybTa8qDmPxfo7grkc0NKEJl8ah4_Ioe4-CknizTom2PKLjxcIi4CCLUI2vTZpLLAEdy1ket7I4L6slWZywpU_261hkocbrIHg6oruuClYphil3gujo1ZYTWNT2st3YDBScsJ9-zNAHhFxRhV8GSKV7HCaAnzetGwJ4tJIVYoDvfpTsOCy9bUIsws914Q3Huji-_mpVxnEKVTq9MQMd8PPi-PJTrwoB4mtqHdBgRXLYY_DelWQ0a8v8dRG&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3m7tvHsq2CMGmNqJq9W2lG7L-OKzneXq3dKvvQ4Db-t5r3srastmU_MKfl3CpvIJuWD4Gaxpa4Re_0ADKQ4ILxMMZXgQryw7Rx9UF6f2zH2i6S4hJrqeAkQ8dnoF1JMz_wIBW-GULmBLw_LvXPNLWbm4_ez2D3Of04TipMs_CnaQv8z6y3f82dJM3TPQPBOkyZvy6Kk9ObZ8qTTnw9mJrFdCsM_8Smu-5Hi-XxVoSwFHhla2HL2w-Y2l0d8ZGR0BjOpDNvUuTCCe5Q832TiRYNuU4iYyqGuqXDR-1vRE03LROiKBAjKzmJIgIkxa0fwwa4XMYtinSaCcqS01olmx88Jr1y4fAZVKRo4z6H3t3k00jfpBXtwh0BURP84SbusCCQpA69qXFYBMHjeQlrQR4RkYzwOjdrFo4nOG4kJ12A1DA&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3kxM0y1aXEpaEAuj-zGgj-MotAilRcQ-CjTG_75c0hNPtUVgVRTtd04eBGvJa-fS1LleTXUyzCnMtwDUEE9w9kgklSjGTRpNBuDoPn2XgS6vzwpmINzCtXfdcVbK5rkgRULSrg_kT9Zz19BUUX1STg7m3krA6m_ml5pSsz5SUcHyFc1b_FfpIviKft2S364-Kl3We2_77kwaat621VVeUHdfkOD5QPQgTRN-YNbcuYRzoEXjV8OzgrraUKDfvj784rCa2MVhGoObOLj-RsU9pEltg9fk25--EJ3xjwUEbjjUlXT7DHLiqvOFsPUstGd-FEUJlyb5jAEuqjBogE-2l1zuY09MgtB6rgOmgI_zxLjdFH_tmjFSBrJ2E3dIIz-HtS4xcFRXtGVI4-6iBN4yAqpeKNtOO1T3XbhgljNeF1reaI&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3mDXkhEoBFZxgoVHvBNYRJEMjRdawyAFMeYmSK3R_yrSnXozB6J9Z2iMDEqOMDnJI76KjSi79TGQa7M7RFARnG3eGQ6PUOnLuZ2TNS1JNu_lscermoISicP7omQCoqZFXbRJQlmL4mvmL534i5nx6IQnxZaEI4g1eOwsRIsJJBWdHPxLmktVcBgRQZcNLGltCKlI6I_BlRTDyatWqPVyk0qZFPxHvL1_tXCLh0teV-X5MMsJSkhWhfLQSiXZkJEarpheV8kdbW-4g0OeGBMom9cDA0zuw3TP_BObTnb0to8HzhAmSqVy4a75RVPhvHYMf7FRyV4WblmprxLm_ROQa_-qzOOfZs2vmCwlworOTfTZsNTyutgyVl5K-XFqn2qLO_LcCXmbHKyuU-y7qeNp4yUin_R0T1poRQh38cs1lxnY50h&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3nmLAZmPLVm-Ud-33Ve0_AsWjxhG9_GBM6W0zoqrpZD42uS4zdlg8G3eN1uuegPFKqsauhxvzpwVVaIrQk5IsOJyk-GPtAITAwb38U6GpoK9WPZUUCb2rE0ZcY6BmA1bwPUijBb3A7xKFMyppVn5f6bTZApd_LUdaVrR7VsLhAibu5Np-2ljhWkbA3BD0PFRathB7DiQWOhtGUGyw4Bi8vmKKOSeqH-qiZmcukgiQ2U2EzG0mK1jgwysnISwobP-VB8rrVgjFfzOadEg3820a35JoIl6og5_8LjYxbwU36QQRVlIV5ZMRkcyTsDZTo4XOuiKLBCKaw1jq48IB4vbk57XZAqQ97qd_Shm0FOgkrY4-sBY0GatCylX9UgZcArnDPdXDvugL66vZEM0wgVFM8WYJe6lrkZKt_B_i3HrmKhmQ&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3kifUf8x1tIcSVwB6hiqhIat1zwBmpsIEyCtL5Jp9SHypRhC9Z9jG4p5niHy5MwVNMbee1uQb-ltmL_CSpt0oDLlwF9mQxZO6LImwrUQl5CgiG3zZ7IIB1U8BvWM1jgqCY3jxd9NfNqodKosPyRjzLMRLaBiurlhgAehWVp0sqj32Qnlzh90QtGr2ZW5SR0KEvzKX4Aa0mbhBYKx5DomFuof0ECR-51BdZ756H5ovjkNeiranCn1ig_ABcAktSrWq1I2Wl9gkZQ7AvOBRnbfLZHvFxXz1nj2FuqNBHGzRq407-PWRcnUIJAT1vDp8TMl65CcT1GbZkXCyVewqTY89xc8CxlXnUNlEDcnUcPrIN-jS7CDbAdHUl6bJ03u7W7E1G6ioMyUNESAwa8GAI8lNM09_UoI7Gu_uLDWWvutm_9s3RM&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3lUWb8BRjkzuQqutwmkiMrBqZQ7G5qaut2ovELwk7Us2YeVvOCRYeqTp9yCg56ofon3CjQ7GPUFhaErcAJYwR6KjPheG4BoMt_55GHXoIOGEWdlvsSm5lJdVMPkz8X1IIveNPDW-GVAjm-2EGQLYPmctFhjQYs-VyaT2Z2PlXxqMxu7yxpFv7wxRN7lGpQt4XLEstYgO5fXo0AHbYWB_4UeJv3Kk0OQgd6XP623zWyOthmNKBOwTfaznxcaKggrhzd65kSgnvcEO6qw2FiAxhlnGbdPkOY6YrR4a1GVz_Xf4cMv7AEmMbl7AwIJGrbptYkyLijKC5SKtGra85x_B3K5E_bawn7jZ_PSAIa3hyrv5glSOZcpUTKfJ90K-v4esm8EqIPdxepkIjzfQmLFVUDifMSIqtYcGWfD2VnI_Hy2X_SCFdzDPhaVG-fyJphL&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3l9QJNwu2cuiY6e1jZBzM8atbHBkfEWrlLvZvU757OdknXOzmN8Q2ZSncXQqmPcnLlE9w9OfF8vJGO9vj8a876z1055gHVQXLBbuweRKoU-civsbN7KkGMdBiGXS8TavfB52LPGqoYnRU3HuY_iwrqMWV5XNszBKC1Xz3q8jPU1g07oAvY0TNUAB5ihYEGiryF83wZdy-X7Z1e_li--SCxC04tDqa6BHvYSjsizhCho_ecENd4ja3LcGLga8cgS3OMWJKcG3i-hZL4QJABJnutSWdPhrtM6CMTzv1s9M_FX2Q8ldAU93HOx5lY-vbqT7aKIfiaze9iiWSxxSedHpydae9G3GszQ6dg8LbLp-uUi2EkXNX7UsidkH59cww0YPyb1olZDdbJhE6PmDlMR4WLaBmOXQVCQFVFVtoTY20AAG4fSHIv7dGSyi9__FzIJ&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3m77O4rSNTbvo4CTSQPUOvwDeBNM2AR3DzZqsErzAnQ6M0riusUyceuJgVTiYGhpbXh2e8ne_WLS7UDDuHx4t9RwUFP5y6obSilwwGCNRxomKhP9JzvqsC1nDERhpKu0XrHG4I5BEcjMOBupGJm_tU4dhKkskGeb8oHDOcodoTBudC37eXzcTQwXNkstacg3vs2WwP8RdwZobi6ocM1OcD427_ldYogUntA2_YFdVZ9oFzC6QgRnxlgISLHZsEl6K0ATda4UvlWaK-SMd8G3jUrgD7aGlv28YOxvL_YMquaGBxXPRaOQ1CwtW4xDU7017RCIrr6L26exCE7O_m-QQ-JenTg8cZcsIBwrXwPkgLsvoFaDLM_OO4M4qvKzqUYyCJ4VnwHO_EWpNVKRijbmqEWti8GKiBFwA-qkbth51Ciag&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3laCQgSnA9S6BQwBy5twcCKRaOyJEEt6ZQb2STHYB-B7aIF3D4YQkm8LlqU6iPTqhgEwAIGSpk-Tmx1NVaLzQ-gBHXzeFvNEzS_natUON0T0RlExDjAiv1swyw6fVKWGn3UQxMnCHlEQMIrNk3BjOCAytjUyoFjy2AMovOv7smFtKkOlWJ2S0ekqT2J4WN92FaxgZeeYPu1z-ssAED0fA1vyvsnuN4syfVNNtXuGqv5fiZ7AJDhPD4jAGyi262kDJG-W9wjioa4Wo09zbna5-oeUbbMROW_sANMCL-A6pMeW1BlX6db5NSGuXz7VVLipTHAw3JMrAFyROetY2IjO6qpHLIwEnW2asjo4sEjtaJcV5-JTAaumIYiWtfceYiqjArVv_8S3KKoAQm1E9h5n7aq4zSMDRdpPloNxS8YKgtiig&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3kqEmJ7Lq2TfA_QE-NelDGlMCwWUxDZKxCz6nuUv69zpGWwCBlnpF9C0usjuXzF9xodmN-w2zqFD7uNF9VIZZiyoTXgFGNBCuKHeUlq9X-st5kZ1R8qzMDHuDIlpBfl5F4Sg1dmZKHfRBxXvFUIcjzzxXeilh-rWhswV_aNDjIO1I8mi9D06eqz3Thpwc-_4vabVLHNm-Aq5o6dG-5Wx6n5oPRy6aoJrBgTu-ww8MX5JoJAClxju57TrTZxN2WX6Y8AzsAN0SxvPxzU6tNatn1jvS2XsFWKom5g5Mc4Gmk0rTAnuyexViRPAxSahPl0gqlFUp_wcnDnbLG2EdROGLfPgqN1S7bP1pe1kNNdaaoWvGIgzXVrU8xr6Dt00Mjkb6bFQE14VaOXADunxSQLUd0UVEm0LluiFXlY5yAVwcwaldVG&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3ll4VJDJL8FxKwn4iK519lgEHQc2iqTIYpuZGXyQN3mGvbeRbQ0z-vUcdF0UNqcNO0b_myREH4YoxdaJs2cEN_oIVRLsbu0WvYHHeL5yJ3XTsC6NSWEGntO3JRVgdjlzuxNlvHoE28ApUz3UxTxUbR95Y-bTSNUbqNLKfwDS13tFN979NkZFXCKu3si6DzE7zAzrAf8fPiNwkiww1swRkU4_FVCcObWESgNpEfZjNwhCiae_P3Zd3YSOSQ539qJurk0Fy5lzJOM09G0XBS3v67IAZByxR7KFmGMc4eu8ejMaiuB0lhT9jjcx-bsY9tvUs9HtEFgotRcRZaLIsOtrzwsMJ4Goh3M2sg4QcUeVEWnw1vvlBfr0rOeWvXiTSb2Uj9xr1ilhlGFSWwUotbxZSuB7uxv-U7eBZIVSd38diMHyg&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3l8QWyOvvBRe6IgaHPM8IL0hO4nTHAm_q8KUg-H-jRaWYtMCeFlzfh8ujZUG1gW5FJCtzdZeRI3Y3toJTb_lt_9scBPun7HL5A-MgcNm32GAUd1bpGuxY_5k6p3dJaV6tMHfv38Qs9kYiCH0PfZol-MtYVoTKwcdP7_QMuFAjVu9W4jn-ogfRLFLmoHANJXzqdHvB8VtqeucjB_dyiXYVgx97BUQU6AVysuEnZvVj2gqujB2CoSHWxsJznN2B-vdjuja0vpRvMUB6mBSdv8QinxE9PuICz2T40E6BpurkiwHImWn21NpXYRjJvP8tkZiPu-KTItAZxa89CoHhbGgrpr4ST5ZgMzK9-TzxLwXhN9CioH33-MIvrCt6452hsvzbdk2ftJWaK7TclojMp-8s5_dWWku1kO1Pss9TGwlBMnRRE&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3nqUlUEx-JmrxPnreID4FzIB1UxWCK2fKdY62vhcKSNpg-z5_7WyzAGf19DbSNzR9ixDzHuaQa2EkpMgcMWIuuwqJmsUbCxJBAZY1Lym1vWJfeEVwIXPo8mCFxNXHOuukUTosEPTW18cdsLikRsYRn3q-x96GFYUcDaaDuONjh26fyiIPL-DPtLRUtU9hUWnkmyLmBErh0LMSApTuyTsp2UmTBrJ8aFmFWv6KnJI62HkbSEJ3LKvg3Je8-akFzJEqDsNG5t0mRS1zEfCQs2Miuo2bYTR2lfjzaH6qjsEjbNCQvWOTciva_sW8mhCookqa_cFAc4Hn7RdHIuKuIfXpUJ5uozuwsJHNlxmsZbcPf3aEUY9p1WDkssGC3wsLcVmJFiioZdsD8SIOUCYEeyVMrXQ8GgJETLEmtNpn-VWHB4B9JJ&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3kjN_0qSBwSOpCTnwZvUgw_Hcqk5WeuZSokgCbg3Za5lcndEUv_Fknb6S0_tVuNBRrZQYplvuGCxsE_h_4vtlRQd6yY78sD_Jv8-V8Rd5R7LCBacFLcObHz-gCcH19d5k32jQrt7bhGhAb3STdIXlmn5hWI-6vOT2uGYpH4lqs-O6tmS79vtnyqJJIXPrgjms9rHo9GTmWyV1zJZ0Jy8vPtVwQcyZUx7tc79Mu59WILaK7EVBnVpnAIyGftrFk4dGomHvojfdqXO_POFtX-A7HGoJfhidXxw4g5KZsP13Z6nXpEszuVwTuB7HTy0SzwSeun6L6QFpcCMK6hgVTCq_kGjabU0riIplaCPjd32WhCCCmMooHv7MxWnTn4AEgKdUxork2rZFOTpneNuvR_AJP1NbTNKcaIBhLlLwR1mUKqlA&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3laJRy9Be-htb_VxETbEflsinwyifj0gnfHsBs1qAVygCyoWX8wyFFhva8AmA2QP8YyvfInxkWIiTR-gAs7-XUbJjeTYV9kaPqO3D6e41MOfJar7x5sb8PGFsToEIb6rOTew1sXr5O1p5tfIvPg6NqQdLZiJK-IKDkzrvGfERBm7TgViNUIJfnD-2TR09gMaWZ9Kn7XyCtKyza87xOpO8NHXGHRaNip-VIoc8Sch_ASzj6yvxDlCkHBgIdw-Vj4YO1a_fhFCF1UfPsHF8nI7LfHlBEvH5d1aKOq7LscBPLQKeBCAQb6b16Pbq_xOzAEZ-gaKqDNMFbC14-O5X7lKdfSV6wRC28Duph__-y6cl1YE56z_tJNvjaRxXjOEi8m6WT4smmXivElYKfRYh0axzpQH8mvkcmImg-9XV-PDPP4Ga2D&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3kov7rNohazF4bA9QrP6Z9k8zxxmyVkoDzLfo6LPpGKuX09PCwwdHP6mdTfA5m3xURZFXQVaeoA7mz9HC43GQpd4KlGL0MDThyb5PL40_iEpsY9va-Jy5Ga1tMJKPHuTxbvjcycWQewRxKkhlfa93DlmxmwB9NkTi1Hhs49J1Nst8SHawDgH5M595XtC3iMLPScME6NoqdxLs5a9VZ33pAgP6b-Qm4bLJOFgKjwniuRQv_nnj31Ad5klx0Tmd24oUfv753BAsKIDFqnvS2laY-3vfb07avNJdy4Wv6KyHyJ7uuQdD9sRwuFtjCpq9Y7QcigbNUyHss1YXOtAWD6gbvVfevJOdv1zz4Hx2EQrlVGOgkJexSAQ9f-Fu0UwRXwkNSeJqk-pcPQMkgTrM76s6brXSR3ULMIqnczcv3MlxAUzyAPrMRRH98FuGV82cPP&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3l3JUn9jgFN2RRnjY8z7FwYgJcO2hj0eILc4ZIfKDjDM1JdytMC_B_soI_z5TBri9EsgdxqWdLb5V_sGoE3hdTLyNgYHDG_AUfztKoopkT5hubeV0XEEaGpiDIG4EOn5LDjCe-x0SjdxpzacYpiVuqotWv5Q-gWIUqUN_dvgHDjJ53Ibvz1k_Ytu9hEG1zyP34rVoKkbrpTD_tuFzEntG8EY0LOX9s_jvOe9wJmQ6xTmWTR3LWBb-7N82-95wXk9bGRCEAzp3NaeT-cReRcKtdEhIloMEh3upWPRGs5cM1BNsxr0MVpIdSxDe5bm27dxPP-mV2uoeIlDaxtUQi41e5wpBz1nDPPPvQBrWiWs7bUFZP1NcveMN57YyYAXUzbmsXT0NA_s--4nWxHpV5hhZIDAPBmjfffCZd5Kl4TaGDcp_a7b916S9KWdcwfyp1g&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3lON6NKvHuQ7XQ9W7GfTagDSEQ_Kjyg79FLZS0aPukjdU0lm41wbp8fbTvZn1Gp7mjBX9lPP4OzmaxkEcyXWE08qoTA0NF_LL1fgoOH3I6pe0d6ilPDr4q46BqHrrZyq_Wq84Fqhqbeq3jw0iogFY3oKNoUSStzTQ6G0zNCc93mAFqt7KsLIEkLJohBUrx-LvvfGKUTgAxZTWPVSLfcsRveLqNSKBM6aYe3A-WS7MM90sJ5E3zi_NafBxaa987mrOBOmqBF7oeWyWbzwBfzvNRQqKmk0VKrTludAGiOYIUbGt82gAYAAmosLQwjb1upGP4sXuIKAyIzec3jMm8_ydmRpcMKQRFtIlqzippbyKCIT-O9fZoHRb7zFjzO4AIWuh3LMDgPjuyCo8yw3mB4-FnvRUZzdwRnt9nkf7J83O7Llw&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3mVWpEZFSa2QfOIc0E4fRlL0SgT1Wf7_vOmgZir3nRplcQeszk_OXwMUuThY9-LN7r35YJ4-luabLK3ho60_X6GvpEf3Q6DhJ4_VIRkeFlKL4WRqwV81GR9V3aiZx-hD2ZW2xOEj3Jm8t6GXVTPW8L6gIyCJroJ5qn4-hZ0N64Yz61UAYoPKHkhsp0fXvhUegXBH6ldv1R3w9LqOUFH906aQYACGeVqHfCno66pMHu6MlLciVEpcNyQLw5e7QcwWyQ1f7HNBPFbEj8tGr6AFY9VnELa6CMYryCfXb0aP7QFB_Xs3zCD38QSTLvnmdhQQh3WLOcewQXjgjL5qfgJ7h8wg-Du_YMNVnajCAPePWWwyjiSJ0FzY6e_bD7MI1EY_hKs7HbLeyGINAyuXrWH5q26C2dDjONXcvfPFPmCmNIp4Q&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3mhCrXb0KfoVkmOUABcfUTQHwudw3o5T6nYfIGxaJ-6qoYDdn0g_VohQfFeC8avza3SPxqtWxhPjYuRalKwYobGIgBVAuYE5Ca52Y-xY5tBGB9l3vMFAMRiZ5UoGYAX1ZQ-l4yE7qmsM5HHKnLuxGzTl7TXuClT4dbJDmZGsJOHSHdsK2XVxOeWIPC4xpq0bLbT4vJDrVl2bFQnCZpPlQprmmIWHN_ILmHy5CgkigWRzprBdtEHEZ8s-BkzWGPn22aRtPyZWBevVz7lqMUkE1JVAzLuNCl5OrfAfhNShj77xBbF3jUpVuin04-ST2fCvnkTH_lhN33xa17FIy39lRktqBZng24hZsph5jdhyQ4bopIkx0vOTYhLh1EuswIxmyHob5h30Wwn-2ql5QeRZX-BgzHDkG0MSGL4QDmpjf4ViBqM&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3lsLJ_wCsPqQ75WVZHFfqo-S2qxoGB8pvRmG_S4i9adDjo832TaKDGLNupU3nuoWMTquJjSDhEz5ZeDo87YKlg4si0cLa60eAFwD-XuDRVPGr0GJiEdTWXhBW6gToWr9fMcDEEv03xvT8210t6ejgMX0uCOUGgF5nGrun9hJbEWZFi71QmnFr6n8xaEAQkfOKw39yyVuNwpDtXJmSoYHuiVVo4qIQS3CIif0JIi2Hs-gYPlgGk7BPe8CM2XilTx9k1vfe1YfDT_5GRMGgm_jF0u1YVE8x8pFt3e7gVu0_CnQmbkL7n84c9RwDvPoswLf9qmNRPg4L3POi1TUzRbI10Z2MgcOqCJQvkwIMsAU7OGHUWUsBmDCzI6cwfmeyIIvMnDzFr5cVlQyM2meZIBI9kio6FF5QAD5y2qXAZZqAOe3g&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3m6o5H-iopSqgaVwRj0hLHCtn3zgYJQG8OmKAVSu176aHBoL8K6ccFXKb-RUsqqwl4OdGwiWv2BvI_KI1tzRxvOxtorM6AYSXP177TwBnqryvIylRFVxkCrjX7CopC9nRU4-vijiN_NZVrZj3zK7W_Fk61aPzAjiLbXlnNZbXXoEXlSuwsnVrrl7URuhDyO9NZuHCozJw-_M_hL9-AN42LcB0I4LApSDqG2_9ppLCOWyrKVv6mGZbfWHs99nhFYsH8D-EkNwRFlC1H9pkFh_fdu-gdq0CF5btSpGuTXEXjeUVWynQBNAZecb-849CVjWLD5Ntqrr8--dd89whz6OjwMkGpFQfh7KopHnJQDXVG_rDXruluZouUpdIrAh05afJ7_Vy_M_fqlcwYliqPK_ZKuaOKW5QiEQm0ezE3MUP2LtPI&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3kDvrmvQ1pUMGhzb1_4xO7ZSeFbCz7Ve9O1DTKmCBxA3e0fZR8pJPvzFuNaQ46BUo-oiJVLdMX1p1ZG9S80Io1afP51GeUDyAMBGoMq_i0bKAXxvXNHDaecUcv4EFgakockSA0o3tPKE4KeobHrXef2UJk7nPXl08rh8Bx8G29u6Ir6DZ7yOW37Lz4G1kZB8_rmIe7NA5LcNW9Nm5NNSBI-oG9hXsbBUkyUL3ytWsinsJki44DiBKztvHRYNCOo98WagQlbMPo5d2OKEpI2SZ1fPD-xHZZwAiLg1tpxnXukTzGuM4jYWkz1eKo64tVGwRnF_Qs2m0JAPytNQQrqmzfXPGUObQSE6AHfGSOEBrMzBNSOpdvOOagHNoo1boZlg1aAXbRs1VD3YMwo1RUVaKOGBMWAv3-BQK9VtggpnYikIEqw&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3ny3KyIu6x8PbV1EWoB3pvNZCu4xMy5FvCiMrqYFIH230FV-qHQ8nRy2_fPMj1LF9nMAVro7PJKPIbZkQMl8YK49_F5Ra3tvJGBg8GZvOsuv1X21vACVFfd1ZXONPTRMIqKjYLbwnEOcwS2JLWEVn9Q-_QtHATdB9PX_0UUTf8QSZaBzvn9bWGPmSbxjZLhoZtAN6ys7X_c-vOkzNGXHJS0qZlNojk32rFhd9zDEjC_ERlvm3mBq1MnMKr063ejBpaouuxqHZKjCFG4nFSc7qNdUvQXYxl8iYjN23cOKuvE5caLF-dpt43NI2iBtZVELuvAXG53eI1bwIk8On-IYhsfr-G8MVYgRjMEKX6BuOHPxNCs3620SyghniNMUIFZAV_C3aKxiukWjELjEBR10motU4hcicU_YL3pr-1o816CQA&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3nujz8rChxt7gyTIIX6kXOyjpZTSCt_YEIFwX6Ig0AdWURsaUrVm0DBeJbogHlKzm08db4tLg1Qr6ys-tWk9qbnhFH51VWYagqKfA6Mjc3FbLfUeLQpHwGDOGYYOJw8KxIHw0AtyXICnTl66qQcJGZuZ_HU0eIhVGj3qjx86MDqHePqqmkCo5Uv8E_7wq-k_I-DzVPOIMMd0pIl2RTxoalMNovZYVvT9DWnpqCoX-vFdYBoBI-r32pEg2pgTY973F6lxJL8NpmyKUiuupyan0IxqRkZpD175YusyEEuvGo_QNc20VBIPMY6mpLDfmtO1IS_EiVUV1qu0FcSQY4aESDNm3ky02Jwc3XoBWwTOJ3jGW3Sh7K5j6RcT2lU3IQlhCF15SS3FVxjpUuHwZpnkwsPk7F9d8eHTD1QJiblsN1F4YeK&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3ladCdV-oSM9uO7oAZ4wWMf5EiQPypRcIpY4zWcSvJHWCBDeTQCboMIT7PhUMOROe3QUAnVPljXQu3n9O_gekBVS3cfi-UjiIe9pb3_vh_G8hsuNJpIyAhCSRT6Ev0TzJn19K5fJ_eLLzw1SSIsArf8mYplEgFPigGSZ2AI8ytxNCs_or8UOVzRhTCAle1cGHxsMXzekQOqfIlhboOGAaqbiu7YgLZrgenzq6KB0EQlayrRMK1cgSIn7-zJnAQFDUPb-L6v-sFhPob_gkRqare7ITik6a9M8XO5A66fQzKARoUyvqVS9o3nTp35oG_rPLeCjozFZnC04guMb55i__EwkBByGq38nv4VgkhJdc1xi6BSBdjePLiBoXrtVv_mx6eZLuQzIr__I293Bg7BhymvenNQ4OVwuGHnIRC2UCmzdKJWdeGlXmWfhIoqNtUW&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3kEVKBeCu8iJd_S_aKEsOht5uJNzdPSYlEKdQGBZTGl3lNpHZYxYyLwDeQIytjcNwr1p-4_sjJSK0vFLt1IA35oRQsOqHWLoSNdiChtvGvVUkkiLLwsiAFZkSBK9i6iozZ_8PWFIMdfAEx5T-2JCaJsmYR8bPX4i4M79M-_cW9kzr6ZHZo-ANlcOgi1-I8rVaBfjcPRBCUvZ6Pi02DFsJkw6tdF-25G1AmYkjpfeSqkTO59E4cAmYPwS-xdZng-ng563uAR5EXSOvXoHR59U0gtyC_doQuIj0M30JpE9DdBCJdQZdNrtCw2XwpwSFOlUrzWs1dwjQZivrClEDly3QJmKPar5vSwM1nXuAV-pE-U4YbHFPT7K5JGidqNPdhWnRwOhTGUD0hneJxGzkSn9MjphbtUO6PV_P6I6dLAE2kHT-EpRWqLGSdYecmyR6qd&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3ngr6eTSqH1IRAExFfkwDhlH16Aar9oDDBbCr9dJ9OBOQNbHEg9K4n6MulfRz5hhBLuiWjp3sAq7g8WzpMib4AX2vs9YBq9wsKaQuUiIRk1772noHnkrwCKxUjdmR70qGhI6MkLQz5N78ijBT64qJtmOs1WBTldK-0JoRDOzDqgpHPHiGBrn306zomzpxz95wOCmTxkO2iUp_iQI7BhwU36NJ45NhmCoAV_DzJBvC-CSa0kure_kzYI-AXdD6a2z96MIfhgCjksXOLNDwiQQmbmtxslffa-Ya-7QEnqCjL6d2ftJ96edqiPqC4ICyYNih3o6_6T8Xp3ApusOtXLT_KY7GFAXSE2zFFq2lztdJu5lCrC1LgPZOBIYGbo7tZBk2Rlfp0gNYkgJxDLVdkptZcwANJ-LCmtciZvpaL-xjOAOw&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3lJi7871gZf_9QE78MWomYnscJQCh6408cPb62uRdR_FJipN8Bf6DLzUGBZyYNCC-l6K8_q_7rnuJP7nC8aO-Z6PR_VIFWA-sk9zUcDRzH_E0GNVvH74kGhYP-3nqy1APOUMdfMiu6oV9dAW036XbcL_AgypbbxwC2yb7m46aHKEVqTR65ldgFOcFHWskelsfClKzO02FQUYxmqnepAYhRfsgtoa7w3MNt4dUCgH_nRmZyannOzRenTo7zFg3crWf9mcAX8FYNO6jiGFiHQo-zNfengp1L2ZGc-a5hMDGuIzND3Ej_og61joML8FC0e2H8zNlFd11syqs4SYZ4AKrnqKRVFqPi53QzD4MbUxYau2E8NeaRPa7zgKdgRCgiN1VfZvxPxBK_Mp28D99xms9bqKjQriUJ56HorHrmXZWfF3g&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3mJzjLg42i8xxo70bdRQqnWaerMvm8Wby6rIPG5DiBaqqS-sW_ambh3oM9kEafhAtOVXYQKbeQP9oFVbm0fjo_s9W5oV3ic6a5cJHU_W_7yCeKXmyq-XKO4bY-S0XR0M4d2LDiHYIo0d4eYkWM7TLJ5lM3WOWKvRuXv41JvfEbdraDmGbTXoW4Swqjx2wA5es-JO7DXhwl95tLHIgwzwkx6fGgNDIW5YXsTipOXD6PyS3PXFJUU8EdEEE-ssiKbWd-Wkhr4jIqtM065m_r5lX2z2hsohHe3Zc8FL3SgFM2jUuTQXCcFodoQZWuPUNuj0EXtEp24_JTdn91W61wl_GElbMfGO_F2_FBX6X3SnIt0mKdFnpl87SR3gn3p_Ecdv9B8NQ7yYy-Z6o31L6xJzljETUsM41jQpjjPpJEeaWwJ-M4w&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3lbUk0lWBbjhjtQuYX0L2vry7We6AFITbI0F6bwev5o0LTh01jHcxX7kK4lGVZaCVaysL_EL9cQXhrwz-xGE2ZFh6v9PT2DL2iASNOI_nCYMhcvZFBs2WTwmrbK01d_30GWPf3QY67t5YU9A9Vls-gaWmVI4xi269pWGGQ2qSqkg2P_JCMKuMXU7SmFkDB4DpXzFpVMlimdy0al6Rcp8XKdEZTuA6g87zajR7aO7U0nU_Q6OxnpB5RCqi61qJ_03jRplvjBob9nGSmt8ODUCHMOVGxiDJN1rw2ZOC73hhQv6SbkZqUoyxS5wR2JOgHzmsBLpRf8WST6HBBXMkDAODPdGn95YJImCK1_0p6kqDshFDhiHptHapSGOeI55803oehoP4GnE5d9V4vdOi-Z_90N_S7cspgdv4YVjFqZ9DEkxg&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3kSgcAitLyxz4YvhrAkHpSoiLSm9Uulr-PRdD1Tv2uKEfcM31FtiOmzOlZmnQjGBEusKzkOzzusiQHSpth5pFX2tUnjAByiZdCTFqu42Q3Q53mQ4oeb6qI0lpaUGbuj-VrzIfYnPeTq5mcfbP21_nk-vNDeiD_QMumGQ4rlaVIuyMSIbX6raIanrpSB81Ca0ZxwX81Ztz2oWpeojUCPrsjIy7f8wb1m6S2VL9HlWAv8JCftbBk-g5oWf_R_NQe6K9r-2a75_KZqrt6yeU2t9eHnOlUkSh9e0HI209w3nSPKQNftuEV4riJUZftOoQAVW_0sLB0XvFSOYZXE4YGS9SZoDDpsZZdKjp8lM88FovhN30EWtOyD-WUpy7x7EexuJwNKLzCyvmaDxPDuAawXEJ_vMZPvjD8sTSVz13FDBa5ybcA&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3ljRuGrpPf0-bBqAZzuzzHkZV3fSxyoMgxMitsMhLJJFClYhlTFGfHhcJP8H3sRADnOPxn56qUFBXZHvWx4U3JJTKumVUqykG2lW7-vOhVHJWd2rGUik6FW4MGk78sD96_fJ2a9um5KS3JCMN-0BX1hs5RS9jSYA3aJIG-FV9Qiqsw-zI806hW0q1CvMooLum97FN0QyvG4UN4kH4SpyBwHwl6XUOZCHCuZJGaLgLxwHPHu8vemByirKd6G0s4sjwIk5eFIa5j_KYD_aeC6SdrFZ7n4uRe-LdgRnrObjT2bClvz_LqJ9f7SDV5IRO0dw8At4ZzH3FF3_XpYCK1abx8t0rnLtyOqQ8Phi8DeUOAjTAK_WsS3hz7HxJWgqgWa2vsv8RjfCz_-pvlQS-hgtTr8WLFNm4gfaZ_RSm8brZvoHhyX&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3lghenv3BeQSgHIO-zvNuElB0GSv1fQiaN2ed-48yK0d3d9H7_SZfMQ5P6sX976TtclwURrmxVc16Ctf77KaFb-Fk1Rjqv9u3rS6rBVPFIRoTsDbC9FRkf2Q3Uq7iHr2y2UDQrQcpjVRbJ6dzB6lMgoYJcGMbL-wrAGczS-9kIYp13k16CnCZdzo8pjMcKkX7WZ-xEldrhAZu5nolWPxu1oru56RnLrHn8ZMJe1e1Pv10b0yrDbKlGNguYHgIUm3gqB9rThjMd815xoQbC0WPs74xOCOXOvtBMTXRsEIueJqmHpkWU1oNA4qrSy-4qwa1Yu7L48uHVoh04BIlGIF06-djOvFfUbcnZmfjq16z7kw4YclLkKKVBo1Mt39_67v7h1-2X8v-QSI4JBCrMbB-9hYQSJQpCNtI-793324HdFyQ&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3m1_EyXlBxhEpTYdlT4LaHvEVl671NZzDQDm1eORkEcYMsKLOtTpN2stjRhu0AlPz2izTPcr66HF3urSY_oeroUzeP2dpqc8rL0jMFkF4Syj8hMvfgL9hHbaTxXAvKqzfVDCdZ2qkTug4H1_MP6TT7hafdKwD0DiTEMPypIWKjozNeFkQ3X7KuXQjQxmy2Rz6LI_likdYFiTM7N36lS5wUcLLq-KpJg3LuQ2GN75NjEzL8GCQZl8hgJYNJMnHbu1PC2tKrlRgt9PBphza8hCo7jjr3IMK_VOi57chuJcHK85GpGxYi6ZiWbhavNTskEY2Xl224LHlTuZm0429rBH2z_5sUqkx9ls4rFfIye_ukV2FrQeRScqP9TvCDPwhm_OCdFTRb-BifrFhHZaaC1GKnQnl11DxJazuu-skayK5NuHzZ7&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3nyInuwd03v5yUQRDj1RdEcrTRHZtgVcQ9hc9OqJ0tezddR2SVb8ayplE7-yy8J9fVZuuHJyIWHf03Eo1xRwwNqEJ8OTU1wm_Y9utv5d79KrmeJDTwZGG0pROqraaW11rIrDtj8_YDYRgcArabQa6oZI3VbU9ZNqTOKhxCG6g546KsnTxZEQLVmPqoV2cgZSgkopohJhO2QIa6jAvFV7xGN1X4DNlGkMetMIROTqkbvf5MKlB9vjqPIeXttKnU3V9qsLuCWu7GXIS68O-vLlxQCbCwUTdjOMnR-o_lvpy77UOpFSxxOWkrPVTiy2u4K3XcakS1juPqrnK8kRdTO11F3uamV0dDFoyjtxPdhry5y8kJ5l0b3KvJIG3R2vLLS-2oYiFH4pgkUXA9WMmXL4oqHH-ZMstYHJ4m7dhK8T1qc1EFhJ3D6ln0vu9SfgQi9&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3ld5JDBkyFr58pPx8KLMLykgjO8yALGM5uvFfEw5SEISz0QNv9MD3GE1Qy1biSf8yV1JQ5JE5tWO3L_ls19nKxvMOkTJiyOLHgg1jzMp28cJe81FSgavk-qySpngahVMOz4AyLW7x8b3YhLJAbQWoMz3qVXbRIV5zRv-rPPUgtE_ViViRRwFkeDmmFC5QlJ-QVC0g1rkx1GoVe6lrP41aC6Ybr6KaZMh_fpYnm_2hwcf210WZFw7NI2HtDC0kSIjNLR5KFjgVx9deAGpFkkzJhNP30sT-nDsbeGR291wfSPTixKdDOkCIka59c8Be71EdRG91GcV4Rw22Dxd6VZAIj3XExE1m9M52vqhrTjOXPzXsKlpV2vJPBvvov9RUZ2eVm-gfXeJ3bKLE114iCoxh3GSNFL2njCTdx-JfkZVcn3kwlBdXFfu729UBkuBVen&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3kRKG086cT_bfy_ywyU-z4rD3C56YdDGulruEHWoRFGrFn7puFgHcjILx_Prs0zKrLoSL_EjLTip4ACvq7DMh-a09k7-qr_N83qjim3puSKuQrduWbnRd0In57ndwlIT2GpfVigF3W3HdJTxdDROZZxRPb3QbiC9demCOrvIC9bU8lYgoQB3i-s-WI5806w91OZEQ-nbZOjRkEsZKNf4UuwLVGcLfnZmbONV4I0SHZa6ZvEdr2uJ6rkZx52k3ytPfdB9n22sU9wT0g0-0ojZOTKPPbUC6gfdwm_x3DNeMkJ2NcYczSBmCnlhAMWKXQdpTqvxMJPGrHy4lHDyCb-Vdo9vibCG5fISXlkdQo8PKCumdif8pdz8C4OdUewC5eYy61ixalFjkcO0fvz21IWkunB7nsvpjp-htdqVG5eI1RDRA&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3mziBS0BSCvduhAtY5eQy9OgvjsW8Ux9Mke2634N3wofd5lRc9UI7kUW8ajjp3nUQ-buK4XW6pzQkAvRrSFkl2d49Uss2Y_PVeznJX1nc2m5ngbbqVkVlTvAHSQVrTSlqaLiE2XqSx5kK-b7g_0y0KbQYz_sTQ0G5HMMylyOJILEHhfm0ulD2vT8miKQ4WremsuFRWCy48LwGnEilbEWK599eYnVQSIvANCxr0s72YnvTMyT7Y_B03KGmcZbTxbHOtyd2WtivTptJnmP7L0eU1RXnSl4mAGd-Wj7kxn_5INEuYG91XXWhLxNU7U5zcm-MCd2OjddGnxudNIqw6o4wSHSEfO7X8_5a5zBBONH1kkKSCpbumcnTZoptX2Prq5IaelJ-K0LWVcYpyKUlF4VlmovdR38VFMpz9VripDb39Nog&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3nDBs5gyAhHljDJCYf-QNjW2wAKf-_03X8SvvNAEUXpzd4SlqR1QaY91VcWIbujBmlcajeBIZU3_iDClIoyaSZJPtYlMxwiJ8tU8lNBe8wlPv3UuhEZnIH3r1z2iIJqZSG7_R8yKWx9MSd_5olVRzOlvY70TYMWnbhBal1hR6r4UOd4y0fz9NwQemd8VNiQbv-wHNiO0vzfNEuAEBs4zuKkQ-yjsdxhGT5xtVll6hYslTFYLTgyFs8K0W_sKHUvjgkpuPjso2cQCDyt_qohT0F-8j0MJhPyid0CUIFEHd6stPtM9cmPk7vGrjB1qPPJopFGJNQBF57RNiFFb4kORWD7uWoQ97D_qULMGrri_trHDMrlwaqBRrzDogGu5oVTyor_36JqQC_g_xjOQUR53Fi8JckmaCwk9sdweBBMDt7RkE2t&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3kEbrwRBGjw9GSjVvBm6coW8aj2icVw9cnDKdssGN2_mUf5uudARRUkCA2vXWl7KtflBVQM6b4v0GsvNFL2g8whkWtcTUxLUjnV1-TFI0tSbnNYXJho0nAb00OQii2z7wB_Z3rRaAghQidBHmWpQKOYkfsknO23UWi5-DaJtCwGZqVverZhOqKlk9OCk6MiMH6Lz4vC6HARxqgcD2K0ObUw71dSDZCQTE-c4TM7hc_pSrUxxi2ITh5AADM0MVogEBkjWGN7i-tqG_ZOVSaB9APbASjemyioo2c-2UvwejUfRxc7mHh2bkOE9VQMZIj7RHPz7GckIWDn8jlMF9xkRI4NwbDbGppkKj3JF92UfXyiSyNTW281t1U5ydmjXfPsxgxCGRPo3lf8zU8_JyBXCBOmkT0nAXdXcc6ILCjiJD0xZw&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3mdfTRDXap1e2BV-ktBPV59kFP7i62D0oBV734sM6oR1AYR7Yb3Is6Iw42kvW1tV7GAnDDyXvafT7la6bCUQZ-G3R94iXWINHred919jTWaFklhlJpN8tRsf2DvdFvJUCoOedkbg40aEz9OH2L0h6TfKpOfxuAYaOF81brdB_PATYKtsxmfeTgDHGtB8gcdO2TWRKplhQKBOKBYS4IJetZnyRWhiQLpL7Huwe0Sk4BxDWIpGignPb7SIzFhDc8i-VFMEavW4S4wawjRxWy8UtQkE6mzxeCwOcXCpWdVdrwVYi9fVB4tF18fPi05oKn15rAzQ9ph40_02KJC0ob5hH_5otvrtugCsydKzIdw43zGKyc8XN1-PJjPxSPFz22l8mcGtZ5ItbgRLtKOKIxkf4Xt1UI-PsFoYZhFo0cTHK2GtME&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3m2jbccBavGCarsRaiDEBxYQCtVlAG1-pmDFgQrC_DiL-PljtjE45qDtq9hDgcO4hcmzQ83BccctXVxkGsgb4E0xHRfwnsEwbnpQiNKhkghk6TvIfTXk9tVw2Wy3k0LRvij_AS6Y2a5whgrGdWFI9QiqGzs0_a3Jx2Gi7z5UK_N4gDsdsCBOf9hCyTwnLRVSZ3hRmywv-wQg90Xcs9KpcDZQQr9KUWuLR3kd0poXrHKAsEaXCgh7yoyvX2uZTGkRfQDhNQmNx38nlerpf3bcAUjKc_A7IMaSl09s6DRI3rcA6zoqL9uAk6OZVClnyogafbEKP3gFKfp9AONv4yxObwF9cjiZv1XlNrCmrXFdKyI827-rOJCi43q-Le_xlJ7fEispfeEPvYu35OI34jZSPIsblKTeIDveebtMqzso_PBtPRh&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3mPYBYi-MHDpvZ7J0_S6vN2lfCjIAEb5IooSs_2rTrPzgNsuBz3yP6mY9blSBGN2Jgmwp0MxILx813SSy7QFKpooav4VqOzU7BAt2JvpTguWmaY_0qd67f-BlwR5_dpe4HbuK4OaCJoeBhsK7J-dYp8kZ6iFqBTQERNX8rra_e9Zn_7FvpojkeYi6IP9TNh2cpN5X7mBWJcLlBHyPE79u4wuRfD-D6Ym0EdGnB5Y495vmxTWwMh_eB2UHA84Q-QA0sDa8XnUEuLMitkcEq_cV5vNBcn1x36Lm3hSyFuylSI0i2ZHfYqTMzQ-0jRmxc_0i6t4mQmz6VWP7TQ_eD3C_1zS3a3TOPILNn6F7Uuve8B3Y-nS3AWTN_9U5caeZq6lx90n9A8qNGO3det6_q29Gb4cSkcJGBbwZvkHcXn3mSYyg&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3lc2s3xdpu_ngdJMRWC8gZBpb2IJrjWEvV_2YPyZXr0Pd1AjrDZYpFgImlaLUeFdaPF8idIkldxmATQkPvrqvubeGmtOhHsAuqbLCp-enibCfdt2YRAWqUPwFhJvrEazfpwVYbYx3iEHKZFvp4YVRuyjDJNHH0HLhlLnvoZo-SaCE5KJaF2ncp7dMeCCS8Fr4iCOShxJNWwJ9noplKapX6o6eH8ol9lTv8eD_8xVo6-yoZKdmi3R_f-m39p0ufXVyUx5O9GsQdC8VZrthtFNvq-hM43mei5xw_nDk9XqeSIRiwpEJ9AIuYLoOCawsrW6NNMMOaqJ68LxVGyaPr1tgdi4pB8ZN1ABbuLc7NKlQSz_ugKsOiHsRinK2TgVXKnPiCvqwAG-945ponccUn6B8GBDG1cKr_Zo7XAOMpUi-C4xiPi&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3kQhGUL-7e1TPqfLezW_AMcIEq0NT_UTpbkz2p9_pifKp9XrTp-4LoqWbNsUD6wC0AFZjf9IriIF_1zAoJwnOdloNAVlA3lmPdYOnJ_InHt-SSI0pZDdxVJdtgiFF1CgHWws-FeMnqtZ9sgHMAxdVIVmrYe7GTL3MqB3KT4Bo5WQ-NPuMlIsQJK7dMR8TLpHrJ_8I67xtarfhR8TZ77wD9V9LTQQpQUUkvfsMDifcw1ki9udfsoCezcvPArhpUYd528yrwsT0ffJZd9aleylgKrl-AtCGmttFbqCHhPPUd_xrrdgHjrawrYJD82wwjS0ZQMW2k6VOp1eCLXqcZON9-DjjHzV6FpLjz2uXE7uMmNrmsVhbLLRBnJZ0Z8qb6k7MYVEycsWlcv3O7QQnKzUKe8ndpVMITQr_dBAm7yiz1DT3WH4jop7qZ8nf_Ot0wM&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3n8_AGoxT7vl3rnL_EUB1GaXcfR-lEylVgXupZHjJ6IHOFDQ2bNcGtXu9XAY99QcQLPuO3u7UiOcU01iyaBkbVoE1nP7EnaqZ4FSD48lEhL_V7TVvITN6feM6Bo2XCc6indKRoLf8tgrC7BDjPYlzPLogqc49VsNOu7CWpBUj0OpbygaGqavWiQ5eOglR0tdIfoLLI3_D1vTzPWanord3jj4yP7XOCduTAJKOo4B11uJshNePpXTiK7pE0xfpyEnpegsaDAepg8yDnfqUAW36uB2BAVoftu8nM_3TeuL9TKiI0dhKx7i946RTHwTwQgVEHLZiTbRIciE72_f-OSuXdgja_KXWpCR_FiKzitPi_2Do8Bb4WZ2M72Awr4EK2HqC0jitVrc-PKhMQY5o1o-423LdQ951YwXutLDLcRS44sQYOIIYqlKOP7QG8Ba9Fo&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3nCKJLs3tEh-jKhS4hr6_cWj_9_Yly9sh1oP8RwCJhjeiWy9hIA3bRFr0MHrjE9qU5i_wsxaA1SK06SnryK2ybYPL4SBd3ovTuTqzOP0lj9XBW42-UxXyZB9zQKV7d5wAzi5OMBo94I-tsRmuVpDTnEx_UaGObmn23IC-iirLpykLpnQRqpjseZ4ts_fzOrW1u05Vbq-bLCxMzHKUIQH_T1qj9rovMSp-3lLU2WPyTXrW2ArDmnHd3gFFt32oOfd74Bncr39YRxDG88y1NI4BwOqIjR2jl9yh6cEF_hBfiznkuHr4ZhvBvq7FViAbZ7vbsztL76qV8Z04mfQhm6f-LGPyT19_zy1LKGUhmMjZc9-8Omla2ANaUquueKQz4c2b8dB5d-6z6hDWTxTOeUtYVqKV7UUsOFx88wxJm23ZuxCw&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3kHo8OUCvi1Z9Cn69LlqkmpF70wPnBiFCg0Wl5M7MoROK27AQNdG6Z6lOa8XQsQTW426_YXIOsn0Vj04zhMD_biZst1keZXKzRU7Bd8CLuKdXX8TpbtOJ75LrikS8NBG1Proxp8GvbpKQay-y2c_MrZg-fh2XW7FN96r6j8w3FUWYaaCNjF_vWVoki6GV3uXhEjVgtj7Zcm1jSO1mkNz7aOVkUhVKwE4Xox7xOYBAqh9Fr2pnDM00N3V2gFSRZ_oeedQnP3FhoNTUqyFs-Ly-_mZpSuMVDUJckSApqrQyea-LksShrQeAsG39ZZk2ZAfHht8wzj3QR9l3Ze6IS0cJrasd4v3JWSIgnpn2W9spEwNcQYMsGZeN8HSWuwNof8ByaXCiELE9fsCrudcny9iZJ6pa3p6BrSDI83kNMiAzwV0w&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3nnPyYIGI71_Sae-Cc32h5srW5UW2Bh4Y3QJRl-XR3nxn5Wm1vY-pWjvXyd_uVFDh1QpBMNsb8rLsBMln1TupZ0JlCsqSBXr1aYwPGLtSPcf76CK99mmyHud3Uw_QzKdI8c4RiigI82j3mQX2uBXN4ga4fhD7x0_WAIZ0b2Re2FTcvQwKyJtPsJUK7Qxp1_fsW2LaKDt2xshp7sH7PUZEzPGWfpQs0RqYha9XYlirGM7ouH6_2Z1rnfcs8PMoWkf3h4p1VagtSzZxQM_GDZnUi7kxKIipmyGQJVY3K3rycKzOCq08X_LqrHu0pJhALTo22LwfhudATeor3dzrKkxHHxlnR0fy6fKGe7uFzzS_zcblabRN_TSO9S6tzyHtgPqDF9b3GSfNjbryv4oNP5wAXwl4S1TB_j-oXc93DGmUHsrYR0&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3kOKbudVooY7Yyf6Cb9ypfrhGtrtYvk_lH9lpp_BvMDJQOd-dr46KZ0TKqQWXiyyaruV5QFRH2UBz-aJCUVDgYr33Gc9mdh3cgN5L3nmYq35cYupVZvkF0y4-9s1nl57TEE0nO7f0Tch59FlubFS9oR4mYHaIKHKFwltTnFJ7BobgD1l7Rv5bnka3oy9__O08PxQC67clumzABN64cPh6oARpPFLUWqFys8_rw1vNKvgxnqdA15OyZ0BLvJ9XLIXJ_2AoogiXT4btSYE3Ojgl12DYcTJ3JQiRDuqEFZXnyUiuD4SQgufcfJL5_-ShWV3bL5OnWhJt8mNkOUPaKaozE11suUCycAEw2xTbjYqHJiecoizONryRWMjJYvCK0ORTYEysycR13pafpqp2L7dg9RnOu10t8RKm4F8EDlIXo6hA&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3llJstp4reuyddLL-isPKoUnGqjy0MoukD0o1-6P0jL4d248HLZv4T1z1_yjxliuqryK3n1Ufrq3HH8bGBhLnr0UAYFrXtPn6oAcqUW7RFAxz18bBEkQ2GsbLOOBgYWzKU1ugLmVOO9Kp2WUlm0GdDMSkHsVyY5KycTVPXSV4mfgbqntRbBnSreUkYrXkqcgq6CLBfh-CTwCiRZpTwO1Aqv2QijWEb6HR3afr5q2hCUrNm80aQpaR-RBasdm5TncTGqPNHYt3-O7vxzBYYcUm_qGeE6e3Q-FXnS0QUnSx7sSPhoekLM054qc8bCwllbAY8nhgE4Y3QRq3K6lspC816Oosvqq9UdMBlrwvqc2kZmiD3c2fVws9AajxIuWLFYu-kOS58C49CbNrewtcJ2GAT4wwe8BoLa4hzedXOuFuub1ZM&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3l7FhB4wpdmPFaE1vPS-lV6YlhxOlD06towNBiFfHNknXdLdeY3Xujtf60_FVGAMeK5HspGNuGq-cvuFwXCb-Jf46PHfqe2BRibsemyMQJwPjLHHQwDmaylseN3jP0HX4PoTm1TezFdNTGiDvMkWxo6wefMcvU0Sfwl_YkObKUEEyYqMSROHa17HFObftc2QvOlZxIcqUmnXucUcDsnQzTOaeMrYJ-6BhMFF31XbsGc9garMWTOqlAHfB-9XO7oPpNn43m0Uz_dcDSNhPO_yCfUrmA1N1zOdWu4zxV6J3vTae0AdgXEfQkWDu57gl7mYF6T4U0G09YbI7N_i509lCvlFvBotI9yg5hUhTgHQ_vTVOGYqRhGyaPeLEKgtG3RC5v5CwYC0NH0prmx44gsip0Jysd6EYlVh3u0pkXxc4s39pgr&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3keZj745m8dZwbQygey46gnGnUJ49kAcRbUNgBLYg_4Fr4YSQQpeSlgv16wTueUjx-OOFCbS-_oZXZQbGCzH16ziIYQ6TkFbmAmNmUQd4hPG617tbHOkhlfhzjxfOJgg37Aw2tqecN558vMVCv48JNf9sXtgVFhGPJ6O3X5xxNXkhYzh7iSNMt3yotCcqIEIFVj75HAx12UabY-WeykQ5RD3WZ1KaKoCaqYSqIbZrDu6ctvmNO2U9Y-aRIEwAhJaX7peW0q9jchY7DxPOExytvyQSqbqZR4DnW7j8AnfLKyPSACRlcLZtez8tB6hBP6ZWSNVZOWa3Gqt94ncupGaEuRc67qd0CT-CVms18hyge4RgTGPMLtQHtvxnZ8pQ3zZRse3GRl_a7a_jQvS1tdM89ydBaQjT359OirC0znay0iCw&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3k6vgSVJs2Ypd3tiYKcqPnDO3RktG0TFtzT3r15oQ-yuCWKVZ2sjVOmyyhoBSJxoWZrnHvs8ZHfCueJ8aROp91DNFQdmUAiQYhxcmCN8LhcP1mbetIdyB66S0sOEr6cur51aFPHNwBiIQUy9KZ5jYMpyXMMqWGWZUM0IfpEuX9TzlqmCCAZ27MO4Y8uqfhHLxNPPQZp7bnqH6jhfdFEPDIMhG74IAIiWltIdU0C4jYUfP5TOeUln82by-p8Tgye-iL3-HrtOOpbfifl-se_SmPWsVrOq7KzOkuldSOWZyNsTdN4B7lP8rt2eBOoXbXX3jtId-Ay3KVazUJQeEP7CnmSnS9lOQaZT_htMgUDzPNOs-W1Kqy7nCIJ_CR0_x5J5KpAYCDbmm6x6ieuF6pdcJXxcUPTPelZitVYZVS4GuazhmUl&key=REDACTED"
+  ],
+  "notes": [
+    "owner_name not found in public sources",
+    "contact_name \"Chris\" from 4 Google review mention(s) (high confidence); owner_name not set",
+    "contactability=CONTACTABLE",
+    "email found, email-only outreach if WhatsApp unavailable",
+    "Website crawl found 1 service hint(s)",
+    "Logo discovered via apple_touch_icon (score 60)",
+    "Photo discovery: 2/2 selected (Very few good photos - proof-led or typography-led layout required. No placeholder boxes.)"
+  ],
+  "missing_fields": [
+    "owner_name",
+    "facebook",
+    "instagram"
+  ],
+  "location_validation_status": "OK",
+  "website_url_validation": {
+    "validated_at": "2026-06-10T16:40:00.044Z",
+    "issue": null,
+    "note": "website_url valid",
+    "previous_url": "https://bristolboilerrepairs.co.uk/"
+  },
+  "prospect_region": "Bristol",
+  "directory_probes": [
+    {
+      "platform": "checkatrade",
+      "candidate_url": "https://www.checkatrade.com/trades/bbr-plumbing-heating-bristol-bristol-boiler-repairs",
+      "status": "NOT_FOUND",
+      "confidence": "rejected",
+      "title": null,
+      "rating": null,
+      "review_count": null,
+      "phone_visible": false,
+      "verification_reasons": [],
+      "note": "search_deferred: BBR Plumbing & Heating Bristol - Bristol Boiler Repairs Bristol BS13 7QW site:checkatrade.com"
+    },
+    {
+      "platform": "trustatrader",
+      "candidate_url": "https://www.trustatrader.com/traders/bbr-plumbing-heating-bristol-bristol-boiler-repairs",
+      "status": "NOT_FOUND",
+      "confidence": "rejected",
+      "title": null,
+      "rating": null,
+      "review_count": null,
+      "phone_visible": false,
+      "verification_reasons": [],
+      "note": "search_deferred: BBR Plumbing & Heating Bristol - Bristol Boiler Repairs Bristol BS13 7QW site:trustatrader.com"
+    },
+    {
+      "platform": "yell",
+      "candidate_url": "https://www.yell.com/biz/bbr-plumbing-heating-bristol-bristol-boiler-repairs-bristol-bs13-7qw/",
+      "status": "NOT_FOUND",
+      "confidence": "rejected",
+      "title": null,
+      "rating": null,
+      "review_count": null,
+      "phone_visible": false,
+      "verification_reasons": [],
+      "note": "search_deferred: BBR Plumbing & Heating Bristol - Bristol Boiler Repairs Bristol BS13 7QW site:yell.com"
+    },
+    {
+      "platform": "mybuilder",
+      "candidate_url": "https://www.mybuilder.com/profile/bbr-plumbing-heating-bristol-bristol-boiler-repairs",
+      "status": "NOT_FOUND",
+      "confidence": "rejected",
+      "title": null,
+      "rating": null,
+      "review_count": null,
+      "phone_visible": false,
+      "verification_reasons": [],
+      "note": "search_deferred: BBR Plumbing & Heating Bristol - Bristol Boiler Repairs Bristol BS13 7QW site:mybuilder.com"
+    },
+    {
+      "platform": "rated_people",
+      "candidate_url": "https://www.ratedpeople.com/profile/bbr-plumbing-heating-bristol-bristol-boiler-repairs",
+      "status": "NOT_FOUND",
+      "confidence": "rejected",
+      "title": null,
+      "rating": null,
+      "review_count": null,
+      "phone_visible": false,
+      "verification_reasons": [],
+      "note": "search_deferred: BBR Plumbing & Heating Bristol - Bristol Boiler Repairs Bristol BS13 7QW site:ratedpeople.com"
+    },
+    {
+      "platform": "houzz",
+      "candidate_url": "https://www.houzz.co.uk/professionals/bbr-plumbing-heating-bristol-bristol-boiler-repairs",
+      "status": "NOT_FOUND",
+      "confidence": "rejected",
+      "title": null,
+      "rating": null,
+      "review_count": null,
+      "phone_visible": false,
+      "verification_reasons": [],
+      "note": "search_deferred: BBR Plumbing & Heating Bristol - Bristol Boiler Repairs Bristol BS13 7QW site:houzz.co.uk"
+    },
+    {
+      "platform": "bark",
+      "candidate_url": "https://www.bark.com/en/gb/company/bbr-plumbing-heating-bristol-bristol-boiler-repairs/",
+      "status": "NOT_FOUND",
+      "confidence": "rejected",
+      "title": null,
+      "rating": null,
+      "review_count": null,
+      "phone_visible": false,
+      "verification_reasons": [],
+      "note": "search_deferred: BBR Plumbing & Heating Bristol - Bristol Boiler Repairs Bristol BS13 7QW site:bark.com"
+    },
+    {
+      "platform": "nextdoor",
+      "candidate_url": "https://nextdoor.co.uk/pages/bbr-plumbing-heating-bristol-bristol-boiler-repairs/",
+      "status": "NOT_FOUND",
+      "confidence": "rejected",
+      "title": null,
+      "rating": null,
+      "review_count": null,
+      "phone_visible": false,
+      "verification_reasons": [],
+      "note": "search_deferred: BBR Plumbing & Heating Bristol - Bristol Boiler Repairs Bristol BS13 7QW site:nextdoor.co.uk"
+    }
+  ],
+  "enrichment": {
+    "enriched_at": "2026-06-11T11:15:09.184Z",
+    "email_domain_checked": false,
+    "website_discovery_run": true
+  },
+  "lead_validity": {
+    "lead_validity_status": "INSUFFICIENT_EVIDENCE",
+    "lead_validity_reason": "Enrichment incomplete or source confidence too low",
+    "pitch_type": "manual_review",
+    "website_status": "BROKEN_OR_BAD_SITE",
+    "website_url": "https://bristolboilerrepairs.co.uk/",
+    "website_discovery_classification": "NO_WEBSITE",
+    "email_domain_website": {
+      "classification": "NO_WEBSITE",
+      "db_status": "NO_WEBSITE",
+      "domain": null,
+      "initial_url": null,
+      "final_url": null,
+      "status_code": null,
+      "title": null,
+      "reason": "generic_or_invalid_email_domain",
+      "probes": [],
+      "text_snippet": null
+    },
+    "source_confidence_summary": {
+      "overall": "medium",
+      "verified_platforms": [
+        "google_places",
+        "email_domain_website"
+      ],
+      "rejected_platforms": [],
+      "notes": []
+    },
+    "ready_for_build": false,
+    "ready_for_design": false,
+    "ready_for_pitch": false,
+    "manual_review_required": true,
+    "has_real_website": false,
+    "truly_no_website": true,
+    "warnings": [
+      "Source enrichment not complete - run enrich:lead before build",
+      "Very few photos - use proof-led or typography-led layout"
+    ],
+    "manual_asset_status": "OK",
+    "pause_before_open_design": false,
+    "manual_asset_folder": "briefs/bbr-plumbing-heating-bristol-bristol-boiler-repairs/images/manual/"
+  },
+  "source_quality": {
+    "source_quality_status": "FAIL",
+    "source_quality_reason": "Email present but email-domain website discovery not completed; Source enrichment not complete",
+    "website_url_validated": true,
+    "email_domain_checked": false,
+    "enrichment_complete": false,
+    "logo_discovery_attempted": true,
+    "photo_discovery_attempted": true,
+    "directory_probes_attempted": true,
+    "warnings": [
+      "Lead validity requires manual review"
+    ],
+    "blockers": [
+      "Email present but email-domain website discovery not completed",
+      "Source enrichment not complete"
+    ]
+  }
+}

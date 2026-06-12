@@ -1,0 +1,416 @@
+{
+  "business_name": "NFS Plumbing & Heating",
+  "owner_name": null,
+  "contact_name": "Nick",
+  "contact_name_source": "google_reviews",
+  "contact_name_confidence": "high",
+  "contact_name_evidence_count": 5,
+  "contact_name_usage_allowed": true,
+  "possible_contact_name": null,
+  "phone": "07788 488486",
+  "email": null,
+  "phone_type": "mobile",
+  "whatsapp_candidate": true,
+  "email_available": false,
+  "whatsapp_available": "available",
+  "contactability_status": "CONTACTABLE",
+  "contactability_reason": "no email found, WhatsApp available",
+  "preferred_channel": "whatsapp",
+  "address": "58, Willway yard, Willway St, Bristol BS3 4AZ, UK",
+  "opening_hours": [
+    "Monday: 8:00 AM – 5:00 PM",
+    "Tuesday: 8:00 AM – 5:00 PM",
+    "Wednesday: 8:00 AM – 5:00 PM",
+    "Thursday: 8:00 AM – 5:00 PM",
+    "Friday: 8:00 AM – 5:00 PM",
+    "Saturday: 8:00 AM – 5:00 PM",
+    "Sunday: Closed"
+  ],
+  "services": [
+    "Heating and radiators",
+    "General plumbing",
+    "Tap, toilet and shower repairs",
+    "Gas work",
+    "Boiler repairs and servicing",
+    "Bathroom installations"
+  ],
+  "services_meta": [
+    {
+      "name": "Heating and radiators",
+      "source": "name",
+      "direct": false
+    },
+    {
+      "name": "General plumbing",
+      "source": "name",
+      "direct": false
+    },
+    {
+      "name": "Tap, toilet and shower repairs",
+      "source": "review",
+      "direct": false
+    },
+    {
+      "name": "Gas work",
+      "source": "review",
+      "direct": false
+    },
+    {
+      "name": "Boiler repairs and servicing",
+      "source": "review",
+      "direct": false
+    },
+    {
+      "name": "Bathroom installations",
+      "source": "review",
+      "direct": false
+    }
+  ],
+  "service_confidence": "mixed",
+  "service_sources": [
+    "name",
+    "review",
+    "niche"
+  ],
+  "service_area": [
+    "Bristol",
+    "Willway Yard",
+    "Willway St",
+    "Bristol BS3 4AZ",
+    "Redfield",
+    "St George",
+    "Easton",
+    "Bedminster",
+    "Clifton"
+  ],
+  "based_location": "Bristol, BS3",
+  "google_rating": 5,
+  "google_review_count": 18,
+  "google_review_count_sourced": true,
+  "service_areas_inferred": true,
+  "google_maps_url": "https://maps.google.com/?cid=7989564719662751574",
+  "website_status": "NO_WEBSITE",
+  "website_check_notes": "google_places_website=empty; website_url empty; Invalid website_url: google_photo_api",
+  "website_url": null,
+  "photos": [
+    {
+      "local": "images/02-places.webp",
+      "source_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3nVwmyDw6KrSTSd4AswjG_vwOmQiEwenNoT-3XrBbpHZz6ja0mbEmERIDAmEapL4w806hZVzezTu4qNvW7p7iWwfHozjUb8mKh-6MKGfAk0ibmppvnGFOewJ920Lbik603qCo61JBIG7bY1dEw3IxuSABV0onGWqYZ04qjdP0VrvjRgHj3nkkN3DBlJm1vHEuDu_tRuBrA5_HYA4O47tFLKIWXPTSbXYsbbnVnJQHKfXzUk9mljNE7HwB4QYcWGGlzhHntksPMQ1l4OlGjqjoaOzMGFiThYBwWUEL-9hcirJFzcWr959Ifa6_dmjU3JxCNgD1p6y0YvD2ku_Da7NvJJyy6K779K3Fa3dOqacDdcvB3pBEolgnOZnSfLxAPuSVJCtRU2Ni3sIs4EJJn6VuygecsGQBVly3jRMLle9IRduQ&key=REDACTED",
+      "width": 1200,
+      "height": 1600,
+      "classification": "completed_project",
+      "pair_id": null,
+      "source_type": "google_places"
+    },
+    {
+      "local": "images/03-places.webp",
+      "source_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3n9aPOqOgEzuy1y6picM1PemOumAltLVsBxpOcU9x1Pea4q-C7jAxLCoDZfu8z7NKflmlShEJHt-675L37d1d-rXrX3LFevZGuuN8wTKIvG9QCoH6QOW0dHCUOVPpXrQLoDUe5-gxUzxPMamRUZ8yyBhbqH1z2fAARav333IB6oCU_uGOMYc1jjL1YCL_gn2x-WVgzfJkWMPzIasF9v-m2TINxZUHxLlDTVVzQGmnfziyvzpuEYNUnJ09RRYHAdozdM_ylZW7BEuAmG8jZf2tOmEr5ORsRVZMBsBWl2e9zNYsNgHDKwGuomxpsP9IvmD3oxP7xk-PLvVU487gPjpm3uR6MnQRfzmcqM__ub4v2sZG9hXT38ygE5e8IJfJaKvO8f1AcSFYODqSKdHwHPK2giMx27gIp_bOmqvvune7ogQtA&key=REDACTED",
+      "width": 1600,
+      "height": 1314,
+      "classification": "completed_project",
+      "pair_id": null,
+      "source_type": "google_places"
+    },
+    {
+      "local": "images/04-places.webp",
+      "source_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3mXF5WaV3rwWsdDomcTmLUFUcwU09wUXJHpt_5sfG84rmAn92mwQKluDM0uEfcDLIpg42nEWWTdxCPsy8Bh6akBzHVlyVKtQ_J09D2bOy5AxCO48-l77I3wWv4UyAT_0cS3Xc5rCWrlGljjvFY9hxwBve9NYOlamsu1K70JCDwQ8mSSbpDpn2xF3nIfkLbnmxBRhKznDOEReADudRlvNxy7TNU1BGJOI96_6cAY3sYbyGGo9ObtNpzaGjE7twVpXoHeSsi_xWPYAxMj7oen1Je76hQY5pR_ROBmP6SHpBvbpJiY2wymhPY_BlD62XqkcFhPo34Mpgt_nApzG8vqDRIrRRMrrdzqqzVL9lmyuEpoh2NQVBdYR2Dvn3Pt3aKF21niM5JAmxtU9X_GzAAA_ZnJROEVi4-A-Ou9R1vZqc4W8ls&key=REDACTED",
+      "width": 945,
+      "height": 1600,
+      "classification": "completed_project",
+      "pair_id": null,
+      "source_type": "google_places"
+    },
+    {
+      "local": "images/05-places.webp",
+      "source_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3kNICylkRSfhFMF7oIa8wx0bgGhF9vLFgN4t7Sw2-5YVZev5ee_eSleb9ss4zy2qps6hFxyQyWt1KuLXh6TFy_dTdI3RvMXbk9TRRIUCxrNvdT8kw6ERwKxZ5zB3o1WgWziH5R5iOiqu9xvPR7Iu_HhuQaXJOOs4H1FH4km1qHBeNBUU2lefVgk79-Lxc2gdFj3gOfYgl4PNHbzyRENyY0ExyKIaxbgfqs_m0XHNZH-NiZLX3KkSr9u51tL95_lQiEqg8-UefVVMQjQzDVgp88vR7l5WuacNCoX3o-XSOLaHU2xOxAgbet9elNpfCsaRzSywZkO4vVqFWkALnhCKT1UG1ia-7OrCwspEbBvJQlE_7RPBwAmX-MNnvXgFewHBG4XHHWw7KB_yQlcVGn5YjKaa31yxQvjeLxZKblL_VCYNQ&key=REDACTED",
+      "width": 1600,
+      "height": 1200,
+      "classification": "completed_project",
+      "pair_id": null,
+      "source_type": "google_places"
+    },
+    {
+      "local": "images/06-places.webp",
+      "source_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3lNks7CA1x7BT8GCYNCmaCKFWSv-zwagHWN3I3CBKp-QPGcluJlXE6ePBt6lgyFFxsxeUnf1oPBcFYO-P77swbfLlhapVd6-pLofAbJeoE2-u0ypi_tVC-ki3bMY-UCQ_ZMxDr9-H92MXY2jhtp-Rsavb9aE51xP-Uni2Hg7J7aQT1bsfpD7i7bZcwN6iyNEYG6PSbAwaX7vUhl_q94Y1x5bXOv33GkSb4oVBmR04uQqsHw9aUiPskv4ykWtuKBHH9WJCWMcTZYLmrW54rDv0UahNG2Da4AzrFjui32DRD363QJ7rTDs2l1e9dDLn2s2rz-ims18XsHZVJK6VNmyVVk9Ej6UWR0x-FDVFHWrMIzy8lTA4aDDGAgPRFcRG6gqzBGjxgsiTex9P9FEqAwdbBX-IcVyC32o5I0vNO0lV3z_xJg&key=REDACTED",
+      "width": 1200,
+      "height": 1600,
+      "classification": "completed_project",
+      "pair_id": null,
+      "source_type": "google_places"
+    },
+    {
+      "local": "images/07-places.webp",
+      "source_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3mMMMvbQ5Dhx7csGGYf9CVvCOoqlBn5ooaKCB68jzCXrEeXH5PW-SS517tCpXQoyIxmbbjLB1JljM_ZL5kZEKAUGSwGy1jKe8Knij5KCiw4_B0akBdN_p6q6f1bMgeRbERS1YwDPruc_gaJL0_4dw_Bj_oK4v5NwwfdK4mP3pwHJ7AbFTk-bLa5WusN04HdVCP16Vt6q19uNzVSzlTGFZURVteikUB87A0ZdX93BjJs_9b0XDzFDa-V9LfUft8Usj5_aecK0uVLvU9IvoKfSf6BONMnINApod_bdDO7kj7udPyInmuCKqF9_GyeOv8eUpJ0gpncSGlKXuvLFV7p2gKrdnsj78MV8Y-kDN1LTYMoaCynhc95VYZezHkvPNICxY3-0tLxELn8WryKRwk6HJf7Y__h35xmFIRvpUcK12X6bkXW&key=REDACTED",
+      "width": 1200,
+      "height": 1600,
+      "classification": "completed_project",
+      "pair_id": null,
+      "source_type": "google_places"
+    },
+    {
+      "local": "images/08-places.webp",
+      "source_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3kfz9BIerF9-TZ1g3_JRTIZ-xIj1fazXfCkRMIfLBn1KUiVUOl2qmwlTNKxqwC98e7ddoLScrkW8bqfESWpRa2cuS4fQuCYc0YwlBkeChS5hivYxBp7WdyFSxnAC3853PBU-YmOxqLecPlzZm7JbguvdlcT60_XeA2qtnhvNpJlns3BpyLXksSWEA6JewuWrAcjw8yVgqtnlzkXJm90mOs4n5m9x7VWev8khlFPqA6uFNaDP5OWdpF-sopCFkSvr38kf0gC2I8wWY5SEhm7YNreTr0U25a1xXrNirhixmjTEAS1d8dTzXWAYQ8k7Mi8Hdsd23II7GPKcEJ0wAhF8likVtmsd73ml_ypcOGVXv0OPfOImaWJHwbNh9i1hFismWsaV0MAOJp8qQxUsKTaPzKdCf9-ZV1Px-hS8Ha-AW_v1w&key=REDACTED",
+      "width": 1600,
+      "height": 1200,
+      "classification": "completed_project",
+      "pair_id": null,
+      "source_type": "google_places"
+    },
+    {
+      "local": "images/09-places.webp",
+      "source_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3ld1cZtcPr2CjfNhah7Lj6Wz3s1BSj4LH5_77AgN1gk6r56Zgb7bzhapCtYV6AYEkmNK1A1F7wFWWjrnncf-L-zqzYyFsiGDP46gdaTxV0Du5w6uXMgFOEK072_vbqHnrPF5nzP_hgqh_v1Ea8kvLHV-qeyfm9ZfItz89fp0DMdTYu89MRJbD3OYzbjHKNiP7wcxKQIu9mfg3f4ewBpWlCIJ1A2WmszLB1hVzssu4bKgmNsA6gXJSJ2yV--Y0uKPxw0NObwQw4STbWTxIA-GN1_Fd5XTOnKRzdnnIuaxt1KCMDDTzQlopuVN9xqContYEz0VY3WGNW1jhe35OuP_G3qD_jGHILxJIMfLer6BMvFrjRNkmtholgsvLfDyMymj3rteW6jh-GVJcwl12YgAIZkqLSR02DlwIt1DtiJR5zz4g&key=REDACTED",
+      "width": 1200,
+      "height": 1600,
+      "classification": "completed_project",
+      "pair_id": null,
+      "source_type": "google_places"
+    },
+    {
+      "local": "images/10-places.webp",
+      "source_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3llpn0VAxfdEo7zBBX3OldBmRMBGv58chXwCCr0JMPagLB5G1ov-N3QgBZpUabKjKZuCn62nqoqwLruJboVxKJKOViqS9CxAX0YDGJW-cmfmnfHj5Sj1JPMEmHfJBuBwyBoQfv6j1W3SHDd87sndOCV53iLmI6A9VzlvxtfVTt5WNoiajRhK6mZR-YG47ww5DuzQMi0zgud6d2bm4H5zhlJuxe1vpJf6NYJl0LWpL99OqUVqVOMqMT6sTQyY-QR0uQHf_mc0vQ3x4wfMwwQgJeOwzsN4HTTjpiBCOKPWuyTcxVjSilrabll43u2ntBG-v0eSsTg7HaJuMpk37LhZWlUO1aTTjBC86560c7mm_J5Hd7qsnOFT_NHiX_JXAg7aI_cRJQNACySf_YlGX8CVIPMmurEv8QcKpBVvAphDxTwAQ&key=REDACTED",
+      "width": 1270,
+      "height": 1600,
+      "classification": "completed_project",
+      "pair_id": null,
+      "source_type": "google_places"
+    }
+  ],
+  "reviews": [
+    {
+      "text": "Nick has done an excellent job on various projects in my house including installing a new flue, removing a gas fire and installing a downstairs toilet. Throughout all these tasks he's shown himself to be a thoughtful and capable engineer and adept at solving problems and coming up with creative solutions. He's got a wide range of skills which include putting up walls and doors, tiling and of course neat and tidy pipework.",
+      "reviewer": "Tom",
+      "rating": 5
+    },
+    {
+      "text": "Really fantastic service. Nick has worked diligently on our bathroom and gone the extra mile when things were difficult to complete due to our apartment structure. He has worked without complaint when met with unpredictable obstacles and the finished job is excellent.  He has been respectful and tidy in his work throughout.\nI would highly recommend. Thanks Nick!",
+      "reviewer": "Emma",
+      "rating": 5
+    },
+    {
+      "text": "Nick has done various bits of plumbing and heating work for us over the last few years. This has included boiler repairs, services, radiator installation and refitting and tiling a downstairs toilet. Everything has been completed to a really high quality and at a reasonable price. He is punctual, tidy, good at communicating and I would 100% recommend him.",
+      "reviewer": "Michael",
+      "rating": 5
+    },
+    {
+      "text": "Nick helped fix a leak at very short notice. i had already contained the leak and was extremely worried about the reaction and proposal of another plumbing company I had come view the issue. Nick is very well mannered, calm and got on with the job quickly. I would definitely use him again to sort out any issues.\n\nJude",
+      "reviewer": "Jude",
+      "rating": 5
+    },
+    {
+      "text": "I have been using Nick to do some work over the last year, after being let down by someone else. Nick is reliable, efficient, trustworthy and honest. Finding good tradespeople is great as it removes unnecessary stress. I would recommend Nick to anyone with plumbing and gas boiler problems.",
+      "reviewer": "Justin",
+      "rating": 5
+    }
+  ],
+  "social": {
+    "facebook": null,
+    "instagram": null,
+    "youtube": null,
+    "tiktok": null
+  },
+  "gallery_layout": "completed_project_gallery",
+  "photo_classification_summary": {
+    "completed_project": 10
+  },
+  "brand": {
+    "colours": [],
+    "logo_url": null,
+    "logo_local": null
+  },
+  "source_urls": [
+    "https://maps.google.com/?cid=7989564719662751574",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3mNrEG8KvLQRIeeCc03csxPMYpCU6gOrPqJ7Hm1GNrVglAyD06s04vZNwhcqvDFlH0k1Zpo77KqKAwnd0yBW1Upgq2zGYf4LZOQVPf9WX_GN8dwNjyi8bqOvwfhTqr1BLDMWS__Yt5j-7M9ng1-ExHy1J17qv7tBqIBUMyJ2cvRO_NxxJYwp1nfg-thnHosyvQFcSW03nF6QnQTmtt2jYWxFJIV3osMtzW7I6zW4uSsDCRO8pmr2n83hBF8a9azb2QvPVbvKd25zH4KqK38ku9pA8a_Yaxms6-IOQm6mu07p7MqUO2C_Mpj4ZSeoIk_80D73hqCkVdLruHB3m5ts_QxvNj1LSmEvxCwpzHKKrlkGN1rIPPnfxgR-1UrDyyyFCgTrsTw9c2SJensExbUq3OVFCOcvJY8AtIqmcZP3Zi_SA&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3ljzilE11v2njZ7kcxPwfUtHT4Ha57nq580w9sjkHEUT-O_YhmTAonRWEqpA8DMxdUFLrrloOAVuDSq7cv0Hzutia6H96t15Vprkcp9azTYTuzwcjwvP0CxqGxUHhe83agbHeSleIa9C_QZAmNraqLb2Yrnmox66a857MIEoE2prMA5cp0r5Eedw8FVNN8TcJhu-jFCkM_SQGSGOyLIOGIkQtfqUavr0fUrx5xRJvHs7TcuFUnew4m6v7V1oQGbRmkcZzUhLxq-a0NeCYoVmySVxPXbaJgc5JfWcHx0ajDfqDsPDRITVflVJVdqU7__A42pjn2d_rpX9DsIuGys3mUoepEclMSY14Jcszq1R2T5UO-iImhp5f9Tau5PQIcqmbHgwEl1Us5T5jMj2Wc7Rv_6PxzVCifcOuOYz0Y3Zh3Law&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3lShz3_kYJmTfHExKkRXHUcL1NZhUsmWRP7jhBDdCHdpaVJfNAEuYPUycD5dTvOmD0Ijmr7o-7U3QR0bKCiIqZvK1zSEHoAFgJfSAuC9OB7ucFA7BGGiHjGm2kbFakigDXfg8knWUiDgzc6ZAL2X-VlhEEC7gB0Yfl-YmP-jOLbbMbHj2DSZ-CyL_4J_nInFm0B5F_-VZs4BdnLfinPCM6dcvMSicK106UqDCYOgJbhxsorNd_TtuppOfloSz0UDybVC47t4c00CbK3xgRcdgwK_WdjU_DjWZi9jbh9OGTxiOyL751Dp25MCxDPfPYXbuGBDfRTKN87K99SJl3SD3bKEEQwW0wAaJMgxOE7Y-5je2l4I08y6xRg5cFlcPzHLpWDQFOT5eosJ5NBi9aK9SoKFc2z4ZRHO2XUEhrXhWQu5Ss&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3lg23ww9XRIP0O755CJlrJIlQuX8xjWdTA5s7UHgQkO4unmWYqYalUya0uRaLzpbQxJ4yaYKIMQHU_s2WU0Ezr1nrfdNDFv6WCPcQlueCr2ois2ooNVNCBWstMK9fcYkWYTx15wZpWbKfmREPHnFkSz5YgTYth3-i9CTzY2VjMNd2B977UOh2RuldLSi4StPmNfJUijjLm8nLDtERpu5EiXvKnasPx-xGvj_NIKqwH5zVPVxJq-N3EEeY7KB4DEBe2G1T6waUBUZV27NifHsdDwFK2ksfESNmtzhT7ZhCoZeWDpoVeXYIHzn37fvswhe0_JlIpy5RGX5JZrqvbZHD_mOHdzx4Qm4q5cveqL_BqTls8TD1IVSiH4Ria2UOU-MUAJ8hsFgFoObHNfSNybD7D8g2HlhjQFhtQWajYejR419vA&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3m-kx7j5-dh-iZbM5TwalVJpxCcGNk2Lux538E4LWnZ3VxZDc7ch03mZgDlTNEvzMeh_0T7p7DPttQe5zCiCKvecWR3eBVVDzPGk_tlYif5SEqyPxzOXlVfwaDGmzFshiPVptJXp3GxUY88GbOYR6NEXMbvRq9tlfleAcsWQIZ8Tag3WV74rs9U0d8LOE_irOjCQwLwjM7L9If2i86SMo8K9660caxtg0FIIyPNAicDhJPZ3pWeJbK5T2VYKk1NIlLlKcfp8ndYqKTn0GlkXHR2sToTVTTC5SUCK--7Fme5xa4G7ltC-icYCx7eIvpsHrV5keyyPcXDsBQ9XSrMWX1ogpaEehro42PQLcdhFNo0APIyDYnzacWKDtgLxLU0dxihBWAFRY_CpHBqi0u1vKQ0sbouOoitX3wtOW_gViZvaw&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3nDe6vXrwRoH82HiXxJcyzqsJKuIC81wiboLoJP_KOjTZ_lrSzIs-dS7yW0pZYDFsUpA0zqDeykteNDSL6TOACcnMRi4p5OAq7lkYsVOweNlIhgfQ5KFeSnLzBeFCVPFzk76eqGONPY5DFNUu4sIPkmEdR5oGkMyqlBFRCUOAj2g33jhXQixhGFpabnhnKyuB-D-o5TpU52dM7JlhR0iTpPjSpvBavfqjvziJLasVrcLSpTprCeFPfZJtrWCGag9X0tazGsa3miQJI8bhrXnIevJKFv-rsnfwgRzrylD7m7-446fmJs5eznMw3bmfEKHBfHY_kfRhbfoprHdTPhArQtcsUevsEgB0uetYJjD6xHMfVf-2Y_i8_ve1ud5m9RIxIPYLYcOAkdouLZeZRsteWSVQi_N6p9MFKVqPtkVOMf2u8z&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3npSxPf27CVpU0XXbt1cq038Ih_TSnhXyHKMHIHgeHe20arroIX23KRTr5BQyB2JXpOXTuQQsAqtPq4qbuGXXSYCazdjiZW1wKT0DHvW3ZkFUBXG1hQMHxl2cnCkNPLZDjQM4kcmeqf9jS7pRX-W20fYzHDiYDznoQ1Coii2EmQ8coNxilxticiUiaQk6uwB1Z7QySejv51xH1Ez3L39A3YEWckDpt5dki0K_f1Y8bQH2Hm0hQAR2v3nbL8Ij__Px1UNjyMISsqacr-FJXN7CLh2tA3ofu4vKw94KGxKtHHCORPOk1o302zRvD3qU8fyCg4EVGiuIjdpt-xl8bH4JCAH5bCRxxYWsV802T-vMW40jp51uRdxojhUPYJ_2fnSvOiB_1JSzTPokd4J6o6KqNgbOaBHBUZw7X9c7a9UG-phmgv&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3myPHMdkLwBp7tubQ0Bf8wW1BvlLMV3yWiUQAic75JCOwBGGBfcEWL3BFj5qBDfLH5dvsa2X6X0UbcgWBBJuFBJQEH9qSz1VFl8L_GtDqzDWNY8L5py72Tq5oPcvS_56LynnNN1m037EcK6_xZtrVCGApfljAS5GY11kKHGgOlXH3ogSqZWHEThaB3aLsEM1ZueQgulrAmxi-MyJMyAwHCGVVZz4Pb7QeR3PTDDopIV4OhrOFWR0-F3xmnFLdsQSjZm51zPSb6d7jz8QfalJR537-z7zhplTMWcJcKntNJyq9SBBZurWjcZYdJj8yjSS-f-xjOeFUt23dUcFRxw-Zq_yEzPB1AluRt-iKSq92tUZFos-u7c98ffM18J2v2FHT6wAS6pilND_FyydXZkUjnROECe3Mw9P3xRAcWnE7P9Gw&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3lxe690qydsVWS1GRZRqW5RlgAOoWYRQ_Hw48xSa3PnRacmvqTu_r1V5h1IjOt-TLj5hulEQsmPS3ukmSFyqcWrs9hcNufp15eCxTEwVuZNy2h_PsF6onwJevl5lehEF5TLJdQiPxxrFg3CiYRcsyD-GzFl24M3SYKaHkY5EBQcuhea1Za5RRl_x6RaeElD8vWO0nBGijXk3kt3bfHNm1a7CiBIntmOxjC__ZjF611uToAO6ybGdqDjHkODGXXTKqlDHu9IX7avjTCNPO6e7hHIGUbMkshEgYHkUV1lhSXS0ZA4oTHTCoRM3Paunuy32eXXfVJDs9QFcuUpb-YkTc021kKrT2QlGaLYDVVgr02TR4ZCRbSNysW3R1sKuYoVxanX7a_aYj0EuKxUfK5txsYnGr1isCDfRb-Gw7c44d6Efw&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3nUfKKe9q8uo83ej9N5SyNirOFqlQ8PnU1n_Wi8DtT5A7HRLtGkIG3oweCQMprCfp16q1jmLloaK2a32k4R1uSTKWo1Lqmri4lq7OXXfJ0P5dcSR_zW2Ivu8DAXY0heGsiLXCVeIcET8LXbcIezVx-catyfal7GojInU90mKBzC6u47f9FakjcWnP7lIGItLmdLkoDnkv09odiiQ2oFlOJCQ1CZzhjirSLj9ejhIMmR23E1bcvNN3Qx7cjlt9LygelyFNlYSqR8hhL6vY0VNQeYW87A-FOGYqmBJZhEay0Tz2NXuyHULEzQgLGmkhBgJNXgtFAgmJMd1l8NSel-i3vEt-59wYYMPjsWqa2z1NZLkgI19dEIzEEKT-RReGzSmcbP-WSE5IYfiuHn1IGbQ4X7_Rap3UIJCqkbiHBEG8-7iQ&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3mojSO-HN2EaHv5fOSTmOSpntxyIIC9jVMZcOiMjPi806kPL5jPUWpE4q8mPCnUGZIjznPXn49HazM8e1KdxO0zRvplmOmYMjeGpmJna7zEBaDXFK_CE-AFh4ueFmFw_904zFBvCsaSXPONNRsNQK1tuVq_iOK9d7l9htP1CTpdpDttBdyKXjs1Wo9OW5f9ORuGrXO2WK4hjO59scAnJcE5mm9zSgLX-xZ-TdREx8FKeit9PnC-xXVm3qos6L2hcwcTW13iN36P-_QRgP824gCiri7cmXWOj9vVdpo0cayBZ1S7SA73bhv0glrTwt2b5ACqQqrcfi3In966ZZFseCNsWCREU8zi9noJw7_2SxWeX6_O1_7N5FUJgOLBcBzVSD8HTLzaLLkQHSmbTyVdh8BD3pIXGsswlZROKhJ1bIikJw&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3nVwmyDw6KrSTSd4AswjG_vwOmQiEwenNoT-3XrBbpHZz6ja0mbEmERIDAmEapL4w806hZVzezTu4qNvW7p7iWwfHozjUb8mKh-6MKGfAk0ibmppvnGFOewJ920Lbik603qCo61JBIG7bY1dEw3IxuSABV0onGWqYZ04qjdP0VrvjRgHj3nkkN3DBlJm1vHEuDu_tRuBrA5_HYA4O47tFLKIWXPTSbXYsbbnVnJQHKfXzUk9mljNE7HwB4QYcWGGlzhHntksPMQ1l4OlGjqjoaOzMGFiThYBwWUEL-9hcirJFzcWr959Ifa6_dmjU3JxCNgD1p6y0YvD2ku_Da7NvJJyy6K779K3Fa3dOqacDdcvB3pBEolgnOZnSfLxAPuSVJCtRU2Ni3sIs4EJJn6VuygecsGQBVly3jRMLle9IRduQ&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3n9aPOqOgEzuy1y6picM1PemOumAltLVsBxpOcU9x1Pea4q-C7jAxLCoDZfu8z7NKflmlShEJHt-675L37d1d-rXrX3LFevZGuuN8wTKIvG9QCoH6QOW0dHCUOVPpXrQLoDUe5-gxUzxPMamRUZ8yyBhbqH1z2fAARav333IB6oCU_uGOMYc1jjL1YCL_gn2x-WVgzfJkWMPzIasF9v-m2TINxZUHxLlDTVVzQGmnfziyvzpuEYNUnJ09RRYHAdozdM_ylZW7BEuAmG8jZf2tOmEr5ORsRVZMBsBWl2e9zNYsNgHDKwGuomxpsP9IvmD3oxP7xk-PLvVU487gPjpm3uR6MnQRfzmcqM__ub4v2sZG9hXT38ygE5e8IJfJaKvO8f1AcSFYODqSKdHwHPK2giMx27gIp_bOmqvvune7ogQtA&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3mXF5WaV3rwWsdDomcTmLUFUcwU09wUXJHpt_5sfG84rmAn92mwQKluDM0uEfcDLIpg42nEWWTdxCPsy8Bh6akBzHVlyVKtQ_J09D2bOy5AxCO48-l77I3wWv4UyAT_0cS3Xc5rCWrlGljjvFY9hxwBve9NYOlamsu1K70JCDwQ8mSSbpDpn2xF3nIfkLbnmxBRhKznDOEReADudRlvNxy7TNU1BGJOI96_6cAY3sYbyGGo9ObtNpzaGjE7twVpXoHeSsi_xWPYAxMj7oen1Je76hQY5pR_ROBmP6SHpBvbpJiY2wymhPY_BlD62XqkcFhPo34Mpgt_nApzG8vqDRIrRRMrrdzqqzVL9lmyuEpoh2NQVBdYR2Dvn3Pt3aKF21niM5JAmxtU9X_GzAAA_ZnJROEVi4-A-Ou9R1vZqc4W8ls&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3kNICylkRSfhFMF7oIa8wx0bgGhF9vLFgN4t7Sw2-5YVZev5ee_eSleb9ss4zy2qps6hFxyQyWt1KuLXh6TFy_dTdI3RvMXbk9TRRIUCxrNvdT8kw6ERwKxZ5zB3o1WgWziH5R5iOiqu9xvPR7Iu_HhuQaXJOOs4H1FH4km1qHBeNBUU2lefVgk79-Lxc2gdFj3gOfYgl4PNHbzyRENyY0ExyKIaxbgfqs_m0XHNZH-NiZLX3KkSr9u51tL95_lQiEqg8-UefVVMQjQzDVgp88vR7l5WuacNCoX3o-XSOLaHU2xOxAgbet9elNpfCsaRzSywZkO4vVqFWkALnhCKT1UG1ia-7OrCwspEbBvJQlE_7RPBwAmX-MNnvXgFewHBG4XHHWw7KB_yQlcVGn5YjKaa31yxQvjeLxZKblL_VCYNQ&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3lNks7CA1x7BT8GCYNCmaCKFWSv-zwagHWN3I3CBKp-QPGcluJlXE6ePBt6lgyFFxsxeUnf1oPBcFYO-P77swbfLlhapVd6-pLofAbJeoE2-u0ypi_tVC-ki3bMY-UCQ_ZMxDr9-H92MXY2jhtp-Rsavb9aE51xP-Uni2Hg7J7aQT1bsfpD7i7bZcwN6iyNEYG6PSbAwaX7vUhl_q94Y1x5bXOv33GkSb4oVBmR04uQqsHw9aUiPskv4ykWtuKBHH9WJCWMcTZYLmrW54rDv0UahNG2Da4AzrFjui32DRD363QJ7rTDs2l1e9dDLn2s2rz-ims18XsHZVJK6VNmyVVk9Ej6UWR0x-FDVFHWrMIzy8lTA4aDDGAgPRFcRG6gqzBGjxgsiTex9P9FEqAwdbBX-IcVyC32o5I0vNO0lV3z_xJg&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3mMMMvbQ5Dhx7csGGYf9CVvCOoqlBn5ooaKCB68jzCXrEeXH5PW-SS517tCpXQoyIxmbbjLB1JljM_ZL5kZEKAUGSwGy1jKe8Knij5KCiw4_B0akBdN_p6q6f1bMgeRbERS1YwDPruc_gaJL0_4dw_Bj_oK4v5NwwfdK4mP3pwHJ7AbFTk-bLa5WusN04HdVCP16Vt6q19uNzVSzlTGFZURVteikUB87A0ZdX93BjJs_9b0XDzFDa-V9LfUft8Usj5_aecK0uVLvU9IvoKfSf6BONMnINApod_bdDO7kj7udPyInmuCKqF9_GyeOv8eUpJ0gpncSGlKXuvLFV7p2gKrdnsj78MV8Y-kDN1LTYMoaCynhc95VYZezHkvPNICxY3-0tLxELn8WryKRwk6HJf7Y__h35xmFIRvpUcK12X6bkXW&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3kfz9BIerF9-TZ1g3_JRTIZ-xIj1fazXfCkRMIfLBn1KUiVUOl2qmwlTNKxqwC98e7ddoLScrkW8bqfESWpRa2cuS4fQuCYc0YwlBkeChS5hivYxBp7WdyFSxnAC3853PBU-YmOxqLecPlzZm7JbguvdlcT60_XeA2qtnhvNpJlns3BpyLXksSWEA6JewuWrAcjw8yVgqtnlzkXJm90mOs4n5m9x7VWev8khlFPqA6uFNaDP5OWdpF-sopCFkSvr38kf0gC2I8wWY5SEhm7YNreTr0U25a1xXrNirhixmjTEAS1d8dTzXWAYQ8k7Mi8Hdsd23II7GPKcEJ0wAhF8likVtmsd73ml_ypcOGVXv0OPfOImaWJHwbNh9i1hFismWsaV0MAOJp8qQxUsKTaPzKdCf9-ZV1Px-hS8Ha-AW_v1w&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3ld1cZtcPr2CjfNhah7Lj6Wz3s1BSj4LH5_77AgN1gk6r56Zgb7bzhapCtYV6AYEkmNK1A1F7wFWWjrnncf-L-zqzYyFsiGDP46gdaTxV0Du5w6uXMgFOEK072_vbqHnrPF5nzP_hgqh_v1Ea8kvLHV-qeyfm9ZfItz89fp0DMdTYu89MRJbD3OYzbjHKNiP7wcxKQIu9mfg3f4ewBpWlCIJ1A2WmszLB1hVzssu4bKgmNsA6gXJSJ2yV--Y0uKPxw0NObwQw4STbWTxIA-GN1_Fd5XTOnKRzdnnIuaxt1KCMDDTzQlopuVN9xqContYEz0VY3WGNW1jhe35OuP_G3qD_jGHILxJIMfLer6BMvFrjRNkmtholgsvLfDyMymj3rteW6jh-GVJcwl12YgAIZkqLSR02DlwIt1DtiJR5zz4g&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3llpn0VAxfdEo7zBBX3OldBmRMBGv58chXwCCr0JMPagLB5G1ov-N3QgBZpUabKjKZuCn62nqoqwLruJboVxKJKOViqS9CxAX0YDGJW-cmfmnfHj5Sj1JPMEmHfJBuBwyBoQfv6j1W3SHDd87sndOCV53iLmI6A9VzlvxtfVTt5WNoiajRhK6mZR-YG47ww5DuzQMi0zgud6d2bm4H5zhlJuxe1vpJf6NYJl0LWpL99OqUVqVOMqMT6sTQyY-QR0uQHf_mc0vQ3x4wfMwwQgJeOwzsN4HTTjpiBCOKPWuyTcxVjSilrabll43u2ntBG-v0eSsTg7HaJuMpk37LhZWlUO1aTTjBC86560c7mm_J5Hd7qsnOFT_NHiX_JXAg7aI_cRJQNACySf_YlGX8CVIPMmurEv8QcKpBVvAphDxTwAQ&key=REDACTED"
+  ],
+  "notes": [
+    "owner_name not found in public sources",
+    "email not found in public sources",
+    "contact_name \"Nick\" from 5 Google review mention(s) (high confidence); owner_name not set",
+    "contactability=CONTACTABLE",
+    "no email found, WhatsApp available",
+    "Photo discovery: 10/10 selected (Enough photos for photo-led layout)"
+  ],
+  "missing_fields": [
+    "owner_name",
+    "email",
+    "facebook",
+    "instagram"
+  ],
+  "invalid_website_candidates": [
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3mNrEG8KvLQRIeeCc03csxPMYpCU6gOrPqJ7Hm1GNrVglAyD06s04vZNwhcqvDFlH0k1Zpo77KqKAwnd0yBW1Upgq2zGYf4LZOQVPf9WX_GN8dwNjyi8bqOvwfhTqr1BLDMWS__Yt5j-7M9ng1-ExHy1J17qv7tBqIBUMyJ2cvRO_NxxJYwp1nfg-thnHosyvQFcSW03nF6QnQTmtt2jYWxFJIV3osMtzW7I6zW4uSsDCRO8pmr2n83hBF8a9azb2QvPVbvKd25zH4KqK38ku9pA8a_Yaxms6-IOQm6mu07p7MqUO2C_Mpj4ZSeoIk_80D73hqCkVdLruHB3m5ts_QxvNj1LSmEvxCwpzHKKrlkGN1rIPPnfxgR-1UrDyyyFCgTrsTw9c2SJensExbUq3OVFCOcvJY8AtIqmcZP3Zi_SA&key=REDACTED"
+  ],
+  "website_url_validation": {
+    "validated_at": "2026-06-11T11:14:54.617Z",
+    "issue": "empty",
+    "note": "website_url empty",
+    "previous_url": null
+  },
+  "prospect_region": "Bristol",
+  "location_validation_status": "OK",
+  "directory_probes": [
+    {
+      "platform": "checkatrade",
+      "candidate_url": "https://www.checkatrade.com/trades/nfs-plumbing-heating",
+      "status": "NOT_FOUND",
+      "confidence": "rejected",
+      "title": null,
+      "rating": null,
+      "review_count": null,
+      "phone_visible": false,
+      "verification_reasons": [],
+      "note": "search_deferred: NFS Plumbing & Heating Bristol BS3 4AZ site:checkatrade.com"
+    },
+    {
+      "platform": "trustatrader",
+      "candidate_url": "https://www.trustatrader.com/traders/nfs-plumbing-heating",
+      "status": "NOT_FOUND",
+      "confidence": "rejected",
+      "title": null,
+      "rating": null,
+      "review_count": null,
+      "phone_visible": false,
+      "verification_reasons": [],
+      "note": "search_deferred: NFS Plumbing & Heating Bristol BS3 4AZ site:trustatrader.com"
+    },
+    {
+      "platform": "yell",
+      "candidate_url": "https://www.yell.com/biz/nfs-plumbing-heating-bristol-bs3-4az/",
+      "status": "NOT_FOUND",
+      "confidence": "rejected",
+      "title": null,
+      "rating": null,
+      "review_count": null,
+      "phone_visible": false,
+      "verification_reasons": [],
+      "note": "search_deferred: NFS Plumbing & Heating Bristol BS3 4AZ site:yell.com"
+    },
+    {
+      "platform": "mybuilder",
+      "candidate_url": "https://www.mybuilder.com/profile/nfs-plumbing-heating",
+      "status": "NOT_FOUND",
+      "confidence": "rejected",
+      "title": null,
+      "rating": null,
+      "review_count": null,
+      "phone_visible": false,
+      "verification_reasons": [],
+      "note": "search_deferred: NFS Plumbing & Heating Bristol BS3 4AZ site:mybuilder.com"
+    },
+    {
+      "platform": "rated_people",
+      "candidate_url": "https://www.ratedpeople.com/profile/nfs-plumbing-heating",
+      "status": "NOT_FOUND",
+      "confidence": "rejected",
+      "title": null,
+      "rating": null,
+      "review_count": null,
+      "phone_visible": false,
+      "verification_reasons": [],
+      "note": "search_deferred: NFS Plumbing & Heating Bristol BS3 4AZ site:ratedpeople.com"
+    },
+    {
+      "platform": "houzz",
+      "candidate_url": "https://www.houzz.co.uk/professionals/nfs-plumbing-heating",
+      "status": "NOT_FOUND",
+      "confidence": "rejected",
+      "title": null,
+      "rating": null,
+      "review_count": null,
+      "phone_visible": false,
+      "verification_reasons": [],
+      "note": "search_deferred: NFS Plumbing & Heating Bristol BS3 4AZ site:houzz.co.uk"
+    },
+    {
+      "platform": "bark",
+      "candidate_url": "https://www.bark.com/en/gb/company/nfs-plumbing-heating/",
+      "status": "NOT_FOUND",
+      "confidence": "rejected",
+      "title": null,
+      "rating": null,
+      "review_count": null,
+      "phone_visible": false,
+      "verification_reasons": [],
+      "note": "search_deferred: NFS Plumbing & Heating Bristol BS3 4AZ site:bark.com"
+    },
+    {
+      "platform": "nextdoor",
+      "candidate_url": "https://nextdoor.co.uk/pages/nfs-plumbing-heating/",
+      "status": "NOT_FOUND",
+      "confidence": "rejected",
+      "title": null,
+      "rating": null,
+      "review_count": null,
+      "phone_visible": false,
+      "verification_reasons": [],
+      "note": "search_deferred: NFS Plumbing & Heating Bristol BS3 4AZ site:nextdoor.co.uk"
+    }
+  ],
+  "enrichment": {
+    "enriched_at": "2026-06-11T11:14:43.681Z",
+    "email_domain_checked": false,
+    "website_discovery_run": true
+  },
+  "lead_validity": {
+    "lead_validity_status": "INSUFFICIENT_EVIDENCE",
+    "lead_validity_reason": "Enrichment incomplete or source confidence too low",
+    "pitch_type": "manual_review",
+    "website_status": "NO_WEBSITE",
+    "website_url": null,
+    "website_discovery_classification": null,
+    "email_domain_website": null,
+    "source_confidence_summary": {
+      "overall": "medium",
+      "verified_platforms": [
+        "google_places"
+      ],
+      "rejected_platforms": [],
+      "notes": []
+    },
+    "ready_for_build": false,
+    "ready_for_design": false,
+    "ready_for_pitch": false,
+    "manual_review_required": true,
+    "has_real_website": false,
+    "truly_no_website": true,
+    "warnings": [
+      "Source enrichment not complete - run enrich:lead before build"
+    ],
+    "manual_asset_status": "OK",
+    "pause_before_open_design": false,
+    "manual_asset_folder": "briefs/nfs-plumbing-heating/images/manual/"
+  },
+  "source_quality": {
+    "source_quality_status": "FAIL",
+    "source_quality_reason": "Source enrichment not complete",
+    "website_url_validated": true,
+    "email_domain_checked": true,
+    "enrichment_complete": false,
+    "logo_discovery_attempted": true,
+    "photo_discovery_attempted": true,
+    "directory_probes_attempted": true,
+    "warnings": [
+      "Lead validity requires manual review"
+    ],
+    "blockers": [
+      "Source enrichment not complete"
+    ]
+  }
+}

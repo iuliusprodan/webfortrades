@@ -1,0 +1,29 @@
+{
+  "slug": "jt-plumbing",
+  "business_name": "JT Plumbing",
+  "direction": "slate_plumbing_dm_sans_lora_compact_local",
+  "trade": "custom",
+  "fontPairKey": "dm-sans-lora",
+  "layoutFamily": "compact-local",
+  "statsStyle": "inline-strip",
+  "reviewsStyle": "two-column-grid",
+  "galleryStyle": "compact-row",
+  "ctaStyle": "rounded-pill",
+  "heroHeadline": "Pipes and heating, done right.",
+  "heroHeadlineKey": "pipes-heating-done-right",
+  "fonts": {
+    "display": "Lora",
+    "body": "DM Sans"
+  },
+  "separator": "◆",
+  "colors": {
+    "accent": "#3d5a73",
+    "accentForeground": "#ffffff",
+    "background": "#f7f9fb",
+    "foreground": "#1e293b",
+    "muted": "#e2e8f0",
+    "mutedForeground": "#64748b",
+    "border": "#cbd5e1",
+    "surface": "#ffffff"
+  }
+}

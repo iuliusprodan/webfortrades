@@ -1,0 +1,29 @@
+{
+  "slug": "west-park-electrics",
+  "business_name": "West Park Electrics",
+  "direction": "charcoal_orange_space_mono_ibm_plex_split_hero_editorial",
+  "trade": "custom",
+  "fontPairKey": "space-mono-ibm-plex",
+  "layoutFamily": "split-hero-editorial",
+  "statsStyle": "centered-row",
+  "reviewsStyle": "two-column-grid",
+  "galleryStyle": "standard-grid",
+  "ctaStyle": "rounded-pill",
+  "heroHeadline": "My father was an electrician and he was planning to fit a cooker for my nan, unfortunately",
+  "heroHeadlineKey": "west-park-electrics-plan-hero",
+  "fonts": {
+    "display": "Space Mono",
+    "body": "IBM Plex Sans"
+  },
+  "separator": "◆",
+  "colors": {
+    "accent": "#e85d04",
+    "accentForeground": "#ffffff",
+    "background": "#f5f5f4",
+    "foreground": "#1c1917",
+    "muted": "#e7e5e4",
+    "mutedForeground": "#57534e",
+    "border": "#d6d3d1",
+    "surface": "#ffffff"
+  }
+}

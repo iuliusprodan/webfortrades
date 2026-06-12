@@ -1,0 +1,385 @@
+{
+  "business_name": "Stay Dry Roofing",
+  "owner_name": null,
+  "contact_name": "Thomas",
+  "contact_name_source": "google_reviews",
+  "contact_name_confidence": "medium",
+  "contact_name_evidence_count": 2,
+  "contact_name_usage_allowed": true,
+  "possible_contact_name": null,
+  "phone": "07393 696585",
+  "email": null,
+  "phone_type": "mobile",
+  "whatsapp_candidate": true,
+  "email_available": false,
+  "whatsapp_available": "unknown",
+  "contactability_status": "NEEDS_MANUAL_REVIEW",
+  "contactability_reason": "WhatsApp availability check failed",
+  "preferred_channel": null,
+  "address": "33 Rockingham Ln, Sheffield City Centre, Sheffield S1 4FW, UK",
+  "opening_hours": [
+    "Monday: 7:00 AM – 6:30 PM",
+    "Tuesday: 7:00 AM – 6:30 PM",
+    "Wednesday: 7:00 AM – 6:30 PM",
+    "Thursday: 7:00 AM – 6:30 PM",
+    "Friday: 7:00 AM – 6:30 PM",
+    "Saturday: 7:00 AM – 6:30 PM",
+    "Sunday: 7:00 AM – 4:00 PM"
+  ],
+  "services": [
+    "Roofing"
+  ],
+  "services_meta": [
+    {
+      "name": "Roofing",
+      "source": "google",
+      "direct": true
+    }
+  ],
+  "service_confidence": "inferred",
+  "service_sources": [
+    "google",
+    "name",
+    "niche"
+  ],
+  "service_area": [
+    "Sheffield",
+    "Sheffield City Centre",
+    "Sheffield S1 4FW"
+  ],
+  "based_location": "Sheffield, S1",
+  "google_rating": 5,
+  "google_review_count": 5,
+  "google_review_count_sourced": true,
+  "service_areas_inferred": true,
+  "google_maps_url": "https://maps.google.com/?cid=14607676387471236693",
+  "website_status": "HAS_REAL_SITE",
+  "website_check_notes": "reason=working_site; status=200; final=https://sheffieldroofer.co.uk/; title=Stay Dry Roofing Sheffield",
+  "website_url": "https://sheffieldroofer.co.uk/",
+  "photos": [
+    {
+      "local": "images/01-places.webp",
+      "source_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3nQelpPlD6IBOjN0UYlPgb_Z-VgFRyuVBihHJXp9W1MfkWjjSe4X8OSlyv6gRwGNXfqzqqyi12OkcyRIUp5D6ZZTZ5qWF8o_HUzCNIVBKvYYP1ubZ-TvuF9LeygZckMSC0ZhU2FfrFmEe5wSnHzTEkolCPyeYs9VoEcjkRnt6Y3DHUMSrO3Lt_KdSStYVaRWdWl5PjSxAjYZrmckdx4ZJGWAoi6eUAX6zy7TFukBeaL7GBrU0KoVQ3ISGqUoCUY2GUDEW72_BWWa6jUK3HaoEfvBnXZr3MQtTdRsuGRBuPIrljUdbETZ8CaoIml7g4SjL_Q4t6sxsscyV8TJWXXxPB3egxTCYFoR30o3_Ac0m1uXHSK2z61LGY9j-Ye0yen6jHuHGhSNELp0dIiKgN1hriaB9RtulLSILH7t2xRs2oR8cnq-oDWjtY5FMvjg9Ue&key=REDACTED",
+      "width": 1440,
+      "height": 810,
+      "classification": "completed_project",
+      "pair_id": null,
+      "source_type": "google_places"
+    },
+    {
+      "local": "images/02-places.webp",
+      "source_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3laCvtAoAJv9vzw4CAv-oNOEA7hOF028AqeQK9xnoo76bwO-8018q-FIYzOlqAevMmPlH6YyJ78ymaUfNk6RMwgfLnZdEN-4axxpYCIRICPBpYbCzM3Iw-34djVi3BjmgXdOVMDwBbZKjgRC2oRJZILWwUkZmcCPPjlCynHvJUBsAXZBcR90cRAoMN5y5-FIO64WCDlcuzvH46wt9K8_hrQSD1rlRFvNxKDzl1YIh2HMkp-I8Sl9uMqCCWegs_urJPlaNqFy2hYYfCXzzyIVscklL-2dixNqetjm9AfjABp-VyYD5ftBMUIg4xz1W99S2oZFI4BQ-qfL9stAnluluCh4PdaxMK43Z0ii-HzsVfbACd4d3AhLNVkytROdPU0PNJEMUcS6siiun1Pmoz11fFnN6oLlXc-gfxuYdVBQc2VkiRcdkmdlbjVSL6hio5W&key=REDACTED",
+      "width": 1080,
+      "height": 810,
+      "classification": "completed_project",
+      "pair_id": null,
+      "source_type": "google_places"
+    },
+    {
+      "local": "images/03-places.webp",
+      "source_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3kEXHlLFJC2dX-wllsTxCrOeeyDPC023DBAuFd2QYkjLW0sqZjdDHyr18WvT7dhPmj8ih52FCkgBTD_wKpbZmznp3dp_0yFP6fJ5EtWrdeet-_qticEWbiTx6ta4rjO7YRhB0MWKd_iciU5t9JcLmJo0DrUwRlt38HRua2kRYRfitMX34C2tgKfJY4itIRP2N4afHENu8bVxyVDnRWEbbwggj67FKYbUoSBZanZ4RKsGY8frH2Px3So-xHTV3Gdw1tojVPwUuxqHIi4OI5Gjfu6FyqNHAvT9nQqD99SbbF9n1pwIjbbgVNN_j6xow4oJL9hVntxaUfod50XFAX-HM0zN5Q8I1XT43HvrE0bGj0BEVUKQZLr3nrpKJYFJLWMHdapYGH1P2UxdjRlqeab_mV707fSSvW7mYuqbBFlDqkKz6JwF8taIv_x12KP8Lt6&key=REDACTED",
+      "width": 1600,
+      "height": 1200,
+      "classification": "completed_project",
+      "pair_id": null,
+      "source_type": "google_places"
+    },
+    {
+      "local": "images/04-places.webp",
+      "source_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3moI2iMqPEbkGGvNdEmtmUV5FXZzbraj8pji6oruOX58MkTEq6gAThbcIsOnbY-3xEWwyhjhiBl3hW3Q3Kt9jpxw1470uXYgyxCCoai9eoJG4jReTPawo0i0JRv0iojICUi_l5PH_9ugNkjhZ-NmfLYbaXxEZPE71WlUC5QMrEsnQAs4EEkOky_BlN4PHIw0Kede9R9vk-5pAPK2zY8kpwkEIZ7iwjZPCFYQp0OkIcfHxLSIa_7-NOM3ftuMKmloJqtWs2F1GSDBaa3Yt_0V6OA4xRu6Ds-2HbUXJGHDCpYplcPhXZ_DovvcwoUqCREpo392YuA0CeJRWLADqzFlUZ5trwX4zbMeEb88SlI4wyhfqhZLpRqcQJlPf4JwTem05soGqtIsLJ0NkxgNCm5T-pG0wvZ626HYiDb-_B7huWaCFssZByne2iC4D6KJg&key=REDACTED",
+      "width": 1200,
+      "height": 1600,
+      "classification": "completed_project",
+      "pair_id": null,
+      "source_type": "google_places"
+    },
+    {
+      "local": "images/05-places.webp",
+      "source_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3n78a5khdA8lftnFhi_42-Zz3DeeBxU5NehSdEDk4CaCA5vDtDW5sNgKgZu97SxepHyFjO6P_6TJZB3VQWGR7fzygPV56mT78AIK-erF4exWkLHqZ6cr7sBwoDH_AbXk15ZDIU8bpd0uusYhbmBBcaL0fyz9H22Gy0kWhvk9oh4xvDNo1QmdzYJg36AgSQORAkMdM-zxA29pqXjoUqwf5rY-6wBPxF3WgAImarAG9DvXrNYQ8o_8lnxutfUfLT5dUrkQA42uZJgnooc2iDFjRRZm_VIlFdazJSYgC17wFJ-GrJfZRACkoC6FwCvF7WVldlW4kFSFyMVd51sqlxb1gN5Eu5XksQ6q6pNzGCtcCPYCJDwp1fDOPGiUyttbYKA-wliWr9UqjEfWmEJPAnsjhxIxQb6Muu-HHhs1wfmV0km-h0_PG0qSC04wEMXzw&key=REDACTED",
+      "width": 1086,
+      "height": 1448,
+      "classification": "completed_project",
+      "pair_id": null,
+      "source_type": "google_places"
+    },
+    {
+      "local": "images/06-places.webp",
+      "source_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3nm5lhgF_3oUPeGT1M80z6z7DOC_bgLV6S7n0PWLG0f_6_9XuIutJ5KMrEBBTMLOzUVBQuxUCrnAWlZBYmB05TBW5ai_kFOVO1LSlWFQjZJogD0nYvP5wKcZQce7f06D4DAuKQo6A0kDgDAhZGolN5rc8nkAqmZdoJFssRPiA9FMeVOqXrdD4Jr-KmVlmY8_jlSrYizzwjrFv8BhoxExU1jlcPEddlIaOQcMN98cV2JT8m_ZO1wio4_eg0Cj6HhLRfMc5_wazun85R62_gV9SXJ4p6MiuNhwI_eqa_SvFN-M4RvRelHmODc6dL9fTvXGmwuK9gMwrf9pO6vqSZtFmkq-nVRaK4VsRI23BN3jeR025nyHJsXrnNbvDziQ6yu1XrzGwXdD64ifB__59Sbe9BAGF9SMBwDB9Lc0OtlcdPxErrr0SORIP-UkhG6tePf&key=REDACTED",
+      "width": 1440,
+      "height": 810,
+      "classification": "completed_project",
+      "pair_id": null,
+      "source_type": "google_places"
+    },
+    {
+      "local": "images/07-places.webp",
+      "source_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3lFI0P4GUqiWxRPnJ9lvUQvSL0Q9Q3ZIjj_rxsnCqpUVkfSpxXNW1FqmYzoaWePsNSEJljwoBG73Nyx6kPLejNdhGnYbr9UbAspx66jpA7bM3DIlXwzbjtG_0p3DFr33OJgU41obQXAli2-MJWToR7iTkiR-X8MJSDZSvd1635sMhwQSZHTaw-TGLdMjutopx_5jvN-wDMPrIT4gbRSWcw-7Xdtwnu9FGPApQSM6UFWBWoCUHYl4tUR8dpUcZWHOJPHMCVRukq0FcUPYC1_vO9LG0Z15_NkxS7Ssayo59TqTgm93yB801v0wNIq-hiH1PlJIbA18t-u-kDriKX86ZwU8cLREyczEMneU7NoRq95uFZBV6vioQtboqs5eYM1hDlKr6NhMr6U0Aieq9XSN0YBVq-3XcB8DUKDnKFKsFjYKFOLMdnhNb50gpAx7PVA&key=REDACTED",
+      "width": 1440,
+      "height": 810,
+      "classification": "completed_project",
+      "pair_id": null,
+      "source_type": "google_places"
+    },
+    {
+      "local": "images/09-places.webp",
+      "source_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3lZHp-zqTFOBXy0_d4t9MnYG5ML8m54URVCIaf9qsvKwYW3DRTSVd4EIJE5oPgPMVGwf3tHPZvvtveC8kwHA7rpy-zHIbF3k4yEqdMSE4uN3FnPPRChyJj8pKg7z8_l1-9DqEsTQlmG5jOq_nZ4V5peO_gA9SxzZyQKTshN8thOrKuSTi-kHIc2PsR4h2kSZmzq-WIP4YJUN1hNXhOl3cMY6XUMlBkN1BUkpRiZ3oD7F7620eBx3i_cVuwuobXj4TCVjUf_qVqq1eN_6O4cQs_PshnauRRTvz0EXZ6VYGUO0h7INQL0LN2cdyAFrRLq0Owev14nbQnOPwvwJNYjr1xQ3IzHqveVVBJjGx59sZpSwq2xxmC7BzJmUjQFBGtKcg_ceDyrT-U17PMqYpE2EAihGoysq6h_QCqfWIVFTNABkqIYKbWumTpWk4Opow&key=REDACTED",
+      "width": 977,
+      "height": 1600,
+      "classification": "completed_project",
+      "pair_id": null,
+      "source_type": "google_places"
+    },
+    {
+      "local": "images/10-places.webp",
+      "source_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3kytxrBNxCGMyrmeipAk-pyOi-MqQcxb0pItVhcIgDuLdLX8cqIXCLvh4OJTMbOZnbhVB5vRraOxol81vCe8QS_ks7VvY1mDJ6psHVRNxOi6m9UKt9mifG6W1afuRg5KpOVqy_ZMNHoIEqKpmhfZK1kMOP1eMNc2KtmD6nlkuJgyofmSXbi7mNedsnM2cFJvpnKu3lRZ6xINbdId9snD9t6OHhXMZ3Xj9L4n5hzFScjQJLE6tEzY18tGe1tatPkmSDUgLCBFZV_SYrLoegc0BTaQ2XtnacayctTWwuLHO0-600c-8J1gjJCwqWe5HZ2PY2-xDyv_jPtzEJEo__zLoYp-wpI1VBXfH_lHnLsgGOM9bXUu6uvgBC2hNoiCo-IcQVzj1LNA15_goBOcZ4fjxNbZYZfBnEqcICEHIA5fexQXR8As5DP6tb30mBDkA&key=REDACTED",
+      "width": 1200,
+      "height": 1600,
+      "classification": "completed_project",
+      "pair_id": null,
+      "source_type": "google_places"
+    },
+    {
+      "local": "images/11-page.webp",
+      "source_url": "https://media.base44.com/images/public/69cfc5cca981de38f9ece608/3a7c4b9ad_IMG_2495.jpeg/v1/fill/w_1200,h_630/3a7c4b9ad_IMG_2495.jpeg",
+      "width": 1200,
+      "height": 630,
+      "classification": "completed_project",
+      "pair_id": null,
+      "source_type": "page"
+    }
+  ],
+  "reviews": [
+    {
+      "text": "Excellent service from Star Dry Roofing from start to finish. The team were punctual, professional, and extremely knowledgeable. They explained everything clearly, provided before and after photos, and completed the work to a very high standard. The site was left clean and tidy, and the workmanship was outstanding. It’s reassuring to find a roofing company that is honest, reliable, and takes pride in their work. I would highly recommend Star Dry Roofing to anyone needing roofing repairs or a new roof. Thank you for a fantastic job!",
+      "reviewer": "Kallum",
+      "rating": 5
+    },
+    {
+      "text": "I would highly recommend Stay Dry Roofing to anyone looking for reliable and trustworthy roofers in Sheffield. A fantastic job completed efficiently and professionally.",
+      "reviewer": "Tom",
+      "rating": 5
+    },
+    {
+      "text": "We had a leek at are business office had a couple quote but these lads turned up very professional I knew exactly what to do cannot recommend them enough cheers lad",
+      "reviewer": "Alpine",
+      "rating": 5
+    },
+    {
+      "text": "Absolutely fantastic team! Had installed a brand new tiled roof for me & replaced all my lead flashing on my chimney, thanks to Thomas & his team.",
+      "reviewer": "Mark",
+      "rating": 5
+    },
+    {
+      "text": "absolute brilliant services repair my roof couldn’t of ask for better thank you Thomas & the team",
+      "reviewer": "Ffion",
+      "rating": 5
+    }
+  ],
+  "social": {
+    "facebook": null,
+    "instagram": null,
+    "youtube": null,
+    "tiktok": null
+  },
+  "gallery_layout": "completed_project_gallery",
+  "photo_classification_summary": {
+    "completed_project": 10
+  },
+  "brand": {
+    "colours": [],
+    "logo_url": "https://media.base44.com/images/public/69cfc5cca981de38f9ece608/6536d5a8c_513A8ECA-65DC-48CE-864A-9BAA78547412.png",
+    "logo_local": "brand/logo.webp"
+  },
+  "source_urls": [
+    "https://maps.google.com/?cid=14607676387471236693",
+    "http://www.sheffieldroofer.co.uk/",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3nQelpPlD6IBOjN0UYlPgb_Z-VgFRyuVBihHJXp9W1MfkWjjSe4X8OSlyv6gRwGNXfqzqqyi12OkcyRIUp5D6ZZTZ5qWF8o_HUzCNIVBKvYYP1ubZ-TvuF9LeygZckMSC0ZhU2FfrFmEe5wSnHzTEkolCPyeYs9VoEcjkRnt6Y3DHUMSrO3Lt_KdSStYVaRWdWl5PjSxAjYZrmckdx4ZJGWAoi6eUAX6zy7TFukBeaL7GBrU0KoVQ3ISGqUoCUY2GUDEW72_BWWa6jUK3HaoEfvBnXZr3MQtTdRsuGRBuPIrljUdbETZ8CaoIml7g4SjL_Q4t6sxsscyV8TJWXXxPB3egxTCYFoR30o3_Ac0m1uXHSK2z61LGY9j-Ye0yen6jHuHGhSNELp0dIiKgN1hriaB9RtulLSILH7t2xRs2oR8cnq-oDWjtY5FMvjg9Ue&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3laCvtAoAJv9vzw4CAv-oNOEA7hOF028AqeQK9xnoo76bwO-8018q-FIYzOlqAevMmPlH6YyJ78ymaUfNk6RMwgfLnZdEN-4axxpYCIRICPBpYbCzM3Iw-34djVi3BjmgXdOVMDwBbZKjgRC2oRJZILWwUkZmcCPPjlCynHvJUBsAXZBcR90cRAoMN5y5-FIO64WCDlcuzvH46wt9K8_hrQSD1rlRFvNxKDzl1YIh2HMkp-I8Sl9uMqCCWegs_urJPlaNqFy2hYYfCXzzyIVscklL-2dixNqetjm9AfjABp-VyYD5ftBMUIg4xz1W99S2oZFI4BQ-qfL9stAnluluCh4PdaxMK43Z0ii-HzsVfbACd4d3AhLNVkytROdPU0PNJEMUcS6siiun1Pmoz11fFnN6oLlXc-gfxuYdVBQc2VkiRcdkmdlbjVSL6hio5W&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3kEXHlLFJC2dX-wllsTxCrOeeyDPC023DBAuFd2QYkjLW0sqZjdDHyr18WvT7dhPmj8ih52FCkgBTD_wKpbZmznp3dp_0yFP6fJ5EtWrdeet-_qticEWbiTx6ta4rjO7YRhB0MWKd_iciU5t9JcLmJo0DrUwRlt38HRua2kRYRfitMX34C2tgKfJY4itIRP2N4afHENu8bVxyVDnRWEbbwggj67FKYbUoSBZanZ4RKsGY8frH2Px3So-xHTV3Gdw1tojVPwUuxqHIi4OI5Gjfu6FyqNHAvT9nQqD99SbbF9n1pwIjbbgVNN_j6xow4oJL9hVntxaUfod50XFAX-HM0zN5Q8I1XT43HvrE0bGj0BEVUKQZLr3nrpKJYFJLWMHdapYGH1P2UxdjRlqeab_mV707fSSvW7mYuqbBFlDqkKz6JwF8taIv_x12KP8Lt6&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3moI2iMqPEbkGGvNdEmtmUV5FXZzbraj8pji6oruOX58MkTEq6gAThbcIsOnbY-3xEWwyhjhiBl3hW3Q3Kt9jpxw1470uXYgyxCCoai9eoJG4jReTPawo0i0JRv0iojICUi_l5PH_9ugNkjhZ-NmfLYbaXxEZPE71WlUC5QMrEsnQAs4EEkOky_BlN4PHIw0Kede9R9vk-5pAPK2zY8kpwkEIZ7iwjZPCFYQp0OkIcfHxLSIa_7-NOM3ftuMKmloJqtWs2F1GSDBaa3Yt_0V6OA4xRu6Ds-2HbUXJGHDCpYplcPhXZ_DovvcwoUqCREpo392YuA0CeJRWLADqzFlUZ5trwX4zbMeEb88SlI4wyhfqhZLpRqcQJlPf4JwTem05soGqtIsLJ0NkxgNCm5T-pG0wvZ626HYiDb-_B7huWaCFssZByne2iC4D6KJg&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3n78a5khdA8lftnFhi_42-Zz3DeeBxU5NehSdEDk4CaCA5vDtDW5sNgKgZu97SxepHyFjO6P_6TJZB3VQWGR7fzygPV56mT78AIK-erF4exWkLHqZ6cr7sBwoDH_AbXk15ZDIU8bpd0uusYhbmBBcaL0fyz9H22Gy0kWhvk9oh4xvDNo1QmdzYJg36AgSQORAkMdM-zxA29pqXjoUqwf5rY-6wBPxF3WgAImarAG9DvXrNYQ8o_8lnxutfUfLT5dUrkQA42uZJgnooc2iDFjRRZm_VIlFdazJSYgC17wFJ-GrJfZRACkoC6FwCvF7WVldlW4kFSFyMVd51sqlxb1gN5Eu5XksQ6q6pNzGCtcCPYCJDwp1fDOPGiUyttbYKA-wliWr9UqjEfWmEJPAnsjhxIxQb6Muu-HHhs1wfmV0km-h0_PG0qSC04wEMXzw&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3nm5lhgF_3oUPeGT1M80z6z7DOC_bgLV6S7n0PWLG0f_6_9XuIutJ5KMrEBBTMLOzUVBQuxUCrnAWlZBYmB05TBW5ai_kFOVO1LSlWFQjZJogD0nYvP5wKcZQce7f06D4DAuKQo6A0kDgDAhZGolN5rc8nkAqmZdoJFssRPiA9FMeVOqXrdD4Jr-KmVlmY8_jlSrYizzwjrFv8BhoxExU1jlcPEddlIaOQcMN98cV2JT8m_ZO1wio4_eg0Cj6HhLRfMc5_wazun85R62_gV9SXJ4p6MiuNhwI_eqa_SvFN-M4RvRelHmODc6dL9fTvXGmwuK9gMwrf9pO6vqSZtFmkq-nVRaK4VsRI23BN3jeR025nyHJsXrnNbvDziQ6yu1XrzGwXdD64ifB__59Sbe9BAGF9SMBwDB9Lc0OtlcdPxErrr0SORIP-UkhG6tePf&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3lFI0P4GUqiWxRPnJ9lvUQvSL0Q9Q3ZIjj_rxsnCqpUVkfSpxXNW1FqmYzoaWePsNSEJljwoBG73Nyx6kPLejNdhGnYbr9UbAspx66jpA7bM3DIlXwzbjtG_0p3DFr33OJgU41obQXAli2-MJWToR7iTkiR-X8MJSDZSvd1635sMhwQSZHTaw-TGLdMjutopx_5jvN-wDMPrIT4gbRSWcw-7Xdtwnu9FGPApQSM6UFWBWoCUHYl4tUR8dpUcZWHOJPHMCVRukq0FcUPYC1_vO9LG0Z15_NkxS7Ssayo59TqTgm93yB801v0wNIq-hiH1PlJIbA18t-u-kDriKX86ZwU8cLREyczEMneU7NoRq95uFZBV6vioQtboqs5eYM1hDlKr6NhMr6U0Aieq9XSN0YBVq-3XcB8DUKDnKFKsFjYKFOLMdnhNb50gpAx7PVA&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3kInuypant0wNOvAGgls7l2mzbdQsVJ2C5ep8bGJSOJtvD4BEPWRTLC5FntPJECNnYfc0hpKN8q53oXzMTcZ2guFvpPoDAkCbgPL-n5pbQNl4ocdqtS_2dxJAX33btAHyBUagaatxds9m7chs2apAgyJPlHdCbw3gL3RULaryZN-GiQQJ2q-TzQT_NW7bPKTifym9V-hi5Htu6xsAfRLJZZ4mFTSilXxrmPQ6_cvDBRDlDMGWBbqQSpRpckZxTIP5fxKrPoKuWj-y0LAvu7HOH68OE8G0Kwae0FI9SrzFVKLDruX-dpqiLqungJT0iEQkIyyL0wH2nqriGQzefzdeQdCojJw2PRFmpaDwcKXrK8VeuL1DEcnLuyZSpwNqQSjp1Xkm5EXSdQtfwgq9847Yv-dtYbc3c3J-hvRcdtrGz5moSxm-fIYLfQnB3M7BRc&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3lZHp-zqTFOBXy0_d4t9MnYG5ML8m54URVCIaf9qsvKwYW3DRTSVd4EIJE5oPgPMVGwf3tHPZvvtveC8kwHA7rpy-zHIbF3k4yEqdMSE4uN3FnPPRChyJj8pKg7z8_l1-9DqEsTQlmG5jOq_nZ4V5peO_gA9SxzZyQKTshN8thOrKuSTi-kHIc2PsR4h2kSZmzq-WIP4YJUN1hNXhOl3cMY6XUMlBkN1BUkpRiZ3oD7F7620eBx3i_cVuwuobXj4TCVjUf_qVqq1eN_6O4cQs_PshnauRRTvz0EXZ6VYGUO0h7INQL0LN2cdyAFrRLq0Owev14nbQnOPwvwJNYjr1xQ3IzHqveVVBJjGx59sZpSwq2xxmC7BzJmUjQFBGtKcg_ceDyrT-U17PMqYpE2EAihGoysq6h_QCqfWIVFTNABkqIYKbWumTpWk4Opow&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3kytxrBNxCGMyrmeipAk-pyOi-MqQcxb0pItVhcIgDuLdLX8cqIXCLvh4OJTMbOZnbhVB5vRraOxol81vCe8QS_ks7VvY1mDJ6psHVRNxOi6m9UKt9mifG6W1afuRg5KpOVqy_ZMNHoIEqKpmhfZK1kMOP1eMNc2KtmD6nlkuJgyofmSXbi7mNedsnM2cFJvpnKu3lRZ6xINbdId9snD9t6OHhXMZ3Xj9L4n5hzFScjQJLE6tEzY18tGe1tatPkmSDUgLCBFZV_SYrLoegc0BTaQ2XtnacayctTWwuLHO0-600c-8J1gjJCwqWe5HZ2PY2-xDyv_jPtzEJEo__zLoYp-wpI1VBXfH_lHnLsgGOM9bXUu6uvgBC2hNoiCo-IcQVzj1LNA15_goBOcZ4fjxNbZYZfBnEqcICEHIA5fexQXR8As5DP6tb30mBDkA&key=REDACTED",
+    "https://media.base44.com/images/public/69cfc5cca981de38f9ece608/3a7c4b9ad_IMG_2495.jpeg/v1/fill/w_1200,h_630/3a7c4b9ad_IMG_2495.jpeg"
+  ],
+  "notes": [
+    "owner_name not found in public sources",
+    "email not found in public sources",
+    "contact_name \"Thomas\" from 2 Google review mention(s) (medium confidence); owner_name not set",
+    "contactability=NEEDS_MANUAL_REVIEW",
+    "WhatsApp availability check failed",
+    "Hidden or official website classified as HAS_REAL_SITE",
+    "Logo discovered via apple_touch_icon (score 70)",
+    "Photo discovery: 11/11 selected (Enough photos for photo-led layout)"
+  ],
+  "missing_fields": [
+    "owner_name",
+    "email",
+    "facebook",
+    "instagram"
+  ],
+  "website_url_validation": {
+    "validated_at": "2026-06-11T11:14:39.538Z",
+    "issue": null,
+    "note": "website_url valid",
+    "previous_url": "http://www.sheffieldroofer.co.uk/"
+  },
+  "prospect_region": "Sheffield",
+  "location_validation_status": "OK",
+  "directory_probes": [
+    {
+      "platform": "checkatrade",
+      "candidate_url": "https://www.checkatrade.com/trades/stay-dry-roofing",
+      "status": "NOT_FOUND",
+      "confidence": "rejected",
+      "title": null,
+      "rating": null,
+      "review_count": null,
+      "phone_visible": false,
+      "verification_reasons": [],
+      "note": "search_deferred: Stay Dry Roofing Sheffield S1 4FW site:checkatrade.com"
+    },
+    {
+      "platform": "trustatrader",
+      "candidate_url": "https://www.trustatrader.com/traders/stay-dry-roofing",
+      "status": "NOT_FOUND",
+      "confidence": "rejected",
+      "title": null,
+      "rating": null,
+      "review_count": null,
+      "phone_visible": false,
+      "verification_reasons": [],
+      "note": "search_deferred: Stay Dry Roofing Sheffield S1 4FW site:trustatrader.com"
+    },
+    {
+      "platform": "yell",
+      "candidate_url": "https://www.yell.com/biz/stay-dry-roofing-sheffield-s1-4fw/",
+      "status": "NOT_FOUND",
+      "confidence": "rejected",
+      "title": null,
+      "rating": null,
+      "review_count": null,
+      "phone_visible": false,
+      "verification_reasons": [],
+      "note": "search_deferred: Stay Dry Roofing Sheffield S1 4FW site:yell.com"
+    },
+    {
+      "platform": "mybuilder",
+      "candidate_url": "https://www.mybuilder.com/profile/stay-dry-roofing",
+      "status": "NOT_FOUND",
+      "confidence": "rejected",
+      "title": null,
+      "rating": null,
+      "review_count": null,
+      "phone_visible": false,
+      "verification_reasons": [],
+      "note": "search_deferred: Stay Dry Roofing Sheffield S1 4FW site:mybuilder.com"
+    },
+    {
+      "platform": "rated_people",
+      "candidate_url": "https://www.ratedpeople.com/profile/stay-dry-roofing",
+      "status": "NOT_FOUND",
+      "confidence": "rejected",
+      "title": null,
+      "rating": null,
+      "review_count": null,
+      "phone_visible": false,
+      "verification_reasons": [],
+      "note": "search_deferred: Stay Dry Roofing Sheffield S1 4FW site:ratedpeople.com"
+    },
+    {
+      "platform": "houzz",
+      "candidate_url": "https://www.houzz.co.uk/professionals/stay-dry-roofing",
+      "status": "NOT_FOUND",
+      "confidence": "rejected",
+      "title": null,
+      "rating": null,
+      "review_count": null,
+      "phone_visible": false,
+      "verification_reasons": [],
+      "note": "search_deferred: Stay Dry Roofing Sheffield S1 4FW site:houzz.co.uk"
+    },
+    {
+      "platform": "bark",
+      "candidate_url": "https://www.bark.com/en/gb/company/stay-dry-roofing/",
+      "status": "NOT_FOUND",
+      "confidence": "rejected",
+      "title": null,
+      "rating": null,
+      "review_count": null,
+      "phone_visible": false,
+      "verification_reasons": [],
+      "note": "search_deferred: Stay Dry Roofing Sheffield S1 4FW site:bark.com"
+    },
+    {
+      "platform": "nextdoor",
+      "candidate_url": "https://nextdoor.co.uk/pages/stay-dry-roofing/",
+      "status": "NOT_FOUND",
+      "confidence": "rejected",
+      "title": null,
+      "rating": null,
+      "review_count": null,
+      "phone_visible": false,
+      "verification_reasons": [],
+      "note": "search_deferred: Stay Dry Roofing Sheffield S1 4FW site:nextdoor.co.uk"
+    }
+  ],
+  "enrichment": {
+    "enriched_at": "2026-06-11T11:15:17.500Z",
+    "email_domain_checked": false,
+    "website_discovery_run": true
+  },
+  "lead_validity": {
+    "lead_validity_status": "HAS_REAL_SITE_SKIP",
+    "lead_validity_reason": "reason=working_site; status=200; final=https://sheffieldroofer.co.uk/; title=Stay Dry Roofing Sheffield",
+    "pitch_type": "skip",
+    "website_status": "HAS_REAL_SITE",
+    "website_url": "https://sheffieldroofer.co.uk/",
+    "website_discovery_classification": "HAS_REAL_SITE",
+    "email_domain_website": null,
+    "source_confidence_summary": {
+      "overall": "low",
+      "verified_platforms": [],
+      "rejected_platforms": [
+        "google_places",
+        "official_website"
+      ],
+      "notes": [
+        "No verified sources with medium or high confidence",
+        "2 source(s) rejected for low confidence"
+      ]
+    },
+    "ready_for_build": false,
+    "ready_for_design": false,
+    "ready_for_pitch": false,
+    "manual_review_required": true,
+    "has_real_website": true,
+    "truly_no_website": false,
+    "warnings": [
+      "contactability=NEEDS_MANUAL_REVIEW",
+      "Real website exists - do not use no-website pitch"
+    ],
+    "manual_asset_status": "OK",
+    "pause_before_open_design": false
+  },
+  "source_quality": {
+    "source_quality_status": "FAIL",
+    "source_quality_reason": "Source enrichment not complete; HAS_REAL_SITE_SKIP",
+    "website_url_validated": true,
+    "email_domain_checked": true,
+    "enrichment_complete": false,
+    "logo_discovery_attempted": true,
+    "photo_discovery_attempted": true,
+    "directory_probes_attempted": true,
+    "warnings": [
+      "Lead validity requires manual review"
+    ],
+    "blockers": [
+      "Source enrichment not complete",
+      "HAS_REAL_SITE_SKIP"
+    ]
+  }
+}

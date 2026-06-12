@@ -1,0 +1,29 @@
+{
+  "slug": "greens-precise-plumbing-heating-ltd",
+  "business_name": "Greens Precise Plumbing & Heating ltd",
+  "direction": "forest_green_inter_fraunces_stacked_hero_proof",
+  "trade": "custom",
+  "fontPairKey": "inter-fraunces",
+  "layoutFamily": "stacked-hero-proof",
+  "statsStyle": "inline-strip",
+  "reviewsStyle": "single-featured",
+  "galleryStyle": "featured-plus-pair",
+  "ctaStyle": "outline-band",
+  "heroHeadline": "South Wales plumbing, done properly.",
+  "heroHeadlineKey": "south-wales-plumbing",
+  "fonts": {
+    "display": "Fraunces",
+    "body": "Inter"
+  },
+  "separator": "·",
+  "colors": {
+    "accent": "#2d5a3d",
+    "accentForeground": "#ffffff",
+    "background": "#f6f8f4",
+    "foreground": "#1c2420",
+    "muted": "#dce8de",
+    "mutedForeground": "#4b5c52",
+    "border": "#c5d4c9",
+    "surface": "#ffffff"
+  }
+}

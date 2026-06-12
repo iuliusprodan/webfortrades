@@ -1,0 +1,160 @@
+{
+  "slug": "corvell-ltd",
+  "gathered_at": "2026-06-10T11:48:51.563Z",
+  "attempted_sources": [
+    {
+      "platform": "google_places",
+      "status": "found",
+      "url": "https://maps.google.com/?cid=5902983431411409835"
+    },
+    {
+      "platform": "google_reviews",
+      "status": "found",
+      "url": "https://maps.google.com/?cid=5902983431411409835"
+    },
+    {
+      "platform": "google_photos",
+      "status": "found",
+      "url": "https://maps.google.com/?cid=5902983431411409835"
+    },
+    {
+      "platform": "facebook",
+      "status": "found",
+      "url": "https://www.facebook.com/share/1BVAEdhja3/"
+    },
+    {
+      "platform": "instagram",
+      "status": "not_found",
+      "url": null,
+      "search_query": "Corvell ltd Bristol BS15 1XN",
+      "reason": "No URL in brief or source_urls (directory scrape not run in this phase)"
+    },
+    {
+      "platform": "official_website",
+      "status": "found",
+      "url": "https://www.facebook.com/share/1BVAEdhja3/"
+    },
+    {
+      "platform": "checkatrade",
+      "status": "not_attempted",
+      "url": null,
+      "search_query": "Corvell ltd Bristol BS15 1XN",
+      "reason": "Manual search required in this phase"
+    },
+    {
+      "platform": "trustatrader",
+      "status": "not_attempted",
+      "url": null,
+      "search_query": "Corvell ltd Bristol BS15 1XN",
+      "reason": "Manual search required in this phase"
+    },
+    {
+      "platform": "mybuilder",
+      "status": "not_attempted",
+      "url": null,
+      "search_query": "Corvell ltd Bristol BS15 1XN",
+      "reason": "Manual search required in this phase"
+    },
+    {
+      "platform": "rated_people",
+      "status": "not_attempted",
+      "url": null,
+      "search_query": "Corvell ltd Bristol BS15 1XN",
+      "reason": "Manual search required in this phase"
+    },
+    {
+      "platform": "bark",
+      "status": "not_attempted",
+      "url": null,
+      "search_query": "Corvell ltd Bristol BS15 1XN",
+      "reason": "Manual search required in this phase"
+    },
+    {
+      "platform": "yell",
+      "status": "not_attempted",
+      "url": null,
+      "search_query": "Corvell ltd Bristol BS15 1XN",
+      "reason": "Manual search required in this phase"
+    },
+    {
+      "platform": "companies_house",
+      "status": "not_attempted",
+      "url": null,
+      "search_query": "Corvell ltd Bristol BS15 1XN",
+      "reason": "Manual search required in this phase"
+    },
+    {
+      "platform": "directories",
+      "status": "not_attempted",
+      "search_query": "Corvell ltd Bristol BS15 1XN",
+      "reason": "Generic directory sweep not automated yet"
+    }
+  ],
+  "sources": [
+    {
+      "platform": "google_places",
+      "url": "https://maps.google.com/?cid=5902983431411409835",
+      "verified": true,
+      "verification_method": "place_id_from_gather",
+      "phone_match": true,
+      "notes": "Primary gather source"
+    },
+    {
+      "platform": "facebook",
+      "url": "https://www.facebook.com/share/1BVAEdhja3/",
+      "verified": false,
+      "verification_method": "url_in_brief_unverified",
+      "phone_match": false,
+      "notes": "Facebook URL present but not phone-verified"
+    }
+  ],
+  "sources_found": [
+    "google_places",
+    "google_reviews",
+    "google_photos",
+    "facebook",
+    "official_website"
+  ],
+  "sources_verified": [
+    "google_places"
+  ],
+  "strongest_proof_source": {
+    "platform": "google",
+    "metric": "5 rating, 13 reviews",
+    "url": "https://maps.google.com/?cid=5902983431411409835"
+  },
+  "best_review_details": [
+    {
+      "text": "We found Corvell on Instagram & was really impressed from the get go when Jack came to measure up to quote for some tiling in our kitchen, utility & wc - his attention to detail in checking exactly what we wanted & advising on tiles/grout etc was so useful! The quote was so competitively priced we booked on right away! Jack & Nick then did such an immaculate efficient job, we absolutely love our n",
+      "author": "Harriet",
+      "rating": 5,
+      "source": "google"
+    },
+    {
+      "text": "Nick & Jack did our full bathroom renovation. They were friendly, professional, efficient, and did an exceptional job, we are thrilled with the final result. They explained everything in as much detail as possible, and set out clear expectations of what the renovation would entail. Would recommend Corvell Ltd to anyone considering having their bathroom done, they were absolutely brilliant! Thank y",
+      "author": "Chris",
+      "rating": 5,
+      "source": "google"
+    },
+    {
+      "text": "Jack and Nick came around in August  to quote which was competitive. September the bathroom  was installed to a very high standard. Corvell came to us through recommendations which is best the form of advertising. If  anyone would like to contact me by all means don't hesitate.",
+      "author": "Stephen",
+      "rating": 5,
+      "source": "google"
+    }
+  ],
+  "image_source_summary": {
+    "google_photos": 2,
+    "facebook_photos": 0,
+    "other": 0,
+    "preferred_source": "google",
+    "notes": "Google Places photos default"
+  },
+  "manual_review_flags": [
+    "contactability=NEEDS_MANUAL_REVIEW"
+  ],
+  "enrichment_complete": false,
+  "risks": [
+    "Very few photos - lean site recommended"
+  ]
+}

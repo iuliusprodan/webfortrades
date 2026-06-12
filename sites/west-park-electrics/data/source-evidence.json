@@ -1,0 +1,316 @@
+{
+  "slug": "west-park-electrics",
+  "gathered_at": "2026-06-11T11:16:23.243Z",
+  "attempted_sources": [
+    {
+      "platform": "google_places",
+      "status": "found",
+      "url": "https://maps.google.com/?cid=3796732482915553652"
+    },
+    {
+      "platform": "google_reviews",
+      "status": "found",
+      "url": "https://maps.google.com/?cid=3796732482915553652"
+    },
+    {
+      "platform": "google_photos",
+      "status": "found",
+      "url": "https://maps.google.com/?cid=3796732482915553652"
+    },
+    {
+      "platform": "facebook",
+      "status": "not_found",
+      "url": null,
+      "search_query": "West Park Electrics Leeds LS16 5DF",
+      "reason": "No URL in brief or source_urls (directory scrape not run in this phase)"
+    },
+    {
+      "platform": "instagram",
+      "status": "not_found",
+      "url": null,
+      "search_query": "West Park Electrics Leeds LS16 5DF",
+      "reason": "No URL in brief or source_urls (directory scrape not run in this phase)"
+    },
+    {
+      "platform": "official_website",
+      "status": "found",
+      "url": "http://www.wpe.co.uk/"
+    },
+    {
+      "platform": "checkatrade",
+      "status": "not_attempted",
+      "url": null,
+      "search_query": "West Park Electrics Leeds LS16 5DF",
+      "reason": "Manual search required in this phase"
+    },
+    {
+      "platform": "trustatrader",
+      "status": "not_attempted",
+      "url": null,
+      "search_query": "West Park Electrics Leeds LS16 5DF",
+      "reason": "Manual search required in this phase"
+    },
+    {
+      "platform": "mybuilder",
+      "status": "not_attempted",
+      "url": null,
+      "search_query": "West Park Electrics Leeds LS16 5DF",
+      "reason": "Manual search required in this phase"
+    },
+    {
+      "platform": "rated_people",
+      "status": "not_attempted",
+      "url": null,
+      "search_query": "West Park Electrics Leeds LS16 5DF",
+      "reason": "Manual search required in this phase"
+    },
+    {
+      "platform": "bark",
+      "status": "not_attempted",
+      "url": null,
+      "search_query": "West Park Electrics Leeds LS16 5DF",
+      "reason": "Manual search required in this phase"
+    },
+    {
+      "platform": "yell",
+      "status": "not_attempted",
+      "url": null,
+      "search_query": "West Park Electrics Leeds LS16 5DF",
+      "reason": "Manual search required in this phase"
+    },
+    {
+      "platform": "companies_house",
+      "status": "not_attempted",
+      "url": null,
+      "search_query": "West Park Electrics Leeds LS16 5DF",
+      "reason": "Manual search required in this phase"
+    },
+    {
+      "platform": "directories",
+      "status": "not_attempted",
+      "search_query": "West Park Electrics Leeds LS16 5DF",
+      "reason": "Generic directory sweep not automated yet"
+    }
+  ],
+  "sources": [
+    {
+      "platform": "google_places",
+      "url": "https://maps.google.com/?cid=3796732482915553652",
+      "verified": true,
+      "verification_method": "place_id_from_gather",
+      "phone_match": true,
+      "notes": "Primary gather source"
+    },
+    {
+      "platform": "official_website",
+      "url": "http://www.wpe.co.uk/",
+      "verified": false,
+      "verification_method": "cross_check_needed",
+      "phone_match": true,
+      "notes": "BROKEN_OR_BAD_SITE"
+    }
+  ],
+  "sources_found": [
+    "google_places",
+    "google_reviews",
+    "google_photos",
+    "official_website"
+  ],
+  "sources_verified": [
+    "google_places"
+  ],
+  "strongest_proof_source": {
+    "platform": "google",
+    "metric": "5 rating, 30 reviews",
+    "url": "https://maps.google.com/?cid=3796732482915553652"
+  },
+  "best_review_details": [
+    {
+      "text": "My father was an electrician and he was planning to fit a cooker for my nan, unfortunately he passed away. I rang Choudhary and he got it done, the man is a saint and understood what my nan was going through and did not charge! The whole family will be praying for you Choudhary! She will definitely be using him again.",
+      "author": "Aiden",
+      "rating": 5,
+      "source": "google"
+    },
+    {
+      "text": "⭐️⭐️⭐️⭐️⭐️\nWest Park Electrics provided an excellent service in fixing my electrical lights. Ateeque was especially professional, friendly, and down to earth. He carried out the work on short notice and did so with great care. I’m very pleased with the service and highly recommend them.\n\nKind regards,\nTecle",
+      "author": "Tecle",
+      "rating": 5,
+      "source": "google"
+    },
+    {
+      "text": "We had installation of a bathroom extractor fan. Choudhary was really quick to respond to all of our queries and arrange a date for installation. He was really professional, polite and friendly. Would definitely recommend this company.",
+      "author": "Piotr",
+      "rating": 5,
+      "source": "google"
+    }
+  ],
+  "image_source_summary": {
+    "google_photos": 6,
+    "facebook_photos": 0,
+    "directory_photos": 0,
+    "manual_photos": 0,
+    "other": 0,
+    "preferred_source": "google_places",
+    "notes": "Google Places photos preferred for gallery when high quality",
+    "priority_order": [
+      "official_website",
+      "google_places",
+      "directory",
+      "manual_asset",
+      "facebook_evidence",
+      "proof_led"
+    ]
+  },
+  "manual_review_flags": [],
+  "enrichment_complete": true,
+  "risks": [],
+  "manual_asset_review_recommended": false,
+  "manual_asset_status": "OK",
+  "asset_readiness": {
+    "manual_asset_status": "OK",
+    "usable_automatic_count": 6,
+    "usable_manual_count": 0,
+    "usable_total_count": 6,
+    "has_hero_candidate": true,
+    "pause_before_open_design": false,
+    "pause_message": null,
+    "layout_recommendation": "photo_led",
+    "image_slots": [
+      {
+        "slot": "hero",
+        "desired": "Best finished project photo or strong proof visual",
+        "source_status": "automatic"
+      },
+      {
+        "slot": "gallery_1",
+        "desired": "Finished work close-up or wide project shot",
+        "source_status": "automatic"
+      },
+      {
+        "slot": "gallery_2",
+        "desired": "Finished work close-up or wide project shot",
+        "source_status": "automatic"
+      },
+      {
+        "slot": "gallery_3",
+        "desired": "Finished work close-up or wide project shot",
+        "source_status": "automatic"
+      },
+      {
+        "slot": "gallery_4",
+        "desired": "Finished work close-up or wide project shot",
+        "source_status": "automatic"
+      }
+    ],
+    "manual_folder": "briefs/west-park-electrics/images/manual/"
+  },
+  "image_slots": [
+    {
+      "slot": "hero",
+      "desired": "Best finished project photo or strong proof visual",
+      "source_status": "automatic"
+    },
+    {
+      "slot": "gallery_1",
+      "desired": "Finished work close-up or wide project shot",
+      "source_status": "automatic"
+    },
+    {
+      "slot": "gallery_2",
+      "desired": "Finished work close-up or wide project shot",
+      "source_status": "automatic"
+    },
+    {
+      "slot": "gallery_3",
+      "desired": "Finished work close-up or wide project shot",
+      "source_status": "automatic"
+    },
+    {
+      "slot": "gallery_4",
+      "desired": "Finished work close-up or wide project shot",
+      "source_status": "automatic"
+    }
+  ],
+  "email": null,
+  "email_found": false,
+  "email_domain_checked": false,
+  "email_domain_website": null,
+  "website_discovery": null,
+  "website_status": "BROKEN_OR_BAD_SITE",
+  "truly_no_website": true,
+  "logo_found": false,
+  "logo_path": null,
+  "facebook_url": null,
+  "facebook_verified": false,
+  "source_verifications": [],
+  "source_confidence": null,
+  "image_manifest": [
+    {
+      "local": "images/01-places.webp",
+      "source": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3m08qIubADJmJGvydCUGqoMRtueTtK5KIs81pfcUS7hhu5cF_lhSctQolRhaUUno59WeMjqlAuqkXSMqUhL9kvCylJxTO_sQM_LUPPB7akKvvxImAXKgfIytVE53o0fY6lCEiLoQszmYhcVA7c7EOeu0qQqeW5lnj1DvgbSWxV0LeSsCJEPLWJ2R91efV7aMKCmPrtV0HRFcXyoTTmCnROs8mTCp2j6FiF1md7MG5bcYEiameldr0DCkfMql_EIMnJJtwYfIJMA8Ol-WHOyLh5ytQ0e-z2mOrddoO60Jv7lZ4ibVpFhqWU2KqKD7BjlDX07rj12tFv4CoMKdmP4fVqCJSB-6GFO6WN7ECazFNROYQRBzcDGvG0kKddbaOzF_vz2vJkEjYAawyfIP3RHHubo6Nt66xamK7KbUnoHl-I4-Q&key=REDACTED",
+      "source_type": "google_places",
+      "confidence": "medium",
+      "purpose": "gallery",
+      "selected": true,
+      "reason": "Default from gather"
+    },
+    {
+      "local": "images/03-places.webp",
+      "source": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3kToemiNXu0kYVs8Gx34XuUAS21Ls3flMqng1Sdq9RFbKnOzSNXlguDCptdxNMkBng9pneuRO_fIdJxaI8xOqTywU9wQsA5kUsuqc0D_RTAbWMubzfGy4aFbr0Ur37pCuMgM0CPySeVSVKigr6gcd8-EYG-BzAT6ofWat6kwlYWHQnJr8uSCghYjjdNlvth9DkWOyeYiNFkHeNxniMlBGHxUFzEdll4PjDrVgl9AjfgWgSWgOxxTQbdHNMRoTkC4L0pRBOMXCmpp7aspXwpvRtEyOafIb91YDV0__3TE81ZQxSgCTZRhKLpMQor8nSHGo54LGTegiwnEhA8TgXvw-hX4b26UDOXDIJrHJCR-2E2Bxg_yQ1qoNd9Gob17YtwDXMGgkZw3Fe6j0YeOolnoLSAk0a2nAT5bXVw2OfHR9r0Lw&key=REDACTED",
+      "source_type": "google_places",
+      "confidence": "medium",
+      "purpose": "gallery",
+      "selected": true,
+      "reason": "Default from gather"
+    },
+    {
+      "local": "images/04-places.webp",
+      "source": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3mwm2FjDFbyceLvlnT7guUmIlMcl1cwOgnFkerY0yQ4wLjplY2JNF5I9uVU2hxC_0FQ0PU-QhcW5eqazTHpgOZai_s9jpCp5tZ_Drqq1dQsgsfFsTnmscfrbpkdmKiu1XLvCitqOC4vmyySVqgV7tQmM5A04HnraUOyY7MT3_dTWZGf2dbiuWBffC0ABHX24L-H2fjkhKwXY9LwNPpVRT6_W7z1ILdCSR26A15t7iaIuYnWxvvIUDj_UWdpjkfub9ihHJxDd3nfG9Va6AqyKc3NQd2TzSCqTE2m094QKCVkKjZDJ0nmbkxktVnppsodaVJxQ-V2JJYMiKRSnLMA8DRb6Mc-W5wiYTcuSAr-BZi8fB3IWMphFWrJY3d6mKATTXsvRhn04nLzTcpNUQ-pLoZ6003HvZHw6ZczKOHfH-7ZtLlB&key=REDACTED",
+      "source_type": "google_places",
+      "confidence": "medium",
+      "purpose": "gallery",
+      "selected": true,
+      "reason": "Default from gather"
+    },
+    {
+      "local": "images/05-places.webp",
+      "source": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3m-KsuqiS_YQ8N5LaxfMIsrNbjcV86YpPDFGepF7GIBQsjHDwkqAW_0FgW6BRmYpsjB7u5yPaNxlyyAMSdJYlzAIcK_-NpR3Xooj1BuqDp2NIeRQpyvdaAvF9OvjjmzZsfmR5JwXzKILMUT9fWegko6Vlj8KHKi1yAifxka7mOh0VKDRlWTFnrOpFZeT7vmS0gQDLDnE4-5DyvIfaLh2GVgNeMVRpu-ylcvI4YJCHObPuso_rMzWRr6zGOIIGN7iUvrDGmGjNAu9sUCg6mL5FfhqXjPOis0kKb157iAcMLhMhtFVX8dXPEBami6QWpOsA84GTsqB2meLbQmHp0RUAxUEaSMNgs4_PmtEkcld2VxdZsnC9TYMY811GGn9nDu7FBgKaG1A43qBrCDJPinUDKWtqWmHQqEjh20ZNA3CUQ&key=REDACTED",
+      "source_type": "google_places",
+      "confidence": "medium",
+      "purpose": "gallery",
+      "selected": true,
+      "reason": "Default from gather"
+    },
+    {
+      "local": "images/06-places.webp",
+      "source": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3kV0cDkx_csTrHbRIdMytfw1YWIAUv0mYiisnKPIOXlr16ux_HMojQyuD5ZEBaDY9hRm06lAsiaV2w1ku64X0XK_wdlUzGXT4PIpnE7tyEbBLWQ5PtSgQeGyN2o_KXIGgjbdG-p_0XtI49lN83fOwebKmsqrL6gOk6e9lbgDefYY5haI4_g5q0ZwNYTiW6qR9JvqGoHCYQ0EOJViDyz1nuSj5rIxmj0HQSLNmjjKISeANGSOKUwoVjeLOgRUOiR-DeO6Wm4bC-MxRB8dNRlhCnNzzY2kr0eYVZfofQioBbsoWYQHDPfeqilJlvQmAJzT6jMBoiyR990Q1yR9pGF1aT82UjCfBrFcsc3JE_1JZFxbQ-rqvJD2PU5bS2xsYKc_0YjYlOSBYCF2VZjWaMv3O7M_GuzUhCZZOMcs4MbYnFiCg&key=REDACTED",
+      "source_type": "google_places",
+      "confidence": "medium",
+      "purpose": "gallery",
+      "selected": true,
+      "reason": "Default from gather"
+    },
+    {
+      "local": "images/09-places.webp",
+      "source": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3nFGZUh9HBRRj9Q55_4NIgqqlyJXhh9lFjjXGqZiubiNrGAS0HrFE8pUh4cVK5RJ0qQ8MJt8h71TspjuKSBRha5sZi-dSw1pmWpVqC40VVdCLZvTLROXR5rkFTVR-ymXmhtMYYwb81vfZTvBmKVp3hvBrKI2KKSIBrPJwbbNUQVDhPNFIzPm58gKDuu_ijRO254hJqHsKJTNgzVpAkg9HinlhOMOI2nW3Rj17ANHgI2WBwTJ2r_ncw_ldqvM4Lo4ktqzDAbJtLNdwmG3Wc3XAJ2G-Pridpd3iB4HLu-o2CGStfnxRxv5A-uC50_IFD7cx2aB4_NC0PYI_3kDH6pZaz1lazL2K_M90UR5fayd_aMXZBsYArDvps3b1W1lBpKbWVvcca9cUeMbx7XosfLuUb3g1JwuvW8vZMg5qqXF1Fzmc0D&key=REDACTED",
+      "source_type": "google_places",
+      "confidence": "medium",
+      "purpose": "gallery",
+      "selected": true,
+      "reason": "Default from gather"
+    }
+  ],
+  "selected_images": [
+    "images/01-places.webp",
+    "images/03-places.webp",
+    "images/04-places.webp",
+    "images/05-places.webp",
+    "images/06-places.webp",
+    "images/09-places.webp"
+  ],
+  "lead_validity_status": "INSUFFICIENT_EVIDENCE",
+  "ready_for_build": false,
+  "registry_source_count": 0,
+  "batch_waiver_applied": true,
+  "batch_waiver_note": "Batch waiver 2026-06-11: Google Places plus broken_or_domain_probe"
+}

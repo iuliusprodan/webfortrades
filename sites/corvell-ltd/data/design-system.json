@@ -1,0 +1,29 @@
+{
+  "slug": "corvell-ltd",
+  "business_name": "Corvell ltd",
+  "direction": "warm_cream_bathroom_manrope_source_serif_stacked_hero_proof",
+  "trade": "custom",
+  "fontPairKey": "manrope-source-serif",
+  "layoutFamily": "stacked-hero-proof",
+  "statsStyle": "inline-strip",
+  "reviewsStyle": "single-featured",
+  "galleryStyle": "featured-plus-pair",
+  "ctaStyle": "outline-band",
+  "heroHeadline": "Bathroom refits and tiling, finished properly in Bristol",
+  "heroHeadlineKey": "corvell-ltd-plan-hero",
+  "fonts": {
+    "display": "Source Serif 4",
+    "body": "Manrope"
+  },
+  "separator": "·",
+  "colors": {
+    "accent": "#b15c38",
+    "accentForeground": "#ffffff",
+    "background": "#faf4ec",
+    "foreground": "#2b2018",
+    "muted": "#efe3d4",
+    "mutedForeground": "#6b5847",
+    "border": "#e0cdb8",
+    "surface": "#ffffff"
+  }
+}
