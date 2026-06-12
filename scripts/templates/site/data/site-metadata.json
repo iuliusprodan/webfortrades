@@ -1,0 +1,8 @@
+{
+  "title": "Business Name - Local City Trade Services",
+  "description": "Business description placeholder. Regenerated at build time.",
+  "ogImage": "/og-image.png",
+  "metadataBase": "https://example.vercel.app",
+  "buildId": "example-slug:00000000-deadbeef",
+  "webfortradesSlug": "example-slug"
+}

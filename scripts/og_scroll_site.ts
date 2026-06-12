@@ -9,6 +9,7 @@ import { fileURLToPath } from "node:url";
 import sharp from "sharp";
 import { chromium } from "playwright";
 import { getLeadBySlug } from "./db.js";
+import { isScrollVideoEnabled } from "./site_config.js";
 import {
   generateForSlug,
   previewAssetPaths,
@@ -138,14 +139,17 @@ async function main(): Promise<void> {
 
   const tmpDir = path.join(paths.previewDir, ".verify");
   fs.mkdirSync(tmpDir, { recursive: true });
-  const dur = result.desktopVideo.durationSec;
-  const frames = [0.05];
+  const scrollEnabled = isScrollVideoEnabled();
+  const dur = scrollEnabled ? result.desktopVideo.durationSec : 0;
   let devInVideo = false;
-  for (const t of frames) {
-    const fp = path.join(tmpDir, `f-${t}.jpg`);
-    extractFrame(paths.scrollMp4, fp, t);
-    const buf = await fs.promises.readFile(fp);
-    if (await imageHasBottomLeftDevBadge(buf, 1280, 800)) devInVideo = true;
+  if (scrollEnabled && fs.existsSync(paths.scrollMp4)) {
+    const frames = [0.05];
+    for (const t of frames) {
+      const fp = path.join(tmpDir, `f-${t}.jpg`);
+      extractFrame(paths.scrollMp4, fp, t);
+      const buf = await fs.promises.readFile(fp);
+      if (await imageHasBottomLeftDevBadge(buf, 1280, 800)) devInVideo = true;
+    }
   }
   fs.rmSync(tmpDir, { recursive: true, force: true });
 
@@ -166,11 +170,11 @@ async function main(): Promise<void> {
     ogJpgSize,
     headerVisibleInOg: headerInOg,
     layoutMetadataUpdated: layoutOk || result.layoutUpdated,
-    scrollMp4: paths.scrollMp4,
-    scrollDurationSec: result.desktopVideo.durationSec,
-    scrollViewport: "1280x800",
-    scrollFileSize: result.desktopMp4Bytes,
-    poster: paths.poster,
+    scrollMp4: scrollEnabled ? paths.scrollMp4 : null,
+    scrollDurationSec: dur,
+    scrollViewport: scrollEnabled ? "1280x800" : null,
+    scrollFileSize: scrollEnabled ? result.desktopMp4Bytes : 0,
+    poster: scrollEnabled ? paths.poster : null,
     productionBuild: result.productionBuild,
     devIndicatorsFalse: true,
     firstFrameNotBlank: !result.desktopVideo.firstFrameBlank,

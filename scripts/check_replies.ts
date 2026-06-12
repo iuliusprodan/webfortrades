@@ -5,10 +5,23 @@ import { ImapFlow } from "imapflow";
 import {
   countEmailSendsToday,
   getPitchedLeads,
+  leadChannelSentToday,
   updateLead,
   type Lead,
+  type WhatsAppStatus,
 } from "./db.js";
-import { loadConfig, loadEnv, sendLeadEmail, type PitchEmail } from "./send_email.js";
+import { requireImapSettings } from "./mail_config.js";
+import {
+  buildOutreachPlan,
+  draftForTouch,
+  isDoNotContactReply,
+  isNegativeReply,
+  nextTouch,
+  resolveTouchChannel,
+  touchForStep,
+  type BriefLike,
+} from "./outreach_sequence.js";
+import { loadConfig, loadEnv, sendLeadEmail } from "./send_email.js";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.join(__dirname, "..");
@@ -35,13 +48,6 @@ interface InboxMessage {
   date: Date;
 }
 
-const TOUCH_DAYS: Record<number, number> = {
-  2: 3,
-  3: 7,
-  4: 12,
-  5: 18,
-};
-
 function loadBrief(slug: string): Brief | null {
   const p = path.join(ROOT, "briefs", slug, "brief.json");
   if (!fs.existsSync(p)) return null;
@@ -52,11 +58,6 @@ function ownerFirstName(lead: Lead, brief: Brief | null): string {
   if (brief?.owner_name) return brief.owner_name.split(" ")[0];
   if (lead.owner_name) return lead.owner_name.split(" ")[0];
   return lead.business_name.split(" ")[0];
-}
-
-function daysSince(iso: string | null): number {
-  if (!iso) return 0;
-  return Math.floor((Date.now() - new Date(iso).getTime()) / 86400000);
 }
 
 function normalizeEmail(addr: string): string {
@@ -91,7 +92,7 @@ export function classifyReply(text: string, subject: string): ReplyClass {
   }
 
   if (
-    /no thanks|not interested|unsubscribe|remove me|stop emailing|take it (straight )?down|don't contact|do not contact/i.test(
+    /no thanks|not interested|unsubscribe|remove me|stop (emailing|messaging|contacting)|take it (straight )?down|wrong number|not this business|don't contact|do not contact|opt out|leave me alone/i.test(
       blob
     )
   ) {
@@ -135,7 +136,7 @@ function suggestedReply(
   const config = loadConfig();
 
   if (classification === "INTERESTED") {
-    return `Hi ${owner},\n\nGood to hear — glad the site landed okay. Easiest is a quick call: what day suits you for ten minutes? I'll walk you through what's there and what (if anything) you'd want changed.\n\nJulius\n${config.outreach.from_email}`;
+    return `Hi ${owner},\n\nGood to hear. Glad the site landed okay. Easiest is a quick call: what day suits you for ten minutes? I'll walk you through what's there and what (if anything) you'd want changed.\n\nJulius\n${config.outreach.from_email}`;
   }
 
   return `Hi ${owner},\n\nThanks for getting back. You asked: "${snippet.slice(0, 120)}${snippet.length > 120 ? "…" : ""}"\n\nShort answer: it's a one-off site build. Starter £300, Standard £500, Premium £800 depending on scope. You own it outright, no monthly fee unless you want hosting support. Happy to explain on a quick call if easier.\n\nJulius\n${config.outreach.from_email}`;
@@ -146,15 +147,13 @@ async function fetchInboxReplies(
   since: Date
 ): Promise<Map<string, InboxMessage>> {
   const env = { ...loadEnv(), ...process.env };
-  if (!env.IMAP_USER || !env.IMAP_PASS) {
-    throw new Error("Missing IMAP_USER or IMAP_PASS in .env");
-  }
+  const imap = requireImapSettings(env);
 
   const client = new ImapFlow({
-    host: "imap.gmail.com",
-    port: 993,
-    secure: true,
-    auth: { user: env.IMAP_USER, pass: env.IMAP_PASS },
+    host: imap.host,
+    port: imap.port,
+    secure: imap.secure,
+    auth: { user: imap.user, pass: imap.pass },
   });
 
   const bySender = new Map<string, InboxMessage>();
@@ -198,101 +197,18 @@ async function fetchInboxReplies(
   return bySender;
 }
 
-function draftFollowUp(
-  lead: Lead,
-  brief: Brief | null,
-  touch: number
-): PitchEmail {
-  const config = loadConfig();
-  const owner = ownerFirstName(lead, brief);
-  const town = brief?.service_area[0] ?? lead.region ?? "your area";
-  const service = brief?.services[0] ?? lead.niche ?? "your trade";
-  const url = lead.site_url ?? "";
-  const name = brief?.business_name ?? lead.business_name;
-
-  const subjects: Record<number, string> = {
-    2: `Re: ${name} site`,
-    3: `One tweak I'd make for ${name}`,
-    4: `Price for ${name} (if you want to keep it)`,
-    5: `Closing the loop — ${name}`,
-  };
-
-  let body = "";
-
-  switch (touch) {
-    case 2:
-      body = `Hi ${owner},
-
-Just bumping this in case it got buried — the site for ${name} is still here if you want a look:
-${url}
-
-No rush. Reply "no thanks" any time and I'll pull it down.
-
-Julius`;
-      break;
-    case 3: {
-      const tweak = brief?.services[1] ?? service;
-      const reviewHint = brief?.reviews[0]?.text.split(/[.!?]/)[0]?.trim();
-      body = `Hi ${owner},
-
-If I were polishing the ${name} page one more notch, I'd lead with ${tweak.toLowerCase()} — it's what people around ${town} seem to ask for most${
-        reviewHint ? ` (your reviews mention "${reviewHint.slice(0, 60)}…" too)` : ""
-      }.
-
-Worth a glance if you missed it: ${url}
-
-Julius`;
-      break;
-    }
-    case 4:
-      body = `Hi ${owner},
-
-Quick clarity in case helpful: if you want to keep the site, it's a simple one-off. Starter £300, Standard £500, Premium £800 depending on tweaks. You own it outright. No monthly tie-in.
-
-Preview: ${url}
-
-Happy to answer questions, or reply "no thanks" and I'll take it down.
-
-Julius`;
-      break;
-    case 5:
-      body = `Hi ${owner},
-
-I'll leave this with you — last note from me. The preview stays at ${url} for now. If it's not for you, just reply "no thanks" and I'll remove it today.
-
-Cheers,
-Julius
-${config.outreach.from_email}`;
-      break;
-    default:
-      throw new Error(`Unknown touch ${touch}`);
-  }
-
-  return {
-    to: lead.email!,
-    subject: subjects[touch],
-    text: body,
-  };
-}
-
-function nextDueTouch(lead: Lead): number | null {
-  if (!lead.pitched_at || lead.state !== "PITCHED") return null;
-
-  const days = daysSince(lead.pitched_at);
-  if (lead.last_touch >= 5) return null;
-
-  for (let touch = 5; touch >= 2; touch--) {
-    if (lead.last_touch < touch && days >= TOUCH_DAYS[touch]) {
-      return touch;
-    }
-  }
-  return null;
+function whatsappStatusForLead(lead: Lead): WhatsAppStatus {
+  const s = lead.whatsapp_status;
+  if (s === "available" || s === "unavailable" || s === "unknown") return s;
+  return "unknown";
 }
 
 async function main(): Promise<void> {
   const env = { ...loadEnv(), ...process.env };
-  if (!env.IMAP_USER || !env.IMAP_PASS) {
-    console.error("Missing IMAP_USER or IMAP_PASS in .env");
+  try {
+    requireImapSettings(env);
+  } catch (err) {
+    console.error((err as Error).message);
     process.exit(1);
   }
 
@@ -328,8 +244,26 @@ async function main(): Promise<void> {
     const brief = lead.slug ? loadBrief(lead.slug) : null;
     const snippet = msg.text.trim().split("\n")[0] ?? msg.subject;
 
+    const negative = isNegativeReply(`${msg.subject}\n${msg.text}`);
+    if (negative && classification !== "OUT_OF_OFFICE") {
+      const doNotContact = isDoNotContactReply(`${msg.subject}\n${msg.text}`);
+      const endState = doNotContact ? "DO_NOT_CONTACT" : "LOST";
+      updateLead(lead.id, {
+        state: endState,
+        reply_status: doNotContact ? "DO_NOT_CONTACT" : "NO",
+        notes: [lead.notes, `Negative reply (${endState}): ${snippet.slice(0, 100)}`]
+          .filter(Boolean)
+          .join("; "),
+      });
+      console.log(`\nStopped outreach: ${lead.business_name} -> ${endState}`);
+      console.log(
+        `  Offer to take site down: ${lead.site_url ?? "(no url)"}. Remove from Vercel when ready.`
+      );
+      continue;
+    }
+
     if (classification === "OUT_OF_OFFICE") {
-      console.log(`  ${lead.business_name}: OUT_OF_OFFICE — skipping`);
+      console.log(`  ${lead.business_name}: OUT_OF_OFFICE, skipping`);
       continue;
     }
 
@@ -340,7 +274,7 @@ async function main(): Promise<void> {
           .filter(Boolean)
           .join("; "),
       });
-      console.log(`  ${lead.business_name}: NOT_NOW — noted, no more sends for now`);
+      console.log(`  ${lead.business_name}: NOT_NOW, noted, no more sends for now`);
       continue;
     }
 
@@ -352,9 +286,9 @@ async function main(): Promise<void> {
           .filter(Boolean)
           .join("; "),
       });
-      console.log(`\n✗ ${lead.business_name} → LOST`);
+      console.log(`\nStopped outreach: ${lead.business_name} -> LOST`);
       console.log(
-        `  Offer to take site down: ${lead.site_url ?? "(no url)"} — remove from Vercel when ready.`
+        `  Offer to take site down: ${lead.site_url ?? "(no url)"}. Remove from Vercel when ready.`
       );
       continue;
     }
@@ -374,7 +308,7 @@ async function main(): Promise<void> {
         summary: [
           `${lead.business_name} replied (${classification}).`,
           `They said: "${snippet.slice(0, 100)}${snippet.length > 100 ? "…" : ""}"`,
-          `Site: ${lead.site_url ?? "—"} | Automation stopped.`,
+          `Site: ${lead.site_url ?? "-"} | Automation stopped.`,
         ].join("\n"),
         suggest: suggestedReply(lead, brief, classification, snippet),
       });
@@ -382,7 +316,7 @@ async function main(): Promise<void> {
   }
 
   if (handoff.length) {
-    console.log("\n=== HANDOFF — you take it from here ===\n");
+    console.log("\n=== HANDOFF: you take it from here ===\n");
     for (const h of handoff) {
       console.log(h.summary);
       console.log("\nSuggested reply:\n");
@@ -395,31 +329,76 @@ async function main(): Promise<void> {
   let sent = 0;
   const stillPitched = getPitchedLeads();
 
+  if (!config.outreach.sending_enabled) {
+    console.log(
+      "\nFollow-up sending blocked (outreach.sending_enabled=false). Reply check completed."
+    );
+    console.log("\nDone. Follow-ups sent this run: 0");
+    return;
+  }
+
   for (const lead of stillPitched) {
-    if (lead.last_touch >= 5) {
+    if (lead.state === "LOST" || lead.state === "DO_NOT_CONTACT") continue;
+
+    const brief = lead.slug ? loadBrief(lead.slug) : null;
+    const briefLike = brief as BriefLike | null;
+    const plan = buildOutreachPlan(lead, briefLike, whatsappStatusForLead(lead));
+
+    if (plan.sequencePath === "blocked") continue;
+
+    const maxTouch = plan.touches.length;
+    if (lead.last_touch >= maxTouch) {
       updateLead(lead.id, { state: "LAPSED" });
-      console.log(`  ${lead.business_name} → LAPSED (touch 5 sent, no reply)`);
+      console.log(
+        `  ${lead.business_name} → LAPSED (${maxTouch} touches sent, no reply)`
+      );
       continue;
     }
 
+    const touch = nextTouch(lead, plan);
+    if (!touch || touch <= 1) continue;
+
+    const step = touchForStep(plan, touch);
+    if (!step) continue;
+
+    const channel = resolveTouchChannel(step, plan);
+    const otherChannel = channel === "email" ? "whatsapp" : "email";
+    if (leadChannelSentToday(lead.id, otherChannel)) {
+      console.log(
+        `  skip ${lead.business_name} touch ${touch}: ${otherChannel} already sent today`
+      );
+      continue;
+    }
+
+    if (channel === "whatsapp") {
+      console.log(
+        `  planned WhatsApp touch ${touch} for ${lead.business_name} (live send not implemented)`
+      );
+      continue;
+    }
+
+    if (!lead.email) continue;
+
     if (countEmailSendsToday() >= config.outreach.daily_send_cap) {
       console.log(
-        `daily_send_cap (${config.outreach.daily_send_cap}) reached — remaining touches deferred.`
+        `daily_send_cap (${config.outreach.daily_send_cap}) reached. Remaining touches deferred.`
       );
       break;
     }
 
-    const touch = nextDueTouch(lead);
-    if (!touch) continue;
-    if (!lead.email) continue;
-
-    const brief = lead.slug ? loadBrief(lead.slug) : null;
-    const email = draftFollowUp(lead, brief, touch);
+    const draft = draftForTouch(
+      step,
+      plan,
+      lead,
+      briefLike,
+      config.outreach.from_email
+    );
+    if (draft.channel !== "email") continue;
 
     try {
-      await sendLeadEmail(lead, email, touch);
+      await sendLeadEmail(lead, draft, touch);
       sent++;
-      console.log(`  ✓ Touch ${touch} sent to ${lead.business_name}`);
+      console.log(`  ✓ Touch ${touch} email sent to ${lead.business_name}`);
     } catch (err) {
       console.error(
         `  ✗ Touch ${touch} failed for ${lead.business_name}:`,

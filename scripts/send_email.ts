@@ -10,6 +10,7 @@ import {
   updateLead,
   type Lead,
 } from "./db.js";
+import { requireImapSettings, requireSmtpSettings, smtpTransportOptions } from "./mail_config.js";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.join(__dirname, "..");
@@ -19,6 +20,7 @@ interface OutreachConfig {
   agency_name: string;
   from_email: string;
   daily_send_cap: number;
+  sending_enabled: boolean;
 }
 
 interface Config {
@@ -52,38 +54,32 @@ export function loadConfig(): Config {
 
 async function appendToSent(
   raw: string,
-  env: Record<string, string>
+  env: Record<string, string | undefined>
 ): Promise<void> {
-  const user = env.IMAP_USER;
-  const pass = env.IMAP_PASS;
-  if (!user || !pass) return;
+  let imap;
+  try {
+    imap = requireImapSettings(env);
+  } catch {
+    return;
+  }
 
   const client = new ImapFlow({
-    host: "imap.gmail.com",
-    port: 993,
-    secure: true,
-    auth: { user, pass },
+    host: imap.host,
+    port: imap.port,
+    secure: imap.secure,
+    auth: { user: imap.user, pass: imap.pass },
   });
 
   try {
     await client.connect();
-    const lock = await client.getMailboxLock("[Gmail]/Sent Mail");
+    const lock = await client.getMailboxLock("Sent");
     try {
-      await client.append("[Gmail]/Sent Mail", raw, ["\\Seen"]);
+      await client.append("Sent", raw, ["\\Seen"]);
     } finally {
       lock.release();
     }
   } catch {
-    try {
-      const lock = await client.getMailboxLock("Sent");
-      try {
-        await client.append("Sent", raw, ["\\Seen"]);
-      } finally {
-        lock.release();
-      }
-    } catch {
-      /* provider may already mirror SMTP sends to Sent */
-    }
+    /* Namecheap may already mirror SMTP sends to Sent */
   } finally {
     await client.logout().catch(() => undefined);
   }
@@ -95,12 +91,16 @@ export async function sendLeadEmail(
   touch: number,
   options?: { setPitched?: boolean }
 ): Promise<void> {
-  const env = { ...loadEnv(), ...process.env };
+  const env = { ...process.env, ...loadEnv() };
   const config = loadConfig();
 
-  if (!env.SMTP_USER || !env.SMTP_PASS) {
-    throw new Error("Missing SMTP_USER or SMTP_PASS in .env");
+  if (!config.outreach.sending_enabled) {
+    throw new Error(
+      "Email sending is disabled. Set outreach.sending_enabled: true in config.yaml when Julius enables live sends."
+    );
   }
+
+  const smtp = requireSmtpSettings(env);
 
   const sentToday = countEmailSendsToday();
   if (sentToday >= config.outreach.daily_send_cap) {
@@ -109,17 +109,9 @@ export async function sendLeadEmail(
     );
   }
 
-  const transporter = nodemailer.createTransport({
-    host: "smtp.gmail.com",
-    port: 465,
-    secure: true,
-    auth: {
-      user: env.SMTP_USER,
-      pass: env.SMTP_PASS,
-    },
-  });
+  const transporter = nodemailer.createTransport(smtpTransportOptions(smtp));
 
-  const from = `"${config.outreach.from_name} — ${config.outreach.agency_name}" <${config.outreach.from_email}>`;
+  const from = `"${config.outreach.from_name} | ${config.outreach.agency_name}" <${config.outreach.from_email}>`;
 
   await transporter.sendMail({
     from,
@@ -139,7 +131,7 @@ export async function sendLeadEmail(
     "",
     email.text,
   ].join("\r\n");
-  await appendToSent(raw, env as Record<string, string>);
+  await appendToSent(raw, env);
 
   logEmailSend(lead.id, touch);
 

@@ -53,7 +53,17 @@ body {
 }
 
 .marquee-track {
-  animation: marquee 40s linear infinite;
+  animation: marquee 22s linear infinite;
+}
+
+@media (max-width: 767px) {
+  .marquee-track {
+    animation-duration: 14s;
+  }
+
+  .main-with-mobile-bar {
+    padding-bottom: calc(5.75rem + env(safe-area-inset-bottom, 0px));
+  }
 }
 
 @media (prefers-reduced-motion: reduce) {

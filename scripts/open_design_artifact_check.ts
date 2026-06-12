@@ -118,8 +118,25 @@ function main(): void {
   if (!fs.existsSync(assetsDir)) {
     issues.push({ severity: "error", message: "assets/ directory missing" });
   } else {
-    const images = fs.readdirSync(path.join(assetsDir, "images"), { withFileTypes: true }).filter((d) => d.isFile());
-    if (images.length === 0) issues.push({ severity: "error", message: "assets/images/ has no files" });
+    const imagesDir = path.join(assetsDir, "images");
+    const images = fs.existsSync(imagesDir)
+      ? fs.readdirSync(imagesDir, { withFileTypes: true }).filter((d) => d.isFile())
+      : [];
+    const briefImagesDir = slug ? path.join(ROOT, "briefs", slug, "images") : "";
+    let briefImageCount = 0;
+    if (briefImagesDir && fs.existsSync(briefImagesDir)) {
+      briefImageCount = fs
+        .readdirSync(briefImagesDir, { withFileTypes: true })
+        .filter((d) => d.isFile() && /\.(webp|jpg|jpeg|png)$/i.test(d.name)).length;
+    }
+    if (images.length === 0 && briefImageCount === 0) {
+      issues.push({
+        severity: "warn",
+        message: "assets/images/ empty but brief has no photos (proof-led layout)",
+      });
+    } else if (images.length === 0) {
+      issues.push({ severity: "error", message: "assets/images/ has no files" });
+    }
   }
 
   if (html) {
