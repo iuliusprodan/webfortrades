@@ -23,6 +23,7 @@
     "test:batch-port-control": "tsx scripts/checks/batch_port_control.test.ts",
     "test:batch-port-pool": "tsx scripts/checks/batch_port_pool.test.ts",
     "test:port-site-install": "tsx scripts/checks/port_site_install.test.ts",
+    "test:port-site-images": "tsx scripts/checks/port_site_images.test.ts",
     "test:deploy-alias": "tsx scripts/deploy_alias.test.ts",
     "test:deploy-style": "tsx scripts/style_verify.test.ts",
     "deploy": "tsx scripts/deploy.ts",

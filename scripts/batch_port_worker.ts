@@ -19,6 +19,7 @@ import {
 } from "./batch_port_policy.js";
 import { ROOT, OD_PORT_MARKER, hasOpenDesignPort, loadSiteDesignConfig } from "./site_config.js";
 import { runPortSiteBuild } from "./port_site_install.js";
+import { runPortSiteImageGate } from "./port_site_images.js";
 
 export interface PortWorkerResult {
   ok: boolean;
@@ -193,6 +194,17 @@ async function runPortAttempt(ctx: PortWorkerContext, attempt: number): Promise<
       `<html><body><section data-section-id="hero"></section><section data-section-id="services"></section><section data-section-id="contact"></section></body></html>\n`
     );
   } else {
+    const imageGate = runPortSiteImageGate(ctx.slug);
+    if (!imageGate.ok) {
+      return {
+        ok: false,
+        status: "FAILED_PORT",
+        ms: Date.now() - start,
+        attempts: attempt,
+        tokens: readPortTokens(ctx.slug),
+        error: imageGate.error,
+      };
+    }
     const buildResult = await runPortSiteBuild(siteDir, { logFile });
     if (!buildResult.ok) {
       return {
@@ -278,6 +290,17 @@ export async function runPortWorker(ctx: PortWorkerContext): Promise<PortWorkerR
     appendPortLog(ctx.batchId, ctx.slug, ROOT, "PORT_BUILD_RETRY", "marker present, retry install+build");
     const start = Date.now();
     const logFile = portLogPath(ctx.batchId, ctx.slug, ROOT);
+    const imageGate = runPortSiteImageGate(ctx.slug);
+    if (!imageGate.ok) {
+      return {
+        ok: false,
+        status: "FAILED_PORT",
+        ms: Date.now() - start,
+        attempts: 1,
+        tokens: 0,
+        error: imageGate.error,
+      };
+    }
     const buildResult = await runPortSiteBuild(siteDir, { logFile });
     if (!buildResult.ok) {
       return {
