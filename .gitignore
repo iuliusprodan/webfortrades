@@ -1,7 +1,47 @@
 .env
+.env.local
 node_modules/
 leads.db
 leads.db-*
+
+# OS junk
+.DS_Store
+
+# Cross-process deploy locks
+.locks/
+
+# Site build artifacts (per-slug Next apps under sites/)
 sites/*/node_modules/
 sites/*/.next/
 sites/*/out/
+
+# Downloaded / gathered photos — keep on disk for deploy, not in git
+sites/*/public/assets/images/*
+!sites/*/public/assets/images/.gitkeep
+sites/*/public/images/*
+!sites/*/public/images/.gitkeep
+
+# Brief gathered media — provenance lives in brief.json source_url fields
+briefs/*/images/
+briefs/*/raw/
+
+# Outreach preview binaries (paths/metadata stay in briefs json)
+briefs/*/outreach/*.png
+briefs/*/outreach/*.webp
+briefs/*/outreach/*.jpg
+briefs/*/outreach/*.jpeg
+briefs/*/outreach/*.mp4
+briefs/*/outreach/*.vcf
+
+# Open Design generation output (review locally, integrate into sites/)
+open-design-artifacts/
+
+# Batch run logs and ephemeral job state
+data/batches/
+
+# Deploy / preview capture output
+screenshots/
+previews/
+
+# Ad-hoc batch scripts (never commit)
+scripts/_tmp_*
