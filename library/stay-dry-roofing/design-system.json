@@ -1,0 +1,20 @@
+{
+  "slug": "stay-dry-roofing",
+  "business_name": "Stay Dry Roofing",
+  "direction": "steel blue operations roofer",
+  "trade": "roofing",
+  "fontPairKey": "syne-dm-sans",
+  "layoutFamily": "compact-local",
+  "heroHeadline": "Sheffield roofing, kept watertight.",
+  "heroHeadlineKey": "heating-you-can-trust",
+  "fonts": {
+    "display": "Syne",
+    "body": "DM Sans"
+  },
+  "colors": {
+    "accent": "#4f7fa8",
+    "background": "#eef1f4",
+    "surface": "#ffffff",
+    "text": "#16202b"
+  }
+}

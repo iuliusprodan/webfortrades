@@ -1,0 +1,29 @@
+{
+  "slug": "mayerplumbing",
+  "business_name": "MayerPlumbing",
+  "direction": "trust_blue_archivo_ibm_plex_split_hero_editorial",
+  "trade": "custom",
+  "fontPairKey": "archivo-ibm-plex",
+  "layoutFamily": "split-hero-editorial",
+  "statsStyle": "centered-row",
+  "reviewsStyle": "two-column-grid",
+  "galleryStyle": "compact-row",
+  "ctaStyle": "rounded-pill",
+  "heroHeadline": "Heating you can trust.",
+  "heroHeadlineKey": "heating-you-can-trust",
+  "fonts": {
+    "display": "Archivo",
+    "body": "IBM Plex Sans"
+  },
+  "separator": "◆",
+  "colors": {
+    "accent": "#1a8fd1",
+    "accentForeground": "#ffffff",
+    "background": "#f4f8fc",
+    "foreground": "#0c2d4a",
+    "muted": "#dbeafe",
+    "mutedForeground": "#475569",
+    "border": "#bfdbfe",
+    "surface": "#ffffff"
+  }
+}

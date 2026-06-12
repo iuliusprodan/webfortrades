@@ -1,0 +1,29 @@
+{
+  "slug": "southwest-plumber-emergency-plumbing-heating",
+  "business_name": "Southwest Plumber - Emergency Plumbing & Heating",
+  "direction": "navy_brass_heating_space_grotesk_inter_full_bleed_hero",
+  "trade": "custom",
+  "fontPairKey": "space-grotesk-inter",
+  "layoutFamily": "full-bleed-hero",
+  "statsStyle": "band-cards",
+  "reviewsStyle": "stacked-quotes",
+  "galleryStyle": "standard-grid",
+  "ctaStyle": "sharp-block",
+  "heroHeadline": "Warm homes. Reliable heating.",
+  "heroHeadlineKey": "warm-homes-reliable-heating",
+  "fonts": {
+    "display": "Space Grotesk",
+    "body": "Inter"
+  },
+  "separator": "/",
+  "colors": {
+    "accent": "#c9a227",
+    "accentForeground": "#1a1208",
+    "background": "#f5f0e8",
+    "foreground": "#0c2d4a",
+    "muted": "#e8e0d4",
+    "mutedForeground": "#4a5568",
+    "border": "#d4c4a8",
+    "surface": "#ffffff"
+  }
+}
