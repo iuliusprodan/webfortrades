@@ -24,6 +24,7 @@
     "test:batch-port-pool": "tsx scripts/checks/batch_port_pool.test.ts",
     "test:port-site-install": "tsx scripts/checks/port_site_install.test.ts",
     "test:port-site-images": "tsx scripts/checks/port_site_images.test.ts",
+    "test:port-worker-e2e": "tsx scripts/checks/port_worker_e2e.test.ts",
     "test:deploy-alias": "tsx scripts/deploy_alias.test.ts",
     "test:vercel-alias-reassign": "tsx scripts/checks/vercel_alias_reassign.test.ts",
     "test:deploy-style": "tsx scripts/style_verify.test.ts",
