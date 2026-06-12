@@ -1,0 +1,85 @@
+{
+  "slug": "jt-plumbing",
+  "updated_at": "2026-06-11T09:42:02.402Z",
+  "url": "https://jt-plumbing-m5js26xab-iulius-projects-0cb33a7b.vercel.app",
+  "ok": true,
+  "screenshot": "/Users/iuliusprodan/.cursor/website/screenshots/jt-plumbing/live-verify.png",
+  "stylesheet": {
+    "bytes": 48051,
+    "hasPreflight": true,
+    "hasUtilities": true,
+    "utilityMarkers": [
+      ".flex",
+      ".grid",
+      ".mx-auto",
+      ".items-center",
+      ".justify-",
+      ".max-w-",
+      ".px-/.py-",
+      ".rounded",
+      ".gap-"
+    ]
+  },
+  "metrics": {
+    "bodyFontFamily": "\"Source Sans 3\", \"Source Sans 3 Fallback\"",
+    "bodyBoxSizing": "border-box",
+    "bodyMarginTop": 0,
+    "bodyMarginLeft": 0,
+    "appliedRuleCount": 850,
+    "styleSheetCount": 1,
+    "biggestGraphic": {
+      "tag": "IMG",
+      "w": 548,
+      "h": 731,
+      "src": "https://jt-plumbing-m5js26xab-iulius-projects-0cb33a7b.vercel.app/assets/images/radiator-pipework.webp"
+    },
+    "primaryButton": {
+      "found": true,
+      "background": "rgb(75, 163, 208)",
+      "borderRadius": "6px",
+      "paddingTop": "12px"
+    },
+    "bodyText": "JT Plumbing\nBRISTOL BS5\n07817 850729\nGet a quote\n4.9 on Google\n15+ reviews\n100% recommend on Facebook\nA Bristol plumber who turns up, does a good job and charges fairly\n\nReliable, friendly and affordable plumbing and heating across Bristol, Redfield, St George and Easton.\n\n\"If you want a plumber tha"
+  },
+  "css_assets": [
+    {
+      "url": "https://jt-plumbing-m5js26xab-iulius-projects-0cb33a7b.vercel.app/_next/static/css/e1c2b352ded6f1b1.css",
+      "status": 200,
+      "bytes": 48051
+    }
+  ],
+  "js_assets": [
+    {
+      "url": "https://jt-plumbing-m5js26xab-iulius-projects-0cb33a7b.vercel.app/_next/static/chunks/4bd1b696-c023c6e3521b1417.js",
+      "status": 200,
+      "bytes": 173019
+    },
+    {
+      "url": "https://jt-plumbing-m5js26xab-iulius-projects-0cb33a7b.vercel.app/_next/static/chunks/255-eb4aecc3ff015961.js",
+      "status": 200,
+      "bytes": 173611
+    },
+    {
+      "url": "https://jt-plumbing-m5js26xab-iulius-projects-0cb33a7b.vercel.app/_next/static/chunks/main-app-f9b5d20365cb8be2.js",
+      "status": 200,
+      "bytes": 557
+    },
+    {
+      "url": "https://jt-plumbing-m5js26xab-iulius-projects-0cb33a7b.vercel.app/_next/static/chunks/app/page-edadfd3bafd5da32.js",
+      "status": 200,
+      "bytes": 4150
+    },
+    {
+      "url": "https://jt-plumbing-m5js26xab-iulius-projects-0cb33a7b.vercel.app/_next/static/chunks/polyfills-42372ed130431b0a.js",
+      "status": 200,
+      "bytes": 112594
+    },
+    {
+      "url": "https://jt-plumbing-m5js26xab-iulius-projects-0cb33a7b.vercel.app/_next/static/chunks/webpack-1ce2721682c92d57.js",
+      "status": 200,
+      "bytes": 3770
+    }
+  ],
+  "failed_assets": [],
+  "issues": []
+}

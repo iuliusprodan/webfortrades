@@ -1,0 +1,44 @@
+{
+  "slug": "stay-dry-roofing",
+  "reviewed_at": "2026-06-11T13:09:09.817Z",
+  "read_only": true,
+  "passed": true,
+  "clone_score": 30,
+  "business_specificity_estimate": 70,
+  "scores": {
+    "section_order_similarity": 55,
+    "heading_reuse": 0,
+    "hero_pattern_reuse": 20,
+    "cta_strip_reuse": 0,
+    "service_list_shape_reuse": 30,
+    "review_block_reuse": 20,
+    "contact_section_reuse": 40,
+    "copy_phrase_reuse": 0,
+    "palette_font_layout_similarity": 100,
+    "overall_clone_score": 30,
+    "business_specificity_estimate": 70
+  },
+  "issues": [
+    {
+      "severity": "warn",
+      "message": "High section overlap (91%) with nfs-plumbing-heating"
+    },
+    {
+      "severity": "warn",
+      "message": "High section overlap (91%) with west-park-electrics"
+    }
+  ],
+  "missing_artifacts": [],
+  "template_headings_found": [],
+  "section_plan_generic": false,
+  "compared_slugs": [
+    "decorator",
+    "greens-precise-plumbing-heating-ltd",
+    "jt-plumbing",
+    "mayerplumbing",
+    "nfs-plumbing-heating",
+    "roofer",
+    "southwest-plumber-emergency-plumbing-heating",
+    "west-park-electrics"
+  ]
+}

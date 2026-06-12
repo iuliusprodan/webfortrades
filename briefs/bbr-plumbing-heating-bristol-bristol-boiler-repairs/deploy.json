@@ -1,0 +1,65 @@
+{
+  "slug": "bbr-plumbing-heating-bristol-bristol-boiler-repairs",
+  "updated_at": "2026-06-11T15:35:00.000Z",
+  "preferred_alias": "bristol-boiler-repairs",
+  "deployment_url": "https://bbr-plumbing-heating-bristol-bristol-boiler-repairs-ppdpon0px.vercel.app",
+  "verified_url": "https://bristol-boiler-repairs.vercel.app",
+  "final_url": "https://bristol-boiler-repairs.vercel.app",
+  "alias_status": "VERIFIED",
+  "candidates": [
+    {
+      "hostname": "bristol-boiler-repairs",
+      "url": "https://bristol-boiler-repairs.vercel.app",
+      "preflight": "already_ours",
+      "detail": "Canonical alias migration 2026-06-11",
+      "verify": "verified"
+    },
+    {
+      "hostname": "bbr-plumbing-heating-bristol-bristol-boiler-repairs",
+      "url": "https://bbr-plumbing-heating-bristol-bristol-boiler-repairs.vercel.app",
+      "preflight": "already_ours",
+      "detail": "Reassigned to current deployment",
+      "verify": "verified"
+    },
+    {
+      "hostname": "bbr-plumbing-heating-bristol-bristol-boiler-repairs-bs13",
+      "url": "https://bbr-plumbing-heating-bristol-bristol-boiler-repairs-bs13.vercel.app",
+      "preflight": "already_ours",
+      "detail": "One-week fallback on same deployment",
+      "verify": "verified"
+    },
+    {
+      "hostname": "bbr-plumbing-heating-bristol-bristol-boiler-repairs-bristol",
+      "url": "https://bbr-plumbing-heating-bristol-bristol-boiler-repairs-bristol.vercel.app",
+      "preflight": "already_ours",
+      "detail": "Reassigned from stale pre-OD HTML",
+      "verify": "verified"
+    },
+    {
+      "hostname": "bbr-plumbing-heating-bristol-bristol-boiler-repairs-bristol-bs1",
+      "url": "https://bbr-plumbing-heating-bristol-bristol-boiler-repairs-bristol-bs1.vercel.app",
+      "preflight": "already_ours",
+      "detail": "Reassigned to current deployment",
+      "verify": "verified"
+    },
+    {
+      "hostname": "bbr-plumbing-heating-bristol-bristol-boiler-repairs-uk",
+      "url": "https://bbr-plumbing-heating-bristol-bristol-boiler-repairs-uk.vercel.app",
+      "preflight": "already_ours",
+      "detail": "Legacy alias serves current build",
+      "verify": "verified"
+    }
+  ],
+  "verification": {
+    "ok": true,
+    "httpStatus": 200,
+    "markerFound": true,
+    "businessNameFound": true,
+    "phoneFound": true,
+    "marker": {
+      "buildId": "bbr-plumbing-heating-bristol-bristol-boiler-repairs:20260611-alias-fix",
+      "slug": "bbr-plumbing-heating-bristol-bristol-boiler-repairs"
+    },
+    "errors": []
+  }
+}

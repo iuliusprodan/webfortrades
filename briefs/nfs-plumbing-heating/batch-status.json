@@ -1,0 +1,51 @@
+{
+  "slug": "nfs-plumbing-heating",
+  "batch_id": "2026-06-11-five-site",
+  "READY_TO_PITCH": true,
+  "og_status": "NOT GENERATED",
+  "scroll_status": "NOT GENERATED",
+  "business": "NFS Plumbing & Heating",
+  "niche": "plumbing/heating",
+  "location": "Bristol",
+  "website_status": "NO_WEBSITE",
+  "phone": "07788 488486",
+  "live_url": "https://nfs-plumbing-heating.vercel.app",
+  "build_id": "nfs-plumbing-heating:pending",
+  "clone_review": "FAIL",
+  "step_timings": {
+    "gather": "skipped_brief_complete",
+    "enrich_ms": 8455,
+    "prepare_ms": 5890,
+    "od_ms": 142367,
+    "port_ms": 120000,
+    "build_ms": 24626,
+    "deploy_ms": 84859
+  },
+  "updated_at": "2026-06-11T16:08:03.189Z",
+  "timings": {
+    "port_completed": "2026-06-11T11:22:00Z",
+    "deploy_completed": "2026-06-11T11:23:20Z",
+    "clone_review_completed": "2026-06-11T11:23:40Z"
+  },
+  "source_quality": "PASS_WITH_WARNINGS",
+  "source_quality_relaxed": true,
+  "contactability": "CONTACTABLE",
+  "location_validation": "OK",
+  "od_run_id": "8ea60e42-1757-435d-bcd7-cb51de45e6ac",
+  "od_project": "webfortrades-nfs-plumbing-heating-pilot-4e7f",
+  "alias_status": "VERIFIED",
+  "style_verify": "PASS",
+  "deployment_id": "dpl_MAzqzV2PiJBCkteWFwrH7MaiTqPV",
+  "email": null,
+  "image_readiness": "OK",
+  "vercel_alias": "nfs-plumbing-heating",
+  "style_verification": "PASS",
+  "blockers": [
+    "clone_review_section_overlap"
+  ],
+  "clone_score": 29,
+  "batch_completed_at": "2026-06-11T11:46:56.000Z",
+  "outreach_screenshots": true,
+  "scroll_video": true,
+  "prep_blockers": []
+}

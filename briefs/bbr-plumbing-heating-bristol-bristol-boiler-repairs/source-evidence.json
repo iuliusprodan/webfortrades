@@ -1,0 +1,278 @@
+{
+  "slug": "bbr-plumbing-heating-bristol-bristol-boiler-repairs",
+  "gathered_at": "2026-06-11T11:15:09.184Z",
+  "attempted_sources": [
+    {
+      "platform": "google_places",
+      "status": "found",
+      "url": "https://maps.google.com/?cid=13367882432848614513"
+    },
+    {
+      "platform": "google_reviews",
+      "status": "found",
+      "url": "https://maps.google.com/?cid=13367882432848614513"
+    },
+    {
+      "platform": "google_photos",
+      "status": "found",
+      "url": "https://maps.google.com/?cid=13367882432848614513"
+    },
+    {
+      "platform": "facebook",
+      "status": "not_found",
+      "url": null,
+      "search_query": "BBR Plumbing & Heating Bristol - Bristol Boiler Repairs Bristol BS13 7QW",
+      "reason": "No URL in brief or source_urls (directory scrape not run in this phase)"
+    },
+    {
+      "platform": "instagram",
+      "status": "not_found",
+      "url": null,
+      "search_query": "BBR Plumbing & Heating Bristol - Bristol Boiler Repairs Bristol BS13 7QW",
+      "reason": "No URL in brief or source_urls (directory scrape not run in this phase)"
+    },
+    {
+      "platform": "official_website",
+      "status": "found",
+      "url": "https://bristolboilerrepairs.co.uk/"
+    },
+    {
+      "platform": "checkatrade",
+      "status": "not_attempted",
+      "url": null,
+      "search_query": "BBR Plumbing & Heating Bristol - Bristol Boiler Repairs Bristol BS13 7QW",
+      "reason": "Manual search required in this phase"
+    },
+    {
+      "platform": "trustatrader",
+      "status": "not_attempted",
+      "url": null,
+      "search_query": "BBR Plumbing & Heating Bristol - Bristol Boiler Repairs Bristol BS13 7QW",
+      "reason": "Manual search required in this phase"
+    },
+    {
+      "platform": "mybuilder",
+      "status": "not_attempted",
+      "url": null,
+      "search_query": "BBR Plumbing & Heating Bristol - Bristol Boiler Repairs Bristol BS13 7QW",
+      "reason": "Manual search required in this phase"
+    },
+    {
+      "platform": "rated_people",
+      "status": "not_attempted",
+      "url": null,
+      "search_query": "BBR Plumbing & Heating Bristol - Bristol Boiler Repairs Bristol BS13 7QW",
+      "reason": "Manual search required in this phase"
+    },
+    {
+      "platform": "bark",
+      "status": "not_attempted",
+      "url": null,
+      "search_query": "BBR Plumbing & Heating Bristol - Bristol Boiler Repairs Bristol BS13 7QW",
+      "reason": "Manual search required in this phase"
+    },
+    {
+      "platform": "yell",
+      "status": "not_attempted",
+      "url": null,
+      "search_query": "BBR Plumbing & Heating Bristol - Bristol Boiler Repairs Bristol BS13 7QW",
+      "reason": "Manual search required in this phase"
+    },
+    {
+      "platform": "companies_house",
+      "status": "not_attempted",
+      "url": null,
+      "search_query": "BBR Plumbing & Heating Bristol - Bristol Boiler Repairs Bristol BS13 7QW",
+      "reason": "Manual search required in this phase"
+    },
+    {
+      "platform": "directories",
+      "status": "not_attempted",
+      "search_query": "BBR Plumbing & Heating Bristol - Bristol Boiler Repairs Bristol BS13 7QW",
+      "reason": "Generic directory sweep not automated yet"
+    }
+  ],
+  "sources": [
+    {
+      "platform": "google_places",
+      "url": "https://maps.google.com/?cid=13367882432848614513",
+      "verified": true,
+      "verification_method": "place_id_from_gather",
+      "phone_match": true,
+      "notes": "Primary gather source"
+    },
+    {
+      "platform": "official_website",
+      "url": "https://bristolboilerrepairs.co.uk/",
+      "verified": false,
+      "verification_method": "cross_check_needed",
+      "phone_match": true,
+      "notes": "BROKEN_OR_BAD_SITE"
+    }
+  ],
+  "sources_found": [
+    "google_places",
+    "google_reviews",
+    "google_photos",
+    "official_website"
+  ],
+  "sources_verified": [
+    "google_places"
+  ],
+  "strongest_proof_source": {
+    "platform": "google",
+    "metric": "5 rating, 31 reviews",
+    "url": "https://maps.google.com/?cid=13367882432848614513"
+  },
+  "best_review_details": [
+    {
+      "text": "Bristol Boiler Repairs, and in particular Chris, were very helpful in providing quotes for 3 boilers and guiding us to the most appropriate one for our property.  They also prioritised the work as our existing boiler had broken.\nInstallation was completed on time and the work was tidy and unobtrusive.\nWe have no hesitation in recommending Bristol Boiler Repairs as both cost effective and reliable.",
+      "author": "Mark",
+      "rating": 5,
+      "source": "google"
+    },
+    {
+      "text": "Chris completely redid my heating system having bought a house with very old plumbing system.  He was very efficient and explained everything to me as he also installed a Hive and he explained to me how it worked (I am clueless on these things).  His prices were fair in comparison and also considering his level of expertise and experience.  I would definitely recommend Bristol Boiler Repairs!",
+      "author": "sarah",
+      "rating": 5,
+      "source": "google"
+    },
+    {
+      "text": "Chris and the chaps installed our boiler, radiators, two bathrooms, underfloor heating and powerflushed the system. They talked us through all the options available and provided installation in a timely manor. All in all very helpful, polite and friendly and didn't cost the earth. We will be using Bristol Boiler Repairs in the future on other projects. Thanks again.",
+      "author": "Michael",
+      "rating": 5,
+      "source": "google"
+    }
+  ],
+  "image_source_summary": {
+    "google_photos": 2,
+    "facebook_photos": 0,
+    "directory_photos": 0,
+    "manual_photos": 0,
+    "other": 0,
+    "preferred_source": "google_places",
+    "notes": "Google Places photos preferred for gallery when high quality",
+    "priority_order": [
+      "official_website",
+      "google_places",
+      "directory",
+      "manual_asset",
+      "facebook_evidence",
+      "proof_led"
+    ]
+  },
+  "manual_review_flags": [],
+  "enrichment_complete": true,
+  "risks": [
+    "Very few photos - lean site recommended"
+  ],
+  "manual_asset_review_recommended": false,
+  "manual_asset_status": "OK",
+  "asset_readiness": {
+    "manual_asset_status": "OK",
+    "usable_automatic_count": 2,
+    "usable_manual_count": 0,
+    "usable_total_count": 2,
+    "has_hero_candidate": true,
+    "pause_before_open_design": false,
+    "pause_message": null,
+    "layout_recommendation": "proof_led",
+    "image_slots": [
+      {
+        "slot": "hero",
+        "desired": "Best finished project photo or strong proof visual",
+        "source_status": "automatic"
+      },
+      {
+        "slot": "gallery_1",
+        "desired": "Finished work close-up or wide project shot",
+        "source_status": "automatic"
+      },
+      {
+        "slot": "gallery_2",
+        "desired": "Finished work close-up or wide project shot",
+        "source_status": "automatic"
+      },
+      {
+        "slot": "gallery_3",
+        "desired": "Finished work close-up or wide project shot",
+        "source_status": "automatic"
+      },
+      {
+        "slot": "gallery_4",
+        "desired": "Finished work close-up or wide project shot",
+        "source_status": "automatic"
+      }
+    ],
+    "manual_folder": "briefs/bbr-plumbing-heating-bristol-bristol-boiler-repairs/images/manual/"
+  },
+  "image_slots": [
+    {
+      "slot": "hero",
+      "desired": "Best finished project photo or strong proof visual",
+      "source_status": "automatic"
+    },
+    {
+      "slot": "gallery_1",
+      "desired": "Finished work close-up or wide project shot",
+      "source_status": "automatic"
+    },
+    {
+      "slot": "gallery_2",
+      "desired": "Finished work close-up or wide project shot",
+      "source_status": "automatic"
+    },
+    {
+      "slot": "gallery_3",
+      "desired": "Finished work close-up or wide project shot",
+      "source_status": "automatic"
+    },
+    {
+      "slot": "gallery_4",
+      "desired": "Finished work close-up or wide project shot",
+      "source_status": "automatic"
+    }
+  ],
+  "email": "bristolboilerrepairs247@gmail.com",
+  "email_found": true,
+  "email_domain_checked": false,
+  "email_domain_website": null,
+  "website_discovery": null,
+  "website_status": "BROKEN_OR_BAD_SITE",
+  "truly_no_website": true,
+  "logo_found": true,
+  "logo_path": "brand/logo.webp",
+  "facebook_url": null,
+  "facebook_verified": false,
+  "source_verifications": [],
+  "source_confidence": null,
+  "image_manifest": [
+    {
+      "local": "images/03-places.webp",
+      "source": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3nCKJLs3tEh-jKhS4hr6_cWj_9_Yly9sh1oP8RwCJhjeiWy9hIA3bRFr0MHrjE9qU5i_wsxaA1SK06SnryK2ybYPL4SBd3ovTuTqzOP0lj9XBW42-UxXyZB9zQKV7d5wAzi5OMBo94I-tsRmuVpDTnEx_UaGObmn23IC-iirLpykLpnQRqpjseZ4ts_fzOrW1u05Vbq-bLCxMzHKUIQH_T1qj9rovMSp-3lLU2WPyTXrW2ArDmnHd3gFFt32oOfd74Bncr39YRxDG88y1NI4BwOqIjR2jl9yh6cEF_hBfiznkuHr4ZhvBvq7FViAbZ7vbsztL76qV8Z04mfQhm6f-LGPyT19_zy1LKGUhmMjZc9-8Omla2ANaUquueKQz4c2b8dB5d-6z6hDWTxTOeUtYVqKV7UUsOFx88wxJm23ZuxCw&key=REDACTED",
+      "source_type": "unknown",
+      "confidence": "low",
+      "purpose": "gallery",
+      "selected": true,
+      "reason": "Default from gather"
+    },
+    {
+      "local": "images/01-places.webp",
+      "source": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3kQhGUL-7e1TPqfLezW_AMcIEq0NT_UTpbkz2p9_pifKp9XrTp-4LoqWbNsUD6wC0AFZjf9IriIF_1zAoJwnOdloNAVlA3lmPdYOnJ_InHt-SSI0pZDdxVJdtgiFF1CgHWws-FeMnqtZ9sgHMAxdVIVmrYe7GTL3MqB3KT4Bo5WQ-NPuMlIsQJK7dMR8TLpHrJ_8I67xtarfhR8TZ77wD9V9LTQQpQUUkvfsMDifcw1ki9udfsoCezcvPArhpUYd528yrwsT0ffJZd9aleylgKrl-AtCGmttFbqCHhPPUd_xrrdgHjrawrYJD82wwjS0ZQMW2k6VOp1eCLXqcZON9-DjjHzV6FpLjz2uXE7uMmNrmsVhbLLRBnJZ0Z8qb6k7MYVEycsWlcv3O7QQnKzUKe8ndpVMITQr_dBAm7yiz1DT3WH4jop7qZ8nf_Ot0wM&key=REDACTED",
+      "source_type": "unknown",
+      "confidence": "low",
+      "purpose": "gallery",
+      "selected": true,
+      "reason": "Default from gather"
+    }
+  ],
+  "selected_images": [
+    "images/03-places.webp",
+    "images/01-places.webp"
+  ],
+  "lead_validity_status": "INSUFFICIENT_EVIDENCE",
+  "ready_for_build": false,
+  "registry_source_count": 0,
+  "batch_waiver_applied": true,
+  "batch_waiver_note": "Batch waiver 2026-06-11: Google Places plus broken_or_domain_probe"
+}

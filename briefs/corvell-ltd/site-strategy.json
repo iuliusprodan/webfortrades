@@ -1,0 +1,51 @@
+{
+  "slug": "corvell-ltd",
+  "business_angle": "Corvell ltd: Jack and Nick team, tidy finishes across Bristol, BS15",
+  "customer_praise_themes": [
+    "tidy finishes",
+    "quality workmanship",
+    "fair pricing",
+    "clear communication",
+    "strong recommendations",
+    "bathroom and refit work"
+  ],
+  "named_people": [
+    "Jack",
+    "Nick"
+  ],
+  "distinctive_phrases": [
+    "The quote was so competitively priced we booked on right away",
+    "Jack & Nick then did such an immaculate efficient job, we absolutely love our new tiles",
+    "Nick & Jack did our full bathroom renovation",
+    "They were friendly, professional, efficient, and did an exceptional job, we are thrilled with the final result",
+    "Jack and Nick came around in August  to quote which was competitive"
+  ],
+  "strongest_review_quote": {
+    "text": "We found Corvell on Instagram & was really impressed from the get go when Jack came to measure up to quote for some tiling in our kitchen, utility & wc - his attention to detail in checking exactly what we wanted & advising on tiles/grout etc was so useful! The quote was so competitively priced we booked on right away! Jack & Nick then did such an immaculate efficient job, we absolutely love our new tiles! Now recommending them to everyone we know and booked them to fit my mums bathroom & can’t ",
+    "author": "Harriet",
+    "source": "google",
+    "url": "https://maps.google.com/?cid=5902983431411409835"
+  },
+  "strongest_proof_source": {
+    "platform": "google",
+    "metric": "5 rating, 13 reviews",
+    "url": "https://maps.google.com/?cid=5902983431411409835"
+  },
+  "best_photos_rationale": "Google Places photos default",
+  "claims_to_avoid": [
+    "Fake owner or founder claims",
+    "Supplier names as job locations in captions",
+    "Invented service areas"
+  ],
+  "pitch_hook_summary": "Lead with review detail about tidy finishes (Harriet)",
+  "personality": "family",
+  "evidence_strength": "moderate",
+  "suggested_site_mood": "approachable, named people, trust-first",
+  "suggested_proof_hierarchy": [
+    "google_rating_reviews",
+    "photo_gallery"
+  ],
+  "pitch_insight_seed": "Lead with review detail about tidy finishes (Harriet)",
+  "trade": "Bathroom installations",
+  "location": "Bristol, BS15"
+}

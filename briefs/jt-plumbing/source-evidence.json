@@ -1,0 +1,322 @@
+{
+  "slug": "jt-plumbing",
+  "gathered_at": "2026-06-10T20:47:24.336Z",
+  "attempted_sources": [
+    {
+      "platform": "google_places",
+      "status": "found",
+      "url": "https://maps.google.com/?cid=14280073501182388464"
+    },
+    {
+      "platform": "google_reviews",
+      "status": "found",
+      "url": "https://maps.google.com/?cid=14280073501182388464"
+    },
+    {
+      "platform": "google_photos",
+      "status": "found",
+      "url": "https://maps.google.com/?cid=14280073501182388464"
+    },
+    {
+      "platform": "facebook",
+      "status": "found",
+      "url": "https://www.facebook.com/jtplumbingbristol"
+    },
+    {
+      "platform": "instagram",
+      "status": "not_found",
+      "url": null,
+      "search_query": "JT Plumbing Bristol BS5 8JB",
+      "reason": "No URL in brief or source_urls (directory scrape not run in this phase)"
+    },
+    {
+      "platform": "official_website",
+      "status": "not_found",
+      "url": null,
+      "search_query": "JT Plumbing Bristol BS5 8JB",
+      "reason": "No URL in brief or source_urls (directory scrape not run in this phase)"
+    },
+    {
+      "platform": "checkatrade",
+      "status": "not_attempted",
+      "url": null,
+      "search_query": "JT Plumbing Bristol BS5 8JB",
+      "reason": "Manual search required in this phase"
+    },
+    {
+      "platform": "trustatrader",
+      "status": "not_attempted",
+      "url": null,
+      "search_query": "JT Plumbing Bristol BS5 8JB",
+      "reason": "Manual search required in this phase"
+    },
+    {
+      "platform": "mybuilder",
+      "status": "not_attempted",
+      "url": null,
+      "search_query": "JT Plumbing Bristol BS5 8JB",
+      "reason": "Manual search required in this phase"
+    },
+    {
+      "platform": "rated_people",
+      "status": "not_attempted",
+      "url": null,
+      "search_query": "JT Plumbing Bristol BS5 8JB",
+      "reason": "Manual search required in this phase"
+    },
+    {
+      "platform": "bark",
+      "status": "not_attempted",
+      "url": null,
+      "search_query": "JT Plumbing Bristol BS5 8JB",
+      "reason": "Manual search required in this phase"
+    },
+    {
+      "platform": "yell",
+      "status": "not_attempted",
+      "url": null,
+      "search_query": "JT Plumbing Bristol BS5 8JB",
+      "reason": "Manual search required in this phase"
+    },
+    {
+      "platform": "companies_house",
+      "status": "not_attempted",
+      "url": null,
+      "search_query": "JT Plumbing Bristol BS5 8JB",
+      "reason": "Manual search required in this phase"
+    },
+    {
+      "platform": "directories",
+      "status": "not_attempted",
+      "search_query": "JT Plumbing Bristol BS5 8JB",
+      "reason": "Generic directory sweep not automated yet"
+    }
+  ],
+  "sources": [
+    {
+      "platform": "google_places",
+      "url": "https://maps.google.com/?cid=14280073501182388464",
+      "verified": true,
+      "verification_method": "place_id_from_gather",
+      "phone_match": true,
+      "notes": "Primary gather source"
+    },
+    {
+      "platform": "facebook",
+      "url": "https://www.facebook.com/jtplumbingbristol",
+      "verified": true,
+      "verification_method": "facebook_source_module",
+      "phone_match": true,
+      "notes": "Phone number matches Google/lead phone; Business name matches or clearly aliases Google listing; Location or service area matches Google address/city; Public email visible on page (jtplumbingbristol@gmail.com); Intro text matches trade and local area; Service hints match trade: Plumbing, Heating, Bathroom installations"
+    }
+  ],
+  "sources_found": [
+    "google_places",
+    "google_reviews",
+    "google_photos",
+    "facebook"
+  ],
+  "sources_verified": [
+    "google_places",
+    "facebook"
+  ],
+  "strongest_proof_source": {
+    "platform": "facebook",
+    "metric": "8 public photos, phone verified",
+    "url": "https://www.facebook.com/jtplumbingbristol"
+  },
+  "best_review_details": [
+    {
+      "text": "Highly recommend, Josh gave our heating system a complete overhaul replacing all our radiators, flushing out the system (which was in a right state) and fitting a Hive system thermostat.\n\nJosh was honest, prompt and very well priced! Which I think is rare nowadays, he could have let us spend much more money on a combi boiler which just wouldn’t have been suitable for our property, but gave us his ",
+      "author": "Hayley",
+      "rating": 5,
+      "source": "google"
+    },
+    {
+      "text": "I contacted Josh this morning as I had a problem with water pouring out of a pipe that hadn’t been capped off properly and although just back from holidays came sorted for me quickly and efficiently.  I can’t thank him enough can recommend him to anyone and any future work I will give to him 100%",
+      "author": "Glenda",
+      "rating": 4,
+      "source": "google"
+    },
+    {
+      "text": "Josh is worth his weight in gold. I contacted him, he replied instantly and kindly came to have a look the very next morning. He ordered, collected and carefully installed a beautiful new rain shower, so fast! Highly rate and recommend, thank you! 🌟🌟🌟🌟🌟",
+      "author": "Camille",
+      "rating": 5,
+      "source": "google"
+    }
+  ],
+  "image_source_summary": {
+    "google_photos": 4,
+    "facebook_photos": 0,
+    "directory_photos": 0,
+    "manual_photos": 0,
+    "other": 0,
+    "preferred_source": "google_places",
+    "notes": "Google Places photos preferred for gallery when high quality",
+    "priority_order": [
+      "official_website",
+      "google_places",
+      "directory",
+      "manual_asset",
+      "facebook_evidence",
+      "proof_led"
+    ]
+  },
+  "manual_review_flags": [
+    "contactability=NEEDS_MANUAL_REVIEW"
+  ],
+  "enrichment_complete": false,
+  "risks": [],
+  "facebook_graph": {
+    "attempted": false,
+    "success": false,
+    "page_id": null,
+    "photos_found": 0,
+    "photos_downloaded": 0,
+    "largest_width": null,
+    "largest_height": null,
+    "failure_reason": "META_GRAPH_API_TOKEN not configured",
+    "permission_required": false
+  },
+  "facebook_apify": {
+    "attempted": true,
+    "success": false,
+    "actor": "igview-owner/facebook-page-photos-downloader",
+    "photos_found": 8,
+    "photos_downloaded": 0,
+    "largest_width": null,
+    "largest_height": null,
+    "failure_reason": "FBCDN_DOWNLOAD_BLOCKED",
+    "cost_estimate": "~$0.010 USD (9 items @ $1.1/1000)",
+    "requires_login": false,
+    "via_mcp": false
+  },
+  "facebook_media_quality": "HIGH_RES",
+  "manual_asset_review_recommended": false,
+  "manual_asset_status": "OK",
+  "asset_readiness": {
+    "manual_asset_status": "OK",
+    "usable_automatic_count": 4,
+    "usable_manual_count": 0,
+    "usable_total_count": 4,
+    "has_hero_candidate": true,
+    "pause_before_open_design": false,
+    "pause_message": null,
+    "layout_recommendation": "photo_led",
+    "image_slots": [
+      {
+        "slot": "hero",
+        "desired": "Best finished project photo or strong proof visual",
+        "source_status": "automatic"
+      },
+      {
+        "slot": "gallery_1",
+        "desired": "Finished work close-up or wide project shot",
+        "source_status": "automatic"
+      },
+      {
+        "slot": "gallery_2",
+        "desired": "Finished work close-up or wide project shot",
+        "source_status": "automatic"
+      },
+      {
+        "slot": "gallery_3",
+        "desired": "Finished work close-up or wide project shot",
+        "source_status": "automatic"
+      },
+      {
+        "slot": "gallery_4",
+        "desired": "Finished work close-up or wide project shot",
+        "source_status": "manual_needed"
+      }
+    ],
+    "manual_folder": "briefs/jt-plumbing/images/manual/"
+  },
+  "image_slots": [
+    {
+      "slot": "hero",
+      "desired": "Best finished project photo or strong proof visual",
+      "source_status": "automatic"
+    },
+    {
+      "slot": "gallery_1",
+      "desired": "Finished work close-up or wide project shot",
+      "source_status": "automatic"
+    },
+    {
+      "slot": "gallery_2",
+      "desired": "Finished work close-up or wide project shot",
+      "source_status": "automatic"
+    },
+    {
+      "slot": "gallery_3",
+      "desired": "Finished work close-up or wide project shot",
+      "source_status": "automatic"
+    },
+    {
+      "slot": "gallery_4",
+      "desired": "Finished work close-up or wide project shot",
+      "source_status": "manual_needed"
+    }
+  ],
+  "email": "jtplumbingbristol@gmail.com",
+  "email_found": true,
+  "email_domain_checked": false,
+  "email_domain_website": null,
+  "website_discovery": null,
+  "website_status": "NO_WEBSITE",
+  "truly_no_website": true,
+  "logo_found": false,
+  "logo_path": null,
+  "facebook_url": "https://www.facebook.com/jtplumbingbristol",
+  "facebook_verified": true,
+  "source_verifications": [],
+  "source_confidence": null,
+  "image_manifest": [
+    {
+      "local": "images/01-places.webp",
+      "source": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3mW1YFPDua33rYb4_4UUIFIqnUfp-VC0fcK-WAH5lB__zFJ34wnairAdlqdqbha2PlGX7u7l5GwMpPLEWVCL84trY5uwZlINyAyFCwqBYI9lc7MWNX_D3ElLcFjAE5s4RmH7thYStWp_bvR7SCbczjmWFgao46OpooF1NX475My-kVezqHAlDxjDFqWSCGlv0RSsmKrL5G4HapEVDZMfn4jD0KDxD9Q_2Xif9yx-T-8ItjllQIeYOP0vcMIwvKhNXeCuvYW5Ey1gsTHjpHpB9Z-8zLtr8tE6YhgS8764Nx8Xj_VZBOksf528COMUBaSA511cjwRW44c_D4olP5nYOJBVZ035UkHPmu4tgTLOYvu7HeUx7AP9D3_3xkhmnFJZ0-cnDMIEkpOry0-L2Gd3zZPhwrcb_USzk6imlk5pG8M7JwmYWhCGO3yxQDWfg&key=REDACTED",
+      "source_type": "google_places",
+      "confidence": "medium",
+      "purpose": "gallery",
+      "selected": true,
+      "reason": "Default from gather"
+    },
+    {
+      "local": "images/02-places.webp",
+      "source": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3kE3B7LQKaYs-d7IsYODqIxOOhgloq6BS2J7jFyhV41Zn-tskNTAybcL20_iceYjlUeaKmKPBYV4PQP32quCTaWh2fFnQHNmEnnmRmmNHZgmCcV2ZfVijqkrpsupZNZNigvIxcAqcDlx-kipKj2AKcVbNkLEu0kjN1aQIzmof_Gs13YSsUUmp8zE-xWZ7ngDOkTuZLgILvfe4x6ghGzYgV-bpOnma2-E4K3THvB5Nwii-jGE1CaXaTxqDxDS8WPwrgTgXgvr7WlZ1Ix8UShInvZtV2DgUDqq1KeGjGMStV_80i1SOrThkyhTZREimH21pibCPl6YPdW1osy5g5esIu7MvgjzZOn0gTCRLfR94_Nk8H92TpBTZz6QmYMkNbuXcD_vAc8waWQiIq8uas7Lf8dfsG3kiVRuLk6iBTmsujAKv2wbTEF_GrKOIWTTwk2&key=REDACTED",
+      "source_type": "google_places",
+      "confidence": "medium",
+      "purpose": "gallery",
+      "selected": true,
+      "reason": "Default from gather"
+    },
+    {
+      "local": "images/03-places.webp",
+      "source": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3kda43zi3CczlKcQn2oC19Nn-c9Gzrqa8sDIozIRC2JzOhVNeTYv4275EAmtU7nSMIj8H8ENpjYrbg5-68PA88OGjtyeckwTUDXfSSlj_cB9p_0AcGv6tntFFjmWzVjHsMr4wBu82ZVZdM0EPdB3B22rotXYLZyp1crO5fcpOL2_2IyyUbZ0GNYKchq1YAWbrGYa2NDF_fyrAkxOSaRtE5p1Hw9jtYw4-oOAfKTBpNDH6eEY8HXld71vlHdLjacyudtcxMXk9zw07cz5BgbeyDOUceOVIP9Tks2FcV_lGVArSq8qLzW2MlDWJuh3zHEiRzSK17T4orqbJ0LKJn9uHP76V3gHPvIic7r_m9rOH2TfPurze0V3tjTmKll_iJ3RGUnlHHFhE1qm2QetB1w52_wpEvTX05-Ks47iWCjuifj5rH9g7JOduZZDj7VHQ&key=REDACTED",
+      "source_type": "google_places",
+      "confidence": "medium",
+      "purpose": "gallery",
+      "selected": true,
+      "reason": "Default from gather"
+    },
+    {
+      "local": "images/04-places.webp",
+      "source": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3nKdIdt4R0S_4KGPhMCTQamgtSwWe7NE1kUKmEi0MBb7X93KaqHmbTNQBYd0Pk-39oB6Tfo_3kL5IhKiX3Xz1D1e1kQCjgcIqntwjmrzi1P6IfT_mQVjT1aPny3iTYk6BOg-u9xsVcpWZzqHFHj1AmuxSftxWySFdfRJvPocqck7lu0YrA_kxvVgDAPQPdPGLVQZMK5BOwbZEhrCDA0jYmXuqSryjQwMc5ZMoNJIbtausqKQEkdJrGhR8o4a9KWcUc9P7WjZcfau33qM2hn6wxfIxugjr49nIEjxYA6nwiqNGeIlMjTmJZOCTxOMtBtE8rFrPu-mY2TiHK42_4cNKgw12-TriE3yQU9_36-hn9o71AB7Kvc0TPL-3dxYkfqRJHvCG6iWi95yh5EJmHeK__me9snGUfuitQSBPQrUJssiQ&key=REDACTED",
+      "source_type": "google_places",
+      "confidence": "medium",
+      "purpose": "gallery",
+      "selected": true,
+      "reason": "Default from gather"
+    }
+  ],
+  "selected_images": [
+    "images/01-places.webp",
+    "images/02-places.webp",
+    "images/03-places.webp",
+    "images/04-places.webp"
+  ],
+  "lead_validity_status": "NO_WEBSITE_READY",
+  "ready_for_build": false,
+  "registry_source_count": 0
+}

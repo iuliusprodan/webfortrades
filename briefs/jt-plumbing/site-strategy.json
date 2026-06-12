@@ -1,0 +1,50 @@
+{
+  "slug": "jt-plumbing",
+  "business_angle": "JT Plumbing: heating and plumbing with fair pricing",
+  "customer_praise_themes": [
+    "fair pricing",
+    "strong recommendations",
+    "heating work",
+    "responsive callouts"
+  ],
+  "named_people": [
+    "Josh"
+  ],
+  "distinctive_phrases": [
+    "Josh was honest, prompt and very well priced",
+    "If you want a plumber that actually turns up, does a good job and reasonably priced, then Josh is the man",
+    "Josh is worth his weight in gold",
+    "I contacted him, he replied instantly and kindly came to have a look the very next morning",
+    "I can’t recommend Josh highly enough"
+  ],
+  "strongest_review_quote": {
+    "text": "Highly recommend, Josh gave our heating system a complete overhaul replacing all our radiators, flushing out the system (which was in a right state) and fitting a Hive system thermostat.\n\nJosh was honest, prompt and very well priced! Which I think is rare nowadays, he could have let us spend much more money on a combi boiler which just wouldn’t have been suitable for our property, but gave us his honest opinion and saved £££’s pounds.\n\nIf you want a plumber that actually turns up, does a good jo",
+    "author": "Hayley",
+    "source": "google",
+    "url": "https://maps.google.com/?cid=14280073501182388464"
+  },
+  "strongest_proof_source": {
+    "platform": "facebook",
+    "metric": "8 public photos, phone verified",
+    "url": "https://www.facebook.com/jtplumbingbristol"
+  },
+  "best_photos_rationale": "Google Places photos preferred for gallery when high quality",
+  "claims_to_avoid": [
+    "Fake owner or founder claims",
+    "Supplier names as job locations in captions",
+    "Invented service areas"
+  ],
+  "pitch_hook_summary": "Lead with review detail about fair pricing (Hayley)",
+  "personality": "emergency",
+  "evidence_strength": "strong",
+  "suggested_site_mood": "urgent, high-contrast, clear callout",
+  "suggested_proof_hierarchy": [
+    "facebook_verified",
+    "google_rating_reviews",
+    "facebook",
+    "photo_gallery"
+  ],
+  "pitch_insight_seed": "Lead with review detail about fair pricing (Hayley)",
+  "trade": "General plumbing",
+  "location": "Bristol, BS5"
+}

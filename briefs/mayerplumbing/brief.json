@@ -1,0 +1,317 @@
+{
+  "business_name": "MayerPlumbing",
+  "owner_name": null,
+  "contact_name": "James",
+  "contact_name_source": "google_reviews",
+  "contact_name_confidence": "high",
+  "contact_name_evidence_count": 5,
+  "contact_name_usage_allowed": true,
+  "possible_contact_name": null,
+  "phone": "07914 723864",
+  "email": null,
+  "phone_type": "mobile",
+  "whatsapp_candidate": true,
+  "email_available": false,
+  "whatsapp_available": "unknown",
+  "contactability_status": "NEEDS_MANUAL_REVIEW",
+  "contactability_reason": "WhatsApp availability check failed",
+  "preferred_channel": null,
+  "address": "51 Burley Crest, Bristol BS16 5PS, UK",
+  "opening_hours": [
+    "Monday: Open 24 hours",
+    "Tuesday: Open 24 hours",
+    "Wednesday: Open 24 hours",
+    "Thursday: Open 24 hours",
+    "Friday: Open 24 hours",
+    "Saturday: Open 24 hours",
+    "Sunday: Open 24 hours"
+  ],
+  "services": [
+    "Building & construction",
+    "home goods store",
+    "Bathroom installations",
+    "General plumbing",
+    "Tap, toilet and shower repairs"
+  ],
+  "services_meta": [
+    {
+      "name": "Building & construction",
+      "source": "google",
+      "direct": true
+    },
+    {
+      "name": "home goods store",
+      "source": "google",
+      "direct": true
+    },
+    {
+      "name": "Bathroom installations",
+      "source": "review",
+      "direct": false
+    },
+    {
+      "name": "General plumbing",
+      "source": "review",
+      "direct": false
+    },
+    {
+      "name": "Tap, toilet and shower repairs",
+      "source": "review",
+      "direct": false
+    }
+  ],
+  "service_confidence": "mixed",
+  "service_sources": [
+    "google",
+    "review",
+    "niche"
+  ],
+  "service_area": [
+    "Bristol",
+    "Bristol BS16 5PS",
+    "Redfield",
+    "St George",
+    "Easton",
+    "Bedminster",
+    "Clifton",
+    "Kingswood",
+    "Fishponds"
+  ],
+  "based_location": "Bristol, BS16",
+  "google_rating": 4.9,
+  "google_review_count": 13,
+  "google_review_count_sourced": true,
+  "service_areas_inferred": true,
+  "google_maps_url": "https://maps.google.com/?cid=18116576822181614931",
+  "website_status": "BROKEN_OR_BAD_SITE",
+  "website_check_notes": "reason=fetch_error; url=http://www.mayerplumbing.co.uk/; final=http://www.mayerplumbing.co.uk/",
+  "website_url": "http://www.mayerplumbing.co.uk/",
+  "photos": [
+    {
+      "local": "images/02-places.webp",
+      "source_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3nIWMSZdEECEJr1gg5KtUwH7Th5GIR426jXhRkui75MchN48-4KIrT3IwEDQHiDsprvpbO6VAYpeifuqjOCU_GPXhnOa_iVFExiVn_8pQAITQqZw9gd-j4bQFJgcTcu6ZaBw4P9NpLyzvRrwr37h0CbP4k3OcW_Iuma3wenktkzH7CLI0HWoOrQZjp-oKlBF531BHt4-JDCW9ds7vSpqrNXb1QHpKU_HoyVAgdqRGg8AE_2RoFw3LZXP0IvtiZlYWFSOAlLYxFZv5keWA0XUQOr9MErIfyrUrO8Ej5_VhP-bfu7bLoqECoqUnmh_z1JSCLU98P78GLs0Ah6l3M4cQmPrg3_c8Tie-fSF8u31zQkfY9CpvT9GcBR3ZfHZMIkNFboK1YAxQwQ17u27p-6JZtZO2XZQFF6_3Dt681lt2tp9KnF&key=REDACTED",
+      "width": 1200,
+      "height": 1600,
+      "classification": "completed_project",
+      "pair_id": null,
+      "source_type": "google_places"
+    },
+    {
+      "local": "images/05-places.webp",
+      "source_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3mco5vxPfSPRHiquDnMD4zgLhqTjtIw3QWgHKT_FW9UYwv3WusUlFILS8VM5AChbDAPfh3fQR8xTnmOh4SzakYbiaXKadYPNjtDCHVqPWkgeGEdkKKcOya8qVUzyQ-GisdvC-rg9Qw5GXFJb2gQOsvdkLcVF1bmE8mHnwVvTi0y_z9prFGxNsFecnZ76Vl8Nu1-IDWljPmuztm2iQFyHqr1qAah5m_nDNALYFKn3Q9XgrrxtlxcrwPJMswhuT50lnaievX2BhRGotCSxTkiwdiDUJn_dlR02tzNB9dWvmLsSOI-Ya8rPBzkleiM1YsrTrGqpSotZuTIleCfE0jsvlnSrKLk4p2vnORYP-m9Uj5JZYATw_uHh5s7TIytntNsCuSbWT3ajmkNnTFO18W3n8TcEh3gsCtZfL4gipgtUmM&key=REDACTED",
+      "width": 1600,
+      "height": 1200,
+      "classification": "completed_project",
+      "pair_id": null,
+      "source_type": "google_places"
+    },
+    {
+      "local": "images/07-places.webp",
+      "source_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3mYpuuSBohXEdYZdOsFcpnXd0Os-wjUemtLzLwQ3SuXxWrcLmUOQfU6yhoa3GSIpq-AFLVJaDJdpQ0oUzmXMGzIYJ-p4SqFoczLBhM8T9o5JU-TCg12qdi75fDpXFEDeJ7HUznRsnEKCpgyNzr_zEnnWxUf0AOzPpFycU471xVB2F5FCoq4_2BB8_KPOa9-UaQ8G8SDjfS-Z6ImVoTRIRQJNJxzsOYVNIqrJc4fKEQ7CdbRid0ZRtKrwpXAd19JYb7v8ETP4exJWKPW2eMjq0kCPzSKsEWDtGzBzvOy82Do-eqsySM343NpieDiwSq8CDkO5ENaBr9S9tRI6sb_uxZeTa4i3KBqV2CcoLcpUFAR_zlbdxTW_O7wpNl-ik20qwZpHrVPz_dq3nxb5P9h5ZM9n6_P3VFS7Fuc6NR4559q2Aiq&key=REDACTED",
+      "width": 1200,
+      "height": 1600,
+      "classification": "completed_project",
+      "pair_id": null,
+      "source_type": "google_places"
+    },
+    {
+      "local": "images/09-places.webp",
+      "source_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3kxnE99nn_KaAVrzyaVTNO6Rd3Z0mJ0apA6ATvIszFAcm9lQsOGR-43z05CKMwatSXiMLg897xRT6LKQ4IMWFaOCJeLWKEISeH4kHvTcbbx8ahLZdbzMjrB-IPtHiKTQFHulu90wxfVirNCDN79YNwwPfZTk-EMuiHdyiEt1ZVj2kzr5GofkG-VUhIU8DGqjPFN1WiSY5DQ9YHCs4E6rMl8FUxqH8BBgLiCkAyLKjPphZsPIRgsY1iCKOSLCKS7HdvcuuZ9ZZ1--HyywxXLb22X0CkyFTRojPfKtPSCapSDkVGr6gAIFtNxvzGVGfHzblx9tBzVnVg4HdGS9j-U9xUXnTZXz055pSXd1MUxXjMNs53RgDckuPQgpjHhVgMAL4YYPxTpp1rarXzcvJEodMyEd1mEBLjdClA1aqSHaofFv6A8&key=REDACTED",
+      "width": 1600,
+      "height": 1200,
+      "classification": "completed_project",
+      "pair_id": null,
+      "source_type": "google_places"
+    }
+  ],
+  "reviews": [
+    {
+      "text": "We called in James to fix our kitchen tap with low water pressure and to replace a cracked kitchen waste pipe. He was polite, accommodating, quick and thorough with the work, and was happy to consult with us about a couple future jobs that need doing too. His price was also very reasonable. We plan to get him back soon for a shower replacement. Will definitely be keeping his phone number for other plumbing needs!",
+      "reviewer": "Kate",
+      "rating": 5
+    },
+    {
+      "text": "Highly recommend James. Very reliable, flexible and reasonable. Have had two bathrooms refurbished by him. Excellent Service! James is very prompt  and professional. The work was completed efficiently and to a high standard. I was very impressed with his customer service and would highly recommend them to anyone in need of plumbing services.\"",
+      "reviewer": "Josh",
+      "rating": 5
+    },
+    {
+      "text": "Massively recommend James and team. He did an entire bathroom refit for me and was extremely reliable, good value and did great work. All the trades he employed to work on project were lovely. Everyone turned up on time and were very friendly. And tidy! Job was completed quickly. 5 stars!",
+      "reviewer": "amy",
+      "rating": 5
+    },
+    {
+      "text": "My bathroom needed a complete overhaul, and James managed the whole thing brilliantly.  The work was first rate, everything done to a high standard,  and nothing was too much trouble.  I'm thrilled with the end result and would highly recommend him.",
+      "reviewer": "Karen",
+      "rating": 5
+    },
+    {
+      "text": "James fitted a completely new bathroom. He did an amazing job. Kept all work areas as clean as possible. His work ethic is fantastic. Very professional all round. Delighted with our new bathroom.",
+      "reviewer": "Heather",
+      "rating": 5
+    }
+  ],
+  "social": {
+    "facebook": null,
+    "instagram": null,
+    "youtube": null,
+    "tiktok": null
+  },
+  "gallery_layout": "completed_project_gallery",
+  "photo_classification_summary": {
+    "completed_project": 4
+  },
+  "brand": {
+    "colours": [],
+    "logo_url": null,
+    "logo_local": null
+  },
+  "source_urls": [
+    "https://maps.google.com/?cid=18116576822181614931",
+    "http://www.mayerplumbing.co.uk/",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3mZMb5N1pv3Ny9Ulr2uozoVXCtb90Me9nvvLSOpkPZEa5xgSMQsjojPtvImy3MjBv-pm6h0gJffWbd0snT4msRm55QxC7LOGNihARwTqtH56pec9KyosENtg6skHaKf62bhcAvcdc5wQNqkS0AmINOeUkdzsa5mRRpQrJY1RTN-G6q9TIpipWGqBcIa2GQ0EYUq3muOE4G1UgCZpnCyjrWO6igWEqlxwRIo2uqfn2b3zHYVQ0vovPgY0_FODG0MWRkMCkBwk8mQgCRHnO9GTJGf7L7SxzQLDGgZf9v6lhFhnsefuRfqNjeRKzZpysq-3py0jLVWFEjhIzulYtuVaG3eiC0_fMsLa77wtdupDXvSnixnLkdKZ7tiHbIZN7uh1SWrY_vjseJYIixF_PL1Jav0Sm4EZUNb7X3z6JTbcR078g&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3l5M13Z5wUugm1r3PPhhASnmVtaDu1kf7r4IqcWStSY2kg8_J0gOJiZeuLcBerR89i3Jm2lblH5UCBwwHVNSkqFXG5fsa3kmOikc-APAsCMi1hs1b4HxzEj1wblBdjlR1a-vIoUA7MPSCWOiQ9xizwnHGo2x0Mqq2jBGcnKuW8CpMhUaiQZID2h3Ma6fz_0w7erYtirvusa-9jwPYEZbnWhVQGvfe5J5k6ZA1FW5Y9c9DtAMn7R2ubwoGQJ-JFB_C-nEMgtHH6VCw1I8K4D1jfs_VuwuOZzuPIa8O26xqtq4kwk0TvCIjQGzwxgPhgx46irf4zLxkclcue-DbYD_Xz3KabWVlQaiSrSKkKtoBw0sgj0FblVXZuCl661kkHOFVKbH1GMyKXEY45GNBBVZm3l20uiph-JnHFxnsPLv_BcsEcj&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3ktv5_BwPd7uOPYZKGSVL-7MbJs1l4h3oqBM58tDDf09SwPZrPpltc-qrooM0vXH2auCDxrIEdsCsRgG8Fbm0IvkSgNdCGzp8MbqJqYmQz-WAvWFj-qo7ovGxZ_0IBv5zP07q5e8lpWaS3L-ehyPPL4te_OsUElllNsqhOLA98ulOjZSvP-9dWRj52oXnPaOLZxcpfsesEf1UVVXS91tCtUnFlCOf6BLszMkGy9y5VwHRlH9xFwRvqu-OMbFxZCueN9lNsbxG1PEWBmmPzD1KniXEHacmJSCG_9ZxD841AUt-EuDuLx0zImjS7e7b6AaHt4w5QBRuBA4DCId3fVx4YmDNPclgy6R4oW6arZLGaArrJsyf9F6DTmeLkHGJaUvv9GzJyAdSUis8De3UCuyiKFqb3dSXs9ty8QRgA9mKt_dybt&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3kDRxtbqy2ggy2mNUPgDl8wlp-8gbgDYROeH4ERKLhB84q3CE_v_E_o94dJgbrOPEsRbgfwa3CmTiHygLL9yBXm75L1m7hZ6yg51zrQ0p5aMM8ufpL8nS8h-pJzP5aZt4g-GDzfr-R_Ek6PbsROv68SpaXWbO1PPwKj07f1OhIJRRUNboMdV8on9SIbA0maxAea62Szeip6k_RPxG07scPHAR9pO3ZOsD9ffXHgUp-XKAgppOTBEOTzFmoQH_nlAOPjq4wqxZJRG0-NejqNiBDunBdReakQXjlG0kO6acTlgsXiG_HTfJQK1td-xL5oOqnQ4Xn6Q-y_mT0zFGkC--1bfMf8YHKqjcUeza0Cxz3vp0StuVcYkA1YJ9EfW4kMQQx2HYjSFyqfyDipAkOF9lD-F5VHQrUKSQfNkr5WEoe3cw&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3kbtjr6FdxvsCwyLIwlURNTSEYSj1XduQhWJ9uBKc0SVdj1WwUhN1nGZO30L2L3ti6fqM4EjnQwQYQfOw7tphJXkHZNvEaolbNWDVO7cXuX-TPBSu4nctAegsBK0x0cd-sdoG8ZAcoRC9o81BcI7Mf9s3bMfBWrBgPaa9YKw4-Ic3feu83Jd5RPZEeAehXT_7Rd8P5pVs0WK5sTpVetGyzgOY8Gf9CCQoWTv_a80bVl6jAi-UAwvs_D4n1uHhQ_J6msgNdjhkcwdZ4OWqajiZ_n9p5Nhg0aZFf_kTaUyPZnr-miUWy1zMooRNETouys1LneeqkxWotDNFNRc_M7guKCc50vnuLENemnhUqyZnAHWIO851MWLr1zMhbqPdrqXHp-MpR8dGD3A578URE-rMBgtIf2NeqBlJcCZBIbOqc&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3nchoJx-43BSXBogSyjUQaJegHGr2_5ulUDfwmqgLnTRHbw3tXjIHmQewvEYAd3qKw8ttI-LxWz_tz5-Tn7bJhyOxaKtEpQyt90-V4v4PN4KTF-o1UshUaWchyVMhHbK2OsYpUQ3FtdCSCZM82pydnklXzV3VZfP7OJi4tdRaD0sv6vDM6z6wVG9WaAZbxHrK-mcRVsNUu0IY1qdRUDCQvfnfxcXKVtJ6g8Fb1-BrMgvbPgGMKs01IsMykptGS4AtatnUP_M4DOr-C21udz4jzjBEdnICzCTMo4PhDVyx-o1l0ffEvYevxNT1Lx4uCbuq9Chao0J2aEv36FQ2E2_YxNMzfDXo1X14m-YqHBoo9p7RfEYajzAJ5VhkMPxajBm1dkVJKG2B9nEjAzukgeJe_Z6v24Eg1kvDKgG5ZXtTB-C7c0&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3mEecMUne4xzVKEJjF-9PcG_KT8yLLbk6my4WTZgt5rriU1RqA7nawtOkS8H_SjgxoGFfnpU2A0hzhjdLU8gS-G6UTAgJmYfvxTOGdcee3YKwVHpC-jKbLiRjzIG4TGTrvL13MHxVKOaeXBfe2e2JZy7ZMMQtqz4rUEasQKFLeOxURGQS0wuf2Nzw5pCGT6blIlwhTS0u88qxjFQU7msKxpl3IQCap08kY-7Us7AJyK7lMQn00WnoNmt3pA_Cuf0eQWnvYJz2vsipTQdUGuI3_I977XbiOXGxRFixu0pGvql-VSbTe83ek3JaGu_WDe2LMVEf-VXP2kBD_yx4kz6wjJdEpIne-BQyVgloN_Td3zaFIvJljDVu0eZFF9PTzOtgZgrxLwbZchcOBa7aLUwRc-Qspf0tTPAogTlFPTt-q4zFbw&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3lOHkat6QOinvTL_Qowrt88W_c4g5BH4eIwzookxHMIwggRtG5Gc7xqFEDsZwAUst-3sXSLg78auugQwJzdOy5cS1mMTXNtWP2RORrpsxRVn2TzAxpIuw2Hvn8KPqLIf2z46joHh5IUWmVX3YJoeS7CiBzBwJhojzwa8o9zSUfmGgkOQqSBJOLPEAhSHJ9CkxXeiNQ6wZDqYbyNxqXvbBgp8o2N_yAcY9XYEBDtZXpf1My9Fp9HrNTJIi4ve2Fvo1ZXKAtsQY-lnpSw-06_9Eqj_YE1zG7dy_QyYAukWIDMNMNrnwoRRA4QizlHox9KZypytaWRwP2bhXcqIHLzWdz01Wl7i8Yi78e0EpmdRziNIkLn-XwHP_OvVuO2EIYHicZsbTIITZLx67Uq3BeAWbpKZdZa4mgY3uls4iLu5UakfA&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3ntCk5_mIhwFUQBI65R0v0iecCXQ7BLkEJauh2gGoRXYKBu47V3IAF_Dcg264yI2ASkDCDkFsJqi3T7Sr3WJrgJ6U2wCpcB_eDRVdvdvhnduAznN1Z4viC1iTu6r6eT02_iVJW5zXZgw5cSx0WYdOxLwfjksBWlMgdlE5OJ6C84wjyM8T-KS47xe1B9-WKkrGnX3VpKuP3ZNw5ZoBOOfkcStlX1icQV4Orv4Xob2Zg5JRcW1okhqfewmZ29fI0hScuuiBlF-MKARyK5DD-QPnTojbjdlW9ek3J-jdMBn3pUq10tgUEA6GLKciySWcuXhXHcdL0xoNufSfGV44Lx5-T1MlR5sfwL78Y1Vb-t0_cpxaflo9Gpu5ZS_TsXTSj2aOKCmkiaf35KiIyZMntqF9Zt-KIRkipENBgB7_2SiAzsS6EV&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3keexFOn88dIF3wiUu2Ofdz1AaPKsEdLMAXQ3qKhXajKRUbUywjjPzNbrtdetOEiPpvqNaRsTeDN4VDDvclhGASiooUMw7K7aRI2Y6TxTG17m9LxJ2ZusUnfoBxlChWvVVA5GVw9Dbe3GPLiVxYEtQIwvQDT8tn8jgwQWH_kC4zcC-AsykreVSXvw0w8F2zmO6bhP0E38Alh-W2mtZAj48kPMU-glJaJlvObRQ1MUiIuGEqElVWju4FS5cKzG5PiWeGS_6MRZFaYF2YYKw8oJezVyf6Ym4falvLm0S6m1e3kEsX70D68NIk55QpBuVax_cnpF9ctPImawDUnII8NTLLEREXbkMycWZFka4izyTWteHSKaOQ4cIxdUjcDmeZ5xS7moBtwZSYYZ_85zFzgNYUYWFAI9VffkvO2gjwIDw2Sg&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3nRH07MB0gMG6Sa4OPmstZbtEjrMZYTTYoQFvTNkgngcgumwjwRf8YKC6MYovrVJTjUlROJCgN4qi9t6R1cykzgYrcIWyPJaJSKLht28yYRHQj1NMAsptcTyEaDVctbUVBdUFiAtrYaaltMqbGiwc_t8EFzOqGhB58IiSou_c2BlQU7MSpd3aeo3XRkXHEsMHi6seHUHLLHvNC4n2n1yayD7IG-kWPu4BDrKuSr8kituG74IdDCAksELgJiVtSE3XlysNIAkpwYjml8whUNO8szg15C6kmItTPl7fDHN5hv7XjVtwSSTbxiPVGYWWZrA8ljGmONEJSo1jPodJcuI0rfWihhIv-hyiWPtzTvVp3bOtJzkDNP08ni5WkCq09G2O4TXFLIl7J4TeHZUqZLwM2SdhlBHxYjMsatr-TFQmmyQg&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3nIWMSZdEECEJr1gg5KtUwH7Th5GIR426jXhRkui75MchN48-4KIrT3IwEDQHiDsprvpbO6VAYpeifuqjOCU_GPXhnOa_iVFExiVn_8pQAITQqZw9gd-j4bQFJgcTcu6ZaBw4P9NpLyzvRrwr37h0CbP4k3OcW_Iuma3wenktkzH7CLI0HWoOrQZjp-oKlBF531BHt4-JDCW9ds7vSpqrNXb1QHpKU_HoyVAgdqRGg8AE_2RoFw3LZXP0IvtiZlYWFSOAlLYxFZv5keWA0XUQOr9MErIfyrUrO8Ej5_VhP-bfu7bLoqECoqUnmh_z1JSCLU98P78GLs0Ah6l3M4cQmPrg3_c8Tie-fSF8u31zQkfY9CpvT9GcBR3ZfHZMIkNFboK1YAxQwQ17u27p-6JZtZO2XZQFF6_3Dt681lt2tp9KnF&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3m-WzdQ5ET9clZSrWiPm4DMlHS4Zse_YoRZ8X95MVXCrPNm7nySmA9VG4FhsQIxq4ZhSsf4h-zqd-qneBBxO-88P5WupYTce9QIVe2YncXNiKkrjWX0tGSgZKO7gATpi2nOMe8UUttWOPC5EIV-5pSXOF6uY5aL0poA5hn5bUDOenRe2Ah3ptwi2asLwK1f9LK0dLPzvGBUcBD9LHMT7rgUP402O-QnDdRdpKUCy0YCAM5zwxNExv5jMkpTPxVsKzk5O_rodXaf2ul6bEQb_Xql1zeGl71Xs6SAAY6Dfcb7o_3fZH7sxWi2lcKORzE1cjfSrkOQgPvPnyqsdMVYWPUv0WvPxKXfrrBANHXOn_xFXwtgwp3ZDsbyW9XUNO5JLGiBPVqUn-mLUGgQHWYJjlWAMDulC3yQ1BwpZl6i1B5viMX_&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3mPXE5Bhc3xgHCx3Xd47kDBZ7vtuLF5qR0au_R5lVIXTXW_rtpbxuerXoNYZ97Ulbvzzrfcxr8fiSUsKFOfES2cH_eiO0-g2pFzoTR5RiQ3XCRm5qByOhmURBaycHW4BqBMv2veSx6ORWOs7z8n6x6R8T2HMfn0CxtoNG_k_ElJ6NOCH648ThGu9HHRoVs1gd0VwakwJEgVopjlAeUKkv97uJ9eWnZduaCgxUvrywN1k3GLiqGXu5qxtiNESdvThQQQoT4s9u-dJ7tdXJf0f00LgQdxk4c7muEFO2-atywAu4E7ibYpUVoGHEsRfORf-_raJihk_LmXWwQrLqOLtyLpmouvUuYyHQObZWtLxWIpipnHmYoFZR3jCh3ZtDYzZ54Wl84Mm4WbI2PXdP4qXhfik9JQXxLx7f2O0_CUo3wQLQ&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3mco5vxPfSPRHiquDnMD4zgLhqTjtIw3QWgHKT_FW9UYwv3WusUlFILS8VM5AChbDAPfh3fQR8xTnmOh4SzakYbiaXKadYPNjtDCHVqPWkgeGEdkKKcOya8qVUzyQ-GisdvC-rg9Qw5GXFJb2gQOsvdkLcVF1bmE8mHnwVvTi0y_z9prFGxNsFecnZ76Vl8Nu1-IDWljPmuztm2iQFyHqr1qAah5m_nDNALYFKn3Q9XgrrxtlxcrwPJMswhuT50lnaievX2BhRGotCSxTkiwdiDUJn_dlR02tzNB9dWvmLsSOI-Ya8rPBzkleiM1YsrTrGqpSotZuTIleCfE0jsvlnSrKLk4p2vnORYP-m9Uj5JZYATw_uHh5s7TIytntNsCuSbWT3ajmkNnTFO18W3n8TcEh3gsCtZfL4gipgtUmM&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3ljsGKENMCZjRKQLNQOCk3IWfEdjp_qXmbvsMeaYuELDUPPEtD6-2xuv6aeTiHRsNeIvqBRb5OKaJvD7xYo7fdpEmv-tWIeGz2E761u0HDuPV7aONy7-L6yVNr_5tJfkTtmd_WVc6Vcw88z2jYVfOO025Bq5c2YDbECiIOuGGPnIHevcixdl_7tBI8jw1fU12ytEoPXXJycuSymLP5e7Eyhn6umB2eNMKAetdC7kfbGiPoOnW9lcLPt1E4CxyodFKpPUe6fHGM50G_RqoLpILi_vdtyUeG3L-NPIaebwJvNsAwfGhDQRKR6iQuEYQIILU4NvDpU49AsJez6UcL9Kj8l-nFi2ypTZ6jYphdtkGQXUycUzSHHZvx0Dlhk0P4nbyOtq9J-IXPCjKAHxflU1dMISmOgLVIHCUm_KXUnQ9yPAWbB&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3mYpuuSBohXEdYZdOsFcpnXd0Os-wjUemtLzLwQ3SuXxWrcLmUOQfU6yhoa3GSIpq-AFLVJaDJdpQ0oUzmXMGzIYJ-p4SqFoczLBhM8T9o5JU-TCg12qdi75fDpXFEDeJ7HUznRsnEKCpgyNzr_zEnnWxUf0AOzPpFycU471xVB2F5FCoq4_2BB8_KPOa9-UaQ8G8SDjfS-Z6ImVoTRIRQJNJxzsOYVNIqrJc4fKEQ7CdbRid0ZRtKrwpXAd19JYb7v8ETP4exJWKPW2eMjq0kCPzSKsEWDtGzBzvOy82Do-eqsySM343NpieDiwSq8CDkO5ENaBr9S9tRI6sb_uxZeTa4i3KBqV2CcoLcpUFAR_zlbdxTW_O7wpNl-ik20qwZpHrVPz_dq3nxb5P9h5ZM9n6_P3VFS7Fuc6NR4559q2Aiq&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3nrYg2h-SuuTwISum2HHqqh7eY7nLD5_HfsjQei0WSOKcj3tuoz5KGgFzVI6fEJ13qcNNd97UT2ZDpY7FIbWmztr0474l0TX_ZOiR6JurMNv9-LDPL7e5-hV3MquWtz5hf8I8j3gX_3ZkSVg_nO3gLp4yuyGofzDkLcVV5YnYfuTIXxwut8J1Ic9ATCCOs3SWwW06U3YPSGS7SwPi3mwdBUwOC07T47UqbymePwd7hGCCsycCqCectlHUnuposuAbbd4jbBLUh-AiL_shy99-Eo91f8C_x2YfTwHAghyVYygB046DRJ8IN18j6aH1l8I8mFkvYv_cnU875MGbZQHVVvha3ZkcyJEDVJbajdh5VNiAazgqd0jBTIbQ4GndXkNzuoMA1DnPESwXgCKMOOjtNQgOuUG_w4aoSUYIdiNaYg_Q&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3kxnE99nn_KaAVrzyaVTNO6Rd3Z0mJ0apA6ATvIszFAcm9lQsOGR-43z05CKMwatSXiMLg897xRT6LKQ4IMWFaOCJeLWKEISeH4kHvTcbbx8ahLZdbzMjrB-IPtHiKTQFHulu90wxfVirNCDN79YNwwPfZTk-EMuiHdyiEt1ZVj2kzr5GofkG-VUhIU8DGqjPFN1WiSY5DQ9YHCs4E6rMl8FUxqH8BBgLiCkAyLKjPphZsPIRgsY1iCKOSLCKS7HdvcuuZ9ZZ1--HyywxXLb22X0CkyFTRojPfKtPSCapSDkVGr6gAIFtNxvzGVGfHzblx9tBzVnVg4HdGS9j-U9xUXnTZXz055pSXd1MUxXjMNs53RgDckuPQgpjHhVgMAL4YYPxTpp1rarXzcvJEodMyEd1mEBLjdClA1aqSHaofFv6A8&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3kFKeVv0r8rD9vt4PTp7ZXYG-4GzQ7d2DWIKFiD_MkJpM6mMK3hdJrhp6sE7pz3bijk-f13WgrMwxM4X2U8y-q-pygrJGy-7N5D2An3l9frgAkMu8lrvo5QDNh306EvQ7ewx2Lp1GV_HwAp8qAdk7jzxWpnhyZqr-bu0xBtMh2joib0cK3fNURAgYojb-c9v1b7y3pWhjlH5uIGFIP_SFJPnTAC_7uzVHEuYj-z5Q8CRM3Mi9ua3gGdxc92H-WCHOPnzafVQ2NseRGgpuepDHbyUx3LRHm5skogxkbZcoz-UdJSc3Kfn-muytw0ULmeCR4zZyqVYU6IX9PidN5ytV5J82D5hNKEzshtr2fE5UHh3QONoibFTUCtfggLmVHdtZPX4nVDPmfBlPwlc9ZrKryk_paP-9ZAEzsFlsRUdnn4dw&key=REDACTED"
+  ],
+  "notes": [
+    "owner_name not found in public sources",
+    "email not found in public sources",
+    "contact_name \"James\" from 5 Google review mention(s) (high confidence); owner_name not set",
+    "only 4 usable photos kept (target 6-15)",
+    "contactability=NEEDS_MANUAL_REVIEW",
+    "WhatsApp availability check failed",
+    "Logo discovery: Website fetch failed for logo discovery: network_error",
+    "Photo discovery: 4/4 selected (Limited photos - compact gallery with review-led hero)"
+  ],
+  "missing_fields": [
+    "owner_name",
+    "email",
+    "photos",
+    "facebook",
+    "instagram"
+  ],
+  "website_url_validation": {
+    "validated_at": "2026-06-10T17:12:53.642Z",
+    "issue": null,
+    "note": "website_url valid",
+    "previous_url": "http://www.mayerplumbing.co.uk/"
+  },
+  "prospect_region": "Bristol",
+  "location_validation_status": "OK",
+  "directory_probes": [
+    {
+      "platform": "checkatrade",
+      "candidate_url": "https://www.checkatrade.com/trades/mayerplumbing",
+      "status": "NOT_FOUND",
+      "confidence": "rejected",
+      "title": null,
+      "rating": null,
+      "review_count": null,
+      "phone_visible": false,
+      "verification_reasons": [],
+      "note": "search_deferred: MayerPlumbing Bristol BS16 5PS site:checkatrade.com"
+    },
+    {
+      "platform": "yell",
+      "candidate_url": "https://www.yell.com/biz/mayerplumbing-bristol-bs16-5ps/",
+      "status": "NOT_FOUND",
+      "confidence": "rejected",
+      "title": null,
+      "rating": null,
+      "review_count": null,
+      "phone_visible": false,
+      "verification_reasons": [],
+      "note": "search_deferred: MayerPlumbing Bristol BS16 5PS site:yell.com"
+    },
+    {
+      "platform": "trustatrader",
+      "candidate_url": "https://www.trustatrader.com/traders/mayerplumbing",
+      "status": "NOT_FOUND",
+      "confidence": "rejected",
+      "title": null,
+      "rating": null,
+      "review_count": null,
+      "phone_visible": false,
+      "verification_reasons": [],
+      "note": "search_deferred: MayerPlumbing Bristol BS16 5PS site:trustatrader.com"
+    },
+    {
+      "platform": "mybuilder",
+      "candidate_url": "https://www.mybuilder.com/profile/mayerplumbing",
+      "status": "NOT_FOUND",
+      "confidence": "rejected",
+      "title": null,
+      "rating": null,
+      "review_count": null,
+      "phone_visible": false,
+      "verification_reasons": [],
+      "note": "search_deferred: MayerPlumbing Bristol BS16 5PS site:mybuilder.com"
+    }
+  ],
+  "enrichment": {
+    "enriched_at": "2026-06-10T17:12:55.363Z",
+    "email_domain_checked": false,
+    "website_discovery_run": true
+  },
+  "lead_validity": {
+    "lead_validity_status": "INSUFFICIENT_EVIDENCE",
+    "lead_validity_reason": "Enrichment incomplete or source confidence too low",
+    "pitch_type": "manual_review",
+    "website_status": "BROKEN_OR_BAD_SITE",
+    "website_url": "http://www.mayerplumbing.co.uk/",
+    "website_discovery_classification": "BROKEN_OR_BAD_SITE",
+    "email_domain_website": null,
+    "source_confidence_summary": {
+      "overall": "medium",
+      "verified_platforms": [
+        "google_places",
+        "email_domain_website"
+      ],
+      "rejected_platforms": [],
+      "notes": []
+    },
+    "ready_for_build": false,
+    "ready_for_design": false,
+    "ready_for_pitch": false,
+    "manual_review_required": true,
+    "has_real_website": false,
+    "truly_no_website": true,
+    "warnings": [
+      "contactability=NEEDS_MANUAL_REVIEW",
+      "Source enrichment not complete - run enrich:lead before build"
+    ]
+  },
+  "source_quality": {
+    "source_quality_status": "FAIL",
+    "source_quality_reason": "Source enrichment not complete",
+    "website_url_validated": true,
+    "email_domain_checked": true,
+    "enrichment_complete": false,
+    "logo_discovery_attempted": true,
+    "photo_discovery_attempted": true,
+    "directory_probes_attempted": true,
+    "warnings": [
+      "Lead validity requires manual review"
+    ],
+    "blockers": [
+      "Source enrichment not complete"
+    ]
+  }
+}

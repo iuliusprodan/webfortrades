@@ -1,0 +1,48 @@
+{
+  "lead_validity_status": "BROKEN_SITE_READY",
+  "lead_validity_reason": "Verified Facebook page and email found. Email-domain website is inaccessible or broken, so the business is still a potential WebForTrades lead, but location mismatch requires manual review before outreach.",
+  "pitch_type": "no_website",
+  "website_status": "BROKEN_OR_BAD_SITE",
+  "website_url": "https://gpplumbingltd.com/",
+  "website_discovery_classification": "NEEDS_MANUAL_REVIEW",
+  "email_domain_website": {
+    "classification": "NEEDS_MANUAL_REVIEW",
+    "db_status": "NEEDS_MANUAL_REVIEW",
+    "domain": "gpplumbingltd.com",
+    "initial_url": "https://gpplumbingltd.com",
+    "final_url": "https://gpplumbingltd.com/",
+    "status_code": 202,
+    "title": null,
+    "reason": "reason=bot_or_access_blocked; status=202; final=https://gpplumbingltd.com/",
+    "probes": [
+      {
+        "url": "https://gpplumbingltd.com",
+        "ok": true,
+        "status_code": 202,
+        "final_url": "https://gpplumbingltd.com/"
+      }
+    ],
+    "text_snippet": null
+  },
+  "source_confidence_summary": {
+    "overall": "high",
+    "verified_platforms": [
+      "google_places",
+      "facebook",
+      "email_domain_website"
+    ],
+    "rejected_platforms": [],
+    "notes": []
+  },
+  "ready_for_build": false,
+  "ready_for_design": false,
+  "ready_for_pitch": false,
+  "manual_review_required": true,
+  "has_real_website": false,
+  "truly_no_website": true,
+  "warnings": [
+    "LOCATION_MISMATCH_NEEDS_REVIEW",
+    "Email domain checked: gpplumbingltd.com -> NEEDS_MANUAL_REVIEW",
+    "Location mismatch: LOCATION_MISMATCH_NEEDS_REVIEW - pitch blocked until resolved"
+  ]
+}

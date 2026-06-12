@@ -1,0 +1,68 @@
+{
+  "slug": "greens-precise-plumbing-heating-ltd",
+  "reviewed_at": "2026-06-10T11:41:56.333Z",
+  "read_only": true,
+  "passed": false,
+  "clone_score": 74,
+  "business_specificity_estimate": 26,
+  "scores": {
+    "section_order_similarity": 100,
+    "heading_reuse": 100,
+    "hero_pattern_reuse": 20,
+    "cta_strip_reuse": 100,
+    "service_list_shape_reuse": 30,
+    "review_block_reuse": 70,
+    "contact_section_reuse": 100,
+    "copy_phrase_reuse": 90,
+    "palette_font_layout_similarity": 0,
+    "overall_clone_score": 74,
+    "business_specificity_estimate": 26
+  },
+  "issues": [
+    {
+      "severity": "error",
+      "message": "Template headings on deployed page: Questions before you ring., Pick up the phone, or write., One van. One trade. A name on a list., services. Done plainly., A note from, Recent work in, NN services. Done plainly."
+    },
+    {
+      "severity": "warn",
+      "message": "Multiple template CTA/copy phrases (6)"
+    },
+    {
+      "severity": "error",
+      "message": "Deployed section order matches default template (100%)"
+    },
+    {
+      "severity": "error",
+      "message": "Missing section-plan.json"
+    },
+    {
+      "severity": "error",
+      "message": "Missing skill artifacts: source-evidence.json, site-strategy.json, section-plan.json, pitch-insight.json"
+    }
+  ],
+  "missing_artifacts": [
+    "source-evidence.json",
+    "site-strategy.json",
+    "section-plan.json",
+    "pitch-insight.json"
+  ],
+  "template_headings_found": [
+    "Questions before you ring.",
+    "Pick up the phone, or write.",
+    "One van. One trade. A name on a list.",
+    "services. Done plainly.",
+    "A note from",
+    "Recent work in",
+    "NN services. Done plainly."
+  ],
+  "section_plan_generic": null,
+  "compared_slugs": [
+    "bbr-plumbing-heating-bristol-bristol-boiler-repairs",
+    "bristol-plumbing-co",
+    "corvell-ltd",
+    "decorator",
+    "jt-plumbing",
+    "nfs-plumbing-heating",
+    "roofer"
+  ]
+}

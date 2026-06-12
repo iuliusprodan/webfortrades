@@ -1,0 +1,41 @@
+{
+  "slug": "alexander-s-painters-decorators",
+  "batch_id": "2026-06-11-five-site",
+  "READY_TO_PITCH": false,
+  "og_status": "NOT GENERATED",
+  "scroll_status": "NOT GENERATED",
+  "od_run_id": "05455e9f-5987-4e5e-9b68-ece823c3220b",
+  "od_project": "webfortrades-alexander-s-painters-decorators-pilot-07e7",
+  "stage": "deployed",
+  "verified_url": "https://alexander-s-painters-decorators.vercel.app",
+  "alias_status": "VERIFIED",
+  "clone_review_passed": false,
+  "clone_review_score": 32,
+  "step_timings": {
+    "od_started": "2026-06-11T11:17:00Z",
+    "port_completed": "2026-06-11T11:31:12Z",
+    "deploy_completed": "2026-06-11T11:31:12Z",
+    "clone_review_completed": "2026-06-11T11:31:38Z"
+  },
+  "updated_at": "2026-06-11T16:08:29.633Z",
+  "timings": {},
+  "live_url": "https://alexander-s-painters-decorators.vercel.app",
+  "build_id": "alexander-s-painters-decorators:20260611-od-port",
+  "clone_review": "FAIL",
+  "clone_score": 32,
+  "source_quality": "PASS_WITH_WARNINGS",
+  "source_quality_relaxed": true,
+  "contactability": "NEEDS_MANUAL_REVIEW",
+  "blockers": [
+    "clone_review_section_overlap"
+  ],
+  "batch_completed_at": "2026-06-11T11:46:56.000Z",
+  "style_verify": "FAIL",
+  "outreach_screenshots": true,
+  "scroll_video": true,
+  "prep_blockers": [
+    "contactability_status=NEEDS_MANUAL_REVIEW",
+    "whatsapp_check: pending gateway",
+    "contactability: NEEDS_MANUAL_REVIEW"
+  ]
+}

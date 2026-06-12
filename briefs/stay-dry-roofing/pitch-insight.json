@@ -1,0 +1,20 @@
+{
+  "slug": "stay-dry-roofing",
+  "opening_line": "Hi - I read a review where Kallum mentioned tidy finishes on a job with Stay Dry Roofing. That stood out.",
+  "source_quote": "Excellent service from Star Dry Roofing from start to finish. The team were punctual, professional, and extremely knowledgeable. They explained everything clearly, provided before and after photos, and completed the work to a very high standard. The site was left clean and tidy, and the workmanship ",
+  "source_evidence": "google: 5 rating, 5 reviews",
+  "why_this_angle": "Lead with review detail about tidy finishes (Kallum)",
+  "suggested_whatsapp": "Hi, Julius here. I build websites for local trades. One of your Google reviews from Kallum mentioned tidy finishes - I mocked up a one-page site around that. No obligation - want a quick look?",
+  "price_recommendation_gbp": 275,
+  "price_tier": "starter",
+  "follow_up_replies": [
+    {
+      "trigger": "price",
+      "text": "One-page site from £300. Includes mobile layout and quote form."
+    },
+    {
+      "trigger": "not interested",
+      "text": "No problem - I will remove the preview. Thanks for your time."
+    }
+  ]
+}

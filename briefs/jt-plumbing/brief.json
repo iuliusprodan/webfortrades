@@ -1,0 +1,527 @@
+{
+  "business_name": "JT Plumbing",
+  "owner_name": null,
+  "contact_name": "Josh",
+  "contact_name_source": "google_reviews",
+  "contact_name_confidence": "high",
+  "contact_name_evidence_count": 5,
+  "contact_name_usage_allowed": true,
+  "possible_contact_name": null,
+  "phone": "07817 850729",
+  "email": "jtplumbingbristol@gmail.com",
+  "phone_type": "mobile",
+  "whatsapp_candidate": true,
+  "email_available": false,
+  "whatsapp_available": "unknown",
+  "contactability_status": "NEEDS_MANUAL_REVIEW",
+  "contactability_reason": "WhatsApp availability check failed",
+  "preferred_channel": null,
+  "address": "64 Malvern Rd, Bristol BS5 8JB, UK",
+  "opening_hours": [
+    "Monday: Open 24 hours",
+    "Tuesday: Open 24 hours",
+    "Wednesday: Open 24 hours",
+    "Thursday: Open 24 hours",
+    "Friday: Open 24 hours",
+    "Saturday: Open 24 hours",
+    "Sunday: Open 24 hours"
+  ],
+  "services": [
+    "General plumbing",
+    "Boiler repairs and servicing",
+    "Heating and radiators",
+    "Tap, toilet and shower repairs",
+    "Emergency callouts"
+  ],
+  "services_meta": [
+    {
+      "name": "General plumbing",
+      "source": "name",
+      "direct": false
+    },
+    {
+      "name": "Boiler repairs and servicing",
+      "source": "review",
+      "direct": false
+    },
+    {
+      "name": "Heating and radiators",
+      "source": "review",
+      "direct": false
+    },
+    {
+      "name": "Tap, toilet and shower repairs",
+      "source": "review",
+      "direct": false
+    },
+    {
+      "name": "Emergency callouts",
+      "source": "review",
+      "direct": false
+    }
+  ],
+  "service_confidence": "mixed",
+  "service_sources": [
+    "google",
+    "name",
+    "review",
+    "niche"
+  ],
+  "service_area": [
+    "Bristol",
+    "Bristol BS5 8JB",
+    "Redfield",
+    "St George",
+    "Easton",
+    "Bedminster",
+    "Clifton",
+    "Kingswood",
+    "Fishponds"
+  ],
+  "based_location": "Bristol, BS5",
+  "google_rating": 4.9,
+  "google_review_count": 16,
+  "google_review_count_sourced": true,
+  "service_areas_inferred": true,
+  "google_maps_url": "https://maps.google.com/?cid=14280073501182388464",
+  "website_status": "NO_WEBSITE",
+  "website_check_notes": "google_places_website=empty; Invalid website_url: google_photo_api; website_url empty",
+  "website_url": null,
+  "photos": [
+    {
+      "local": "images/01-places.webp",
+      "source_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3mW1YFPDua33rYb4_4UUIFIqnUfp-VC0fcK-WAH5lB__zFJ34wnairAdlqdqbha2PlGX7u7l5GwMpPLEWVCL84trY5uwZlINyAyFCwqBYI9lc7MWNX_D3ElLcFjAE5s4RmH7thYStWp_bvR7SCbczjmWFgao46OpooF1NX475My-kVezqHAlDxjDFqWSCGlv0RSsmKrL5G4HapEVDZMfn4jD0KDxD9Q_2Xif9yx-T-8ItjllQIeYOP0vcMIwvKhNXeCuvYW5Ey1gsTHjpHpB9Z-8zLtr8tE6YhgS8764Nx8Xj_VZBOksf528COMUBaSA511cjwRW44c_D4olP5nYOJBVZ035UkHPmu4tgTLOYvu7HeUx7AP9D3_3xkhmnFJZ0-cnDMIEkpOry0-L2Gd3zZPhwrcb_USzk6imlk5pG8M7JwmYWhCGO3yxQDWfg&key=REDACTED",
+      "width": 1600,
+      "height": 1200,
+      "classification": "completed_project",
+      "pair_id": null,
+      "source_type": "google_places"
+    },
+    {
+      "local": "images/02-places.webp",
+      "source_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3kE3B7LQKaYs-d7IsYODqIxOOhgloq6BS2J7jFyhV41Zn-tskNTAybcL20_iceYjlUeaKmKPBYV4PQP32quCTaWh2fFnQHNmEnnmRmmNHZgmCcV2ZfVijqkrpsupZNZNigvIxcAqcDlx-kipKj2AKcVbNkLEu0kjN1aQIzmof_Gs13YSsUUmp8zE-xWZ7ngDOkTuZLgILvfe4x6ghGzYgV-bpOnma2-E4K3THvB5Nwii-jGE1CaXaTxqDxDS8WPwrgTgXgvr7WlZ1Ix8UShInvZtV2DgUDqq1KeGjGMStV_80i1SOrThkyhTZREimH21pibCPl6YPdW1osy5g5esIu7MvgjzZOn0gTCRLfR94_Nk8H92TpBTZz6QmYMkNbuXcD_vAc8waWQiIq8uas7Lf8dfsG3kiVRuLk6iBTmsujAKv2wbTEF_GrKOIWTTwk2&key=REDACTED",
+      "width": 1200,
+      "height": 1600,
+      "classification": "completed_project",
+      "pair_id": null,
+      "source_type": "google_places"
+    },
+    {
+      "local": "images/03-places.webp",
+      "source_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3kda43zi3CczlKcQn2oC19Nn-c9Gzrqa8sDIozIRC2JzOhVNeTYv4275EAmtU7nSMIj8H8ENpjYrbg5-68PA88OGjtyeckwTUDXfSSlj_cB9p_0AcGv6tntFFjmWzVjHsMr4wBu82ZVZdM0EPdB3B22rotXYLZyp1crO5fcpOL2_2IyyUbZ0GNYKchq1YAWbrGYa2NDF_fyrAkxOSaRtE5p1Hw9jtYw4-oOAfKTBpNDH6eEY8HXld71vlHdLjacyudtcxMXk9zw07cz5BgbeyDOUceOVIP9Tks2FcV_lGVArSq8qLzW2MlDWJuh3zHEiRzSK17T4orqbJ0LKJn9uHP76V3gHPvIic7r_m9rOH2TfPurze0V3tjTmKll_iJ3RGUnlHHFhE1qm2QetB1w52_wpEvTX05-Ks47iWCjuifj5rH9g7JOduZZDj7VHQ&key=REDACTED",
+      "width": 1200,
+      "height": 1600,
+      "classification": "completed_project",
+      "pair_id": null,
+      "source_type": "google_places"
+    },
+    {
+      "local": "images/04-places.webp",
+      "source_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3nKdIdt4R0S_4KGPhMCTQamgtSwWe7NE1kUKmEi0MBb7X93KaqHmbTNQBYd0Pk-39oB6Tfo_3kL5IhKiX3Xz1D1e1kQCjgcIqntwjmrzi1P6IfT_mQVjT1aPny3iTYk6BOg-u9xsVcpWZzqHFHj1AmuxSftxWySFdfRJvPocqck7lu0YrA_kxvVgDAPQPdPGLVQZMK5BOwbZEhrCDA0jYmXuqSryjQwMc5ZMoNJIbtausqKQEkdJrGhR8o4a9KWcUc9P7WjZcfau33qM2hn6wxfIxugjr49nIEjxYA6nwiqNGeIlMjTmJZOCTxOMtBtE8rFrPu-mY2TiHK42_4cNKgw12-TriE3yQU9_36-hn9o71AB7Kvc0TPL-3dxYkfqRJHvCG6iWi95yh5EJmHeK__me9snGUfuitQSBPQrUJssiQ&key=REDACTED",
+      "width": 1200,
+      "height": 1600,
+      "classification": "completed_project",
+      "pair_id": null,
+      "source_type": "google_places"
+    }
+  ],
+  "reviews": [
+    {
+      "text": "Highly recommend, Josh gave our heating system a complete overhaul replacing all our radiators, flushing out the system (which was in a right state) and fitting a Hive system thermostat.\n\nJosh was honest, prompt and very well priced! Which I think is rare nowadays, he could have let us spend much more money on a combi boiler which just wouldn’t have been suitable for our property, but gave us his honest opinion and saved £££’s pounds.\n\nIf you want a plumber that actually turns up, does a good job and reasonably priced, then Josh is the man!\n\n10/10 from the Stevens household.",
+      "reviewer": "Hayley",
+      "rating": 5
+    },
+    {
+      "text": "Josh is worth his weight in gold. I contacted him, he replied instantly and kindly came to have a look the very next morning. He ordered, collected and carefully installed a beautiful new rain shower, so fast! Highly rate and recommend, thank you! 🌟🌟🌟🌟🌟",
+      "reviewer": "Camille",
+      "rating": 5
+    },
+    {
+      "text": "I can’t recommend Josh highly enough. He saved us recently on two separate occasions with emergency plumbing issues that occurred in the night. Both times he was able to come the very next day and sort it for us. Lovely chap and a great plumber.",
+      "reviewer": "Martin",
+      "rating": 5
+    },
+    {
+      "text": "Highly recommend Josh. Fixed my salon sink super fast and is a lovely chap too!",
+      "reviewer": "jessamy",
+      "rating": 5
+    },
+    {
+      "text": "I contacted Josh this morning as I had a problem with water pouring out of a pipe that hadn’t been capped off properly and although just back from holidays came sorted for me quickly and efficiently.  I can’t thank him enough can recommend him to anyone and any future work I will give to him 100%",
+      "reviewer": "Glenda",
+      "rating": 4
+    }
+  ],
+  "social": {
+    "facebook": "https://www.facebook.com/jtplumbingbristol",
+    "instagram": null,
+    "youtube": null,
+    "tiktok": null
+  },
+  "gallery_layout": "completed_project_gallery",
+  "photo_classification_summary": {
+    "completed_project": 4
+  },
+  "brand": {
+    "colours": [],
+    "logo_url": null,
+    "logo_local": null
+  },
+  "source_urls": [
+    "https://maps.google.com/?cid=14280073501182388464",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3kQU9cwIRq8MbOWii9V0OW5J3rpeHWOIO2a0TpTuEsDFFh1Il8Mg8MiOahWyasYDspAOV6t3oKwMBXRv3YHOAHIQwWSqDc7gfyp2AHK-gLkyHIqOGN_EN-ziiwxF8JeGbwDNY8rO0_ga6gwy9e0JpZJfbyDcXhj7EgMr7x3AbxD4diHQt7ZrG0-7aEOestImNq6S9NSk0V2RsOmScY2VtVFS-jH9r1hoQSF4d9RP7uslD-eSMPuu2Is7RK_5YDqrCseQmrRH-21Jiah1lyhWr9lQoNIq1W0ThZ3RSi9c3eWwtNcUFR_rmYHHyGV90xvfLmtilqGu7N4kJPFfRv8QA80gYhX9H-XPGMegHM7nuH2KGgn88-gtk-FdnH7hEVjRMp1BAZAbCVfovEXhTFPKlRxj7RXR5cWXYKWXpDi_DJjI3eh4X_3-50tiFziRg&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3mOqAvJC_O2yEfLKxL2ga9zwLWJkOXTUuo32jHlNlhbKGhMbsyF3_E3sGuwz8kb07ppvgAyNAlkZfsLnq7_sxjNidTWq5HREQ9v1go9D2tN86PVeNCGWtAWBY572w1Ph17QJ0jLgvQC3Q7rJphHXdldTd9GqKlitbmEBTspVL0LhhdwVxSRDWZ-pD1QW2AAPmSwKh21sqJD0Uh_yx6uY09EJ0g8u_AGpNae0k3VRkpKuBP5U6jhzx9kQ46152AVh-DpjHYxv7uC6DpKD8hSNsmJ5nD5c5KGJ4PJqf2fWxcr0idwzZ8PTakuXfSv_BdrceUpSkCVmwdg53nZRwj-FdtgV0DBcEBUvEmQQ70aRWrC1zGPxaAVmLJS9_OGb-3wsDoeLh0cNlWLfly7tH_GIsWTlCcMAuforUpzoXqQ_4QEWiZh5Ny5ANrct1hoQ0TD&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3nwG4bVIe6sFUGKFGijRKkgxz4luuDUqRc1rd_hsSt1v4BrO8gxekCW2yVOtGbweUiLoJegkd72r40R0W7W9SbId_Sc9xaDkwdBk2PnpM_GIDazcyi_dfcS_KjXp3WaISU6Ir5Rg5svwBy1bIRrduMKb7CIQRi11gteXCDt1xlhYhTtbQTdtV757FtcmVPg-i0p-ESNLY4sZYZauPm13vzrZiipKL1GobWUb29LBjxrAwtBLo1vXHd0klsoGdQvU3nkw03kN1rZIHBbUETMAimACIPCHTWAFrgTmDCEvVaDsd-0Kn-XAo5cftQwfL3T8VDQE2OUp6tVEztn8P1ig3YeATIuWDbdbyj2vfV-uqb-KTlkvFCrPSh_FI8f38SG6Dib36RDJXyErUWYE_0IOPSxa1uluRFRS0AkaXhit0AHgfUcR4qD-l75NcYSKA&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3kmpMKAOoAIkzRm8VWUyiJP2uZb5YYQnyHVPU7lwrCYHDSgVnSE4BiN3YqbQ6Zjaj0CHD53PNl3ZAO18qtbqE2wWJOcewFEYoUtpi1s7YRZizTFdAXhhU6APrs1K3BGtGMm17Q9MyyjEMRppyPAR6qlD-Tnqy2zOiELqXnY6ctNny8KMf4k-1UCok-U1T7y-UIW5qr89J2OCDZksCMbmppzOIymPNi35lA7PLLn-6tPXSo6v2-sNqWQfy3zVmyJ9ahByIgkGNgnbwbjEKmqc4MPKFjEQScAFcK9-tJFsy_tdzPdK1BNAuou3BCeNM_3oln8_Lv0KgfJ65xHl92DxfjEOvnwpJS1J0TuXSF-wQEPaTCs9hdeud9Zlr6p2DTxEd-tvmTcb9-xYbbKlfS1dWOIKV3maN8le84tdsDP6TUZrw&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3mW1YFPDua33rYb4_4UUIFIqnUfp-VC0fcK-WAH5lB__zFJ34wnairAdlqdqbha2PlGX7u7l5GwMpPLEWVCL84trY5uwZlINyAyFCwqBYI9lc7MWNX_D3ElLcFjAE5s4RmH7thYStWp_bvR7SCbczjmWFgao46OpooF1NX475My-kVezqHAlDxjDFqWSCGlv0RSsmKrL5G4HapEVDZMfn4jD0KDxD9Q_2Xif9yx-T-8ItjllQIeYOP0vcMIwvKhNXeCuvYW5Ey1gsTHjpHpB9Z-8zLtr8tE6YhgS8764Nx8Xj_VZBOksf528COMUBaSA511cjwRW44c_D4olP5nYOJBVZ035UkHPmu4tgTLOYvu7HeUx7AP9D3_3xkhmnFJZ0-cnDMIEkpOry0-L2Gd3zZPhwrcb_USzk6imlk5pG8M7JwmYWhCGO3yxQDWfg&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3kE3B7LQKaYs-d7IsYODqIxOOhgloq6BS2J7jFyhV41Zn-tskNTAybcL20_iceYjlUeaKmKPBYV4PQP32quCTaWh2fFnQHNmEnnmRmmNHZgmCcV2ZfVijqkrpsupZNZNigvIxcAqcDlx-kipKj2AKcVbNkLEu0kjN1aQIzmof_Gs13YSsUUmp8zE-xWZ7ngDOkTuZLgILvfe4x6ghGzYgV-bpOnma2-E4K3THvB5Nwii-jGE1CaXaTxqDxDS8WPwrgTgXgvr7WlZ1Ix8UShInvZtV2DgUDqq1KeGjGMStV_80i1SOrThkyhTZREimH21pibCPl6YPdW1osy5g5esIu7MvgjzZOn0gTCRLfR94_Nk8H92TpBTZz6QmYMkNbuXcD_vAc8waWQiIq8uas7Lf8dfsG3kiVRuLk6iBTmsujAKv2wbTEF_GrKOIWTTwk2&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3kda43zi3CczlKcQn2oC19Nn-c9Gzrqa8sDIozIRC2JzOhVNeTYv4275EAmtU7nSMIj8H8ENpjYrbg5-68PA88OGjtyeckwTUDXfSSlj_cB9p_0AcGv6tntFFjmWzVjHsMr4wBu82ZVZdM0EPdB3B22rotXYLZyp1crO5fcpOL2_2IyyUbZ0GNYKchq1YAWbrGYa2NDF_fyrAkxOSaRtE5p1Hw9jtYw4-oOAfKTBpNDH6eEY8HXld71vlHdLjacyudtcxMXk9zw07cz5BgbeyDOUceOVIP9Tks2FcV_lGVArSq8qLzW2MlDWJuh3zHEiRzSK17T4orqbJ0LKJn9uHP76V3gHPvIic7r_m9rOH2TfPurze0V3tjTmKll_iJ3RGUnlHHFhE1qm2QetB1w52_wpEvTX05-Ks47iWCjuifj5rH9g7JOduZZDj7VHQ&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3nKdIdt4R0S_4KGPhMCTQamgtSwWe7NE1kUKmEi0MBb7X93KaqHmbTNQBYd0Pk-39oB6Tfo_3kL5IhKiX3Xz1D1e1kQCjgcIqntwjmrzi1P6IfT_mQVjT1aPny3iTYk6BOg-u9xsVcpWZzqHFHj1AmuxSftxWySFdfRJvPocqck7lu0YrA_kxvVgDAPQPdPGLVQZMK5BOwbZEhrCDA0jYmXuqSryjQwMc5ZMoNJIbtausqKQEkdJrGhR8o4a9KWcUc9P7WjZcfau33qM2hn6wxfIxugjr49nIEjxYA6nwiqNGeIlMjTmJZOCTxOMtBtE8rFrPu-mY2TiHK42_4cNKgw12-TriE3yQU9_36-hn9o71AB7Kvc0TPL-3dxYkfqRJHvCG6iWi95yh5EJmHeK__me9snGUfuitQSBPQrUJssiQ&key=REDACTED",
+    "https://www.facebook.com/jtplumbingbristol"
+  ],
+  "notes": [
+    "owner_name not found in public sources",
+    "email not found in public sources",
+    "contact_name \"Josh\" from 5 Google review mention(s) (high confidence); owner_name not set",
+    "only 4 usable photos kept (target 6-15)",
+    "contactability=NEEDS_MANUAL_REVIEW",
+    "WhatsApp availability check failed",
+    "Photo discovery: 4/4 selected (Limited photos - compact gallery with review-led hero)",
+    "Facebook verified (high): Phone number matches Google/lead phone; Business name matches or clearly aliases Google listing; Location or service area matches Google address/city; Public email visible on page (jtplumbingbristol@gmail.com); Intro text matches trade and local area; Service hints match trade: Plumbing, Heating, Bathroom installations",
+    "Email found on Facebook: jtplumbingbristol@gmail.com"
+  ],
+  "missing_fields": [
+    "owner_name",
+    "email",
+    "photos",
+    "facebook",
+    "instagram"
+  ],
+  "invalid_website_candidates": [
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3kQU9cwIRq8MbOWii9V0OW5J3rpeHWOIO2a0TpTuEsDFFh1Il8Mg8MiOahWyasYDspAOV6t3oKwMBXRv3YHOAHIQwWSqDc7gfyp2AHK-gLkyHIqOGN_EN-ziiwxF8JeGbwDNY8rO0_ga6gwy9e0JpZJfbyDcXhj7EgMr7x3AbxD4diHQt7ZrG0-7aEOestImNq6S9NSk0V2RsOmScY2VtVFS-jH9r1hoQSF4d9RP7uslD-eSMPuu2Is7RK_5YDqrCseQmrRH-21Jiah1lyhWr9lQoNIq1W0ThZ3RSi9c3eWwtNcUFR_rmYHHyGV90xvfLmtilqGu7N4kJPFfRv8QA80gYhX9H-XPGMegHM7nuH2KGgn88-gtk-FdnH7hEVjRMp1BAZAbCVfovEXhTFPKlRxj7RXR5cWXYKWXpDi_DJjI3eh4X_3-50tiFziRg&key=REDACTED"
+  ],
+  "website_url_validation": {
+    "validated_at": "2026-06-10T20:46:20.814Z",
+    "issue": "empty",
+    "note": "website_url empty",
+    "previous_url": null
+  },
+  "prospect_region": "Bristol",
+  "location_validation_status": "OK",
+  "directory_probes": [
+    {
+      "platform": "checkatrade",
+      "candidate_url": "https://www.checkatrade.com/trades/jt-plumbing",
+      "status": "NOT_FOUND",
+      "confidence": "rejected",
+      "title": null,
+      "rating": null,
+      "review_count": null,
+      "phone_visible": false,
+      "verification_reasons": [],
+      "note": "search_deferred: JT Plumbing Bristol BS5 8JB site:checkatrade.com"
+    },
+    {
+      "platform": "trustatrader",
+      "candidate_url": "https://www.trustatrader.com/traders/jt-plumbing",
+      "status": "NOT_FOUND",
+      "confidence": "rejected",
+      "title": null,
+      "rating": null,
+      "review_count": null,
+      "phone_visible": false,
+      "verification_reasons": [],
+      "note": "search_deferred: JT Plumbing Bristol BS5 8JB site:trustatrader.com"
+    },
+    {
+      "platform": "yell",
+      "candidate_url": "https://www.yell.com/biz/jt-plumbing-bristol-bs5-8jb/",
+      "status": "NOT_FOUND",
+      "confidence": "rejected",
+      "title": null,
+      "rating": null,
+      "review_count": null,
+      "phone_visible": false,
+      "verification_reasons": [],
+      "note": "search_deferred: JT Plumbing Bristol BS5 8JB site:yell.com"
+    },
+    {
+      "platform": "mybuilder",
+      "candidate_url": "https://www.mybuilder.com/profile/jt-plumbing",
+      "status": "NOT_FOUND",
+      "confidence": "rejected",
+      "title": null,
+      "rating": null,
+      "review_count": null,
+      "phone_visible": false,
+      "verification_reasons": [],
+      "note": "search_deferred: JT Plumbing Bristol BS5 8JB site:mybuilder.com"
+    },
+    {
+      "platform": "rated_people",
+      "candidate_url": "https://www.ratedpeople.com/profile/jt-plumbing",
+      "status": "NOT_FOUND",
+      "confidence": "rejected",
+      "title": null,
+      "rating": null,
+      "review_count": null,
+      "phone_visible": false,
+      "verification_reasons": [],
+      "note": "search_deferred: JT Plumbing Bristol BS5 8JB site:ratedpeople.com"
+    },
+    {
+      "platform": "houzz",
+      "candidate_url": "https://www.houzz.co.uk/professionals/jt-plumbing",
+      "status": "NOT_FOUND",
+      "confidence": "rejected",
+      "title": null,
+      "rating": null,
+      "review_count": null,
+      "phone_visible": false,
+      "verification_reasons": [],
+      "note": "search_deferred: JT Plumbing Bristol BS5 8JB site:houzz.co.uk"
+    },
+    {
+      "platform": "bark",
+      "candidate_url": "https://www.bark.com/en/gb/company/jt-plumbing/",
+      "status": "NOT_FOUND",
+      "confidence": "rejected",
+      "title": null,
+      "rating": null,
+      "review_count": null,
+      "phone_visible": false,
+      "verification_reasons": [],
+      "note": "search_deferred: JT Plumbing Bristol BS5 8JB site:bark.com"
+    },
+    {
+      "platform": "nextdoor",
+      "candidate_url": "https://nextdoor.co.uk/pages/jt-plumbing/",
+      "status": "NOT_FOUND",
+      "confidence": "rejected",
+      "title": null,
+      "rating": null,
+      "review_count": null,
+      "phone_visible": false,
+      "verification_reasons": [],
+      "note": "search_deferred: JT Plumbing Bristol BS5 8JB site:nextdoor.co.uk"
+    }
+  ],
+  "enrichment": {
+    "enriched_at": "2026-06-10T20:47:24.336Z",
+    "email_domain_checked": false,
+    "website_discovery_run": true
+  },
+  "lead_validity": {
+    "lead_validity_status": "NO_WEBSITE_READY",
+    "lead_validity_reason": "No website found - standard no-website build",
+    "pitch_type": "no_website",
+    "website_status": "NO_WEBSITE",
+    "website_url": null,
+    "website_discovery_classification": "NO_WEBSITE",
+    "email_domain_website": {
+      "classification": "NO_WEBSITE",
+      "db_status": "NO_WEBSITE",
+      "domain": null,
+      "initial_url": null,
+      "final_url": null,
+      "status_code": null,
+      "title": null,
+      "reason": "generic_or_invalid_email_domain",
+      "probes": [],
+      "text_snippet": null
+    },
+    "source_confidence_summary": {
+      "overall": "high",
+      "verified_platforms": [
+        "google_places",
+        "facebook"
+      ],
+      "rejected_platforms": [],
+      "notes": []
+    },
+    "ready_for_build": false,
+    "ready_for_design": false,
+    "ready_for_pitch": false,
+    "manual_review_required": true,
+    "has_real_website": false,
+    "truly_no_website": true,
+    "warnings": [
+      "contactability=NEEDS_MANUAL_REVIEW"
+    ],
+    "manual_asset_status": "OK",
+    "pause_before_open_design": false,
+    "manual_asset_folder": "briefs/jt-plumbing/images/manual/"
+  },
+  "source_quality": {
+    "source_quality_status": "FAIL",
+    "source_quality_reason": "Email present but email-domain website discovery not completed",
+    "website_url_validated": true,
+    "email_domain_checked": false,
+    "enrichment_complete": true,
+    "logo_discovery_attempted": true,
+    "photo_discovery_attempted": true,
+    "directory_probes_attempted": true,
+    "warnings": [
+      "Lead validity requires manual review"
+    ],
+    "blockers": [
+      "Email present but email-domain website discovery not completed"
+    ]
+  },
+  "facebook": {
+    "url": "https://www.facebook.com/jtplumbingbristol",
+    "verified": true,
+    "confidence": "high",
+    "verification_reasons": [
+      "Phone number matches Google/lead phone",
+      "Business name matches or clearly aliases Google listing",
+      "Location or service area matches Google address/city",
+      "Public email visible on page (jtplumbingbristol@gmail.com)",
+      "Intro text matches trade and local area",
+      "Service hints match trade: Plumbing, Heating, Bathroom installations"
+    ],
+    "phone_match": true,
+    "name_match": true,
+    "location_match": true,
+    "status": "OK",
+    "needs_manual_review": false,
+    "logo_path": null,
+    "logo_source": null,
+    "logo_palette": [],
+    "assets": [
+      {
+        "local": "images/facebook/01-facebook.webp",
+        "source_url": "https://scontent-lhr6-2.xx.fbcdn.net/v/t39.30808-6/489364429_1425945578466948_913897378189143713_n.jpg?stp=cp6_dst-jpg_tt6&cstp=mx1536x2048&ctp=s1536x2048&_nc_cat=105&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=thig05Cvx-wQ7kNvwFIY-3d&_nc_oc=AdrdKCf5phQ_2pqRz6JCXl7tPqgdt1ndvNG3DletyRUkK3IVuoaBBqQln7Rw5gGUc78hZyjrgEQDShDLy0-xeuRu&_nc_zt=23&_nc_ht=scontent-lhr6-2.xx&_nc_gid=3YNB73gYK40cDVfG7w87eQ&_nc_ss=7b20f&oh=00_Af--i1kJYLnYwipNha0xXzh_akjDxM1pJIFh8OF4Em2o1A&oe=6A2F88BE",
+        "source_type": "facebook_photo",
+        "width": 1536,
+        "height": 2048,
+        "hash": "790ca7907cd6234d437a03a8bcaf6bb95662b277de50b95f2fe78c9b062a2d56",
+        "cluster_id": null,
+        "selected": false,
+        "selection_reason": "Downloaded via http (public HTML/CDN)",
+        "classification": "completed_project"
+      },
+      {
+        "local": "images/facebook/02-facebook.webp",
+        "source_url": "https://scontent-lhr6-1.xx.fbcdn.net/v/t39.30808-6/489098738_1425945601800279_3967525627189969374_n.jpg?stp=c0.169.1536.1536a_cp6_dst-jpg_tt6&cstp=mx1536x1536&ctp=s851x315&_nc_cat=109&ccb=1-7&_nc_sid=4b8012&_nc_ohc=1FGuBdHkmo0Q7kNvwGgOEBT&_nc_oc=AdpN-YIOI1ichw-zTHBOBUWxIF4yoMWTKLsTa9g_Vlc80eyZ5icouWXX6-ri27lXI_Tf1zI9Z5q3SwL7f1JfBUMv&_nc_zt=23&_nc_ht=scontent-lhr6-1.xx&_nc_gid=3YNB73gYK40cDVfG7w87eQ&_nc_ss=7b20f&oh=00_Af_63Qi_8UM7llFbiiIkzgVpbjN41aJrrgMM8AIyMdalZg&oe=6A2F884E",
+        "source_type": "facebook_photo",
+        "width": 315,
+        "height": 315,
+        "hash": "25ad88160e399d432a73fcbb1d10170f21847bdb4c91eb29e396b22b95afbf8a",
+        "cluster_id": null,
+        "selected": false,
+        "selection_reason": "Downloaded via http (public HTML/CDN)",
+        "classification": "completed_project"
+      },
+      {
+        "local": "images/facebook/03-facebook.webp",
+        "source_url": "https://scontent-lhr6-1.xx.fbcdn.net/v/t39.30808-6/488917593_1425945581800281_2115685766701636004_n.jpg?stp=c0.169.1536.1536a_cp6_dst-jpg_tt6&cstp=mx1536x1536&ctp=s851x315&_nc_cat=109&ccb=1-7&_nc_sid=4b8012&_nc_ohc=qbPX7gH9puYQ7kNvwFqPpXr&_nc_oc=AdoDFCP__AJVQCV4ozHSnQ5F2Hw9Jmj5W3_5frxUDPKe_7meHoYrnpaEP1yllBE3DynoIadrWwigYqxa1WN6eoKD&_nc_zt=23&_nc_ht=scontent-lhr6-1.xx&_nc_gid=3YNB73gYK40cDVfG7w87eQ&_nc_ss=7b20f&oh=00_Af8boaS02m6hyL6Ftjv9_VsfCojjC2Jx56JFMs6-QaQN3Q&oe=6A2FB602",
+        "source_type": "facebook_photo",
+        "width": 315,
+        "height": 315,
+        "hash": "6c2cc1244648ecbfddd4ffd30723cc8e0a2335ab920d5e9c366bd2ec3a56c511",
+        "cluster_id": null,
+        "selected": false,
+        "selection_reason": "Downloaded via http (public HTML/CDN)",
+        "classification": "completed_project"
+      },
+      {
+        "local": "images/facebook/04-facebook.webp",
+        "source_url": "https://scontent-lhr11-1.xx.fbcdn.net/v/t39.30808-6/488907407_1425945565133616_8971978313148764169_n.jpg?stp=c0.169.1536.1536a_cp6_dst-jpg_tt6&cstp=mx1536x1536&ctp=s851x315&_nc_cat=111&ccb=1-7&_nc_sid=4b8012&_nc_ohc=OKK2I79VmZoQ7kNvwHPNv5Q&_nc_oc=AdrgId75BD6KHsewJu3q3wF6iX3tXAq0mYIt0HIKMGZFgh76hXr5auUHRHLTt_Y1ta4_Z1WMsTGzL26pHfmDEw82&_nc_zt=23&_nc_ht=scontent-lhr11-1.xx&_nc_gid=3YNB73gYK40cDVfG7w87eQ&_nc_ss=7b20f&oh=00_Af_ScdszjJ1WJE7XLxnQWi3QAEu74Z0mnWrv8nXE71WuUw&oe=6A2FAA44",
+        "source_type": "facebook_photo",
+        "width": 315,
+        "height": 315,
+        "hash": "52a480a38a6663fd3c4310c064d3e8ae76da70f48a30bf920df63366b217489c",
+        "cluster_id": null,
+        "selected": false,
+        "selection_reason": "Downloaded via http (public HTML/CDN)",
+        "classification": "completed_project"
+      },
+      {
+        "local": "images/facebook/05-facebook.webp",
+        "source_url": "https://scontent-lhr11-1.xx.fbcdn.net/v/t39.30808-6/489043752_1425945585133614_6905993942121250498_n.jpg?stp=c0.169.1536.1536a_cp6_dst-jpg_tt6&cstp=mx1536x1536&ctp=s851x315&_nc_cat=111&ccb=1-7&_nc_sid=4b8012&_nc_ohc=LS99iQpa-78Q7kNvwHGz70p&_nc_oc=AdrB1fVsqpyhf9aK42CUTEOyh02zwxKqm_oq1EVYIgZqIdeh0O8YvjpSQW1AfQvQjyiGAM0OmRdD1QniIatQHcPG&_nc_zt=23&_nc_ht=scontent-lhr11-1.xx&_nc_gid=3YNB73gYK40cDVfG7w87eQ&_nc_ss=7b20f&oh=00_Af97iW-VWpBe3tvCtxI7cnEq5iYz5KXpHrThOQqN6d05eQ&oe=6A2FBB7A",
+        "source_type": "facebook_photo",
+        "width": 315,
+        "height": 315,
+        "hash": "c9cbdeb2bbb46ee6ab43ba260f86e7a32a8a2ceaad7e6a17a7cb10509e6538db",
+        "cluster_id": null,
+        "selected": false,
+        "selection_reason": "Downloaded via http (public HTML/CDN)",
+        "classification": "completed_project"
+      },
+      {
+        "local": "images/facebook/06-facebook.webp",
+        "source_url": "https://scontent-lhr8-2.xx.fbcdn.net/v/t39.30808-6/489699483_1425945571800282_4531255503566947258_n.jpg?stp=c0.169.1536.1536a_cp6_dst-jpg_tt6&cstp=mx1536x1536&ctp=s851x315&_nc_cat=106&ccb=1-7&_nc_sid=4b8012&_nc_ohc=dDPWDa-wiKUQ7kNvwEDbe0e&_nc_oc=AdqAmJjQcdHnte_PysY7371vm_9oC5z5z4hUIdrhHuprpaipbd96ktOXNCkehupSKkfEHNmI1wPnv0K9ZEyl0jKb&_nc_zt=23&_nc_ht=scontent-lhr8-2.xx&_nc_gid=3YNB73gYK40cDVfG7w87eQ&_nc_ss=7b20f&oh=00_Af-taH_IjYorYQt_tOVJYKVluLXzzUl8a3Ar-itYTWNv9w&oe=6A2F9051",
+        "source_type": "facebook_photo",
+        "width": 315,
+        "height": 315,
+        "hash": "19ae3cc7fa7390b2f4bf12543f87f98b1f78ad4805a62a5df7277d5d61cce200",
+        "cluster_id": null,
+        "selected": false,
+        "selection_reason": "Downloaded via http (public HTML/CDN)",
+        "classification": "completed_project"
+      },
+      {
+        "local": "images/facebook/07-facebook.webp",
+        "source_url": "https://scontent-lhr6-1.xx.fbcdn.net/v/t39.30808-6/488928989_1425945561800283_1677344718671522644_n.jpg?stp=c0.169.1536.1536a_cp6_dst-jpg_tt6&cstp=mx1536x1536&ctp=s851x315&_nc_cat=102&ccb=1-7&_nc_sid=4b8012&_nc_ohc=foThAUg1F10Q7kNvwG0xKIn&_nc_oc=AdrtDBz2qAjbqPKhivnOJvQ1orfm3fImeDOykaQ5M_XUOoz0Qwq6jlOAp-Gem8QrxpXES6DagIXOOQexk0TOU9mu&_nc_zt=23&_nc_ht=scontent-lhr6-1.xx&_nc_gid=3YNB73gYK40cDVfG7w87eQ&_nc_ss=7b20f&oh=00_Af9i7dcHUE5ixcn2s8IOVpTFkd3cVhNeX7RJkN3d6Y0cCQ&oe=6A2F8707",
+        "source_type": "facebook_photo",
+        "width": 315,
+        "height": 315,
+        "hash": "c550fc58a91b9ba21412431d9b81be54a038bfe9d8a84880706290791676d528",
+        "cluster_id": null,
+        "selected": false,
+        "selection_reason": "Downloaded via http (public HTML/CDN)",
+        "classification": "completed_project"
+      },
+      {
+        "local": "images/facebook/08-facebook.webp",
+        "source_url": "https://scontent-lhr6-1.xx.fbcdn.net/v/t39.30808-6/489233281_1425945605133612_8950735783467577380_n.jpg?stp=c0.169.1536.1536a_cp6_dst-jpg_tt6&cstp=mx1536x1536&ctp=s851x315&_nc_cat=109&ccb=1-7&_nc_sid=4b8012&_nc_ohc=3fZkvzG4n9AQ7kNvwF35zpE&_nc_oc=AdpebZzYufL3PxaIW0nO1IK7TczQhMnoKuDc4INIZJk7L0OKEIVCyse7mGAYgIh6NNC6PupYZag2Oz7qOfqK1mR_&_nc_zt=23&_nc_ht=scontent-lhr6-1.xx&_nc_gid=3YNB73gYK40cDVfG7w87eQ&_nc_ss=7b20f&oh=00_Af8BlFXMwNl_oPHDGXh-aAjIfK-iMuMqw3t8nw8aOyrY2A&oe=6A2FAC8E",
+        "source_type": "facebook_photo",
+        "width": 315,
+        "height": 315,
+        "hash": "28afeb55075bf94ff88928990cf1dad0a7f14794b2866523ff1b5a5533bb2623",
+        "cluster_id": null,
+        "selected": false,
+        "selection_reason": "Downloaded via http (public HTML/CDN)",
+        "classification": "completed_project"
+      }
+    ],
+    "photos_found": 8,
+    "photos_attempted": 8,
+    "photos_downloaded": 8,
+    "photos_rejected": 0,
+    "photo_download_failures": [],
+    "photos_selected": 8,
+    "evidence": [
+      "Log in\nForgotten account?\nJT Plumbing \n169 followers • 2 following\nMore\nPosts\nAbout\nPhotos\nIntro\nJT Plumbing - Reliable, Friendly & Affordable!\nLooking for a trustworthy plumber? Need a stunning new bathroom or a new heating system?\nFriendly & Professional\nCompetitive Rates\nBespoke Bathroom Designs\nCentral Heating Installs\nNo Job Too Big or Small\nPage · Plumbing service\nBristol\n07817 850729\njtplumbingbristol@gmail.com\n88% recommend (7 reviews)﻿\nPhotos\nSee All Photos\nInformation about Page Insights data\n \n · Privacy\n \n · Terms\n \n · Advertising\n \n · Ad choices \n \n · Cookies\n \n · More\nJT Plumbing updated their bio.\n3 March 2025\n \n·\nJT Plumbing - Reliable, Friendly & Affordable!\nLooking for a trustworthy plumber? Need a stunning new bathroom or a new heating system?\nFriendly & Professional\nCompetitive Rates\nBespoke Bathroom Designs\nCentral Heating Installs\nNo Job Too Big or Small\nLike\nComment\nSee more from JT Plumbing\nEmail address or phone number\nPassword\nLog in\nForgotten password?\nor\nCreate new account",
+      "Meta Graph API: not configured (public HTML fallback only)",
+      "Apify failed: FBCDN_DOWNLOAD_BLOCKED (fallback to public HTML)"
+    ],
+    "graph": {
+      "attempted": false,
+      "success": false,
+      "page_id": null,
+      "photos_found": 0,
+      "photos_downloaded": 0,
+      "largest_width": null,
+      "largest_height": null,
+      "failure_reason": "META_GRAPH_API_TOKEN not configured",
+      "permission_required": false
+    },
+    "apify": {
+      "attempted": true,
+      "success": false,
+      "actor": "igview-owner/facebook-page-photos-downloader",
+      "photos_found": 8,
+      "photos_downloaded": 0,
+      "largest_width": null,
+      "largest_height": null,
+      "failure_reason": "FBCDN_DOWNLOAD_BLOCKED",
+      "cost_estimate": "~$0.010 USD (9 items @ $1.1/1000)",
+      "requires_login": false,
+      "via_mcp": false
+    },
+    "facebook_media_quality": "HIGH_RES",
+    "manual_asset_review_recommended": false
+  }
+}

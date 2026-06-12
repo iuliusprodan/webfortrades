@@ -1,0 +1,344 @@
+{
+  "slug": "alexander-s-painters-decorators",
+  "gathered_at": "2026-06-11T11:15:32.379Z",
+  "attempted_sources": [
+    {
+      "platform": "google_places",
+      "status": "found",
+      "url": "https://maps.google.com/?cid=2664396191179093018"
+    },
+    {
+      "platform": "google_reviews",
+      "status": "found",
+      "url": "https://maps.google.com/?cid=2664396191179093018"
+    },
+    {
+      "platform": "google_photos",
+      "status": "found",
+      "url": "https://maps.google.com/?cid=2664396191179093018"
+    },
+    {
+      "platform": "facebook",
+      "status": "not_found",
+      "url": null,
+      "search_query": "Alexander’s Painters&Decorators Stockport SK7 3BD",
+      "reason": "No URL in brief or source_urls (directory scrape not run in this phase)"
+    },
+    {
+      "platform": "instagram",
+      "status": "not_found",
+      "url": null,
+      "search_query": "Alexander’s Painters&Decorators Stockport SK7 3BD",
+      "reason": "No URL in brief or source_urls (directory scrape not run in this phase)"
+    },
+    {
+      "platform": "official_website",
+      "status": "not_found",
+      "url": null,
+      "search_query": "Alexander’s Painters&Decorators Stockport SK7 3BD",
+      "reason": "No URL in brief or source_urls (directory scrape not run in this phase)"
+    },
+    {
+      "platform": "checkatrade",
+      "status": "not_attempted",
+      "url": null,
+      "search_query": "Alexander’s Painters&Decorators Stockport SK7 3BD",
+      "reason": "Manual search required in this phase"
+    },
+    {
+      "platform": "trustatrader",
+      "status": "not_attempted",
+      "url": null,
+      "search_query": "Alexander’s Painters&Decorators Stockport SK7 3BD",
+      "reason": "Manual search required in this phase"
+    },
+    {
+      "platform": "mybuilder",
+      "status": "not_attempted",
+      "url": null,
+      "search_query": "Alexander’s Painters&Decorators Stockport SK7 3BD",
+      "reason": "Manual search required in this phase"
+    },
+    {
+      "platform": "rated_people",
+      "status": "not_attempted",
+      "url": null,
+      "search_query": "Alexander’s Painters&Decorators Stockport SK7 3BD",
+      "reason": "Manual search required in this phase"
+    },
+    {
+      "platform": "bark",
+      "status": "not_attempted",
+      "url": null,
+      "search_query": "Alexander’s Painters&Decorators Stockport SK7 3BD",
+      "reason": "Manual search required in this phase"
+    },
+    {
+      "platform": "yell",
+      "status": "not_attempted",
+      "url": null,
+      "search_query": "Alexander’s Painters&Decorators Stockport SK7 3BD",
+      "reason": "Manual search required in this phase"
+    },
+    {
+      "platform": "companies_house",
+      "status": "not_attempted",
+      "url": null,
+      "search_query": "Alexander’s Painters&Decorators Stockport SK7 3BD",
+      "reason": "Manual search required in this phase"
+    },
+    {
+      "platform": "directories",
+      "status": "not_attempted",
+      "search_query": "Alexander’s Painters&Decorators Stockport SK7 3BD",
+      "reason": "Generic directory sweep not automated yet"
+    }
+  ],
+  "sources": [
+    {
+      "platform": "google_places",
+      "url": "https://maps.google.com/?cid=2664396191179093018",
+      "verified": true,
+      "verification_method": "place_id_from_gather",
+      "phone_match": true,
+      "notes": "Primary gather source"
+    }
+  ],
+  "sources_found": [
+    "google_places",
+    "google_reviews",
+    "google_photos"
+  ],
+  "sources_verified": [
+    "google_places"
+  ],
+  "strongest_proof_source": {
+    "platform": "google",
+    "metric": "5 rating, 34 reviews",
+    "url": "https://maps.google.com/?cid=2664396191179093018"
+  },
+  "best_review_details": [
+    {
+      "text": "Having our upstairs box room refurbished. Neil came over and firstly removed all the historic wall paper (layers of it) and then saved us money on a plasterer by carefully filling and sanding everywhere that needed it. He decorated the room fully, including the walls, ceiling, woodwork and the radiator. Neil did a really good job! He’s also a really good guy; professional and also personable. I wo",
+      "author": "Sachin",
+      "rating": 5,
+      "source": "google"
+    },
+    {
+      "text": "Neil is a true professional with attention to detail. He is very friendly and a perfectionist with his paint work.\nNeil helped us pick our perfect shade of paint for our living room by coming up with a few suggestions.\nI highly recommend Neil you can tell he has a passion in what he does. Looking forward to him coming back in the future!\n5*",
+      "author": "J",
+      "rating": 5,
+      "source": "google"
+    },
+    {
+      "text": "Neil did a great job for us. Lovely paint finish. He is very professional and courteous. He works well around the needs of his customers. Would have no hesitation to recommend.",
+      "author": "Simon",
+      "rating": 5,
+      "source": "google"
+    }
+  ],
+  "image_source_summary": {
+    "google_photos": 9,
+    "facebook_photos": 0,
+    "directory_photos": 0,
+    "manual_photos": 0,
+    "other": 0,
+    "preferred_source": "google_places",
+    "notes": "Google Places photos preferred for gallery when high quality",
+    "priority_order": [
+      "official_website",
+      "google_places",
+      "directory",
+      "manual_asset",
+      "facebook_evidence",
+      "proof_led"
+    ]
+  },
+  "manual_review_flags": [
+    "LOCATION_MISMATCH_NEEDS_REVIEW",
+    "contactability=NEEDS_MANUAL_REVIEW"
+  ],
+  "enrichment_complete": true,
+  "risks": [
+    "Location: LOCATION_MISMATCH_NEEDS_REVIEW"
+  ],
+  "manual_asset_review_recommended": false,
+  "manual_asset_status": "OK",
+  "asset_readiness": {
+    "manual_asset_status": "OK",
+    "usable_automatic_count": 9,
+    "usable_manual_count": 0,
+    "usable_total_count": 9,
+    "has_hero_candidate": true,
+    "pause_before_open_design": false,
+    "pause_message": null,
+    "layout_recommendation": "photo_led",
+    "image_slots": [
+      {
+        "slot": "hero",
+        "desired": "Best finished project photo or strong proof visual",
+        "source_status": "automatic"
+      },
+      {
+        "slot": "gallery_1",
+        "desired": "Finished work close-up or wide project shot",
+        "source_status": "automatic"
+      },
+      {
+        "slot": "gallery_2",
+        "desired": "Finished work close-up or wide project shot",
+        "source_status": "automatic"
+      },
+      {
+        "slot": "gallery_3",
+        "desired": "Finished work close-up or wide project shot",
+        "source_status": "automatic"
+      },
+      {
+        "slot": "gallery_4",
+        "desired": "Finished work close-up or wide project shot",
+        "source_status": "automatic"
+      }
+    ],
+    "manual_folder": "briefs/alexander-s-painters-decorators/images/manual/"
+  },
+  "image_slots": [
+    {
+      "slot": "hero",
+      "desired": "Best finished project photo or strong proof visual",
+      "source_status": "automatic"
+    },
+    {
+      "slot": "gallery_1",
+      "desired": "Finished work close-up or wide project shot",
+      "source_status": "automatic"
+    },
+    {
+      "slot": "gallery_2",
+      "desired": "Finished work close-up or wide project shot",
+      "source_status": "automatic"
+    },
+    {
+      "slot": "gallery_3",
+      "desired": "Finished work close-up or wide project shot",
+      "source_status": "automatic"
+    },
+    {
+      "slot": "gallery_4",
+      "desired": "Finished work close-up or wide project shot",
+      "source_status": "automatic"
+    }
+  ],
+  "email": null,
+  "email_found": false,
+  "email_domain_checked": false,
+  "email_domain_website": null,
+  "website_discovery": null,
+  "website_status": "NO_WEBSITE",
+  "truly_no_website": true,
+  "logo_found": false,
+  "logo_path": null,
+  "facebook_url": null,
+  "facebook_verified": false,
+  "source_verifications": [],
+  "source_confidence": null,
+  "image_manifest": [
+    {
+      "local": "images/02-places.webp",
+      "source": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3mNRgz3jNyfPGbd6L7ob2Yas_7UO_BdYt5LK35WZ27ifufmuAgm3G2QMpLA6Ub-gcRrAr79VEbH_1_nvSnE0WcuVn0XdqPAtxRdIwmIn59jNusahD0lcPdDdpPXRNh8CgvSs4pkD8nNheC4TfFTPEN6bUxrNu9AhpQpkoSn5ZMIk-2gWeoPLspCEVLfKJRaLShrWpOMNUwPpGkJDWNOGGTdh2Uch2WVPvi6aGtp7cpujqBzVMB9xOOhoGixPmGMNP0L76XFa2kjYab0zJlIkh8T19BGOMaVTlxJn1SPHN6mH0yM0ySfz6CfZq3vPIrTCwi4wt7MHWQjbXsnp4dHgooMD2XK_zhT9pPGVVyzefQ9Z8SxNpCZ0WYkp0mhKcJJuPhb_CiBG681SPga6IyjdPSQ0i08a0MPDrWTu61im6KuY3La&key=REDACTED",
+      "source_type": "google_places",
+      "confidence": "medium",
+      "purpose": "gallery",
+      "selected": true,
+      "reason": "Default from gather"
+    },
+    {
+      "local": "images/03-places.webp",
+      "source": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3lS7ecgLl7TFPKhx-52prqpvtrb1_HiRZR2fB1NnyoF7lV4Jcv311ld2PayizFRHJ1tcve4ltGCmmUqRej0YSPF9YQPzmL1D_QhMBbygXvPDltg0jA_kRrtURGKNWqalQj_netHYeqokTAxD_NP-DBD866yZUeFrXH7WuA-Yqfb7DdcrZt2iXbqIWWXJ9gostuSikibwd37FNnTtTyhvxHHqYljWRJ7zVpURjC2TmJPfXYZL3XwGlS4VzH7sqn6AYIco6VBNB8NWIOf5VrtGGrRDA96-CS1Nd1DNgC3kc2YdIAGqk_kNE3S-eKlVHp8L8HLvi5Fj6xGaSwoaVAgS4_mZTrUQgW9DsMIIAz3v0WU5HMewtuRob6YELng5xg3bQ1l8e3sWp4qUfFXnmZCV3IEuoMv-D9VaQyynySY-d-yDg&key=REDACTED",
+      "source_type": "google_places",
+      "confidence": "medium",
+      "purpose": "gallery",
+      "selected": true,
+      "reason": "Default from gather"
+    },
+    {
+      "local": "images/04-places.webp",
+      "source": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3nge1mc9KcaFv9MMJ7dH7mhKpAd93PQ1VEYhKT_jUsO_pDYLiPOZOlXyg1Hc9O6AaZkv68vgWs3RZYZigZu51utNG4z_ipgNAI3wxmenmzQHFQuOWd0DjzewkbtJViXvcqj4mLk8p56we24MZvNuPKA7H7QDz3yQogY3bkBafavWPTujhezF-j1X8G6GaG0qfmDSRbWa6qCbIhQko852XQhgyNkuX0I2BYcUDpXXuoarq3eyRXE71AQDwN34SRo8fNOGb57FJkqhqLMiXVYndu1m-lYR-50AE-2lr6SmNRZt5KHxlnBJ5AgZ-2SWhLvZRlzdmqq3N9BAUfOsVEmIgdEnZEYZ88r8m3ViVlrxJpPZ34N3ttc3Di9ae1BJRIqgRLigKRnPyRufGdW3U279DAh9GeIt1zCfW-ggvVZ8sudYDfS&key=REDACTED",
+      "source_type": "google_places",
+      "confidence": "medium",
+      "purpose": "gallery",
+      "selected": true,
+      "reason": "Default from gather"
+    },
+    {
+      "local": "images/05-places.webp",
+      "source": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3mfftY7MUUO4KHlpIAr0ZRytpRCGWa8TU7FU6aPumNEyqmA2-QOFbtugT-BSWadS8XWLDwZDnjU5JHqW6cU3bPBxHJnsyXz_6I9ZUuqN8L3obZ_UgjvI1KJDKqO51oOyXLhKgTZopt7Q2WzlK0X7wXcGoPEpz4x1810A9BraMQGH_Yjq0F8diaVvQsi6X99lLnZWWUuU32mUvVzsyqD0orObVo-EE3QBbg_ELiFWl3pEbvtTyKXojq_MtHWRk1RuWLUT2QZvIB64ip-HazfwXwq09fEzRS_RJzgMhoyGhtr8CR317Ol2E-KFFxysuCL0RGzjidvroH16eksn7ddNr17A1c3HIslUwywAqb6xjiIwcWVIIuNQJvfXxJjwW8nWeTb5Q5HLreOe-0MphfvUwEGf0c2IFety3W3-B2_IvWJphaO&key=REDACTED",
+      "source_type": "google_places",
+      "confidence": "medium",
+      "purpose": "gallery",
+      "selected": true,
+      "reason": "Default from gather"
+    },
+    {
+      "local": "images/06-places.webp",
+      "source": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3lGbtg_lbnQrwtHplywxZv3P2uBV_3hlf78PY6PUSXsG5xPhJG_-V6vKNqRc2BvFnKqxJHiIUxTXyEWmvA2R8f-qXJSdkLAzE_bSuoDnN2XNC0Fv-K9CTalhqwN6iO3Q4zinOEHMz46m9aQxwQjZlHZqGKK8Q4qR-vYas_T0mm9fVsgpaNZIqXGO8LqMW7YOoa09S0sJrxRSViuV9NFaNNM4JXW0po4okcyBbS7m-YhfOqz6OTlbtqPUTrmYvGQwhKY5C_R6B01wjxlRRWZMk2oWI3R63FlCG5yrUZqkTVn2NabTQiDRC7FFHinIkOV4iBpYzRBt_-nkchyyG1SlYTqDPUVNGCcwUFa2NyYyTQrPgJmhi7w62wQSiaH4UvJxgwQKlpf4_Ghds_G7PdrcEzpHzOPH5CQkuSt9wEeoaTyp2c&key=REDACTED",
+      "source_type": "google_places",
+      "confidence": "medium",
+      "purpose": "gallery",
+      "selected": true,
+      "reason": "Default from gather"
+    },
+    {
+      "local": "images/07-places.webp",
+      "source": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3lYHAWl6dGZcPgkMPZZTMoYxdQmp_yeCPp9DleWi2JjLsC9_y2UdH2cBix4u9cNFhSZjZnFOoA0fiLEH94ToiW_o_S0sFn5qIWo11J7TXykltGSjqEvsBrNFLPWaQ6VxcGo21UBg7NfMTFPAPst1vF3Z2FcWlUDvSybCJW35Jte4rqsvVOC0cle2gH5f8ENH9BH1VWREYQCVRu0FVbmTwEZKZuuPA_5BWC6ROrm51N9FngPeOaThpKiBBsCAmXVizxu3VSj4EnSwYgJasr5fPqxLAow9fluvqZ0yZrSMNPTRY6uxMyL0xsaJCwjAINOPLu4e0Q9lGInGX3DmsOBRZh-VYn1r-GBV3XYDMmzY8qRfQRV5CXWB25Y2_upeCEfUe_TXU3p-8gd6uq0VnLdI-rbNZ7VUh_hpksq9iv7qDWRGUs&key=REDACTED",
+      "source_type": "google_places",
+      "confidence": "medium",
+      "purpose": "gallery",
+      "selected": true,
+      "reason": "Default from gather"
+    },
+    {
+      "local": "images/08-places.webp",
+      "source": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3nxaYFCZiWTUcW79CHBWGzUBX95qOD6joXgZCeWGhRn_MpfFnmVFwJBAIvpJ2RV2vkfl_9btslNM2OIoHeXfcJ94-LwV4-VCvonrvmwHiNFKz9HffP_c--lBRhDBaDXA5bRNeWkTJGUwqkz6NyQSMjYVcF9QReE5zSV-RWLopjj5yLZeyxMgVYP23WNJaGd5cggqueaVl3U7zw0ohny-levwm8i2z7RljmYZYgf0QubdpjGTz6dbrHRwwuIZBbRnFmQHoyyppHuEma-P-KTY7U6SnDxYMBRZGe_IXQsGBZQQD9dT2Dffs_cj9dumijS5GPshaBMKE2b4lTIJBY8Y-adMAqtrPdWl_8GmZYtLPjLqYO7fIjshiXFEI1XtQ3yf1ir2xbCvyFE6_R7tp0gCfe4vKp1ZbrCKZYg6Q5ZFTT93znO&key=REDACTED",
+      "source_type": "google_places",
+      "confidence": "medium",
+      "purpose": "gallery",
+      "selected": true,
+      "reason": "Default from gather"
+    },
+    {
+      "local": "images/09-places.webp",
+      "source": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3mK_bcLCSIM8yhT2f94NWYyhVj8CUbpJbAOfXAbFeLqLn1dW_lt3V8c6Ju3eFxzZo7J6u_zxr-uDC58Xpm3TPATNakwpLjmo83mSRyS9zRlBwjMvF0KF3HtRYWHZDZT3miFsrddyolP6hNg-Ua_sDHxvWNnwOxapgzQEPdLRXQySnJJMn-CNxjo_ROLhHxwbqiElwnPJQd8jb2gT3L2ot5UgbJ_2r2FHLYVSUYAeYQh4IhrJPFW4RfcskiXHq2pHvmr9XDBDh66GpDMaMlPNKtLwuaxfdsqxRFxu_kMtscHbqYoJSw4h7LEhlKIPl-PdVHV1Dtmkl2UZXkJ2joD8lEXjF9zcSUOpu3vXA8E8saQKFN1dziUOmujWRfU4nmPZYg7-1dMTnGA_ovBsR_YAGBptjxZCi9zcHmFGy8C6fXlhrwL&key=REDACTED",
+      "source_type": "google_places",
+      "confidence": "medium",
+      "purpose": "gallery",
+      "selected": true,
+      "reason": "Default from gather"
+    },
+    {
+      "local": "images/10-places.webp",
+      "source": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3nfdHkDmZIGvcPHyYA8YisCL1HoPjnT1kIesfj1RDddRuJEsfSMQrnyuoqK-045QnmZGXjHWNBJDbL6ouD3ADNkGxRXb0kV26ZBxtDR5qkdka7TRutHeBq7BMsuB49r6gi8Vau-kG3xYHPIJ6jTD5cpVeFUdxiBqB-75rES7QL4BjIo5CKtn2kVzvKXy12d6pCllVx8bKbeU3Xi9XZo7_HmOQsIuyJXJWWcFTrgkaJmNthZWZifz4y49mfiLi4NkBsQrGTqVUjqVDyKeC_sY6jM8bCy_mJ6R8pixQf9BXHygZtqj5t6V_c4RxklrrkGYkBbaBKSxWEIxtkEjWgPu1m__3FFh-PAEwmUY5KFPX_mvf0XVY7Wf-w5bNFd8lAt2zre-asFjzFyOuMgJKwMSnbOqQ_3c0UmxMz5Slxn9PsKBZbv&key=REDACTED",
+      "source_type": "google_places",
+      "confidence": "medium",
+      "purpose": "gallery",
+      "selected": true,
+      "reason": "Default from gather"
+    }
+  ],
+  "selected_images": [
+    "images/02-places.webp",
+    "images/03-places.webp",
+    "images/04-places.webp",
+    "images/05-places.webp",
+    "images/06-places.webp",
+    "images/07-places.webp",
+    "images/08-places.webp",
+    "images/09-places.webp",
+    "images/10-places.webp"
+  ],
+  "lead_validity_status": "INSUFFICIENT_EVIDENCE",
+  "ready_for_build": false,
+  "registry_source_count": 0,
+  "batch_waiver_applied": true,
+  "batch_waiver_note": "Batch waiver 2026-06-11: Google Places plus contact_name_in_brief"
+}

@@ -1,0 +1,78 @@
+{
+  "slug": "nfs-plumbing-heating",
+  "polished_at": "2026-06-11T12:10:00.000Z",
+  "updated_at": "2026-06-11T16:08:03.191Z",
+  "batch_id": "2026-06-11-five-site",
+  "buildId": "nfs-plumbing-heating:20260611-gallery-fix",
+  "verified_url": "https://nfs-plumbing-heating.vercel.app",
+  "ready_to_pitch": true,
+  "logo": {
+    "raster_logo_used": false,
+    "text_wordmark_only": true,
+    "brand_tag_removed_from_header": true,
+    "logo_files_in_public": false
+  },
+  "section_order": {
+    "matrix": [
+      "hero",
+      "reviews",
+      "callout",
+      "services",
+      "gallery",
+      "process",
+      "service-area",
+      "contact"
+    ],
+    "deployed": [
+      "hero",
+      "reviews",
+      "callout",
+      "services",
+      "gallery",
+      "process",
+      "service-area",
+      "contact"
+    ],
+    "notes": "Stats bar removed (merged into hero proof cards). Featured review block folded into reviews. Quote form nested inside contact section."
+  },
+  "clone_review": {
+    "before": {
+      "reviewed_at": "2026-06-11T12:04:46.963Z",
+      "passed": false,
+      "clone_score": 29,
+      "section_order_similarity": 100,
+      "business_specificity_estimate": 71
+    },
+    "after": {
+      "reviewed_at": "2026-06-11T12:10:04.912Z",
+      "passed": true,
+      "clone_score": 19,
+      "section_order_similarity": 50,
+      "business_specificity_estimate": 81
+    }
+  },
+  "changes_applied": [
+    "Text wordmark only in header, footer and sticky CTA bar",
+    "Removed brand-tag tagline from header wordmark block",
+    "Reordered sections per matrix with data-section-id on each main block",
+    "Hero typography with proof cards only, no image column or stats bar",
+    "Gallery fixed 2x3 CSS grid with six verified Places photos",
+    "Generalised featured-review aside title to Why customers call back",
+    "Map embed and link use Bristol+BS3,+UK area query",
+    "buildId set to nfs-plumbing-heating:20260611-polish",
+    "No logo image files in public",
+    "2026-06-11 gallery fix: removed letterhead image 01-places.webp from gallery and public",
+    "Gallery switched to CSS columns masonry (3 col desktop, 2 col tablet, 1 col mobile)",
+    "buildId updated to nfs-plumbing-heating:20260611-gallery-fix"
+  ],
+  "gallery_fix": {
+    "removed_image": "01-places.webp",
+    "reason": "business letterhead/card photo",
+    "layout": "gallery--masonry"
+  },
+  "outreach": false,
+  "og_generated": true,
+  "scroll_video_generated": true,
+  "og_regenerated_this_fix": false,
+  "scroll_video_regenerated_this_fix": false
+}

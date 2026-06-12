@@ -1,0 +1,288 @@
+{
+  "business_name": "Southwest Plumber - Emergency Plumbing & Heating",
+  "owner_name": "Tony",
+  "contact_name": "Tony",
+  "contact_name_source": "google_reviews",
+  "contact_name_confidence": "medium",
+  "contact_name_evidence_count": 2,
+  "contact_name_usage_allowed": true,
+  "possible_contact_name": null,
+  "phone": "07379 475143",
+  "email": null,
+  "phone_type": "mobile",
+  "whatsapp_candidate": true,
+  "email_available": false,
+  "whatsapp_available": "unknown",
+  "contactability_status": "NEEDS_MANUAL_REVIEW",
+  "contactability_reason": "WhatsApp availability check failed",
+  "preferred_channel": null,
+  "address": "Avon, 61 Broad St, Bristol BS1 2EJ, UK",
+  "opening_hours": [
+    "Monday: Open 24 hours",
+    "Tuesday: Open 24 hours",
+    "Wednesday: Open 24 hours",
+    "Thursday: Open 24 hours",
+    "Friday: Open 24 hours",
+    "Saturday: Open 24 hours",
+    "Sunday: Open 24 hours"
+  ],
+  "services": [
+    "Emergency callouts",
+    "Heating and radiators",
+    "General plumbing",
+    "Boiler repairs and servicing"
+  ],
+  "services_meta": [
+    {
+      "name": "Emergency callouts",
+      "source": "name",
+      "direct": false
+    },
+    {
+      "name": "Heating and radiators",
+      "source": "name",
+      "direct": false
+    },
+    {
+      "name": "General plumbing",
+      "source": "name",
+      "direct": false
+    },
+    {
+      "name": "Boiler repairs and servicing",
+      "source": "review",
+      "direct": false
+    }
+  ],
+  "service_confidence": "mixed",
+  "service_sources": [
+    "google",
+    "name",
+    "review",
+    "niche"
+  ],
+  "service_area": [
+    "Bristol",
+    "Avon, 61 Broad St, Bristol",
+    "Avon",
+    "Bristol BS1 2EJ",
+    "Redfield",
+    "St George",
+    "Easton",
+    "Bedminster",
+    "Clifton"
+  ],
+  "based_location": "Bristol, BS1",
+  "google_rating": 5,
+  "google_review_count": 5,
+  "google_review_count_sourced": true,
+  "service_areas_inferred": true,
+  "google_maps_url": "https://maps.google.com/?cid=6125591694827853219",
+  "website_status": "NO_WEBSITE",
+  "website_check_notes": "google_places_website=empty; Invalid website_url: google_photo_api",
+  "website_url": null,
+  "photos": [
+    {
+      "local": "images/01-places.webp",
+      "source_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3mh6tpEjCkT4F1pe3bsVw90Rux_v4yrvO-j8upMpdTKOOE-58gcPV0mueVoFpId7-soGK3TeTHCBk1enh0ew0mgkA2zaW79nJoUG1npqHHU0DRzQ8G6JEnNayKCLMksLI2CxGS_0CMOamjs5II0Oqlb1AC7LNFU-ISiqv7l14GevcW_j4ydL12yuzdzOHIwS7otYHWzKbIr3bs60L9PO5boSwhie-I5YvuM6C2ZtGrqlGE-62djhf6XlkFtU1POWD6yyOMTa7aqRDuZqXE_BRjvR3ckIXMV_gFtGx1rdhxqz54bBudImKs11NAOydjvOD2epe0o_nJYbnH8f9U-M_NDNYQcqwG5nSsqFR9D3e2VSd1DZEQMUhnI4hp5Ohk7MGwMlbhuXdOP3OmfDlj_vgc1xd9TgIS2fokX-dgYJeE&key=REDACTED",
+      "width": 1200,
+      "height": 1200,
+      "classification": "completed_project",
+      "pair_id": null,
+      "source_type": "google_places"
+    },
+    {
+      "local": "images/07-places.webp",
+      "source_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3mJDwXx-YTfxx0rSURfIXNVP4SLcPp0TJ7UrB9mdzZVfQMLpqJJJZT9zG1VHsEHXTz6aFH5JV26m5Cc56zAxb5UNGBDrlarjLlcQ73sKUu1kTlwNrw1pQIeuo1Hmb_uRV-foU7CjDe2f5U6ggNLvW5ISrLMLxLVfI4fJnp8cTe4yOpniSaZ50KwA1Y5VljjFiuE4V7xQj3_x_KV5hayocIXW1wrXck5GgXheH-hJq748tvwQQRKIc3eFr_eT-bxfx3KsmRsLlr_fbZSENzXfUzde1s2Z1wpijSVfBfHduRZEZqXjtUQezHlreLPYYV0YQHhEKGmjDZjaK1iryPGMYIfeiKowQ93gEaFCygZ2wkymS_hLJSLalcqZq3Xr1ZE0WRRyoe7sWhPwUje1dlvIfH7scVEOEZ_CNqsC5Zll2vxv7K2&key=REDACTED",
+      "width": 1440,
+      "height": 810,
+      "classification": "completed_project",
+      "pair_id": null,
+      "source_type": "google_places"
+    }
+  ],
+  "reviews": [
+    {
+      "text": "Excellent service from Tony. Our boiler packed in last winter (can you believe that?) and with two small children this was a grim situation. We called Tony who came round within 24 hours, fixed it and charged us what we felt like on the cheap side (not that we're complaining) could not recommend Tony any more. Thanks very much. Ronnie",
+      "reviewer": "Ronnie",
+      "rating": 5
+    },
+    {
+      "text": "The engineer was friendly and professional. Very thorough and resolved the problem in good time.",
+      "reviewer": "Kathryn",
+      "rating": 5
+    },
+    {
+      "text": "Quick and Professional, thanks!",
+      "reviewer": "Amelia",
+      "rating": 5
+    },
+    {
+      "text": "Tony did a world class job!",
+      "reviewer": "sapphira",
+      "rating": 5
+    }
+  ],
+  "social": {
+    "facebook": null,
+    "instagram": null,
+    "youtube": null,
+    "tiktok": null
+  },
+  "gallery_layout": "completed_project_gallery",
+  "photo_classification_summary": {
+    "completed_project": 2
+  },
+  "brand": {
+    "colours": [],
+    "logo_url": null,
+    "logo_local": null
+  },
+  "source_urls": [
+    "https://maps.google.com/?cid=6125591694827853219",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3nudTU7ARYBS5BCF1R9-p0hcrT6d17n4zqZsbox8TLMFuCgXLoQLGLM7daUj_8J4avZeyI2FROkOnMzfkek6MTzm2ehFvOkFTLNlyrFbcbMleBKjZ23oLeZkExa-MJZ_gBY5N3EjQzEClXcFrZrCQjyRMfZ5KzS84YyS9nG12OifzOrfJNk8A2i82jvNBsjQmbPLw3HVQbcD9PN9pLo52Ca7G3dr7UNHMChisayFjnrO7UQhB97MGa83iY9x5dR-4D3JaxbPkZ18BxLy60SQHS8--RIwcF1u36zQyf66yjdwIQ0fX9gSSy6LvPz1RjUPG3tDXzEE0zNYbe4eexDuRsAgPnhe4CBj_cnjDjnmA5rPQv5iS8nYibFAnK0SAeFLqS86R4x1NSakVRwgg3or-LpSWikESksaeCHcRGmaes&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3lIsu67ptEXytlbgspoHyqua-Rz-Bdm0Sq7Z5chPiVD7XBo5QyVktl92qpvYx1wlPnHO7tZ6w3n-ZrbGyT4bvbFLDKCbDS0Ks2RTcRYgwgKX7DdixHCuYdKk7h6KpYbegdE6hZzi2Bsfn3HslQ0lr4qvSDX7_l8biDvXANUmQb7wOv5ZphQeVD71LiIER2rBvL-GGgH2xNoAYD65kIQJRhnCt261h4WYPdugn7LpKNcwOSdR2zD9XBObvTkK3uG5GK7qwJB3Z_9AqwqDBTM2sCCQs3fEt7t08FJaRjRd2BM-xEtuLSkn4PYuoZ82lPvF1qfP4YgnxaP44nFxZy0JjgrY-zV_5XJdQefUFdn-NC4BB5Hlad4ZyEI8Xh_MbPh0yZGi_zkrI4uLxTcNbdByS5NDaQTY3Y_mymV8I2QBaehLA&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3nopzDByylcaBtQZg36y_nvD8YDKVBr5n6bgcR-ZlCuC8yG1T6M1JZPAmpA4Rt--xLcjNwarP9cx984Fvlt9ubYFNzrK_8bMMpNYMEOlVYQM3mxSxDpr-n73cPiySrgvrYBPhlfX-rWplJii28r3IpnuRiCYDfLZ-OC3AQoPArIGEgH29wAvYTSfEKmc7gdcaZJ0Ovu9d2pN_6s6G1xg9fwAPk_Y83oeijCZYaueq_IF-vC-FHtzb7bZCc1XEsi-GVs7XG1XiSENNtUe77HsPbASrqcZmEJ9o6CwDKMg6U2fYr2h3i1TNWwh3e6QKWJiez3CrwYAKvYmSfoAPlODjRBrFnxp1n-11xdvTYoNnErcROHGjN9QxPmvP7Ou_lqC548uQBGvWJscUhciquqfqz_D2QIx-aekTQ3xa3xseyY8IWT&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3nwNZo8OJ3cX9dxDs_PFm2sNbctrfwbjvT37p6ZT46VMtIf1gE1cAtsVjcPWuGh3ByBkvziy-WrUmHKDRrPOuHi6akZDrld5Egn7v0Ux_G5o9x9ypLkKCqL_DMakFRl7GaLLZQRxX5Eap249zcB4zDh2cnROnRL7-9LMtmrnEK_VRArzyEaGFCd7KOVVCfzovdl1jM2hkawe9AIHtYAJ_Iabgr3CZd5ZLtAUWLh6t5BHXXDOwDvjUNt0qL-P4ZdLdXlEaFnsPLZA-e_gVcIJlhu2r8aQEfsAIF5k7PpNNXsIH-L6fbvVFq4aYfO0nV3J-bmaOhsBUYvaag0hd3BhdPJ4D5Ugf8wk_aJbqrqEaJtpJbgdaMGpyEKw8F04TWr2ev92BTAZSAbyt3WOaF_W24R7AuBX3YIW2oKwAhiqh0aeqI&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3kPLc6qIABfrPIggLhNj-JQHnx-ObR49NetiqqU86SHLy4V5zj8nZx4sHSP4xCMaetD4lTnq78GIpWcQvc8y-X1IDGeQdJfPo4_6q1OqcWOEKuRT2ZFTZYoNqGbSbekKpHb9WaznhnSLFCzp0DjVmw9PQsXYWf8KlY98-UeXyQVsc8_GXfhqECVQA8c9VbmWpramTJoaUVYwCeGq84E9QB8DHvuRKpVtjuKHjgnL06J6gKbjATj6HaxNZ40Ao69Fc7O9pHrd58-fs794LMkjh0q-FZrUZyWR2iWBa7SmG3EsV-JbcwQSO7oYG9u6xy1UAMAgHa3xTuTn5O_Ju_ekVecxydCmAs8tNIbAzrN4r0nSfoc2nlUXQGOBLDB_pSQ_bAEx7WXnn6qKPz57hNdsSlml_9zotZDW-FHSX_LBLt0SA&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3lUm5FXrsUGfOTStsV3CAlwebLX5BYvUGUjSL1aq8gN58T87lF_vP_SFFYt6WpUTp4mSHmaxUR5q8pOvf5uIRUzheGnugOd-B31ciS_5uBn93LnI5E1m4lwq9N7bb2tJM8KIHa5kgNm32MWjG-CEqSdjHIx_qt92g11XV0r72fqvCYzWUUxiGOdNmhGaR5mUzR-ojNptYbJVZ60mUXYeNJdPtmgQNHGjj_85fZcNB8sb77h8jnoDPIwqta4dvjuz2XeYLrmsEx6rUhFmdy1C460_lWYoyu8alv7dhtkwXmakPQSbdn78DNhxVFuFL_NGBmMQnsCTG4VguAXVJhSMTUGaxC7bXHHL1XRPsxbI7WZSUnoODll2qYmYKJvYXPWXiShDBc7jNuXM-dREqPg35So1M2uCI9xiTtrgN1Srz0XMWU&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3mOgGllqtLhaup_4fuoNVVa2I1W1ftiMf2YJUwwkUDkTWnoAPIRGxVF_kl7CwFBYMzJYxmxoxjAiq11wl6KPWCJHQydsMI87hUGVMiG1PECMoLdTxj88Dyc1yE8W2OLHehhW5GVGl_eCF_HzYWvkQJNSXDdN_NojbJFGztDH4SfdSV3VhlHdJ5XkbNr24Wl_LTKgJzaiIJ5lK0CKLZ-Tp2UF7AIpEuU3_rxFvJIZYAPlOKmqT3VeiiOGBgGW9OMwBXItC0h9Z5ipU3PCApzxQNL4-5fW8ubW9L7O7f-5WppADX4eEV575OwMCTg_sVA8r7hA7c2av1w2py-9Hk4GuuEOXgkol9olzzapn3f5RFPkuU3VHNRXn8osYddMQcpZUpGKS2aM-x7YYnrjyIK1f6eL3TBGbmNxOAzH0Fu4ZMraZpk&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3kb74IC9keLiIG24lLrfLHElmpDzkS875wLT4_su5joYSW4WSTpG1xS64i2tFOHobt-qhmBlo1UCW8rJID2FObcQF8Wycqffoh4xnl2DLkcT-FT8nzcdHYi0mOvZGWVWQs4nIYWyHByLzcDJHF6bh5Y2aLCD0vCFSPOHe4mFLkwkpT4fO8pxJ85CkxszlGzitAQRITQJI5xcQDYkn7GTBgQOoV_EMBZrL1yX1WpwSFQQo0vAixtXWWehdgSVA1CqdE37vAIb-Jx03P_O_vGEiEFNHgCeXxpP_-kWQlV_f_JGaQZaMtIKj0hpfe-9k8zU6u5yRcvb94lmo0b54UqwY1gMg8mCywwcX93iX6ldggKRhWb3i9brdruv-ZAj2czByH3rS1A5YJQBVjobwEYp3eB6lxdar-qYXP-Zh1RWcUWNpSw&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3mSsDcIVg5KmB-mqS0bZOP10iN8dIm5T3d2J8G_B2avy2PLtOtsdCzu3PoTU9_ulYN7MU8fz6agPAslPBH_taCN6QxQ5zIPFaKeJUyOQG5n36Z16AOvTyBjWAmeU9koJlHyL_60L9wo_z7gmb0ibxX__7Kj3Jalag9WTAcVMZOYelbv64VtIqDuxQawPLNRmepf8P5CBtTZkN8nW-lVysvc-idINIDzcqk79QWPeCEzIj9ZUuGH4VBjF_eSml24QkB4ACCEU6RUoTC0NTbUqfmZek3K98odEB9yl418Jv8wGWiEb6S3dsDgo5eq0aEHp0yFXBaHaPV9H4rGWMrasNMbjjWxoF22mcKZy7RE_C1fSmLNUCGBDAPHedoKEJRgUulxQiKaXnTgHvy9y6eABm1k8prVeaFceugKujSai0c&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3l7dZOjhoVC46g5CtWzjj11T1dLBZnmJs0yJOwUqUylRcdKuN4PQic2nwLN6nmxxt8bDiTQ_cnYE1pIZ6RfQctAtKb2JVm4e-RekfIIDGEERQHRVEy1GiRSjVth_xmERqxBHa-56-jJql4HqlfjynNhdb3lkvC3ZANK1yIlSaX1AH_pF-cJN0YrSAioOZwhYIqQgoic1yFyRUF5TVbx08EfyVk9JedyBqxF5i2geUznc7UcgOmtezHfNmqJcXw5Bmbxq1NWQ8KsSc5NFdd7FCbSJmhfFAPy61RdSeP8xd5kBhHOWjztpy3KSt04-Ex3j-N0H7yYg3dLgnINsRO2IorPH7LDV5buBmFMQ8IBz48JJraqrFObRoHBG6e-XMBa8UlGXdY4GRQ71db9ZidG3ry53NA4dj3JGBnMIXSvdbpxXAo&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3mh6tpEjCkT4F1pe3bsVw90Rux_v4yrvO-j8upMpdTKOOE-58gcPV0mueVoFpId7-soGK3TeTHCBk1enh0ew0mgkA2zaW79nJoUG1npqHHU0DRzQ8G6JEnNayKCLMksLI2CxGS_0CMOamjs5II0Oqlb1AC7LNFU-ISiqv7l14GevcW_j4ydL12yuzdzOHIwS7otYHWzKbIr3bs60L9PO5boSwhie-I5YvuM6C2ZtGrqlGE-62djhf6XlkFtU1POWD6yyOMTa7aqRDuZqXE_BRjvR3ckIXMV_gFtGx1rdhxqz54bBudImKs11NAOydjvOD2epe0o_nJYbnH8f9U-M_NDNYQcqwG5nSsqFR9D3e2VSd1DZEQMUhnI4hp5Ohk7MGwMlbhuXdOP3OmfDlj_vgc1xd9TgIS2fokX-dgYJeE&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3kIhETd1OFHq76qqC1JZ5y5B2-A2OM2kXdk4oVaXuTZYzrI7jY2uKcJugtQAddZxolfHW1ZN4B3aal4VSelc4knCYAWmOkgZAlRfNx7hKln-zgagQRFDrcbj2m3b0aVzRx2j7p7A08zPEcGkxafWfAnIaeHRwjLtxSMFse-6NfwAnfQrdm7Le4g3iN8wBBMiHT7KrtCVY9HqhZO9zcy_dIw6TER-ytewAIY4-JhpUKGKeej2XH5skxFH2FIqeT3dewR9nhTDBODRjPOfH6v-G2RDSLIe0Edl3rvql0fyPxJGSRy9NNEr-rj1EQARTm7bUYb5KAT1IyA9znqvRt_4DNh_wTwPhu-O3L3l4leN2n1d-YrjKs7FfSdctih3h0bwiwlZjBBlc8K2ekd89FG5FqEvqoWAQVUI0ZI6Mdu8-HU0g&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3mB51QsVK-Cu3rMrb4uE_oTrYP856eoKhzo_3HfyV5tYI0eY-9Vh7D4UBVAFfIhogyvAxIypT2p-fzdp9cjogHeBFMUsjoKohq-Ie7OLYLJ8OuLpCiHJhO0KkEenbAoByJsOLAaR83d-txpIN9oULe5Sf5Swvr-13bvxoTH9rsdPa32Cq4OhXFebSxrfwGAXyptZH4uOsQVMx2NAuJXjYRES4vGozsPzmdA7lWgdCgz0X7rQjJBGqgC3ve43GsIy0FKA-5aFkWl9QFxyD7_F_ElTErcz5KJiSTDGPX3qffb_fL-9neSxJF1xsiyizH1vPkWEV8eTDcxO4CLwffL11uEqs9iZeeaaMl0BNx21EFFpOWfjAcCCef0ci71ojz5hVF8lrwUCDDH0elO_P40RJ5ocwIDrhOA0wpSAsK73EV3zKwe&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3kIRBvReWx75NT5oDp8Thd5rRnfWw9boq608r-pHeBqLfUxhXvO2XNRNNVZu_IsWkCSA01x4d3DtAuOSk23Y2dfc4HMMqUm6o-zhtKYO_NEA4iNu6zy8E5lgHDASoS9TKDvIjfFHIb6CykW7FhQJkBXKqsgV6q5g6Mx-5MYqbZA5N1mGDobjbhxKuys2R54GIScEGiLv2mg7ZAfLtY38rseexAP6uvpU7zpmgDAYXGTaDH2u0d0ptKBOmlcar0HB-IWBkfwJ55wSl2p1v7KkoZ3lkN_X8on4jnhG8aL5zWagNuJonEaJ6GqTY4inY85ySqxIJ3h6zytekQZp-nS9WfUfhWyXae8aJUmk8zrqbGxty33brTg30jf2wgSGb4s008BCyeTsGajyS-dRgAFphpuVYt4g8SO_O6PLqdflvoo1K0&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3kXxy9yQnSxRoQmYR7PJjKAq-znGt_nbNHCAf801Tl1RxRiccH1cO7ivCEVJCqTW7BhdwitL4SJUOynwqdZsGmcHKi-mcbrZYj-fnglVxTxmVcX1H5C8SssqHvg6JIBNLCO4RxYYhPx7pYXGwDzOHxift2ywagjLBCPXLH2-zFulP2pqS35yBo-RCQtqMlNp3J9R_p4YYqGhVWECeCJ8R7obCCaTL_zNy3fgbkfXlNZkk5NkIXelvd84kOtv9EtrAgUd5V_jZEESwvV-5s4m8US9VGSE2zYY_qbZboZEpNOAitdr_7fJcTHWnToMUi_VZ3BaLKDp7dMsy7n82iDNNu4kxwXCaoIiTPqrmcItJsElgsE17xr5DZgsw5wo6TA7qmJoSZ1JK6p1G_V04b6zdFi4-Qu0xcAl2el38GyN3ieBA&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3nEYs3bMjCdfLvAZD7km9gshcgKrXmxZ-GwTNFdujjvRxU8aIasBM06F2q44NvCHkZdL-9WgAb2k9qODF8m05Y8ejwEppXNWWrcIjo6Rff0vk8DH4-5AbxfKuRoF6jGbRn7Lt9fwJjt_QBHfxriHy2HIPD3KzSEnEv55blpKu_JKJwu19cTo61E9Z0Y5yqcXi7-SQQrlrtO7niPZn6IwaBS4Nl85uu7SkGeyVfJmEbdhb92c2ydPFpDQBNHwp3xdbMaCbHEHrdKQ1DPmnVaH7RW3QpZLw3HRWrovfPpleaOk5m4ZS6rZ09blksY4jKoP7OVUptzgigE-t8hJ_tSyng70YMv68BTpQcupkBkKDIMWT8k8zw-FD9STKE4ZP8lDsGaycvti5URvE96m3JGjQjxFKkAE_KrD_m0Bb2hKvb9p-Q&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3mJDwXx-YTfxx0rSURfIXNVP4SLcPp0TJ7UrB9mdzZVfQMLpqJJJZT9zG1VHsEHXTz6aFH5JV26m5Cc56zAxb5UNGBDrlarjLlcQ73sKUu1kTlwNrw1pQIeuo1Hmb_uRV-foU7CjDe2f5U6ggNLvW5ISrLMLxLVfI4fJnp8cTe4yOpniSaZ50KwA1Y5VljjFiuE4V7xQj3_x_KV5hayocIXW1wrXck5GgXheH-hJq748tvwQQRKIc3eFr_eT-bxfx3KsmRsLlr_fbZSENzXfUzde1s2Z1wpijSVfBfHduRZEZqXjtUQezHlreLPYYV0YQHhEKGmjDZjaK1iryPGMYIfeiKowQ93gEaFCygZ2wkymS_hLJSLalcqZq3Xr1ZE0WRRyoe7sWhPwUje1dlvIfH7scVEOEZ_CNqsC5Zll2vxv7K2&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3mWN0lhaElZRaw6zM2xX1Ge9uFfmIzEvgcRn-2NmLKyFwYwqRsghh5UrFXaMsG2tFYoMyRIPvrc_NBGztrx5gyUZidUJvpSYo8r7j8sffciPd2C-Du2we_ntzEMbJ7bwE1bA_2yLC8iy2cbjUVm4VU0xqOQs4xKVy1evyJMDfeWY8nnFC6XkqJ3lxPWH3EeHl4zGwz1WbqaMMeAza2uwQ10WthWcTTWHRSk2EDl-pERTVmJdtckO-jahBPCKIlhRcIUlBPpz03xqpIKA-xHkiag6aBkMu-bjb_T3i5VRR8Ih73EvJtVvux7o5KgOuO_qLi73llCOvJUXlGOIt2hevdD-p09k2m2zNbj6P359fFTxPF-ELkCzwcq5a5uiL7BiMI7hOrWI7sdnFrzJHfT6N2CS3B5wTsbRww8O6aETP97snBP&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3myvExDRuBZiL8kE1NH1Jo8El7ZhhxLEUcKTk_YUmtCJkfxRDVFCTmJPFN-W01uNNYA_eo4LANFM_Gb-HbNJ1VugeSJdYTsufPbof6JVVMe24N55tIZovQmiKEl9d9aVDX-Nq8A3nVM__jLahUfqDWuH8okWWJerUlnBJf4R1E3QZj1T34rF9h-vDGo064JBbJGU4Gd4aK3Jgki4rmFx_p5Uvkgm_FbxxdKtwN5F9pBpnGRbpFMylPs72MKBBJM9TUv1sqswYgd8QndtPLtTGBNQ-PfRCsj0Dq31Ci5PBzoEga78q3MONuWD4pF5RU0-e50FdLJHHTBDEpJYIuCGwL8pRGH5_DLhnGTJk2Zjf14NUdxzSBLoFSgRZR8lAb2_TJeolvra0Ke1TyCM4F9atCJlVZREF4h8bMUzvYVlW8&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3kqoCztlx5LD5zyb3x2bO3rLFyCiuyyPTvzEkRDD_ZSYnnx_PbkUBZ3VvKsWLi22zwQkiBOF6uoNm664MRwAhSuTMhscCf3AJSyKd35BJPoIAvwWc05KHnEKoR3BIMZzQ0E0j15HGtHgF5SQSLddXyrC07Jo9klWpqZYuwyXL29SqO1ye85o-vJykvjxBt8TBzpO0vlcqCdmbkFP6S_aYuaVAv3ODZmK9RX91Zh4AWAppE2CBSEHIiLFCEctEevapVqGvGpqwz4UJrmCWNADYO5YXHCliTSpTrQWRpsfS4Q7kNLPFn_Bx4WQ5Aw6yzas2iY4048FR0UaeshdWhavl5kBtpTWDRaOrErfkneyeX_ljR3NZ3hN1bOGRl98SpfjPAbNPph2kNjhH4Wu7J117VcUNk6Sdf88qM87_ub9tg_Fvk&key=REDACTED"
+  ],
+  "notes": [
+    "email not found in public sources",
+    "contact_name \"Tony\" from 2 Google review mention(s) (medium confidence); owner_name not set",
+    "only 2 usable photos kept (target 6-15)",
+    "contactability=NEEDS_MANUAL_REVIEW",
+    "WhatsApp availability check failed",
+    "Photo discovery: 2/2 selected (Very few good photos - proof-led or typography-led layout required. No placeholder boxes.)"
+  ],
+  "missing_fields": [
+    "email",
+    "photos",
+    "facebook",
+    "instagram"
+  ],
+  "invalid_website_candidates": [
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3nudTU7ARYBS5BCF1R9-p0hcrT6d17n4zqZsbox8TLMFuCgXLoQLGLM7daUj_8J4avZeyI2FROkOnMzfkek6MTzm2ehFvOkFTLNlyrFbcbMleBKjZ23oLeZkExa-MJZ_gBY5N3EjQzEClXcFrZrCQjyRMfZ5KzS84YyS9nG12OifzOrfJNk8A2i82jvNBsjQmbPLw3HVQbcD9PN9pLo52Ca7G3dr7UNHMChisayFjnrO7UQhB97MGa83iY9x5dR-4D3JaxbPkZ18BxLy60SQHS8--RIwcF1u36zQyf66yjdwIQ0fX9gSSy6LvPz1RjUPG3tDXzEE0zNYbe4eexDuRsAgPnhe4CBj_cnjDjnmA5rPQv5iS8nYibFAnK0SAeFLqS86R4x1NSakVRwgg3or-LpSWikESksaeCHcRGmaes&key=REDACTED"
+  ],
+  "website_url_validation": {
+    "validated_at": "2026-06-10T17:13:53.678Z",
+    "issue": "google_photo_api",
+    "note": "Invalid website_url: google_photo_api",
+    "previous_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3nudTU7ARYBS5BCF1R9-p0hcrT6d17n4zqZsbox8TLMFuCgXLoQLGLM7daUj_8J4avZeyI2FROkOnMzfkek6MTzm2ehFvOkFTLNlyrFbcbMleBKjZ23oLeZkExa-MJZ_gBY5N3EjQzEClXcFrZrCQjyRMfZ5KzS84YyS9nG12OifzOrfJNk8A2i82jvNBsjQmbPLw3HVQbcD9PN9pLo52Ca7G3dr7UNHMChisayFjnrO7UQhB97MGa83iY9x5dR-4D3JaxbPkZ18BxLy60SQHS8--RIwcF1u36zQyf66yjdwIQ0fX9gSSy6LvPz1RjUPG3tDXzEE0zNYbe4eexDuRsAgPnhe4CBj_cnjDjnmA5rPQv5iS8nYibFAnK0SAeFLqS86R4x1NSakVRwgg3or-LpSWikESksaeCHcRGmaes&key=REDACTED"
+  },
+  "prospect_region": "Bristol",
+  "location_validation_status": "OK",
+  "directory_probes": [
+    {
+      "platform": "checkatrade",
+      "candidate_url": "https://www.checkatrade.com/trades/southwest-plumber-emergency-plumbing-heating",
+      "status": "NOT_FOUND",
+      "confidence": "rejected",
+      "title": null,
+      "rating": null,
+      "review_count": null,
+      "phone_visible": false,
+      "verification_reasons": [],
+      "note": "search_deferred: Southwest Plumber - Emergency Plumbing & Heating Bristol BS1 2EJ site:checkatrade.com"
+    },
+    {
+      "platform": "yell",
+      "candidate_url": "https://www.yell.com/biz/southwest-plumber-emergency-plumbing-heating-bristol-bs1-2ej/",
+      "status": "NOT_FOUND",
+      "confidence": "rejected",
+      "title": null,
+      "rating": null,
+      "review_count": null,
+      "phone_visible": false,
+      "verification_reasons": [],
+      "note": "search_deferred: Southwest Plumber - Emergency Plumbing & Heating Bristol BS1 2EJ site:yell.com"
+    },
+    {
+      "platform": "trustatrader",
+      "candidate_url": "https://www.trustatrader.com/traders/southwest-plumber-emergency-plumbing-heating",
+      "status": "NOT_FOUND",
+      "confidence": "rejected",
+      "title": null,
+      "rating": null,
+      "review_count": null,
+      "phone_visible": false,
+      "verification_reasons": [],
+      "note": "search_deferred: Southwest Plumber - Emergency Plumbing & Heating Bristol BS1 2EJ site:trustatrader.com"
+    },
+    {
+      "platform": "mybuilder",
+      "candidate_url": "https://www.mybuilder.com/profile/southwest-plumber-emergency-plumbing-heating",
+      "status": "NOT_FOUND",
+      "confidence": "rejected",
+      "title": null,
+      "rating": null,
+      "review_count": null,
+      "phone_visible": false,
+      "verification_reasons": [],
+      "note": "search_deferred: Southwest Plumber - Emergency Plumbing & Heating Bristol BS1 2EJ site:mybuilder.com"
+    }
+  ],
+  "enrichment": {
+    "enriched_at": "2026-06-10T17:13:55.220Z",
+    "email_domain_checked": false,
+    "website_discovery_run": true
+  },
+  "lead_validity": {
+    "lead_validity_status": "INSUFFICIENT_EVIDENCE",
+    "lead_validity_reason": "Enrichment incomplete or source confidence too low",
+    "pitch_type": "manual_review",
+    "website_status": "NO_WEBSITE",
+    "website_url": null,
+    "website_discovery_classification": null,
+    "email_domain_website": null,
+    "source_confidence_summary": {
+      "overall": "medium",
+      "verified_platforms": [
+        "google_places"
+      ],
+      "rejected_platforms": [],
+      "notes": []
+    },
+    "ready_for_build": false,
+    "ready_for_design": false,
+    "ready_for_pitch": false,
+    "manual_review_required": true,
+    "has_real_website": false,
+    "truly_no_website": true,
+    "warnings": [
+      "contactability=NEEDS_MANUAL_REVIEW",
+      "Source enrichment not complete - run enrich:lead before build",
+      "Very few photos - use proof-led or typography-led layout"
+    ]
+  },
+  "source_quality": {
+    "source_quality_status": "FAIL",
+    "source_quality_reason": "Source enrichment not complete",
+    "website_url_validated": true,
+    "email_domain_checked": true,
+    "enrichment_complete": false,
+    "logo_discovery_attempted": true,
+    "photo_discovery_attempted": true,
+    "directory_probes_attempted": true,
+    "warnings": [
+      "Lead validity requires manual review"
+    ],
+    "blockers": [
+      "Source enrichment not complete"
+    ]
+  }
+}

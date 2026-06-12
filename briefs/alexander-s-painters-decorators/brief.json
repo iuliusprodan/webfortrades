@@ -1,0 +1,352 @@
+{
+  "business_name": "Alexander’s Painters&Decorators",
+  "owner_name": null,
+  "contact_name": "Neil",
+  "contact_name_source": "google_reviews",
+  "contact_name_confidence": "high",
+  "contact_name_evidence_count": 5,
+  "contact_name_usage_allowed": true,
+  "possible_contact_name": null,
+  "phone": "07944 444082",
+  "email": null,
+  "phone_type": "mobile",
+  "whatsapp_candidate": true,
+  "email_available": false,
+  "whatsapp_available": "unknown",
+  "contactability_status": "NEEDS_MANUAL_REVIEW",
+  "contactability_reason": "WhatsApp availability check failed",
+  "preferred_channel": null,
+  "address": "64 Grange Rd, Bramhall, Stockport SK7 3BD, UK",
+  "opening_hours": [
+    "Monday: 8:00 AM – 7:00 PM",
+    "Tuesday: 8:00 AM – 7:00 PM",
+    "Wednesday: 8:00 AM – 7:00 PM",
+    "Thursday: 8:00 AM – 7:00 PM",
+    "Friday: 8:00 AM – 7:00 PM",
+    "Saturday: 8:00 AM – 7:00 PM",
+    "Sunday: 8:00 AM – 7:00 PM"
+  ],
+  "services": [
+    "Heating and radiators",
+    "Painting & decorating",
+    "Painting and decorating",
+    "painters and decorators"
+  ],
+  "services_meta": [
+    {
+      "name": "Painting & decorating",
+      "source": "google",
+      "direct": true
+    },
+    {
+      "name": "Painting and decorating",
+      "source": "name",
+      "direct": false
+    },
+    {
+      "name": "Heating and radiators",
+      "source": "review",
+      "direct": false
+    },
+    {
+      "name": "painters and decorators",
+      "source": "niche",
+      "direct": false
+    }
+  ],
+  "service_confidence": "mixed",
+  "service_sources": [
+    "google",
+    "name",
+    "review",
+    "niche"
+  ],
+  "service_area": [
+    "Stockport",
+    "Bramhall",
+    "Stockport SK7 3BD"
+  ],
+  "based_location": "Stockport, SK7",
+  "google_rating": 5,
+  "google_review_count": 34,
+  "google_review_count_sourced": true,
+  "service_areas_inferred": true,
+  "google_maps_url": "https://maps.google.com/?cid=2664396191179093018",
+  "website_status": "NO_WEBSITE",
+  "website_check_notes": "google_places_website=empty; website_url empty; Invalid website_url: google_photo_api",
+  "website_url": null,
+  "photos": [
+    {
+      "local": "images/03-places.webp",
+      "source_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3lS7ecgLl7TFPKhx-52prqpvtrb1_HiRZR2fB1NnyoF7lV4Jcv311ld2PayizFRHJ1tcve4ltGCmmUqRej0YSPF9YQPzmL1D_QhMBbygXvPDltg0jA_kRrtURGKNWqalQj_netHYeqokTAxD_NP-DBD866yZUeFrXH7WuA-Yqfb7DdcrZt2iXbqIWWXJ9gostuSikibwd37FNnTtTyhvxHHqYljWRJ7zVpURjC2TmJPfXYZL3XwGlS4VzH7sqn6AYIco6VBNB8NWIOf5VrtGGrRDA96-CS1Nd1DNgC3kc2YdIAGqk_kNE3S-eKlVHp8L8HLvi5Fj6xGaSwoaVAgS4_mZTrUQgW9DsMIIAz3v0WU5HMewtuRob6YELng5xg3bQ1l8e3sWp4qUfFXnmZCV3IEuoMv-D9VaQyynySY-d-yDg&key=REDACTED",
+      "width": 1242,
+      "height": 1551,
+      "classification": "completed_project",
+      "pair_id": null,
+      "source_type": "google_places",
+      "cluster_id": "cluster-0",
+      "selected": true,
+      "selection_reason": "Selected for gallery",
+      "caption": "Bathroom finish (same project)"
+    },
+    {
+      "local": "images/02-places.webp",
+      "source_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3mNRgz3jNyfPGbd6L7ob2Yas_7UO_BdYt5LK35WZ27ifufmuAgm3G2QMpLA6Ub-gcRrAr79VEbH_1_nvSnE0WcuVn0XdqPAtxRdIwmIn59jNusahD0lcPdDdpPXRNh8CgvSs4pkD8nNheC4TfFTPEN6bUxrNu9AhpQpkoSn5ZMIk-2gWeoPLspCEVLfKJRaLShrWpOMNUwPpGkJDWNOGGTdh2Uch2WVPvi6aGtp7cpujqBzVMB9xOOhoGixPmGMNP0L76XFa2kjYab0zJlIkh8T19BGOMaVTlxJn1SPHN6mH0yM0ySfz6CfZq3vPIrTCwi4wt7MHWQjbXsnp4dHgooMD2XK_zhT9pPGVVyzefQ9Z8SxNpCZ0WYkp0mhKcJJuPhb_CiBG681SPga6IyjdPSQ0i08a0MPDrWTu61im6KuY3La&key=REDACTED",
+      "width": 1600,
+      "height": 1200,
+      "classification": "completed_project",
+      "pair_id": null,
+      "source_type": "google_places",
+      "cluster_id": "cluster-0",
+      "selected": true,
+      "selection_reason": "Selected for gallery",
+      "caption": "Radiator pipework (same project)"
+    }
+  ],
+  "reviews": [
+    {
+      "text": "Having our upstairs box room refurbished. Neil came over and firstly removed all the historic wall paper (layers of it) and then saved us money on a plasterer by carefully filling and sanding everywhere that needed it. He decorated the room fully, including the walls, ceiling, woodwork and the radiator. Neil did a really good job! He’s also a really good guy; professional and also personable. I would definitely recommend him for any decorating jobs you have.",
+      "reviewer": "Sachin",
+      "rating": 5
+    },
+    {
+      "text": "Neil is a true professional with attention to detail. He is very friendly and a perfectionist with his paint work.\nNeil helped us pick our perfect shade of paint for our living room by coming up with a few suggestions.\nI highly recommend Neil you can tell he has a passion in what he does. Looking forward to him coming back in the future!\n5*",
+      "reviewer": "J",
+      "rating": 5
+    },
+    {
+      "text": "Neil did a great job for us. Lovely paint finish. He is very professional and courteous. He works well around the needs of his customers. Would have no hesitation to recommend.",
+      "reviewer": "Simon",
+      "rating": 5
+    },
+    {
+      "text": "Neil did a great job decorating our bedroom, he is friendly and professional with good communication and attention to detail. We will use him again",
+      "reviewer": "Amrik",
+      "rating": 5
+    },
+    {
+      "text": "Neil was absolutely brilliant. Very professional and high quality of workmanship. Highly Recommend\nThank you",
+      "reviewer": "Caroline",
+      "rating": 5
+    }
+  ],
+  "social": {
+    "facebook": null,
+    "instagram": null,
+    "youtube": null,
+    "tiktok": null
+  },
+  "gallery_layout": "completed_project_gallery",
+  "photo_classification_summary": {
+    "completed_project": 9
+  },
+  "brand": {
+    "colours": [],
+    "logo_url": null,
+    "logo_local": null
+  },
+  "source_urls": [
+    "https://maps.google.com/?cid=2664396191179093018",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3lxfDfakcqWJNHKZ5xPE7E8A2HgaQaNld9qqocHbLKP6CL3ZXeDEesYu2naEEFyVqWwpAPRC_uVCInd_CpNCkBtIzWbJ37IopNfngf2n6OYZgAypXiJxc67ms8-QQ0gbZQcEZ7X30-Sewg8FUJEk0Iv7qM37lQZMcT16p6cVtxSqprIyaQtD2r3Mxrp9Flne6RGrC-Qn7Q-YkyITpbv2L7rUOdq-meoUcOS1Qra7slxkXrP2VkXZoIk8aJ3g0pVUs27nM_TBclaztMX2Be5ah56n_M5c7pOTWJOGQECek5ofvvM6wGkyflm00iLX4NiMWtACqNaJu4xG9HxxCfshegZdCAJkPM__-Sb18MKi8sdNYoWhYSy_R19dYq_6XQzO_hZhf1RKfU9GybdgzdKfcUxTuvSxGshjI5ShnRCYMaasQM&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3mymFIt1K1Yy5P95CN6qiplQkRThLpSp7A_JOg0dNyrCYtOi7KvicqB7DHI7tDUlgWs8bDPoz9Z5STm0j_X4orK83C1GdK6kFAMU0cSrZH8v5_xmfjzJTSrdarkJZpKhrfmO0FYlMZN32_vbwUbCgsPZDqWZ068nOqH_dwrkpysQ2_nnRme_GFSSi1ipBwPZ2jyifNd0lXhu4hS-8s8DpirLJdfYAjfDpMQLkHoOcZwSqMYCeVqzuSSE9kdzw09N8b2bOUPnM6uZiayIH8WxaTwbHv7ltyPWHWCaB5HwB4KqFLon3TnL7NK5Xl7AB6QXzOvyGFJiuj0dbLOqHK1jrl_YyYwvqSFfg9G3fmgdw4b_8KAUJOohFZKZwrglWv0iLK-So8vq3iDxqtdSBwv8B5vo6vf2HOtPHR90DJ6yctAZnZg&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3lSX1ofYc3t-n53KGfobc7rvPKYlin9eshAzBrRd4OtbvseZFyc_IQZxx6i-CHPkfTZoN58T9irqGALuGWKEF-MxNKuxFXg5GuKmXZVunGJbIeMW9g97yWKwz4sUmpWQ-7-XVNn-Tja2TT-wVKaICMKtxjiTeuuQIX8PccYsQgQn5WQAqGXubNBzkMPukz-fBbmGm5ZakJ-94Arri2AubAJk38sLR2SvprCvbKLBHE9jQIorZaZ4tdL-bNYL439HQsFcCoWxtNmWsUGb62RPw_JGxnHD8pRjI_M0wCVDTW2OL21UtMdK3h2Cw_08gvnaxd1UrNTPRNUcBbpRkodfZK_8h1c7P9qlCeNAWNvFijc5iBVYfDevjEpiWpkWU23ciYAKuYV4Je8aH0B78Np0J3vew7ipc4VNtMSbRT27tGw4Q&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3kOHZuUlT6I4MQBUR0yLqccqbq4lIJ2HjZmAMFdziqrv6X7naqXj6auVxp8f_eNY_fuOJniq-O02Nm8-e0g2h26CAQ4V8GS-ICNdh0S-_6nrBvFCZC9wQ9mzfgdi7tdEdmazS3THab4_d00Nuyr_ZKH9T2blr82r3iRcXvVzmevxQs3WF-aJ85l3Ppeb6ZVgNY3VhGiKNLkCJRM2UqCFr5YvaizQSZR-A6adPmWuQgn14Y4FKup3t2ez3VXmGtmw-Hgy1YXGlS8WRCMkjfGEDb_6qm7UHdNK22JzHXCjgmKkT0ldbkAsiBvq8Ek6yn2-HYITz6_xsLSvkZMlhOmTeSoligp4xjvK465cBGBgLkAf46VK1Qfn0UcJ_mcETWpvou415-DuaLxkahwcNSXiAYc4jxpXP4Q_C34bnCgxvM2KHZ9&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3k46bPOXtHZMhQmd1qK1Dwxzz07lxkNu47Re1_mvKMYAC4O7JyBKMJn5MQTUfBN4qKAp-rUMap-WQtlreAONd-MHUPOP7AgkjS888LPU0gfER9GsvrjiD6cvxBBe0eYXhw50l4uAL9TbcTMs9TDS8zXgAa9gBIDFs1U-r8yeTnAQKInksU7pFUU0_C75z0kK0P1a6thu2dFOLNQG1koK35za5At3Evm2ng3JNA_QNFUZFY-QbT5IPmzTT3d-09jnoAF4v6YCM3vt3-6yk8N1SJhoaA6D1qpU3CunKgDqr2raGFGOSMzqGDBpOsOMBcK333Zo2YQYKEK9TR8BBvtUSVy1S9-bq9GTUlN-h4zbKGNXfaYDqfpE9Fr88vTawWDmQIybIqG_XSx8gA2uFlVO5YEdREdrXDt75wt06ncCm89FE7W&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3lNSIQ8wb8J4tTDnbAVr-Yn6As7rkhQ6S8F2kq8jajmDr9AGs7yS8yWfVzz75Ak_XNKTniaBQ9rfl7TaDOS0UBHm-qUEzatHgOOkfGPIPTW5ZRRCbC0m9r4-H2hKnG5jpvS50ER4OrdLBOnlJkP_6NpM9GIU7lhX8w3cY6PdQMM76lJgDotuBYPwXnBg4C1YcmoWh__9aodDm5XZEp-cGxPGJ1FC201r-l0kLrA_-G5fZS_lbsAOeDTlSZCj4s71XnKRZMwlnJB_BrEv6LVNkBuyiX66PGQ6B0BGKp-evOGsWgLbRD4lxKjG0kQCpSxf4H1VjIS3jQDH2oSvpTsGfEltj3hXvPkkj7dpZLCV8rgFbHooUgwzJOUce28DRf2ho9oS6UI3wolOlTL7D1NNX2q3tQLfCVaL4z35dm8bjIBbLY&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3kyseYQmWb1Mr0MKPrv-sI7-dixhtEUu43XfEjbS8rNwUPZvk0gC-wPfnV_FodGfNhE7CBRHdagSnwFSF2P_4Hy-nmyJQAAuzshjjGp5-sEM9Piv3Dx7Jw_edzFGV8IMW0r32AjGkMwT1TrjEfVRY6H9kVc8ttmJgLG7Bc2Ar_lBvV0OxT6vwC3BJJLu_u6XUTdtLIrDBWU6zKjjAJSIKygt06MF2j0Uov6gdlUjMOSMmr-qMf0XKTEZ3NNYXfHE-EZLzkajFDPuVG2idBvGJH6tA_HGcGXqabEZ0j_VTr29WPQqPz4xEvSetR1zruZuuYkARjOH4mQHtjFMqtZ5Sre5UMooKtcIZKNcpzU0tCwV0pSXLf5nLVPMKf4A1TfbKdUcUX0jQ7HRpanffrUuRXu5Ve7n-vydLhxYyIOywHlAjA&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3nea9mmDxb-YF6yGMFfB_-LA_xvL7eAiCNZrIrOhbClUj_2juvBkR_z9HZ-GmhmpOq_h5SlleFQRXlnOtucP3RTc7Ag6z_wGzDAuRqViXV_IC1w7mXXtStbvAgLHk0wD2IptBpf8_Zi87gj43fNRHYHQCPcyxW9FTxHjQMi0q5lIuQsyEn-8pvnPqbXms96QZQb_ApcpV9xTX0xkO_-r21snX3qac1JAqUXR6Bu-55BJlWALT4hxM9Ka5Qge5pYhZeo0nA7QAbA389GHGK6pN5oo3I1T3d9Fb8g7A-w7_wtr4jb2g37wqtjigaQSb0CDRatOuSmgw3z18BL6qApA4p2GHkb3ULoRGfHp_sSRlHCiyf-0TsIEDYu8yYBnmtFsH1_T_GqyXyYsa7n9gRpXWpM8eWR9n9H4Bmtw1sXAbEV_K99&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3ny9zJ20_0gICzqwQGoVhmT8eJlJTBAhBqlbZKVd_ip3YDjb3LZBW_GrCRzy6iX8Pwn0rQuBWbKsq0KEKkD3waZMzoc_35E5R8zfzWM1zfX9YFZkFsXYej-4ntF_2iTO3vDB_M2WMW7RTY0vXrKbwEaqc061cPnBAX6aF6cmRxg3oeeo8TfpuJ4eEIxJE0uTRHC_6cqzrYBvKn53pMpgnCjyKopT3m92SA29WRh62qTvsPmw3hiH3hpDMbwlVSsX06cWWFFSs8ZW0m37MOcCNHRvwCnIgat3FFATAbDI_Ub8Dnc8JCkwkZ-3FlHp6qwPzEalZSZpVsfrchxaTcLITQp9vrMIjUAcVgGv7P2s9n6AUeYsrs7_4OUu8PBvgnIaMFxfVEFPy2oohZOELDBbSUaaO4CTmkoabnNvnSVFbLEUsXR&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3k4GU4p5duhG24E9Ru3Ja645hhYsmby0fwW2cu3aLc_-thPnoCQccbD_W-MlmHYTyK26OoUcW_1jThRyP9WHeKpcQy8-u35Uu-zai13m9lt5PUq11EXZneugpwgncXz-6nQvKw8BF2vT4OD_dDoMNJ8MbtN5YWPdOoXMBXISZJGveCYG2cdkut3zJ4ys3nx_HFLpOt9OW8zlBJglYXLKyWomylO0FQBxSzbqd2wLMMDTC53k5ZXsO9CZrV9KVrOBPZoDDNuBElqikowp7D5wh7ZaG1NYzxY2kC-DWJtp529x7fRxzVkhR1OJPV_5D6EjqefzXLiYR8aNz8xtgdSPFq2tzB8MUTgQKB31vth8V99MBHEqaflF87kAuOJ9sQe9mWR91IF0xLz8fLOj1j9w_-dUXIVPaVRxxLtsZtiK3mGeDPq&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3m6E2iKqHQxzi0f3A4mof6v7GCwzd3gbLTh01yAwMMFg4XN8eEg4CHUaqzAKZz6ml13VtRtpX-tWMtAMNk1e3DJZHYkq0EVEibkC2ZcCoG7HeBSO84EfrHVVHBmwQS0aLglnjaxbFJLR8gEs5CucIlhi7Uuh4koiaOINjLpUc-UbPxPJ-hxh2OZJ2-oJln5O5eerZXQMlVX3cOm7CJG7MpiWeQ_SNAl_Qez4iW7t2FLLVuVDGst4TPz4n7vjaD-sKuILbLB_1zy1oTWEh9WNRkT6wZKV_p5T_Z1WvnugH5aJvWL1zgPW6un9naR6UZz_PZuvpl2E2f9WSKn4jsL7y_VsKEwu1O2CP1bb3M21R8leNcXcIlkeZtONIn8S522Kb3dbIs7sG5FQ8vnOh-Nu5DUP7bOm3zm0Qig3-5wT-GUfZo&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3mNRgz3jNyfPGbd6L7ob2Yas_7UO_BdYt5LK35WZ27ifufmuAgm3G2QMpLA6Ub-gcRrAr79VEbH_1_nvSnE0WcuVn0XdqPAtxRdIwmIn59jNusahD0lcPdDdpPXRNh8CgvSs4pkD8nNheC4TfFTPEN6bUxrNu9AhpQpkoSn5ZMIk-2gWeoPLspCEVLfKJRaLShrWpOMNUwPpGkJDWNOGGTdh2Uch2WVPvi6aGtp7cpujqBzVMB9xOOhoGixPmGMNP0L76XFa2kjYab0zJlIkh8T19BGOMaVTlxJn1SPHN6mH0yM0ySfz6CfZq3vPIrTCwi4wt7MHWQjbXsnp4dHgooMD2XK_zhT9pPGVVyzefQ9Z8SxNpCZ0WYkp0mhKcJJuPhb_CiBG681SPga6IyjdPSQ0i08a0MPDrWTu61im6KuY3La&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3lS7ecgLl7TFPKhx-52prqpvtrb1_HiRZR2fB1NnyoF7lV4Jcv311ld2PayizFRHJ1tcve4ltGCmmUqRej0YSPF9YQPzmL1D_QhMBbygXvPDltg0jA_kRrtURGKNWqalQj_netHYeqokTAxD_NP-DBD866yZUeFrXH7WuA-Yqfb7DdcrZt2iXbqIWWXJ9gostuSikibwd37FNnTtTyhvxHHqYljWRJ7zVpURjC2TmJPfXYZL3XwGlS4VzH7sqn6AYIco6VBNB8NWIOf5VrtGGrRDA96-CS1Nd1DNgC3kc2YdIAGqk_kNE3S-eKlVHp8L8HLvi5Fj6xGaSwoaVAgS4_mZTrUQgW9DsMIIAz3v0WU5HMewtuRob6YELng5xg3bQ1l8e3sWp4qUfFXnmZCV3IEuoMv-D9VaQyynySY-d-yDg&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3nge1mc9KcaFv9MMJ7dH7mhKpAd93PQ1VEYhKT_jUsO_pDYLiPOZOlXyg1Hc9O6AaZkv68vgWs3RZYZigZu51utNG4z_ipgNAI3wxmenmzQHFQuOWd0DjzewkbtJViXvcqj4mLk8p56we24MZvNuPKA7H7QDz3yQogY3bkBafavWPTujhezF-j1X8G6GaG0qfmDSRbWa6qCbIhQko852XQhgyNkuX0I2BYcUDpXXuoarq3eyRXE71AQDwN34SRo8fNOGb57FJkqhqLMiXVYndu1m-lYR-50AE-2lr6SmNRZt5KHxlnBJ5AgZ-2SWhLvZRlzdmqq3N9BAUfOsVEmIgdEnZEYZ88r8m3ViVlrxJpPZ34N3ttc3Di9ae1BJRIqgRLigKRnPyRufGdW3U279DAh9GeIt1zCfW-ggvVZ8sudYDfS&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3mfftY7MUUO4KHlpIAr0ZRytpRCGWa8TU7FU6aPumNEyqmA2-QOFbtugT-BSWadS8XWLDwZDnjU5JHqW6cU3bPBxHJnsyXz_6I9ZUuqN8L3obZ_UgjvI1KJDKqO51oOyXLhKgTZopt7Q2WzlK0X7wXcGoPEpz4x1810A9BraMQGH_Yjq0F8diaVvQsi6X99lLnZWWUuU32mUvVzsyqD0orObVo-EE3QBbg_ELiFWl3pEbvtTyKXojq_MtHWRk1RuWLUT2QZvIB64ip-HazfwXwq09fEzRS_RJzgMhoyGhtr8CR317Ol2E-KFFxysuCL0RGzjidvroH16eksn7ddNr17A1c3HIslUwywAqb6xjiIwcWVIIuNQJvfXxJjwW8nWeTb5Q5HLreOe-0MphfvUwEGf0c2IFety3W3-B2_IvWJphaO&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3lGbtg_lbnQrwtHplywxZv3P2uBV_3hlf78PY6PUSXsG5xPhJG_-V6vKNqRc2BvFnKqxJHiIUxTXyEWmvA2R8f-qXJSdkLAzE_bSuoDnN2XNC0Fv-K9CTalhqwN6iO3Q4zinOEHMz46m9aQxwQjZlHZqGKK8Q4qR-vYas_T0mm9fVsgpaNZIqXGO8LqMW7YOoa09S0sJrxRSViuV9NFaNNM4JXW0po4okcyBbS7m-YhfOqz6OTlbtqPUTrmYvGQwhKY5C_R6B01wjxlRRWZMk2oWI3R63FlCG5yrUZqkTVn2NabTQiDRC7FFHinIkOV4iBpYzRBt_-nkchyyG1SlYTqDPUVNGCcwUFa2NyYyTQrPgJmhi7w62wQSiaH4UvJxgwQKlpf4_Ghds_G7PdrcEzpHzOPH5CQkuSt9wEeoaTyp2c&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3lYHAWl6dGZcPgkMPZZTMoYxdQmp_yeCPp9DleWi2JjLsC9_y2UdH2cBix4u9cNFhSZjZnFOoA0fiLEH94ToiW_o_S0sFn5qIWo11J7TXykltGSjqEvsBrNFLPWaQ6VxcGo21UBg7NfMTFPAPst1vF3Z2FcWlUDvSybCJW35Jte4rqsvVOC0cle2gH5f8ENH9BH1VWREYQCVRu0FVbmTwEZKZuuPA_5BWC6ROrm51N9FngPeOaThpKiBBsCAmXVizxu3VSj4EnSwYgJasr5fPqxLAow9fluvqZ0yZrSMNPTRY6uxMyL0xsaJCwjAINOPLu4e0Q9lGInGX3DmsOBRZh-VYn1r-GBV3XYDMmzY8qRfQRV5CXWB25Y2_upeCEfUe_TXU3p-8gd6uq0VnLdI-rbNZ7VUh_hpksq9iv7qDWRGUs&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3nxaYFCZiWTUcW79CHBWGzUBX95qOD6joXgZCeWGhRn_MpfFnmVFwJBAIvpJ2RV2vkfl_9btslNM2OIoHeXfcJ94-LwV4-VCvonrvmwHiNFKz9HffP_c--lBRhDBaDXA5bRNeWkTJGUwqkz6NyQSMjYVcF9QReE5zSV-RWLopjj5yLZeyxMgVYP23WNJaGd5cggqueaVl3U7zw0ohny-levwm8i2z7RljmYZYgf0QubdpjGTz6dbrHRwwuIZBbRnFmQHoyyppHuEma-P-KTY7U6SnDxYMBRZGe_IXQsGBZQQD9dT2Dffs_cj9dumijS5GPshaBMKE2b4lTIJBY8Y-adMAqtrPdWl_8GmZYtLPjLqYO7fIjshiXFEI1XtQ3yf1ir2xbCvyFE6_R7tp0gCfe4vKp1ZbrCKZYg6Q5ZFTT93znO&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3mK_bcLCSIM8yhT2f94NWYyhVj8CUbpJbAOfXAbFeLqLn1dW_lt3V8c6Ju3eFxzZo7J6u_zxr-uDC58Xpm3TPATNakwpLjmo83mSRyS9zRlBwjMvF0KF3HtRYWHZDZT3miFsrddyolP6hNg-Ua_sDHxvWNnwOxapgzQEPdLRXQySnJJMn-CNxjo_ROLhHxwbqiElwnPJQd8jb2gT3L2ot5UgbJ_2r2FHLYVSUYAeYQh4IhrJPFW4RfcskiXHq2pHvmr9XDBDh66GpDMaMlPNKtLwuaxfdsqxRFxu_kMtscHbqYoJSw4h7LEhlKIPl-PdVHV1Dtmkl2UZXkJ2joD8lEXjF9zcSUOpu3vXA8E8saQKFN1dziUOmujWRfU4nmPZYg7-1dMTnGA_ovBsR_YAGBptjxZCi9zcHmFGy8C6fXlhrwL&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3nfdHkDmZIGvcPHyYA8YisCL1HoPjnT1kIesfj1RDddRuJEsfSMQrnyuoqK-045QnmZGXjHWNBJDbL6ouD3ADNkGxRXb0kV26ZBxtDR5qkdka7TRutHeBq7BMsuB49r6gi8Vau-kG3xYHPIJ6jTD5cpVeFUdxiBqB-75rES7QL4BjIo5CKtn2kVzvKXy12d6pCllVx8bKbeU3Xi9XZo7_HmOQsIuyJXJWWcFTrgkaJmNthZWZifz4y49mfiLi4NkBsQrGTqVUjqVDyKeC_sY6jM8bCy_mJ6R8pixQf9BXHygZtqj5t6V_c4RxklrrkGYkBbaBKSxWEIxtkEjWgPu1m__3FFh-PAEwmUY5KFPX_mvf0XVY7Wf-w5bNFd8lAt2zre-asFjzFyOuMgJKwMSnbOqQ_3c0UmxMz5Slxn9PsKBZbv&key=REDACTED"
+  ],
+  "notes": [
+    "owner_name not found in public sources",
+    "email not found in public sources",
+    "contact_name \"Neil\" from 5 Google review mention(s) (high confidence); owner_name not set",
+    "contactability=NEEDS_MANUAL_REVIEW",
+    "WhatsApp availability check failed",
+    "Google address city (Stockport) differs from prospect region (Manchester)",
+    "Photo discovery: 9/9 selected (Enough photos for photo-led layout)"
+  ],
+  "missing_fields": [
+    "owner_name",
+    "email",
+    "facebook",
+    "instagram"
+  ],
+  "invalid_website_candidates": [
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3lxfDfakcqWJNHKZ5xPE7E8A2HgaQaNld9qqocHbLKP6CL3ZXeDEesYu2naEEFyVqWwpAPRC_uVCInd_CpNCkBtIzWbJ37IopNfngf2n6OYZgAypXiJxc67ms8-QQ0gbZQcEZ7X30-Sewg8FUJEk0Iv7qM37lQZMcT16p6cVtxSqprIyaQtD2r3Mxrp9Flne6RGrC-Qn7Q-YkyITpbv2L7rUOdq-meoUcOS1Qra7slxkXrP2VkXZoIk8aJ3g0pVUs27nM_TBclaztMX2Be5ah56n_M5c7pOTWJOGQECek5ofvvM6wGkyflm00iLX4NiMWtACqNaJu4xG9HxxCfshegZdCAJkPM__-Sb18MKi8sdNYoWhYSy_R19dYq_6XQzO_hZhf1RKfU9GybdgzdKfcUxTuvSxGshjI5ShnRCYMaasQM&key=REDACTED"
+  ],
+  "website_url_validation": {
+    "validated_at": "2026-06-11T11:15:49.414Z",
+    "issue": "empty",
+    "note": "website_url empty",
+    "previous_url": null
+  },
+  "prospect_region": "Manchester",
+  "location_validation_status": "LOCATION_MISMATCH_NEEDS_REVIEW",
+  "directory_probes": [
+    {
+      "platform": "checkatrade",
+      "candidate_url": "https://www.checkatrade.com/trades/alexander-s-painters-decorators",
+      "status": "NOT_FOUND",
+      "confidence": "rejected",
+      "title": null,
+      "rating": null,
+      "review_count": null,
+      "phone_visible": false,
+      "verification_reasons": [],
+      "note": "search_deferred: Alexander’s Painters&Decorators Stockport SK7 3BD site:checkatrade.com"
+    },
+    {
+      "platform": "trustatrader",
+      "candidate_url": "https://www.trustatrader.com/traders/alexander-s-painters-decorators",
+      "status": "NOT_FOUND",
+      "confidence": "rejected",
+      "title": null,
+      "rating": null,
+      "review_count": null,
+      "phone_visible": false,
+      "verification_reasons": [],
+      "note": "search_deferred: Alexander’s Painters&Decorators Stockport SK7 3BD site:trustatrader.com"
+    },
+    {
+      "platform": "yell",
+      "candidate_url": "https://www.yell.com/biz/alexander-s-painters-decorators-stockport-sk7-3bd/",
+      "status": "NOT_FOUND",
+      "confidence": "rejected",
+      "title": null,
+      "rating": null,
+      "review_count": null,
+      "phone_visible": false,
+      "verification_reasons": [],
+      "note": "search_deferred: Alexander’s Painters&Decorators Stockport SK7 3BD site:yell.com"
+    },
+    {
+      "platform": "mybuilder",
+      "candidate_url": "https://www.mybuilder.com/profile/alexander-s-painters-decorators",
+      "status": "NOT_FOUND",
+      "confidence": "rejected",
+      "title": null,
+      "rating": null,
+      "review_count": null,
+      "phone_visible": false,
+      "verification_reasons": [],
+      "note": "search_deferred: Alexander’s Painters&Decorators Stockport SK7 3BD site:mybuilder.com"
+    },
+    {
+      "platform": "rated_people",
+      "candidate_url": "https://www.ratedpeople.com/profile/alexander-s-painters-decorators",
+      "status": "NOT_FOUND",
+      "confidence": "rejected",
+      "title": null,
+      "rating": null,
+      "review_count": null,
+      "phone_visible": false,
+      "verification_reasons": [],
+      "note": "search_deferred: Alexander’s Painters&Decorators Stockport SK7 3BD site:ratedpeople.com"
+    },
+    {
+      "platform": "houzz",
+      "candidate_url": "https://www.houzz.co.uk/professionals/alexander-s-painters-decorators",
+      "status": "NOT_FOUND",
+      "confidence": "rejected",
+      "title": null,
+      "rating": null,
+      "review_count": null,
+      "phone_visible": false,
+      "verification_reasons": [],
+      "note": "search_deferred: Alexander’s Painters&Decorators Stockport SK7 3BD site:houzz.co.uk"
+    },
+    {
+      "platform": "bark",
+      "candidate_url": "https://www.bark.com/en/gb/company/alexander-s-painters-decorators/",
+      "status": "NOT_FOUND",
+      "confidence": "rejected",
+      "title": null,
+      "rating": null,
+      "review_count": null,
+      "phone_visible": false,
+      "verification_reasons": [],
+      "note": "search_deferred: Alexander’s Painters&Decorators Stockport SK7 3BD site:bark.com"
+    },
+    {
+      "platform": "nextdoor",
+      "candidate_url": "https://nextdoor.co.uk/pages/alexander-s-painters-decorators/",
+      "status": "NOT_FOUND",
+      "confidence": "rejected",
+      "title": null,
+      "rating": null,
+      "review_count": null,
+      "phone_visible": false,
+      "verification_reasons": [],
+      "note": "search_deferred: Alexander’s Painters&Decorators Stockport SK7 3BD site:nextdoor.co.uk"
+    }
+  ],
+  "enrichment": {
+    "enriched_at": "2026-06-11T11:15:32.379Z",
+    "email_domain_checked": false,
+    "website_discovery_run": true
+  },
+  "lead_validity": {
+    "lead_validity_status": "INSUFFICIENT_EVIDENCE",
+    "lead_validity_reason": "Enrichment incomplete or source confidence too low",
+    "pitch_type": "manual_review",
+    "website_status": "NO_WEBSITE",
+    "website_url": null,
+    "website_discovery_classification": null,
+    "email_domain_website": null,
+    "source_confidence_summary": {
+      "overall": "low",
+      "verified_platforms": [],
+      "rejected_platforms": [
+        "google_places"
+      ],
+      "notes": [
+        "No verified sources with medium or high confidence",
+        "1 source(s) rejected for low confidence"
+      ]
+    },
+    "ready_for_build": false,
+    "ready_for_design": false,
+    "ready_for_pitch": false,
+    "manual_review_required": true,
+    "has_real_website": false,
+    "truly_no_website": true,
+    "warnings": [
+      "LOCATION_MISMATCH_NEEDS_REVIEW",
+      "contactability=NEEDS_MANUAL_REVIEW",
+      "Location mismatch: LOCATION_MISMATCH_NEEDS_REVIEW - pitch blocked until resolved",
+      "Source enrichment not complete - run enrich:lead before build",
+      "Source confidence is low - lean site or manual review recommended"
+    ],
+    "manual_asset_status": "OK",
+    "pause_before_open_design": false,
+    "manual_asset_folder": "briefs/alexander-s-painters-decorators/images/manual/"
+  },
+  "source_quality": {
+    "source_quality_status": "FAIL",
+    "source_quality_reason": "Source enrichment not complete",
+    "website_url_validated": true,
+    "email_domain_checked": true,
+    "enrichment_complete": false,
+    "logo_discovery_attempted": true,
+    "photo_discovery_attempted": true,
+    "directory_probes_attempted": true,
+    "warnings": [
+      "Lead validity requires manual review"
+    ],
+    "blockers": [
+      "Source enrichment not complete"
+    ]
+  }
+}

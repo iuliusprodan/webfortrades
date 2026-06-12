@@ -1,0 +1,20 @@
+{
+  "slug": "alexander-s-painters-decorators",
+  "opening_line": "Hi - I read a review where Sachin mentioned quality workmanship on a job with Alexander’s Painters&Decorators. That stood out.",
+  "source_quote": "Having our upstairs box room refurbished. Neil came over and firstly removed all the historic wall paper (layers of it) and then saved us money on a plasterer by carefully filling and sanding everywhere that needed it. He decorated the room fully, including the walls, ceiling, woodwork and the radia",
+  "source_evidence": "google: 5 rating, 34 reviews",
+  "why_this_angle": "Lead with review detail about quality workmanship (Sachin)",
+  "suggested_whatsapp": "Hi, Julius here. I build websites for local trades. One of your Google reviews from Sachin mentioned quality workmanship - I mocked up a one-page site around that. No obligation - want a quick look?",
+  "price_recommendation_gbp": 275,
+  "price_tier": "starter",
+  "follow_up_replies": [
+    {
+      "trigger": "price",
+      "text": "One-page site from £300. Includes mobile layout and quote form."
+    },
+    {
+      "trigger": "not interested",
+      "text": "No problem - I will remove the preview. Thanks for your time."
+    }
+  ]
+}

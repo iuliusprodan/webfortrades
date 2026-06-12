@@ -1,0 +1,50 @@
+{
+  "slug": "west-park-electrics",
+  "business_angle": "West Park Electrics centred on bathroom refits and installations in Leeds, LS16",
+  "customer_praise_themes": [
+    "tidy finishes",
+    "quality workmanship",
+    "fair pricing",
+    "clear communication",
+    "strong recommendations",
+    "bathroom and refit work"
+  ],
+  "named_people": [
+    "Choudhary"
+  ],
+  "distinctive_phrases": [
+    "My father was an electrician and he was planning to fit a cooker for my nan, unfortunately he passed away",
+    "I rang Choudhary and he got it done, the man is a saint and understood what my nan was going through and did not charge",
+    "⭐️⭐️⭐️⭐️⭐️\nWest Park Electrics provided an excellent service in fixing my electrical lights",
+    "Ateeque was especially professional, friendly, and down to earth",
+    "We had installation of a bathroom extractor fan"
+  ],
+  "strongest_review_quote": {
+    "text": "My father was an electrician and he was planning to fit a cooker for my nan, unfortunately he passed away. I rang Choudhary and he got it done, the man is a saint and understood what my nan was going through and did not charge! The whole family will be praying for you Choudhary! She will definitely be using him again.",
+    "author": "Aiden",
+    "source": "google",
+    "url": "https://maps.google.com/?cid=3796732482915553652"
+  },
+  "strongest_proof_source": {
+    "platform": "google",
+    "metric": "5 rating, 30 reviews",
+    "url": "https://maps.google.com/?cid=3796732482915553652"
+  },
+  "best_photos_rationale": "Google Places photos preferred for gallery when high quality",
+  "claims_to_avoid": [
+    "Fake owner or founder claims",
+    "Supplier names as job locations in captions",
+    "Invented service areas"
+  ],
+  "pitch_hook_summary": "Lead with review detail about tidy finishes (Aiden)",
+  "personality": "local",
+  "evidence_strength": "moderate",
+  "suggested_site_mood": "local, calm, review-led",
+  "suggested_proof_hierarchy": [
+    "google_rating_reviews",
+    "photo_gallery"
+  ],
+  "pitch_insight_seed": "Lead with review detail about tidy finishes (Aiden)",
+  "trade": "Bathroom installations",
+  "location": "Leeds, LS16"
+}

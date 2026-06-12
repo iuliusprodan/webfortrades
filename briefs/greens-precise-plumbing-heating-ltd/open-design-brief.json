@@ -1,0 +1,130 @@
+{
+  "slug": "greens-precise-plumbing-heating-ltd",
+  "generated_at": "2026-06-10T17:30:00.000Z",
+  "purpose": "One-page bespoke website concept for Open Design. Design-only pilot. No outreach, no deploy.",
+  "business": {
+    "name": "Greens Precise Plumbing & Heating Ltd",
+    "trade": "Plumbing and heating, with bathroom and kitchen renovation work",
+    "based_location": "Swansea, SA1",
+    "service_area": ["Swansea", "The Mumbles"],
+    "service_area_notes": "Swansea is the verified base from Google and Facebook. The Mumbles is referenced because a public Facebook post describes a kitchen renovation there. Do not invent any other areas.",
+    "phone": "07309 553552",
+    "email": "info@gpplumbingltd.com",
+    "facebook_url": "https://www.facebook.com/GPPlumbingandHeatingLtd",
+    "google_maps_url": "https://maps.google.com/?cid=9321565324186853487",
+    "opening_hours": [
+      "Monday to Friday: 8:00 to 17:00",
+      "Saturday: 8:00 to 13:00",
+      "Sunday: closed"
+    ],
+    "contact_name": "Callum",
+    "contact_name_basis": "Named in Google reviews. Use as a friendly team name only. Do not claim he is the owner or founder.",
+    "location_note": "The Google listing was found under a Bristol search but the verified base is Swansea. Use Swansea only. Never write Bristol anywhere on the page."
+  },
+  "proof": {
+    "google_rating": 5.0,
+    "google_review_count": 45,
+    "google_review_count_sourced": true,
+    "facebook_recommend": "100% recommend on Facebook (10 reviews)",
+    "facebook_followers": 823,
+    "source_confidence": "high",
+    "verified_platforms": ["google_places", "facebook", "email_domain_website"]
+  },
+  "services": [
+    {"name": "Bathroom renovations and installations", "evidence": "Completed bathroom photos (Google and Facebook) and review mentions of toilets, basins, showers"},
+    {"name": "Heating and radiators", "evidence": "Service list and a review describing fitting four radiators (David)"},
+    {"name": "Boiler repairs and servicing", "evidence": "Service list and a review where the customer booked a new boiler (Heidi)"},
+    {"name": "Leak and burst pipe repairs", "evidence": "Reviews describing a leak in a flush and a kitchen tap leak (Rhys, Heidi)"},
+    {"name": "Taps, toilets and shower repairs", "evidence": "Reviews describing toilet, tap and shower work (Chris, Heidi, Teresa)"},
+    {"name": "General plumbing", "evidence": "Google service category and overall review pattern"}
+  ],
+  "story": {
+    "angle": "A precise, tidy plumbing and heating team in Swansea that also delivers high-end bathroom and kitchen renovations. Customers repeatedly praise accurate quotes, reliability and clean finishes.",
+    "personality": "premium, craft-led, quietly confident, friendly",
+    "praise_themes": ["tidy finishes and cleaning up after themselves", "accurate quotes delivered on agreed cost and timescale", "responsive and reliable attendance", "professional and friendly team"],
+    "named_people": ["Callum"],
+    "facebook_intro_verbatim": "A local Plumbing & Heating company in the area of Swansea. A reliable and friendly service.",
+    "facebook_post_fact": "A public Facebook post describes a kitchen renovation in The Mumbles."
+  },
+  "reviews": [
+    {"reviewer": "Chris", "rating": 5, "text": "Have used several plumbers in the past, with varying success. Some were expensive, some were unreliable, it was always hit and miss. Thought I'd give Greens Precise Plumbing a shot as I needed a new toilet and hand basin plumbed in. Callum was great, he explained the requirements for the job, provided an excellent quote and crucially delivered on the agreed costs and timescale. Highly recommended for being reliable, honest and professional, they even cleaned up after themselves. Great job Callum and Greens Precise Plumbing."},
+    {"reviewer": "Heidi", "rating": 5, "text": "First class service from the Greens Plumbing team. Responsive service, easy to book and kept me updated on time of arrival so I did not have to wait in all day. I had a toilet that did not flush and a leak in the kitchen tap, both dealt with very well and efficiently. The quote was spot on. I have already booked them in for a new boiler. Would definitely recommend."},
+    {"reviewer": "Rhys", "rating": 5, "text": "Called Greens Precise Plumbing and Heating in the morning after I had a leak in my flush and did not think I would be seen to until at least the next day, but the guys came over a couple of hours later and sorted the issue out. Payment over invoice was also a breeze. Couldn't have had a better experience. Highly recommend them."},
+    {"reviewer": "Teresa", "rating": 5, "text": "Excellent service from start to finish. Quick and easy quote emailed, turned up when the work was agreed to be started. Really nice shower enclosure installed and also fixed my toilet which wasn't originally planned. Lovely, polite and professional. The price I was very happy with too."},
+    {"reviewer": "David", "rating": 5, "text": "Callum and his team arrived on time, did a great job fitting 4 radiators, 2 of which were very tricky. Finished in super quick time and tidied up after themselves. Very impressed and definitely will use his services again."}
+  ],
+  "strongest_review_quote": {"author": "Chris", "source": "Google", "text": "Callum was great, he explained the requirements for the job, provided an excellent quote and crucially delivered on the agreed costs and timescale."},
+  "images": {
+    "rules": "Use only these real, verified images. No stock, no placeholders, no AI fill. Lead with the bathroom. Maximum 2 to 3 angles of the signature bathroom. Safe captions only, no invented job locations.",
+    "hero": {"file": "05-places.webp", "alt": "Renovated bathroom with a freestanding bath, marble tiling and brass fittings", "caption": "Full bathroom renovation, Swansea"},
+    "gallery": [
+      {"file": "02-places.webp", "alt": "Walk-in shower, vanity unit and heated towel rail in a renovated bathroom", "caption": "Walk-in shower, vanity and heated towel rail"},
+      {"file": "06-places.webp", "alt": "Freestanding bath with a traditional radiator beside a bright window", "caption": "Freestanding bath and radiator fit"},
+      {"file": "04-places.webp", "alt": "Matt black shower fittings above a bath with concrete-effect tiling", "caption": "Matt black shower fittings and bath"},
+      {"file": "facebook/06-facebook.webp", "alt": "Modern fitted kitchen with an island, breakfast bar and a sea view", "caption": "Modern kitchen renovation with a bay view"},
+      {"file": "facebook/02-facebook.webp", "alt": "Marble-tiled cloakroom with a herringbone wood-effect floor", "caption": "Marble cloakroom with herringbone floor"}
+    ],
+    "optional_extra": [
+      {"file": "01-places.webp", "note": "Same signature bathroom as hero, only use if a second hero-scale image is needed"},
+      {"file": "03-places.webp", "note": "Same signature bathroom, vanity and pendant angle"}
+    ],
+    "excluded": [
+      {"file": "facebook/03-facebook.webp", "reason": "Kitchen mid-renovation with floor sheeting, not a finished showcase"},
+      {"file": "facebook/07-facebook.webp", "reason": "Dated oak kitchen, weaker for a premium concept"},
+      {"file": "facebook/08-facebook.webp", "reason": "Dated oak kitchen, near duplicate of 07"}
+    ],
+    "image_source_dir": "briefs/greens-precise-plumbing-heating-ltd/images"
+  },
+  "design_direction": {
+    "direction_id": "swansea_atelier_deep_green_brass_editorial",
+    "rationale": "No logo was found, so the palette is derived from the photos and the business name. The name Greens motivates a deep heritage green. The real bath and shower fittings are brass, and the bathrooms are marble and warm stone, so brass and warm stone neutrals come straight from the photos. This is deliberately different from Corvell (warm cream and terracotta bathroom, Source Serif and Manrope) and from the earlier Greens template idea (forest green accent on cream, Fraunces and Inter, stacked hero).",
+    "palette": {
+      "brand_primary_deep_green": "#21402E",
+      "accent_brass": "#B08A4F",
+      "warm_stone": "#CBBEA8",
+      "ivory_background": "#F7F3EC",
+      "ink_text": "#15201A",
+      "card_white": "#FFFFFF"
+    },
+    "palette_basis": "green from business name and calm trade tone; brass from real bath and shower fittings; warm stone and ivory from marble and tiled walls; ink for legible body text",
+    "fonts": {"display": "Cormorant Garamond", "body": "Outfit", "basis": "An elegant high-contrast serif paired with a clean modern grotesque suits premium bathroom work and is distinct from every recent site in the library."},
+    "layout": "Editorial and immersive. Deep green hero canvas with an asymmetric split: wordmark, headline, proof line and two brass call-to-action buttons on one side, the signature bathroom photo on the other. Brass hairline rules. Warm stone and ivory section bands rather than one alternating pattern. A magazine-style varied gallery grid, not uniform squares. One large pulled review quote on a stone band.",
+    "cta_style": "Two clear actions: Call 07309 553552 and Email info@gpplumbingltd.com. Brass primary button, outlined secondary. Sticky slim call bar on mobile.",
+    "animation": "Subtle fade and slide-in on scroll, smooth anchor scrolling, gentle image hover zoom, button hover states. Must respect prefers-reduced-motion.",
+    "avoid": ["forest green accent on cream stacked hero", "Fraunces or Inter", "Source Serif or Manrope", "warm cream terracotta bathroom look", "the headline 'done properly'", "uniform square gallery", "generic plumber blue and red"]
+  },
+  "sections": [
+    {"id": "hero", "heading": "Precise plumbing, heating and beautiful bathrooms in Swansea", "content": "Wordmark for Greens Precise Plumbing & Heating. Subhead anchored on proof and the friendly team. Brass Call and Email buttons. Signature bathroom photo.", "background": "deep green"},
+    {"id": "proof-strip", "heading": "Proof from real customers", "content": "5.0 on Google across 45 reviews. 100% recommend on Facebook from 10 reviews. Based in Swansea. Verified plumbing and heating page.", "background": "ivory"},
+    {"id": "known-for", "heading": "What customers keep mentioning", "content": "Accurate quotes delivered on the agreed cost and timescale. Tidy work and cleaning up after themselves. Responsive, reliable attendance. Friendly and professional team. Each point tied to review language.", "background": "warm stone"},
+    {"id": "services", "heading": "What Greens handles", "content": "Bathroom renovations and installations, heating and radiators, boiler repairs and servicing, leak and burst pipe repairs, taps toilets and showers, general plumbing. Short evidence-based descriptions, not a generic six-pack.", "background": "ivory"},
+    {"id": "signature-work", "heading": "Recent work", "content": "Editorial gallery of the real bathroom photos plus the kitchen with a bay view and the marble cloakroom. Safe captions. Lead with the bathroom.", "background": "deep green or ivory"},
+    {"id": "featured-review", "heading": "One job, in a customer's words", "content": "Chris's full Google review as a large pulled quote, attributed. Mentions Callum, the accurate quote and the tidy finish.", "background": "warm stone"},
+    {"id": "process", "heading": "How a job with Greens works", "content": "Three or four steps drawn from review evidence: easy to book and quote by email, clear price agreed up front, work done on the agreed timescale, tidy finish and easy invoicing.", "background": "ivory"},
+    {"id": "reviews", "heading": "More from Google", "content": "The five verified Google reviews with reviewer first names. Verbatim, no synthetic headlines.", "background": "deep green"},
+    {"id": "coverage", "heading": "Where Greens works", "content": "Based in Swansea, with recent work including a kitchen renovation in The Mumbles. Do not list any other areas.", "background": "warm stone"},
+    {"id": "contact", "heading": "Get a quote from Greens Precise Plumbing & Heating", "content": "Phone 07309 553552, email info@gpplumbingltd.com, Facebook link, opening hours. Simple, business-specific wording.", "background": "deep green"}
+  ],
+  "copy_rules": [
+    "Plain British English. No hype, no jargon.",
+    "No em dashes anywhere. Use a hyphen, a comma or a full stop.",
+    "Use only verified facts from this brief. Invent nothing.",
+    "Never write Bristol. The business is in Swansea.",
+    "Callum is a team name from reviews, not a stated owner.",
+    "Do not claim 24 hour or emergency cover unless framed only on the Rhys review where they attended a couple of hours later. Prefer 'fast response' over '24/7'.",
+    "Do not pin a specific photo to The Mumbles. Reference The Mumbles only as a recent project area in text."
+  ],
+  "metadata_rules": {
+    "title": "Greens Precise Plumbing & Heating | Swansea plumber and heating engineer",
+    "description": "Plumbing, heating and bathroom renovations in Swansea. Rated 5.0 on Google across 45 reviews. Call 07309 553552.",
+    "must_not_mention": ["WebForTrades", "demo", "preview", "test", "sample", "concept", "speculative", "Bristol"]
+  },
+  "output_requirements": {
+    "format": "One page, semantic HTML5 with CSS. Mobile first and fully responsive.",
+    "no_placeholders": true,
+    "real_images_only": true,
+    "accessibility": "Alt text on every image, good colour contrast, keyboard friendly.",
+    "portability": "Clean structure that can be ported into a Next.js app later.",
+    "footer_credit": "Small 'Website by WebForTrades' line in the footer only, not in the page title or meta."
+  }
+}

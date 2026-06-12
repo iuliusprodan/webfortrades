@@ -1,0 +1,41 @@
+{
+  "selected": {
+    "source_url": "https://bristolboilerrepairs.co.uk/_assets/images/2ccb484e102662ad55d31a4067888f45.png",
+    "source_type": "apple_touch_icon",
+    "source_confidence": "medium",
+    "width": 180,
+    "height": 180,
+    "score": 60,
+    "has_transparency": false,
+    "aspect_ratio": 1,
+    "likely_logo": true,
+    "notes": "180x180"
+  },
+  "candidates": [
+    {
+      "source_url": "https://bristolboilerrepairs.co.uk/_assets/images/2ccb484e102662ad55d31a4067888f45.png",
+      "source_type": "apple_touch_icon",
+      "source_confidence": "medium",
+      "width": 180,
+      "height": 180,
+      "score": 60,
+      "has_transparency": false,
+      "aspect_ratio": 1,
+      "likely_logo": true,
+      "notes": "180x180"
+    },
+    {
+      "source_url": "https://bristolboilerrepairs.co.uk/_assets/images/36b9ebc4565037aca69cb381ac86839f.png",
+      "source_type": "favicon",
+      "source_confidence": "medium",
+      "width": 192,
+      "height": 192,
+      "score": 50,
+      "has_transparency": false,
+      "aspect_ratio": 1,
+      "likely_logo": true,
+      "notes": "192x192"
+    }
+  ],
+  "failures": []
+}

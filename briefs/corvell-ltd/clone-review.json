@@ -1,0 +1,34 @@
+{
+  "slug": "corvell-ltd",
+  "reviewed_at": "2026-06-10T12:03:14.069Z",
+  "read_only": true,
+  "passed": true,
+  "clone_score": 16,
+  "business_specificity_estimate": 84,
+  "scores": {
+    "section_order_similarity": 0,
+    "heading_reuse": 0,
+    "hero_pattern_reuse": 20,
+    "cta_strip_reuse": 20,
+    "service_list_shape_reuse": 30,
+    "review_block_reuse": 20,
+    "contact_section_reuse": 40,
+    "copy_phrase_reuse": 15,
+    "palette_font_layout_similarity": 33,
+    "overall_clone_score": 16,
+    "business_specificity_estimate": 84
+  },
+  "issues": [],
+  "missing_artifacts": [],
+  "template_headings_found": [],
+  "section_plan_generic": false,
+  "compared_slugs": [
+    "bbr-plumbing-heating-bristol-bristol-boiler-repairs",
+    "bristol-plumbing-co",
+    "decorator",
+    "greens-precise-plumbing-heating-ltd",
+    "jt-plumbing",
+    "nfs-plumbing-heating",
+    "roofer"
+  ]
+}

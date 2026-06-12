@@ -1,0 +1,90 @@
+{
+  "slug": "bbr-plumbing-heating-bristol-bristol-boiler-repairs",
+  "updated_at": "2026-06-11T15:57:47.239Z",
+  "url": "https://bristol-boiler-repairs.vercel.app",
+  "ok": true,
+  "screenshot": "/Users/iuliusprodan/.cursor/website/screenshots/bbr-plumbing-heating-bristol-bristol-boiler-repairs/live-verify.png",
+  "stylesheet": {
+    "bytes": 41143,
+    "hasPreflight": true,
+    "hasUtilities": true,
+    "utilityMarkers": [
+      ".flex",
+      ".grid",
+      ".mx-auto",
+      ".items-center",
+      ".justify-",
+      ".max-w-",
+      ".px-/.py-",
+      ".rounded",
+      ".gap-"
+    ]
+  },
+  "metrics": {
+    "bodyFontFamily": "\"Work Sans\", \"Work Sans Fallback\", -apple-system, \"system-ui\", \"Segoe UI\", system-ui, sans-serif",
+    "bodyBoxSizing": "border-box",
+    "bodyMarginTop": 0,
+    "bodyMarginLeft": 0,
+    "appliedRuleCount": 794,
+    "styleSheetCount": 1,
+    "biggestGraphic": {
+      "tag": "IMG",
+      "w": 1280,
+      "h": 765,
+      "src": "https://bristol-boiler-repairs.vercel.app/assets/images/hero-bathroom.webp"
+    },
+    "primaryButton": {
+      "found": true,
+      "background": "rgb(201, 162, 39)",
+      "borderRadius": "4px",
+      "paddingTop": "14px"
+    },
+    "bodyText": "Bristol Boiler Repairs\nServices\nRecent work\nReviews\nAreas\nGet a quote\nCall 07854 476888\n\n5.0 ON GOOGLE · 31+ REVIEWS\n\nWarm homes. Reliable heating across Bristol.\nGet a quote\nCall 07854 476888\n5.0 on Google\nAcross 31+ reviews\nOpen 24 hours\nMonday to Sunday\nBased in Bristol\nBS13\nWhat customers say\n\nV"
+  },
+  "css_assets": [
+    {
+      "url": "https://bristol-boiler-repairs.vercel.app/_next/static/css/c6265f68ad1d93fa.css",
+      "status": 200,
+      "bytes": 41143
+    }
+  ],
+  "js_assets": [
+    {
+      "url": "https://bristol-boiler-repairs.vercel.app/_next/static/chunks/4bd1b696-c023c6e3521b1417.js",
+      "status": 200,
+      "bytes": 173019
+    },
+    {
+      "url": "https://bristol-boiler-repairs.vercel.app/_next/static/chunks/255-eb4aecc3ff015961.js",
+      "status": 200,
+      "bytes": 173611
+    },
+    {
+      "url": "https://bristol-boiler-repairs.vercel.app/_next/static/chunks/main-app-f9b5d20365cb8be2.js",
+      "status": 200,
+      "bytes": 557
+    },
+    {
+      "url": "https://bristol-boiler-repairs.vercel.app/_next/static/chunks/app/page-9d881c6c4cbabc60.js",
+      "status": 200,
+      "bytes": 2898
+    },
+    {
+      "url": "https://bristol-boiler-repairs.vercel.app/_next/static/chunks/polyfills-42372ed130431b0a.js",
+      "status": 200,
+      "bytes": 112594
+    },
+    {
+      "url": "https://bristol-boiler-repairs.vercel.app/_next/static/chunks/webpack-c56590869034f9c2.js",
+      "status": 200,
+      "bytes": 3769
+    }
+  ],
+  "failed_assets": [],
+  "issues": [
+    {
+      "severity": "warn",
+      "message": "section_integrity: no gallery block found for column check"
+    }
+  ]
+}

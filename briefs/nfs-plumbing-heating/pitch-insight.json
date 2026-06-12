@@ -1,0 +1,20 @@
+{
+  "slug": "nfs-plumbing-heating",
+  "opening_line": "Hi - I read a review where Tom mentioned tidy finishes on a job with NFS Plumbing & Heating. That stood out.",
+  "source_quote": "Nick has done an excellent job on various projects in my house including installing a new flue, removing a gas fire and installing a downstairs toilet. Throughout all these tasks he's shown himself to be a thoughtful and capable engineer and adept at solving problems and coming up with creative solu",
+  "source_evidence": "google: 5 rating, 18 reviews",
+  "why_this_angle": "Lead with review detail about tidy finishes (Tom)",
+  "suggested_whatsapp": "Hi, Julius here. I build websites for local trades. One of your Google reviews from Tom mentioned tidy finishes - I mocked up a one-page site around that. No obligation - want a quick look?",
+  "price_recommendation_gbp": 275,
+  "price_tier": "starter",
+  "follow_up_replies": [
+    {
+      "trigger": "price",
+      "text": "One-page site from £300. Includes mobile layout and quote form."
+    },
+    {
+      "trigger": "not interested",
+      "text": "No problem - I will remove the preview. Thanks for your time."
+    }
+  ]
+}

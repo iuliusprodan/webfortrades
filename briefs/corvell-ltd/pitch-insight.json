@@ -1,0 +1,20 @@
+{
+  "slug": "corvell-ltd",
+  "opening_line": "Hi - I read a review where Harriet mentioned tidy finishes on a job with Corvell ltd. That stood out.",
+  "source_quote": "We found Corvell on Instagram & was really impressed from the get go when Jack came to measure up to quote for some tiling in our kitchen, utility & wc - his attention to detail in checking exactly what we wanted & advising on tiles/grout etc was so useful! The quote was so competitively priced we b",
+  "source_evidence": "google: 5 rating, 13 reviews",
+  "why_this_angle": "Lead with review detail about tidy finishes (Harriet)",
+  "suggested_whatsapp": "Hi, Julius here. I build websites for local trades. One of your Google reviews from Harriet mentioned tidy finishes - I mocked up a one-page site around that. No obligation - want a quick look?",
+  "price_recommendation_gbp": 275,
+  "price_tier": "starter",
+  "follow_up_replies": [
+    {
+      "trigger": "price",
+      "text": "One-page site from £300. Includes mobile layout and quote form."
+    },
+    {
+      "trigger": "not interested",
+      "text": "No problem - I will remove the preview. Thanks for your time."
+    }
+  ]
+}

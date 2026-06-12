@@ -1,0 +1,28 @@
+{
+  "lead_validity_status": "INSUFFICIENT_EVIDENCE",
+  "lead_validity_reason": "Enrichment incomplete or source confidence too low",
+  "pitch_type": "manual_review",
+  "website_status": "BROKEN_OR_BAD_SITE",
+  "website_url": "http://www.mayerplumbing.co.uk/",
+  "website_discovery_classification": "BROKEN_OR_BAD_SITE",
+  "email_domain_website": null,
+  "source_confidence_summary": {
+    "overall": "medium",
+    "verified_platforms": [
+      "google_places",
+      "email_domain_website"
+    ],
+    "rejected_platforms": [],
+    "notes": []
+  },
+  "ready_for_build": false,
+  "ready_for_design": false,
+  "ready_for_pitch": false,
+  "manual_review_required": true,
+  "has_real_website": false,
+  "truly_no_website": true,
+  "warnings": [
+    "contactability=NEEDS_MANUAL_REVIEW",
+    "Source enrichment not complete - run enrich:lead before build"
+  ]
+}

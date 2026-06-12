@@ -1,0 +1,349 @@
+{
+  "slug": "nfs-plumbing-heating",
+  "gathered_at": "2026-06-11T11:14:43.681Z",
+  "attempted_sources": [
+    {
+      "platform": "google_places",
+      "status": "found",
+      "url": "https://maps.google.com/?cid=7989564719662751574"
+    },
+    {
+      "platform": "google_reviews",
+      "status": "found",
+      "url": "https://maps.google.com/?cid=7989564719662751574"
+    },
+    {
+      "platform": "google_photos",
+      "status": "found",
+      "url": "https://maps.google.com/?cid=7989564719662751574"
+    },
+    {
+      "platform": "facebook",
+      "status": "not_found",
+      "url": null,
+      "search_query": "NFS Plumbing & Heating Bristol BS3 4AZ",
+      "reason": "No URL in brief or source_urls (directory scrape not run in this phase)"
+    },
+    {
+      "platform": "instagram",
+      "status": "not_found",
+      "url": null,
+      "search_query": "NFS Plumbing & Heating Bristol BS3 4AZ",
+      "reason": "No URL in brief or source_urls (directory scrape not run in this phase)"
+    },
+    {
+      "platform": "official_website",
+      "status": "not_found",
+      "url": null,
+      "search_query": "NFS Plumbing & Heating Bristol BS3 4AZ",
+      "reason": "No URL in brief or source_urls (directory scrape not run in this phase)"
+    },
+    {
+      "platform": "checkatrade",
+      "status": "not_attempted",
+      "url": null,
+      "search_query": "NFS Plumbing & Heating Bristol BS3 4AZ",
+      "reason": "Manual search required in this phase"
+    },
+    {
+      "platform": "trustatrader",
+      "status": "not_attempted",
+      "url": null,
+      "search_query": "NFS Plumbing & Heating Bristol BS3 4AZ",
+      "reason": "Manual search required in this phase"
+    },
+    {
+      "platform": "mybuilder",
+      "status": "not_attempted",
+      "url": null,
+      "search_query": "NFS Plumbing & Heating Bristol BS3 4AZ",
+      "reason": "Manual search required in this phase"
+    },
+    {
+      "platform": "rated_people",
+      "status": "not_attempted",
+      "url": null,
+      "search_query": "NFS Plumbing & Heating Bristol BS3 4AZ",
+      "reason": "Manual search required in this phase"
+    },
+    {
+      "platform": "bark",
+      "status": "not_attempted",
+      "url": null,
+      "search_query": "NFS Plumbing & Heating Bristol BS3 4AZ",
+      "reason": "Manual search required in this phase"
+    },
+    {
+      "platform": "yell",
+      "status": "not_attempted",
+      "url": null,
+      "search_query": "NFS Plumbing & Heating Bristol BS3 4AZ",
+      "reason": "Manual search required in this phase"
+    },
+    {
+      "platform": "companies_house",
+      "status": "not_attempted",
+      "url": null,
+      "search_query": "NFS Plumbing & Heating Bristol BS3 4AZ",
+      "reason": "Manual search required in this phase"
+    },
+    {
+      "platform": "directories",
+      "status": "not_attempted",
+      "search_query": "NFS Plumbing & Heating Bristol BS3 4AZ",
+      "reason": "Generic directory sweep not automated yet"
+    }
+  ],
+  "sources": [
+    {
+      "platform": "google_places",
+      "url": "https://maps.google.com/?cid=7989564719662751574",
+      "verified": true,
+      "verification_method": "place_id_from_gather",
+      "phone_match": true,
+      "notes": "Primary gather source"
+    }
+  ],
+  "sources_found": [
+    "google_places",
+    "google_reviews",
+    "google_photos"
+  ],
+  "sources_verified": [
+    "google_places"
+  ],
+  "strongest_proof_source": {
+    "platform": "google",
+    "metric": "5 rating, 18 reviews",
+    "url": "https://maps.google.com/?cid=7989564719662751574"
+  },
+  "best_review_details": [
+    {
+      "text": "Nick has done an excellent job on various projects in my house including installing a new flue, removing a gas fire and installing a downstairs toilet. Throughout all these tasks he's shown himself to be a thoughtful and capable engineer and adept at solving problems and coming up with creative solutions. He's got a wide range of skills which include putting up walls and doors, tiling and of cours",
+      "author": "Tom",
+      "rating": 5,
+      "source": "google"
+    },
+    {
+      "text": "Really fantastic service. Nick has worked diligently on our bathroom and gone the extra mile when things were difficult to complete due to our apartment structure. He has worked without complaint when met with unpredictable obstacles and the finished job is excellent.  He has been respectful and tidy in his work throughout.\nI would highly recommend. Thanks Nick!",
+      "author": "Emma",
+      "rating": 5,
+      "source": "google"
+    },
+    {
+      "text": "Nick has done various bits of plumbing and heating work for us over the last few years. This has included boiler repairs, services, radiator installation and refitting and tiling a downstairs toilet. Everything has been completed to a really high quality and at a reasonable price. He is punctual, tidy, good at communicating and I would 100% recommend him.",
+      "author": "Michael",
+      "rating": 5,
+      "source": "google"
+    }
+  ],
+  "image_source_summary": {
+    "google_photos": 10,
+    "facebook_photos": 0,
+    "directory_photos": 0,
+    "manual_photos": 0,
+    "other": 0,
+    "preferred_source": "google_places",
+    "notes": "Google Places photos preferred for gallery when high quality",
+    "priority_order": [
+      "official_website",
+      "google_places",
+      "directory",
+      "manual_asset",
+      "facebook_evidence",
+      "proof_led"
+    ]
+  },
+  "manual_review_flags": [],
+  "enrichment_complete": true,
+  "risks": [],
+  "manual_asset_review_recommended": false,
+  "manual_asset_status": "OK",
+  "asset_readiness": {
+    "manual_asset_status": "OK",
+    "usable_automatic_count": 10,
+    "usable_manual_count": 0,
+    "usable_total_count": 10,
+    "has_hero_candidate": true,
+    "pause_before_open_design": false,
+    "pause_message": null,
+    "layout_recommendation": "photo_led",
+    "image_slots": [
+      {
+        "slot": "hero",
+        "desired": "Best finished project photo or strong proof visual",
+        "source_status": "automatic"
+      },
+      {
+        "slot": "gallery_1",
+        "desired": "Finished work close-up or wide project shot",
+        "source_status": "automatic"
+      },
+      {
+        "slot": "gallery_2",
+        "desired": "Finished work close-up or wide project shot",
+        "source_status": "automatic"
+      },
+      {
+        "slot": "gallery_3",
+        "desired": "Finished work close-up or wide project shot",
+        "source_status": "automatic"
+      },
+      {
+        "slot": "gallery_4",
+        "desired": "Finished work close-up or wide project shot",
+        "source_status": "automatic"
+      }
+    ],
+    "manual_folder": "briefs/nfs-plumbing-heating/images/manual/"
+  },
+  "image_slots": [
+    {
+      "slot": "hero",
+      "desired": "Best finished project photo or strong proof visual",
+      "source_status": "automatic"
+    },
+    {
+      "slot": "gallery_1",
+      "desired": "Finished work close-up or wide project shot",
+      "source_status": "automatic"
+    },
+    {
+      "slot": "gallery_2",
+      "desired": "Finished work close-up or wide project shot",
+      "source_status": "automatic"
+    },
+    {
+      "slot": "gallery_3",
+      "desired": "Finished work close-up or wide project shot",
+      "source_status": "automatic"
+    },
+    {
+      "slot": "gallery_4",
+      "desired": "Finished work close-up or wide project shot",
+      "source_status": "automatic"
+    }
+  ],
+  "email": null,
+  "email_found": false,
+  "email_domain_checked": false,
+  "email_domain_website": null,
+  "website_discovery": null,
+  "website_status": "NO_WEBSITE",
+  "truly_no_website": true,
+  "logo_found": false,
+  "logo_path": null,
+  "facebook_url": null,
+  "facebook_verified": false,
+  "source_verifications": [],
+  "source_confidence": null,
+  "image_manifest": [
+    {
+      "local": "images/01-places.webp",
+      "source": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3mojSO-HN2EaHv5fOSTmOSpntxyIIC9jVMZcOiMjPi806kPL5jPUWpE4q8mPCnUGZIjznPXn49HazM8e1KdxO0zRvplmOmYMjeGpmJna7zEBaDXFK_CE-AFh4ueFmFw_904zFBvCsaSXPONNRsNQK1tuVq_iOK9d7l9htP1CTpdpDttBdyKXjs1Wo9OW5f9ORuGrXO2WK4hjO59scAnJcE5mm9zSgLX-xZ-TdREx8FKeit9PnC-xXVm3qos6L2hcwcTW13iN36P-_QRgP824gCiri7cmXWOj9vVdpo0cayBZ1S7SA73bhv0glrTwt2b5ACqQqrcfi3In966ZZFseCNsWCREU8zi9noJw7_2SxWeX6_O1_7N5FUJgOLBcBzVSD8HTLzaLLkQHSmbTyVdh8BD3pIXGsswlZROKhJ1bIikJw&key=REDACTED",
+      "source_type": "google_places",
+      "confidence": "medium",
+      "purpose": "evidence_only",
+      "selected": false,
+      "classification": "letterhead",
+      "reason": "Business letterhead/card photo. Gallery and hero ineligible per manifest hygiene rule."
+    },
+    {
+      "local": "images/02-places.webp",
+      "source": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3nVwmyDw6KrSTSd4AswjG_vwOmQiEwenNoT-3XrBbpHZz6ja0mbEmERIDAmEapL4w806hZVzezTu4qNvW7p7iWwfHozjUb8mKh-6MKGfAk0ibmppvnGFOewJ920Lbik603qCo61JBIG7bY1dEw3IxuSABV0onGWqYZ04qjdP0VrvjRgHj3nkkN3DBlJm1vHEuDu_tRuBrA5_HYA4O47tFLKIWXPTSbXYsbbnVnJQHKfXzUk9mljNE7HwB4QYcWGGlzhHntksPMQ1l4OlGjqjoaOzMGFiThYBwWUEL-9hcirJFzcWr959Ifa6_dmjU3JxCNgD1p6y0YvD2ku_Da7NvJJyy6K779K3Fa3dOqacDdcvB3pBEolgnOZnSfLxAPuSVJCtRU2Ni3sIs4EJJn6VuygecsGQBVly3jRMLle9IRduQ&key=REDACTED",
+      "source_type": "google_places",
+      "confidence": "medium",
+      "purpose": "gallery",
+      "selected": true,
+      "reason": "Default from gather"
+    },
+    {
+      "local": "images/03-places.webp",
+      "source": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3n9aPOqOgEzuy1y6picM1PemOumAltLVsBxpOcU9x1Pea4q-C7jAxLCoDZfu8z7NKflmlShEJHt-675L37d1d-rXrX3LFevZGuuN8wTKIvG9QCoH6QOW0dHCUOVPpXrQLoDUe5-gxUzxPMamRUZ8yyBhbqH1z2fAARav333IB6oCU_uGOMYc1jjL1YCL_gn2x-WVgzfJkWMPzIasF9v-m2TINxZUHxLlDTVVzQGmnfziyvzpuEYNUnJ09RRYHAdozdM_ylZW7BEuAmG8jZf2tOmEr5ORsRVZMBsBWl2e9zNYsNgHDKwGuomxpsP9IvmD3oxP7xk-PLvVU487gPjpm3uR6MnQRfzmcqM__ub4v2sZG9hXT38ygE5e8IJfJaKvO8f1AcSFYODqSKdHwHPK2giMx27gIp_bOmqvvune7ogQtA&key=REDACTED",
+      "source_type": "google_places",
+      "confidence": "medium",
+      "purpose": "gallery",
+      "selected": true,
+      "reason": "Default from gather"
+    },
+    {
+      "local": "images/04-places.webp",
+      "source": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3mXF5WaV3rwWsdDomcTmLUFUcwU09wUXJHpt_5sfG84rmAn92mwQKluDM0uEfcDLIpg42nEWWTdxCPsy8Bh6akBzHVlyVKtQ_J09D2bOy5AxCO48-l77I3wWv4UyAT_0cS3Xc5rCWrlGljjvFY9hxwBve9NYOlamsu1K70JCDwQ8mSSbpDpn2xF3nIfkLbnmxBRhKznDOEReADudRlvNxy7TNU1BGJOI96_6cAY3sYbyGGo9ObtNpzaGjE7twVpXoHeSsi_xWPYAxMj7oen1Je76hQY5pR_ROBmP6SHpBvbpJiY2wymhPY_BlD62XqkcFhPo34Mpgt_nApzG8vqDRIrRRMrrdzqqzVL9lmyuEpoh2NQVBdYR2Dvn3Pt3aKF21niM5JAmxtU9X_GzAAA_ZnJROEVi4-A-Ou9R1vZqc4W8ls&key=REDACTED",
+      "source_type": "google_places",
+      "confidence": "medium",
+      "purpose": "gallery",
+      "selected": true,
+      "reason": "Default from gather"
+    },
+    {
+      "local": "images/05-places.webp",
+      "source": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3kNICylkRSfhFMF7oIa8wx0bgGhF9vLFgN4t7Sw2-5YVZev5ee_eSleb9ss4zy2qps6hFxyQyWt1KuLXh6TFy_dTdI3RvMXbk9TRRIUCxrNvdT8kw6ERwKxZ5zB3o1WgWziH5R5iOiqu9xvPR7Iu_HhuQaXJOOs4H1FH4km1qHBeNBUU2lefVgk79-Lxc2gdFj3gOfYgl4PNHbzyRENyY0ExyKIaxbgfqs_m0XHNZH-NiZLX3KkSr9u51tL95_lQiEqg8-UefVVMQjQzDVgp88vR7l5WuacNCoX3o-XSOLaHU2xOxAgbet9elNpfCsaRzSywZkO4vVqFWkALnhCKT1UG1ia-7OrCwspEbBvJQlE_7RPBwAmX-MNnvXgFewHBG4XHHWw7KB_yQlcVGn5YjKaa31yxQvjeLxZKblL_VCYNQ&key=REDACTED",
+      "source_type": "google_places",
+      "confidence": "medium",
+      "purpose": "gallery",
+      "selected": true,
+      "reason": "Default from gather"
+    },
+    {
+      "local": "images/06-places.webp",
+      "source": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3lNks7CA1x7BT8GCYNCmaCKFWSv-zwagHWN3I3CBKp-QPGcluJlXE6ePBt6lgyFFxsxeUnf1oPBcFYO-P77swbfLlhapVd6-pLofAbJeoE2-u0ypi_tVC-ki3bMY-UCQ_ZMxDr9-H92MXY2jhtp-Rsavb9aE51xP-Uni2Hg7J7aQT1bsfpD7i7bZcwN6iyNEYG6PSbAwaX7vUhl_q94Y1x5bXOv33GkSb4oVBmR04uQqsHw9aUiPskv4ykWtuKBHH9WJCWMcTZYLmrW54rDv0UahNG2Da4AzrFjui32DRD363QJ7rTDs2l1e9dDLn2s2rz-ims18XsHZVJK6VNmyVVk9Ej6UWR0x-FDVFHWrMIzy8lTA4aDDGAgPRFcRG6gqzBGjxgsiTex9P9FEqAwdbBX-IcVyC32o5I0vNO0lV3z_xJg&key=REDACTED",
+      "source_type": "google_places",
+      "confidence": "medium",
+      "purpose": "gallery",
+      "selected": true,
+      "reason": "Default from gather"
+    },
+    {
+      "local": "images/07-places.webp",
+      "source": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3mMMMvbQ5Dhx7csGGYf9CVvCOoqlBn5ooaKCB68jzCXrEeXH5PW-SS517tCpXQoyIxmbbjLB1JljM_ZL5kZEKAUGSwGy1jKe8Knij5KCiw4_B0akBdN_p6q6f1bMgeRbERS1YwDPruc_gaJL0_4dw_Bj_oK4v5NwwfdK4mP3pwHJ7AbFTk-bLa5WusN04HdVCP16Vt6q19uNzVSzlTGFZURVteikUB87A0ZdX93BjJs_9b0XDzFDa-V9LfUft8Usj5_aecK0uVLvU9IvoKfSf6BONMnINApod_bdDO7kj7udPyInmuCKqF9_GyeOv8eUpJ0gpncSGlKXuvLFV7p2gKrdnsj78MV8Y-kDN1LTYMoaCynhc95VYZezHkvPNICxY3-0tLxELn8WryKRwk6HJf7Y__h35xmFIRvpUcK12X6bkXW&key=REDACTED",
+      "source_type": "google_places",
+      "confidence": "medium",
+      "purpose": "gallery",
+      "selected": true,
+      "reason": "Default from gather"
+    },
+    {
+      "local": "images/08-places.webp",
+      "source": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3kfz9BIerF9-TZ1g3_JRTIZ-xIj1fazXfCkRMIfLBn1KUiVUOl2qmwlTNKxqwC98e7ddoLScrkW8bqfESWpRa2cuS4fQuCYc0YwlBkeChS5hivYxBp7WdyFSxnAC3853PBU-YmOxqLecPlzZm7JbguvdlcT60_XeA2qtnhvNpJlns3BpyLXksSWEA6JewuWrAcjw8yVgqtnlzkXJm90mOs4n5m9x7VWev8khlFPqA6uFNaDP5OWdpF-sopCFkSvr38kf0gC2I8wWY5SEhm7YNreTr0U25a1xXrNirhixmjTEAS1d8dTzXWAYQ8k7Mi8Hdsd23II7GPKcEJ0wAhF8likVtmsd73ml_ypcOGVXv0OPfOImaWJHwbNh9i1hFismWsaV0MAOJp8qQxUsKTaPzKdCf9-ZV1Px-hS8Ha-AW_v1w&key=REDACTED",
+      "source_type": "google_places",
+      "confidence": "medium",
+      "purpose": "gallery",
+      "selected": true,
+      "reason": "Default from gather"
+    },
+    {
+      "local": "images/09-places.webp",
+      "source": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3ld1cZtcPr2CjfNhah7Lj6Wz3s1BSj4LH5_77AgN1gk6r56Zgb7bzhapCtYV6AYEkmNK1A1F7wFWWjrnncf-L-zqzYyFsiGDP46gdaTxV0Du5w6uXMgFOEK072_vbqHnrPF5nzP_hgqh_v1Ea8kvLHV-qeyfm9ZfItz89fp0DMdTYu89MRJbD3OYzbjHKNiP7wcxKQIu9mfg3f4ewBpWlCIJ1A2WmszLB1hVzssu4bKgmNsA6gXJSJ2yV--Y0uKPxw0NObwQw4STbWTxIA-GN1_Fd5XTOnKRzdnnIuaxt1KCMDDTzQlopuVN9xqContYEz0VY3WGNW1jhe35OuP_G3qD_jGHILxJIMfLer6BMvFrjRNkmtholgsvLfDyMymj3rteW6jh-GVJcwl12YgAIZkqLSR02DlwIt1DtiJR5zz4g&key=REDACTED",
+      "source_type": "google_places",
+      "confidence": "medium",
+      "purpose": "gallery",
+      "selected": true,
+      "reason": "Default from gather"
+    },
+    {
+      "local": "images/10-places.webp",
+      "source": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3llpn0VAxfdEo7zBBX3OldBmRMBGv58chXwCCr0JMPagLB5G1ov-N3QgBZpUabKjKZuCn62nqoqwLruJboVxKJKOViqS9CxAX0YDGJW-cmfmnfHj5Sj1JPMEmHfJBuBwyBoQfv6j1W3SHDd87sndOCV53iLmI6A9VzlvxtfVTt5WNoiajRhK6mZR-YG47ww5DuzQMi0zgud6d2bm4H5zhlJuxe1vpJf6NYJl0LWpL99OqUVqVOMqMT6sTQyY-QR0uQHf_mc0vQ3x4wfMwwQgJeOwzsN4HTTjpiBCOKPWuyTcxVjSilrabll43u2ntBG-v0eSsTg7HaJuMpk37LhZWlUO1aTTjBC86560c7mm_J5Hd7qsnOFT_NHiX_JXAg7aI_cRJQNACySf_YlGX8CVIPMmurEv8QcKpBVvAphDxTwAQ&key=REDACTED",
+      "source_type": "google_places",
+      "confidence": "medium",
+      "purpose": "gallery",
+      "selected": true,
+      "reason": "Default from gather"
+    }
+  ],
+  "selected_images": [
+    "images/02-places.webp",
+    "images/03-places.webp",
+    "images/04-places.webp",
+    "images/05-places.webp",
+    "images/06-places.webp",
+    "images/07-places.webp",
+    "images/08-places.webp",
+    "images/09-places.webp",
+    "images/10-places.webp"
+  ],
+  "lead_validity_status": "INSUFFICIENT_EVIDENCE",
+  "ready_for_build": false,
+  "registry_source_count": 0,
+  "batch_waiver_applied": true,
+  "batch_waiver_note": "Batch waiver 2026-06-11: Google Places plus contact_name_in_brief"
+}

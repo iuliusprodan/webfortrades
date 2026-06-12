@@ -1,0 +1,146 @@
+{
+  "slug": "jt-plumbing",
+  "created_at": "2026-06-10T20:47:42.275Z",
+  "sections": [
+    {
+      "id": "review-led-hero",
+      "priority": 1,
+      "heading": "Highly recommend, Josh gave our heating system a complete overhaul replacing all our radia.",
+      "justification": "Strongest review quote defines the business",
+      "background_mood": "cool"
+    },
+    {
+      "id": "stats-sourced-only",
+      "priority": 2,
+      "heading": null,
+      "justification": "Google rating and review count sourced from Places",
+      "background_mood": "accent"
+    },
+    {
+      "id": "third-party-proof-strip",
+      "priority": 3,
+      "heading": "Verified customer proof",
+      "justification": "Surface facebook alongside Google",
+      "background_mood": "accent"
+    },
+    {
+      "id": "emergency-callout",
+      "priority": 4,
+      "heading": "Emergency plumbing and heating callouts",
+      "justification": "Business name or reviews suggest urgent work",
+      "background_mood": "dark"
+    },
+    {
+      "id": "facebook-work-gallery",
+      "priority": 5,
+      "heading": "Recent work from JT Plumbing",
+      "justification": "Facebook photos preferred over Google clusters",
+      "background_mood": "light"
+    },
+    {
+      "id": "service-explainers",
+      "priority": 6,
+      "heading": "5 services explained plainly",
+      "justification": "Evidence-based service list, not fixed 06 grid",
+      "background_mood": "surface"
+    },
+    {
+      "id": "featured-review-story",
+      "priority": 7,
+      "heading": "Customers mention Josh by name",
+      "justification": "Single contact name with review evidence",
+      "background_mood": "warm"
+    },
+    {
+      "id": "process-section",
+      "priority": 8,
+      "heading": "How a job with us works",
+      "justification": "Process section adds business-specific clarity",
+      "background_mood": "cool"
+    },
+    {
+      "id": "review-wall",
+      "priority": 9,
+      "heading": "4.9 on Google reviews",
+      "justification": "Full review quotes, not synthetic headlines",
+      "background_mood": "light"
+    },
+    {
+      "id": "local-coverage",
+      "priority": 10,
+      "heading": "Based in Bristol",
+      "justification": "Location verified from Google address",
+      "background_mood": "accent"
+    },
+    {
+      "id": "faq",
+      "priority": 11,
+      "heading": "Practical questions",
+      "justification": "FAQ justified by hours and strong evidence",
+      "background_mood": "surface"
+    },
+    {
+      "id": "simple-contact",
+      "priority": 12,
+      "heading": "Get a quote from JT Plumbing",
+      "justification": "Business-specific contact, not generic phone line copy",
+      "background_mood": "dark"
+    },
+    {
+      "id": "quote-form",
+      "priority": 13,
+      "heading": null,
+      "justification": "Quote form at contact anchor",
+      "background_mood": "dark"
+    }
+  ],
+  "omitted_defaults": [
+    "owner-note",
+    "about-van-template",
+    "generic-stats-band"
+  ],
+  "omitted_reasons": {
+    "owner-note": "Using team-person or featured-review instead of generic owner note",
+    "about-van-template": "Avoid \"One van. One trade.\" template block",
+    "generic-stats-band": "Stats only when sourced",
+    "faq": "",
+    "gallery-default": "Insufficient photos for full gallery"
+  },
+  "generic_plan": false,
+  "compared_against": [
+    "corvell-ltd",
+    "greens-precise-plumbing-heating-ltd"
+  ],
+  "clone_warnings": [
+    "Identical section order as greens-precise-plumbing-heating-ltd",
+    "High section overlap (100%) with greens-precise-plumbing-heating-ltd"
+  ],
+  "image_slots": [
+    {
+      "slot": "hero",
+      "desired": "Best finished project photo or strong proof visual",
+      "source_status": "automatic"
+    },
+    {
+      "slot": "gallery_1",
+      "desired": "Finished work close-up or wide project shot",
+      "source_status": "automatic"
+    },
+    {
+      "slot": "gallery_2",
+      "desired": "Finished work close-up or wide project shot",
+      "source_status": "automatic"
+    },
+    {
+      "slot": "gallery_3",
+      "desired": "Finished work close-up or wide project shot",
+      "source_status": "automatic"
+    },
+    {
+      "slot": "gallery_4",
+      "desired": "Finished work close-up or wide project shot",
+      "source_status": "manual_needed"
+    }
+  ],
+  "layout_recommendation": "photo_led"
+}

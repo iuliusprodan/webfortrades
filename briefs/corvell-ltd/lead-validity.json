@@ -1,0 +1,44 @@
+{
+  "lead_validity_status": "HAS_REAL_SITE_SKIP",
+  "lead_validity_reason": "reason=working_site; status=200; final=https://corvell.co.uk/; title=Bathroom Renovations, Plumbing & Tiling Services | Corvell Bathrooms",
+  "website_status": "HAS_REAL_SITE",
+  "website_url": "https://corvell.co.uk/",
+  "website_discovery_classification": "HAS_REAL_SITE",
+  "email_domain_website": {
+    "classification": "HAS_REAL_SITE",
+    "db_status": "HAS_REAL_SITE",
+    "domain": "corvell.co.uk",
+    "initial_url": "https://corvell.co.uk",
+    "final_url": "https://corvell.co.uk/",
+    "status_code": 200,
+    "title": "Bathroom Renovations, Plumbing & Tiling Services | Corvell Bathrooms",
+    "reason": "reason=working_site; status=200; final=https://corvell.co.uk/; title=Bathroom Renovations, Plumbing & Tiling Services | Corvell Bathrooms",
+    "probes": [
+      {
+        "url": "https://corvell.co.uk",
+        "ok": true,
+        "status_code": 200,
+        "final_url": "https://corvell.co.uk/"
+      }
+    ],
+    "text_snippet": "Bathroom Renovations, Plumbing &amp; Tiling Services | Corvell Bathrooms Speak To Our Team &#8211; Call: 07804 693 411 or 07427 606 183 | Write To Us &#8211; Email: info@corvell.co.uk Follow Us Online: Follow Follow Follow Home About Services Bathroom Renovation Bathroom Installation Wetroom Installation Tiling Services General Plumbing Gallery Areas Covered Blog Contact Get A FREE Quote Speak To "
+  },
+  "source_confidence_summary": {
+    "overall": "high",
+    "verified_platforms": [
+      "google_places",
+      "facebook",
+      "official_website"
+    ],
+    "rejected_platforms": [],
+    "notes": []
+  },
+  "ready_for_build": false,
+  "manual_review_required": true,
+  "has_real_website": true,
+  "truly_no_website": false,
+  "warnings": [
+    "contactability=NEEDS_MANUAL_REVIEW",
+    "Real website exists - skip no-website build pipeline"
+  ]
+}

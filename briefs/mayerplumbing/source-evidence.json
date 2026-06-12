@@ -1,0 +1,350 @@
+{
+  "slug": "mayerplumbing",
+  "gathered_at": "2026-06-10T17:12:55.363Z",
+  "attempted_sources": [
+    {
+      "platform": "google_places",
+      "status": "found",
+      "url": "https://maps.google.com/?cid=18116576822181614931"
+    },
+    {
+      "platform": "google_maps",
+      "status": "not_attempted",
+      "search_query": "MayerPlumbing Bristol BS16 5PS site:google.com/maps",
+      "reason": "Automated search not run in enrich pass unless URL provided"
+    },
+    {
+      "platform": "google_reviews",
+      "status": "found",
+      "url": "https://maps.google.com/?cid=18116576822181614931"
+    },
+    {
+      "platform": "google_photos",
+      "status": "found",
+      "url": "https://maps.google.com/?cid=18116576822181614931"
+    },
+    {
+      "platform": "facebook",
+      "status": "not_attempted",
+      "search_query": "MayerPlumbing Bristol BS16 5PS Facebook",
+      "reason": "Automated search not run in enrich pass unless URL provided"
+    },
+    {
+      "platform": "checkatrade",
+      "status": "not_attempted",
+      "search_query": "MayerPlumbing Bristol BS16 5PS site:checkatrade.com",
+      "reason": "Automated search not run in enrich pass unless URL provided"
+    },
+    {
+      "platform": "trustatrader",
+      "status": "not_attempted",
+      "search_query": "MayerPlumbing Bristol BS16 5PS site:trustatrader.com",
+      "reason": "Automated search not run in enrich pass unless URL provided"
+    },
+    {
+      "platform": "yell",
+      "status": "not_attempted",
+      "search_query": "MayerPlumbing Bristol BS16 5PS site:yell.com",
+      "reason": "Automated search not run in enrich pass unless URL provided"
+    },
+    {
+      "platform": "mybuilder",
+      "status": "not_attempted",
+      "search_query": "MayerPlumbing Bristol BS16 5PS site:mybuilder.com",
+      "reason": "Automated search not run in enrich pass unless URL provided"
+    },
+    {
+      "platform": "rated_people",
+      "status": "not_attempted",
+      "search_query": "MayerPlumbing Bristol BS16 5PS site:ratedpeople.com",
+      "reason": "Automated search not run in enrich pass unless URL provided"
+    },
+    {
+      "platform": "bark",
+      "status": "not_attempted",
+      "search_query": "MayerPlumbing Bristol BS16 5PS site:bark.com",
+      "reason": "Automated search not run in enrich pass unless URL provided"
+    },
+    {
+      "platform": "houzz",
+      "status": "not_attempted",
+      "search_query": "MayerPlumbing Bristol BS16 5PS site:houzz.co.uk",
+      "reason": "Automated search not run in enrich pass unless URL provided"
+    },
+    {
+      "platform": "youtube",
+      "status": "not_attempted",
+      "search_query": "MayerPlumbing Bristol BS16 5PS site:youtube.com",
+      "reason": "Automated search not run in enrich pass unless URL provided"
+    },
+    {
+      "platform": "companies_house",
+      "status": "not_attempted",
+      "search_query": "MayerPlumbing site:find-and-update.company-information.service.gov.uk",
+      "reason": "Automated search not run in enrich pass unless URL provided"
+    },
+    {
+      "platform": "official_website",
+      "status": "found",
+      "url": "http://www.mayerplumbing.co.uk/"
+    },
+    {
+      "platform": "email_domain_website",
+      "status": "not_attempted",
+      "search_query": "https://",
+      "reason": "Automated search not run in enrich pass unless URL provided"
+    },
+    {
+      "platform": "directories",
+      "status": "not_attempted",
+      "search_query": "MayerPlumbing Bristol BS16 5PS plumber electrician directory",
+      "reason": "Automated search not run in enrich pass unless URL provided"
+    },
+    {
+      "platform": "local_trade_directories",
+      "status": "not_attempted",
+      "search_query": "MayerPlumbing Bristol BS16 5PS local directory",
+      "reason": "Automated search not run in enrich pass unless URL provided"
+    },
+    {
+      "platform": "trade_association",
+      "status": "not_attempted",
+      "search_query": "MayerPlumbing  association member",
+      "reason": "Automated search not run in enrich pass unless URL provided"
+    },
+    {
+      "platform": "review_aggregators",
+      "status": "not_attempted",
+      "search_query": "MayerPlumbing Bristol BS16 5PS reviews",
+      "reason": "Automated search not run in enrich pass unless URL provided"
+    },
+    {
+      "platform": "instagram",
+      "status": "not_attempted",
+      "search_query": "MayerPlumbing Bristol BS16 5PS Instagram",
+      "reason": "Requires login - manual review only"
+    },
+    {
+      "platform": "nextdoor",
+      "status": "not_attempted",
+      "search_query": "MayerPlumbing Bristol BS16 5PS site:nextdoor.co.uk",
+      "reason": "Requires login - manual review only"
+    },
+    {
+      "platform": "pinterest",
+      "status": "not_attempted",
+      "search_query": "MayerPlumbing Bristol BS16 5PS site:pinterest.com",
+      "reason": "Requires login - manual review only"
+    },
+    {
+      "platform": "tiktok",
+      "status": "not_attempted",
+      "search_query": "MayerPlumbing Bristol BS16 5PS TikTok",
+      "reason": "Requires login - manual review only"
+    },
+    {
+      "platform": "linkedin",
+      "status": "not_attempted",
+      "search_query": "MayerPlumbing Bristol BS16 5PS site:linkedin.com",
+      "reason": "Requires login - manual review only"
+    },
+    {
+      "platform": "twitter",
+      "status": "not_attempted",
+      "search_query": "MayerPlumbing Bristol BS16 5PS site:twitter.com OR site:x.com",
+      "reason": "Requires login - manual review only"
+    }
+  ],
+  "sources": [
+    {
+      "platform": "google_places",
+      "url": "https://maps.google.com/?cid=18116576822181614931",
+      "verified": true,
+      "verification_method": "place_id_from_gather",
+      "phone_match": true,
+      "notes": "Primary gather source"
+    },
+    {
+      "platform": "official_website",
+      "url": "http://www.mayerplumbing.co.uk/",
+      "verified": false,
+      "verification_method": "cross_check_needed",
+      "phone_match": true,
+      "notes": "BROKEN_OR_BAD_SITE"
+    }
+  ],
+  "sources_found": [
+    "google_places",
+    "google_reviews",
+    "google_photos",
+    "official_website"
+  ],
+  "sources_verified": [
+    "google_places"
+  ],
+  "strongest_proof_source": {
+    "platform": "google",
+    "metric": "4.9 rating, 13 reviews",
+    "url": "https://maps.google.com/?cid=18116576822181614931"
+  },
+  "best_review_details": [
+    {
+      "text": "We called in James to fix our kitchen tap with low water pressure and to replace a cracked kitchen waste pipe. He was polite, accommodating, quick and thorough with the work, and was happy to consult with us about a couple future jobs that need doing too. His price was also very reasonable. We plan to get him back soon for a shower replacement. Will definitely be keeping his phone number for other",
+      "author": "Kate",
+      "rating": 5,
+      "source": "google"
+    },
+    {
+      "text": "Highly recommend James. Very reliable, flexible and reasonable. Have had two bathrooms refurbished by him. Excellent Service! James is very prompt  and professional. The work was completed efficiently and to a high standard. I was very impressed with his customer service and would highly recommend them to anyone in need of plumbing services.\"",
+      "author": "Josh",
+      "rating": 5,
+      "source": "google"
+    },
+    {
+      "text": "Massively recommend James and team. He did an entire bathroom refit for me and was extremely reliable, good value and did great work. All the trades he employed to work on project were lovely. Everyone turned up on time and were very friendly. And tidy! Job was completed quickly. 5 stars!",
+      "author": "amy",
+      "rating": 5,
+      "source": "google"
+    }
+  ],
+  "image_source_summary": {
+    "google_photos": 4,
+    "facebook_photos": 0,
+    "other": 0,
+    "preferred_source": "google",
+    "notes": "Google Places photos default"
+  },
+  "manual_review_flags": [
+    "contactability=NEEDS_MANUAL_REVIEW"
+  ],
+  "enrichment_complete": false,
+  "risks": [],
+  "email": null,
+  "email_found": false,
+  "email_domain_checked": false,
+  "email_domain_website": null,
+  "website_discovery": {
+    "classification": "BROKEN_OR_BAD_SITE",
+    "db_status": "BROKEN_OR_BAD_SITE",
+    "domain": "mayerplumbing.co.uk",
+    "initial_url": "http://www.mayerplumbing.co.uk/",
+    "final_url": "http://www.mayerplumbing.co.uk/",
+    "status_code": null,
+    "title": null,
+    "reason": "reason=network_error; url=http://www.mayerplumbing.co.uk/; final=http://www.mayerplumbing.co.uk/",
+    "probes": [
+      {
+        "url": "http://www.mayerplumbing.co.uk/",
+        "ok": false,
+        "status_code": null,
+        "final_url": "http://www.mayerplumbing.co.uk/"
+      }
+    ],
+    "text_snippet": null
+  },
+  "website_status": "BROKEN_OR_BAD_SITE",
+  "truly_no_website": null,
+  "logo_found": false,
+  "logo_path": null,
+  "facebook_url": null,
+  "facebook_verified": false,
+  "source_verifications": [
+    {
+      "platform": "google_places",
+      "url": "https://maps.google.com/?cid=18116576822181614931",
+      "confidence": "medium",
+      "verified": true,
+      "verification_reasons": [
+        "Business name matches or clearly aliases Google listing",
+        "Location or service area matches Google address/city"
+      ],
+      "matches": {
+        "phone": false,
+        "email": false,
+        "website": false,
+        "business_name": true,
+        "location": true,
+        "service_trade": false,
+        "logo": false
+      },
+      "rejected_reason": null
+    },
+    {
+      "platform": "email_domain_website",
+      "url": "http://www.mayerplumbing.co.uk/",
+      "confidence": "medium",
+      "verified": true,
+      "verification_reasons": [
+        "Business name matches or clearly aliases Google listing",
+        "Location or service area matches Google address/city",
+        "Website or domain link visible on source"
+      ],
+      "matches": {
+        "phone": false,
+        "email": false,
+        "website": true,
+        "business_name": true,
+        "location": true,
+        "service_trade": false,
+        "logo": false
+      },
+      "rejected_reason": null
+    }
+  ],
+  "source_confidence": {
+    "overall": "medium",
+    "verified_platforms": [
+      "google_places",
+      "email_domain_website"
+    ],
+    "rejected_platforms": [],
+    "notes": []
+  },
+  "image_manifest": [
+    {
+      "local": "images/02-places.webp",
+      "source": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3nIWMSZdEECEJr1gg5KtUwH7Th5GIR426jXhRkui75MchN48-4KIrT3IwEDQHiDsprvpbO6VAYpeifuqjOCU_GPXhnOa_iVFExiVn_8pQAITQqZw9gd-j4bQFJgcTcu6ZaBw4P9NpLyzvRrwr37h0CbP4k3OcW_Iuma3wenktkzH7CLI0HWoOrQZjp-oKlBF531BHt4-JDCW9ds7vSpqrNXb1QHpKU_HoyVAgdqRGg8AE_2RoFw3LZXP0IvtiZlYWFSOAlLYxFZv5keWA0XUQOr9MErIfyrUrO8Ej5_VhP-bfu7bLoqECoqUnmh_z1JSCLU98P78GLs0Ah6l3M4cQmPrg3_c8Tie-fSF8u31zQkfY9CpvT9GcBR3ZfHZMIkNFboK1YAxQwQ17u27p-6JZtZO2XZQFF6_3Dt681lt2tp9KnF&key=REDACTED",
+      "source_type": "google_places",
+      "confidence": "medium",
+      "purpose": "gallery",
+      "selected": true,
+      "reason": "Default from gather"
+    },
+    {
+      "local": "images/05-places.webp",
+      "source": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3mco5vxPfSPRHiquDnMD4zgLhqTjtIw3QWgHKT_FW9UYwv3WusUlFILS8VM5AChbDAPfh3fQR8xTnmOh4SzakYbiaXKadYPNjtDCHVqPWkgeGEdkKKcOya8qVUzyQ-GisdvC-rg9Qw5GXFJb2gQOsvdkLcVF1bmE8mHnwVvTi0y_z9prFGxNsFecnZ76Vl8Nu1-IDWljPmuztm2iQFyHqr1qAah5m_nDNALYFKn3Q9XgrrxtlxcrwPJMswhuT50lnaievX2BhRGotCSxTkiwdiDUJn_dlR02tzNB9dWvmLsSOI-Ya8rPBzkleiM1YsrTrGqpSotZuTIleCfE0jsvlnSrKLk4p2vnORYP-m9Uj5JZYATw_uHh5s7TIytntNsCuSbWT3ajmkNnTFO18W3n8TcEh3gsCtZfL4gipgtUmM&key=REDACTED",
+      "source_type": "google_places",
+      "confidence": "medium",
+      "purpose": "gallery",
+      "selected": true,
+      "reason": "Default from gather"
+    },
+    {
+      "local": "images/07-places.webp",
+      "source": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3mYpuuSBohXEdYZdOsFcpnXd0Os-wjUemtLzLwQ3SuXxWrcLmUOQfU6yhoa3GSIpq-AFLVJaDJdpQ0oUzmXMGzIYJ-p4SqFoczLBhM8T9o5JU-TCg12qdi75fDpXFEDeJ7HUznRsnEKCpgyNzr_zEnnWxUf0AOzPpFycU471xVB2F5FCoq4_2BB8_KPOa9-UaQ8G8SDjfS-Z6ImVoTRIRQJNJxzsOYVNIqrJc4fKEQ7CdbRid0ZRtKrwpXAd19JYb7v8ETP4exJWKPW2eMjq0kCPzSKsEWDtGzBzvOy82Do-eqsySM343NpieDiwSq8CDkO5ENaBr9S9tRI6sb_uxZeTa4i3KBqV2CcoLcpUFAR_zlbdxTW_O7wpNl-ik20qwZpHrVPz_dq3nxb5P9h5ZM9n6_P3VFS7Fuc6NR4559q2Aiq&key=REDACTED",
+      "source_type": "google_places",
+      "confidence": "medium",
+      "purpose": "gallery",
+      "selected": true,
+      "reason": "Default from gather"
+    },
+    {
+      "local": "images/09-places.webp",
+      "source": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3kxnE99nn_KaAVrzyaVTNO6Rd3Z0mJ0apA6ATvIszFAcm9lQsOGR-43z05CKMwatSXiMLg897xRT6LKQ4IMWFaOCJeLWKEISeH4kHvTcbbx8ahLZdbzMjrB-IPtHiKTQFHulu90wxfVirNCDN79YNwwPfZTk-EMuiHdyiEt1ZVj2kzr5GofkG-VUhIU8DGqjPFN1WiSY5DQ9YHCs4E6rMl8FUxqH8BBgLiCkAyLKjPphZsPIRgsY1iCKOSLCKS7HdvcuuZ9ZZ1--HyywxXLb22X0CkyFTRojPfKtPSCapSDkVGr6gAIFtNxvzGVGfHzblx9tBzVnVg4HdGS9j-U9xUXnTZXz055pSXd1MUxXjMNs53RgDckuPQgpjHhVgMAL4YYPxTpp1rarXzcvJEodMyEd1mEBLjdClA1aqSHaofFv6A8&key=REDACTED",
+      "source_type": "google_places",
+      "confidence": "medium",
+      "purpose": "gallery",
+      "selected": true,
+      "reason": "Default from gather"
+    }
+  ],
+  "selected_images": [
+    "images/02-places.webp",
+    "images/05-places.webp",
+    "images/07-places.webp",
+    "images/09-places.webp"
+  ],
+  "lead_validity_status": null,
+  "ready_for_build": null,
+  "registry_source_count": 26
+}

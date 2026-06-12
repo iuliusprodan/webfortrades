@@ -1,0 +1,30 @@
+{
+  "slug": "west-park-electrics",
+  "updated_at": "2026-06-11T16:06:57.911Z",
+  "preferred_alias": "west-park-electrics",
+  "deployment_url": "https://west-park-electrics-n4854xyas-iulius-projects-0cb33a7b.vercel.app",
+  "verified_url": "https://west-park-electrics.vercel.app",
+  "final_url": "https://west-park-electrics.vercel.app",
+  "alias_status": "VERIFIED",
+  "candidates": [
+    {
+      "hostname": "west-park-electrics",
+      "url": "https://west-park-electrics.vercel.app",
+      "preflight": "already_ours",
+      "detail": "Build marker west-park-electrics:20260611-polish",
+      "verify": "verified"
+    }
+  ],
+  "verification": {
+    "ok": true,
+    "httpStatus": 200,
+    "markerFound": true,
+    "businessNameFound": true,
+    "phoneFound": true,
+    "marker": {
+      "buildId": "west-park-electrics:20260611-polish",
+      "slug": "west-park-electrics"
+    },
+    "errors": []
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "slug": "stay-dry-roofing",
+  "updated_at": "2026-06-11T17:10:00.000Z",
+  "preferred_alias": "stay-dry-roofing",
+  "deployment_url": "https://jt-plumbing-bw7vtluye-iulius-projects-0cb33a7b.vercel.app",
+  "verified_url": "https://stay-dry-roofing.vercel.app",
+  "final_url": "https://stay-dry-roofing.vercel.app",
+  "alias_status": "VERIFIED",
+  "candidates": [
+    {
+      "hostname": "stay-dry-roofing",
+      "url": "https://stay-dry-roofing.vercel.app",
+      "preflight": "already_ours",
+      "detail": "Canonical alias reassigned to outreach-prep deployment",
+      "verify": "verified"
+    }
+  ],
+  "verification": {
+    "ok": true,
+    "httpStatus": 200,
+    "markerFound": true,
+    "businessNameFound": true,
+    "phoneFound": true,
+    "marker": {
+      "buildId": "stay-dry-roofing:20260611-outreach-prep",
+      "slug": "stay-dry-roofing"
+    },
+    "errors": []
+  }
+}

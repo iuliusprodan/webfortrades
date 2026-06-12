@@ -1,0 +1,58 @@
+{
+  "slug": "west-park-electrics",
+  "batch_id": "2026-06-11-five-site",
+  "polish_pass": "2026-06-11",
+  "build_id": "west-park-electrics:20260611-polish",
+  "ready_to_pitch": true,
+  "og_status": "NOT GENERATED",
+  "scroll_status": "NOT GENERATED",
+  "outreach": false,
+  "live_url": "https://west-park-electrics.vercel.app",
+  "section_order_deployed": [
+    "hero",
+    "services",
+    "gallery",
+    "reviews",
+    "process",
+    "service-area",
+    "contact"
+  ],
+  "changes": [
+    "Removed letterhead hero image (01-places.webp); typography hero with proof bar",
+    "Removed Customers mention Choudhary by name section; merged into What reviewers highlight in reviews",
+    "Reordered sections per section-variation.json matrix",
+    "Gallery switched to horizontal strip layout",
+    "Removed story section and standalone stats band",
+    "Text wordmark only (unchanged)",
+    "No scanned document images used"
+  ],
+  "clone_review": {
+    "before": {
+      "reviewed_at": "2026-06-11T12:07:42.401Z",
+      "passed": false,
+      "clone_score": 32,
+      "business_specificity_estimate": 68,
+      "section_order_similarity": 100,
+      "issues": [
+        "Deployed section order matches default template (100%)",
+        "High section overlap (91%) with nfs-plumbing-heating",
+        "High section overlap (91%) with stay-dry-roofing"
+      ]
+    },
+    "after": {
+      "reviewed_at": "2026-06-11T12:11:43.451Z",
+      "passed": true,
+      "clone_score": 23,
+      "business_specificity_estimate": 77,
+      "section_order_similarity": 55,
+      "issues": [
+        "High section overlap (91%) with nfs-plumbing-heating",
+        "High section overlap (91%) with stay-dry-roofing"
+      ]
+    }
+  },
+  "deployed_at": "2026-06-11T12:13:41.270Z",
+  "alias_status": "VERIFIED",
+  "style_verify": "PASS",
+  "updated_at": "2026-06-11T16:08:27.831Z"
+}

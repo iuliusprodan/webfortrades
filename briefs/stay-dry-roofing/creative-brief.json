@@ -1,0 +1,28 @@
+{
+  "slug": "stay-dry-roofing",
+  "business_name": "Stay Dry Roofing",
+  "trade_niche": "roofers",
+  "actual_city_town": "Sheffield",
+  "verified_based_location": "Sheffield, S1",
+  "location_confidence": "high",
+  "location_validation_status": "OK",
+  "logo_available": false,
+  "dominant_colours_logo": [],
+  "dominant_colours_photos": ["#1e3a5f"],
+  "chosen_colour_palette": "steel-blue-ops",
+  "chosen_fonts": "Syne + DM Sans",
+  "chosen_layout_direction": "compact-local",
+  "chosen_tone_of_voice": "Direct, local, plain English",
+  "reason_for_design_choices": "Steel blue ops palette and Syne + DM Sans for a Sheffield roofer with strong Google reviews. Redesign concept for a business with an existing site.",
+  "inspired_by_template": null,
+  "deliberately_different_from": ["nfs-plumbing-heating"],
+  "image_selection_strategy": "Gallery masonry from verified Google photos",
+  "service_selection_strategy": "Name and review evidence",
+  "location_validation_notes": "Google address Sheffield S1 matches service area.",
+  "risks_or_manual_review_flags": [
+    "HAS_REAL_SITE: use redesign pitch framing",
+    "WhatsApp check pending gateway"
+  ],
+  "hero_headline": "Sheffield roofing, kept watertight.",
+  "services": ["Roofing", "Roof repairs", "Guttering", "Roof replacements"]
+}

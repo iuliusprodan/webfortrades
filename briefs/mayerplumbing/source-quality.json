@@ -1,0 +1,16 @@
+{
+  "source_quality_status": "FAIL",
+  "source_quality_reason": "Source enrichment not complete",
+  "website_url_validated": true,
+  "email_domain_checked": true,
+  "enrichment_complete": false,
+  "logo_discovery_attempted": true,
+  "photo_discovery_attempted": true,
+  "directory_probes_attempted": true,
+  "warnings": [
+    "Lead validity requires manual review"
+  ],
+  "blockers": [
+    "Source enrichment not complete"
+  ]
+}

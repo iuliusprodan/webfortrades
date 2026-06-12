@@ -1,0 +1,20 @@
+{
+  "slug": "greens-precise-plumbing-heating-ltd",
+  "opening_line": "Hi - I read a review where Chris mentioned tidy finishes on a job with Greens Precise Plumbing & Heating ltd. That stood out.",
+  "source_quote": "Have used several plumbers in the past, with varying success. Some were expensive, some were unreliable - it was always hit and miss. Thought I'd give Greens Precise Plumbing a shot as I needed a new toilet and hand basin plumbed in. Callum was great, he explained the requirements for the job, provi",
+  "source_evidence": "facebook: 10 public photos, phone verified",
+  "why_this_angle": "Lead with review detail about tidy finishes (Chris)",
+  "suggested_whatsapp": "Hi, Julius here. I build websites for local trades. One of your Google reviews from Chris mentioned tidy finishes - I mocked up a one-page site around that. No obligation - want a quick look?",
+  "price_recommendation_gbp": 270,
+  "price_tier": "starter",
+  "follow_up_replies": [
+    {
+      "trigger": "price",
+      "text": "One-page site from £300. Includes mobile layout and quote form."
+    },
+    {
+      "trigger": "not interested",
+      "text": "No problem - I will remove the preview. Thanks for your time."
+    }
+  ]
+}

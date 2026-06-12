@@ -1,0 +1,30 @@
+{
+  "slug": "corvell-ltd",
+  "updated_at": "2026-06-10T12:04:52.559Z",
+  "preferred_alias": "corvell-ltd",
+  "deployment_url": "https://corvell-llupujo5f-iulius-projects-0cb33a7b.vercel.app",
+  "verified_url": "https://corvell-ltd.vercel.app",
+  "final_url": "https://corvell-ltd.vercel.app",
+  "alias_status": "VERIFIED",
+  "candidates": [
+    {
+      "hostname": "corvell-ltd",
+      "url": "https://corvell-ltd.vercel.app",
+      "preflight": "already_ours",
+      "detail": "Build marker corvell-ltd:20260610-fffb682b",
+      "verify": "verified"
+    }
+  ],
+  "verification": {
+    "ok": true,
+    "httpStatus": 200,
+    "markerFound": true,
+    "businessNameFound": true,
+    "phoneFound": true,
+    "marker": {
+      "buildId": "corvell-ltd:20260610-fffb682b",
+      "slug": "corvell-ltd"
+    },
+    "errors": []
+  }
+}

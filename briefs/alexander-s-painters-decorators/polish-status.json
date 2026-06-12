@@ -1,0 +1,40 @@
+{
+  "slug": "alexander-s-painters-decorators",
+  "batch_id": "2026-06-11-five-site",
+  "polish_pass_at": "2026-06-11T12:14:32.619Z",
+  "build_id": "alexander-s-painters-decorators:20260611-polish",
+  "READY_TO_PITCH": false,
+  "og_status": "NOT GENERATED",
+  "outreach": false,
+  "section_variation_matrix": "data/batches/2026-06-11-five-site/section-variation.json",
+  "section_order": [
+    "hero",
+    "stats",
+    "gallery",
+    "services",
+    "reviews",
+    "process",
+    "service-area",
+    "contact"
+  ],
+  "section_order_verified_in_build": true,
+  "tasks": {
+    "location_stockport_bramhall_primary": true,
+    "removed_neil_by_name_section": true,
+    "section_reorder_with_data_section_id": true,
+    "split_hero_verified_photo": true,
+    "text_wordmark_only": true,
+    "themes_block_removed": true,
+    "services_inline_gallery": true
+  },
+  "verified_url": "https://alexander-s-painters-decorators.vercel.app",
+  "alias_status": "VERIFIED",
+  "deploy_verification": {
+    "ok": true,
+    "markerFound": true,
+    "businessNameFound": true,
+    "phoneFound": true
+  },
+  "updated_at": "2026-06-11T16:08:29.634Z",
+  "ready_to_pitch": false
+}

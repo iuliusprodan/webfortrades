@@ -1,0 +1,30 @@
+{
+  "slug": "nfs-plumbing-heating",
+  "updated_at": "2026-06-11T15:18:51.376Z",
+  "preferred_alias": "nfs-plumbing-heating",
+  "deployment_url": "https://nfs-plumbing-heating-kwhyg1gj2-iulius-projects-0cb33a7b.vercel.app",
+  "verified_url": "https://nfs-plumbing-heating.vercel.app",
+  "final_url": "https://nfs-plumbing-heating.vercel.app",
+  "alias_status": "VERIFIED",
+  "candidates": [
+    {
+      "hostname": "nfs-plumbing-heating",
+      "url": "https://nfs-plumbing-heating.vercel.app",
+      "preflight": "already_ours",
+      "detail": "Build marker nfs-plumbing-heating:20260611-gallery-fix",
+      "verify": "verified"
+    }
+  ],
+  "verification": {
+    "ok": true,
+    "httpStatus": 200,
+    "markerFound": true,
+    "businessNameFound": true,
+    "phoneFound": true,
+    "marker": {
+      "buildId": "nfs-plumbing-heating:20260611-gallery-fix",
+      "slug": "nfs-plumbing-heating"
+    },
+    "errors": []
+  }
+}

@@ -1,0 +1,342 @@
+{
+  "business_name": "Corvell ltd",
+  "owner_name": null,
+  "contact_name": "Jack",
+  "contact_name_source": "google_reviews",
+  "contact_name_confidence": "high",
+  "contact_name_evidence_count": 4,
+  "contact_name_usage_allowed": true,
+  "possible_contact_name": null,
+  "phone": "07804 693411",
+  "email": "info@corvell.co.uk",
+  "phone_type": "mobile",
+  "whatsapp_candidate": true,
+  "email_available": false,
+  "whatsapp_available": "unknown",
+  "contactability_status": "NEEDS_MANUAL_REVIEW",
+  "contactability_reason": "WhatsApp availability check failed",
+  "preferred_channel": null,
+  "address": "34 Pool Rd, Kingswood, Bristol BS15 1XN, UK",
+  "opening_hours": [
+    "Monday: Open 24 hours",
+    "Tuesday: Open 24 hours",
+    "Wednesday: Open 24 hours",
+    "Thursday: Open 24 hours",
+    "Friday: Open 24 hours",
+    "Saturday: Closed",
+    "Sunday: Closed"
+  ],
+  "services": [
+    "Bathroom installations",
+    "Tap, toilet and shower repairs",
+    "Bathroom refits and shower installs",
+    "Building & construction",
+    "home goods store",
+    "General plumbing"
+  ],
+  "services_meta": [
+    {
+      "name": "Building & construction",
+      "source": "google",
+      "direct": true
+    },
+    {
+      "name": "home goods store",
+      "source": "google",
+      "direct": true
+    },
+    {
+      "name": "Bathroom installations",
+      "source": "review",
+      "direct": false
+    },
+    {
+      "name": "Tap, toilet and shower repairs",
+      "source": "review",
+      "direct": false
+    },
+    {
+      "name": "General plumbing",
+      "source": "review",
+      "direct": false
+    }
+  ],
+  "service_confidence": "mixed",
+  "service_sources": [
+    "google",
+    "review",
+    "niche"
+  ],
+  "service_area": [
+    "Bristol",
+    "Kingswood",
+    "Bristol BS15 1XN",
+    "Redfield",
+    "St George",
+    "Easton",
+    "Bedminster",
+    "Clifton",
+    "Fishponds"
+  ],
+  "based_location": "Bristol, BS15",
+  "google_rating": 5,
+  "google_review_count": 13,
+  "google_review_count_sourced": true,
+  "service_areas_inferred": true,
+  "google_maps_url": "https://maps.google.com/?cid=5902983431411409835",
+  "website_status": "HAS_REAL_SITE",
+  "website_check_notes": "reason=working_site; status=200; final=https://corvell.co.uk/; title=Bathroom Renovations, Plumbing & Tiling Services | Corvell Bathrooms",
+  "website_url": "https://corvell.co.uk/",
+  "photos": [
+    {
+      "local": "images/01-places.webp",
+      "source_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3lF5neWV5WBgJ6cGomjsCjgl8eB6F3YMar0uyk1fCMvXfXNzlcvJ7UoHDsspGSckvCwka9iaNZX2Nvhk6Rud4LO9QafPeEfYa5Wm3SPjxotl4dtv_qr3bgW0EHSc6cvD5HmxLZmwNtXcBdYOLukMXpjo0KfXgIQg5P5uxqrHN9u_kGM0TjKOQjKgYvR-TqH1gBISgOEx7I2EKFBtP2ibnQSbGsjyzNcvJor4z0h2dGuXEml-K2cENbCfcacarBx7I3fyNhq0KY7Yco1ZSofno_z2Ci8TM_wdc_Kb7JCerfDUCH-bQik9q9vbgN4YC_vNjqr5QZTUIxeoAKnSv41FMPRuI3zGDKsJ9RKG_AC09U2ZsL7OK6AnSaLQSjfdrWJAZojfBXVylk0cUyrfh9QdvupPwrYQR_fSYTXaBWSzEKQFw&key=REDACTED",
+      "width": 1205,
+      "height": 1600,
+      "classification": "completed_project",
+      "pair_id": null,
+      "cluster_id": "cluster-0",
+      "caption": "Bathroom finish (same project)",
+      "selected": true,
+      "selection_reason": "Selected for gallery"
+    },
+    {
+      "local": "images/02-places.webp",
+      "source_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3lIdfJOMAcjJrbbr8M0s1_kCX4hgMVbVkqQWBiBq7eDMo1oEy1_TXV17Xp1rFwQHlqD6NntkmLmRgaXG_zI5p0354sQOjqKI_0XzSZU-scMQfG4DCcInRZeCE4NexrBLTrl_oOsy27R4FCLci6KONR8xffvUSSy_i0YH-W7c53E1IFW6n-qmy6sN5kFAq9u27EatvpMnp_0hPJXYmWGZWaQ97Rmss_kOuwauGx8tUCPl_uTywJZ2lKF6dOEAR-9WlO_Cpf2IphweoRjJrPB1ZlVcEq_lSudvIRsyAp6T2VqH7g8dsLpfv5nGFR6hnZBFIE35khBjJ0EjVUraaOI7VYhfo1khrbokAHC8q-VeLc8I1AbHDJ49Dhmd4qEaQdVgUJk998qubVJO1TokUBx-H0VxCl53MEPD_D8Ze4YVS2ESVAXntoLG3bBezsWxxYK&key=REDACTED",
+      "width": 1200,
+      "height": 1600,
+      "classification": "completed_project",
+      "pair_id": null,
+      "cluster_id": "cluster-0",
+      "caption": "Radiator pipework (same project)",
+      "selected": true,
+      "selection_reason": "Selected for gallery"
+    }
+  ],
+  "reviews": [
+    {
+      "text": "We found Corvell on Instagram & was really impressed from the get go when Jack came to measure up to quote for some tiling in our kitchen, utility & wc - his attention to detail in checking exactly what we wanted & advising on tiles/grout etc was so useful! The quote was so competitively priced we booked on right away! Jack & Nick then did such an immaculate efficient job, we absolutely love our new tiles! Now recommending them to everyone we know and booked them to fit my mums bathroom & can’t wait to see them transform it! Thanks guys!",
+      "reviewer": "Harriet",
+      "rating": 5
+    },
+    {
+      "text": "Nick & Jack did our full bathroom renovation. They were friendly, professional, efficient, and did an exceptional job, we are thrilled with the final result. They explained everything in as much detail as possible, and set out clear expectations of what the renovation would entail. Would recommend Corvell Ltd to anyone considering having their bathroom done, they were absolutely brilliant! Thank you both so much!",
+      "reviewer": "Chris",
+      "rating": 5
+    },
+    {
+      "text": "Jack and Nick came around in August  to quote which was competitive. September the bathroom  was installed to a very high standard. Corvell came to us through recommendations which is best the form of advertising. If  anyone would like to contact me by all means don't hesitate.",
+      "reviewer": "Stephen",
+      "rating": 5
+    },
+    {
+      "text": "We have been working very closely with Corvell LTD since the day they started and it has been nothing short of excellence. From time keeping, quality and reliability they have been a breath of fresh air. 100% recommended.",
+      "reviewer": "joe",
+      "rating": 5
+    },
+    {
+      "text": "Nick and Jack did a great job fitting a macerator toilet, where there was no existing plumbing. Really pleased with the workmanship and would highly recommend them and will use them in the future.",
+      "reviewer": "Robert",
+      "rating": 5
+    }
+  ],
+  "social": {
+    "facebook": "https://www.facebook.com/p/Corvell-Bathrooms-61560222691293",
+    "instagram": null,
+    "youtube": null,
+    "tiktok": null
+  },
+  "gallery_layout": "completed_project_gallery",
+  "photo_classification_summary": {
+    "completed_project": 10
+  },
+  "brand": {
+    "colours": [],
+    "logo_url": null
+  },
+  "source_urls": [
+    "https://maps.google.com/?cid=5902983431411409835",
+    "https://www.facebook.com/share/1BVAEdhja3/",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3m3s5CW9Q9pJyjZY7wtLPD4KkCbhKdYYnOagII8JVthaQixFpyZb4hSvjB4x2-rRSz5MIJzL0zCv68RJw8Lv9XF3NgFbeogenVUSsJtKJjsukqmHz5cstU8QTgGBtYGEp2Wof6_0WwuMj3az16CJmpr8oTI1WTMMbghtGBVP-RCKVfFr2eMfYqEtU4e8K6pEeWFIylcCpKBuIKtpeJO8F-DxJ4aBPOqX42oWb2YfUT5qqkom-KLaRShSQbz3bm5MDcFtCOMD8AFSDC-KJ3F5ONOLsYYbuUArNoQR82hzPbjl9NBWrO5BwVemWn9XGol_rD2AisXNlKeXKaTaYyPIkyaqmVjnllCbG1Q2lchEma2WLliHAKoJmoVTpTi7U2bOfC2d2K4pHzr_D7KRVb6z4WH-6AoW72KOwNjZFkDE_oqyA&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3l96Ng35GQL94pEPZqYsy9PrMN9KqOV1EYmNmU8jaQKNIKK0YwJT5Ks5uxT3_36_D1FPh7gkMGxQYJ631ETz2O5LnhupsjDTpN7SU836xv8HBlpRQoIF0vza8uaWWphDVelA5lJ5NEOJpgqSgSP4oRrsx9W3KotLcl-yepU1DGw8N7Gj0y5a20XjFjDwCsm3Smqhdugij0eewLzY_k04_WEAGlcfFqNIXjFLRxUAMHMjUOIMoOGKe3Bl2qA2XMn1dznIwBo4TfRRPQlfo6GdCrK8zWrDqNyzN5bFg0pkv4yMEE6dG7oXGtxaME4UPXoY8i5DvclLZupnlEvG5DZ53qpw_J4ct-aOnuqtdSxqH21aWcpGQkD554gD7y1dx9_qiaDzR3IKPEc-CNiWnnJeEh7tp7C6DUzp5tnwN_SK130TTrrHu_XAQQAmyc3uwF2&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3n-2z0ymmzOLKyjZbvgVakzUI-oKk6swvmKURLfdJ9i11RjmtqcEURwT6tquz3zhVu5_YKtOCxzX6P5AfopUzp6JGb0BUguFONL0MatZ3-87N1svV3_0WNUalPJIGAnpuQoj-iLmOcDZY0MsF6ShkCORF4spKPHUQbCC1h0kjsQKFJsT6SMmC2PVo46GoHKYbasveIFxnaLamJkE-EcayYO874IOfnzGsO1luROwZTziNMm_J2-MTbpq41eRJm_fOXvdJPDbQjfFeSq-8_AXuH0JHHFRf2bVXNuJd5Vk9Et5iqAwjctaPaWkYmq2IAxTpO8l75-MDY_93B2wISaDkdnt3hjd97rCGRwqF8Ubc7D4WVpoMC1LhspBlB7SJKtjNh6EI_kL7K3kFTn79nhUjS3KELv_st8JCKfU_PGJ4O1aw&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3lAFxiljgsrhTvH6ZUOdPDifRk2eTtEDQTJrnIatnPSBcujZdGqSHPf9PEpR696ZW8GEX3jrBmsIkP_u7SG7n3nx912JF_iPXC3qSldMQx03qboulzPFhsp5wwkJ5NKfODvo0GoEqMk1HNZAXbGn73Y7c2vDb8-ar8Ym5TWup8LuWk9WEnH6bLX5Ul-seswT5i0GdGmtOvKWQmtetKqGQhwip27lquajjoeiSMltMEPC1uaoRhc6WhPqYbUx_hGWFToYaS9cjk7JroEZ2N4v1xDEqVZ4tHPsgSShZAP_P6VlJYLVnBtbCmBQOw2CSqFWW7-7QUB-Hbu0XevgzwnHIVb47ea8S1R8bfUufQIa52OMI9k4S-MQ8iORkLpRWGlwvThUAryJ7sndFd9SMnOJdsBP0FkzlOga_h_djJ-FJt1ZUI&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3mI65kgir5bX6YD7TKL8vkSQARd99mMsIW_qDXcE_F98M8z_XjT7ofGvdIMfvEcFKrDFgcrB2FEpn28tGlKULPF76lTR8UkqLr_k6Gg9Is0W-xtzyeeYKkHtRW8U4ijpSFDEWSFu0Z1qtxW0CRCTroYqp8FTnIRYaf0JjRXxfyDPJzzAMy16CXObsVOuhy19gJaxAJauJKsWzUx-mtEAqx-mCk8sExI4idaxooe77RaZuYoTbC15785fwrtbHyA33BvfGtiZQb5Wi7HPdyEryCFhgXyeR0HkYb2P9xt6M2EKag_VH4ZHLKa63fUqEnn6IQH7jbkeQRajQwvudGjR_LRXjtEgH6olfwui1WCMuQ_dYnViloGlk8m4r1MGVGiEK-n96OEmNFMeDdbX1TFv_O5NGQ_JRGdeU2fd8TJBpTgOg&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3kXXUaFOhT73LQidz-dA-NPFIifgJBDg5nd04MsFtub4w01SrdW7fflYl0q8yfguLQ-XS9FjBsA33HFsQ8OBnn_97wPF-bGTPG50MYrKuhChHDnYbAAd_gOZ5IDq2UsyFRVT0b2ZGr834pjWmIy_G2-09kT08znlMDoMRtbXys30XxIjrTibmbvjqmFnWeJ8vwgRQn_6qcD9tdOBJXClPn38dmQ29LlI7xb7mlLsVlFLDdV_ChQZGtFIsUX9QNFuCArEhbwVYf7kf1CoRwfeEgkzjUTt3cGA3R1RHQAR0aZ-Rfac3urg_i9Ou-K7OYwLTOIH4dDCRHEuX1XDc9B_Nl5TdaLN-l0JvaJi7qo_OvTd-QC_2y_x54A0m_Iopd9i0QpZuBJHT-rfBYs_4u1_aLo7y2GNGFxoObdUP1Lj6Y&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3lmwy_W_8BEzdIPtgZ2TOGHpZx0UzVSDq5tVCbP9leNSXqoOPbmNl52P0pGoliarqJWFjZSP-9_Dv_6w5la59G76mbXHqXtUBsHEBvwARefq9nUIWJ6n7Un8Nlz3sc783CNspQGbCoHbCJufyyYKQtzwUAN_vX6pkcEgN6jp9J0FEiYTWslzUm_eIaPF-KgqGN4mo9Sl-6nzH60_wPdAs4mvBLySv3Pj04v1LPk3O6JKCpRPcmQcxx2iCNhQaspXAIFAadF4OB7qOXpNSP7WU-9yAcRPNRA_RCITKeifk0XhlOb06hkHbKsvt9NRWN7HxMkUGuDGjDj12O6_3ly3Ju78QXtYNdE43UzsZj7VmA4HUqF-GP2F0jpx1Q4K9KBjX7C2-SnGzHkLJyBXTaQqO4i2usDF_bx6iCjZqcHzdyc31PNt9EfPrYMMpnyDQ&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3mbUTQq4zljywWvWCrWZD0lfjmCN2FbBtQZdijg0HE_Dl1kYmsoio4p53pir-_dpbNHWTk1drNS6i42x6j4bm-1zGbysMdT4DVeZJRzof-GqokhmY_HUHlgHLtl3WEwoPDkkv6g6E3ahboHL9skGc-hV-KqDNQTEX1GO16n6oCgHryHPo4a-8NVIEmhGW4yByy-EtrArM2Zjre0Ly_LM6pYekJNiOKVSHecL7LjypCeSDnWjp6LEr1kVCM_H_rFeZyXL2V4HzCz5tQAiiDAg8fVcVZW-59MOmYku5lb1_ac3XOuIWQmprK9i-qtdRkHLJ8EkD51xcnLhde-sYThyz11hjd2oV8KCQOo5cbrM4ygMhiGSPn4xG2wT5j_8FlxIptXXSgK7eEQLEZYTV4wMp7JHt6yocRzzSPpuNgu7lDcs9T3v1mu6nUUdR2biUnm&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3kAUYg4hMQ-6aMOkXaHhcQ4PV9dAm0jwME3V8EMCvwUTujndb1aaJhAm6fH4Hqe-YoGS7wwOnMOPKJaKh7Mnqa39W-eY0v6sJqgDMsgY64NESZtFPtm_5dSBXn4lM_NYb6S8aEtODF6ScegJj7qmHM4argMxLYiG2PppwukpQXTtC5ZI6exqhF1zxlzAWkZ4t23KFz6XHdIDL4Lexgh3M_kMoopqJz5CgpnjP9Ephy_iTd0Wc4vNuOsbr1bBMx_F-kGDX9Ol6vvTG3Ze9QLMWHmbVXR2ADTgjyuCMrepku82TDmNRjzY2mAel6jK1-X9xfn6FKtFQwTOh5BdP_89MH8OIoVM8kglwilhQTnQiK3ZawOtWJX_0_adFPQUdMpkdDG1q9X_blfUqQXI17c7GjooIPOV6L0urKbZ3Q4f2iHQm20xGK9IeyhyiVy-lyA&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3liqi9OAsr9jnGPgEuAX8Oxd5GZIjN4oUnS-iSK6Xj8Khf2ISDuYpqAy7vnQKPnd0KgsX_pzduhbnTqIzBQfpGbZKBv3mtOKCohns2rcys8_6xA22bZ3OooVPCutXupRjrTxtvxf-RweP4wn6osEipbtv1w_4QPMYopOKo0lm78Y7AMyte6zKoODK047BkPpL3cRh1F9hJ6K3IpXjagzJIifntErG_DJcbS7fskOvAd6vhW9Opxea4KQTnS-yl6Dbzq1AS3Fd-ozRoNqJ-xIqrrVpK1_kVUKKPcXfphFeHh9Ezhcmq8Kn6kq-l2zvQae4wYcoDHSur5m9gCMahir5dWuEVMPSIjaZSK7wqnfvWgBmCLrAnMEKebAtlv_-DoAZJwRZsua56jIRD0QuFh9bEVviUMvnet71IpPOKronqB5zujUrXcZX3ihkf9hcIZ&key=REDACTED",
+    "https://scontent-lhr8-1.xx.fbcdn.net/v/t39.30808-1/445776850_10162044442478896_749389979040312620_n.jpg?stp=dst-jpg_tt6&amp;cstp=mx1440x1440&amp;ctp=s720x720&amp;_nc_cat=108&amp;ccb=1-7&amp;_nc_sid=3ab345&amp;_nc_ohc=yge6oGta7aUQ7kNvwHzQn2K&amp;_nc_oc=AdoqYSbYkdw0G-xFslqwKYAbdKZrJ19uMCiCtZtKUsEIXX0OEkiVh-jHq9-X2Kx8iUs&amp;_nc_zt=24&amp;_nc_ht=scontent-lhr8-1.xx&amp;_nc_gid=8FsfMvNWnnwHx4yhkcC5Kw&amp;_nc_ss=7c289&amp;oh=00_Af-8USFQDEiTnhFL44X0qdXojghdqwju2OjavW6KZTg6ZA&amp;oe=6A2F13D9",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3lVSGQP_eJurpZFr_uiG3myI2lU-7N2P33qn_JlJ-DSqy6OZccKIkZYf-lzxo3zw6WzDHTxisoDNMgtZw78u5RY0cnyg88etll27V521Bk2QzrrgGQaHeWt4GqZMEIGs6uYndKXpFFg06ohl9J9WryeZAPHymJZAmT278zMebKkHgz5c6ecr6c3-aeLxWGOsUVtsFPFb2QWNhjXS1YMT1kl3f1yLmtT_uxNw1mfVtAPsy6Lr5evDM6LiaEkra6HDszXaFgmSgI_deYkVytEcTIWa1sU6jBytMPurxykT-s4sbA5HxvBfm74iFLzyOghUdT32y2XWQY_kh4x7t1Ons8YTYdpzR_tDi5nB_T32z7k5qwejwvvoRjH_mlC9Fwdw91wNBUdx1cmRIk6OFT9G24DYIDhQobS6GJh_X7D1dPfGA&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3nrFOH4ivVDka8omISmEnuLl5lpSkoU2aVsQgXSXZPju9_BKDwJxoXR1QSEncN0EyIagwQXiFVQ0rMDlCwIxaMIyUkfOC-n0wsiOrEOi4wQYxYkaRiGVFv92ISTXiGLsZ4HTwtx8TMGmVdtl7rcq3Ryx-XmJvyVuk1kqVWSUu0LWzJXEsxV-ywab6lRo_QbRz_T5teXO3oE9N46VhyHOX7UJP4FvAZRpPDcxH-6E4BDTnh-jN_UR4mfDEAcpQckMXCg5hySJN_7Q3zBvsw_-eLxstR8wKQAjQcQsAIuCmNRq1cq1ovxTk77PzaAtklJgGiRmrGNislwBzgsBoCmzSvEaxO6np14g_4itJRtEIXDBy7_ab3-xpeJa0QmaUJt-YPoIpTI3qzQ4KtYxQriV-F8bhm-IUimsQJDuiVh_v_GxsvdJT0qUEECfRevGC9l&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3ny1u1m8aKfFQboLcYl9NZrlxT9SN4IRQPmkEd8k6CJaXDcEW8u2UD746_H8xbKyPKZH69lP-nrqveeqrUuC5EEXwDpQxVPEfKRVb_CnAWmvTi3zTRGntJqfbIxf1j6MH_WLMhqI8dlxRgX6WAiKKQdj5WbbhgIB5O2aiNlucHVe-1mEvLJ5WmbUBpOHXn_6jwK1ysGJsU8SE5bU1Lz_cU1H_ntdpjfaXCA2wduXy2_J1VtfvxQrwT5O0HKIGUxkVNpuTkYT0GwFX2S0ja3qFGeRvwVOtkU9uL3RiO_I5uC0o1Z6LlDFnwv2KEp2VzXR88gAQtpajbAYcY3tMgfKR0BS8D1RffalRR0liKus1hKFw2YPBGor__UWx9-QA3B-KILFiJUlYLi76Vxa1pTcaIjdFauUVNUdKt3DUxm8cHBFw&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3nFOYcbDyphHb6DNUXVRRE_ypHauc2q4rtL43oEa-btZSfHBEWUROT7KBsTLpjaWwvzMHBj0LmS63nOhDqSi4wO8ELwrUbYNsPOFIQNuMVtYXYu0Ei-Mkoy74y8Xh-OKlmzS9tzNAnsKmyDdLpp6zrnNR8w7M6ghnmw9bL7zOK4HVwI755cbBAROeF0Ppdxv3WA7tHmDi7kHQeygCUM5AKqe80aofFulLDOWyrlyurkTM1NlDVqJIxxlh-kdQpqlKV2fgroQZwn_HxIed15P5qwyP-TZW7vnubqk4fl2x1Q3CmpzjErCl6lUk6BMbMnSSppTMGU8YZVvj3DmqNmXS8nNWkg6OPCpiriVwDJwlY2OVZtjAz1T0Vk9tgLxC3aHGueSj5wzvXP5QwayVVH2hhV58eoJZ_4h8NqnAxXMEo-3Uc&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3laraDX4UkkmCuimo1c-WsAzwR1aeQaa_aJdo1csVWbPlN6PZD2wcLOsI1JwIRC5km__2UGF8I9n19nfKwUoypf65Ig4gxPUUgA-2fyITuDQ_t5DmX0OwVQ2_gGATb2tGRjXeyAT5VKtdTfAi_U98Tot6dxYuEY_w4HmDJpPirlZNpVXUYqd7vE7GWhvyVpsPPr_xbCSLoc40gJruR3LzIJdgKs_HCzeMnWpUpOIuL0UEPcc9EB_H_aFcojYfLTdHdo8e095VU4IhZ2X8Gzo4tTtsau8rWA14fXFKeH9Oid965BRPVeOwrs7iW77t0697gB7VE6vdgHXBPBtKPJdOBdE5BHdOfKXPznVkwIV9dpqO0N9hvhY7MRta7gdx99scUOHH76KL4FCbCDl5d6nu3XKJ5dG6waTAGyml8M1KrC_A&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3l9NYqijmBOMfnrq2_6KlRCwTQQHudTXZ1z_7bWQnU23ys_2w-dNkfer5UpjgsUqmYcw6p8ksxV9uBfapqxl19MU5NT3mbbwO2XOohsbizulnSO014OtVhkKZS4pSQIFkVlviCtsJshC-Rw6flpSGvWopfEScug5h6JO69z5kP7HdQ_rwNLs1YmrQbOOzeLtFTCEn_Bgk66daGp-s3bsbCgCYymwHHDy6LYwNk_Gc4i0ZP7GfPsZFw6Ns2lZA0-lgxz3dceJ9uY68SadEpVy4R_cCU8u8l8SUNXUoTRUGZpSB3TvtxV7-7F-MYXQ80OGXIAMV_3SalqEE8-G5fdBxxfJxvfdU1_2hXCDuRiFkhF03i1XjKozdh4L3_2iio2D73F3xdXjidDbLxDjxSZcPRaCudzuo_gDYayeOgb0k0&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3lBhAcZAqutlj2YKtfccWueV1L9-wNhUZO4wCEKlDLNyCUspD9teDY4KJSYiVV_OZ4hPgxNqYwyHYfKnacqgj_7ASD50w2D1XV9drS8AgDdH1Zozr0cKl_B9IvK3YOM1r682Ol8ax7j2CRj1858tyUx8U98bu-KDGvYo7biQUszWDNMcfYvpZzkgTBsueMjtOVogk6IzDbFMbougohZCkPIIJ3Tl-xYyTrbXS5VbJa6IeQT6UfgIO2bedMhoLF8MkHG8f1SR0MpYwjO3kZdWu2KEO3TKtlV2OIOozACssW19jSkAC7NmRR7M3WwuxdkDsLz9_Zs_GwRsEvcwoDhlmNXMB_WZIftk0dxLmaPhbh9_XS9EkhfTBDYlO_vumZ7UhV_q579q-3_mDtKYUTyG39IQFBhxn9pkuaTttg6ceaorL0TRgTv-e2LPmEIbA&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3mXghOSHcXCQfFaNXvw658LdGHW_8t_-cMuNbC2ScCcWgjQ-ysipMxPgABMFgBr49P8380WdyJ0DeaTz3XVkLicVYpN9v4qpFVgYRWl1f1mP-3smr-lVhsPJAAX5QTwHaGeZebI-aSGHD6NOUNROOqwe2mhjxcpLgt_BdBuMWpg_8iY6Fk6zhEyyWL0IgPtREL-A9oKtiqXgm0cIdXnaBJJ7a8dg1YHuv_BYiIIG7OJDU4jSRJDsO2YUsRZGoWKfRI4sNLlItPdesOfKQ-6lYXh1tSRJxJ0IO6JiQ_FIf8OFZEte1x-lOlLfZOCEVnU2WN0-s1UPQqOxmHmeuLMx16tT8H2UoLUaztkb9cQzUKnfzxQTlZ3S24pOx5wMBQkUH1r0MnfUa7kRjn8EhOglhzERmLLAJAc1sdTmciQDZYI4LCToh6XUaEyQy5udK2r&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3n3DpdLFEPKzRMGOjwuZL51mdE5aQ4YPncT-ukE9Yt4r9pQFcn92lckLrtKPrEOTLBJ77yHlGXXmnv4SDtETwSeg-iGUnNitR6pG2cq-JWb1BGWOBcTdoPoxwAXoLiErrESeP6Gr24BoVL-v7JP4QnX4_jEDoB_iKyX_ltpyDvqPVU81vpXaHw8sVtG9mpxFgZHmxM_Hy0q2s50oHyAQdZQFjVcvNfct3ZA2E6yctCyCGbwR6sMOR5kMNC9QSCEFqN6QR_4gweBVOi4toQv9aRXdpFF-KbWaBobca0Y8dSFlvr7X24MffUDXHZOgOdVz6MC4Md5lycVpY1zhFd0sNjo1X4aTZxpF33jtnWmGEqNIlyYWNRnO4knBovm-PfGNl5g3XgH6OJB3byDito2UtgFeDxTDB70jVD5_TzKQBXsf-C_zE-nn5NZ8Sx2_UkP&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3lucqc6jlqIkKLe132KehIAftAxHR4LuDhiaPp1U9NZrlG8CS6vteGayMiogvvd4xFRno_IOFw_3XESxJ_TdOXiTX1oqgJ4H9rT6xhJa5OTFYJCHxnBGXvjD4lxvbI-7zWtkkNFLFT8Png3ZXpv4d9KvG4JEdYnbCKP0NsgwZg4jMAlPttUYzltNdyATTIk7J6irL-UHqAHFfW8BxXLtHuUOnrXorWPKoV4dE18WEBky66d4-Gz788ixCj8XUebUzwFIzT-RLpcq8RvYroZHOlWnVSH-JyEfFOYwPysP--24TruNsLLaBRZ_pnFde0dv8PjLMGQqvXp2t_iNn-Xbfww0lRexWxiT5F99XohGoHvJ53nYIXbw1_ytIJjBN-AVdBV1VEf_BWMwECfW86FM7PaLYFCAvAPGkQZokofScE5g4k9n379h-bi2EwJs1nR&key=REDACTED",
+    "https://scontent-lhr8-1.xx.fbcdn.net/v/t39.30808-1/445776850_10162044442478896_749389979040312620_n.jpg?stp=dst-jpg_tt6&amp;cstp=mx1440x1440&amp;ctp=s720x720&amp;_nc_cat=108&amp;ccb=1-7&amp;_nc_sid=3ab345&amp;_nc_ohc=yge6oGta7aUQ7kNvwHzQn2K&amp;_nc_oc=AdoqYSbYkdw0G-xFslqwKYAbdKZrJ19uMCiCtZtKUsEIXX0OEkiVh-jHq9-X2Kx8iUs&amp;_nc_zt=24&amp;_nc_ht=scontent-lhr8-1.xx&amp;_nc_gid=a4CV2oTNkKqYMqjz3kVjmg&amp;_nc_ss=7c289&amp;oh=00_Af8MmMe5rf3uRAK3YEH5YNo1unfF4t2Sorl9r6n6Guk70w&amp;oe=6A2F13D9",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3ngUsl2pAFY_xfgCGcUINEUUc1gFgzE3N0wuezWjGgXG485sZynUGMPyAXiTmuwpmSDCmctcrVJ2giis5oZO0lDFJ1bj5Gh9VqMpL1zhIZcRHQcaaAytkYANKljXsBHj8uT6zq7PuyFtLFdF3i9-csuB_lmCeWUg0VZssGhI85u6DYbZN_UkrP5jm9g1BFr7-Fz-AZA0sCVHI3jWQOD98RjwgXC3PzDNLDiPsvuGAPQu5HuUFpqNU7cw2c1_wulFV1SiuiO2LZDQ9ErFqqBYQRMRayuDtGMuF0LWOOkxpBn3zRG_KylsDjso6k3v4pRIzUEF4603lXpJ1X-ZNJ5KUHS_5V4SP4FW5BWHDFWz51YCDBS-Ow9mP7TIWxg0ORyb_9CWh_P07BX0ivetYokTAGeeLOIDcdEkN4ypjY4ny9Zlw&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3ly6UYFnSm0qyBUBLZx9Lu5fGa4GWIe4IPGOZ6NIrkWSWMpLmWyBlxNhiLpX-DZnI3OupSHuh1xAu2hC5X3HlgOGHtAYVBcFl4ONURUE71-2pIJt4aVly1u6bMIF_1LuoQhZGl505th7Bvy-ZzoiAarB5V1OyC8ju4DPS0SYGLJtB9Jtwdlp0g6RjlPnenF8H61J1J7ORY-uNuvXs_J2--M7rarFlaTHisU4G1wI4rwl-L466uuwAKdjCRzNJk_tjhtM6JL49HUI-bTdZo9kNppw7rdT_YLWA-seTFOSbLNdsGWDZjXgfFvMG280arQF9XXIAEDCGCup1GmazP8cqVg6BfIFnioKc-o1NEAjbpvTmf3_k-fnHrUqyOsk6A-H79BCnhFNX_jldKk1h_jHhM54SOlApyHfcw3G_ahLtzwCzDJteOJnjgK0rw0N-0x&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3kFB8b02RjB-I8AI-rry5Z2mADJsE-L7caYls3uQLbeFysMAbNKMOlv0SDiUcCg_GQOtUeh2gq5Q0EbGYUwaK0aMV4-7ta1MWVVgpAS9prJs5TBmDzIuiFX5TzlJQf8wAS5_tbhj29PD_NH67zi37bsA0VrlbjVXkpDYkHOfwXCrXh-1sRWnrZhMrHC8QKk45cm_7O2PYi9CJRn82G9WBfpjUGJ-rSOAYoy7ksBUpilMooi0OOCI1nwoT4g6GAFVLFvQSauj8yFc_jbxHpApQEL3VQhbmd0hWnWsOo-21Wi4xDaxFcp8OV1d8Xyu-YIneYVRHCYPWUKAIGe81gGNTxLOTrD7PJLXPjbQ2UZxpTPNUL-xCjwmDhJpzxEJfbunxIk6HghHOAPIX0POulexPnjt8Pdje-Q-HGDsnlIdmdBTw&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3km3WN8MCUbn6K_vXV_brSP9ueZE9Sjm_AgIiiw8Eap2Y0i_OY5E9IIYmTfjXH7cMtHLHzILEPNluWgXbUKgYbeSMJQOdm_adNkgNwcJagBH1F4t-YBLk70yRmaud0ixBRDK3wVApvAuMApSp06mhGQXVSB74YMAByyE29ZYvmn9N6FgxB-MSNke80haeHIRtKl0CJ61jEnyjWuwIig29W-aAQhhw5ZmHmlzyvY0FULbdzq-qy0AH0VcpnEpNXkcdv1-xVwgCymzdW3QHmYCeukvuA-teBO9hnPtJP1Brdfs1UB-skgfyupRbhI3rOUF8Q5AxCcmwUxTVP7Gf9J9nacDhEHvJOVFEE4BuYOn3eMjMYjxW8pbpjiJJsTDBenQbf9Xy1Of_u89X21QL7whK09hxIzS_I4Btr3Pk6ET-vjBjc&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3nUsbJB55MrI7CWTgKtiIqR8seOfKq5rzihHAaUTlFRbkD_LsDwdhn8DjNDxJvP3Xq6BAbDrfxBfYEqnv4CJJoAKZtPhpWdJn_L5caG6pliQtiYy4iOvOBe53adSt4MheedBX5CpgMQUNKag5lj2w5ukuafuGbuTUJNFj2DLkeHJAF8Zn1k0sUAeLT5X-1hLosO6xd22OFT8cbAiAC3A74iFe0veD_fRDJRgkv1NXVdNK0S6etF0TnP0yBep6leNEzOulphmum9X43MIHXbaH7N1XoJh4oNFLZn6e-jC_lu0gCJSj5ZD3wO7u6Ni3xHX7aKiw6Ot8obAvT5RIEAGD1cq5p-9Vt2wQSQCLEpX-j513RM5aN66tF0IODL8wUxGmcUdBJBY3JGRsfl9RBiFHu5eUohHlXK5mA48xuUyh6jrw&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3kR5ZJDsnpf79jA-Z4Dr84dlzoRpcMDH0dvZS8uNQs3PEvIh7o99Y7th4fxgEGRuPcObx5a-kZu3RohidHG0vw2tSajjE0-M5JpKonPJ0tPXS93fvAvmObwTfLnb9rFyc9B2VLsT7zxJfME3v5NCUlLVEHfq5yaQU4GP5S23TCVkD2u8QXkfxJrhEsM_CkGlJhZHikKBDE_Hrg8Ye8wPu3ojTe-OpfvI7SZiIp3pvmtDon2rWDrVVz8H3a3e5v-OVy7LF8DcgSz9yq7FGZlY2llPfHZA05d0l6tMsN82w-H3A2erFagGOgm6jrGdaJVPSyqYl-ajgTmbP2HHeelZFGQibE3tm9-QIgWZdQSktt-sf3Ue9ctI-tAlfQPVhbsFdy8uzq5onW_GoJ3kIVJH586YI9Tx62iWAYRPPn_ePQ&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3lWiZx-02vGdsIat3VE3VWjalVTI2gLh6KPUCScvgotHWC0fLwZprVwYfydlMU0ztQCsFiYcaXKfW3-s8MZGzfvo4Cf0msfW3amSle7N03ncKceAyyatj0xPhiz5AkAXQP9nW_2zKs-ErPI02trP6rVjaZujlv522mcNZNv4MfM14jkscPdEw5PT-Ho1avvbeJu86hSejhyCuRmCCSI7F3D7l8MG4gP5bl2jesj83aCPU4sASemfCp1ygRxYYGh8c2pumnisLwHMaa1B14sEjZOXMw8nebotwYw-6LbBDCyYeW6Hw2QTSb9WMp13OKj7Yj7xstG-rXm4xrv7wzT9sdUhClx1zoLOV3xIsrCcb0oPqCQyiak6jsDJ35tuuTum9wq_XTTKpcsd_QOqYi90H59n_9yj6T2-yTvsG0s_4_a_lNtQ4YacEN-HAaYxA&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3lKHcJltUXun1da7vhHVRT9dM8HJbel15jnDTNUXkWXu4d7ougw1TZ58WoUom1ufChcG7_UClpPC2vIQKOYhhVCLy1pqjnUxkokTCYSol9klYzANH-99LNp34RP0ZCG3s5_jQRzNALf9AuoOninkGZp5EA0xh9QR7Af4qEDwPfM5selT60LeWEKiKi7PTZXgcsXYIjY9ymbp4bHxzkNpY5EwLuq1Z-r9uAUhKqz9a5juO7f5YUiOSNsNImYLNUaTXYbOOT8Dja6wts-iFzg_eZwdb4uzgImv0S7zyakFVgIAOSHhhYdTb9MAeJps8sHWKu9iBZ35II04mGOSVPT2nmqyR3_tbasg1BSWDnqzvb5a77U19SQ6HlMW5mi9h1ki--liYCaQqfBPMUuX4z7f33zXViOlm0qgiibatUVoJEVv7N-aFU7K9prcqjMSsAC&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3kali-ijwdPEcO_JtARtwQeCEcbRYzd42kzIxe72q4VX7r_FARsebHAOwwiNjEckQkTnV2uFcPEkd6N4hZwXHuvgmrKKIY18awKrHd7OPRTUAb4PkuvdUH2-3tErIPrEAj5v3Ouruw3P7hX0comDybttZD8q8zLzhm0qdcFVueWQ-L4npu3zZTZ9J1GzBAJ8qPq5E8YBnOXaFNTEeLd047JVyo9ydkebOHIzmWRcptYdvosS-b6uuEaZrdvZUG5d2r-MePf-PUEIz5hXlOysDerawhHaSS1sxzW41LtGoIwBRmqH43NtDC7ExjclH_qy4ehe7rrA--Q91up3ydpzNlBQQHdwVqdHHr3SeFQlo1HKn9GNOMcJVj5dUhxi5203nnhJLsR9k9QUxODRfRmWQOGho6m7diPk5eqEMvulLrfjWuil9MGsUjZmBd__y3N&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3nWTR7R3FTjNp9MN6XVKGIMEaz5ug131tH00rTrCQrKvmuTmQ1V7QIfLHLCob1fvWuB5GixuTPJbCsTXb3v2jeDQf_xX-a544XgG66hEatkTuTHZNCtl3eExsSSA7Ot83qX8oL1wLmwGLEO2dstErbHRtktQD7Jq04ftoeznQ-SuQEelkM6E4HO_1JezaHNTX2xaQeGeAjExDDgrmjXTks_tK9L-u7TsPnFqnT0U14LOuA43WX8XLq13VblGC-82SgUWkAcvXDFUf-K4pmoiKss4mdT0uBSq0GCijAlqmW2ndH9AxST7IWkemtmPr9YZQv58hXBFRByjcZyRzqQUSVIfWKBixGQMR4zaR3e34nUDrXHPK27Ag6rKadYO18gGh_zEupVHbOTuvr0n_-uyJklYOTh0dkv-593_o2faeX_1hGU6-Xdz3XmkdSptm4Z&key=REDACTED",
+    "https://scontent-lhr8-1.xx.fbcdn.net/v/t39.30808-1/445776850_10162044442478896_749389979040312620_n.jpg?stp=dst-jpg_tt6&amp;cstp=mx1440x1440&amp;ctp=s720x720&amp;_nc_cat=108&amp;ccb=1-7&amp;_nc_sid=3ab345&amp;_nc_ohc=yge6oGta7aUQ7kNvwHzQn2K&amp;_nc_oc=AdoqYSbYkdw0G-xFslqwKYAbdKZrJ19uMCiCtZtKUsEIXX0OEkiVh-jHq9-X2Kx8iUs&amp;_nc_zt=24&amp;_nc_ht=scontent-lhr8-1.xx&amp;_nc_gid=h_j0uxXPm5Ox0p63hK2Yzw&amp;_nc_ss=7c289&amp;oh=00_Af_HYtma_7z-HS-QBYG_WNjgJcDWpk5y3gOzudzZVC8Nww&amp;oe=6A2F13D9",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3l1r_ehrDchMnPQOscfz2k-L98X9hGxNWpLUCB_yJxgyr-c1e9SygzWS2sXN8EpMaqWQxl-ztu_lNgflV7h_yYstOkSng57CEDfOQ3lDrz_xQ9JVFHjJnlbEozM0YkFv7iEOXnacbXLiSN1R3-FLdyHTFHPAUynjum8JeX7Ymly3X376gQ5z2B83vvxHfhe1QS5q38-axdnAM74fkGMRc4d5bnk4CXL8noNsNANZkSN2grhtgKvgDWngvIulr6p-VaJucRcqJoUlC1DPZp2CExQ2anx60GoLkatsjNgpVZDmNhMxniAA7Jb83-op3xezBteorZWHgVaER9tQjQ24e4Ie95H5kSyxCs1qh_zwrdCS-vL0RuYSte4yUP8BRX-0IM4qHt5L35Vk9A4Ji2ay6Z9w996noO43si8N3QK5S1dlQ&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3nDrSW6tUZscFAQM_xcsTKUP1qIi11346D3CrrO0ePY9tgd_ykwqL-_cheShLSHfuITeY7sRqzyJOVt8kwKDpKvqq_Z4CZd5hM-8pycJdqSdNq6oz4ZTGgqVeCm1mss8RsF03XYKbn71b_Wtv4wRozIkM2nwg48Dst4aqQZIDsiF-9LeIdZSf-p8YA19i-QInlvVO9_8WpGyvvy0ccPrRW_FKscQCnklAIIowBkhiLFYvRoLeew6Dpus5Yls6TlNmES0QhxQTZoE17-_CkmUdOjiAbFsAPPiDzdQIOP0-4A3cNcKFk1Mj0JoFKfQxBJv0gLanH41vmVVlGK2U5gkY2hcKjsRzeKmMZU5FrFR9BgXPmUe3RDwDsUjwfUlxq_J4AQ8sREGxK1YgIdLDUqcOP2a6Re7Zetmb48kaDqcbPWdS2rJCBDTKZDGjRlaaBv&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3mQwjfnC9y-rPGn6WX8RaJF0mB4hUAzopqgXu78MLgEdDal5ijLc8YdaI3z79EA9e8H4SRdfdWL2knmdl1v0ddRRBkqlBqSvjjt8CBz60EZ5M-e8G3SEgK80p4dK3UaEyNpSdQwG4xYMi44HdW53J6eYajNfGGSNvp-TEZgSZjUhFykONBKiexichNRGXoHfQzhhkYdAy1jo7mLcYVelH6cJnpIYKsXUmAFDgGx5-X0CrablaSbQ5EvTibWJ_GhTpCVRp5H49CJ7fpsvI9fgH5ji6ZXUMhgG7Xqf1qvgEhOuhevk8otywMfuigb98SYurUIl_nqXEFrMYmSBynfSD8GccvQ6bsoZdfuFVvCaB-JT1q0AXJRNFtCVPz1cPv7UCEOeLAiA4MB_R6srIRPViPaXskYrGtM3EOD4PkGkYy1lA&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3lHycfG0VIqEE7E3w12YO0b67r9GtFDItWy2XIHxl8RGOszr92021hpCs0_fU5V9RpZzCVq-lpwl6vmOLxVuXeXOBVZ_ttCY1J7qlWeIJFawLofXAsI0AoYynddl3OkR9IH9dHJLU8ncvlwv7sio1LQgXC2NszLPVuNEuDaofbv-lHze0pFD0mUFNelQbwXPEzm8CPZwDZ60wHflzI_hkJSd_PW02KAEttGCtEVc1Vj7D0Xq_olGNnbW39UhXpSvZ2cIB-gioj83ndJaH4vOec33dLL7TdNrlYr-9JFUBatqx7vANA2IhJlmdI56DNeee7nhscBlgBW8F3KBUJ-BRwfwWMtc_rau0HkzYAImKDkK1hRhVwcrn2QPuxXHvBa0KirQ4LprFj6UMLEF03tjdBYnCLxWmlntOMlMyyeBF6MC78&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3md6gB93U9mNstPwv321Tp5GRn3PB7vgFVDLQJsjgBuHjpdIgNIltgdHmE1jny22jQMfRFHet6u6186SIq9sa02-IKl2gRuc77TCmn4XypH39huubi5up_3UApGtZLQqhY8LIsSdZN4wbhQXOYU-jy3G_md2mSi_Bov6TDWWhQjo08JF59bFNHPhjvONDmcCCKf4_eJMVxDsNP5Dd0KY9PWbeH8Ztv99k7aw0oo2MATAoNJPfsce13VvDpTT7wbfnannSYfylf5-eVtiE12ZWLnZ376Ys6kMM4_8SL8FebpGd7BjSaNK-x0NSwUbA5z8IBeAkvoroFNQlwEfXSOKiSH88fquyB6m1L175XLkqCN6rp1s9OX0EGLSxVuabjj7M8Rk3g5PvZtcz6Nrph8WSVkMsYsfJxu-mQD24wdyzgo4g&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3m2r6BdhEs5iCr5jVUnX1ZT3xP0Q4fJCwqALpGewDI1117lwY-StGxlltrcFhQDW16s2Ras06jBsg_bEQJIv_9YcVYUPmmf8YO3I5RwuvjGYCj9AdHq9bgu1Bdox3sFyr65WSapP3ULvAkZk0CX5K0pUX7Kg9eEfO8dAxwE6R9QmlWN-CIMQz7OUDgplHIt2GdP90WTWz8mn0E4r6--5Tir9jhah_dpoEWhAwBp_AScv57_NCPlWtejwhnTprJD_U9BJMZF3NNYCbnY83ERQdvwqKYaaU2_Y77xbBotYjhRgAjxZN_N7Y3Jw-sTeG6QADOXyexD6D2jL_0GWpD1Bb-9ppySdMJ7M12HLtp1yKglg5nsO_aY6JwuCth1Sh9zp8loKcYg7fzZLBhDxjxw1zcS25dWmQNpKblURWTUVC0&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3nSWTfPZskNI1_cQTkXfZ_pGwvdzneL-AWoruyTOH4_No35PMj9LR4xXRsRr388SdeVWNbvA_3E5DFJWOvuQU80M7kNZXhoWx6m-6YZBF9Wbf1Zcw4gXjhTPQ0HowKNEJp9jj_t9GGAcdOzF1PuqMCKsHMPYzjVlFPCUJQYDa6o6g2hJlEZMm77qEVMVb5wE3FBFHV1E6Vx2MCoGE5eQW2PwCeC4BwC5_xiaa2Rh6T-kcgRUzsZmUoUzdCY-L6lGkzwZBIDf4PKqm4DsqLIORZafRtYYKhNB3B2AjRvGtn-82Ipl-TQnWqBjzPv8IZiCfZ669TmSK30zr28o74Xd4TsjW58QiStNxFyc9_G4cR55jaeXLeoOw3c6B5C8cISdubz339KXNtla94TVdvW3lZ-7B03CL68FTKf8kDp5WBfj7OKaLnTdoqaA75DLw&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3ktng6ZMRRwSNv3Pat7dSD1eLrlEX0tDuIQcV8ljdZ7RekVIn4MspUnY5WeDerbtXMg78xsfkU4OOtb1ML5PrDzJUSL1bxYHrHKQhPnK9rlINF-BzB9nt5F2OvY2ILuGo9YtcIj3luPeypFGtjpSSle6BeZen9Sx3ZmaZ6EDWw1gh8AUXkpkjjzYS0SQqTOFt0xbc_xQX8yiG88_JBlgYJzT1cuSu6eM7e4R498LeQmMXB-UxsnACBTwJZC8RFinQkd2LtMCQRHHhGi4ldY7g-Xa--TGAiDTFnWp-dPy8gtTyb9frq6JzsMXoYIW7iRO3ZQAm81A8eZ3BFHImt0Ios9k485wgD0K2A_PsgCuVhcyA_yu3y51aOpRJQ36jHI6bBwNwt7OMk7QaTdABRuIleanT51DGv2uLQe2qsUUe3run7hpK5_23X6fXrJuCGn&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3klQ1OzWrlYh28HG1gUkGEjhUFSkyXk-goKxrOhwzUVTY6pb7T7HJ0s0Togi0l-E_JJxXSVdq_Ydjq4ByUPvZcY7d7als0zwBeHg3Qp6yoZeqxroSOzzmn5bdqPKzXiW2Qkh4-tir1hevpyM71Gd_41tKdxt6FEdas6835apqJwGAghdRPBWEa81Bf0XKMaClQW96nITR0S7-ebCCL2xUe3wdvqaztspxW8tfSfygvIZCfMz3DmcMqeCzco-krJ0RfUxsAkfJL8P8_ZUD5PHwxWQqJqAeW-zZc2kfuir_Nr3pPt-hCRxCMF2LrB5rkFI2X6sGAJfnO9yzU2KVZFtCiBHth_lGvfXGND2_dNyRkfI1KqY0zE0D7TWVy1RQfJdP7ARATUs2SdYxNbVpL6Eu5dvPjgr3QUayUHiKSUliaqMJi-deK15cLguw7R1i_x&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3kYdjCDviMAtqruW1zimNUpsVgAdMIsp02wjudsFpOp4Hh5OvWxVFO90uMca2L2dTMfl9a1OPiiWzMBtMQ2vQ9Vsx-2z95vIGZ96PiEfNbssl4oZnLiPanBUiYR6nCtK2rT_l2N7-PUMvwDPAJZ_10gBPFBCchEeb4_sSSQF2GKkuvbo6kOSidP0Xnq_jR8Inc7yYewNryjyLGTFqNlthu4KSdUcWnpo7IK7CwFfyXAgS5Z3fKSmLfLpLzbs12abTsOb54NnMFRwALnXEedybPtLad_E5KNqq1UXXQo17z_EYczZGrxs6GRqZDG1KZSFxESrV9EqS0cF6WV9clOGiU2pSvxSsK1KvVqRafX9TbhG15EYoogdkVvWnODMturo2Mvw9pVRuoZyU41SyRugIjyScuP2dRcKA9z7svQfVOPlA4NOByJH0fNmk4ZtEbk&key=REDACTED",
+    "https://scontent-lhr8-1.xx.fbcdn.net/v/t39.30808-1/445776850_10162044442478896_749389979040312620_n.jpg?stp=dst-jpg_tt6&amp;cstp=mx1440x1440&amp;ctp=s720x720&amp;_nc_cat=108&amp;ccb=1-7&amp;_nc_sid=3ab345&amp;_nc_ohc=yge6oGta7aUQ7kNvwHzQn2K&amp;_nc_oc=AdoqYSbYkdw0G-xFslqwKYAbdKZrJ19uMCiCtZtKUsEIXX0OEkiVh-jHq9-X2Kx8iUs&amp;_nc_zt=24&amp;_nc_ht=scontent-lhr8-1.xx&amp;_nc_gid=PHLE6AvV_1PEZtORR88szg&amp;_nc_ss=7c289&amp;oh=00_Af87p77dcppIWNuc-C-l3XvjCSn5Z6FIikSmDBo7sqKLhQ&amp;oe=6A2F13D9",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3llDV1JvnQ6h3W37RtpYaOndgnf7ujGTIoLhHV0aCEvbJaGpjUPuLVljZ8C3ln9fIoCQ9e0O0-ruvcceAJjqibYTlICuu3LZOVPU_zLu0m0T_-fk-KHxd5MD3hFpQ5Nf7TqcF0iibW7ZuV1n7ynWRjwAKi4V4hULD3rNjs02zYF7SCFjK5hkVHYnFUcUb3OZM9LrGBp7WTDAPXQoU88Qyj7wowDFC2nYscQafyT9TcsrvH92RUKKs5qX4E0BDu-paKBIjE76Rfsp018qd_y0G_jlGGx3808cBLTDniGTdnfTdr4PsHEQb46_XjCbEP83ogT2sBxDwlZU5OtCmCRNrgiuZ52NLnjcgrOnX6j9PC8_cEozdvAFdAvLC7OaWqWFDcjvef-LNTNL5x0IjPulZ5Th9FSAmttr99i1xDUVYk-Aw&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3nv7Bbx_mv_of0xNiQ4Y3PXoneKtFnCWbHgUCbzntG-3XaipQVqoRwyKBTE5qZbfRfDtftQ8MkGtsXvtx1tON8J5VB7_zfFBPaSZrmncWV1Um6eL2BtYO9Qk0LfqnMSrDrVceWnop5B03SD6ET0koMxlrohcN_iaZN6wPdaMyYkDgVivKsVfIQ4hhzNnudxvCbPj2JOgGO5btdbCi4zsnA5XClxMNvIw64UCVm3dsjBwlTQNrVtqxyucp8KUi5Qd9gfKYWwhA7Jqiw5cHAYPsKoB3U4dJ9SN2ad9Ww7mkkgk0QFIcXcEMwGPXOmsC5iDUlxV1r0xEVTb9-WLyyyne9aI2dvcchGy5RtrDVzmbG5V9gqkBa6VvQeVCqeFGBCdcceWraJQl52tGAw4c8ISKaa9khugK5GbjJ-oFLvImQCSqR68jvOeUuXZiYo8wXP&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3k3bHNiT0enozaf3q9CkqFIQGs2aGPdavrw-7fN5GV4R6hNmpbfxxIQG-T8bCCfbIaxEaX4NvEgJ30OxNjyb_CkYenJvLHejZBY0pPx_eVV5iyoddD78SEKmyniCd_gO5V1YZoKjoodVfRFGHe6o2nGxQ2bxQCbLZ_N3O3594qMdMJ70T6ZrsWW4jYTFfpz98eQp2-ngTVEE8eacqcoPjKp0qPVsJK1CazAabL72WLy0B-O-V5LIKRTQZsrtkd-pWCwDO96iHgWJY3c1FuGBkDdWTOyFntFK0bu-ET7aO2btLLQHen62lRGtixZ4JOh09ZtROmUdrNXF55JLy1kKGYiTk3MOBHsRVZxO-WGO164UmjQF9A-d7xZiUGzMj1JBNbBz4D3ZTyfgp9WsbwcYpOpqW406JoSKvsfohDCOIXfaQ&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3lJQzBmumU7HOoWoimOst75HEefhz6a-xv1ypFZtCWr5karNX2qA7fpz64RLTefIhPNwa6Wl4eI5zgiTGEb8R4cA07sZ_RGqy2JcW5U6IUTkHCfA5wIG2AIH6XCOi7oeU0_lEVxCvM3aLhOfw9zJn9Kr3yUKsqam3GXqFIESo2KazUQf6k9ki1xaVTZ70YT3kA5ohZH-oEygZpUS1RqjDXvSGmZRHIs_nfU2pfHRXjr_L9IZ_53U4ablIvNREgS9W9S5I7Me7MvLE8f90PhyvDQ1l9KUsQNHvgvUjuD2A4ZfGE9nDjlhOasdvCcZMTUw9DOuQxv-sFyDS1KYP2ZrCH5Lx2qj7K5AJ4iABcU8Urp5UNKLeA9ZFY8y0H8lHBbiJ4zQbwkWJdLu5Vr5eMuoBonZ0bFbZ2q9yz18b8p7V_GOBo&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3nEk043S49rPFkS7k3pYIoAsr8ocjV3fi1kKUnIiuZLjDIMtOAZXPcXPZAvvTaWvu_S2R0bbnjopdb_ob-IIQcTWsV2rZfcgwPJrJli8fJoP6Xuba6T3-wkbhMZHr-fr490z80oyJ62ivjMQQFF9Rm1ay80gWM93zIouE1JSkczjnTD3Lpcoq0ZX-EJU3H1xDItQBwnAYW_CiJuS3ilTPZIfd20Z45OtXd12_HMhnFTQVHQlb9-_vcw6zN-hiX138nCHnDfMcwXkffLN46eUlh53Qy6aKbwi-BssPCVaLiDeIYjw68beC3uK6H8Q-RXbapo6_nWIfIYKwz8h9sI1eWcQCUNKFrihc_StN3P8iFhcDu_zsOUV9VkNTsU4b3IGEcWv-VSR2zxcD6r_LuPlivVoptXtcOyapZGWinpqCQmiQ&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3lIkbNpfYWsMAr07Y6NQmtk6ecg4X7YrorsNSD8sTQ7dDddwZj0gQP3Xh6N_fEExkyLXEPaAu6MYKdFkF-Py2tjjxdHOe2Ap3g6rNxI9Fa6eDk2Hk77mky3pBUQo-5aom4kuQw1WC1O0R89A3cGyIF2Xr9qnovy2YHVmFLf1srGqnpGNYpZGNO9Y9CsVYuLLBwHzg9LFvLehkCygphVAKLZnTU6hY0GXNdNmIRv9v-ZknFWcV3RPnBfiBRqyk8_bJiyjPZQlyAcscucvzaH-GmCydLeQPFonimXakUu45WK1wjjJqb9k-Qmg8pJuof105EdtlT1N41UJFye8YjOeyeSB_v5F_RMibYCK02YuVwq6Kbo_hcN0A6rzGAaRpXiwAuR5vEDwTP3gtjoUULVK2vFHdE9qdcLkuF05uAUiEc&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3mmApEtJreVyjxQ4UhunrTIFoRt-1CW8UbGpa1AKcsaEvhg9Af5tyY4vUazV9oNtd8Qxv93gHKtFnsXfsCo9NLaadYzy_xjVUyXs5vWrsKJyCUGCaMlM-yzNKpKpl1HozLHYIibBwM3U6nYpMnTpC7gMu2TRDApaqb4wRqnzAniJYAOA25CRfTZhDtNGD1A-ZHJ7CfPI2iMagkYBRpv7Du7BHxT8En2IFyY2ezjspDYKP75gYtyhAKEE0hYq9OYU3Tl36g67TFrHn1S45C9tWq87fEphS7v8A2lDQPrpTjJbIcD3O-4U3rRbDthqTDHhl35-LXJLxXvThEPVp94ZjeHKvpjizox1yiRcnFtWqnuazfxZ9_o_F8IEoMjkh5ugOf6h54YxjYUi-EmU441W1-DBCj3PGTIQHIC8vPtA7Jj3iGzDnB9CzMIrEYgkQ&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3lSPFWt60pjh0WsRl9Si_lBkiexroL_mtqH9OPq4Qp-QuGaeIruVVPucM45__N2jklbo638KqZfbi2hNdNWjuJG5Uzqr7bgXjPqtdj95RyxBcgjcSHvDjMIxUILrJ3rSKiFe9Ck_41YvHvtyE3DloloYpim8YMZBcgUS7xHEgppxHGeqh_5XhJegBLeez6rTT1mcHaNbvDq-uuGwB2jWskfHz5gISuXrJ5-Si8Bv1SjDZJmz7y8WkKG6FkKhYKzE7LxCfR_BMsBeGhLltZVyq3PvCMdwBSKjBsWb2ZlIcWbxMHgHbZFmP9za8QCzowEFkj9i1eWUQNvkquyp-Lwx4uRIz3LQn1BK54eoWgVo9p5JZrf0s1Zj9fZ1zefz-WPG9goFquZpHrjxOFRVet04WtGQFgcGWqXwph9oOla32cNhOD21lIedsnwRLPpBcta&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3mmlHMHJtz-TlMz5edcsczOb5To3sp19L1DMKOH0CT5pr5j84EZOmqh5UEUlLVv4Sl7ffW_pEoXPHote2c99I8Tq9dbkU6UQuSKpmzFKFUTaJY4277q8GIYgXEoWmteSaHbkYSkXZL5BXU9ECx4wCuu4uozk7NjvEybiFpiO3toGIuK1IdepYG60oEcBkxZudKFVnEZbRRBLKIZawiuB-VS9RxMivDHEiWJTsm7XW-V83ZRHycf1wZbBL28XoaybxeSrD8-BOxPCLZFAvU0Smj1cKEzFG2YKTNbjX873qR2PGUwVgX5YwYZBoXXSOUEiCWfFaYVH9DSdn_H22rsUIvxKtcsPpNBnVSh0EqdCAMdOEA7jd8Dul_Y1dKWHCuTiNt8Q6YuFFt9XwHvt9-OS9zFcUjanhqTpp7-2FwENW8XTmj86YIhQYNzAPoh39aj&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3nTtyLnp4aFOV-VKRjnTXgHltaKGAJ5IK6NYLEMkOLlqTDMHSq7oI71AYIK1l6FYBfum_nK93x1R6lS6QkX4fYYTkhODTC2AIN--Ict1VmcG_aTIGgP7YjeTSJpzsBAmUvlGV0Wv5GmHNUzVtvsFaf8t9lNlbihZjyF-cujXgUcZfBu8U_z2evvdHfyrlPHBJOqyqq5yEtim2Vn2FtqYPmam5BnW2s-l2MQf7Cf3Ws02LPOgl6MzbtqRFmm-hMD2IFsqXN17MqHF2W98yrlfWWJhHwNaojHBaMCD56GRZIajPcsfaZNtzZsbas-zjOOARm8a6UYz-BZUaOxdvmoeX3EIHaq1Xnr59CQLJX-71omOzEUEpxosNQZxB6JvtflZ0XDvX8Ub4blZMpHsG6RSe13DWr1tBWJkCsUzKpgTxpb7qVkAwxZD605n_uUiJws&key=REDACTED",
+    "https://scontent-lhr8-1.xx.fbcdn.net/v/t39.30808-1/445776850_10162044442478896_749389979040312620_n.jpg?stp=dst-jpg_tt6&amp;cstp=mx1440x1440&amp;ctp=s720x720&amp;_nc_cat=108&amp;ccb=1-7&amp;_nc_sid=3ab345&amp;_nc_ohc=yge6oGta7aUQ7kNvwHzQn2K&amp;_nc_oc=AdoqYSbYkdw0G-xFslqwKYAbdKZrJ19uMCiCtZtKUsEIXX0OEkiVh-jHq9-X2Kx8iUs&amp;_nc_zt=24&amp;_nc_ht=scontent-lhr8-1.xx&amp;_nc_gid=k_tGZJdE1d4QHGssm3wm5g&amp;_nc_ss=7c289&amp;oh=00_Af9LhByxSD5R5r6zul2aa7MZuQvwcTRLGgubwBcpJB2ZYA&amp;oe=6A2F13D9",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3lF5neWV5WBgJ6cGomjsCjgl8eB6F3YMar0uyk1fCMvXfXNzlcvJ7UoHDsspGSckvCwka9iaNZX2Nvhk6Rud4LO9QafPeEfYa5Wm3SPjxotl4dtv_qr3bgW0EHSc6cvD5HmxLZmwNtXcBdYOLukMXpjo0KfXgIQg5P5uxqrHN9u_kGM0TjKOQjKgYvR-TqH1gBISgOEx7I2EKFBtP2ibnQSbGsjyzNcvJor4z0h2dGuXEml-K2cENbCfcacarBx7I3fyNhq0KY7Yco1ZSofno_z2Ci8TM_wdc_Kb7JCerfDUCH-bQik9q9vbgN4YC_vNjqr5QZTUIxeoAKnSv41FMPRuI3zGDKsJ9RKG_AC09U2ZsL7OK6AnSaLQSjfdrWJAZojfBXVylk0cUyrfh9QdvupPwrYQR_fSYTXaBWSzEKQFw&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3lIdfJOMAcjJrbbr8M0s1_kCX4hgMVbVkqQWBiBq7eDMo1oEy1_TXV17Xp1rFwQHlqD6NntkmLmRgaXG_zI5p0354sQOjqKI_0XzSZU-scMQfG4DCcInRZeCE4NexrBLTrl_oOsy27R4FCLci6KONR8xffvUSSy_i0YH-W7c53E1IFW6n-qmy6sN5kFAq9u27EatvpMnp_0hPJXYmWGZWaQ97Rmss_kOuwauGx8tUCPl_uTywJZ2lKF6dOEAR-9WlO_Cpf2IphweoRjJrPB1ZlVcEq_lSudvIRsyAp6T2VqH7g8dsLpfv5nGFR6hnZBFIE35khBjJ0EjVUraaOI7VYhfo1khrbokAHC8q-VeLc8I1AbHDJ49Dhmd4qEaQdVgUJk998qubVJO1TokUBx-H0VxCl53MEPD_D8Ze4YVS2ESVAXntoLG3bBezsWxxYK&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3nZdcJ14JIMdtTu5tNDLe3TsJkrLSOCNIRpUK2gM43mSEqBeEooEAKpabS3k1KFQKgF6i-IuvOX_Pwo2chBzEPcyE1QCf4HTrfwIU3TOoP5mEh41-jze48_RFmkG282DQbcPSeJmMcxMWZJGL_MNptTj4yhsdh1YKUUlQrkops5gw-QkrjBMNa0JZhd-z4id2j5hggZduq7nmgegutuucGaTetdzDJulQOfctjFVc9cA7QoNxlT-EW_JNQXx7oYSGTkwyKvrLDLaHoTTn0bgm7WBqnL5nOWOIbmPQsz_D7fkz2sLnS46a15cbbJiM96zLD1UcPnQec6YVkLaFohTg1yz67jpXKEErNtYdClEjWSDtwdo3ZeoW9RRtZF3nmUfDMn55H1tqzBfauqByIXq8EvtCtx-YSNcVmjSY1A1yyLqw&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3n0Rkp5CpQh8TM2aNxAZ9zLGz68B1JV6T4AEfJpicytE9vcVLn_ZAsXYn5yuMNDxiK68kQj0E1aj9Jcr4mtK-LQBgxPKQXbtNEkpyR_8gCLLjaMg-PGbeYO4A0gU_78xfkiiQW9FBvpuLyjpxOAvu03rWVpKl88wv5txiXdW8eqqoJnClMFKCquu-Z7ujqzHldx5fCdczLFEtHH6zIxURgf_BkOreVzX36X-RrlylaTD6SecHsC4SLBxGiMHV9Us7bek0GpKYH4feoMRMGmeE6t_BgQwZj-Od_QNw0CE7IcfDxsaTDCEEcIxi0Q6bQi3QhqpdTap674XPnlSg-CSO68bX537cylxWTeMie0yx54ZCLe2mKTRtX2mBsJ0ihhMb1furQ3yvsVLJNMIkJclnPASODFUm8sNzrIXsKxLtVadSs&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3msyQp98HyVGdwD0hF8vs7_b6LYf_6Ug-MsrQEVyMCnHSjnzRpFvT7gEus0juLXwnaIYlchABJhrs9vXLGq1C_iLiponMDPmsV_c6-7lKhdQ5TwbaeLRngn4hUI26VtfnpOp3q7QWG5X_HoHmJSbZH8dJcnsNsFswkS2uKmzf9uH1gUwGmd5tRtde6BrRLHmOEGiR8YoR4ae_Qp-hYXROSQUToAtUA5dw_t3QY9p6oxlFjdZ3vIVJiswgx-Pvh3XSsbvJ8PT_8rQCBgsLgcrRUMhBfQDvST26jwlPnQ-zkMbAfS__w60qnMIN-po0JumX8BDjocdhL2tXCyfDfAOEyvkFht9l38pxxTj7es2ziUn4fbyMsEFLbJSeR-7HT7QYmNpvByKWQhj8BUdnLvyIXd1k25sSlpum9z5bl_p3VpSg&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3m3mKlMTYaCpSo14SBBkTQFDnFGCMQRx0LzojzcTQqUH5woP3B61yglox50aFwR5K0ti4gbBmOhXLVW_fUl_bORzP-8EZTJ7E44Dc3-us52sqox-mnpHAE3auIbXW6AVZaeJPVhVPAiwVYYVuZGRJ1CP_R7ppW9zv5sG761aylddBG9Ypw-tQ6bS7dZB-HhJMbqAmc5cpDUFCybkC9skA00Nfol9KW1BLV6fmE90Hcs05id-h9TToN5aBQFTgLFsCMAVPoI5NjVxuOnbYMssh2dgTOM8xuz-mZLam-ytRooUmQ8de5SSqKCccfI5TG6matXAUqYnxVNYUZNTBL503H_HaQv5EgRmVCDxJM052KEoat-adI8dV1u_BQwncvAhxBpSlukmOFG_Uqtc05b5W8z1AjazyVBU8UVPiN1FpY&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3n6_cxGWdPszglm7rVqXl_vnhpgNPkXOZi10dZ0ZjxIaqZnKlfFZIH-TniYSOXJv3PZFjMU50UIu9yLny5H6Ff6Q8X1hZcfhzXgQQeqHRI-V0j8xHghSlPbgyDScfeLCt1dNXWaA58Ydp27Wj1rwRi4-_EuiqC29NeOqBBykfM-DkngELmCj7LeW6jcKFIQXGzq7e7aJPsvw2i3HX0eBQ0GwVUfr5SDmwJ1o6CprPWLAhC5dyoyM9MUblQ3SVQv21GebGA9a1UhdMBTduh75ff-E3BlRdEsH6b7NtmD2_BktWpZESgXirgvSRNSY4_3n_pLDTxDq7UrA8kne9Gd7a-BTOqnFvBeBu7MSmNd82xYY05t1fA7u7EOhHvLomhj3KE98AZEmUSeycITdbiFL-tpuyYJSsHta5V5yOCCQb7PlLoNMNo26wnsUzM0qg&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3k392JADkHX5zYkOhGletDd-tFmE-Y45KiYqfdK0shXzoq_dsVK7g9zsAqqcB_93MUH2FM0aoBFKtKKOwShN_wrb4uao1G436zabHajFb83LUpf0g0S4AwshO_9Yc4wo8NeHtEaZS5rclaXdsUP9kkeWfHOjEDjfx9gD-AZC5HR65vABO7h2A-z6hVo7jKiYfJ0JqLOsSF-aB6kMGSpR3ix6cBiaYub1UmTovb463aKZ1sd3YXy17TkkLm9TT7UH_qq59xhVYxaPwkWP73eKm205JdvHKlewsxX2A7cUFQLD44sLRr5nbqQX8nZyPdX0gp9hYB-tXPXah3jU97xTfd9Y2Cm6GkFmBFkXPhS2AFUEVoifmtgcWZQ0VSkzNwICuvTCNDansqRrSW1xpv0BIA04VTTy2OQVCIgMRZiTj89sEzFJRyGkONE2b-u_MWT&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3n7FN_6U16AYYnYXAdJlrJxw156GaXsiTrZOQ8myoUB135fhZlkQsT1666VxpQlryHRkPjztXqa4V_36vj78T33y1uN3QqbGZrmY5_AU2xBouitX0_0lXSVzjP-JeixxvAAKVQSTRNUFkRH7cw1QGCYoMhSeMIvEfGJ5TpLEDRxNy8mXFfWq_w9JosvE_ekYz0-sPV8eA1WKmQY4sC9EapiDfn5Klz39rw68unBNEFIlm9SVK5vxFscS1Dc_HShA0x-M63q5tq6to2bvYXuo9SxymWLYSKIF_580GTCDjP5jYPyxhMIIAZsAxltuL2izEQbrt0taxb1Sh0Zfcycy41-yRqAYHBPM-Od2TXWxCw86R3WQdBw_OZihiL0mjPQJjRb45zCMWCFTh5XlUljyIPp0x7Vd5ubtTvVHNw4TSGgxvGrrZe3SBjt9IPnWULo&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3nqMTaHKoPR62DaVeIVTvxitnt_VhM7Oif8Z-ZFhPT_YmBQ4PiivxT-_A5Z2bpLiqLZ7SvvVIRyfwjDcWBxeGkpyZGKAYKfmJMRv6dlu5NnH_yzTCjyr2jmoE8J1CQFMvS5TvRHfs9Wkx0Xc1D1lfmw7shYbxx_kOnSBEb644J0NZqDOeJDjo-Ay2-wELMJujKpRL0oTiwuDQa1Y2fcrtmgLI5-yL3H3OCvVS0OP-sOQSa-xYiYhp87dvniZQURDPhY55pE7qpkkEvWGhgWdQ6dh2wvgBxoCCDtKbaMIqY43ZtbqgRDxyhRJRoT1TkYm9yZ3uXbKFg54ShZFq1AmGTFe38TgP1g_rx4AhAb_6l1O0oA_FEXYPmhCyrGsmCXM2sAMQydFXSMw60Gf0QUwJW0U3rGlIc-7hfZ49aZMOxDnfroFuENfwsgYA4GRn38&key=REDACTED",
+    "https://scontent-lhr8-1.xx.fbcdn.net/v/t39.30808-1/445776850_10162044442478896_749389979040312620_n.jpg?stp=dst-jpg_tt6&amp;cstp=mx1440x1440&amp;ctp=s720x720&amp;_nc_cat=108&amp;ccb=1-7&amp;_nc_sid=3ab345&amp;_nc_ohc=yge6oGta7aUQ7kNvwHzQn2K&amp;_nc_oc=AdoqYSbYkdw0G-xFslqwKYAbdKZrJ19uMCiCtZtKUsEIXX0OEkiVh-jHq9-X2Kx8iUs&amp;_nc_zt=24&amp;_nc_ht=scontent-lhr8-1.xx&amp;_nc_gid=rqRVEpt3UkBQJxBX-69CYw&amp;_nc_ss=7c289&amp;oh=00_Af_boVfbo7HKAOBekzOOCI2g34TV8wBTuYftFJ01rQNNMA&amp;oe=6A2F13D9",
+    "https://www.facebook.com/p/Corvell-Bathrooms-61560222691293",
+    "https://corvell.co.uk/"
+  ],
+  "notes": [
+    "owner_name not found in public sources",
+    "email not found in public sources",
+    "contact_name \"Jack\" from 4 Google review mention(s) (high confidence); owner_name not set",
+    "contactability=NEEDS_MANUAL_REVIEW",
+    "WhatsApp availability check failed",
+    "Facebook verified (high): Phone number matches Google/lead phone; Business name matches or clearly aliases Google listing; Location or service area matches Google address/city; Public email visible on page (info@corvell.co.uk); Intro text matches trade and local area; Service hints match trade: Plumbing, Bathroom installations",
+    "Email found on Facebook: info@corvell.co.uk",
+    "Email domain checked: corvell.co.uk -> HAS_REAL_SITE",
+    "Hidden or official website classified as HAS_REAL_SITE"
+  ],
+  "missing_fields": [
+    "owner_name",
+    "email",
+    "facebook",
+    "instagram"
+  ],
+  "location_validation_status": "OK",
+  "facebook": {
+    "url": "https://www.facebook.com/p/Corvell-Bathrooms-61560222691293",
+    "verified": true,
+    "confidence": "high",
+    "verification_reasons": [
+      "Phone number matches Google/lead phone",
+      "Business name matches or clearly aliases Google listing",
+      "Location or service area matches Google address/city",
+      "Public email visible on page (info@corvell.co.uk)",
+      "Intro text matches trade and local area",
+      "Service hints match trade: Plumbing, Bathroom installations"
+    ],
+    "phone_match": true,
+    "name_match": true,
+    "location_match": true,
+    "status": "OK",
+    "needs_manual_review": false,
+    "logo_path": null,
+    "logo_source": null,
+    "logo_palette": [],
+    "assets": [
+      {
+        "local": "images/facebook/01-facebook.webp",
+        "source_url": "https://scontent-lhr8-2.xx.fbcdn.net/v/t39.30808-6/487171475_122161217486340756_182368434313368318_n.jpg?stp=dst-jpg_fb50_s320x320_tt6&_nc_cat=101&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=AHw8-5Eo8nIQ7kNvwFubJav&_nc_oc=AdqEIXFaChjImLKOmjg7gjL6BuXAfx9uwa1Pw9opoXloH7kjRM2KZO158zfPhX7eh8EfI8fZsGpdKmjHAWg_h-2W&_nc_zt=23&_nc_ht=scontent-lhr8-2.xx&_nc_gid=uSm_Mk7LZE5yH3N-A0azeA&_nc_ss=7b20f&oh=00_Af-iZPjcDPdhRgFvpcHfsfxqMn0MSOXTcwmbALgRcQy03w&oe=6A2F5B46",
+        "source_type": "facebook_photo",
+        "width": 240,
+        "height": 320,
+        "hash": "118fa9a33fc217b17406e94bbfb79b52208e9bd89756a0a50a3e363f1d86f615",
+        "cluster_id": null,
+        "selected": false,
+        "selection_reason": "Pending gallery selection",
+        "classification": "completed_project"
+      }
+    ],
+    "photos_found": 1,
+    "photos_selected": 1,
+    "evidence": [
+      "Log in\nForgotten account?\nCorvell Bathrooms \n185 followers • 3 following\nMore\nPosts\nAbout\nReels\nPhotos\nIntro\nCorvell Bathrooms, Plumbing and Tiling\nPage · Plumbing service · Tiling service\nStaple hill\n07804 693411\n+44 7804 693411\ninfo@corvell.co.uk\nNot yet rated (4 reviews)﻿\nPhotos\nSee All Photos\nInformation about Page Insights data\n \n · Privacy\n \n · Terms\n \n · Advertising\n \n · Ad choices \n \n · Cookies\n \n · More\nCorvell Bathrooms is in Bristol.\n8 January\n \n·\nNew look to the work bus with fresh sign writing \n… See more\nAll reactions:\n18\n2\nLike\nComment\nView more comments\nCarl Lee Bennett\nThe other one looked better \n21w\nSee more from Corvell Bathrooms\nEmail address or phone number\nPassword\nLog in\nForgotten password?\nor\nCreate new account"
+    ]
+  },
+  "enrichment": {
+    "enriched_at": "2026-06-10T16:26:37.332Z",
+    "email_domain_checked": true,
+    "website_discovery_run": true
+  },
+  "lead_validity": {
+    "lead_validity_status": "HAS_REAL_SITE_SKIP",
+    "lead_validity_reason": "reason=working_site; status=200; final=https://corvell.co.uk/; title=Bathroom Renovations, Plumbing & Tiling Services | Corvell Bathrooms",
+    "website_status": "HAS_REAL_SITE",
+    "website_url": "https://corvell.co.uk/",
+    "website_discovery_classification": "HAS_REAL_SITE",
+    "email_domain_website": {
+      "classification": "HAS_REAL_SITE",
+      "db_status": "HAS_REAL_SITE",
+      "domain": "corvell.co.uk",
+      "initial_url": "https://corvell.co.uk",
+      "final_url": "https://corvell.co.uk/",
+      "status_code": 200,
+      "title": "Bathroom Renovations, Plumbing & Tiling Services | Corvell Bathrooms",
+      "reason": "reason=working_site; status=200; final=https://corvell.co.uk/; title=Bathroom Renovations, Plumbing & Tiling Services | Corvell Bathrooms",
+      "probes": [
+        {
+          "url": "https://corvell.co.uk",
+          "ok": true,
+          "status_code": 200,
+          "final_url": "https://corvell.co.uk/"
+        }
+      ],
+      "text_snippet": "Bathroom Renovations, Plumbing &amp; Tiling Services | Corvell Bathrooms Speak To Our Team &#8211; Call: 07804 693 411 or 07427 606 183 | Write To Us &#8211; Email: info@corvell.co.uk Follow Us Online: Follow Follow Follow Home About Services Bathroom Renovation Bathroom Installation Wetroom Installation Tiling Services General Plumbing Gallery Areas Covered Blog Contact Get A FREE Quote Speak To "
+    },
+    "source_confidence_summary": {
+      "overall": "high",
+      "verified_platforms": [
+        "google_places",
+        "facebook",
+        "official_website"
+      ],
+      "rejected_platforms": [],
+      "notes": []
+    },
+    "ready_for_build": false,
+    "manual_review_required": true,
+    "has_real_website": true,
+    "truly_no_website": false,
+    "warnings": [
+      "contactability=NEEDS_MANUAL_REVIEW",
+      "Real website exists - skip no-website build pipeline"
+    ]
+  },
+  "website_url_validation": {
+    "validated_at": "2026-06-10T16:40:00.043Z",
+    "issue": null,
+    "note": "website_url valid",
+    "previous_url": "https://corvell.co.uk/"
+  }
+}

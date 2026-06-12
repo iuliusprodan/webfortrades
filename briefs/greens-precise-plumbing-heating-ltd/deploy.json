@@ -1,0 +1,30 @@
+{
+  "slug": "greens-precise-plumbing-heating-ltd",
+  "updated_at": "2026-06-10T18:52:25.487Z",
+  "preferred_alias": "greens-precise-plumbing-heating-ltd",
+  "deployment_url": "https://greens-precise-plumbing-heating-ewzusctvc.vercel.app",
+  "verified_url": "https://greens-precise-plumbing-heating-ltd.vercel.app",
+  "final_url": "https://greens-precise-plumbing-heating-ltd.vercel.app",
+  "alias_status": "VERIFIED",
+  "candidates": [
+    {
+      "hostname": "greens-precise-plumbing-heating-ltd",
+      "url": "https://greens-precise-plumbing-heating-ltd.vercel.app",
+      "preflight": "already_ours",
+      "detail": "Build marker greens-precise-plumbing-heating-ltd:20260610-c7e4b291",
+      "verify": "verified"
+    }
+  ],
+  "verification": {
+    "ok": true,
+    "httpStatus": 200,
+    "markerFound": true,
+    "businessNameFound": true,
+    "phoneFound": true,
+    "marker": {
+      "buildId": "greens-precise-plumbing-heating-ltd:20260610-c7e4b291",
+      "slug": "greens-precise-plumbing-heating-ltd"
+    },
+    "errors": []
+  }
+}

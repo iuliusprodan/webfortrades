@@ -1,0 +1,90 @@
+{
+  "slug": "west-park-electrics",
+  "updated_at": "2026-06-11T16:08:27.542Z",
+  "url": "https://west-park-electrics.vercel.app",
+  "ok": true,
+  "screenshot": "/Users/iuliusprodan/.cursor/website/screenshots/west-park-electrics/live-verify.png",
+  "stylesheet": {
+    "bytes": 42335,
+    "hasPreflight": true,
+    "hasUtilities": true,
+    "utilityMarkers": [
+      ".flex",
+      ".grid",
+      ".mx-auto",
+      ".items-center",
+      ".justify-",
+      ".max-w-",
+      ".px-/.py-",
+      ".rounded",
+      ".gap-"
+    ]
+  },
+  "metrics": {
+    "bodyFontFamily": "\"IBM Plex Sans\", \"IBM Plex Sans Fallback\"",
+    "bodyBoxSizing": "border-box",
+    "bodyMarginTop": 0,
+    "bodyMarginLeft": 0,
+    "appliedRuleCount": 792,
+    "styleSheetCount": 1,
+    "biggestGraphic": {
+      "tag": "IMG",
+      "w": 288,
+      "h": 383,
+      "src": "https://west-park-electrics.vercel.app/assets/images/09-places.webp"
+    },
+    "primaryButton": {
+      "found": true,
+      "background": "rgb(232, 93, 4)",
+      "borderRadius": "4px",
+      "paddingTop": "14px"
+    },
+    "bodyText": "WEST PARK ELECTRICS\nServices\nWork\nReviews\nAreas\nGet a quote\nCALL 07889 228995\n\nELECTRICIAN · LEEDS LS16\n\nLeeds electrics, tested and tidy.\n\nDomestic electrical work across Leeds, from light fittings and sockets to cooker installs and extractor fans.\n\n5.0 ON GOOGLE\nAcross 30 reviews\nBASED IN LEEDS\nLS"
+  },
+  "css_assets": [
+    {
+      "url": "https://west-park-electrics.vercel.app/_next/static/css/d33c70c5975a871a.css",
+      "status": 200,
+      "bytes": 42335
+    }
+  ],
+  "js_assets": [
+    {
+      "url": "https://west-park-electrics.vercel.app/_next/static/chunks/4bd1b696-c023c6e3521b1417.js",
+      "status": 200,
+      "bytes": 173019
+    },
+    {
+      "url": "https://west-park-electrics.vercel.app/_next/static/chunks/255-eb4aecc3ff015961.js",
+      "status": 200,
+      "bytes": 173611
+    },
+    {
+      "url": "https://west-park-electrics.vercel.app/_next/static/chunks/main-app-f9b5d20365cb8be2.js",
+      "status": 200,
+      "bytes": 557
+    },
+    {
+      "url": "https://west-park-electrics.vercel.app/_next/static/chunks/app/page-04b070c303d99a10.js",
+      "status": 200,
+      "bytes": 2877
+    },
+    {
+      "url": "https://west-park-electrics.vercel.app/_next/static/chunks/polyfills-42372ed130431b0a.js",
+      "status": 200,
+      "bytes": 112594
+    },
+    {
+      "url": "https://west-park-electrics.vercel.app/_next/static/chunks/webpack-4a3f34f17de705f5.js",
+      "status": 200,
+      "bytes": 3770
+    }
+  ],
+  "failed_assets": [],
+  "issues": [
+    {
+      "severity": "warn",
+      "message": "section_integrity: no gallery block found for column check"
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "slug": "bbr-plumbing-heating-bristol-bristol-boiler-repairs",
+  "polish_pass": "2026-06-11-five-site",
+  "updated_at": "2026-06-11T16:08:05.052Z",
+  "build_id": "bbr-plumbing-heating-bristol-bristol-boiler-repairs:20260611-alias-fix",
+  "matrix": "data/batches/2026-06-11-five-site/section-variation.json",
+  "ready_to_pitch": true,
+  "og_generated": true,
+  "scroll_video_generated": false,
+  "outreach_sent": false,
+  "live_url": "https://bristol-boiler-repairs.vercel.app",
+  "deployment_id": "dpl_6hUdyc915p2cQmWQPZuydFCPohL7",
+  "clone_review": {
+    "before": {
+      "score": 39,
+      "passed": false,
+      "section_order_similarity": 100,
+      "key_issue": "Deployed section order matches default template (100%)"
+    },
+    "after": {
+      "score": 32,
+      "passed": true,
+      "section_order_similarity": 64,
+      "business_specificity_estimate": 68
+    }
+  },
+  "section_order": [
+    "hero",
+    "stats",
+    "reviews",
+    "services",
+    "gallery",
+    "process",
+    "service-area",
+    "contact"
+  ],
+  "changes_applied": [
+    "Header and footer: text wordmark only (Bristol Boiler Repairs, Merriweather display font)",
+    "Removed logo.webp from public/assets/images",
+    "Removed What customers keep mentioning themes block (duplicated reviews)",
+    "Hero: full-bleed hero-bathroom.webp with overlay copy",
+    "Gallery: CSS columns masonry layout retained",
+    "data-section-id on all eight main sections",
+    "Reviews moved before services; featured quote merged into reviews section"
+  ],
+  "alias_staleness": {
+    "checked_at": "2026-06-11T15:25:00.000Z",
+    "note": "All legacy aliases reassigned to deployment m3loi88lr with build 20260611-alias-fix. -bs13 kept as one-week fallback (same deployment, not retired).",
+    "aliases": [
+      {
+        "hostname": "bristol-boiler-repairs",
+        "url": "https://bristol-boiler-repairs.vercel.app",
+        "status": "canonical",
+        "build_id": "bbr-plumbing-heating-bristol-bristol-boiler-repairs:20260611-alias-fix"
+      },
+      {
+        "hostname": "bbr-plumbing-heating-bristol-bristol-boiler-repairs",
+        "url": "https://bbr-plumbing-heating-bristol-bristol-boiler-repairs.vercel.app",
+        "status": "reassigned_same_deployment",
+        "build_id": "bbr-plumbing-heating-bristol-bristol-boiler-repairs:20260611-alias-fix"
+      },
+      {
+        "hostname": "bbr-plumbing-heating-bristol-bristol-boiler-repairs-bs13",
+        "url": "https://bbr-plumbing-heating-bristol-bristol-boiler-repairs-bs13.vercel.app",
+        "status": "fallback_one_week",
+        "build_id": "bbr-plumbing-heating-bristol-bristol-boiler-repairs:20260611-alias-fix"
+      },
+      {
+        "hostname": "bbr-plumbing-heating-bristol-bristol-boiler-repairs-bristol",
+        "url": "https://bbr-plumbing-heating-bristol-bristol-boiler-repairs-bristol.vercel.app",
+        "status": "reassigned_same_deployment",
+        "build_id": "bbr-plumbing-heating-bristol-bristol-boiler-repairs:20260611-alias-fix"
+      },
+      {
+        "hostname": "bbr-plumbing-heating-bristol-bristol-boiler-repairs-bristol-bs1",
+        "url": "https://bbr-plumbing-heating-bristol-bristol-boiler-repairs-bristol-bs1.vercel.app",
+        "status": "reassigned_same_deployment",
+        "build_id": "bbr-plumbing-heating-bristol-bristol-boiler-repairs:20260611-alias-fix"
+      },
+      {
+        "hostname": "bbr-plumbing-heating-bristol-bristol-boiler-repairs-uk",
+        "url": "https://bbr-plumbing-heating-bristol-bristol-boiler-repairs-uk.vercel.app",
+        "status": "legacy_serves_current",
+        "build_id": "bbr-plumbing-heating-bristol-bristol-boiler-repairs:20260611-alias-fix"
+      }
+    ]
+  },
+  "canonical_alias": "bristol-boiler-repairs",
+  "canonical_url": "https://bristol-boiler-repairs.vercel.app"
+}

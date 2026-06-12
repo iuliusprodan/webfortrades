@@ -1,0 +1,383 @@
+{
+  "slug": "corvell-ltd",
+  "gathered_at": "2026-06-10T16:26:37.332Z",
+  "attempted_sources": [
+    {
+      "platform": "google_places",
+      "status": "found",
+      "url": "https://maps.google.com/?cid=5902983431411409835"
+    },
+    {
+      "platform": "google_maps",
+      "status": "not_attempted",
+      "search_query": "Corvell ltd Bristol BS15 1XN site:google.com/maps",
+      "reason": "Automated search not run in enrich pass unless URL provided"
+    },
+    {
+      "platform": "google_reviews",
+      "status": "found",
+      "url": "https://maps.google.com/?cid=5902983431411409835"
+    },
+    {
+      "platform": "google_photos",
+      "status": "found",
+      "url": "https://maps.google.com/?cid=5902983431411409835"
+    },
+    {
+      "platform": "facebook",
+      "status": "found",
+      "url": "https://www.facebook.com/share/1BVAEdhja3/"
+    },
+    {
+      "platform": "checkatrade",
+      "status": "not_attempted",
+      "search_query": "Corvell ltd Bristol BS15 1XN site:checkatrade.com",
+      "reason": "Automated search not run in enrich pass unless URL provided"
+    },
+    {
+      "platform": "trustatrader",
+      "status": "not_attempted",
+      "search_query": "Corvell ltd Bristol BS15 1XN site:trustatrader.com",
+      "reason": "Automated search not run in enrich pass unless URL provided"
+    },
+    {
+      "platform": "yell",
+      "status": "not_attempted",
+      "search_query": "Corvell ltd Bristol BS15 1XN site:yell.com",
+      "reason": "Automated search not run in enrich pass unless URL provided"
+    },
+    {
+      "platform": "mybuilder",
+      "status": "not_attempted",
+      "search_query": "Corvell ltd Bristol BS15 1XN site:mybuilder.com",
+      "reason": "Automated search not run in enrich pass unless URL provided"
+    },
+    {
+      "platform": "rated_people",
+      "status": "not_attempted",
+      "search_query": "Corvell ltd Bristol BS15 1XN site:ratedpeople.com",
+      "reason": "Automated search not run in enrich pass unless URL provided"
+    },
+    {
+      "platform": "bark",
+      "status": "not_attempted",
+      "search_query": "Corvell ltd Bristol BS15 1XN site:bark.com",
+      "reason": "Automated search not run in enrich pass unless URL provided"
+    },
+    {
+      "platform": "houzz",
+      "status": "not_attempted",
+      "search_query": "Corvell ltd Bristol BS15 1XN site:houzz.co.uk",
+      "reason": "Automated search not run in enrich pass unless URL provided"
+    },
+    {
+      "platform": "youtube",
+      "status": "not_attempted",
+      "search_query": "Corvell ltd Bristol BS15 1XN site:youtube.com",
+      "reason": "Automated search not run in enrich pass unless URL provided"
+    },
+    {
+      "platform": "companies_house",
+      "status": "not_attempted",
+      "search_query": "Corvell ltd site:find-and-update.company-information.service.gov.uk",
+      "reason": "Automated search not run in enrich pass unless URL provided"
+    },
+    {
+      "platform": "official_website",
+      "status": "found",
+      "url": "https://corvell.co.uk/"
+    },
+    {
+      "platform": "email_domain_website",
+      "status": "not_attempted",
+      "search_query": "https://",
+      "reason": "Automated search not run in enrich pass unless URL provided"
+    },
+    {
+      "platform": "directories",
+      "status": "not_attempted",
+      "search_query": "Corvell ltd Bristol BS15 1XN plumber electrician directory",
+      "reason": "Automated search not run in enrich pass unless URL provided"
+    },
+    {
+      "platform": "local_trade_directories",
+      "status": "not_attempted",
+      "search_query": "Corvell ltd Bristol BS15 1XN local directory",
+      "reason": "Automated search not run in enrich pass unless URL provided"
+    },
+    {
+      "platform": "trade_association",
+      "status": "not_attempted",
+      "search_query": "Corvell ltd  association member",
+      "reason": "Automated search not run in enrich pass unless URL provided"
+    },
+    {
+      "platform": "review_aggregators",
+      "status": "not_attempted",
+      "search_query": "Corvell ltd Bristol BS15 1XN reviews",
+      "reason": "Automated search not run in enrich pass unless URL provided"
+    },
+    {
+      "platform": "instagram",
+      "status": "not_attempted",
+      "search_query": "Corvell ltd Bristol BS15 1XN Instagram",
+      "reason": "Requires login - manual review only"
+    },
+    {
+      "platform": "nextdoor",
+      "status": "not_attempted",
+      "search_query": "Corvell ltd Bristol BS15 1XN site:nextdoor.co.uk",
+      "reason": "Requires login - manual review only"
+    },
+    {
+      "platform": "pinterest",
+      "status": "not_attempted",
+      "search_query": "Corvell ltd Bristol BS15 1XN site:pinterest.com",
+      "reason": "Requires login - manual review only"
+    },
+    {
+      "platform": "tiktok",
+      "status": "not_attempted",
+      "search_query": "Corvell ltd Bristol BS15 1XN TikTok",
+      "reason": "Requires login - manual review only"
+    },
+    {
+      "platform": "linkedin",
+      "status": "not_attempted",
+      "search_query": "Corvell ltd Bristol BS15 1XN site:linkedin.com",
+      "reason": "Requires login - manual review only"
+    },
+    {
+      "platform": "twitter",
+      "status": "not_attempted",
+      "search_query": "Corvell ltd Bristol BS15 1XN site:twitter.com OR site:x.com",
+      "reason": "Requires login - manual review only"
+    }
+  ],
+  "sources": [
+    {
+      "platform": "google_places",
+      "url": "https://maps.google.com/?cid=5902983431411409835",
+      "verified": true,
+      "verification_method": "place_id_from_gather",
+      "phone_match": true,
+      "notes": "Primary gather source"
+    },
+    {
+      "platform": "facebook",
+      "url": "https://www.facebook.com/p/Corvell-Bathrooms-61560222691293",
+      "verified": true,
+      "verification_method": "facebook_source_module",
+      "phone_match": true,
+      "notes": "Phone number matches Google/lead phone; Business name matches or clearly aliases Google listing; Location or service area matches Google address/city; Public email visible on page (info@corvell.co.uk); Intro text matches trade and local area; Service hints match trade: Plumbing, Bathroom installations"
+    },
+    {
+      "platform": "official_website",
+      "url": "https://corvell.co.uk/",
+      "verified": false,
+      "verification_method": "cross_check_needed",
+      "phone_match": true,
+      "notes": "HAS_REAL_SITE"
+    }
+  ],
+  "sources_found": [
+    "google_places",
+    "google_reviews",
+    "google_photos",
+    "facebook",
+    "official_website"
+  ],
+  "sources_verified": [
+    "google_places",
+    "facebook"
+  ],
+  "strongest_proof_source": {
+    "platform": "facebook",
+    "metric": "1 public photos, phone verified",
+    "url": "https://www.facebook.com/p/Corvell-Bathrooms-61560222691293"
+  },
+  "best_review_details": [
+    {
+      "text": "We found Corvell on Instagram & was really impressed from the get go when Jack came to measure up to quote for some tiling in our kitchen, utility & wc - his attention to detail in checking exactly what we wanted & advising on tiles/grout etc was so useful! The quote was so competitively priced we booked on right away! Jack & Nick then did such an immaculate efficient job, we absolutely love our n",
+      "author": "Harriet",
+      "rating": 5,
+      "source": "google"
+    },
+    {
+      "text": "Nick & Jack did our full bathroom renovation. They were friendly, professional, efficient, and did an exceptional job, we are thrilled with the final result. They explained everything in as much detail as possible, and set out clear expectations of what the renovation would entail. Would recommend Corvell Ltd to anyone considering having their bathroom done, they were absolutely brilliant! Thank y",
+      "author": "Chris",
+      "rating": 5,
+      "source": "google"
+    },
+    {
+      "text": "Jack and Nick came around in August  to quote which was competitive. September the bathroom  was installed to a very high standard. Corvell came to us through recommendations which is best the form of advertising. If  anyone would like to contact me by all means don't hesitate.",
+      "author": "Stephen",
+      "rating": 5,
+      "source": "google"
+    }
+  ],
+  "image_source_summary": {
+    "google_photos": 2,
+    "facebook_photos": 0,
+    "other": 0,
+    "preferred_source": "google",
+    "notes": "Google Places photos default"
+  },
+  "manual_review_flags": [
+    "contactability=NEEDS_MANUAL_REVIEW"
+  ],
+  "enrichment_complete": true,
+  "risks": [
+    "Very few photos - lean site recommended"
+  ],
+  "email": "info@corvell.co.uk",
+  "email_found": true,
+  "email_domain_checked": true,
+  "email_domain_website": {
+    "classification": "HAS_REAL_SITE",
+    "db_status": "HAS_REAL_SITE",
+    "domain": "corvell.co.uk",
+    "initial_url": "https://corvell.co.uk",
+    "final_url": "https://corvell.co.uk/",
+    "status_code": 200,
+    "title": "Bathroom Renovations, Plumbing & Tiling Services | Corvell Bathrooms",
+    "reason": "reason=working_site; status=200; final=https://corvell.co.uk/; title=Bathroom Renovations, Plumbing & Tiling Services | Corvell Bathrooms",
+    "probes": [
+      {
+        "url": "https://corvell.co.uk",
+        "ok": true,
+        "status_code": 200,
+        "final_url": "https://corvell.co.uk/"
+      }
+    ],
+    "text_snippet": "Bathroom Renovations, Plumbing &amp; Tiling Services | Corvell Bathrooms Speak To Our Team &#8211; Call: 07804 693 411 or 07427 606 183 | Write To Us &#8211; Email: info@corvell.co.uk Follow Us Online: Follow Follow Follow Home About Services Bathroom Renovation Bathroom Installation Wetroom Installation Tiling Services General Plumbing Gallery Areas Covered Blog Contact Get A FREE Quote Speak To "
+  },
+  "website_discovery": {
+    "classification": "HAS_REAL_SITE",
+    "db_status": "HAS_REAL_SITE",
+    "domain": "corvell.co.uk",
+    "initial_url": "https://corvell.co.uk",
+    "final_url": "https://corvell.co.uk/",
+    "status_code": 200,
+    "title": "Bathroom Renovations, Plumbing & Tiling Services | Corvell Bathrooms",
+    "reason": "reason=working_site; status=200; final=https://corvell.co.uk/; title=Bathroom Renovations, Plumbing & Tiling Services | Corvell Bathrooms",
+    "probes": [
+      {
+        "url": "https://corvell.co.uk",
+        "ok": true,
+        "status_code": 200,
+        "final_url": "https://corvell.co.uk/"
+      }
+    ],
+    "text_snippet": "Bathroom Renovations, Plumbing &amp; Tiling Services | Corvell Bathrooms Speak To Our Team &#8211; Call: 07804 693 411 or 07427 606 183 | Write To Us &#8211; Email: info@corvell.co.uk Follow Us Online: Follow Follow Follow Home About Services Bathroom Renovation Bathroom Installation Wetroom Installation Tiling Services General Plumbing Gallery Areas Covered Blog Contact Get A FREE Quote Speak To "
+  },
+  "website_status": "HAS_REAL_SITE",
+  "truly_no_website": false,
+  "logo_found": false,
+  "logo_path": null,
+  "facebook_url": "https://www.facebook.com/p/Corvell-Bathrooms-61560222691293",
+  "facebook_verified": true,
+  "source_verifications": [
+    {
+      "platform": "google_places",
+      "url": "https://maps.google.com/?cid=5902983431411409835",
+      "confidence": "medium",
+      "verified": true,
+      "verification_reasons": [
+        "Business name matches or clearly aliases Google listing",
+        "Location or service area matches Google address/city"
+      ],
+      "matches": {
+        "phone": false,
+        "email": false,
+        "website": false,
+        "business_name": true,
+        "location": true,
+        "service_trade": false,
+        "logo": false
+      },
+      "rejected_reason": null
+    },
+    {
+      "platform": "facebook",
+      "url": "https://www.facebook.com/p/Corvell-Bathrooms-61560222691293",
+      "confidence": "high",
+      "verified": true,
+      "verification_reasons": [
+        "Phone number matches Google/lead phone",
+        "Email matches or shares domain with lead email",
+        "Business name matches or clearly aliases Google listing",
+        "Location or service area matches Google address/city",
+        "Website or domain link visible on source"
+      ],
+      "matches": {
+        "phone": true,
+        "email": true,
+        "website": true,
+        "business_name": true,
+        "location": true,
+        "service_trade": false,
+        "logo": false
+      },
+      "rejected_reason": null
+    },
+    {
+      "platform": "official_website",
+      "url": "https://corvell.co.uk/",
+      "confidence": "medium",
+      "verified": true,
+      "verification_reasons": [
+        "Business name matches or clearly aliases Google listing",
+        "Location or service area matches Google address/city",
+        "Website or domain link visible on source"
+      ],
+      "matches": {
+        "phone": false,
+        "email": false,
+        "website": true,
+        "business_name": true,
+        "location": true,
+        "service_trade": false,
+        "logo": false
+      },
+      "rejected_reason": null
+    }
+  ],
+  "source_confidence": {
+    "overall": "high",
+    "verified_platforms": [
+      "google_places",
+      "facebook",
+      "official_website"
+    ],
+    "rejected_platforms": [],
+    "notes": []
+  },
+  "image_manifest": [
+    {
+      "local": "images/01-places.webp",
+      "source": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3lF5neWV5WBgJ6cGomjsCjgl8eB6F3YMar0uyk1fCMvXfXNzlcvJ7UoHDsspGSckvCwka9iaNZX2Nvhk6Rud4LO9QafPeEfYa5Wm3SPjxotl4dtv_qr3bgW0EHSc6cvD5HmxLZmwNtXcBdYOLukMXpjo0KfXgIQg5P5uxqrHN9u_kGM0TjKOQjKgYvR-TqH1gBISgOEx7I2EKFBtP2ibnQSbGsjyzNcvJor4z0h2dGuXEml-K2cENbCfcacarBx7I3fyNhq0KY7Yco1ZSofno_z2Ci8TM_wdc_Kb7JCerfDUCH-bQik9q9vbgN4YC_vNjqr5QZTUIxeoAKnSv41FMPRuI3zGDKsJ9RKG_AC09U2ZsL7OK6AnSaLQSjfdrWJAZojfBXVylk0cUyrfh9QdvupPwrYQR_fSYTXaBWSzEKQFw&key=REDACTED",
+      "source_type": "unknown",
+      "confidence": "low",
+      "purpose": "gallery",
+      "selected": true,
+      "reason": "Selected for gallery"
+    },
+    {
+      "local": "images/02-places.webp",
+      "source": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3lIdfJOMAcjJrbbr8M0s1_kCX4hgMVbVkqQWBiBq7eDMo1oEy1_TXV17Xp1rFwQHlqD6NntkmLmRgaXG_zI5p0354sQOjqKI_0XzSZU-scMQfG4DCcInRZeCE4NexrBLTrl_oOsy27R4FCLci6KONR8xffvUSSy_i0YH-W7c53E1IFW6n-qmy6sN5kFAq9u27EatvpMnp_0hPJXYmWGZWaQ97Rmss_kOuwauGx8tUCPl_uTywJZ2lKF6dOEAR-9WlO_Cpf2IphweoRjJrPB1ZlVcEq_lSudvIRsyAp6T2VqH7g8dsLpfv5nGFR6hnZBFIE35khBjJ0EjVUraaOI7VYhfo1khrbokAHC8q-VeLc8I1AbHDJ49Dhmd4qEaQdVgUJk998qubVJO1TokUBx-H0VxCl53MEPD_D8Ze4YVS2ESVAXntoLG3bBezsWxxYK&key=REDACTED",
+      "source_type": "unknown",
+      "confidence": "low",
+      "purpose": "gallery",
+      "selected": true,
+      "reason": "Selected for gallery"
+    }
+  ],
+  "selected_images": [
+    "images/01-places.webp",
+    "images/02-places.webp"
+  ],
+  "lead_validity_status": "HAS_REAL_SITE_SKIP",
+  "ready_for_build": false,
+  "registry_source_count": 26
+}

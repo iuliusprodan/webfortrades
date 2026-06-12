@@ -1,0 +1,93 @@
+{
+  "slug": "corvell-ltd",
+  "created_at": "2026-06-10T11:48:51.569Z",
+  "sections": [
+    {
+      "id": "review-led-hero",
+      "priority": 1,
+      "heading": "Bathroom refits and tiling, finished properly in Bristol.",
+      "justification": "Strongest review quote defines the business",
+      "background_mood": "cool"
+    },
+    {
+      "id": "stats-sourced-only",
+      "priority": 2,
+      "heading": null,
+      "justification": "Google rating and review count sourced from Places",
+      "background_mood": "accent"
+    },
+    {
+      "id": "signature-job-story",
+      "priority": 3,
+      "heading": "Bathroom refits and installations in Bristol",
+      "justification": "Reviews centre on bathroom and tiling work",
+      "background_mood": "light"
+    },
+    {
+      "id": "service-explainers",
+      "priority": 4,
+      "heading": "What Jack and Nick do best",
+      "justification": "Evidence-based service list, not fixed 06 grid",
+      "background_mood": "surface"
+    },
+    {
+      "id": "team-person-section",
+      "priority": 5,
+      "heading": "Jack and Nick at Corvell ltd",
+      "justification": "Multiple names verified across reviews",
+      "background_mood": "warm"
+    },
+    {
+      "id": "process-section",
+      "priority": 6,
+      "heading": "How a job with us works",
+      "justification": "Process section adds business-specific clarity",
+      "background_mood": "cool"
+    },
+    {
+      "id": "review-wall",
+      "priority": 7,
+      "heading": "5 on Google reviews",
+      "justification": "Full review quotes, not synthetic headlines",
+      "background_mood": "light"
+    },
+    {
+      "id": "local-coverage",
+      "priority": 8,
+      "heading": "Based in Bristol",
+      "justification": "Location verified from Google address",
+      "background_mood": "accent"
+    },
+    {
+      "id": "simple-contact",
+      "priority": 9,
+      "heading": "Get a quote from Corvell ltd",
+      "justification": "Business-specific contact, not generic phone line copy",
+      "background_mood": "dark"
+    },
+    {
+      "id": "quote-form",
+      "priority": 10,
+      "heading": null,
+      "justification": "Quote form at contact anchor",
+      "background_mood": "dark"
+    }
+  ],
+  "omitted_defaults": [
+    "owner-note",
+    "about-van-template",
+    "generic-stats-band",
+    "faq",
+    "gallery-default"
+  ],
+  "omitted_reasons": {
+    "owner-note": "Using team-person or featured-review instead of generic owner note",
+    "about-van-template": "Avoid \"One van. One trade.\" template block",
+    "generic-stats-band": "Stats only when sourced",
+    "faq": "FAQ omitted - reviews already answer common questions",
+    "gallery-default": "Insufficient photos for full gallery"
+  },
+  "generic_plan": false,
+  "compared_against": [],
+  "clone_warnings": []
+}

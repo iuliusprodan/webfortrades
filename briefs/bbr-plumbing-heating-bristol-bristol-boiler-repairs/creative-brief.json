@@ -1,0 +1,56 @@
+{
+  "slug": "bbr-plumbing-heating-bristol-bristol-boiler-repairs",
+  "business_name": "BBR Plumbing & Heating Bristol - Bristol Boiler Repairs",
+  "trade_niche": "plumbers",
+  "actual_city_town": "Bristol",
+  "verified_based_location": "Bristol, BS13",
+  "location_confidence": "high",
+  "location_validation_status": "OK",
+  "logo_available": true,
+  "dominant_colours_logo": [],
+  "dominant_colours_photos": [
+    "#c9a227"
+  ],
+  "chosen_colour_palette": "navy-brass-heating",
+  "chosen_fonts": "Merriweather + Work Sans",
+  "chosen_layout_direction": "full-bleed-hero",
+  "chosen_tone_of_voice": "Assured, precise, plain English",
+  "reason_for_design_choices": "Palette \"Navy, warm cream, brass\" and fonts Merriweather + Work Sans chosen for BBR Plumbing & Heating Bristol - Bristol Boiler Repairs. Heating signals in name/reviews support a warmer technical feel. Few photos: compact proof layout, not a large gallery grid. Very weak image set: use proof-led or typography-led layout, never placeholder photo boxes.",
+  "inspired_by_template": "library heating direction (reference only)",
+  "deliberately_different_from": [
+    "test-mechanic",
+    "test-plumbing",
+    "------"
+  ],
+  "image_selection_strategy": "Compact gallery: 1 proof images plus hero (2 sourced, 0 Facebook)",
+  "service_selection_strategy": "Mixed name and review evidence",
+  "location_validation_notes": "Based location verified from Google address: Bristol, BS13",
+  "risks_or_manual_review_flags": [
+    "Limited photo count: gallery kept compact",
+    "Very few photos - proof-led layout required, no placeholder gallery boxes"
+  ],
+  "hero_headline": "Warm homes. Reliable heating.",
+  "services": [
+    "Boiler repairs and servicing",
+    "Heating and radiators",
+    "Bathroom installations",
+    "General plumbing repairs",
+    "Bathroom refits and shower installs",
+    "Vehicle repair"
+  ],
+  "gallery_cluster_notes": [
+    "cluster-0: 2 image(s)"
+  ],
+  "facebook_verified": false,
+  "facebook_url": null,
+  "facebook_verification_reasons": [],
+  "facebook_logo_found": false,
+  "facebook_logo_used": false,
+  "facebook_logo_path": null,
+  "facebook_photos_found": 0,
+  "facebook_photos_selected": 0,
+  "facebook_design_notes": "No verified Facebook page used",
+  "layout_recommendation_note": "Very few photos - proof-led typography layout recommended",
+  "image_manifest_summary": "2 gallery images, 0 logo asset(s)",
+  "created_at": "2026-06-11T11:21:11.751Z"
+}

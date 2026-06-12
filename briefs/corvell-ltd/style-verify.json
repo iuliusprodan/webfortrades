@@ -1,0 +1,95 @@
+{
+  "slug": "corvell-ltd",
+  "updated_at": "2026-06-10T12:04:58.631Z",
+  "url": "https://corvell-ltd.vercel.app",
+  "ok": true,
+  "screenshot": "/Users/iuliusprodan/.cursor/website/screenshots/corvell-ltd/live-verify.png",
+  "stylesheet": {
+    "bytes": 15721,
+    "hasPreflight": true,
+    "hasUtilities": true,
+    "utilityMarkers": [
+      ".flex",
+      ".grid",
+      ".mx-auto",
+      ".items-center",
+      ".justify-",
+      ".max-w-",
+      ".px-/.py-",
+      ".rounded",
+      ".gap-"
+    ]
+  },
+  "metrics": {
+    "bodyFontFamily": "Manrope, \"Manrope Fallback\", sans-serif",
+    "bodyBoxSizing": "border-box",
+    "bodyMarginTop": 0,
+    "bodyMarginLeft": 0,
+    "appliedRuleCount": 339,
+    "styleSheetCount": 3,
+    "biggestGraphic": {
+      "tag": "SVG",
+      "w": 20,
+      "h": 20,
+      "src": ""
+    },
+    "primaryButton": {
+      "found": true,
+      "background": "rgb(177, 92, 56)",
+      "borderRadius": "9999px",
+      "paddingTop": "12px"
+    },
+    "bodyText": "Corvell ltd\n·\nBristol, BS15\n·\n5★ Google\n\nGet a free quote\n\nBATHROOM AND TILING · BRISTOL\n\nBathroom refits and tiling, finished properly in Bristol.\n\nCorvell ltd: Jack and Nick team, tidy finishes across Bristol, BS15\n\n“We found Corvell on Instagram & was really impressed from the get go when Jack ca"
+  },
+  "css_assets": [
+    {
+      "url": "https://corvell-ltd.vercel.app/_next/static/css/2c324ac4fa69fd85.css",
+      "status": 200,
+      "bytes": 29082
+    },
+    {
+      "url": "https://corvell-ltd.vercel.app/_next/static/css/0d58e0d00dc3b058.css",
+      "status": 200,
+      "bytes": 15721
+    }
+  ],
+  "js_assets": [
+    {
+      "url": "https://corvell-ltd.vercel.app/_next/static/chunks/4bd1b696-c023c6e3521b1417.js",
+      "status": 200,
+      "bytes": 173019
+    },
+    {
+      "url": "https://corvell-ltd.vercel.app/_next/static/chunks/255-eb4aecc3ff015961.js",
+      "status": 200,
+      "bytes": 173611
+    },
+    {
+      "url": "https://corvell-ltd.vercel.app/_next/static/chunks/main-app-f9b5d20365cb8be2.js",
+      "status": 200,
+      "bytes": 557
+    },
+    {
+      "url": "https://corvell-ltd.vercel.app/_next/static/chunks/850-aee17cc9cc74c504.js",
+      "status": 200,
+      "bytes": 22011
+    },
+    {
+      "url": "https://corvell-ltd.vercel.app/_next/static/chunks/app/page-596c3cc52dcdb1b3.js",
+      "status": 200,
+      "bytes": 5278
+    },
+    {
+      "url": "https://corvell-ltd.vercel.app/_next/static/chunks/polyfills-42372ed130431b0a.js",
+      "status": 200,
+      "bytes": 112594
+    },
+    {
+      "url": "https://corvell-ltd.vercel.app/_next/static/chunks/webpack-1b2d9bd65c7881dd.js",
+      "status": 200,
+      "bytes": 3780
+    }
+  ],
+  "failed_assets": [],
+  "issues": []
+}

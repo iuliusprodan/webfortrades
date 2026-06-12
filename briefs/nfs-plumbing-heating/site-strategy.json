@@ -1,0 +1,50 @@
+{
+  "slug": "nfs-plumbing-heating",
+  "business_angle": "NFS Plumbing & Heating: heating and plumbing with tidy finishes",
+  "customer_praise_themes": [
+    "tidy finishes",
+    "quality workmanship",
+    "reliable attendance",
+    "fair pricing",
+    "clear communication",
+    "strong recommendations"
+  ],
+  "named_people": [
+    "Nick"
+  ],
+  "distinctive_phrases": [
+    "He's got a wide range of skills which include putting up walls and doors, tiling and of course neat and tidy pipework",
+    "Really fantastic service",
+    "He has worked without complaint when met with unpredictable obstacles and the finished job is excellent",
+    "Nick has done various bits of plumbing and heating work for us over the last few years",
+    "This has included boiler repairs, services, radiator installation and refitting and tiling a downstairs toilet"
+  ],
+  "strongest_review_quote": {
+    "text": "Nick has done an excellent job on various projects in my house including installing a new flue, removing a gas fire and installing a downstairs toilet. Throughout all these tasks he's shown himself to be a thoughtful and capable engineer and adept at solving problems and coming up with creative solutions. He's got a wide range of skills which include putting up walls and doors, tiling and of course neat and tidy pipework.",
+    "author": "Tom",
+    "source": "google",
+    "url": "https://maps.google.com/?cid=7989564719662751574"
+  },
+  "strongest_proof_source": {
+    "platform": "google",
+    "metric": "5 rating, 18 reviews",
+    "url": "https://maps.google.com/?cid=7989564719662751574"
+  },
+  "best_photos_rationale": "Google Places photos preferred for gallery when high quality",
+  "claims_to_avoid": [
+    "Fake owner or founder claims",
+    "Supplier names as job locations in captions",
+    "Invented service areas"
+  ],
+  "pitch_hook_summary": "Lead with review detail about tidy finishes (Tom)",
+  "personality": "practical",
+  "evidence_strength": "moderate",
+  "suggested_site_mood": "clean, straightforward, proof-led",
+  "suggested_proof_hierarchy": [
+    "google_rating_reviews",
+    "photo_gallery"
+  ],
+  "pitch_insight_seed": "Lead with review detail about tidy finishes (Tom)",
+  "trade": "Heating and radiators",
+  "location": "Bristol, BS3"
+}

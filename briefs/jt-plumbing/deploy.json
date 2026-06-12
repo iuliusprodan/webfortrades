@@ -1,0 +1,63 @@
+{
+  "slug": "jt-plumbing",
+  "updated_at": "2026-06-11T09:41:57.874Z",
+  "preferred_alias": "jt-plumbing-bs5",
+  "deployment_url": "https://jt-plumbing-m5js26xab-iulius-projects-0cb33a7b.vercel.app",
+  "verified_url": "https://jt-plumbing-bs5.vercel.app",
+  "final_url": "https://jt-plumbing-bs5.vercel.app",
+  "alias_status": "VERIFIED",
+  "candidates": [
+    {
+      "hostname": "jt-plumbing",
+      "url": "https://jt-plumbing.vercel.app",
+      "preflight": "taken_by_other_site",
+      "detail": "HTTP 200 without our build marker"
+    },
+    {
+      "hostname": "jt-plumbing-bristol",
+      "url": "https://jt-plumbing-bristol.vercel.app",
+      "preflight": "taken_by_other_site",
+      "detail": "HTTP 200 without our build marker"
+    },
+    {
+      "hostname": "jt-plumbing-bs5",
+      "url": "https://jt-plumbing-bs5.vercel.app",
+      "preflight": "already_ours",
+      "detail": "Build marker ID mismatch: expected jt-plumbing:20260610-gallery, found jt-plumbing:20260610-privacy",
+      "verify": "verification_failed"
+    },
+    {
+      "hostname": "jt-plumbing-bristol-bs5",
+      "url": "https://jt-plumbing-bristol-bs5.vercel.app",
+      "preflight": "already_ours",
+      "detail": "Build marker ID mismatch: expected jt-plumbing:20260610-gallery, found jt-plumbing:20260610-f1fb82f0",
+      "verify": "verification_failed"
+    },
+    {
+      "hostname": "jt-plumbing-uk",
+      "url": "https://jt-plumbing-uk.vercel.app",
+      "preflight": "already_ours",
+      "detail": "Build marker ID mismatch: expected jt-plumbing:20260610-gallery, found jt-plumbing:20260610-f1fb82f0",
+      "verify": "verification_failed"
+    },
+    {
+      "hostname": "jt-plumbing-web",
+      "url": "https://jt-plumbing-web.vercel.app",
+      "preflight": "already_ours",
+      "detail": "Build marker ID mismatch: expected jt-plumbing:20260610-gallery, found jt-plumbing:20260610-f1fb82f0",
+      "verify": "verification_failed"
+    }
+  ],
+  "verification": {
+    "ok": true,
+    "httpStatus": 200,
+    "markerFound": true,
+    "businessNameFound": true,
+    "phoneFound": true,
+    "marker": {
+      "buildId": "jt-plumbing:20260610-gallery",
+      "slug": "jt-plumbing"
+    },
+    "errors": []
+  }
+}

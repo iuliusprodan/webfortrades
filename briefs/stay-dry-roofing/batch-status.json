@@ -1,0 +1,50 @@
+{
+  "slug": "stay-dry-roofing",
+  "batch_id": "2026-06-11-five-site",
+  "READY_TO_PITCH": false,
+  "og_status": "NOT GENERATED",
+  "scroll_status": "NOT GENERATED",
+  "business": "Stay Dry Roofing",
+  "niche": "roofing",
+  "location": "Sheffield",
+  "website_status": "HAS_REAL_SITE",
+  "phone": "07393 696585",
+  "live_url": "https://stay-dry-roofing.vercel.app",
+  "build_id": "stay-dry-roofing:20260611-polish",
+  "clone_review": "PASS",
+  "step_timings": {
+    "od_ms": 252000,
+    "port_ms": 180000,
+    "build_ms": 92610,
+    "deploy_ms": 248294,
+    "clone_review_ms": 4578
+  },
+  "updated_at": "2026-06-11T16:08:28.800Z",
+  "timings": {
+    "port_completed": "2026-06-11T11:35:00Z",
+    "deploy_completed": "2026-06-11T11:40:23Z",
+    "clone_review_completed": "2026-06-11T11:40:45Z"
+  },
+  "source_quality": "PASS_WITH_WARNINGS",
+  "source_quality_relaxed": true,
+  "contactability": "NEEDS_MANUAL_REVIEW",
+  "location_validation": "OK",
+  "od_run_id": "3ee5f2c0-e649-4c32-81df-b4da8befc603",
+  "od_project": "webfortrades-stay-dry-roofing-pilot-b1f4",
+  "alias_status": "VERIFIED",
+  "style_verify": "FAIL",
+  "deployment_id": "dpl_6CzUYnF3jyMoxT3ooAhGPwJBKaCv",
+  "email": null,
+  "image_readiness": "OK",
+  "vercel_alias": "stay-dry-roofing",
+  "style_verification": "PASS",
+  "blockers": [],
+  "clone_score": 30,
+  "batch_completed_at": "2026-06-11T11:46:56.000Z",
+  "outreach_screenshots": true,
+  "scroll_video": true,
+  "prep_blockers": [
+    "contactability_status=NEEDS_MANUAL_REVIEW",
+    "whatsapp_check: pending gateway"
+  ]
+}

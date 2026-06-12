@@ -1,0 +1,16 @@
+{
+  "source_quality_status": "FAIL",
+  "source_quality_reason": "Email present but email-domain website discovery not completed",
+  "website_url_validated": true,
+  "email_domain_checked": false,
+  "enrichment_complete": true,
+  "logo_discovery_attempted": true,
+  "photo_discovery_attempted": true,
+  "directory_probes_attempted": true,
+  "warnings": [
+    "Lead validity requires manual review"
+  ],
+  "blockers": [
+    "Email present but email-domain website discovery not completed"
+  ]
+}

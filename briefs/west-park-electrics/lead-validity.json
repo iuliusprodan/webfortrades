@@ -1,0 +1,37 @@
+{
+  "lead_validity_status": "PASS_WITH_WARNINGS",
+  "lead_validity_reason": "Enrichment incomplete or source confidence too low",
+  "pitch_type": "manual_review",
+  "website_status": "BROKEN_OR_BAD_SITE",
+  "website_url": "http://www.wpe.co.uk/",
+  "website_discovery_classification": "BROKEN_OR_BAD_SITE",
+  "email_domain_website": null,
+  "source_confidence_summary": {
+    "overall": "low",
+    "verified_platforms": [],
+    "rejected_platforms": [
+      "google_places",
+      "email_domain_website"
+    ],
+    "notes": [
+      "No verified sources with medium or high confidence",
+      "2 source(s) rejected for low confidence"
+    ]
+  },
+  "ready_for_build": true,
+  "ready_for_design": true,
+  "ready_for_pitch": false,
+  "manual_review_required": true,
+  "has_real_website": false,
+  "truly_no_website": true,
+  "warnings": [
+    "Source enrichment not complete - run enrich:lead before build",
+    "Source confidence is low - lean site or manual review recommended",
+    "Batch waiver 2026-06-11: Google Places plus broken_or_domain_probe"
+  ],
+  "manual_asset_status": "OK",
+  "pause_before_open_design": false,
+  "manual_asset_folder": "briefs/west-park-electrics/images/manual/",
+  "batch_waiver_applied": true,
+  "batch_waiver_note": "Batch waiver 2026-06-11: Google Places plus broken_or_domain_probe"
+}

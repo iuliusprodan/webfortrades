@@ -1,0 +1,284 @@
+{
+  "slug": "southwest-plumber-emergency-plumbing-heating",
+  "gathered_at": "2026-06-10T17:13:55.220Z",
+  "attempted_sources": [
+    {
+      "platform": "google_places",
+      "status": "found",
+      "url": "https://maps.google.com/?cid=6125591694827853219"
+    },
+    {
+      "platform": "google_maps",
+      "status": "not_attempted",
+      "search_query": "Southwest Plumber - Emergency Plumbing & Heating Bristol BS1 2EJ site:google.com/maps",
+      "reason": "Automated search not run in enrich pass unless URL provided"
+    },
+    {
+      "platform": "google_reviews",
+      "status": "found",
+      "url": "https://maps.google.com/?cid=6125591694827853219"
+    },
+    {
+      "platform": "google_photos",
+      "status": "found",
+      "url": "https://maps.google.com/?cid=6125591694827853219"
+    },
+    {
+      "platform": "facebook",
+      "status": "not_attempted",
+      "search_query": "Southwest Plumber - Emergency Plumbing & Heating Bristol BS1 2EJ Facebook",
+      "reason": "Automated search not run in enrich pass unless URL provided"
+    },
+    {
+      "platform": "checkatrade",
+      "status": "not_attempted",
+      "search_query": "Southwest Plumber - Emergency Plumbing & Heating Bristol BS1 2EJ site:checkatrade.com",
+      "reason": "Automated search not run in enrich pass unless URL provided"
+    },
+    {
+      "platform": "trustatrader",
+      "status": "not_attempted",
+      "search_query": "Southwest Plumber - Emergency Plumbing & Heating Bristol BS1 2EJ site:trustatrader.com",
+      "reason": "Automated search not run in enrich pass unless URL provided"
+    },
+    {
+      "platform": "yell",
+      "status": "not_attempted",
+      "search_query": "Southwest Plumber - Emergency Plumbing & Heating Bristol BS1 2EJ site:yell.com",
+      "reason": "Automated search not run in enrich pass unless URL provided"
+    },
+    {
+      "platform": "mybuilder",
+      "status": "not_attempted",
+      "search_query": "Southwest Plumber - Emergency Plumbing & Heating Bristol BS1 2EJ site:mybuilder.com",
+      "reason": "Automated search not run in enrich pass unless URL provided"
+    },
+    {
+      "platform": "rated_people",
+      "status": "not_attempted",
+      "search_query": "Southwest Plumber - Emergency Plumbing & Heating Bristol BS1 2EJ site:ratedpeople.com",
+      "reason": "Automated search not run in enrich pass unless URL provided"
+    },
+    {
+      "platform": "bark",
+      "status": "not_attempted",
+      "search_query": "Southwest Plumber - Emergency Plumbing & Heating Bristol BS1 2EJ site:bark.com",
+      "reason": "Automated search not run in enrich pass unless URL provided"
+    },
+    {
+      "platform": "houzz",
+      "status": "not_attempted",
+      "search_query": "Southwest Plumber - Emergency Plumbing & Heating Bristol BS1 2EJ site:houzz.co.uk",
+      "reason": "Automated search not run in enrich pass unless URL provided"
+    },
+    {
+      "platform": "youtube",
+      "status": "not_attempted",
+      "search_query": "Southwest Plumber - Emergency Plumbing & Heating Bristol BS1 2EJ site:youtube.com",
+      "reason": "Automated search not run in enrich pass unless URL provided"
+    },
+    {
+      "platform": "companies_house",
+      "status": "not_attempted",
+      "search_query": "Southwest Plumber - Emergency Plumbing & Heating site:find-and-update.company-information.service.gov.uk",
+      "reason": "Automated search not run in enrich pass unless URL provided"
+    },
+    {
+      "platform": "official_website",
+      "status": "not_attempted",
+      "search_query": "Southwest Plumber - Emergency Plumbing & Heating Bristol BS1 2EJ website",
+      "reason": "Automated search not run in enrich pass unless URL provided"
+    },
+    {
+      "platform": "email_domain_website",
+      "status": "not_attempted",
+      "search_query": "https://",
+      "reason": "Automated search not run in enrich pass unless URL provided"
+    },
+    {
+      "platform": "directories",
+      "status": "not_attempted",
+      "search_query": "Southwest Plumber - Emergency Plumbing & Heating Bristol BS1 2EJ plumber electrician directory",
+      "reason": "Automated search not run in enrich pass unless URL provided"
+    },
+    {
+      "platform": "local_trade_directories",
+      "status": "not_attempted",
+      "search_query": "Southwest Plumber - Emergency Plumbing & Heating Bristol BS1 2EJ local directory",
+      "reason": "Automated search not run in enrich pass unless URL provided"
+    },
+    {
+      "platform": "trade_association",
+      "status": "not_attempted",
+      "search_query": "Southwest Plumber - Emergency Plumbing & Heating  association member",
+      "reason": "Automated search not run in enrich pass unless URL provided"
+    },
+    {
+      "platform": "review_aggregators",
+      "status": "not_attempted",
+      "search_query": "Southwest Plumber - Emergency Plumbing & Heating Bristol BS1 2EJ reviews",
+      "reason": "Automated search not run in enrich pass unless URL provided"
+    },
+    {
+      "platform": "instagram",
+      "status": "not_attempted",
+      "search_query": "Southwest Plumber - Emergency Plumbing & Heating Bristol BS1 2EJ Instagram",
+      "reason": "Requires login - manual review only"
+    },
+    {
+      "platform": "nextdoor",
+      "status": "not_attempted",
+      "search_query": "Southwest Plumber - Emergency Plumbing & Heating Bristol BS1 2EJ site:nextdoor.co.uk",
+      "reason": "Requires login - manual review only"
+    },
+    {
+      "platform": "pinterest",
+      "status": "not_attempted",
+      "search_query": "Southwest Plumber - Emergency Plumbing & Heating Bristol BS1 2EJ site:pinterest.com",
+      "reason": "Requires login - manual review only"
+    },
+    {
+      "platform": "tiktok",
+      "status": "not_attempted",
+      "search_query": "Southwest Plumber - Emergency Plumbing & Heating Bristol BS1 2EJ TikTok",
+      "reason": "Requires login - manual review only"
+    },
+    {
+      "platform": "linkedin",
+      "status": "not_attempted",
+      "search_query": "Southwest Plumber - Emergency Plumbing & Heating Bristol BS1 2EJ site:linkedin.com",
+      "reason": "Requires login - manual review only"
+    },
+    {
+      "platform": "twitter",
+      "status": "not_attempted",
+      "search_query": "Southwest Plumber - Emergency Plumbing & Heating Bristol BS1 2EJ site:twitter.com OR site:x.com",
+      "reason": "Requires login - manual review only"
+    }
+  ],
+  "sources": [
+    {
+      "platform": "google_places",
+      "url": "https://maps.google.com/?cid=6125591694827853219",
+      "verified": true,
+      "verification_method": "place_id_from_gather",
+      "phone_match": true,
+      "notes": "Primary gather source"
+    }
+  ],
+  "sources_found": [
+    "google_places",
+    "google_reviews",
+    "google_photos"
+  ],
+  "sources_verified": [
+    "google_places"
+  ],
+  "strongest_proof_source": {
+    "platform": "google",
+    "metric": "5 rating, 5 reviews",
+    "url": "https://maps.google.com/?cid=6125591694827853219"
+  },
+  "best_review_details": [
+    {
+      "text": "Excellent service from Tony. Our boiler packed in last winter (can you believe that?) and with two small children this was a grim situation. We called Tony who came round within 24 hours, fixed it and charged us what we felt like on the cheap side (not that we're complaining) could not recommend Tony any more. Thanks very much. Ronnie",
+      "author": "Ronnie",
+      "rating": 5,
+      "source": "google"
+    },
+    {
+      "text": "The engineer was friendly and professional. Very thorough and resolved the problem in good time.",
+      "author": "Kathryn",
+      "rating": 5,
+      "source": "google"
+    },
+    {
+      "text": "Quick and Professional, thanks!",
+      "author": "Amelia",
+      "rating": 5,
+      "source": "google"
+    }
+  ],
+  "image_source_summary": {
+    "google_photos": 2,
+    "facebook_photos": 0,
+    "other": 0,
+    "preferred_source": "google",
+    "notes": "Google Places photos default"
+  },
+  "manual_review_flags": [
+    "contactability=NEEDS_MANUAL_REVIEW"
+  ],
+  "enrichment_complete": false,
+  "risks": [
+    "Very few photos - lean site recommended"
+  ],
+  "email": null,
+  "email_found": false,
+  "email_domain_checked": false,
+  "email_domain_website": null,
+  "website_discovery": null,
+  "website_status": "NO_WEBSITE",
+  "truly_no_website": null,
+  "logo_found": false,
+  "logo_path": null,
+  "facebook_url": null,
+  "facebook_verified": false,
+  "source_verifications": [
+    {
+      "platform": "google_places",
+      "url": "https://maps.google.com/?cid=6125591694827853219",
+      "confidence": "medium",
+      "verified": true,
+      "verification_reasons": [
+        "Business name matches or clearly aliases Google listing",
+        "Location or service area matches Google address/city"
+      ],
+      "matches": {
+        "phone": false,
+        "email": false,
+        "website": false,
+        "business_name": true,
+        "location": true,
+        "service_trade": false,
+        "logo": false
+      },
+      "rejected_reason": null
+    }
+  ],
+  "source_confidence": {
+    "overall": "medium",
+    "verified_platforms": [
+      "google_places"
+    ],
+    "rejected_platforms": [],
+    "notes": []
+  },
+  "image_manifest": [
+    {
+      "local": "images/01-places.webp",
+      "source": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3mh6tpEjCkT4F1pe3bsVw90Rux_v4yrvO-j8upMpdTKOOE-58gcPV0mueVoFpId7-soGK3TeTHCBk1enh0ew0mgkA2zaW79nJoUG1npqHHU0DRzQ8G6JEnNayKCLMksLI2CxGS_0CMOamjs5II0Oqlb1AC7LNFU-ISiqv7l14GevcW_j4ydL12yuzdzOHIwS7otYHWzKbIr3bs60L9PO5boSwhie-I5YvuM6C2ZtGrqlGE-62djhf6XlkFtU1POWD6yyOMTa7aqRDuZqXE_BRjvR3ckIXMV_gFtGx1rdhxqz54bBudImKs11NAOydjvOD2epe0o_nJYbnH8f9U-M_NDNYQcqwG5nSsqFR9D3e2VSd1DZEQMUhnI4hp5Ohk7MGwMlbhuXdOP3OmfDlj_vgc1xd9TgIS2fokX-dgYJeE&key=REDACTED",
+      "source_type": "google_places",
+      "confidence": "medium",
+      "purpose": "gallery",
+      "selected": true,
+      "reason": "Default from gather"
+    },
+    {
+      "local": "images/07-places.webp",
+      "source": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3mJDwXx-YTfxx0rSURfIXNVP4SLcPp0TJ7UrB9mdzZVfQMLpqJJJZT9zG1VHsEHXTz6aFH5JV26m5Cc56zAxb5UNGBDrlarjLlcQ73sKUu1kTlwNrw1pQIeuo1Hmb_uRV-foU7CjDe2f5U6ggNLvW5ISrLMLxLVfI4fJnp8cTe4yOpniSaZ50KwA1Y5VljjFiuE4V7xQj3_x_KV5hayocIXW1wrXck5GgXheH-hJq748tvwQQRKIc3eFr_eT-bxfx3KsmRsLlr_fbZSENzXfUzde1s2Z1wpijSVfBfHduRZEZqXjtUQezHlreLPYYV0YQHhEKGmjDZjaK1iryPGMYIfeiKowQ93gEaFCygZ2wkymS_hLJSLalcqZq3Xr1ZE0WRRyoe7sWhPwUje1dlvIfH7scVEOEZ_CNqsC5Zll2vxv7K2&key=REDACTED",
+      "source_type": "google_places",
+      "confidence": "medium",
+      "purpose": "gallery",
+      "selected": true,
+      "reason": "Default from gather"
+    }
+  ],
+  "selected_images": [
+    "images/01-places.webp",
+    "images/07-places.webp"
+  ],
+  "lead_validity_status": null,
+  "ready_for_build": null,
+  "registry_source_count": 26
+}

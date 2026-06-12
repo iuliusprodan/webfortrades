@@ -1,0 +1,29 @@
+{
+  "selected": {
+    "source_url": "https://media.base44.com/images/public/69cfc5cca981de38f9ece608/6536d5a8c_513A8ECA-65DC-48CE-864A-9BAA78547412.png",
+    "source_type": "apple_touch_icon",
+    "source_confidence": "medium",
+    "width": 1024,
+    "height": 1024,
+    "score": 70,
+    "has_transparency": false,
+    "aspect_ratio": 1,
+    "likely_logo": true,
+    "notes": "1024x1024"
+  },
+  "candidates": [
+    {
+      "source_url": "https://media.base44.com/images/public/69cfc5cca981de38f9ece608/6536d5a8c_513A8ECA-65DC-48CE-864A-9BAA78547412.png",
+      "source_type": "apple_touch_icon",
+      "source_confidence": "medium",
+      "width": 1024,
+      "height": 1024,
+      "score": 70,
+      "has_transparency": false,
+      "aspect_ratio": 1,
+      "likely_logo": true,
+      "notes": "1024x1024"
+    }
+  ],
+  "failures": []
+}

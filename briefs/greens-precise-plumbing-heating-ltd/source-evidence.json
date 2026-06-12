@@ -1,0 +1,333 @@
+{
+  "slug": "greens-precise-plumbing-heating-ltd",
+  "gathered_at": "2026-06-10T17:19:50.419Z",
+  "attempted_sources": [
+    {
+      "platform": "google_places",
+      "status": "found",
+      "url": "https://maps.google.com/?cid=9321565324186853487"
+    },
+    {
+      "platform": "google_reviews",
+      "status": "found",
+      "url": "https://maps.google.com/?cid=9321565324186853487"
+    },
+    {
+      "platform": "google_photos",
+      "status": "found",
+      "url": "https://maps.google.com/?cid=9321565324186853487"
+    },
+    {
+      "platform": "facebook",
+      "status": "found",
+      "url": "https://www.facebook.com/GPPlumbingandHeatingLtd/"
+    },
+    {
+      "platform": "instagram",
+      "status": "not_found",
+      "url": null,
+      "search_query": "Greens Precise Plumbing & Heating ltd Swansea SA1 8QT",
+      "reason": "No URL in brief or source_urls (directory scrape not run in this phase)"
+    },
+    {
+      "platform": "official_website",
+      "status": "not_found",
+      "url": null,
+      "search_query": "Greens Precise Plumbing & Heating ltd Swansea SA1 8QT",
+      "reason": "No URL in brief or source_urls (directory scrape not run in this phase)"
+    },
+    {
+      "platform": "checkatrade",
+      "status": "not_attempted",
+      "url": null,
+      "search_query": "Greens Precise Plumbing & Heating ltd Swansea SA1 8QT",
+      "reason": "Manual search required in this phase"
+    },
+    {
+      "platform": "trustatrader",
+      "status": "not_attempted",
+      "url": null,
+      "search_query": "Greens Precise Plumbing & Heating ltd Swansea SA1 8QT",
+      "reason": "Manual search required in this phase"
+    },
+    {
+      "platform": "mybuilder",
+      "status": "not_attempted",
+      "url": null,
+      "search_query": "Greens Precise Plumbing & Heating ltd Swansea SA1 8QT",
+      "reason": "Manual search required in this phase"
+    },
+    {
+      "platform": "rated_people",
+      "status": "not_attempted",
+      "url": null,
+      "search_query": "Greens Precise Plumbing & Heating ltd Swansea SA1 8QT",
+      "reason": "Manual search required in this phase"
+    },
+    {
+      "platform": "bark",
+      "status": "not_attempted",
+      "url": null,
+      "search_query": "Greens Precise Plumbing & Heating ltd Swansea SA1 8QT",
+      "reason": "Manual search required in this phase"
+    },
+    {
+      "platform": "yell",
+      "status": "not_attempted",
+      "url": null,
+      "search_query": "Greens Precise Plumbing & Heating ltd Swansea SA1 8QT",
+      "reason": "Manual search required in this phase"
+    },
+    {
+      "platform": "companies_house",
+      "status": "not_attempted",
+      "url": null,
+      "search_query": "Greens Precise Plumbing & Heating ltd Swansea SA1 8QT",
+      "reason": "Manual search required in this phase"
+    },
+    {
+      "platform": "directories",
+      "status": "not_attempted",
+      "search_query": "Greens Precise Plumbing & Heating ltd Swansea SA1 8QT",
+      "reason": "Generic directory sweep not automated yet"
+    }
+  ],
+  "sources": [
+    {
+      "platform": "google_places",
+      "url": "https://maps.google.com/?cid=9321565324186853487",
+      "verified": true,
+      "verification_method": "place_id_from_gather",
+      "phone_match": true,
+      "notes": "Primary gather source"
+    },
+    {
+      "platform": "facebook",
+      "url": "https://www.facebook.com/GPPlumbingandHeatingLtd",
+      "verified": true,
+      "verification_method": "facebook_source_module",
+      "phone_match": true,
+      "notes": "Phone number matches Google/lead phone; Business name matches or clearly aliases Google listing; Location or service area matches Google address/city; Public email visible on page (info@gpplumbingltd.com); Intro text matches trade and local area; Service hints match trade: Plumbing, Heating"
+    }
+  ],
+  "sources_found": [
+    "google_places",
+    "google_reviews",
+    "google_photos",
+    "facebook"
+  ],
+  "sources_verified": [
+    "google_places",
+    "facebook"
+  ],
+  "strongest_proof_source": {
+    "platform": "facebook",
+    "metric": "10 public photos, phone verified",
+    "url": "https://www.facebook.com/GPPlumbingandHeatingLtd"
+  },
+  "best_review_details": [
+    {
+      "text": "Have used several plumbers in the past, with varying success. Some were expensive, some were unreliable - it was always hit and miss. Thought I'd give Greens Precise Plumbing a shot as I needed a new toilet and hand basin plumbed in. Callum was great, he explained the requirements for the job, provided an excellent quote and crucially delivered on the agreed costs and timescale. Highly recommended",
+      "author": "Chris",
+      "rating": 5,
+      "source": "google"
+    },
+    {
+      "text": "First Class service from the Greens Plumbing team. Responsive service, easy to book and kept me updated re time of arrival so I didn’t have to wait in all day. I had a toilet that didn’t flush and a leak in the kitchen tap both dealt with very well and efficiently. The quote was spot on. I have already booked them in for a new boiler. Would definitely recommend as they could teach some other compa",
+      "author": "Heidi",
+      "rating": 5,
+      "source": "google"
+    },
+    {
+      "text": "Called greens precise plumbing and heating in the morning after I had a leak in my flush and didn't think I would be seen to at least the next days but the guys came over a couple hours later and sorted the issue out. Payment over invoice was also a breeze. Couldn't have had a better experience! Highly recommend them",
+      "author": "Rhys",
+      "rating": 5,
+      "source": "google"
+    }
+  ],
+  "image_source_summary": {
+    "google_photos": 6,
+    "facebook_photos": 10,
+    "other": 0,
+    "preferred_source": "facebook",
+    "notes": "Verified Facebook photos available"
+  },
+  "manual_review_flags": [
+    "LOCATION_MISMATCH_NEEDS_REVIEW",
+    "Email domain checked: gpplumbingltd.com -> NEEDS_MANUAL_REVIEW"
+  ],
+  "enrichment_complete": true,
+  "risks": [
+    "Location: LOCATION_MISMATCH_NEEDS_REVIEW"
+  ],
+  "email": "info@gpplumbingltd.com",
+  "email_found": true,
+  "email_domain_checked": true,
+  "email_domain_website": null,
+  "website_discovery": null,
+  "website_status": "BROKEN_OR_BAD_SITE",
+  "truly_no_website": true,
+  "logo_found": false,
+  "logo_path": null,
+  "facebook_url": "https://www.facebook.com/GPPlumbingandHeatingLtd",
+  "facebook_verified": true,
+  "source_verifications": [],
+  "source_confidence": null,
+  "image_manifest": [
+    {
+      "local": "images/01-places.webp",
+      "source": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3mTCrFPJ6-pkf3O1MxwrAsnYZOLL7-sY4jsOJrFySk7LLvSA9WHiENSIkwMMzuEm174u1lcqqv2qBJKvy03syAULDJDTE2jivJpldQ4a4N-NNlqseyjtIwbYTpuIrR6-nCmjPdxfdJUqtz-A6lJu_CZ1KTpm-WLImZwU4lbZaP3SMsT0_b10SWuc1vRCC2hFeSkHv9U0rkI5wKmdRZKD-nUeJpB3s75u7nk8wlhHvLyWxDj34EbJMh7jma97uiuyec_nkGd3yWlglMJFLBM7eLe-O1coxmvkmHZ7vrUQmnl8082qtUrvl_ePGMfODZIkHGuS885X9eaTH_hmFlqsR5Xd4TyQzsLzg-s5DkJGza44BLjL2Ye3bpSVMebZR13WHj12mm-9f1Uupnfgr-KrZm7oIiltZ8DFb5OAbAHI_HMLzpuAnF-ZonrMbgbhg&key=REDACTED",
+      "source_type": "google_places",
+      "confidence": "medium",
+      "purpose": "gallery",
+      "selected": true,
+      "reason": "Default from gather"
+    },
+    {
+      "local": "images/02-places.webp",
+      "source": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3mpzGUT0n5zwJSJ-nYVx8CiUyIDJfFUddARfJgSBdN8c8cXrsn66Rj5OlvvU-3bmAixQoXdsage6dGkm82jTVZuUFT8xft7wYbQSFDrRGrul4IwtnD0TNFLFmVB1deFUvXh7hT-nZF-oxyEjJgRQZYCjeUHY19LEN48OHZIPHTVu77-cjvuGjQ2acDSzfkZ9yL_-Oe555QgiW52Y41_XobqLNgiwWSTV3nK4MTnukm1P2gXZ_pOY5ePfFS4AwemrjXZyDiD_NKH1TJSIVhKyKfjOEqZPPTY-281OkpJBPBwVm-bHzd8rTmtW_t4YG3b7yEx9BueYIdrTiAGa1PQCVIhyTiJhl2Wb40uieiKEvrO1ljOG4H5ZRIoe4Q8NfKOOF_e7-L8WWE54afFn9bMsLRHJVBjRczZpd7_or1NgkLnvss69L57gu3YIlKhDUwU&key=REDACTED",
+      "source_type": "google_places",
+      "confidence": "medium",
+      "purpose": "gallery",
+      "selected": true,
+      "reason": "Default from gather"
+    },
+    {
+      "local": "images/03-places.webp",
+      "source": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3k35wx8snlm1MhFo4fpNFXvfOHRJpjf6SOMquYr9FlZHrplTfR4ZDc0fjosUTb6V95fLn8AGU0T0mktqxF8JVDPxqr9hYiHYy60qYy9gytmM-BVQRhQf2D0Q0QT20bH4_WXj90kyifv7_IhkdjbXfY1pPCtC4h71tj-HZ7nZwEFixVx2L3iwKj2O3m6e1mP1nrUGCRRXKIJ7PGKVU56tFj8M0e4LAoilgw8YUcSPfKQoUv-aW42B5JuE-s5gQ5vKDAn5wmOt6BsLOv0ZZk13DvYFRZoAuFEBuwKrXmj4XTUXORxBMbbpx8b9zIxN1FuyHrsTtkbf75CM10tuNF5nxslOPZBkpC1FAihrj2ZMiSxcAWPQJ9zYI5hvl8rmjBgcO3bvxhebT7mk-NHzB8KC5iSPQnlqKQhrzGTwM5OgCI3UXAYDwC3jwRj-O7Gfi1h&key=REDACTED",
+      "source_type": "google_places",
+      "confidence": "medium",
+      "purpose": "gallery",
+      "selected": true,
+      "reason": "Default from gather"
+    },
+    {
+      "local": "images/04-places.webp",
+      "source": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3nJBX0K57TgNFprEwGFKUenLW8aLK56jUstHA2reZyk15pNOWDGwGKQClfVLPhuq1YRjxv31T-JApSkUht9sE6rb6E7FEcX_xOl69lY2M_OWCk668h7JX35o7KLi9G9y2Icb5aeoBSeQRKI4masI1gjeGAJ7lGNNtLy21Z0gMuQVIkstnN3rN8UYLgD6xw9mWS5wv3LaHdMtiF0Go0Z0S7dAJdvg-pGiVyA7UQ-PWHq5wU40pe58ALV67OO_xt-WCOpmJuNcrA9JCyFDHgIcNbBw-uQXCZBoy8SCGg16ulGnqnLA_nbZj-A-nDf5PewtvvtO7K5ufvRHkHNe6RVq0ML7rG_A0UjVbSd1cKA9gCVDwzgQIiSJzXP1YIguD9r5BwWZhN1896e69L1Z_w7lX8Y_-VnVQpp4aq9170Yk_jO6g&key=REDACTED",
+      "source_type": "google_places",
+      "confidence": "medium",
+      "purpose": "gallery",
+      "selected": true,
+      "reason": "Default from gather"
+    },
+    {
+      "local": "images/05-places.webp",
+      "source": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3kjn43z4ezG5ovF1v_AKk07FoWl3nN85zn3hjz02BDzN2imjs9Zem50nVH_1bvyEc_sfC6Nhwu1yZYzFSuhj7SB48j_RboiG5ch_W1JGY_bAPG5wZi51oBBaiA-Dam4hdKMYW70538gFiJMx44JGSZZSQVNpVpN22vaKsHKDwn4SdLS2667ahHXvUzpf7elrOE8sWeW3ayMG5himP17dpFe05PFKqr16Izhm1f835YL27lQlouH668TDPbzLJk36pKG5rKsRJJyMoVuh3DzFZ9QPddYrCQ9fmrkM0PVHjnT6eBviohDDmg7EB1dNlpiX3AiOmeiIxOmhA0sU64RmM9EuiruEsxPe2uh__WrcRDFjopGr86GtXLfEo7o8l_g1YjBKWb8lJfViF1HsA9ddA6voMVaSbv621Cxu0yH_oS_qNPvjpsfkNqwI4chMyGt&key=REDACTED",
+      "source_type": "google_places",
+      "confidence": "medium",
+      "purpose": "gallery",
+      "selected": true,
+      "reason": "Default from gather"
+    },
+    {
+      "local": "images/06-places.webp",
+      "source": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3lvM2bykakNl7FeJe-zxaNmiVIrUi0T38twRnYYltTXxpOKBnwljVLefetslhD4cz3sh1BMmy-qI_Sl-s6BeMgTQhdL-MqnWiSYjPwqtiXlF1tBy9DM6XyTwgTtOJHcScqq560y_H-p5EV161I4I9iHjghFCjCvkzZC7hVQvurhCoPRdb7scc4g1iDKjNyhXcvpwxpNdKHoHvTrx17pbWYTxg1kbgk7UBsvcr_n6NJrwQX28y45p1KgaDqmZvOYeSa2wIV6f5WU2-RIattycoI_a8g-Ml2XxilyG0_rPCZ9t-OX2HKG0KNWyrPhb_zdW4n3dTVq_T0ha1v55WxxG8V1OowviZVJ3V_lW-rTLBwsDUuFx9RQeZ8nHctAXkUXAtIb3X0FeALJMMHYYI6aIt49qQLG8Otm4AfDJmpfc9IRbO0ZZiuQPTBeGAUemjgT&key=REDACTED",
+      "source_type": "google_places",
+      "confidence": "medium",
+      "purpose": "gallery",
+      "selected": true,
+      "reason": "Default from gather"
+    },
+    {
+      "local": "images/facebook/01-facebook.webp",
+      "source": "https://scontent-lhr6-2.xx.fbcdn.net/v/t39.30808-6/679035381_1568312301965227_1924799480495679252_n.jpg?stp=c0.169.1536.1536a_cp6_dst-jpg_tt6&cstp=mx1536x1536&ctp=s851x315&_nc_cat=105&ccb=1-7&_nc_sid=8a6525&_nc_ohc=ckEHRiU9MxMQ7kNvwFs4Xhd&_nc_oc=AdqRlulgB20ObPRNnf44AWw_EPCA4rPR8jSdKorg0dY16MWJB0CsnFz5Zwu-zqqjHV0&_nc_zt=23&_nc_ht=scontent-lhr6-2.xx&_nc_gid=UwvzpV-HEgmoIR6NZK6wMw&_nc_ss=7b20f&oh=00_Af9slqZ0gpdSrdqVq2JB_8BSivRaJkFcNGvd9rH5GXnOGw&oe=6A2F1047",
+      "source_type": "facebook_photo",
+      "confidence": "high",
+      "purpose": "skipped",
+      "selected": false,
+      "reason": "Pending gallery selection"
+    },
+    {
+      "local": "images/facebook/02-facebook.webp",
+      "source": "https://scontent-lhr6-2.xx.fbcdn.net/v/t39.30808-6/684221561_1568312225298568_7201774796594162299_n.jpg?stp=c0.169.1536.1536a_cp6_dst-jpg_tt6&cstp=mx1536x1536&ctp=s851x315&_nc_cat=105&ccb=1-7&_nc_sid=8a6525&_nc_ohc=l4LcGI2ookEQ7kNvwHjhShv&_nc_oc=Ado1OEpT9OBbs6aoENkyequqXqvEzlIjZBNpEbGKrBhn_0kSTQKtZmnl_HruzO8W8_s&_nc_zt=23&_nc_ht=scontent-lhr6-2.xx&_nc_gid=UwvzpV-HEgmoIR6NZK6wMw&_nc_ss=7b20f&oh=00_Af9ZQ9k0i11VAUfxgl1rOjiXerxs_q3Ohgbom_IzzOUWAw&oe=6A2F1826",
+      "source_type": "facebook_photo",
+      "confidence": "high",
+      "purpose": "skipped",
+      "selected": false,
+      "reason": "Pending gallery selection"
+    },
+    {
+      "local": "images/facebook/03-facebook.webp",
+      "source": "https://scontent-lhr8-2.xx.fbcdn.net/v/t39.30808-6/680495535_1568312208631903_5342638469605649250_n.jpg?stp=c0.169.1536.1536a_cp6_dst-jpg_tt6&cstp=mx1536x1536&ctp=s851x315&_nc_cat=101&ccb=1-7&_nc_sid=8a6525&_nc_ohc=nlrC8mmnvQgQ7kNvwGFYNVx&_nc_oc=AdqSkj4OKgeA_nuNOtDZ3yujFo-vGnlD7tUZPCAwQQjW8u6mhVyhzBgCBz_nQQ4Zkjg&_nc_zt=23&_nc_ht=scontent-lhr8-2.xx&_nc_gid=UwvzpV-HEgmoIR6NZK6wMw&_nc_ss=7b20f&oh=00_Af_HKtAQWpWbgR7EJ5LfX5Du5Ou9-eWy45obIDpwx1ZpbQ&oe=6A2F08C8",
+      "source_type": "facebook_photo",
+      "confidence": "high",
+      "purpose": "skipped",
+      "selected": false,
+      "reason": "Pending gallery selection"
+    },
+    {
+      "local": "images/facebook/04-facebook.webp",
+      "source": "https://scontent-lhr6-1.xx.fbcdn.net/v/t39.30808-6/678617177_1568312158631908_8170117831138146876_n.jpg?stp=c0.169.1536.1536a_cp6_dst-jpg_tt6&cstp=mx1536x1536&ctp=s851x315&_nc_cat=102&ccb=1-7&_nc_sid=8a6525&_nc_ohc=4AlLrja8Q8oQ7kNvwHmD1kK&_nc_oc=AdogJI8LtkGELQqtZHz-91Ur_nZYXWDdJd0eA-KvKdZ_1UBvImScyKNzQbDiAVfFFaA&_nc_zt=23&_nc_ht=scontent-lhr6-1.xx&_nc_gid=UwvzpV-HEgmoIR6NZK6wMw&_nc_ss=7b20f&oh=00_Af-_YhxqSCuTT7ATMEaqdnqpv99FVGh6cKIVRjC2qJU0gQ&oe=6A2F0CA2",
+      "source_type": "facebook_photo",
+      "confidence": "high",
+      "purpose": "skipped",
+      "selected": false,
+      "reason": "Pending gallery selection"
+    },
+    {
+      "local": "images/facebook/05-facebook.webp",
+      "source": "https://scontent-lhr6-1.xx.fbcdn.net/v/t39.30808-6/681432742_1568312031965254_8524333730322715589_n.jpg?stp=c0.169.1536.1536a_cp6_dst-jpg_tt6&cstp=mx1536x1536&ctp=s851x315&_nc_cat=102&ccb=1-7&_nc_sid=8a6525&_nc_ohc=zJEXQPX2jlMQ7kNvwETKhfo&_nc_oc=AdpXyrLXa1CpLijnagpnHaFQo6NY75ZZzyuhs5mIttiaJY2WzP9TTugG1F7UFQAKGiw&_nc_zt=23&_nc_ht=scontent-lhr6-1.xx&_nc_gid=UwvzpV-HEgmoIR6NZK6wMw&_nc_ss=7b20f&oh=00_Af9zgj7EexMYMBww-Px1wL2sXAyejnwUq1E8ZM7dGQ1e9Q&oe=6A2F0D49",
+      "source_type": "facebook_photo",
+      "confidence": "high",
+      "purpose": "skipped",
+      "selected": false,
+      "reason": "Pending gallery selection"
+    },
+    {
+      "local": "images/facebook/06-facebook.webp",
+      "source": "https://scontent-lhr8-1.xx.fbcdn.net/v/t39.30808-6/696354920_1580415844088206_877374939723367501_n.jpg?stp=c0.364.946.946a_dst-jpg_tt6&cstp=mx946x946&ctp=s851x315&_nc_cat=107&ccb=1-7&_nc_sid=09d16d&_nc_ohc=sMe40XceG0EQ7kNvwE98FF9&_nc_oc=AdotP9zDubZKJ8hVqEo4RuT4fHBa9U67VJz0HtZKT3ZmBiz7JlRAVXYy1Mo6bMKO1Q4&_nc_zt=23&_nc_ht=scontent-lhr8-1.xx&_nc_gid=UwvzpV-HEgmoIR6NZK6wMw&_nc_ss=7b20f&oh=00_Af9PxgA8aZf7hZMINlzqlpE7n7mW2gEL2OXI_-f19xJ3-g&oe=6A2F0D83",
+      "source_type": "facebook_photo",
+      "confidence": "high",
+      "purpose": "skipped",
+      "selected": false,
+      "reason": "Pending gallery selection"
+    },
+    {
+      "local": "images/facebook/07-facebook.webp",
+      "source": "https://scontent-lhr6-2.xx.fbcdn.net/v/t39.30808-6/680640868_1568312271965230_8836141550113142600_n.jpg?stp=c0.364.946.946a_dst-jpg_tt6&cstp=mx946x946&ctp=s851x315&_nc_cat=104&ccb=1-7&_nc_sid=8a6525&_nc_ohc=-s_SqFYg3i4Q7kNvwGdGYjh&_nc_oc=AdqkewruOHMRDrCfG8a_AY1vPv_orRzOwyN01qtu_NqWHvMQJjUfOKJexyC5eVBanqM&_nc_zt=23&_nc_ht=scontent-lhr6-2.xx&_nc_gid=UwvzpV-HEgmoIR6NZK6wMw&_nc_ss=7b20f&oh=00_Af_b5Ol83Ib96huPq0eIqYHBTZr-mxUUg6JoYkHVAe3BPg&oe=6A2F221E",
+      "source_type": "facebook_photo",
+      "confidence": "high",
+      "purpose": "skipped",
+      "selected": false,
+      "reason": "Pending gallery selection"
+    },
+    {
+      "local": "images/facebook/08-facebook.webp",
+      "source": "https://scontent-lhr6-2.xx.fbcdn.net/v/t39.30808-6/684557040_1568312245298566_5352906232483178895_n.jpg?stp=c0.364.946.946a_dst-jpg_tt6&cstp=mx946x946&ctp=s851x315&_nc_cat=104&ccb=1-7&_nc_sid=8a6525&_nc_ohc=a__GsGiUwYsQ7kNvwGLR36D&_nc_oc=Adr0JLNiV0f97x3JmhRL4ENvkl5ZLjLk2zI4FKAZu59CoBT7ttLwdE-FHpi-So_iNx0&_nc_zt=23&_nc_ht=scontent-lhr6-2.xx&_nc_gid=UwvzpV-HEgmoIR6NZK6wMw&_nc_ss=7b20f&oh=00_Af9JG46Oarw6q7iFqMRGRart6rRmMp6cXzXc91UIpJd79w&oe=6A2F1FFB",
+      "source_type": "facebook_photo",
+      "confidence": "high",
+      "purpose": "skipped",
+      "selected": false,
+      "reason": "Pending gallery selection"
+    },
+    {
+      "local": "images/facebook/09-facebook.webp",
+      "source": "https://scontent-lhr6-1.xx.fbcdn.net/v/t39.30808-6/472304786_1106468451159527_8153826825648529242_n.jpg?stp=dst-jpg_fb50_s320x320_tt6&_nc_cat=110&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=pnRkD2Vx2dkQ7kNvwH4iy5e&_nc_oc=AdpDkAhUkGnWpe2v3i3F0hLYeZ4ngflyZGnR8fTmyTjdIZq145q7mFS34OEywpg5J3M&_nc_zt=23&_nc_ht=scontent-lhr6-1.xx&_nc_gid=UwvzpV-HEgmoIR6NZK6wMw&_nc_ss=7b20f&oh=00_Af9jIhpsHPJ2PbGU4Ywu-F4rxGEh9hbURXPWg-E7Epg5kQ&oe=6A2F1F49",
+      "source_type": "facebook_photo",
+      "confidence": "high",
+      "purpose": "skipped",
+      "selected": false,
+      "reason": "Pending gallery selection"
+    },
+    {
+      "local": "images/facebook/10-facebook.webp",
+      "source": "https://scontent-lhr8-2.xx.fbcdn.net/v/t39.30808-6/695598193_1580415854088205_8341603031885982102_n.jpg?stp=c0.132.1200.1200a_dst-jpg_tt6&cstp=mx1200x1200&ctp=s851x315&_nc_cat=101&ccb=1-7&_nc_sid=09d16d&_nc_ohc=PagPSuwR_TsQ7kNvwFIs4W3&_nc_oc=AdoVMxfa5gc90Z4T2c6jX0M8igcVGfseYCzytdRysfnINKajWELvv0leC2qmH-W7jI0&_nc_zt=23&_nc_ht=scontent-lhr8-2.xx&_nc_gid=UwvzpV-HEgmoIR6NZK6wMw&_nc_ss=7b20f&oh=00_Af8-v7L8E654HHmro9OeQ1upMyX3PfwBt4zxoK5QFJ1LKA&oe=6A2F08F6",
+      "source_type": "facebook_photo",
+      "confidence": "high",
+      "purpose": "skipped",
+      "selected": false,
+      "reason": "Pending gallery selection"
+    }
+  ],
+  "selected_images": [
+    "images/01-places.webp",
+    "images/02-places.webp",
+    "images/03-places.webp",
+    "images/04-places.webp",
+    "images/05-places.webp",
+    "images/06-places.webp"
+  ],
+  "lead_validity_status": "BROKEN_SITE_READY",
+  "ready_for_build": false,
+  "registry_source_count": 0
+}

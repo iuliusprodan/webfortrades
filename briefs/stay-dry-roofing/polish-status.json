@@ -1,0 +1,57 @@
+{
+  "slug": "stay-dry-roofing",
+  "batch_id": "2026-06-11-five-site",
+  "polish_pass": "2026-06-11",
+  "updated_at": "2026-06-11T16:08:28.838Z",
+  "build_id": "stay-dry-roofing:20260611-section-fix",
+  "ready_for_pitch": false,
+  "outreach": false,
+  "og_generated": false,
+  "scroll_video": false,
+  "logo_raster_in_header": false,
+  "live_url": "https://stay-dry-roofing.vercel.app",
+  "section_order": [
+    "hero",
+    "reviews",
+    "services",
+    "gallery",
+    "process",
+    "service-area",
+    "contact"
+  ],
+  "hero_treatment": "asymmetric_image_light",
+  "gallery_layout": "css_columns_masonry_responsive",
+  "gallery_breakpoints": {
+    "mobile_lt_640": 1,
+    "tablet_640_1023": 2,
+    "desktop_gte_1024": 3
+  },
+  "trust_strip": "after_reviews",
+  "fixes_2026_06_11": [
+    "Gallery: replaced single-column desktop with CSS columns masonry (3/2/1 cols by breakpoint), captions under each image, same 8 verified photos",
+    "Services: each of 5 tiles now has one-line evidence-based description; title kept Roofing services explained plainly"
+  ],
+  "services_tiles": {
+    "count": 5,
+    "all_have_descriptions": true,
+    "items": [
+      "Roof repairs",
+      "New tiled roofs",
+      "Lead flashing",
+      "Chimney work",
+      "General roofing"
+    ]
+  },
+  "clone_review": {
+    "before_score": 30,
+    "after_score": 30,
+    "before_pass": true,
+    "after_pass": true,
+    "note": "Score unchanged after gallery/services fix; still PASS"
+  },
+  "section_integrity_check": "PASS",
+  "alias_notes": "Primary stay-dry-roofing.vercel.app manually reassigned after deploy (was stale on polish build). stay-dry-roofing-s1.vercel.app also verified.",
+  "has_real_site": true,
+  "public_copy_references_existing_url": false,
+  "ready_to_pitch": false
+}

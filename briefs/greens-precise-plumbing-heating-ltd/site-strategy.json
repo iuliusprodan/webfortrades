@@ -1,0 +1,53 @@
+{
+  "slug": "greens-precise-plumbing-heating-ltd",
+  "business_angle": "Greens Precise Plumbing & Heating ltd: heating and plumbing with tidy finishes",
+  "customer_praise_themes": [
+    "tidy finishes",
+    "quality workmanship",
+    "reliable attendance",
+    "fair pricing",
+    "strong recommendations",
+    "heating work"
+  ],
+  "named_people": [
+    "Callum"
+  ],
+  "distinctive_phrases": [
+    "Have used several plumbers in the past, with varying success",
+    "Some were expensive, some were unreliable - it was always hit and miss",
+    "First Class service from the Greens Plumbing team",
+    "Responsive service, easy to book and kept me updated re time of arrival so I didn’t have to wait in all day",
+    "Payment over invoice was also a breeze"
+  ],
+  "strongest_review_quote": {
+    "text": "Have used several plumbers in the past, with varying success. Some were expensive, some were unreliable - it was always hit and miss. Thought I'd give Greens Precise Plumbing a shot as I needed a new toilet and hand basin plumbed in. Callum was great, he explained the requirements for the job, provided an excellent quote and crucially delivered on the agreed costs and timescale. Highly recommended for being reliable, honest and professional - they even cleaned up after themselves!! Great job Cal",
+    "author": "Chris",
+    "source": "google",
+    "url": "https://maps.google.com/?cid=9321565324186853487"
+  },
+  "strongest_proof_source": {
+    "platform": "facebook",
+    "metric": "10 public photos, phone verified",
+    "url": "https://www.facebook.com/GPPlumbingandHeatingLtd"
+  },
+  "best_photos_rationale": "Verified Facebook photos available",
+  "claims_to_avoid": [
+    "Wrong prospect region in copy",
+    "Fake owner or founder claims",
+    "Supplier names as job locations in captions",
+    "Invented service areas"
+  ],
+  "pitch_hook_summary": "Lead with review detail about tidy finishes (Chris)",
+  "personality": "practical",
+  "evidence_strength": "strong",
+  "suggested_site_mood": "clean, straightforward, proof-led",
+  "suggested_proof_hierarchy": [
+    "facebook_verified",
+    "google_rating_reviews",
+    "facebook",
+    "photo_gallery"
+  ],
+  "pitch_insight_seed": "Lead with review detail about tidy finishes (Chris)",
+  "trade": "Heating and radiators",
+  "location": "Swansea, SA1"
+}

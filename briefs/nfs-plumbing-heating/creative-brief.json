@@ -1,0 +1,44 @@
+{
+  "slug": "nfs-plumbing-heating",
+  "business_name": "NFS Plumbing & Heating",
+  "trade_niche": "plumbers",
+  "actual_city_town": "Bristol",
+  "verified_based_location": "Bristol, BS3",
+  "location_confidence": "high",
+  "location_validation_status": "OK",
+  "logo_available": false,
+  "dominant_colours_logo": [],
+  "dominant_colours_photos": [
+    "#c9a227"
+  ],
+  "chosen_colour_palette": "navy-brass-heating",
+  "chosen_fonts": "Space Grotesk + Inter",
+  "chosen_layout_direction": "full-bleed-hero",
+  "chosen_tone_of_voice": "Assured, precise, plain English",
+  "reason_for_design_choices": "Palette \"Navy, warm cream, brass\" and fonts Space Grotesk + Inter chosen for NFS Plumbing & Heating. Heating signals in name/reviews support a warmer technical feel. Few photos: compact proof layout, not a large gallery grid.",
+  "inspired_by_template": "library heating direction (reference only)",
+  "deliberately_different_from": [
+    "test-mechanic",
+    "test-plumbing",
+    "------"
+  ],
+  "image_selection_strategy": "Compact gallery: 1 proof images plus hero (2 sourced)",
+  "service_selection_strategy": "Mixed name and review evidence",
+  "location_validation_notes": "Based location verified from Google address: Bristol, BS3",
+  "risks_or_manual_review_flags": [
+    "Limited photo count: gallery kept compact"
+  ],
+  "hero_headline": "Local plumber. Clear quotes.",
+  "services": [
+    "Heating and radiators",
+    "Boiler repairs and servicing",
+    "Bathroom installations",
+    "Tap, toilet and shower repairs",
+    "Gas work",
+    "General plumbing repairs"
+  ],
+  "gallery_cluster_notes": [
+    "cluster-0: 2 image(s)"
+  ],
+  "created_at": "2026-06-10T09:20:22.829Z"
+}

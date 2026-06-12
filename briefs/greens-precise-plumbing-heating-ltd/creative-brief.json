@@ -1,0 +1,78 @@
+{
+  "slug": "greens-precise-plumbing-heating-ltd",
+  "business_name": "Greens Precise Plumbing & Heating ltd",
+  "trade_niche": "plumbers",
+  "actual_city_town": "Swansea",
+  "verified_based_location": "Swansea, SA1",
+  "location_confidence": "high",
+  "location_validation_status": "LOCATION_MISMATCH_NEEDS_REVIEW",
+  "logo_available": false,
+  "logo_discovery_notes": "Logo discovery ran and failed: the email-domain website gpplumbingltd.com returns a 202 bot or access block, and no logo was present on the verified Facebook page assets. With no logo, the palette is derived from the verified photos and the business name, per the colour rule.",
+  "colour_rule_applied": "no_logo_so_photos_and_name",
+  "dominant_colours_logo": [],
+  "dominant_colours_photos": [
+    "#21402E",
+    "#B08A4F",
+    "#CBBEA8",
+    "#F7F3EC",
+    "#15201A"
+  ],
+  "open_design_palette": {
+    "brand_primary_deep_green": "#21402E",
+    "accent_brass": "#B08A4F",
+    "warm_stone": "#CBBEA8",
+    "ivory_background": "#F7F3EC",
+    "ink_text": "#15201A",
+    "card_white": "#FFFFFF"
+  },
+  "open_design_palette_basis": "Green from the business name and a calm trade tone. Brass from the real bath and shower fittings in the photos. Warm stone and ivory from the marble and tiled walls. Ink for legible text.",
+  "chosen_colour_palette": "deep-green-brass-marble (Open Design pilot direction)",
+  "chosen_fonts": "Cormorant Garamond + Outfit",
+  "chosen_layout_direction": "editorial-immersive-asymmetric-hero",
+  "chosen_tone_of_voice": "Assured, precise, premium, friendly, plain English",
+  "reason_for_design_choices": "Open Design pilot direction swansea_atelier_deep_green_brass_editorial. The photos show high-end bathroom and kitchen renovations in marble, warm stone and brass, so the palette is grounded in the real images, and the deep green is motivated by the business name Greens. Cormorant Garamond with Outfit suits premium bathroom work and is distinct from every recent site. This deliberately diverges from Corvell (warm cream and terracotta bathroom) and from the earlier Greens template idea (forest green accent on cream, Fraunces and Inter, stacked hero).",
+  "inspired_by_template": "none, bespoke from evidence (Corvell used only as an anti-clone reference to avoid)",
+  "deliberately_different_from": [
+    "corvell-ltd",
+    "greens forest-green-Fraunces template idea",
+    "nfs-plumbing-heating",
+    "bbr-plumbing-heating-bristol-bristol-boiler-repairs"
+  ],
+  "image_selection_strategy": "Diverse gallery: verified Facebook photos preferred over repetitive Google clusters (2 Facebook, max 2 per cluster)",
+  "service_selection_strategy": "Mixed name and review evidence",
+  "location_validation_notes": "Google address city (Swansea) differs from prospect region (Bristol). Site uses Google address city (Swansea), not prospect region (Bristol).",
+  "risks_or_manual_review_flags": [
+    "Google address city (Swansea) differs from prospect region (Bristol)",
+    "Limited photo count: gallery kept compact",
+    "Multiple photos from same project detected; gallery capped per cluster"
+  ],
+  "hero_headline": "Precise plumbing, heating and beautiful bathrooms in Swansea",
+  "services": [
+    "Heating and radiators",
+    "Boiler repairs and servicing",
+    "Bathroom installations",
+    "Leak and burst pipe repairs",
+    "Tap, toilet and shower repairs",
+    "General plumbing repairs"
+  ],
+  "gallery_cluster_notes": [
+    "cluster-0: 6 image(s)",
+    "cluster-1: 10 image(s)"
+  ],
+  "facebook_verified": true,
+  "facebook_url": "https://www.facebook.com/GPPlumbingandHeatingLtd",
+  "facebook_verification_reasons": [
+    "Phone number matches Google/lead phone",
+    "Business name matches or clearly aliases Google listing",
+    "Location or service area matches Google address/city",
+    "Public email visible on page (info@gpplumbingltd.com)",
+    "Intro text matches trade and local area"
+  ],
+  "facebook_logo_found": false,
+  "facebook_logo_used": false,
+  "facebook_logo_path": null,
+  "facebook_photos_found": 10,
+  "facebook_photos_selected": 2,
+  "facebook_design_notes": "Verified Facebook page (https://www.facebook.com/GPPlumbingandHeatingLtd). 2 Facebook photo(s) selected from 10 found.",
+  "created_at": "2026-06-10T11:02:09.019Z"
+}

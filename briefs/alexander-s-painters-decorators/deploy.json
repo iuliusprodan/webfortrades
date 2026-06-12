@@ -1,0 +1,30 @@
+{
+  "slug": "alexander-s-painters-decorators",
+  "updated_at": "2026-06-11T16:09:09.811Z",
+  "preferred_alias": "alexander-s-painters-decorators",
+  "deployment_url": "https://alexander-s-painters-decorators-i53snhtkw.vercel.app",
+  "verified_url": "https://alexander-s-painters-decorators.vercel.app",
+  "final_url": "https://alexander-s-painters-decorators.vercel.app",
+  "alias_status": "VERIFIED",
+  "candidates": [
+    {
+      "hostname": "alexander-s-painters-decorators",
+      "url": "https://alexander-s-painters-decorators.vercel.app",
+      "preflight": "already_ours",
+      "detail": "Build marker alexander-s-painters-decorators:20260611-polish",
+      "verify": "verified"
+    }
+  ],
+  "verification": {
+    "ok": true,
+    "httpStatus": 200,
+    "markerFound": true,
+    "businessNameFound": true,
+    "phoneFound": true,
+    "marker": {
+      "buildId": "alexander-s-painters-decorators:20260611-polish",
+      "slug": "alexander-s-painters-decorators"
+    },
+    "errors": []
+  }
+}
