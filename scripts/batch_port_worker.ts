@@ -18,6 +18,7 @@ import {
   type PortTokenState,
 } from "./batch_port_policy.js";
 import { ROOT, OD_PORT_MARKER, hasOpenDesignPort, loadSiteDesignConfig } from "./site_config.js";
+import { runPortSiteBuild } from "./port_site_install.js";
 
 export interface PortWorkerResult {
   ok: boolean;
@@ -192,18 +193,15 @@ async function runPortAttempt(ctx: PortWorkerContext, attempt: number): Promise<
       `<html><body><section data-section-id="hero"></section><section data-section-id="services"></section><section data-section-id="contact"></section></body></html>\n`
     );
   } else {
-    const build = await runCommand("npm", ["run", "build"], {
-      cwd: siteDir,
-      logFile,
-    });
-    if (!build.ok) {
+    const buildResult = await runPortSiteBuild(siteDir, { logFile });
+    if (!buildResult.ok) {
       return {
         ok: false,
         status: "FAILED_PORT",
         ms: Date.now() - start,
         attempts: attempt,
         tokens: readPortTokens(ctx.slug),
-        error: "next build failed after port",
+        error: buildResult.error,
       };
     }
   }
@@ -264,9 +262,55 @@ async function runPortAttempt(ctx: PortWorkerContext, attempt: number): Promise<
 
 export async function runPortWorker(ctx: PortWorkerContext): Promise<PortWorkerResult> {
   const siteDir = path.join(ROOT, "sites", ctx.slug);
-  if (hasOpenDesignPort(siteDir) && fs.existsSync(path.join(siteDir, "app", "page.tsx"))) {
-    appendPortLog(ctx.batchId, ctx.slug, ROOT, "PORT_SKIP", "already ported");
+  const outIndex = path.join(siteDir, "out", "index.html");
+  const alreadyBuilt =
+    hasOpenDesignPort(siteDir) &&
+    fs.existsSync(path.join(siteDir, "app", "page.tsx")) &&
+    fs.existsSync(outIndex);
+  if (alreadyBuilt) {
+    appendPortLog(ctx.batchId, ctx.slug, ROOT, "PORT_SKIP", "already ported and built");
     return { ok: true, status: "SKIPPED", ms: 0, attempts: 0, tokens: 0 };
+  }
+
+  const buildOnly =
+    hasOpenDesignPort(siteDir) && fs.existsSync(path.join(siteDir, "app", "page.tsx"));
+  if (buildOnly) {
+    appendPortLog(ctx.batchId, ctx.slug, ROOT, "PORT_BUILD_RETRY", "marker present, retry install+build");
+    const start = Date.now();
+    const logFile = portLogPath(ctx.batchId, ctx.slug, ROOT);
+    const buildResult = await runPortSiteBuild(siteDir, { logFile });
+    if (!buildResult.ok) {
+      return {
+        ok: false,
+        status: "FAILED_PORT",
+        ms: Date.now() - start,
+        attempts: 1,
+        tokens: 0,
+        error: buildResult.error,
+      };
+    }
+    const siteDesign = loadSiteDesignConfig();
+    if (siteDesign.od_port_require_section_ids && fs.existsSync(outIndex)) {
+      const html = fs.readFileSync(outIndex, "utf8");
+      const v = validatePortSectionIds(html, 3);
+      if (!v.ok) {
+        return {
+          ok: false,
+          status: "FAILED_PORT",
+          ms: Date.now() - start,
+          attempts: 1,
+          tokens: 0,
+          error: `section id guard: found ${v.count}, need >= 3 data-section-id`,
+        };
+      }
+    }
+    updateBatchStatus(ctx.slug, {
+      port_completed_at: new Date().toISOString(),
+      port_ms: Date.now() - start,
+      port_tokens: 0,
+    });
+    appendPortLog(ctx.batchId, ctx.slug, ROOT, "PORT_OK", "build retry succeeded");
+    return { ok: true, status: "PORTED", ms: Date.now() - start, attempts: 1, tokens: 0 };
   }
 
   const timeoutMs = ctx.config.port_timeout_minutes_default * 60_000;
