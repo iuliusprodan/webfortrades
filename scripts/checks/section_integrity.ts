@@ -116,7 +116,7 @@ function wordCount(s: string): number {
 
 export async function collectSectionIntegrityMetrics(page: Page): Promise<SectionIntegrityMetrics> {
   return page.evaluate(
-    (promiseReSource, gallerySelectors) => {
+    ({ promiseReSource, gallerySelectors }: { promiseReSource: string; gallerySelectors: string[] }) => {
     const promiseRe = new RegExp(promiseReSource, "i");
     let gallery: Element | null = null;
     for (const sel of gallerySelectors) {
@@ -166,7 +166,9 @@ export async function collectSectionIntegrityMetrics(page: Page): Promise<Sectio
       promiseSections,
     };
   },
-    PROMISE_HEADING_RE.source,
-    [...GALLERY_INNER_SELECTORS]
+    {
+      promiseReSource: PROMISE_HEADING_RE.source,
+      gallerySelectors: [...GALLERY_INNER_SELECTORS],
+    }
   );
 }

@@ -76,7 +76,7 @@ function main(): void {
 
   log(batchId, slug, "Invoking cursor-agent for port (manual supervision if batch waits too long)");
   execSync(
-    `cursor-agent -p ${JSON.stringify(promptHint)}`,
+    `cursor-agent --trust -p ${JSON.stringify(promptHint)}`,
     { cwd: ROOT, stdio: "inherit", env: process.env }
   );
 
