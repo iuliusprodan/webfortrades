@@ -209,9 +209,9 @@ img { max-width: 100%; display: block; }
 @media (max-width: 560px) { .stats-band { grid-template-columns: 1fr; gap: 1.25rem; } }
 
 /* ---------- Services ---------- */
-.service-row { display: grid; grid-template-columns: 3.5rem 1fr; gap: 1rem; padding: 1.4rem 0; align-items: start; }
+.service-row { display: grid; grid-template-columns: 1.5rem 1fr; gap: 1rem; padding: 1.4rem 0; align-items: start; }
 .service-row + .service-row { border-top: 1px solid var(--line); }
-.service-mark { font-family: var(--font-display), sans-serif; font-weight: 700; font-size: 1.05rem; color: var(--accent-deep); letter-spacing: 0.04em; }
+.service-mark { display: block; width: 9px; height: 9px; border-radius: 50%; background: var(--accent); margin-top: 0.5rem; }
 .service-name { font-weight: 700; font-size: 1.18rem; margin-bottom: 0.2rem; }
 .service-desc { color: var(--muted); margin: 0; }
 

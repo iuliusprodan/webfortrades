@@ -165,7 +165,7 @@ export default function Page() {
             <div style={{ marginTop: "1.5rem" }}>
               {services.map((s) => (
                 <div className="service-row" key={s.mark} data-reveal>
-                  <div className="service-mark">{s.mark}</div>
+                  <span className="service-mark" aria-hidden="true" />
                   <div>
                     <div className="service-name">{s.name}</div>
                     <p className="service-desc">{s.desc}</p>

@@ -32,7 +32,7 @@ in the batch. Signature = thin cyan "circuit" rule between sections.
 
 ## Deploy verification (2026-06-13)
 - Preferred alias: jp-electrical-compliance-ltd.vercel.app
-- Deployment URL: https://jp-electrical-compliance-3sba1m54v-iulius-projects-0cb33a7b.vercel.app
+- Deployment URL: https://jp-electrical-compliance-nt0636vr4-iulius-projects-0cb33a7b.vercel.app
 - Verified URL: https://jp-electrical-compliance-ltd.vercel.app
 - Alias status: VERIFIED
 - Deploy manifest: `/Users/iuliusprodan/.cursor/website/briefs/jp-electrical-compliance-ltd/deploy.json`

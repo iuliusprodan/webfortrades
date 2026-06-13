@@ -47,7 +47,7 @@ distinctness check vs Brian (sage), D.G. (eucalyptus), library forest-green, and
 
 ## Deploy verification (2026-06-13)
 - Preferred alias: macdonald-edinburgh-electrical-limited.vercel.app
-- Deployment URL: https://macdonald-edinburgh-electrical-limited-hn7ud3q90.vercel.app
+- Deployment URL: https://macdonald-edinburgh-electrical-limited-dr6zg4x9m.vercel.app
 - Verified URL: https://macdonald-edinburgh-electrical-limited.vercel.app
 - Alias status: VERIFIED
 - Deploy manifest: `/Users/iuliusprodan/.cursor/website/briefs/macdonald-edinburgh-electrical-limited/deploy.json`
