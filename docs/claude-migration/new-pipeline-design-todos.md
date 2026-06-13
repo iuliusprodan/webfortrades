@@ -43,6 +43,11 @@
 - **Issue:** because `mobile_header` loaded an unstyled DOM (TODO-4), a PASS on the 27 existing deployed sites did **not** validate their mobile responsive header. Those sites passed only when their (often simpler) header DOM happened to have few enough anchors total, not because the responsive behaviour was verified. Mobile-header correctness on the inherited deploys is effectively unknown.
 - **Fix (post bake-off):** once the architecture is decided, re-validate the inherited 27 deploys under the fixed checks as a separate triage. Do not assume prior PASS means correct.
 
+## TODO-6 - `identity_review_names` extracts false-positive names from prose
+- **Found:** 2026-06-13, running checks on Kyle's site. The check flagged "Coming", "Reliable", "And", "Extreme", "Did", "Cleaned", "Amazing" as review-author names not in the brief team list.
+- **Issue:** these are sentence-leading capitalised words inside verbatim review quotes, not names. The check's name-extraction regex (capitalised token) over-matches prose. Warn-only, so non-blocking, but it produces noise and would erode trust in the warning.
+- **Fix (new-pipeline):** restrict extraction to attribution positions (e.g. text after "- " / cite elements / "Google review" attributions) or a proper-noun gazetteer, not any capitalised token. Out of scope for the bake-off.
+
 ---
 *Append new findings here as they surface. Acted on during the new-pipeline design + outreach-teardown
 steps, not during the bake-off.*
