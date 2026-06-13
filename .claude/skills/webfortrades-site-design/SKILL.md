@@ -81,6 +81,21 @@ Worked example (parallel-batch-1, painters):
   been re-seeded before start. Correct fix: reframe Seed C as "modern-monochrome / crisp finish" ->
   **monochrome-industrial** (bone + graphite + signal accent).
 
+**Rule - body-font + display-category allocation across batches.** Palette family is not the only axis that
+converges: in parallel-batch-1 all three sub-agents independently picked **Mulish** for body, and two of
+three picked a serif-editorial display. Track fonts already deployed and do not reuse a reserved body font.
+- **Reserved body fonts (do not reuse):** Instrument Sans (Kyle body), Hanken Grotesk (Damo body),
+  Mulish (Brian + AC + D.G. body - appeared 3x in one batch, too many).
+- The next batch's body font must come from **outside** the reserved list. Undeployed candidates to draw
+  from: Inter, Manrope, Public Sans, Outfit, IBM Plex Sans, Geist, Söhne (if available).
+- Per-seed allocation must also fix a **display-font category**, not just a body font:
+  - **serif-editorial** (Bodoni, Playfair, Newsreader, Fraunces)
+  - **sans-condensed** (Oswald, Barlow Condensed, Bebas)
+  - **sans-display** (Schibsted Grotesk, Space Grotesk, General Sans)
+  - **sans-humanist** (Inter Tight, Manrope Display)
+- Within a batch, **display categories must not repeat**, and **body fonts must not repeat** and must not be
+  on the reserved list. (Update the reserved list as each batch ships.)
+
 ---
 
 ## Section rules (load-bearing)

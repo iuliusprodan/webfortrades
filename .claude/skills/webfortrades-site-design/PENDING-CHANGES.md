@@ -1,11 +1,33 @@
 # PENDING skill changes — review before merging into SKILL.md
 
 These are PROPOSALS discovered during runs. They are NOT applied to SKILL.md. The operator reviews
-and decides which to merge.
+and decides which to merge. Applied proposals move to "Resolved proposals" at the bottom (history kept).
 
 ---
 
-## 2026-06-13 — Batch-level typographic distinctness (3-site parallel painter batch)
+## 2026-06-13 — (cross-reference, NOT a site-design skill fix) source_quality mislabels verified-FB-but-gmail leads as FAIL
+
+This is an **enrich/check tooling** observation, logged here only so it isn't lost — it does NOT belong
+in SKILL.md. `scripts/source_quality.ts` returned `FAIL` for D.G. Decorating with reason "Email present
+but email-domain website discovery not completed", even though the lead has a **verified high-confidence
+Facebook page** (genuinely multi-source, Google + FB). The email is a gmail address, so there is no
+domain to resolve, yet the missing email-domain check drove a FAIL. Proposal (for the tooling owner, not
+this skill): when `facebook_verified` is true, a missing email-domain resolution should not force FAIL;
+treat a verified second platform as satisfying multi-source. Surfaced in the run report as an audit
+finding.
+
+---
+
+## Resolved proposals
+
+### 2026-06-13 (evening) — Batch typographic distinctness — APPLIED to SKILL.md
+
+**Status:** RESOLVED. Applied to SKILL.md "Parallel-batch design-seed allocation" section as the
+"body-font + display-category allocation across batches" rule (reserved body-font list: Instrument Sans /
+Hanken Grotesk / Mulish; per-seed display-font category; no body-font or display-category repeats within a
+batch). Companion palette-family rule added in the same section.
+
+*Original proposal (kept for history):*
 
 **Discovered by:** main thread at aggregation (not by any single sub-agent — each sub-agent only sees
 its own site, so none could notice the convergence).
@@ -35,16 +57,3 @@ independent agents all reached for it. Kyle/Damo/library bans don't yet include 
 
 **Severity:** low. No site fails; this is a quality/distinctness refinement. The three sites are still
 visibly distinct on palette + display font + hero + voice.
-
----
-
-## 2026-06-13 — (cross-reference, NOT a site-design skill fix) source_quality mislabels verified-FB-but-gmail leads as FAIL
-
-This is an **enrich/check tooling** observation, logged here only so it isn't lost — it does NOT belong
-in SKILL.md. `scripts/source_quality.ts` returned `FAIL` for D.G. Decorating with reason "Email present
-but email-domain website discovery not completed", even though the lead has a **verified high-confidence
-Facebook page** (genuinely multi-source, Google + FB). The email is a gmail address, so there is no
-domain to resolve, yet the missing email-domain check drove a FAIL. Proposal (for the tooling owner, not
-this skill): when `facebook_verified` is true, a missing email-domain resolution should not force FAIL;
-treat a verified second platform as satisfying multi-source. Surfaced in the run report as an audit
-finding.
