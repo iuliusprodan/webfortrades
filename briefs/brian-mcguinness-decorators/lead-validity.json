@@ -1,0 +1,37 @@
+{
+  "lead_validity_status": "INSUFFICIENT_EVIDENCE",
+  "lead_validity_reason": "Enrichment incomplete or source confidence too low",
+  "pitch_type": "manual_review",
+  "website_status": "NO_WEBSITE",
+  "website_url": null,
+  "website_discovery_classification": null,
+  "email_domain_website": null,
+  "source_confidence_summary": {
+    "overall": "low",
+    "verified_platforms": [],
+    "rejected_platforms": [
+      "google_places"
+    ],
+    "notes": [
+      "No verified sources with medium or high confidence",
+      "1 source(s) rejected for low confidence"
+    ]
+  },
+  "ready_for_build": false,
+  "ready_for_design": false,
+  "ready_for_pitch": false,
+  "manual_review_required": true,
+  "has_real_website": false,
+  "truly_no_website": true,
+  "warnings": [
+    "LOCATION_MISMATCH_NEEDS_REVIEW",
+    "contactability=NEEDS_MANUAL_REVIEW",
+    "no email found; UK mobile present, requires manual WhatsApp contact",
+    "Location mismatch: LOCATION_MISMATCH_NEEDS_REVIEW - pitch blocked until resolved",
+    "Source enrichment not complete - run enrich:lead before build",
+    "Source confidence is low - lean site or manual review recommended"
+  ],
+  "manual_asset_status": "OK",
+  "pause_before_open_design": false,
+  "manual_asset_folder": "briefs/brian-mcguinness-decorators/images/manual/"
+}

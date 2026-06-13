@@ -1,0 +1,502 @@
+{
+  "business_name": "Brian McGuinness Decorators",
+  "owner_name": null,
+  "contact_name": null,
+  "contact_name_source": null,
+  "contact_name_confidence": "low",
+  "contact_name_evidence_count": 1,
+  "contact_name_usage_allowed": false,
+  "possible_contact_name": "Outstanding",
+  "phone": "07879 054484",
+  "email": null,
+  "phone_type": "mobile",
+  "whatsapp_candidate": true,
+  "email_available": false,
+  "whatsapp_available": "not_checked",
+  "contactability_status": "NEEDS_MANUAL_REVIEW",
+  "contactability_reason": "no email found; UK mobile present, requires manual WhatsApp contact",
+  "preferred_channel": "whatsapp",
+  "address": "2 Seamill Way, Coatbridge ML5 5HD, UK",
+  "opening_hours": [
+    "Monday: 9:00 AM – 5:00 PM",
+    "Tuesday: 9:00 AM – 5:00 PM",
+    "Wednesday: 9:00 AM – 5:00 PM",
+    "Thursday: 9:00 AM – 5:00 PM",
+    "Friday: 9:00 AM – 5:00 PM",
+    "Saturday: Closed",
+    "Sunday: Closed"
+  ],
+  "services": [
+    "Painting & decorating",
+    "Painting and decorating",
+    "Bathroom installations",
+    "painters and decorators"
+  ],
+  "services_meta": [
+    {
+      "name": "Painting & decorating",
+      "source": "google",
+      "direct": true
+    },
+    {
+      "name": "Painting and decorating",
+      "source": "name",
+      "direct": false
+    },
+    {
+      "name": "Bathroom installations",
+      "source": "review",
+      "direct": false
+    },
+    {
+      "name": "painters and decorators",
+      "source": "niche",
+      "direct": false
+    }
+  ],
+  "service_confidence": "mixed",
+  "service_sources": [
+    "google",
+    "name",
+    "review",
+    "niche"
+  ],
+  "service_area": [
+    "Coatbridge",
+    "Glasgow",
+    "Coatbridge ML5 5HD"
+  ],
+  "based_location": "Coatbridge, ML5",
+  "google_rating": 5,
+  "google_review_count": 98,
+  "google_review_count_sourced": true,
+  "service_areas_inferred": true,
+  "google_maps_url": "https://maps.google.com/?cid=2307249476113286934",
+  "website_status": "NO_WEBSITE",
+  "website_check_notes": "google_places_website=empty; website_url empty",
+  "website_url": null,
+  "photos": [
+    {
+      "local": "images/01-places.webp",
+      "source_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3kyjp11YOka9BClZeXjYmFfnDLKZ3iLoNItnPEJtCugcqcoRUCFWVAwbN1AJu2pXWDmeSIFIz2L45oMr0FAZNlYc22Qf5en9sizUO6vWql2ZlM5UpCgTrnm9dmVd1ifJYcrQInGzdCPml0YC1DHiUejjKqXz0Wt6yky-zC94ou3JQzcWOJDjNu5EkBUdfBFNYdl-QE16TgqmCefOWbXPxuqvJZRlDSwYGplfEfHSAfA0-eqz4kREoUmGQ3MfidiC0ontraQxc34P8Z_0ItTQm1NsroHu7ovzZdwtQTIGPliGuCi6qGf-9yB5KJJuPwidIbnDwuEJWgnxyMrPZtkibwhWtPoR56IoKsnUTI61K18ygPG00Ed3MUlHiXhpWFlyWR4v9J-NJgxpDEX5mwraT4tM_YAgsWv1rV9EqXK3JbjDAbJKexT9HRAYtm4tnf_&key=REDACTED",
+      "width": 1600,
+      "height": 1200,
+      "classification": "completed_project",
+      "pair_id": null,
+      "source_type": "google_places"
+    },
+    {
+      "local": "images/02-places.webp",
+      "source_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3noEiyLiPlQVuM_foyh5uPETvv4ofwVS7Wx7tgIkL0OzRcjaR3PV0oQDRfzVSbX1TiXgeqnan6Pi3Xy1RH1ilyls7R3PJM12GeF-MwJO--543hi_7BRNPcYbyFFJMD1N1wTrA7NuxdPwfp0mWYozLQjY9JGtDI4biExaxv_UUU_FJEGjNdv6jOcEJB4mlRj1FxMSa_d32Ov7YrNCsz8-jXukTx9Um2186U7JZD0X2vFcgkq-Z74DnGEcZpoqGPefrLdcvPHaJjCXq7BHoKs8w4qPqWkh4U8MraUaHatC5bsuadovFs5RN_ZUXqUQ_gTtq9VdGPl2zORec93sWHZBvz7m4sRypJtT5wArQ6wDC9Ltd8RupQbdZA42tnev3rQPR-YFb8jsE9jsYTCjAZ7scHG9TUDiHRLdaqDdjWwiqzaJA&key=REDACTED",
+      "width": 1200,
+      "height": 1600,
+      "classification": "completed_project",
+      "pair_id": null,
+      "source_type": "google_places"
+    },
+    {
+      "local": "images/03-places.webp",
+      "source_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3lw7P6iQsoofC_FZLbyAYmsBljOwCgLatsgGL5cAslByOfbfUyqdGp0eJ_qi5ukwjPduKsYeX0r9pT_gHGVJBf65cUPpZ1EoU-uONGG1p-wUdckS4agvvLfOOGLH-kYBVJ5eKBYOpP5uJWgbYSJpT7RgJNSrR9Qysq9_Mjde8EpLUJ9KppiWfEPuoQd2RXqGmCnGqsvAdo1rCF4uE64f4sdmTr2RGt5dPBXE6r0OdiXKL6B3BIJrQTQkUjJ9u1SR2HgYp8DXAwszdIAPR264rJkDZltTalwDb2yFIfQfj5wd9HHKoWBLFXZDmgxKcFlbKWnzm3OwIw-LQk_k0kf97q-NmMUy4ReqkY4FAb3eitJlXk5Nu2-2KZE7Fmueix0_uUQUSulvZlxfMKqg0gzJJtCI5j7jSKEw5-YpgNLb406beIqc-bpYZ8oVdECxQ&key=REDACTED",
+      "width": 1200,
+      "height": 1600,
+      "classification": "completed_project",
+      "pair_id": null,
+      "source_type": "google_places"
+    },
+    {
+      "local": "images/04-places.webp",
+      "source_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3kLv9xb8DObN5YtKJinCWZPYeQehudjmAlwtVyc5fSbwM2uJLfYoGTeSBTyy7GxQpcOPHqiVEXLY1BEcNPq3qlxSnydlldo9NJt8Qo-xaTZ_Ql3jlRFemR-UJPOgp7301LTWP-Q3lP1Xnzhr_P4v2yl_C864-fh6HIf-c3Tkqx2LaQgSgHH9aBd9A3siBIcxIUujGZQW9aYaLtX5ebZd20qFM27gPpfELCQiCM_-FJjTPrRT1YDDLlKQX63ORJm0FIQ80g5cWaq_s3MIz68fWBet2Fn12z4adfweICWj2dmGabNsDf1Pow2cob27c-ftzjRinBukfFLJ8qLW1Orq74UEMGHeUiGNdp0KktOqU3cBHNhhXux-qz95uDsh7EHgV5rAN17I7bAIQdIs-se_R9Tk3ghf6RBx6CHomAhDIDCZTRETCLHssMrD42Lug&key=REDACTED",
+      "width": 1600,
+      "height": 1200,
+      "classification": "completed_project",
+      "pair_id": null,
+      "source_type": "google_places"
+    },
+    {
+      "local": "images/05-places.webp",
+      "source_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3lo5TbI6a0j-8FPZd9-x-HB3aU-UUUy6mvEEbhONvPNolMErvkvRf489YMT80kOY_mV-tGv6DXGGUzAwkOa90f1NyCiejaQdquyWHsrdFn6E0Ff4twQIpcr1FUWavVihTLqvEPIkEfYNIEeaCwHELuYZz9P16KrhAj4gIzuAQsKR142hDkCTudinqGTyESjV81dDXXw5ElPxC_IC2y1BzlcGjN3LoNeQxp2W7RDeS6SzXVKokJUFJV16x1xkue7MyJn4lEHyNIHjGkjyIpz_9bx7--ckJ69sDILgUsmZ_12Ja7msRPUb27K77W_D_6JscPkTVT-k38EUEBRdfV3t4KpNwFMqcTkwx2CC7d6Kh0y6mQlQCw-gvURJjao6kKA4_CfwMny6rOF6WQBVhhigaaAQ1IylxrVk-kTdHfzf4ATLN4Qd7rHk19XCSlpU2NC&key=REDACTED",
+      "width": 1200,
+      "height": 1600,
+      "classification": "completed_project",
+      "pair_id": null,
+      "source_type": "google_places"
+    },
+    {
+      "local": "images/06-places.webp",
+      "source_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3l_w9F9fYHYXv96pizk0U3l8TNbRrR4rGUiJ8R9ZottjLKaTpwC-eIO3UvrwkDyXcw_uO3GVvuFjIESS3oV269Q-79KMOSdBB2a8fzVbV52APZW_8CgQx_X_8QJSz3vzdxELIp4DOJUXFsZqRlrq4KirC8P5y5Yigv1AkxHXq2z8qsJ57klJFJG9oliWLslHQMCAmvHtvP4GQfV8Jf17vLZNwalPNSvmG-IXrOZXKZnx1uTOfwJOsOXFAB2E2hjbBUi8LKEsBA2ePhtjRwLz8ON2WyMMJmi0d1OmvYnX0mAzP-qiPzVN4oHcBVX4wUa7Sw29koEBXu5QsmocDhKFmfX7F7tBf1L35DwZnqw5CuFunAEclp6PYywNk3cS-l_Rgj99EclqLYUJwK0UiNBzB2fG5t6OcXZaBP1p7-ec_dGFxD7gFEISgAQ8afy1UJB&key=REDACTED",
+      "width": 1200,
+      "height": 1600,
+      "classification": "completed_project",
+      "pair_id": null,
+      "source_type": "google_places"
+    },
+    {
+      "local": "images/07-places.webp",
+      "source_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3k9rIhlMl8OcW6FEx7kt42_1ad7bIyBkXUpgU9kMYnDMlZWrjJ16PWjky2RJ5tE1jIq0RLtn_mhRyj_FvPbnzIRY59fF6BkqjpCYwkvaKdqzbrHNn143q7S_xnyD5LesRpJWlqTieFamSWpHv80dB9I-KEEq67otJ2z0H4hwmAsD1I8ohHAbSbXjEafpvOJAf3aOI-UKqV7TYwJOZLOet7ttqVRkxZvNqWP_B2Cx_eloNXJoxv9T3ccLplxj3d7k91uHMW7_vjDP2rQ2wsFZGvuBJAWC4OmXztZnjoD66XIWQ454IUG6r_HW6FGbKQpIYSEDkJwFTtUmi1Acu6w42pFCR3Fxnq5yPpfEc_fUek7PzTMH9GIvVWdcos19oZkodk396aePluMjd7kRdLdP5vIYxiJg4VaCL0Ksk0RTXP8uQ&key=REDACTED",
+      "width": 1600,
+      "height": 1200,
+      "classification": "completed_project",
+      "pair_id": null,
+      "source_type": "google_places"
+    },
+    {
+      "local": "images/08-places.webp",
+      "source_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3m05ki9mCEWzzSovXi9DYFVuzRdjw8w8nrVVqOgpS2ll1kLXrxlHvnHJLMil0RxaWjWpmR6BuIIC84aoXDsrWSex23B1_YN-2DSzg8m0IoI5NUNEjEp_HARJX5UulOS9NFGiSQvAIOx8aOfBrbwxUzffA3774qXbD9GGlTM4VX_eimsbjt0s7YdAGn_uuZEF3xaSyGUze0pSI-4FyJKKhhDHTTcbwtop1rIW9AeEnZ20j6J0Rw6r_UIXpCqiJDyTk8tiCd9j_vCh-JHgzwFaBP7SEQpeV0GCkccwAIG_5L21YbsvTYNWglLZjjNvun3VO2Gqa3PofUwL9Z-4g9qRBoX4C7SV2lxJAkZnfWYis42WuGJxRlYXaht-isnb2kzoz0sPNxC26xrp3Fs-mget87w1HbC04rqFmcBqVjmkkw7l6C2&key=REDACTED",
+      "width": 1600,
+      "height": 1200,
+      "classification": "completed_project",
+      "pair_id": null,
+      "source_type": "google_places"
+    },
+    {
+      "local": "images/09-places.webp",
+      "source_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3kC1tuU_uj_7DPq9JooADRCXe8NSBLuDXAZbkUzKQNdON_Dhf1vPYODbffya9_YWTEFg1kX0mHVnzDTjs_q2pH6KLnGhg8Mh2vdJDKdVbtkOZsFcRUniN3tjNuOOaBFkIWzap8q8HsWxwXAOLi6VpyKXNILdgSVfG9zFnG_tGiZz9lDw4_k-yKvPS2lfuaYOb6x6KO_MLTeSkuHCwB3iWLd_aZQAIFUayQVTBZyZXlxEy6UP9hnj_IcmyZpF6QrxTizqQ028CzDe9yJSbE8JX4Tcl4fjqscMWG09jGfGj7VVzKVmGe_sWTr1kfX7VV8a1hpdd53_01PiwIWZjg168bMJzkOMdvS19EKkIg_baMVF2rKUXXVi_osuQjglGs7ZJxWnze-vJl_qA4nBui1gJhrP9FWxC4nkpUt6OniChtDHiyf5FIdo7PO_6Wzrzsn&key=REDACTED",
+      "width": 1600,
+      "height": 1200,
+      "classification": "completed_project",
+      "pair_id": null,
+      "source_type": "google_places"
+    },
+    {
+      "local": "images/10-places.webp",
+      "source_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3lxZvmiuz2H8BjAa8sGTpE-Uw53pr-sinCm4h6ySh3WILyoXyu8gL5FrNugctZAfqemoNCcB-DHnJwqXV1sLgaO6x9K_uZlDNult6UiiELDREp5N_oVlN8pfXfdvJs7bjIyUXJLb45ez-GhEoFXhjuNgmNWAsZ2SU7J_-xWFDqiFDuLQuO6D_vW4rr5YuokjOZFtjFyKQ3_aDi88Ma77sAwas1qoXbZWtl1sRLcyw-Dyw157DMfHvNoWWbKWiT41iqpXEcd9oAIGKFHLqSfsUd__ydtGzsQ-Kb31NwAsydNQa129lQ_rogJRFTonCIb0Q5ci5WmIBp5h0AR4_BYDPMBHsnGbH3Gplpj4EWoK28AwniSDnvpCjS_M62V6UMTcDATAaXaF-5ny0HsxYIfegqMZ1N0NYclZITkV1w&key=REDACTED",
+      "width": 1200,
+      "height": 1600,
+      "classification": "completed_project",
+      "pair_id": null,
+      "source_type": "google_places"
+    }
+  ],
+  "reviews": [
+    {
+      "text": "Outstanding Decorator and very professional indeed. Brian is more than a \"Good Decorator\" and throughout a pleasure to deal with. He is extremely neat and very tidy completing the job in timescale given which was so helpful. The quality and finish of his painting and papering superb and he diligently worked away completing 3 rooms to my complete satisfaction. The rooms look so much fresher now having had total revamp and definitely would not hesitate to recommend. Good Decorator if you are looking around for a first - rate job to be done. I shall without doubt be back in touch again when need arises. Oh and he's s great singer too 😂",
+      "reviewer": "Linda",
+      "rating": 5
+    },
+    {
+      "text": "Brian has just finished painting my  house to include the hall and staircase, living room/dining room and kitchen. He did a fantastic job and is a first class decorator. Brian is very reliable, spotlessly clean worker and is competitively priced.\nI have engaged the services of many decorators over the years and Brian in my opinion is by far the best.\nI would not hesitate to recommend him .",
+      "reviewer": "Helena",
+      "rating": 5
+    },
+    {
+      "text": "Brian and Chris done an amazing job on my living room and Hallway. Really transformed the place. Brian was efficient with communication start to finish. Once dry the paint on a small area had dried patchy. One message to Brian and he was out within the hour to sort it. Would highly recommend and will use them again in the future.",
+      "reviewer": "Jodie",
+      "rating": 5
+    },
+    {
+      "text": "We used Brian to paint our hall (3 floors), bathroom and wallpaper our bedroom. His quote was reasonable, the job was completed in the agreed time and his work was of a very high standard. We were very pleased overall and wouldn’t hesitate to recommend him, and would certainly use him again.",
+      "reviewer": "Bob",
+      "rating": 5
+    },
+    {
+      "text": "Brian has painted all the rooms in our flat to a very high standard. Especially pleased by his good work on the Victorian cornices and ceilings. All Brian’s work has been excellent, a reliable and trustworthy decorator. We would happily recommend him!",
+      "reviewer": "Jim",
+      "rating": 5
+    }
+  ],
+  "social": {
+    "facebook": null,
+    "instagram": null,
+    "youtube": null,
+    "tiktok": null
+  },
+  "gallery_layout": "completed_project_gallery",
+  "photo_classification_summary": {
+    "completed_project": 10
+  },
+  "brand": {
+    "colours": [],
+    "logo_url": null,
+    "logo_local": null
+  },
+  "source_urls": [
+    "https://maps.google.com/?cid=2307249476113286934",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3kyjp11YOka9BClZeXjYmFfnDLKZ3iLoNItnPEJtCugcqcoRUCFWVAwbN1AJu2pXWDmeSIFIz2L45oMr0FAZNlYc22Qf5en9sizUO6vWql2ZlM5UpCgTrnm9dmVd1ifJYcrQInGzdCPml0YC1DHiUejjKqXz0Wt6yky-zC94ou3JQzcWOJDjNu5EkBUdfBFNYdl-QE16TgqmCefOWbXPxuqvJZRlDSwYGplfEfHSAfA0-eqz4kREoUmGQ3MfidiC0ontraQxc34P8Z_0ItTQm1NsroHu7ovzZdwtQTIGPliGuCi6qGf-9yB5KJJuPwidIbnDwuEJWgnxyMrPZtkibwhWtPoR56IoKsnUTI61K18ygPG00Ed3MUlHiXhpWFlyWR4v9J-NJgxpDEX5mwraT4tM_YAgsWv1rV9EqXK3JbjDAbJKexT9HRAYtm4tnf_&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3noEiyLiPlQVuM_foyh5uPETvv4ofwVS7Wx7tgIkL0OzRcjaR3PV0oQDRfzVSbX1TiXgeqnan6Pi3Xy1RH1ilyls7R3PJM12GeF-MwJO--543hi_7BRNPcYbyFFJMD1N1wTrA7NuxdPwfp0mWYozLQjY9JGtDI4biExaxv_UUU_FJEGjNdv6jOcEJB4mlRj1FxMSa_d32Ov7YrNCsz8-jXukTx9Um2186U7JZD0X2vFcgkq-Z74DnGEcZpoqGPefrLdcvPHaJjCXq7BHoKs8w4qPqWkh4U8MraUaHatC5bsuadovFs5RN_ZUXqUQ_gTtq9VdGPl2zORec93sWHZBvz7m4sRypJtT5wArQ6wDC9Ltd8RupQbdZA42tnev3rQPR-YFb8jsE9jsYTCjAZ7scHG9TUDiHRLdaqDdjWwiqzaJA&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3lw7P6iQsoofC_FZLbyAYmsBljOwCgLatsgGL5cAslByOfbfUyqdGp0eJ_qi5ukwjPduKsYeX0r9pT_gHGVJBf65cUPpZ1EoU-uONGG1p-wUdckS4agvvLfOOGLH-kYBVJ5eKBYOpP5uJWgbYSJpT7RgJNSrR9Qysq9_Mjde8EpLUJ9KppiWfEPuoQd2RXqGmCnGqsvAdo1rCF4uE64f4sdmTr2RGt5dPBXE6r0OdiXKL6B3BIJrQTQkUjJ9u1SR2HgYp8DXAwszdIAPR264rJkDZltTalwDb2yFIfQfj5wd9HHKoWBLFXZDmgxKcFlbKWnzm3OwIw-LQk_k0kf97q-NmMUy4ReqkY4FAb3eitJlXk5Nu2-2KZE7Fmueix0_uUQUSulvZlxfMKqg0gzJJtCI5j7jSKEw5-YpgNLb406beIqc-bpYZ8oVdECxQ&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3kLv9xb8DObN5YtKJinCWZPYeQehudjmAlwtVyc5fSbwM2uJLfYoGTeSBTyy7GxQpcOPHqiVEXLY1BEcNPq3qlxSnydlldo9NJt8Qo-xaTZ_Ql3jlRFemR-UJPOgp7301LTWP-Q3lP1Xnzhr_P4v2yl_C864-fh6HIf-c3Tkqx2LaQgSgHH9aBd9A3siBIcxIUujGZQW9aYaLtX5ebZd20qFM27gPpfELCQiCM_-FJjTPrRT1YDDLlKQX63ORJm0FIQ80g5cWaq_s3MIz68fWBet2Fn12z4adfweICWj2dmGabNsDf1Pow2cob27c-ftzjRinBukfFLJ8qLW1Orq74UEMGHeUiGNdp0KktOqU3cBHNhhXux-qz95uDsh7EHgV5rAN17I7bAIQdIs-se_R9Tk3ghf6RBx6CHomAhDIDCZTRETCLHssMrD42Lug&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3lo5TbI6a0j-8FPZd9-x-HB3aU-UUUy6mvEEbhONvPNolMErvkvRf489YMT80kOY_mV-tGv6DXGGUzAwkOa90f1NyCiejaQdquyWHsrdFn6E0Ff4twQIpcr1FUWavVihTLqvEPIkEfYNIEeaCwHELuYZz9P16KrhAj4gIzuAQsKR142hDkCTudinqGTyESjV81dDXXw5ElPxC_IC2y1BzlcGjN3LoNeQxp2W7RDeS6SzXVKokJUFJV16x1xkue7MyJn4lEHyNIHjGkjyIpz_9bx7--ckJ69sDILgUsmZ_12Ja7msRPUb27K77W_D_6JscPkTVT-k38EUEBRdfV3t4KpNwFMqcTkwx2CC7d6Kh0y6mQlQCw-gvURJjao6kKA4_CfwMny6rOF6WQBVhhigaaAQ1IylxrVk-kTdHfzf4ATLN4Qd7rHk19XCSlpU2NC&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3l_w9F9fYHYXv96pizk0U3l8TNbRrR4rGUiJ8R9ZottjLKaTpwC-eIO3UvrwkDyXcw_uO3GVvuFjIESS3oV269Q-79KMOSdBB2a8fzVbV52APZW_8CgQx_X_8QJSz3vzdxELIp4DOJUXFsZqRlrq4KirC8P5y5Yigv1AkxHXq2z8qsJ57klJFJG9oliWLslHQMCAmvHtvP4GQfV8Jf17vLZNwalPNSvmG-IXrOZXKZnx1uTOfwJOsOXFAB2E2hjbBUi8LKEsBA2ePhtjRwLz8ON2WyMMJmi0d1OmvYnX0mAzP-qiPzVN4oHcBVX4wUa7Sw29koEBXu5QsmocDhKFmfX7F7tBf1L35DwZnqw5CuFunAEclp6PYywNk3cS-l_Rgj99EclqLYUJwK0UiNBzB2fG5t6OcXZaBP1p7-ec_dGFxD7gFEISgAQ8afy1UJB&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3k9rIhlMl8OcW6FEx7kt42_1ad7bIyBkXUpgU9kMYnDMlZWrjJ16PWjky2RJ5tE1jIq0RLtn_mhRyj_FvPbnzIRY59fF6BkqjpCYwkvaKdqzbrHNn143q7S_xnyD5LesRpJWlqTieFamSWpHv80dB9I-KEEq67otJ2z0H4hwmAsD1I8ohHAbSbXjEafpvOJAf3aOI-UKqV7TYwJOZLOet7ttqVRkxZvNqWP_B2Cx_eloNXJoxv9T3ccLplxj3d7k91uHMW7_vjDP2rQ2wsFZGvuBJAWC4OmXztZnjoD66XIWQ454IUG6r_HW6FGbKQpIYSEDkJwFTtUmi1Acu6w42pFCR3Fxnq5yPpfEc_fUek7PzTMH9GIvVWdcos19oZkodk396aePluMjd7kRdLdP5vIYxiJg4VaCL0Ksk0RTXP8uQ&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3m05ki9mCEWzzSovXi9DYFVuzRdjw8w8nrVVqOgpS2ll1kLXrxlHvnHJLMil0RxaWjWpmR6BuIIC84aoXDsrWSex23B1_YN-2DSzg8m0IoI5NUNEjEp_HARJX5UulOS9NFGiSQvAIOx8aOfBrbwxUzffA3774qXbD9GGlTM4VX_eimsbjt0s7YdAGn_uuZEF3xaSyGUze0pSI-4FyJKKhhDHTTcbwtop1rIW9AeEnZ20j6J0Rw6r_UIXpCqiJDyTk8tiCd9j_vCh-JHgzwFaBP7SEQpeV0GCkccwAIG_5L21YbsvTYNWglLZjjNvun3VO2Gqa3PofUwL9Z-4g9qRBoX4C7SV2lxJAkZnfWYis42WuGJxRlYXaht-isnb2kzoz0sPNxC26xrp3Fs-mget87w1HbC04rqFmcBqVjmkkw7l6C2&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3kC1tuU_uj_7DPq9JooADRCXe8NSBLuDXAZbkUzKQNdON_Dhf1vPYODbffya9_YWTEFg1kX0mHVnzDTjs_q2pH6KLnGhg8Mh2vdJDKdVbtkOZsFcRUniN3tjNuOOaBFkIWzap8q8HsWxwXAOLi6VpyKXNILdgSVfG9zFnG_tGiZz9lDw4_k-yKvPS2lfuaYOb6x6KO_MLTeSkuHCwB3iWLd_aZQAIFUayQVTBZyZXlxEy6UP9hnj_IcmyZpF6QrxTizqQ028CzDe9yJSbE8JX4Tcl4fjqscMWG09jGfGj7VVzKVmGe_sWTr1kfX7VV8a1hpdd53_01PiwIWZjg168bMJzkOMdvS19EKkIg_baMVF2rKUXXVi_osuQjglGs7ZJxWnze-vJl_qA4nBui1gJhrP9FWxC4nkpUt6OniChtDHiyf5FIdo7PO_6Wzrzsn&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3lxZvmiuz2H8BjAa8sGTpE-Uw53pr-sinCm4h6ySh3WILyoXyu8gL5FrNugctZAfqemoNCcB-DHnJwqXV1sLgaO6x9K_uZlDNult6UiiELDREp5N_oVlN8pfXfdvJs7bjIyUXJLb45ez-GhEoFXhjuNgmNWAsZ2SU7J_-xWFDqiFDuLQuO6D_vW4rr5YuokjOZFtjFyKQ3_aDi88Ma77sAwas1qoXbZWtl1sRLcyw-Dyw157DMfHvNoWWbKWiT41iqpXEcd9oAIGKFHLqSfsUd__ydtGzsQ-Kb31NwAsydNQa129lQ_rogJRFTonCIb0Q5ci5WmIBp5h0AR4_BYDPMBHsnGbH3Gplpj4EWoK28AwniSDnvpCjS_M62V6UMTcDATAaXaF-5ny0HsxYIfegqMZ1N0NYclZITkV1w&key=REDACTED"
+  ],
+  "notes": [
+    "owner_name not found in public sources",
+    "email not found in public sources",
+    "possible_contact_name \"Outstanding\" from 1 review mention; not used in copy",
+    "contactability=NEEDS_MANUAL_REVIEW",
+    "no email found; UK mobile present, requires manual WhatsApp contact",
+    "Google address city (Coatbridge) differs from prospect region (Glasgow)",
+    "Photo discovery: 10/10 selected (Enough photos for photo-led layout)"
+  ],
+  "missing_fields": [
+    "owner_name",
+    "email",
+    "facebook",
+    "instagram"
+  ],
+  "invalid_website_candidates": [],
+  "website_url_validation": {
+    "validated_at": "2026-06-13T19:26:25.537Z",
+    "issue": "empty",
+    "note": "website_url empty",
+    "previous_url": null
+  },
+  "prospect_region": "Glasgow",
+  "location_validation_status": "LOCATION_MISMATCH_NEEDS_REVIEW",
+  "directory_probes": [
+    {
+      "platform": "checkatrade",
+      "candidate_url": null,
+      "status": "NOT_FOUND",
+      "confidence": "rejected",
+      "title": null,
+      "rating": null,
+      "review_count": null,
+      "member_since": null,
+      "badges": [],
+      "review_snippets": [],
+      "phone_visible": false,
+      "verification_reasons": [],
+      "identity_match_count": 0,
+      "identity_match_signals": [],
+      "homonym_url": null,
+      "search_query": "site:checkatrade.com \"Brian McGuinness Decorators\" Coatbridge ML5 5HD ML5",
+      "probed": true,
+      "note": "candidates_exhausted"
+    },
+    {
+      "platform": "trustatrader",
+      "candidate_url": "https://www.trustatrader.com/",
+      "status": "NOT_FOUND_HOMONYM",
+      "confidence": "rejected",
+      "title": "Find Trusted Traders and Local Tradesmen | TrustATrader",
+      "rating": null,
+      "review_count": null,
+      "member_since": null,
+      "badges": [],
+      "review_snippets": [],
+      "phone_visible": false,
+      "verification_reasons": [],
+      "identity_match_count": 0,
+      "identity_match_signals": [],
+      "homonym_url": "https://www.trustatrader.com/",
+      "search_query": "site:trustatrader.com \"Brian McGuinness Decorators\" Coatbridge ML5 5HD ML5",
+      "probed": true,
+      "note": "identity_homonym"
+    },
+    {
+      "platform": "yell",
+      "candidate_url": "https://www.yell.com/biz/brian-mcguinness-decorators-coatbridge-ml5-5hd/",
+      "status": "FOUND_FROM_SNIPPET",
+      "confidence": "low",
+      "title": null,
+      "rating": null,
+      "review_count": null,
+      "member_since": null,
+      "badges": [],
+      "review_snippets": [],
+      "phone_visible": false,
+      "verification_reasons": [],
+      "identity_match_count": 1,
+      "identity_match_signals": [
+        "exact_name"
+      ],
+      "homonym_url": null,
+      "search_query": "site:yell.com \"Brian McGuinness Decorators\" Coatbridge ML5 5HD ML5",
+      "probed": true,
+      "note": "snippet_unverified_single_signal"
+    },
+    {
+      "platform": "mybuilder",
+      "candidate_url": "https://www.mybuilder.com/profile/brian-mcguinness-decorators",
+      "status": "FOUND_FROM_SNIPPET",
+      "confidence": "low",
+      "title": null,
+      "rating": null,
+      "review_count": null,
+      "member_since": null,
+      "badges": [],
+      "review_snippets": [],
+      "phone_visible": false,
+      "verification_reasons": [],
+      "identity_match_count": 1,
+      "identity_match_signals": [
+        "exact_name"
+      ],
+      "homonym_url": null,
+      "search_query": "site:mybuilder.com \"Brian McGuinness Decorators\" Coatbridge ML5 5HD ML5",
+      "probed": true,
+      "note": "snippet_unverified_single_signal"
+    },
+    {
+      "platform": "rated_people",
+      "candidate_url": null,
+      "status": "NOT_FOUND",
+      "confidence": "rejected",
+      "title": null,
+      "rating": null,
+      "review_count": null,
+      "member_since": null,
+      "badges": [],
+      "review_snippets": [],
+      "phone_visible": false,
+      "verification_reasons": [],
+      "identity_match_count": 0,
+      "identity_match_signals": [],
+      "homonym_url": null,
+      "search_query": "site:ratedpeople.com \"Brian McGuinness Decorators\" Coatbridge ML5 5HD ML5",
+      "probed": true,
+      "note": "candidates_exhausted"
+    },
+    {
+      "platform": "bark",
+      "candidate_url": null,
+      "status": "NOT_FOUND",
+      "confidence": "rejected",
+      "title": null,
+      "rating": null,
+      "review_count": null,
+      "member_since": null,
+      "badges": [],
+      "review_snippets": [],
+      "phone_visible": false,
+      "verification_reasons": [],
+      "identity_match_count": 0,
+      "identity_match_signals": [],
+      "homonym_url": null,
+      "search_query": "site:bark.com \"Brian McGuinness Decorators\" Coatbridge ML5 5HD ML5",
+      "probed": true,
+      "note": "candidates_exhausted"
+    },
+    {
+      "platform": "houzz",
+      "candidate_url": null,
+      "status": "NOT_FOUND",
+      "confidence": "rejected",
+      "title": null,
+      "rating": null,
+      "review_count": null,
+      "member_since": null,
+      "badges": [],
+      "review_snippets": [],
+      "phone_visible": false,
+      "verification_reasons": [],
+      "identity_match_count": 0,
+      "identity_match_signals": [],
+      "homonym_url": null,
+      "search_query": "site:houzz.co.uk \"Brian McGuinness Decorators\" Coatbridge ML5 5HD ML5",
+      "probed": true,
+      "note": "candidates_exhausted"
+    },
+    {
+      "platform": "trustpilot",
+      "candidate_url": "https://www.trustpilot.com/review/brian-mcguinness-decorators",
+      "status": "FOUND_FROM_SNIPPET",
+      "confidence": "low",
+      "title": null,
+      "rating": null,
+      "review_count": null,
+      "member_since": null,
+      "badges": [],
+      "review_snippets": [],
+      "phone_visible": false,
+      "verification_reasons": [],
+      "identity_match_count": 1,
+      "identity_match_signals": [
+        "exact_name"
+      ],
+      "homonym_url": null,
+      "search_query": "site:uk.trustpilot.com \"Brian McGuinness Decorators\" Coatbridge ML5 5HD ML5",
+      "probed": true,
+      "note": "snippet_unverified_single_signal"
+    },
+    {
+      "platform": "myjobquote",
+      "candidate_url": null,
+      "status": "NOT_FOUND",
+      "confidence": "rejected",
+      "title": null,
+      "rating": null,
+      "review_count": null,
+      "member_since": null,
+      "badges": [],
+      "review_snippets": [],
+      "phone_visible": false,
+      "verification_reasons": [],
+      "identity_match_count": 0,
+      "identity_match_signals": [],
+      "homonym_url": null,
+      "search_query": "site:myjobquote.co.uk \"Brian McGuinness Decorators\" Coatbridge ML5 5HD ML5",
+      "probed": true,
+      "note": "candidates_exhausted"
+    }
+  ],
+  "enrichment": {
+    "enriched_at": "2026-06-13T19:26:39.824Z",
+    "email_domain_checked": false,
+    "website_discovery_run": true
+  },
+  "lead_validity": {
+    "lead_validity_status": "INSUFFICIENT_EVIDENCE",
+    "lead_validity_reason": "Enrichment incomplete or source confidence too low",
+    "pitch_type": "manual_review",
+    "website_status": "NO_WEBSITE",
+    "website_url": null,
+    "website_discovery_classification": null,
+    "email_domain_website": null,
+    "source_confidence_summary": {
+      "overall": "low",
+      "verified_platforms": [],
+      "rejected_platforms": [
+        "google_places"
+      ],
+      "notes": [
+        "No verified sources with medium or high confidence",
+        "1 source(s) rejected for low confidence"
+      ]
+    },
+    "ready_for_build": false,
+    "ready_for_design": false,
+    "ready_for_pitch": false,
+    "manual_review_required": true,
+    "has_real_website": false,
+    "truly_no_website": true,
+    "warnings": [
+      "LOCATION_MISMATCH_NEEDS_REVIEW",
+      "contactability=NEEDS_MANUAL_REVIEW",
+      "no email found; UK mobile present, requires manual WhatsApp contact",
+      "Location mismatch: LOCATION_MISMATCH_NEEDS_REVIEW - pitch blocked until resolved",
+      "Source enrichment not complete - run enrich:lead before build",
+      "Source confidence is low - lean site or manual review recommended"
+    ],
+    "manual_asset_status": "OK",
+    "pause_before_open_design": false,
+    "manual_asset_folder": "briefs/brian-mcguinness-decorators/images/manual/"
+  },
+  "source_quality": {
+    "source_quality_status": "FAIL",
+    "source_quality_reason": "Source enrichment not complete",
+    "website_url_validated": true,
+    "email_domain_checked": true,
+    "enrichment_complete": false,
+    "logo_discovery_attempted": true,
+    "photo_discovery_attempted": true,
+    "directory_probes": {
+      "attempted": true,
+      "platforms_probed": 9,
+      "verified_profiles": 0,
+      "unverified_profiles": 3,
+      "blocked": []
+    },
+    "warnings": [
+      "Lead validity requires manual review",
+      "Directory probes ran but no verified third-party profiles found"
+    ],
+    "blockers": [
+      "Source enrichment not complete"
+    ]
+  }
+}

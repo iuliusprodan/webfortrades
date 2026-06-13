@@ -1,0 +1,42 @@
+{
+  "slug": "brian-mcguinness-decorators",
+  "extends": "CLAUDE.md banned-phrase reference + scripts/copy_voice_constants.ts (authoritative). This file adds lead-specific decisions only.",
+  "register": "calm, traditional, dependable British English; a craftsman talking plainly to a homeowner about their house. Short sentences. Concrete nouns (cornice, ceiling, staircase, paper, brushwork, dust sheets), not boast adjectives.",
+  "naming": {
+    "use_name": "Brian",
+    "decision": "Use Brian's first name freely in copy. Basis: the business is 'Brian McGuinness Decorators' and Brian is named by name in all 5 strongest reviews (Linda, Helena, Jodie, Bob, Jim). This deliberately overrides brief.json contact_name_usage_allowed=false and possible_contact_name 'Outstanding' - that flag fired on a false extraction: 'Outstanding' is the first word of Linda's review ('Outstanding Decorator...'), not a name. The actual proprietor name 'Brian' is in the business name and densely review-evidenced. Same judgment-call basis as the Kyle Knowles / Damo ARCH-2 precedent.",
+    "second_name": "Chris may be named lightly as someone Brian works with ('Brian and Chris', 'Brian, sometimes with Chris'). Basis: reviews[2] (Jodie) 'Brian and Chris done an amazing job'. Do NOT call Chris a co-owner or invent a crew size; Chris is named once, in one review.",
+    "third_vs_first_person": "Default to a light third person ('Brian paints the cornices first...'). A first-person line is allowed only if strictly factual (no invented backstory, no specific years). There is no self-description from Brian in evidence, so do not write an owner-monologue."
+  },
+  "the_angle": {
+    "name": "the decorator you trust with a period home",
+    "how_to_use": "Lead with it, state it as fact. Frame: Brian decorates period and tenement homes properly - Victorian cornices and ceilings, halls and staircases over several floors, painting and wallpaper - to a high standard, and leaves the place clean and tidy. Anchored to reviews[4] (Jim, 'Victorian cornices and ceilings ... very high standard ... reliable and trustworthy'), reviews[3] (Bob, 'hall (3 floors) ... wallpaper our bedroom'), reviews[1] (Helena, 'hall and staircase ... spotlessly clean worker'), reviews[0] (Linda, 'painting and papering superb ... neat and very tidy'). Acceptable phrasings: 'work that respects an old house', 'Victorian cornices and ceilings', 'halls and staircases over several floors', 'painting and paper-hanging', 'left clean and tidy'. Do not invent property types, periods or outcomes beyond what the reviews state."
+  },
+  "proof_rules": {
+    "google": "State exactly: '5.0 on Google' and '98 Google reviews' (both sourced=true in brief.json: google_rating 5, google_review_count 98, google_review_count_sourced true). '5.0 from 98 reviews' and '98 local reviews' are acceptable variants. Attribute the rating to Google. Render the rating as '5.0' (not '5') so it reads as a rating.",
+    "no_other_proof": "Do NOT cite Yell / MyBuilder / Trustpilot - those probes are low-confidence, exact-name single-signal, unverified (brief.json directory_probes); TrustATrader was a rejected homonym; Checkatrade/RatedPeople/Bark/Houzz/MyJobQuote were NOT_FOUND. Do NOT claim any certification, membership, insurance, or 'qualified/certified/fully insured' - none verified.",
+    "no_invented_numbers": "No years-trading number (none evidenced). No 'X jobs/homes decorated' count. Sourced stats only: 5.0 rating, 98 reviews, Monday-to-Friday availability. Never a photo count."
+  },
+  "geo_honesty": {
+    "rule": "The registered base is Coatbridge ML5 5HD (North Lanarkshire), about 10 miles east of Glasgow city centre - NOT Glasgow city centre. brief.json carries a LOCATION_MISMATCH_NEEDS_REVIEW flag (Google city Coatbridge differs from prospect region Glasgow). Frame coverage honestly: based in Coatbridge, covers North Lanarkshire and the east of Glasgow. Never claim a Glasgow city-centre base or address. Evidenced base = Coatbridge ML5; surrounding North Lanarkshire towns (Airdrie, Bargeddie, Bellshill, Coatdyke, Calderbank) and east-Glasgow districts (Glasgow east end, Baillieston, Easterhouse, Shettleston) are UK-geographic derivations from ML5 and must stay plausible for a one-van trade - flag them as derived, not over-claimed."
+  },
+  "services_discipline": {
+    "real_only": "Four real services: Period and heritage decorating; Interior painting; Wallpaper and paper-hanging; Halls, stairs and landings. All four are review-evidenced.",
+    "banned_service": "Do NOT list 'Bathroom installations' (brief.json services_meta) - it is a misread of Bob's review where 'bathroom' is a room Brian PAINTED, not a bathroom he fitted. Brian paints bathrooms; he does not install them.",
+    "no_dupes": "Do not list 'painters and decorators' / 'Painting and decorating' as separate services - that is the trade itself, not multiple services."
+  },
+  "review_attribution": "First name + 'Google review' (e.g. 'Jim, Google review', 'Bob, Google review', 'Helena, Google review', 'Linda, Google review'). No reviewer first name as a section headline (the 'Steve' anti-pattern). Every named person in a quote is a customer's own first name (Linda, Helena, Jodie, Bob, Jim) and matches the brief reviews; Brian and Chris are the only business-side names. Long reviews may be trimmed to the relevant clause, but each printed excerpt is verbatim (no paraphrase inside quote marks); drop the emoji and the singing aside from Linda's review.",
+  "banned_for_this_business": [
+    "any phrase on the CLAUDE.md / copy_voice_constants.ts lists (generic, provenance, meta-provenance, stat sub-labels)",
+    "'decorating done right' / 'painting done properly' / 'your local decorating experts' as a hero or standalone slogan (generic-trade filler)",
+    "'no job too big or small', 'competitive prices', 'professional service', 'quality you can rely on', 'we pride ourselves', 'satisfaction guaranteed', 'tailored solutions', 'second to none'",
+    "bathroom installation/fitting as a service (a misread of Bob's review)",
+    "claiming a Glasgow city-centre base/address; the street address '2 Seamill Way' anywhere public; west-Glasgow or national coverage",
+    "first-person claims of qualifications, insurance, or years trading; any owner backstory monologue",
+    "meta lines like 'customers mention' / 'reviews describe' - state the thing directly instead",
+    "calling Chris a co-owner or inventing a team/crew size"
+  ],
+  "allowed_words_from_reviews_in_quotes_only": "Words like 'professional', 'outstanding', 'first class', 'first-rate', 'competitively priced', 'fantastic', 'amazing', 'superb' appear in real review text. They are fine INSIDE attributed verbatim quotes, but must NOT appear in Brian's own/site prose (CLAUDE.md salesy ban).",
+  "punctuation": "No em/en dashes anywhere. The review quotes use ' - ' hyphens and commas; one verbatim quote (Linda) contains a smart apostrophe and would otherwise carry an emoji - the emoji and the unrelated singing clause are dropped, the kept text stays verbatim. Use ' - ', comma, or full stop. British spelling (colour, neighbouring, papering, plasterwork).",
+  "cta_language": "Quote-only sticky and primary CTA: 'Get a quote'. Secondary: 'Call Brian' / the number. Never put the phone in the sticky CTA (sticky_cta check)."
+}

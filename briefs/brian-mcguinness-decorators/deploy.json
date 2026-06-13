@@ -1,0 +1,31 @@
+{
+  "slug": "brian-mcguinness-decorators",
+  "updated_at": "2026-06-13T19:42:35.604Z",
+  "preferred_alias": "brian-mcguinness-decorators",
+  "deployment_url": "https://brian-mcguinness-decorators-i30up7g7u-iulius-projects-0cb33a7b.vercel.app",
+  "verified_url": "https://brian-mcguinness-decorators.vercel.app",
+  "final_url": "https://brian-mcguinness-decorators.vercel.app",
+  "alias_status": "VERIFIED",
+  "candidates": [
+    {
+      "hostname": "brian-mcguinness-decorators",
+      "url": "https://brian-mcguinness-decorators.vercel.app",
+      "preflight": "already_ours",
+      "detail": "Build marker brian-mcguinness-decorators:20260613-1",
+      "assign": "alias_assigned",
+      "verify": "verified"
+    }
+  ],
+  "verification": {
+    "ok": true,
+    "httpStatus": 200,
+    "markerFound": true,
+    "businessNameFound": true,
+    "phoneFound": true,
+    "marker": {
+      "buildId": "brian-mcguinness-decorators:20260613-1",
+      "slug": "brian-mcguinness-decorators"
+    },
+    "errors": []
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "slug": "brian-mcguinness-decorators",
+  "path": "B (Claude-direct)",
+  "frozen_input_tag": "brian-mcguinness-decorators-brief-frozen",
+  "business_angle": "Brian McGuinness is the Coatbridge and east-Glasgow decorator trusted with period and heritage homes - Victorian cornices and ceilings, tenement and period flats, halls and staircases over several floors - painting and wallpaper done to a high standard, clean and tidy, by the same hands every time.",
+  "why_this_trader_wins": "The reviews repeatedly describe the same specialism that most general decorators avoid: Jim's flat was painted to a very high standard with particular praise for the Victorian cornices and ceilings; Bob's job was a hall across three floors plus wallpapering a bedroom; Helena's was a whole house including the hall and staircase; Linda's was painting and papering across three rooms. This is careful period-property decorating - intact original plasterwork, multi-floor hall/stair/landing runs, and paper-hanging - not quick repaints. It is backed by an unusually strong 5.0 on Google from 98 reviews and the recurring words reliable, trustworthy, neat and tidy.",
+  "target_customer": "Coatbridge, North Lanarkshire and east-Glasgow homeowners (Airdrie, Bargeddie, Bellshill, Coatbridge, the Glasgow east end and the surrounding ML and east-end postcodes) who own a period or tenement home and want the cornices, ceilings, halls and staircases painted and papered properly, by a decorator they can trust to be clean, tidy and reliable.",
+  "page_single_job": "Get that homeowner to request a quote (or call) for a painting, wallpapering or period-decorating job.",
+  "distinctive_angle": "period-and-heritage-home-decorating-cornices-and-multi-floor-halls",
+  "customer_praise_themes": [
+    {"theme": "period plasterwork: Victorian cornices and ceilings done well", "evidence": "brief.json reviews[4] (Jim): 'painted all the rooms in our flat to a very high standard. Especially pleased by his good work on the Victorian cornices and ceilings'"},
+    {"theme": "multi-floor hall, staircase and landing runs", "evidence": "brief.json reviews[3] (Bob): 'paint our hall (3 floors), bathroom and wallpaper our bedroom'; reviews[1] (Helena): 'painting my house to include the hall and staircase'; reviews[2] (Jodie): 'living room and Hallway'"},
+    {"theme": "painting and wallpaper / paper-hanging", "evidence": "brief.json reviews[0] (Linda): 'the quality and finish of his painting and papering superb'; reviews[3] (Bob): 'wallpaper our bedroom'"},
+    {"theme": "neat, tidy and clean worker", "evidence": "brief.json reviews[0] (Linda): 'extremely neat and very tidy'; reviews[1] (Helena): 'spotlessly clean worker'"},
+    {"theme": "reliable and trustworthy, finished to the timescale agreed", "evidence": "brief.json reviews[4] (Jim): 'a reliable and trustworthy decorator'; reviews[1] (Helena): 'very reliable'; reviews[0] (Linda): 'completing the job in timescale given'; reviews[3] (Bob): 'the job was completed in the agreed time'"},
+    {"theme": "puts a problem right quickly, repeat custom", "evidence": "brief.json reviews[2] (Jodie): 'a small area had dried patchy. One message to Brian and he was out within the hour to sort it ... will use them again'; reviews[0] (Linda): 'I shall without doubt be back in touch again'"}
+  ],
+  "named_people": [
+    {"name": "Brian", "role": "proprietor / painter and decorator", "usage": "approved", "basis": "business_name is 'Brian McGuinness Decorators' (brief.json business_name) and Brian is named by name in all 5 of the strongest reviews (Linda, Helena, Jodie, Bob, Jim). This overrides brief.json contact_name_usage_allowed=false, which fired on a FALSE extraction - the possible_contact_name 'Outstanding' is the first word of Linda's review ('Outstanding Decorator...'), not a real name. The actual proprietor name 'Brian' is in the business name itself and densely review-evidenced. Same judgment-call basis as the Kyle Knowles / Damo ARCH-2 precedent."},
+    {"name": "Chris", "role": "works alongside Brian", "usage": "approved-light", "basis": "brief.json reviews[2] (Jodie): 'Brian and Chris done an amazing job'. Chris is named once, as someone Brian works with. Usable as 'Brian and Chris' / 'Brian, sometimes with Chris' but not as a co-owner or to invent a team size. Keep it light and factual."}
+  ],
+  "strongest_review_quote": {
+    "text": "Brian has painted all the rooms in our flat to a very high standard. Especially pleased by his good work on the Victorian cornices and ceilings. All Brian's work has been excellent, a reliable and trustworthy decorator. We would happily recommend him!",
+    "author": "Jim",
+    "source": "google",
+    "source_ref": "brief.json reviews[4]"
+  },
+  "strongest_proof_source": {
+    "platform": "google",
+    "metric": "5.0 rating from 98 reviews",
+    "url": "https://maps.google.com/?cid=2307249476113286934",
+    "source_ref": "brief.json google_rating, google_review_count, google_maps_url"
+  },
+  "real_services": [
+    {"name": "Period and heritage decorating", "evidence": "reviews[4] Jim (Victorian cornices and ceilings, flat, very high standard); photos[] period rooms with ornate cornice/coving and ceiling roses"},
+    {"name": "Interior painting", "evidence": "reviews[1] Helena (whole house: hall, staircase, living/dining room, kitchen); reviews[0] Linda (3 rooms); reviews[2] Jodie (living room and hallway); photos[] finished painted rooms"},
+    {"name": "Wallpaper and paper-hanging", "evidence": "reviews[0] Linda ('painting and papering superb'); reviews[3] Bob ('wallpaper our bedroom'); photos[] floral feature wall + botanical cloakroom paper"},
+    {"name": "Halls, stairs and landings", "evidence": "reviews[3] Bob ('hall (3 floors)'); reviews[1] Helena ('hall and staircase'); reviews[2] Jodie ('Hallway'); photos[] stairwell with feature wall and spindle banister"}
+  ],
+  "claims_to_avoid": [
+    "any certification or membership (Dulux Select, PDA, Checkatrade Vetted, TrustATrader, Gas Safe, NICEIC) - none verified; directory_probes show 0 verified profiles (Yell/MyBuilder/Trustpilot are snippet-only, exact-name single-signal; TrustATrader was an identity homonym and rejected; Checkatrade/RatedPeople/Bark/Houzz/MyJobQuote NOT_FOUND)",
+    "'fully insured' / insurance claims - not evidenced",
+    "specific years-trading number - none evidenced",
+    "the proprietor's surname-led personal backstory or an owner monologue - there is no self-description from Brian in evidence",
+    "the street address '2 Seamill Way' anywhere public - use Coatbridge / ML5 only",
+    "'Bathroom installations' as a service: brief.json services_meta lists it but the only source is a MISREAD of Bob's review, where 'bathroom' is one of the rooms Brian PAINTED ('paint our hall (3 floors), bathroom and wallpaper our bedroom'). Brian paints bathrooms; he does not fit/install bathrooms. Do not list bathroom installation as a service.",
+    "'painters and decorators' / 'Painting and decorating' duplicated as separate services (brief.json services[] has near-duplicates and a niche label) - they are one trade, not multiple services",
+    "claiming Glasgow city centre as the base or a city-centre address - the registered base is Coatbridge ML5 (North Lanarkshire), about 10mi east of Glasgow city centre; frame coverage honestly as Coatbridge, North Lanarkshire and the east of Glasgow",
+    "service areas beyond a plausible one-van radius of Coatbridge ML5 - Coatbridge is the evidenced base; the surrounding North Lanarkshire towns and east-Glasgow districts are UK-geographic derivations from ML5 and must stay plausible (no west-Glasgow or national footprint)",
+    "naming Chris as a co-owner, or inventing a team/crew size - Chris is named once in one review as someone Brian works with"
+  ],
+  "personality": "calm, traditional, dependable; a craftsman who treats an old house's plasterwork with care, keeps the place clean while he works, and turns up when he says he will",
+  "evidence_strength": "moderate-content / single-source (rich, specific Google reviews that name the heritage specialism directly + 10 completed-project photos; no third-party corroboration - no Facebook, no verified directory profile)",
+  "pitch_hook_summary": "Lead on the period-home angle (Victorian cornices and ceilings, tenement flats, halls and staircases over several floors, painting and wallpaper, clean and tidy), backed by a perfect 5.0 on Google from 98 reviews.",
+  "metadata": {
+    "source_quality": "FAIL",
+    "source_quality_reason": "Source enrichment not complete; no verified third-party profile; contactability NEEDS_MANUAL_REVIEW (no email, UK mobile only)",
+    "lead_validity_status": "INSUFFICIENT_EVIDENCE",
+    "manual_review_note": "Single-source (Google-only) with a LOCATION_MISMATCH_NEEDS_REVIEW flag (Google city Coatbridge differs from the prospect region Glasgow). Resolved for build purposes by framing coverage HONESTLY around the real Coatbridge ML5 base in North Lanarkshire / east Glasgow, never claiming Glasgow city centre. This is a BUILD run; pitch_gate enforces at outreach time, not build time. The evidence is specific and usable (same posture as the Kyle Knowles reference build, which was also source_quality=FAIL with rich Google-only evidence).",
+    "authored_blind": "Path B authored from frozen evidence + CLAUDE.md + the webfortrades-site-design skill only. Kyle's palette (wet-slate ink #1B2420 + viridian-teal #0F6E5C; Bricolage Grotesque + Instrument Sans) and Damo's palette (warm-iron #22201C + cedar-amber #A96B23; Oswald + Hanken Grotesk) are off-limits, as are all library pairings and the three AI clusters. This build uses an independent heritage-tenement palette (muted sage-green + chalk lime-white + aged pewter) with Newsreader (period editorial serif) + Mulish (quiet humanist sans), grounded in the period-home subject. Two other painter sites build in parallel (boutique aubergine+brass; bright white+eucalyptus+oak); this one stays anchored to the muted heritage-sage seed so all three differ."
+  }
+}

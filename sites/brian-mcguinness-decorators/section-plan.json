@@ -1,0 +1,106 @@
+{
+  "slug": "brian-mcguinness-decorators",
+  "generic_plan": false,
+  "layout_note": "Single column on a calm limewash ground, with a quiet 'cornice line' structural signature: every section break is a thin sage rule above a hairline pewter rule (a two-line motif that reads like the shadow-line under a length of cornice / a picture rail on a period wall). Boldness is spent once on the 'period homes' signature block and the single muted-sage accent; everything else stays quiet and traditional. Photo-led - 4 finished period-room photos carry the proof.",
+  "sections": [
+    {
+      "id": "header",
+      "type": "sticky-header",
+      "purpose": "Wayfinding + persistent quote CTA.",
+      "evidence_anchors": ["brief.json business_name", "brief.json phone"],
+      "copy_intent": "Text wordmark 'Brian McGuinness Decorators'; nav: Work, Reviews, Areas; one button 'Get a quote'. No phone in the bar on mobile.",
+      "visual_intent": "Quiet solid limewash header (no backdrop-filter so the mobile drawer/scrim are not trapped - containing-block rule), cornice hairline underneath. Mobile: wordmark + hamburger only (no phone, <=2 links) per mobile_header check."
+    },
+    {
+      "id": "hero",
+      "type": "trade-led-hero-with-photo",
+      "priority": 1,
+      "purpose": "State trade + location + the period-home angle in one line; show a real finished period room; surface the only citable proof (5.0 / 98).",
+      "evidence_anchors": ["reviews[4] Jim (Victorian cornices and ceilings, flat)", "reviews[3] Bob (hall 3 floors, wallpaper)", "reviews[1] Helena (hall and staircase)", "google_rating 5.0 / google_review_count 98", "based_location Coatbridge ML5", "hero photo 03-places.webp (sage-green period room: ornate cornice + coving, ceiling, chandelier, panelling, period doors - finished, well-lit, no people)"],
+      "copy_intent": "Headline = trade-led positioning on the period-home angle (NOT a review quote). Subhead = painting + wallpaper across the real Coatbridge / North Lanarkshire / east-Glasgow area, period-plasterwork care + 5.0/98 proof, <=2 sentences <=220 chars. CTAs: Get a quote (primary, #quote), Call Brian (secondary, phone).",
+      "visual_intent": "Full-bleed best finished period-room photo (03) under a pewter-ink (#2C2F2B) scrim for legibility; Newsreader serif headline (period editorial character), muted-sage primary button; small proof chip '5.0 on Google, 98 reviews'. Text block keeps the site container side padding on mobile (hero horizontal-inset rule); CTAs stack full-width <=640px, proof chip below both."
+    },
+    {
+      "id": "proof-strip",
+      "type": "proof-marquee",
+      "priority": 2,
+      "purpose": "Restate the citable evidence as a quiet looping strip directly under the hero.",
+      "evidence_anchors": ["google_rating 5.0", "google_review_count 98", "based_location Coatbridge ML5", "reviews[4] Jim (Victorian cornices), reviews[0] Linda (neat and tidy), reviews[3] Bob (hall 3 floors)"],
+      "copy_intent": "5-6 factual proof points separated by a diamond: '5.0 on Google', '98 reviews', 'Coatbridge and east Glasgow', 'Victorian cornices and ceilings', 'Painting and wallpaper', 'Neat, tidy, reliable'. No exclamation marks, no salesy framing.",
+      "visual_intent": "Pewter-ink band, limewash text; seamless infinite loop (list rendered twice, translateX(-50%), single 36s linear traversal); sage diamond separator after every item including the wrap seam. Animates on ALL viewports; degrades to a static row only under prefers-reduced-motion."
+    },
+    {
+      "id": "the-period-difference",
+      "type": "signature-positioning-block",
+      "priority": 3,
+      "purpose": "The one memorable thing: Brian is the decorator you trust with a period home - original cornices and ceilings, multi-floor halls and staircases, painting and paper - and he leaves it clean. This is where boldness is spent.",
+      "evidence_anchors": ["reviews[4] Jim (Victorian cornices and ceilings, very high standard, reliable and trustworthy)", "reviews[3] Bob (hall 3 floors, wallpaper bedroom, high standard)", "reviews[0] Linda (neat and tidy, painting and papering)", "reviews[1] Helena (spotlessly clean worker, hall and staircase)"],
+      "copy_intent": "3 short, concrete statements stated plainly (no boast adjectives), each tied to a real review situation: period plasterwork done with care; halls and staircases over several floors, painting and paper; left clean and tidy, finished when he says. Stats inline beneath (5.0 / 98 / 6-day week).",
+      "visual_intent": "Pale-dove (--stone) section; large Newsreader statements separated by cornice rules; sage used once, on the key phrase 'Victorian cornices and ceilings'. No icons. The boldest moment on the page. A 3-stat band sits inline (5.0 Google rating, 98 Google reviews, Mon-Fri availability) - sourced stats only, never a photo count."
+    },
+    {
+      "id": "services",
+      "type": "evidence-based-services",
+      "priority": 4,
+      "purpose": "Name the 4 real services from evidence with specific, grounded descriptions.",
+      "evidence_anchors": ["site-strategy.json real_services (period and heritage decorating, interior painting, wallpaper and paper-hanging, halls/stairs/landings)"],
+      "copy_intent": "Each service: short label + one evidence-grounded line. NEVER the brief services junk/near-duplicates ('Bathroom installations' is a misread; 'painters and decorators' / 'Painting and decorating' are the trade, not extra services). NEVER 'X services explained plainly'.",
+      "visual_intent": "Labelled rows with small two-letter marks (PD / PT / WP / HS) in muted sage - NOT 01/02/03 (services are not a sequence; the numbered process below is) and NOT SVG/lucide icons (no_service_icons check). Cornice rule between rows."
+    },
+    {
+      "id": "gallery",
+      "type": "gallery-masonry",
+      "priority": 5,
+      "purpose": "Show the actual finished period rooms, halls and papered walls - the proof that matters most for a trader with no third-party profiles.",
+      "evidence_anchors": ["brief.json photos[] - finished shots only: 03 (sage period room is the hero, not repeated), 02 (period living room, ornate cornice + marble fireplace), 06 (hall/stair feature wall + spindle banister), 01 (floral feature wallpaper), 05 (botanical-paper cloakroom). WIP/exterior/people shots 04/07/08/09/10 excluded."],
+      "copy_intent": "Short section intro; safe captions only (work type + Coatbridge/area; no invented job address or customer name).",
+      "visual_intent": "CSS masonry: 3 columns >=1024px, 2 columns 640-1023px, 1 column mobile; natural aspect ratios (mix of portrait/landscape), top-aligned, captions directly under each image (gallery check compliance). Thin pewter frame on each tile."
+    },
+    {
+      "id": "reviews",
+      "type": "review-feature",
+      "priority": 6,
+      "purpose": "Exactly one review section. Lead with the quotes that carry the period-home and multi-floor angle.",
+      "evidence_anchors": ["reviews[4] Jim (Victorian cornices)", "reviews[3] Bob (hall 3 floors, wallpaper)", "reviews[1] Helena (whole house, spotlessly clean)", "reviews[0] Linda (painting and papering, neat and tidy)"],
+      "copy_intent": "4 verbatim Google excerpts, attributed 'First name, Google review'. No first name as a headline (no 'Steve' anti-pattern). One review section only (no duplicate wall). The 5.0/98 restated once as a stat, label 'Google rating'.",
+      "visual_intent": "Quiet cards on surface; sage quote rule; trimmed long quotes for length but verbatim within each excerpt (the singing line in Linda's review is dropped, not paraphrased). Reviewer names verified against brief: Linda, Helena, Jodie, Bob, Jim are all customers; Brian (and Chris) are the only business-side names."
+    },
+    {
+      "id": "process",
+      "type": "process-numbered",
+      "priority": 7,
+      "purpose": "Reduce risk: show the orderly, tidy way Brian works.",
+      "evidence_anchors": ["reviews[2] Jodie (efficient with communication start to finish; out within the hour to put a snag right)", "reviews[0] Linda (timescale given; neat and tidy)", "reviews[1] Helena (spotlessly clean; reliable)", "reviews[3] Bob (completed in the agreed time)"],
+      "copy_intent": "4 ordered steps grounded in review behaviour: come and look + quote -> prep and protect the room -> paint and paper to a high standard -> finished on the agreed time, left clean, snags sorted fast.",
+      "visual_intent": "Numbered 01-04 IS appropriate here (a real sequence). Numerals in Newsreader, sage; cornice dividers between steps. Dark pewter-ink section for contrast."
+    },
+    {
+      "id": "areas",
+      "type": "local-coverage",
+      "priority": 8,
+      "purpose": "Establish the HONEST locality and availability without exposing the home address, and without over-claiming Glasgow city centre.",
+      "evidence_anchors": ["brief.json based_location 'Coatbridge, ML5'", "address '2 Seamill Way, Coatbridge ML5 5HD' (postcode district ML5 only, never the street)", "opening_hours (Mon-Fri 9:00-17:00, Sat/Sun closed)", "google_maps_url cid"],
+      "copy_intent": "Based in Coatbridge, covers North Lanarkshire and the east of Glasgow (8-14 districts). Honest framing: Coatbridge is the base, about 10 miles east of Glasgow city centre; areas are Coatbridge + neighbouring North Lanarkshire towns + east-Glasgow districts, derived from the ML5 base (plausible one-van radius, no city-centre or national over-claim). Hours Monday to Friday, 9am to 5pm (sourced). No street address.",
+      "visual_intent": "Keyless Google Maps iframe centred on 'Coatbridge ML5' (town + outward only); area list (two-column) + hours beside it."
+    },
+    {
+      "id": "quote",
+      "type": "contact-quote-form",
+      "priority": 9,
+      "purpose": "Convert: a quote form plus phone, anchored at #quote.",
+      "evidence_anchors": ["brief.json phone 07879 054484", "based_location Coatbridge ML5", "opening_hours"],
+      "copy_intent": "Two columns. Left: heading + framing prose + key details (phone click-to-call, Coatbridge / ML5, Mon-Fri 9am-5pm). Right: quote form (name, phone, optional email, postcode, job type [Painting / Wallpaper / Period decorating / Halls and stairs / Other], details, no live submit). Heading specific to Brian. Form is presentational only (does not submit to the business; no 'preview form' disclaimer).",
+      "visual_intent": "Dark pewter-ink (#2C2F2B) surface, NOT the sage accent (contact section rule). Form fields visually distinct from the side details. Mobile: stack to single column, details first. Quote-only sticky CTA reveals after hero on scroll (fade+slide), hides near footer."
+    },
+    {
+      "id": "footer",
+      "type": "business-footer",
+      "purpose": "Real local-business footer, not just the agency credit.",
+      "evidence_anchors": ["business_name", "phone", "service_area (honest)", "opening_hours", "google_maps_url"],
+      "copy_intent": "Brand, phone, honest areas, hours, quick links, link to read Google reviews. Small 'Website by WebForTrades' credit at the bottom.",
+      "visual_intent": "Pewter-ink footer; cornice dividers; restrained."
+    }
+  ],
+  "omitted_defaults": ["owner-backstory/about-me narrative (no self-description evidence)", "FAQ (no real questions in evidence)", "fabricated stats band beyond 5.0/98 + Mon-Fri availability (sourced only)", "certifications/badges strip (none verified)", "separate second review wall", "bathroom installation as a service (a misread - Brian paints bathrooms, he does not fit them)", "Glasgow-city-centre base claim (the base is Coatbridge ML5)"],
+  "omitted_reasons": "Kept lean and evidence-only. No section exists without a specific anchor in the frozen brief. Geo coverage is framed honestly around the real Coatbridge ML5 base to resolve the LOCATION_MISMATCH_NEEDS_REVIEW flag for the build."
+}

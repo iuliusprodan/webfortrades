@@ -1,0 +1,90 @@
+{
+  "slug": "brian-mcguinness-decorators",
+  "updated_at": "2026-06-13T19:40:48.042Z",
+  "url": "https://brian-mcguinness-decorators.vercel.app",
+  "ok": true,
+  "screenshot": "/Users/iuliusprodan/.cursor/website/screenshots/brian-mcguinness-decorators/live-verify.png",
+  "stylesheet": {
+    "bytes": 44833,
+    "hasPreflight": true,
+    "hasUtilities": true,
+    "utilityMarkers": [
+      ".flex",
+      ".grid",
+      ".mx-auto",
+      ".items-center",
+      ".justify-",
+      ".max-w-",
+      ".px-/.py-",
+      ".rounded",
+      ".gap-"
+    ]
+  },
+  "metrics": {
+    "bodyFontFamily": "Mulish, \"Mulish Fallback\", -apple-system, \"system-ui\", \"Segoe UI\", system-ui, sans-serif, -apple-system, \"system-ui\", \"Segoe UI\", system-ui, sans-serif",
+    "bodyBoxSizing": "border-box",
+    "bodyMarginTop": 0,
+    "bodyMarginLeft": 0,
+    "appliedRuleCount": 824,
+    "styleSheetCount": 1,
+    "biggestGraphic": {
+      "tag": "IMG",
+      "w": 1280,
+      "h": 900,
+      "src": "https://brian-mcguinness-decorators.vercel.app/assets/images/03-places.webp"
+    },
+    "primaryButton": {
+      "found": true,
+      "background": "rgba(0, 0, 0, 0)",
+      "borderRadius": "0px",
+      "paddingTop": "8px"
+    },
+    "bodyText": "Brian McGuinness Decorators\nWork\nReviews\nAreas\nGet a quote\n\nPAINTERS AND DECORATORS, COATBRIDGE AND EAST GLASGOW\n\nPainters and decorators for Coatbridge and the east of Glasgow, trusted with period homes.\n\nBrian decorates period and tenement homes across Coatbridge and the east of Glasgow: Victorian"
+  },
+  "css_assets": [
+    {
+      "url": "https://brian-mcguinness-decorators.vercel.app/_next/static/css/992f167f9c1c7a76.css",
+      "status": 200,
+      "bytes": 44833
+    }
+  ],
+  "js_assets": [
+    {
+      "url": "https://brian-mcguinness-decorators.vercel.app/_next/static/chunks/4bd1b696-c023c6e3521b1417.js",
+      "status": 200,
+      "bytes": 173019
+    },
+    {
+      "url": "https://brian-mcguinness-decorators.vercel.app/_next/static/chunks/255-eb4aecc3ff015961.js",
+      "status": 200,
+      "bytes": 173611
+    },
+    {
+      "url": "https://brian-mcguinness-decorators.vercel.app/_next/static/chunks/main-app-f9b5d20365cb8be2.js",
+      "status": 200,
+      "bytes": 557
+    },
+    {
+      "url": "https://brian-mcguinness-decorators.vercel.app/_next/static/chunks/app/page-d88a7c72b379ba7b.js",
+      "status": 200,
+      "bytes": 6556
+    },
+    {
+      "url": "https://brian-mcguinness-decorators.vercel.app/_next/static/chunks/polyfills-42372ed130431b0a.js",
+      "status": 200,
+      "bytes": 112594
+    },
+    {
+      "url": "https://brian-mcguinness-decorators.vercel.app/_next/static/chunks/webpack-68df9845c99c527f.js",
+      "status": 200,
+      "bytes": 3769
+    }
+  ],
+  "failed_assets": [],
+  "issues": [
+    {
+      "severity": "warn",
+      "message": "Primary CTA has no background and no border radius (may be unstyled)"
+    }
+  ]
+}
