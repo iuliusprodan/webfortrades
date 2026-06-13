@@ -59,6 +59,13 @@ Select the hero image from the gallery by **quality, not file order**.
   completion state). **Fallback heuristic when vision is unavailable:** prefer landscape orientation,
   larger file size (resolution proxy), and caption keywords like "finished"/"completed"/"tiled" over
   "during"/"detail". State in your build notes which image you chose and why.
+- **Orientation is a tiebreaker, not a hard rule.** Quality, on-trade subject, and "no people / no
+  clutter" beat orientation. A stronger *portrait* completed-project shot can be the right hero over a
+  weaker landscape one - `object-fit: cover` crops a portrait cleanly into a full-bleed hero (and it fits
+  mobile/portrait viewports perfectly). Pick the most on-brand finished shot first, then confirm the
+  desktop crop looks right at screenshot-verification and swap only if it crops badly. (Damo's hero used a
+  portrait raised-deck shot over the landscape options because the landscape ones had a person / a patio
+  the trader doesn't offer; it cropped cleanly at 1280 and 1920.)
 
 ### Hero layout
 - Full viewport height: `min-height: 100vh` (use `100dvh` / `svh` where supported), **responsive**, not a
@@ -248,4 +255,5 @@ customer name you cannot verify; a neutral "Completed tiling, <city>" is fine.
 ## Output artifacts (per site)
 `site-strategy.json`, `section-plan.json` (`generic_plan: false`), `voice.json`, then the Next.js app
 (`app/page.tsx`, `app/layout.tsx`, `app/globals.css`, `components/`, `data/brief.json`,
-`lib/build-marker.ts`). Worked reference: `sites/kyle-knowles-tiling-claude/` and its Phase 1 plan files.
+`lib/build-marker.ts`). Worked references: `sites/kyle-knowles-tiling/` (slate/teal tiler) and
+`sites/damos-decking-and-fencing/` (timber/amber decking-fencing builder) and their Phase 1 plan files.
