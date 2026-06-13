@@ -66,3 +66,82 @@ batch:
   deploy_concurrency_default: 3
   port_duration_warn_minutes_default: 15
   od_concurrency_default: 5
+
+lead_search:
+  niches:
+    - plumbers
+    - electricians
+    - roofers
+    - painters
+    - gas engineers
+    - locksmiths
+    - fencers
+    - tree surgeons
+    - landscapers
+    - builders
+    - glaziers
+    - plasterers
+    - tilers
+    - carpenters
+    - decorators
+    - joiners
+    - kitchen fitters
+    - bathroom fitters
+    - scaffolders
+    - drainage
+    - paving
+    - garden design
+  regions_tier1:
+    - London
+    - Manchester
+    - Birmingham
+    - Leeds
+    - Glasgow
+    - Edinburgh
+    - Liverpool
+    - Bristol
+    - Sheffield
+    - Nottingham
+  regions_tier2:
+    - Cardiff
+    - Belfast
+    - Newcastle
+    - Brighton
+    - Southampton
+    - Portsmouth
+    - Coventry
+    - Leicester
+    - Hull
+    - Stoke
+    - Derby
+    - Exeter
+    - Plymouth
+    - Norwich
+    - Oxford
+    - Cambridge
+    - Reading
+    - York
+    - Bath
+  regions_tier3:
+    - Penarth
+    - Penzance
+    - Truro
+    - Inverness
+    - Aberdeen
+    - Dundee
+    - Swansea
+    - Newport
+    - Cheltenham
+    - Gloucester
+    - Bournemouth
+    - Maidstone
+    - Guildford
+    - Woking
+    - Harrogate
+    - Scarborough
+    - Blackpool
+    - Preston
+    - Warrington
+    - Chester
+  repeat_cooldown_days: 14
+  quality_promotion_threshold_pct: 30
