@@ -48,6 +48,41 @@ two-letter marks, dots, or nothing.
 
 ---
 
+## Parallel-batch design-seed allocation
+
+For a SINGLE build, derive the palette from the subject's world (above). For a **parallel batch** (the main
+thread allocating design seeds to N sub-agents that build at once), specific-hex distinctness is **not
+enough**: in parallel-batch-1 two sub-agents derived *sage* and *eucalyptus* from different seeds and both
+landed in the same colour FAMILY, so the batch read as only 2 families across 3 sites. **Family-level
+distinctness is what a user perceives at a glance; specific-hex distinctness is invisible.**
+
+**Rule - one palette FAMILY per seed, no family repeats within a batch.** The main thread pre-allocates a
+palette family per seed *before* sub-agents start. Recognised families:
+- **green-natural** (sage, eucalyptus, forest, moss, olive)
+- **blue-cool** (slate, indigo, steel, navy, teal) - *wet-slate is Kyle's; this subset is reserved*
+- **warm-earth** (terracotta, ochre, rust, cedar) - *cedar-amber is Damo's; this subset is reserved*
+- **jewel-tone** (aubergine, emerald, sapphire, burgundy)
+- **monochrome-industrial** (iron, graphite, cement, bone)
+- **warm-neutral** (chalk, sand, linen, oat) - **supporting family only, never the primary**
+
+Constraints:
+- Reserved subsets (Kyle = blue-cool/wet-slate; Damo = warm-earth/cedar-amber) stay **blocked** for batch
+  allocation.
+- Each sub-agent gets **one primary family + one supporting neutral**.
+- If two seeds would naturally derive into the same family (e.g. "heritage/period" and "prep-quality" both
+  pull toward green-natural), the main thread **must re-seed before sub-agents start**, by either
+  (a) reframing one seed toward a different family-defining material, or (b) naming the family explicitly in
+  the seed text ("warm-earth required; do not use green").
+
+Worked example (parallel-batch-1, painters):
+- Seed A (AC, "boutique-hotel finish") -> **jewel-tone** OK (aubergine + brass)
+- Seed B (Brian, "heritage/period homes") -> **green-natural** (sage + pewter)
+- Seed C (D.G., "prep-quality / smooth modern") -> **green-natural CLASH** (eucalyptus + oak); should have
+  been re-seeded before start. Correct fix: reframe Seed C as "modern-monochrome / crisp finish" ->
+  **monochrome-industrial** (bone + graphite + signal accent).
+
+---
+
 ## Section rules (load-bearing)
 
 ### Hero image selection
