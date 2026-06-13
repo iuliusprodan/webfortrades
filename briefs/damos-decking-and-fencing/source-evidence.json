@@ -1,0 +1,493 @@
+{
+  "slug": "damos-decking-and-fencing",
+  "gathered_at": "2026-06-13T18:23:26.653Z",
+  "attempted_sources": [
+    {
+      "platform": "google_places",
+      "status": "found",
+      "url": "https://maps.google.com/?cid=10046209844566892378"
+    },
+    {
+      "platform": "google_maps",
+      "status": "not_attempted",
+      "search_query": "Damo's decking and fencing Leeds LS6 4LP site:google.com/maps",
+      "reason": "Automated search not run in enrich pass unless URL provided"
+    },
+    {
+      "platform": "google_reviews",
+      "status": "found",
+      "url": "https://maps.google.com/?cid=10046209844566892378"
+    },
+    {
+      "platform": "google_photos",
+      "status": "found",
+      "url": "https://maps.google.com/?cid=10046209844566892378"
+    },
+    {
+      "platform": "facebook",
+      "status": "not_attempted",
+      "search_query": "Damo's decking and fencing Leeds LS6 4LP Facebook",
+      "reason": "Automated search not run in enrich pass unless URL provided"
+    },
+    {
+      "platform": "checkatrade",
+      "status": "not_attempted",
+      "search_query": "Damo's decking and fencing Leeds LS6 4LP site:checkatrade.com",
+      "reason": "Automated search not run in enrich pass unless URL provided"
+    },
+    {
+      "platform": "trustatrader",
+      "status": "not_attempted",
+      "search_query": "Damo's decking and fencing Leeds LS6 4LP site:trustatrader.com",
+      "reason": "Automated search not run in enrich pass unless URL provided"
+    },
+    {
+      "platform": "yell",
+      "status": "not_attempted",
+      "search_query": "Damo's decking and fencing Leeds LS6 4LP site:yell.com",
+      "reason": "Automated search not run in enrich pass unless URL provided"
+    },
+    {
+      "platform": "mybuilder",
+      "status": "not_attempted",
+      "search_query": "Damo's decking and fencing Leeds LS6 4LP site:mybuilder.com",
+      "reason": "Automated search not run in enrich pass unless URL provided"
+    },
+    {
+      "platform": "rated_people",
+      "status": "not_attempted",
+      "search_query": "Damo's decking and fencing Leeds LS6 4LP site:ratedpeople.com",
+      "reason": "Automated search not run in enrich pass unless URL provided"
+    },
+    {
+      "platform": "bark",
+      "status": "not_attempted",
+      "search_query": "Damo's decking and fencing Leeds LS6 4LP site:bark.com",
+      "reason": "Automated search not run in enrich pass unless URL provided"
+    },
+    {
+      "platform": "houzz",
+      "status": "not_attempted",
+      "search_query": "Damo's decking and fencing Leeds LS6 4LP site:houzz.co.uk",
+      "reason": "Automated search not run in enrich pass unless URL provided"
+    },
+    {
+      "platform": "myjobquote",
+      "status": "not_attempted",
+      "search_query": "Damo's decking and fencing Leeds LS6 4LP site:myjobquote.co.uk",
+      "reason": "Automated search not run in enrich pass unless URL provided"
+    },
+    {
+      "platform": "trustpilot",
+      "status": "not_attempted",
+      "search_query": "Damo's decking and fencing Leeds LS6 4LP site:trustpilot.com",
+      "reason": "Automated search not run in enrich pass unless URL provided"
+    },
+    {
+      "platform": "youtube",
+      "status": "not_attempted",
+      "search_query": "Damo's decking and fencing Leeds LS6 4LP site:youtube.com",
+      "reason": "Automated search not run in enrich pass unless URL provided"
+    },
+    {
+      "platform": "companies_house",
+      "status": "not_attempted",
+      "search_query": "Damo's decking and fencing site:find-and-update.company-information.service.gov.uk",
+      "reason": "Automated search not run in enrich pass unless URL provided"
+    },
+    {
+      "platform": "official_website",
+      "status": "found",
+      "url": "http://damosdeckingandfencing.com/"
+    },
+    {
+      "platform": "email_domain_website",
+      "status": "not_attempted",
+      "search_query": "https://",
+      "reason": "Automated search not run in enrich pass unless URL provided"
+    },
+    {
+      "platform": "directories",
+      "status": "not_attempted",
+      "search_query": "Damo's decking and fencing Leeds LS6 4LP plumber electrician directory",
+      "reason": "Automated search not run in enrich pass unless URL provided"
+    },
+    {
+      "platform": "local_trade_directories",
+      "status": "not_attempted",
+      "search_query": "Damo's decking and fencing Leeds LS6 4LP local directory",
+      "reason": "Automated search not run in enrich pass unless URL provided"
+    },
+    {
+      "platform": "trade_association",
+      "status": "not_attempted",
+      "search_query": "Damo's decking and fencing  association member",
+      "reason": "Automated search not run in enrich pass unless URL provided"
+    },
+    {
+      "platform": "review_aggregators",
+      "status": "not_attempted",
+      "search_query": "Damo's decking and fencing Leeds LS6 4LP reviews",
+      "reason": "Automated search not run in enrich pass unless URL provided"
+    },
+    {
+      "platform": "instagram",
+      "status": "not_attempted",
+      "search_query": "Damo's decking and fencing Leeds LS6 4LP Instagram",
+      "reason": "Requires login - manual review only"
+    },
+    {
+      "platform": "nextdoor",
+      "status": "not_attempted",
+      "search_query": "Damo's decking and fencing Leeds LS6 4LP site:nextdoor.co.uk",
+      "reason": "Requires login - manual review only"
+    },
+    {
+      "platform": "pinterest",
+      "status": "not_attempted",
+      "search_query": "Damo's decking and fencing Leeds LS6 4LP site:pinterest.com",
+      "reason": "Requires login - manual review only"
+    },
+    {
+      "platform": "tiktok",
+      "status": "not_attempted",
+      "search_query": "Damo's decking and fencing Leeds LS6 4LP TikTok",
+      "reason": "Requires login - manual review only"
+    },
+    {
+      "platform": "linkedin",
+      "status": "not_attempted",
+      "search_query": "Damo's decking and fencing Leeds LS6 4LP site:linkedin.com",
+      "reason": "Requires login - manual review only"
+    },
+    {
+      "platform": "twitter",
+      "status": "not_attempted",
+      "search_query": "Damo's decking and fencing Leeds LS6 4LP site:twitter.com OR site:x.com",
+      "reason": "Requires login - manual review only"
+    }
+  ],
+  "sources": [
+    {
+      "platform": "google_places",
+      "url": "https://maps.google.com/?cid=10046209844566892378",
+      "verified": true,
+      "verification_method": "place_id_from_gather",
+      "phone_match": true,
+      "notes": "Primary gather source"
+    },
+    {
+      "platform": "official_website",
+      "url": "http://damosdeckingandfencing.com/",
+      "verified": false,
+      "verification_method": "cross_check_needed",
+      "phone_match": true,
+      "notes": "BROKEN_OR_BAD_SITE"
+    }
+  ],
+  "sources_found": [
+    "google_places",
+    "google_reviews",
+    "google_photos",
+    "official_website"
+  ],
+  "sources_verified": [
+    "google_places"
+  ],
+  "strongest_proof_source": {
+    "platform": "google",
+    "metric": "4.9 rating, 79 reviews",
+    "url": "https://maps.google.com/?cid=10046209844566892378"
+  },
+  "best_review_details": [
+    {
+      "text": "⭐⭐⭐⭐⭐\nWe would highly recommend Damos Decking & Fencing. We are absolutely over the moon with the transformation of the area we had to work with. Damo and his team executed the plan to perfection, delivering everything within the agreed timescale and at a very competitive price.\n\nThe whole team worked incredibly hard from start to finish and clearly take real pride in the quality of their work. Th",
+      "author": "Mr.",
+      "rating": 5,
+      "source": "google"
+    },
+    {
+      "text": "Can highly recommend Damo’s Decking and Fencing.  Damo has just completed the most perfect decking.  It wasn’t easy - levels on the house were out - rock under the lawn (which explains all the moss!) and a drain inspection chamber higher than I wanted the finished decking.  Not a problem for Damo - he sorted it all out - constructed the decking to a high standard (not a nail in sight - all screwed",
+      "author": "Gail",
+      "rating": 5,
+      "source": "google"
+    },
+    {
+      "text": "Really pleased with the fence Damo installed. He pays attention to detail, notices things I didn’t see such as ensuring it goes in a straight line, and it’s built to be as strong as can be. Really neat work, particularly given my driveway is sloped and also has a retaining wall beneath the fence. I found him personable and trustworthy.",
+      "author": "Lisa",
+      "rating": 5,
+      "source": "google"
+    }
+  ],
+  "image_source_summary": {
+    "google_photos": 9,
+    "facebook_photos": 0,
+    "directory_photos": 0,
+    "manual_photos": 0,
+    "other": 0,
+    "preferred_source": "google_places",
+    "notes": "Google Places photos preferred for gallery when high quality",
+    "priority_order": [
+      "official_website",
+      "google_places",
+      "directory",
+      "manual_asset",
+      "facebook_evidence",
+      "proof_led"
+    ]
+  },
+  "manual_review_flags": [
+    "contactability=NEEDS_MANUAL_REVIEW",
+    "no email found; UK mobile present, requires manual WhatsApp contact"
+  ],
+  "enrichment_complete": true,
+  "risks": [],
+  "manual_asset_review_recommended": false,
+  "manual_asset_status": "OK",
+  "asset_readiness": {
+    "manual_asset_status": "OK",
+    "usable_automatic_count": 9,
+    "usable_manual_count": 0,
+    "usable_total_count": 9,
+    "has_hero_candidate": true,
+    "pause_before_open_design": false,
+    "pause_message": null,
+    "layout_recommendation": "photo_led",
+    "image_slots": [
+      {
+        "slot": "hero",
+        "desired": "Best finished project photo or strong proof visual",
+        "source_status": "automatic"
+      },
+      {
+        "slot": "gallery_1",
+        "desired": "Finished work close-up or wide project shot",
+        "source_status": "automatic"
+      },
+      {
+        "slot": "gallery_2",
+        "desired": "Finished work close-up or wide project shot",
+        "source_status": "automatic"
+      },
+      {
+        "slot": "gallery_3",
+        "desired": "Finished work close-up or wide project shot",
+        "source_status": "automatic"
+      },
+      {
+        "slot": "gallery_4",
+        "desired": "Finished work close-up or wide project shot",
+        "source_status": "automatic"
+      }
+    ],
+    "manual_folder": "briefs/damos-decking-and-fencing/images/manual/"
+  },
+  "image_slots": [
+    {
+      "slot": "hero",
+      "desired": "Best finished project photo or strong proof visual",
+      "source_status": "automatic"
+    },
+    {
+      "slot": "gallery_1",
+      "desired": "Finished work close-up or wide project shot",
+      "source_status": "automatic"
+    },
+    {
+      "slot": "gallery_2",
+      "desired": "Finished work close-up or wide project shot",
+      "source_status": "automatic"
+    },
+    {
+      "slot": "gallery_3",
+      "desired": "Finished work close-up or wide project shot",
+      "source_status": "automatic"
+    },
+    {
+      "slot": "gallery_4",
+      "desired": "Finished work close-up or wide project shot",
+      "source_status": "automatic"
+    }
+  ],
+  "email": null,
+  "email_found": false,
+  "email_domain_checked": false,
+  "email_domain_website": null,
+  "website_discovery": {
+    "classification": "BROKEN_OR_BAD_SITE",
+    "db_status": "BROKEN_OR_BAD_SITE",
+    "domain": "damosdeckingandfencing.com",
+    "initial_url": "http://damosdeckingandfencing.com/",
+    "final_url": "http://damosdeckingandfencing.com/",
+    "status_code": 200,
+    "title": null,
+    "reason": "reason=blank_or_near_empty_page; status=200; final=http://damosdeckingandfencing.com/",
+    "probes": [
+      {
+        "url": "http://damosdeckingandfencing.com/",
+        "ok": true,
+        "status_code": 200,
+        "final_url": "http://damosdeckingandfencing.com/"
+      }
+    ],
+    "text_snippet": null
+  },
+  "website_status": "BROKEN_OR_BAD_SITE",
+  "truly_no_website": null,
+  "logo_found": false,
+  "logo_path": null,
+  "facebook_url": null,
+  "facebook_verified": false,
+  "source_verifications": [
+    {
+      "platform": "google_places",
+      "url": "https://maps.google.com/?cid=10046209844566892378",
+      "confidence": "low",
+      "verified": false,
+      "verification_reasons": [
+        "Business name matches or clearly aliases Google listing",
+        "Name match only - common name risk"
+      ],
+      "matches": {
+        "phone": false,
+        "email": false,
+        "website": false,
+        "business_name": true,
+        "location": false,
+        "service_trade": false,
+        "logo": false
+      },
+      "rejected_reason": "Insufficient verification signals for automatic use"
+    },
+    {
+      "platform": "email_domain_website",
+      "url": "http://damosdeckingandfencing.com/",
+      "confidence": "low",
+      "verified": false,
+      "verification_reasons": [
+        "Business name matches or clearly aliases Google listing",
+        "Website or domain link visible on source",
+        "Name match only - common name risk"
+      ],
+      "matches": {
+        "phone": false,
+        "email": false,
+        "website": true,
+        "business_name": true,
+        "location": false,
+        "service_trade": false,
+        "logo": false
+      },
+      "rejected_reason": "Insufficient verification signals for automatic use"
+    }
+  ],
+  "source_confidence": {
+    "overall": "low",
+    "verified_platforms": [],
+    "rejected_platforms": [
+      "google_places",
+      "email_domain_website"
+    ],
+    "notes": [
+      "No verified sources with medium or high confidence",
+      "2 source(s) rejected for low confidence"
+    ]
+  },
+  "image_manifest": [
+    {
+      "local": "images/01-places.webp",
+      "source": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3mg3vi2XZKX-ZFB-HRlvSzJ0Poci5W0wTjuLEy-MycSZkKbwum4aogcmsWqqcdgjHxOjWGLizHWpUOUPKwc2vwD1nrFepoo0HVVi9anQlbLBXZ2wjoVdFWp_HiZ3FM-c3vYcYsk-YVudHLojsq3KCDh2vjO-pUYlIrMHIDJxPenddw5GlQovzabj_XHXm3IzogmXCAvvBb_27jCSPdW4IVp7jdv378zDEwo3LhuDueFCUjbGXcCXzJK_Do482O_rfobmrI3PJ4QS5_3OSIfXnzBch8ZWPezHjSx43tH5TmwXVIQZ8JOjgq5IyPsZfNJfjFiA4QO8ctk8TNWvi_xwdqB9lCZut4RGvuKjoGTfcgELxSV88OcuLEknFKpr03qHov9AmD4QI_X2yQ-qbY1tx0Y3i46OIqGWwHAV0zC_RjKfpA4_6-SawwmJyYUYRDu&key=REDACTED",
+      "source_type": "google_places",
+      "confidence": "medium",
+      "purpose": "gallery",
+      "selected": true,
+      "reason": "Default from gather"
+    },
+    {
+      "local": "images/02-places.webp",
+      "source": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3n41KN2RTCSxcaeZIsZYgAW1pw_GTXWHh6Pn1ViQp1S4UvNoIyUmkYOJ7ZHuu8AgO4ZfCbOETbqLjDB1a5xVRbYQsLWBbB_3w2fM2tEBaEkMhFma2KG9Gi1YqZn6BHInQ8rL5YNRHwwcadMKa5oByjhUGZVbir-yheE2Ij6tqoiCEJPto6BL3Ris5Le76VnwwSrfyCr5ed9cb-wQA8V8UieDeopMA3g7JOjypX4CLSWl62L1cA__SVuwFDi-FoOtZKTXKoq-iEIJumG6YH_eJquN8xtuMa0juUDYLvjw710UayB_KSiZ9y7_X1TVrYE7I-d0_ZyBtSvFho1eQgx0_qS_KQv6UNQmj_Dvm_ghm8t2y8bDXO2JCzGM5FBqREICoQqc9GgTzucFKLuq7u5EXh8kGXWXQVH-kn60FIMDzw5our1W6nbjU-lifrHt0RQ&key=REDACTED",
+      "source_type": "google_places",
+      "confidence": "medium",
+      "purpose": "gallery",
+      "selected": true,
+      "reason": "Default from gather"
+    },
+    {
+      "local": "images/03-places.webp",
+      "source": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3lNtGiphWYUrRyoE6pYQeZ0_Pylg6LeDHkj8XpAouvr3_lgGolhdkOy_LWsD5V5B6ywIqN5m1AD-3EcStQAP-iRtmLVWAm9_34tldgQhz7CY0wOPAwgqRwYSGOMGJDUZMC7ZBWCN0QsamPzj0s6HuEYm_1_awJ_hFzGh_Gac8ZatNgpJBvCTPebmtqOSmwBGyedGfgetO7KWWz1GsRaaqCDcDLqEHKasLYiCw-_TX-oPCCBnNS2pb0wSG5pDMIrXd_3sHMkxe_n0X5QEv_6wa7UUzviD3cqNa4qDPNFXUezyI_j-WnXlceqDC9zsppq5BOsBTN81xqpGzfZklhriLkk4p4Qf3tzfC6Ndw5Mvo9aKJoyi59Q8WLjyp56Df6pPku_PKUrmrW3Dgadogt41fqSYiT4yRfEpCo_zJPBw1kvsLGi3HT6L58GQRxfcYHa&key=REDACTED",
+      "source_type": "google_places",
+      "confidence": "medium",
+      "purpose": "gallery",
+      "selected": true,
+      "reason": "Default from gather"
+    },
+    {
+      "local": "images/04-places.webp",
+      "source": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3mRWuaKOLX_laGP_M-c-O66OfgEvaV_XSmVLM2uGRsHD-r-sy8E6zSOlYFdwWpXc8JcE4Ha_wBmqokkCsZ8Rx4N9uuaDTy6DPMagQSpSZ9Wvn2PCer6a5c5rUnITJcgia1DG-8DsjqRUJ1wv8aCRccTBBzmJbMkt4TabN7aJWmACOt5qMxq5Vgmnl8uKHPWzMnpAe_0Pl1Cw7KTwwqnJzpS8hYPEiFfER0MmyeAP2PaQW9hYMDRPvuv7YfVNmpiH6jwex6NlcVC-XKl7cJh8VQgg3asCIxhVWXKQqTnUunVIiVcRPXp02qwAlWaPy6e4VFL6bRzZXdJkGbpLG39frptlHwLUySHcz1C2gPBdiLC_ucSb01iLV3XPdUjmxd29PwSXrUKo_oY3hIjhvEv-Sa4L71FTjVaxxSVx4hJzxOtiA&key=REDACTED",
+      "source_type": "google_places",
+      "confidence": "medium",
+      "purpose": "gallery",
+      "selected": true,
+      "reason": "Default from gather"
+    },
+    {
+      "local": "images/05-places.webp",
+      "source": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3mletAwRPYvL-jxQB-Okul_3OEqRslpP2gsEUM_vYF5zMD31Tmk-QnJp0CXh-W0Ut8rCsJT25N8AtMxfNjPZ3LOfLbEQiHThiWDbxFHjztJLGJEQM80poq90DKL7P5bp8tue0HrToFRp7dG-PYIElxa3HXCxwMtWWZvHd7E1K4s1lciNAesjJZHJ6w3htALoV_ayZEVCHf2wjo1dpgk2ym8UfXME_V3A6ePLKbM-rEvU7wPUeCyiCW0f5vPFJxBKKQSyUsi6rs95SjJPGDv5yF-o-sT63DbdzaHlAbCj41UGwUBzJeEGTvB6w-tEk_WOME1o0UKAM2TuZqcVcI9ZdqR39F7wxroE4wKKujO2IWLn7A1fgTBLr2UOd6RnniDnqPhpgrHE8-hLOZ-ZQPIgLj7YyNlrbvvcNeaTRCqkQbwjexGN5qfV-dA9dFCbIRU&key=REDACTED",
+      "source_type": "google_places",
+      "confidence": "medium",
+      "purpose": "gallery",
+      "selected": true,
+      "reason": "Default from gather"
+    },
+    {
+      "local": "images/06-places.webp",
+      "source": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3k2vYHifi59QNRqi-LOtFldeDsPpKkilahN5wEgCodwBBXCp-uNrxpQIpUeuJ8lqf_KrkYlfZKE4lU8Zlx2eyZwaB7-SP7EDghPTojEW173XWIMlNw8cIU-ZLZT4L89seTN8I9T2MQD6COCo_Onx86vzf9KqhOX-Pb6adBWiCCuWGMwA_gacOn8gbdARYFq9khpNLnKm15pDcsxCTnxSOhJavCDgq1rVeSE705AdYcqgqJg3Orb2LJTrYBLTIQlZxFOLfs71OB7iwLmjC510ZKSOkK6VUn_2dtSAP2brZglYOsYE642px5Bfg1y3McKnJImvUT7BcEp5oIwG9c-zu-Y-BzDcA5b5sfu3vPfb0u37wHQPUny5YoiZxwaKJwN-fLTYzm6HQNIaH88Vq3oFCJ8thKMji37fBHqps7G-G1QI050CWOGJoyCU7ckLUNG&key=REDACTED",
+      "source_type": "google_places",
+      "confidence": "medium",
+      "purpose": "gallery",
+      "selected": true,
+      "reason": "Default from gather"
+    },
+    {
+      "local": "images/08-places.webp",
+      "source": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3lph3wLRWR4cgBde4Utf9f7zm3vvoPsSCJpXTh82OpNN6TMHvIxMUw4wivA4t51eZI6XXOTDXNVgWz8Q0jRQj9GDjXfAH8PeBpnGdL4u_dNzfzDMlNlkG_LZg0IpQaWPkhC79VEkfFquucsJ1w91iOt4lF5WcB3EedRDaCokiO5kDtWuDviCB2EdZxJWp0RnWGufeFgKwZPVT5WLV96Ty_XH4FtJKW_3hNaCm1BRSWQL7ldnJmOkxXfxYLrGLxkOePvN1GDfHjwGPoO9YFt85D6UuMIwNA_eMlTvxMxHITr3rsKkQIfHahFr1DL28CzMlHZD9fBHaafDiBgOxwFHoQrFmx37LQufRfL3uNjkQtiiPpINCjCQVpRqcTvd6s9A1LPLP3H4hTYyLk4Rg3OeotdlA6iZSTYaWJR3-EFF9RVy-E&key=REDACTED",
+      "source_type": "google_places",
+      "confidence": "medium",
+      "purpose": "gallery",
+      "selected": true,
+      "reason": "Default from gather"
+    },
+    {
+      "local": "images/09-places.webp",
+      "source": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3n8MdK3K_-9HH7sZln6GdIbZVY092uYzK5eDzbxz2iy3uEsGv652FY3d4f_v77N1bDj08b2ujF1wyE2rYzq_C5QXXx18ffL7jlO1y3nb0GeAL8RIpYWKWBp_c1HAgD_QsQCQTXlFquVPyPTErz5tgdo5ZrQ28rVS1CqoSeQEJ_3ZSzMtGRzFZeFeusP0KXor4CJuLecOgrJiQ3nj6libSXakMk9Cflpk1xRNSwkuaeukFGxFYqAU1Ctw8F912mv7mZ5KMhpyernziJbSTvlyFBqDPlCmHJDo11Zwvkd41IGrwXLiSlCaDAwLAkfhvrCNlOvknv8nUID5Sas19hR7E4DzyP9qT6ZsLGzlQSvXkHUw0HSjrtbEb0QV_ttKmsXkO1hodeacT5JC_T4WQzRyKXbt4Igz_BwuyTLfMMLv9LRJQ&key=REDACTED",
+      "source_type": "google_places",
+      "confidence": "medium",
+      "purpose": "gallery",
+      "selected": true,
+      "reason": "Default from gather"
+    },
+    {
+      "local": "images/10-places.webp",
+      "source": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3nSJzQUw2XT_wZBo_iNXb4-3XMEqL-8FrfnV_M4Uj9HUfXkEcR4ja9hVwqOOkGq75FGrqthmYfBHn7Jrb_on8Xo6Z5LO6CKkvgNFNJOpeYsj7yfiiP5BZcIxzRKAw4uayKRedV9IH4c4mMPOhFhU7oMazjr6fRfJ3EtL-qYaRs-0UPULK9TsaPHp9B_nZIv-p0bMzQNxSUoAhqvXkACAdTTbkJHfMilWhp45nbNme1Im8lwSiz1EeL_h5Ff7EVhcXIdJ3Ebmi6ql4l72lJyUKk1vtdX7KLmvae_JhD7KiEvxHF_lyI-fbQ11eyxMZ7_18qKHfe57fcAEczkfjuWKKLZxsEGMKARACjsYasY6frsztEY3AHuBlnz5uEGQ-nr8MILJjK9i5njHEd_9_MGZebqLFP7A3uXRY2GcQPDj0wuxrFpFi0ZDl3ATEbLLQ&key=REDACTED",
+      "source_type": "google_places",
+      "confidence": "medium",
+      "purpose": "gallery",
+      "selected": true,
+      "reason": "Default from gather"
+    }
+  ],
+  "selected_images": [
+    "images/01-places.webp",
+    "images/02-places.webp",
+    "images/03-places.webp",
+    "images/04-places.webp",
+    "images/05-places.webp",
+    "images/06-places.webp",
+    "images/08-places.webp",
+    "images/09-places.webp",
+    "images/10-places.webp"
+  ],
+  "lead_validity_status": null,
+  "ready_for_build": null,
+  "registry_source_count": 28
+}
