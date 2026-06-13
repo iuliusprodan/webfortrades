@@ -172,6 +172,11 @@ Kyle bug). Implementation:
   open panel.
 - Hamburger animates to an X (or rotates) on open as the standard affordance.
 - **Banned anti-pattern:** a drawer that pushes `.site-content` down via flow/margin. Overlay only.
+- **Containing-block gotcha (cost a rebuild on Kyle):** a `position: fixed` panel/scrim must **not** live
+  inside an ancestor that has `transform`, `filter`, `backdrop-filter`, `will-change`, or `contain` -
+  those create a containing block that traps the fixed element inside that ancestor's box (e.g. a 68px
+  sticky header with `backdrop-filter`), so the scrim covers only the header strip and the panel is
+  clipped. Render the drawer + scrim at body/root level, **outside** the header.
 
 ---
 
