@@ -35,7 +35,7 @@ brick courses, echoing the older-home brickwork the trade works on.
 
 ## Deploy verification (2026-06-13)
 - Preferred alias: amrock-electrical-ltd.vercel.app
-- Deployment URL: https://amrock-electrical-ki19s6awx-iulius-projects-0cb33a7b.vercel.app
+- Deployment URL: https://amrock-electrical-9a69trx4j-iulius-projects-0cb33a7b.vercel.app
 - Verified URL: https://amrock-electrical-ltd.vercel.app
 - Alias status: VERIFIED
 - Deploy manifest: `/Users/iuliusprodan/.cursor/website/briefs/amrock-electrical-ltd/deploy.json`

@@ -6,20 +6,18 @@ const PHONE_TEL = "07824566582";
 const GOOGLE_URL = "https://maps.google.com/?cid=654358521196426038";
 
 const services = [
-  { mark: "SL", name: "Additional sockets and lighting", desc: "Extra sockets added where you need them and tired light fittings updated, the bread and butter of bringing an older home up to date." },
-  { mark: "EF", name: "Electric fires and storage heaters", desc: "Electric fires fitted and connected on a fused spur with the fuel effect set up, and storage heaters removed and replaced." },
-  { mark: "EV", name: "EV and car charger installation", desc: "A home car charger fitted and wired in, added as part of an upgrade or on its own." },
-  { mark: "OB", name: "Extra circuits and power to outbuildings", desc: "New circuits run safely where you need them, including power out to a garage, workshop or outbuilding." },
+  { name: "Additional sockets and lighting", desc: "Extra sockets added where you need them and tired light fittings updated, the bread and butter of bringing an older home up to date." },
+  { name: "Electric fires and storage heaters", desc: "Electric fires fitted and connected on a fused spur with the fuel effect set up, and storage heaters removed and replaced." },
+  { name: "EV and car charger installation", desc: "A home car charger fitted and wired in, added as part of an upgrade or on its own." },
+  { name: "Extra circuits and power to outbuildings", desc: "New circuits run safely where you need them, including power out to a garage, workshop or outbuilding." },
 ];
 
-// Selected work: ONLY 02-places.webp is used. It is a finished living-room media wall
-// with an electric fire installed (matches Simon's electric-fire review and the heritage
-// angle). 01-places.webp is work-in-progress (cardboard box, tools, person mid-install) and
-// 03-places.webp is the brand logo, not a project photo - both excluded per the site-design
-// skill. The hero is typographic (no photo), so the single good shot is featured here.
-const gallery = [
-  { src: "/assets/images/02-places.webp", cap: "Completed living-room install, Cardiff" },
-];
+// Recent-work gallery section is GATED OUT: only ONE usable finished photo exists
+// (02-places.webp, the completed living-room media wall + electric fire; 01 is
+// work-in-progress and 03 is the brand logo, both excluded per the site-design skill).
+// A 1-photo grid is banned, so there is no gallery section. That single strong photo is
+// reused once as the hero supporting image (desktop: right of the hero copy; mobile:
+// below the headline) - see the hero section.
 
 const stats = [
   { num: "5.0", label: "Google rating" },
@@ -68,9 +66,11 @@ export default function Page() {
     <>
       <header className="site-header">
         <div className="container header-inner">
-          <a href="#top" className="wordmark">Amrock Electrical</a>
+          <a href="#top" className="brand-lockup" aria-label="Amrock Electrical, home">
+            <img className="brand-logo" src="/logo.png" alt="Amrock Electrical" width={962} height={412} />
+          </a>
           <nav className="nav-desktop" aria-label="Primary">
-            <a className="nav-link" href="#work">Work</a>
+            <a className="nav-link" href="#services">Services</a>
             <a className="nav-link" href="#reviews">Reviews</a>
             <a className="nav-link" href="#areas">Areas</a>
             <a className="btn btn-primary" href="#quote">Get a quote</a>
@@ -86,7 +86,7 @@ export default function Page() {
       <div id="nav-scrim" aria-hidden="true" />
       <nav id="nav-mobile" aria-label="Mobile">
         <button className="nav-close" type="button" aria-label="Close menu"><span aria-hidden="true">&times;</span></button>
-        <a href="#work">Work</a>
+        <a href="#services">Services</a>
         <a href="#reviews">Reviews</a>
         <a href="#areas">Areas</a>
         <a href="#quote">Get a quote</a>
@@ -98,17 +98,25 @@ export default function Page() {
           <div className="hero-media" aria-hidden="true" />
           <div className="hero-scrim" aria-hidden="true" />
           <div className="container hero-inner">
-            <p className="eyebrow">Electricians, Cardiff CF23</p>
-            <div className="hero-rule" aria-hidden="true" />
-            <h1>Electricians for Cardiff&apos;s older homes, brought up to standard.</h1>
-            <p className="hero-sub">
-              Naz and Henry add sockets, update tired light fittings, and fit storage heaters and electric fires across Cardiff, plus EV chargers, explaining the work as they go.
-            </p>
-            <div className="hero-cta">
-              <a className="btn btn-primary" href="#quote">Get a quote</a>
-              <a className="btn btn-secondary" href={`tel:${PHONE_TEL}`} style={{ color: "#fff", borderColor: "#fff" }}>Call Naz, {PHONE}</a>
+            <div className="hero-layout">
+              <div className="hero-copy">
+                <p className="eyebrow">Electricians, Cardiff CF23</p>
+                <div className="hero-rule" aria-hidden="true" />
+                <h1>Electricians for Cardiff&apos;s older homes, brought up to standard.</h1>
+                <p className="hero-sub">
+                  Naz and Henry add sockets, update tired light fittings, and fit storage heaters and electric fires across Cardiff, plus EV chargers, explaining the work as they go.
+                </p>
+                <div className="hero-cta">
+                  <a className="btn btn-primary" href="#quote">Get a quote</a>
+                  <a className="btn btn-secondary" href={`tel:${PHONE_TEL}`}>Call Naz, {PHONE}</a>
+                </div>
+                <p className="hero-proof"><span className="accent-text">5.0</span> on Google · 27 reviews</p>
+              </div>
+              <figure className="hero-photo">
+                <img src="/assets/images/02-places.webp" alt="Completed living-room install in Cardiff: a new electric fire and media wall, wired in" loading="eager" width={400} height={300} />
+                <figcaption>Completed living-room install, Cardiff</figcaption>
+              </figure>
             </div>
-            <p className="hero-proof"><span className="accent-text">5.0</span> on Google · 27 reviews</p>
           </div>
         </section>
 
@@ -151,35 +159,19 @@ export default function Page() {
         </section>
 
         {/* SERVICES */}
-        <section className="section" data-section-id="services">
+        <section className="section" data-section-id="services" id="services">
           <div className="container">
             <h2 data-reveal>What Amrock does</h2>
             <p className="section-intro" data-reveal>Domestic electrical work for Cardiff homes, from a single socket to a full upgrade.</p>
             <div style={{ marginTop: "1.5rem" }}>
               {services.map((s) => (
-                <div className="service-row" key={s.mark} data-reveal>
-                  <div className="service-mark">{s.mark}</div>
+                <div className="service-row" key={s.name} data-reveal>
+                  <span className="service-mark" aria-hidden="true" />
                   <div>
                     <div className="service-name">{s.name}</div>
                     <p className="service-desc">{s.desc}</p>
                   </div>
                 </div>
-              ))}
-            </div>
-          </div>
-        </section>
-
-        {/* SELECTED WORK */}
-        <section className="section" data-section-id="selected-work" id="work">
-          <div className="container">
-            <h2 data-reveal>Recent work in Cardiff</h2>
-            <p className="section-intro" data-reveal>A finished living-room install in Cardiff: a new electric fire and media wall, wired in and tidied up.</p>
-            <div className="feature-work" style={{ marginTop: "1.5rem" }}>
-              {gallery.map((g) => (
-                <figure className="feature-item" key={g.src}>
-                  <img src={g.src} alt={g.cap} loading="lazy" />
-                  <figcaption className="feature-cap">{g.cap}</figcaption>
-                </figure>
               ))}
             </div>
           </div>
@@ -274,8 +266,8 @@ export default function Page() {
         <div className="container">
           <div className="footer-grid">
             <div>
-              <div className="footer-brand">Amrock Electrical</div>
-              <p style={{ marginTop: "0.5rem", maxWidth: "34ch" }}>Domestic electrical work across Cardiff and the CF postcodes.</p>
+              <div className="footer-brand"><img className="footer-logo" src="/logo.png" alt="Amrock Electrical" width={962} height={412} /></div>
+              <p style={{ marginTop: "0.75rem", maxWidth: "34ch" }}>Domestic electrical work across Cardiff and the CF postcodes.</p>
               <p style={{ marginTop: "0.5rem" }}><a href={`tel:${PHONE_TEL}`}>{PHONE}</a></p>
             </div>
             <div>
@@ -292,7 +284,7 @@ export default function Page() {
             <div>
               <h4>Site</h4>
               <ul className="footer-links">
-                <li><a href="#work">Work</a></li>
+                <li><a href="#services">Services</a></li>
                 <li><a href="#reviews">Reviews</a></li>
                 <li><a href="#areas">Areas</a></li>
                 <li><a href="#quote">Get a quote</a></li>

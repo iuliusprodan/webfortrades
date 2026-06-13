@@ -398,5 +398,8 @@
     "blockers": [
       "Source enrichment not complete"
     ]
+  },
+  "design": {
+    "brand_source": "client"
   }
 }
