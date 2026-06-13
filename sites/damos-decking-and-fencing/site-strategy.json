@@ -1,0 +1,57 @@
+{
+  "slug": "damos-decking-and-fencing",
+  "path": "B (Claude-direct)",
+  "frozen_input_tag": "damos-decking-and-fencing-brief-frozen",
+  "business_angle": "Damo is the north-Leeds decking and fencing builder who gets it sitting true on the gardens that fight back - out-of-level ground, rock under the lawn, sloped driveways and retaining walls - and finishes it screwed and fixed, not nailed, dead straight.",
+  "why_this_trader_wins": "Two independent reviews describe the same difficulty-handling specialism: Gail's decking went over uneven house levels, rock under the lawn and a raised drain chamber and still came out 'not a nail in sight, all screwed and fixed'; Lisa's fence ran dead straight across a sloped driveway and over a retaining wall. Combined with a whole-garden transformation delivered to an agreed timescale (the Boylans), this is precision outdoor construction on awkward ground, not generic 'garden services'.",
+  "target_customer": "North-Leeds homeowners (Meanwood, Headingley, Chapel Allerton, Roundhay, Alwoodley and the LS postcodes) who want a deck or a fence built properly on a garden that isn't simple - uneven ground, slopes, retaining walls - and who want it to last.",
+  "page_single_job": "Get that homeowner to request a quote (or call) for a decking, fencing or garden-transformation job.",
+  "distinctive_angle": "built-true-on-ground-that-never-sits-level",
+  "customer_praise_themes": [
+    {"theme": "builds true on difficult / uneven ground", "evidence": "brief.json reviews[1] (Gail): 'levels on the house were out - rock under the lawn ... a drain inspection chamber higher than I wanted the finished decking. Not a problem for Damo - he sorted it all out'; reviews[2] (Lisa): 'my driveway is sloped and also has a retaining wall beneath the fence'"},
+    {"theme": "screwed and fixed, not nailed (build method)", "evidence": "brief.json reviews[1] (Gail): 'constructed the decking to a high standard (not a nail in sight - all screwed and fixed)'"},
+    {"theme": "fences set out dead straight and strong", "evidence": "brief.json reviews[2] (Lisa): 'ensuring it goes in a straight line, and it's built to be as strong as can be'; reviews[3] (Alwoodley): 'professional fencing with a brilliant finish'"},
+    {"theme": "attention to detail / notices what others miss", "evidence": "brief.json reviews[2] (Lisa): 'He pays attention to detail, notices things I didn't see'; reviews[1] (Gail): 'His workmanship, attention to detail and efficiency are a credit to his business'"},
+    {"theme": "whole-area transformation delivered to an agreed timescale", "evidence": "brief.json reviews[0] (the Boylans): 'over the moon with the transformation of the area ... executed the plan to perfection, delivering everything within the agreed timescale'"},
+    {"theme": "quick to respond / personable and trustworthy", "evidence": "brief.json reviews[4] (Sarah): 'quick with correspondence'; reviews[2] (Lisa): 'I found him personable and trustworthy'"}
+  ],
+  "named_people": [
+    {"name": "Damo", "role": "proprietor / decking and fencing builder", "usage": "approved", "basis": "business_name is 'Damo's decking and fencing' (brief.json business_name) and Damo is named in all 5 reviews. This overrides brief.json contact_name_usage_allowed=false, which concerns extracting an UNKNOWN possessive 'Damos' from one review's text, not the named proprietor in the business name itself. This is the Kyle Knowles ARCH-2 judgment-call precedent."}
+  ],
+  "strongest_review_quote": {
+    "text": "Damo has just completed the most perfect decking. It wasn't easy - levels on the house were out - rock under the lawn (which explains all the moss!) and a drain inspection chamber higher than I wanted the finished decking. Not a problem for Damo - he sorted it all out - constructed the decking to a high standard (not a nail in sight - all screwed and fixed).",
+    "author": "Gail",
+    "source": "google",
+    "source_ref": "brief.json reviews[1]"
+  },
+  "strongest_proof_source": {
+    "platform": "google",
+    "metric": "4.9 rating from 79 reviews",
+    "url": "https://maps.google.com/?cid=10046209844566892378",
+    "source_ref": "brief.json google_rating, google_review_count, google_maps_url"
+  },
+  "real_services": [
+    {"name": "Garden decking", "evidence": "reviews[1] Gail (raised decking over uneven levels, screwed and fixed); photos[] completed decking"},
+    {"name": "Fencing", "evidence": "reviews[2] Lisa (fence, straight, strong, sloped driveway + retaining wall); reviews[3] Alwoodley (fencing, brilliant finish)"},
+    {"name": "Groundwork and levelling", "evidence": "reviews[1] Gail (levels out, rock under lawn, drain chamber sorted before building)"},
+    {"name": "Garden transformations", "evidence": "reviews[0] the Boylans (transformation of the area, plan executed to an agreed timescale)"}
+  ],
+  "claims_to_avoid": [
+    "any certification or membership (Checkatrade Vetted, TrustATrader, Gas Safe, NICEIC) - none verified; directory_probes show 0 verified profiles (Checkatrade/Yell/MyBuilder/Trustpilot are snippet-only, exact-name-single-signal; TrustATrader was an identity homonym and rejected)",
+    "'fully insured' / insurance claims - not evidenced",
+    "specific years-trading number - none evidenced",
+    "Google Places junk categories as services: brief.json services[] 'Building & construction' (Places category), 'Drain unblocking' (a MISREAD of Gail's 'drain inspection chamber' - Damo built decking around it, he does not unblock drains), 'landscapers' (niche label) are NOT real services",
+    "the street address '32 Sunset Hilltop' anywhere public - use Meanwood / Leeds LS6 only",
+    "service areas beyond north Leeds / LS postcodes - Roundhay (Gledhow) and Alwoodley are evidenced in reviews; the rest are UK-geographic derivations from the LS6 base and must stay plausible for a one-van trade (no national footprint)",
+    "drain unblocking, patios/paving, or block-paving driveways as services - not evidenced (the 'driveway' in reviews[2] is the customer's existing sloped driveway the fence runs along, not a driveway Damo laid)"
+  ],
+  "personality": "precise, grounded, dependable; a builder who sorts the hard ground first and finishes things properly rather than quickly",
+  "evidence_strength": "moderate-content / single-source (rich, specific Google reviews + 9 completed-project photos; no third-party corroboration - Facebook/directory unverified)",
+  "pitch_hook_summary": "Lead on the awkward-ground angle (decking true over rock/out-of-level houses, fences dead straight on slopes/retaining walls, all screwed not nailed), backed by 4.9/79 Google.",
+  "metadata": {
+    "source_quality": "PASS_WITH_WARNINGS",
+    "lead_validity_status": "INSUFFICIENT_EVIDENCE",
+    "manual_review_note": "Single-source (Google-only): no verified third-party profile and contactability=NEEDS_MANUAL_REVIEW (no email, UK mobile only). This is a BUILD run; pitch_gate enforces at outreach time, not build time. The evidence is specific and usable (same posture as the Kyle Knowles reference build, which was source_quality=FAIL). Source quality here is actually one notch better (PASS_WITH_WARNINGS).",
+    "authored_blind": "Path B authored from frozen evidence + CLAUDE.md + the webfortrades-site-design skill only. Kyle's palette (wet-slate ink + viridian teal) and fonts (Bricolage Grotesque + Instrument Sans) are off-limits; this build uses an independent timber-and-iron palette + Oswald/Hanken Grotesk grounded in this trader's own materials."
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "slug": "damos-decking-and-fencing",
+  "generic_plan": false,
+  "layout_note": "Single column, built on an implied deck-board rhythm; sections divided by thin double 'deck-board' rules (the structural signature - two hairlines a few px apart, like the gap between deck boards). Boldness spent once on the 'built true on uneven ground' signature block and the single cedar-amber accent; everything else quiet. Photo-led (9 completed-project images carry the proof).",
+  "sections": [
+    {
+      "id": "header",
+      "type": "sticky-header",
+      "purpose": "Wayfinding + persistent quote CTA.",
+      "evidence_anchors": ["brief.json business_name", "brief.json phone"],
+      "copy_intent": "Text wordmark 'Damo's Decking & Fencing'; nav: Work, Reviews, Areas; one button 'Get a quote'. No phone in the bar on mobile.",
+      "visual_intent": "Quiet solid header (no backdrop-filter so the mobile drawer/scrim are not trapped - containing-block rule), deck-board hairline underneath. Mobile: wordmark + hamburger only (no phone, <=2 links) per mobile_header check."
+    },
+    {
+      "id": "hero",
+      "type": "trade-led-hero-with-photo",
+      "priority": 1,
+      "purpose": "State trade + location + the awkward-ground angle in one line; show real finished work; surface the only citable proof.",
+      "evidence_anchors": ["reviews[1] Gail (levels out, rock, screwed not nailed)", "reviews[2] Lisa (straight, sloped driveway, retaining wall)", "google_rating 4.9 / google_review_count 79", "based_location Meanwood, Leeds LS6", "best landscape project photo (vision-selected from 02/04/05-places, all 1600px-wide landscape)"],
+      "copy_intent": "Headline = trade-led positioning on the built-true-on-uneven-ground angle (NOT a review quote). Subhead = decking + fencing across named north-Leeds areas, screwed-and-fixed method + 4.9/79 proof. CTAs: Get a quote (primary, #quote), Call Damo (secondary, phone).",
+      "visual_intent": "Full-bleed best landscape project photo under a blackened-iron (#22201C) scrim for legibility; Oswald condensed headline (letterforms stand like fence pales), cedar-amber primary button; small proof chip '4.9 on Google, 79 reviews'. Text block keeps the site container side padding on mobile (hero horizontal-inset rule); CTAs stack full-width <=640px, proof chip below both."
+    },
+    {
+      "id": "the-difference",
+      "type": "signature-positioning-block",
+      "priority": 2,
+      "purpose": "The one memorable thing: Damo builds it true even when the ground fights back, screws and fixes rather than nails, and runs fences dead straight on slopes. This is where boldness is spent.",
+      "evidence_anchors": ["reviews[1] Gail (levels out, rock, drain chamber, not a nail in sight - all screwed and fixed)", "reviews[2] Lisa (straight line, strong, sloped driveway, retaining wall)", "reviews[3] Alwoodley (brilliant finish)"],
+      "copy_intent": "3 short, concrete statements of the specialism, stated plainly and factually (no boast adjectives). Each tied to a real situation: difficult ground sorted first, screwed-and-fixed build method, dead-straight fences on slopes.",
+      "visual_intent": "Weathered-board (--stone) section; large Oswald statements separated by deck-board rules; cedar-amber used once on the key phrase ('screwed and fixed, not a nail in sight'). No icons. The boldest moment on the page."
+    },
+    {
+      "id": "services",
+      "type": "evidence-based-services",
+      "priority": 3,
+      "purpose": "Name the 4 real services from evidence with specific, grounded descriptions.",
+      "evidence_anchors": ["site-strategy.json real_services (garden decking, fencing, groundwork & levelling, garden transformations)"],
+      "copy_intent": "Each service: short label + one evidence-grounded line. NEVER the Google junk categories ('Building & construction', 'Drain unblocking', 'landscapers'). NEVER 'X services explained plainly'.",
+      "visual_intent": "Labelled rows with small two-letter marks (DK / FN / GW / GT) in cedar-amber - NOT 01/02/03 (services are not a sequence; the numbered process below is) and NOT SVG/lucide icons (no_service_icons check). Deck-board rule between rows."
+    },
+    {
+      "id": "selected-work",
+      "type": "gallery-masonry",
+      "priority": 4,
+      "purpose": "Show the actual finished decking and fencing - the proof that matters most for a trader with no third-party profiles.",
+      "evidence_anchors": ["brief.json photos[] (9 completed_project webp, mixed portrait/landscape)"],
+      "copy_intent": "Short section intro; safe captions only (work type + Leeds; no invented job locations or customer names).",
+      "visual_intent": "CSS masonry: 3 columns >=1024px, 2 columns 640-1023px, 1 column mobile; natural aspect ratios, top-aligned, captions directly under each image (gallery check compliance). Thin deck-board frame on each tile."
+    },
+    {
+      "id": "reviews",
+      "type": "review-feature",
+      "priority": 5,
+      "purpose": "Exactly one review section. Lead with the decking and fencing quotes that carry the awkward-ground angle.",
+      "evidence_anchors": ["reviews[1] Gail (decking)", "reviews[2] Lisa (fence)", "reviews[0] the Boylans (transformation)", "reviews[4] Sarah (responsiveness)"],
+      "copy_intent": "3-4 verbatim Google excerpts, attributed 'First name, Google review' (the Boylans -> 'Google review' to avoid a surname). No first name as a headline (no 'Steve' anti-pattern). One review section only (no duplicate wall).",
+      "visual_intent": "Quiet cards on surface; cedar-amber quote rule; the 4.9/79 proof restated once as a stat, label 'Google rating' (no banned sub-labels)."
+    },
+    {
+      "id": "how-a-job-works",
+      "type": "process-numbered",
+      "priority": 6,
+      "purpose": "Reduce risk: show the orderly way Damo works, ground-first.",
+      "evidence_anchors": ["reviews[4] Sarah (quick with correspondence)", "reviews[1] Gail (sorted the ground, screwed and fixed)", "reviews[2] Lisa (set out straight)", "reviews[0] the Boylans (agreed timescale, left as it should be)"],
+      "copy_intent": "4 ordered steps grounded in review behaviour: look at the ground + price -> ground sorted first -> built and fixed properly (not rushed) -> finished on the agreed timescale, left tidy.",
+      "visual_intent": "Numbered 01-04 IS appropriate here (a real sequence). Numerals in Oswald, cedar-amber; deck-board dividers between steps. Dark blackened-iron section for contrast."
+    },
+    {
+      "id": "areas-and-hours",
+      "type": "local-coverage",
+      "priority": 7,
+      "purpose": "Establish locality and availability without exposing the home address.",
+      "evidence_anchors": ["brief.json based_location 'Leeds, LS6' (Meanwood)", "reviews[0] Gledhow/Roundhay + reviews[3] Alwoodley (evidenced areas)", "opening_hours (Mon-Sat 8:00-16:00, Sun closed)", "google_maps_url cid"],
+      "copy_intent": "Based in Meanwood, covers north Leeds and the LS postcodes (8-14 districts). Roundhay/Gledhow + Alwoodley evidenced; rest derived from LS6 geography (plausible one-van radius, no over-claim). Hours Monday to Saturday, 8am to 4pm (sourced). No street address.",
+      "visual_intent": "Keyless Google Maps iframe centred on 'Leeds LS6' (town + outward only); area list (two-column) + hours beside it."
+    },
+    {
+      "id": "quote",
+      "type": "contact-quote-form",
+      "priority": 8,
+      "purpose": "Convert: a quote form plus phone, anchored at #quote.",
+      "evidence_anchors": ["brief.json phone 07765 436385", "based_location Meanwood Leeds LS6", "opening_hours"],
+      "copy_intent": "Two columns. Left: heading + framing prose + key details (phone click-to-call, Meanwood / Leeds LS6, Mon-Sat 8am-4pm). Right: quote form (name, phone, postcode, job type, details, optional photos). Heading specific to Damo. Form is presentational only (does not submit to the business; no 'preview form' disclaimer).",
+      "visual_intent": "Dark blackened-iron (#22201C) surface, NOT the cedar-amber accent (contact section rule). Form fields visually distinct from the side details. Mobile: stack to single column, details first. Quote-only sticky CTA reveals after hero on scroll (fade+slide), hides near footer."
+    },
+    {
+      "id": "footer",
+      "type": "business-footer",
+      "purpose": "Real local-business footer, not just the agency credit.",
+      "evidence_anchors": ["business_name", "phone", "service_area", "opening_hours", "google_maps_url"],
+      "copy_intent": "Brand, phone, areas, hours, quick links, link to read Google reviews. Small 'Website by WebForTrades' credit at the bottom.",
+      "visual_intent": "Blackened-iron footer; deck-board dividers; restrained."
+    }
+  ],
+  "omitted_defaults": ["owner-backstory/about-me narrative (no self-description evidence)", "FAQ (no real questions in evidence)", "fabricated stats band (only Google 4.9/79 + Mon-Sat availability are sourced)", "certifications/badges strip (none verified)", "separate second review wall", "patios/paving/driveway services (not evidenced)"],
+  "omitted_reasons": "Kept lean and evidence-only. No section exists without a specific anchor in the frozen brief."
+}

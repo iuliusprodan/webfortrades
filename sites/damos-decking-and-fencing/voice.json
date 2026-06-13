@@ -1,0 +1,33 @@
+{
+  "slug": "damos-decking-and-fencing",
+  "extends": "CLAUDE.md banned-phrase reference + scripts/copy_voice_constants.ts (authoritative). This file adds lead-specific decisions only.",
+  "register": "plain, grounded, confident-without-boasting British English; a builder talking straight to a homeowner. Short sentences. Concrete nouns (decking, boards, posts, levels, ground, retaining wall), not adjectives.",
+  "naming": {
+    "use_name": "Damo",
+    "decision": "Use Damo's first name freely in copy. Basis: the business is 'Damo's decking and fencing' and Damo is named in all 5 reviews. This deliberately overrides brief.json contact_name_usage_allowed=false - that flag fired on the possessive 'Damos' (single review mention, treated as an unknown extracted name); the actual proprietor name 'Damo' is in the business name itself. Same judgment-call basis as the Kyle Knowles ARCH-2 precedent.",
+    "third_vs_first_person": "Default to a light third person ('Damo sorts the ground first...'). A first-person line is allowed only if strictly factual (no invented backstory, no specific years). There is no self-description from Damo in evidence, so do not write an owner-monologue."
+  },
+  "the_angle": {
+    "name": "built true on ground that never sits level",
+    "how_to_use": "Lead with it, state it as fact. Frame: Damo builds decking and fencing properly on the gardens that are not simple - out-of-level houses, rock under the lawn, sloped driveways, retaining walls - and finishes screwed and fixed, not nailed, dead straight. Anchored to reviews[1] (Gail, levels/rock/drain chamber + 'all screwed and fixed') and reviews[2] (Lisa, straight line on a sloped driveway with a retaining wall). Acceptable phrasings: 'built true even where the ground isn't level', 'screwed and fixed, not a nail in sight', 'set out dead straight', 'the ground sorted first'. Do not invent ground conditions or outcomes beyond what the reviews state."
+  },
+  "proof_rules": {
+    "google": "State exactly: '4.9 on Google' and '79 Google reviews' (both sourced=true in brief.json). '4.9 from 79 reviews' and '79 local reviews' are acceptable variants. Attribute the rating to Google.",
+    "no_other_proof": "Do NOT cite Checkatrade / Yell / MyBuilder / Trustpilot - those probes are low-confidence, exact-name-single-signal, unverified (brief.json directory_probes); TrustATrader was a rejected homonym. Do NOT claim any certification, membership, insurance, or 'qualified/certified/fully insured' - none verified.",
+    "no_invented_numbers": "No years-trading number (none evidenced). No 'X projects/decks built' count. Sourced stats only: 4.9 rating, 79 reviews, Monday-to-Saturday availability. Never a photo count."
+  },
+  "review_attribution": "First name + 'Google review' (e.g. 'Gail, Google review', 'Lisa, Google review', 'Sarah, Google review'). The Boylans review is attributed simply 'Google review' (avoid a surname). No reviewer first name as a section headline (the 'Steve' anti-pattern). Damo is the only person named as part of the business; every other name in a quote is a customer's own.",
+  "banned_for_this_business": [
+    "any phrase on the CLAUDE.md / copy_voice_constants.ts lists (generic, provenance, meta-provenance, stat sub-labels)",
+    "'decking done right' / 'fencing done properly' / 'decking sorted' as a hero or standalone slogan (generic-trade filler)",
+    "'your trusted/local decking experts' and relatives",
+    "'no job too big or small', 'competitive prices', 'professional service', 'quality you can rely on'",
+    "drain unblocking as a service (a misread of Gail's 'drain inspection chamber'); patios/paving/driveway laying (not evidenced - the 'driveway' in Lisa's review is her own, where the fence runs)",
+    "claiming areas beyond north Leeds / LS postcodes; the street address '32 Sunset Hilltop' anywhere public",
+    "first-person claims of qualifications, insurance, or years trading",
+    "meta lines like 'customers mention' / 'reviews describe' - state the thing directly instead"
+  ],
+  "allowed_words_from_reviews_in_quotes_only": "Words like 'professional', 'professionalism', 'first class', 'competitive price', 'fabulous', 'perfect' appear in real review text. They are fine INSIDE attributed verbatim quotes, but must NOT appear in Damo's own/site prose (CLAUDE.md salesy ban).",
+  "punctuation": "No em/en dashes anywhere (the review quotes already use ' - ' hyphens, so they stay clean). Use ' - ', comma, or full stop. British spelling (levelling, colour, neighbouring).",
+  "cta_language": "Quote-only sticky and primary CTA: 'Get a quote'. Secondary: 'Call Damo' / the number. Never put the phone in the sticky CTA (sticky_cta check)."
+}
