@@ -290,3 +290,128 @@ Five-site OG hero screenshots + desktop scroll videos via `npm run preview:asset
 - **Why skipped this batch:** `batch_port_worker.ts` validates `.od-port` + `npm run build` but has no step to sync gallery files from `briefs/<slug>/images/` into the ported site. OD port subagent often cannot run shell copy in this environment; build proceeded with empty `public/assets/images/`.
 - **Immediate fix (2026-06-12):** `scripts/batch_copy_site_images.ts` copies brief images into each site `public/`, then rebuild + redeploy (C=3). No re-port. Redeploy also required `vercel_alias.ts` fix: when alias preflight was `already_ours`, deploy skipped `alias set` and left the hostname on an older deployment without gallery files. Fixed to always reassign alias to the new deployment URL. Removed broken `prebuild` on edgar site (`_tmp_copy_edgar_assets.mjs`). Fixed Playwright `page.evaluate` multi-arg bug in `section_integrity.ts` that crashed style verify.
 - **Durable fix (proposed, not implemented):** **Option (a) - mandatory local assets at port gate.** Before `npm run build` in `batch_port_worker`, run the same copy step as `build.ts` (`briefs/<slug>/images` → `sites/<slug>/public/assets/images/` or `public/images/` per site manifest). Fail the port if any `page.tsx`-referenced file is missing after copy. Never deploy a site whose `public/` image count is zero when the page references gallery paths. Photo URLs in briefs may keep Google `source_url` for provenance only; deployed sites must always serve local static files gathered at `npm run gather` time (already downloaded as WebP). Do not embed `GOOGLE_PLACES_API_KEY` in client HTML. Option (b) server-side proxy is unnecessary if (a) is enforced.
+
+## 2026-06-12 em dash cleanup
+
+**Outreach gate (2026-06-12):** `scripts/checks/no_em_dashes.ts` scans `outreach/templates/`, `outreach/drafts/`, and `sites/*/app/**`. Wired into `npm run test:outreach-format` (outreach paths must pass before send; site hits logged as info only).
+
+**Deployed-site follow-up (not fixed tonight):** Five heroes in batch `2026-06-11-ten-build` still use em dashes from the hero fix-up pass: `rm-electrical`, `a-m-t-roofing-penarth`, `heattech-gas-services-ltd`, `the-lock-dr`, `chestnut-trees-fencing` (`page.tsx` h1 copy). Replace `—` with ` - ` on next site edit pass. Outreach drafts for the same batch use hyphens only.
+
+**Pre-deploy proposal (not implemented):** Run full-scope em dash scan in deploy or `review.ts` and fail build when customer-facing copy contains `—` or `–`.
+
+## 2026-06-12 hero rule
+
+Hero headline must be trade-led (trade + location + services/outcome), never a customer review quote, testimonial, first-person narrative, owner backstory, or generic platitude. Patterns A–D in `docs/open-design-webfortrades-brief-format.md`. Reviews belong in a dedicated reviews section.
+
+All 10 sites in batch `2026-06-11-ten-build` were edited and redeployed because the OD port produced review-quote heroes on every site.
+
+**Clone / section-integrity check proposal (not implemented):** Extend `scripts/section_integrity.ts` or add a lightweight hero-copy gate in `scripts/review.ts` / deploy style verify: parse the hero region (`[data-section-id="hero"]`, `.hero`, or first `<h1>`) and flag if text matches review patterns (leading `“`/`"`, `Google review` in cite, first-person openers like `I recently`, `We were having`, blockquote as sole headline, or `hero-quote` class on the primary heading). Warn/fail deploy when hero word count > 25 and contains review attribution. Complement with clone-review penalty when hero Jaccard overlaps a known review string from `brief.json`.
+
+## 2026-06-12 services, reviews, layout rules
+
+Batch `2026-06-11-ten-build` round 2: every ported site used the stock heading "X services explained plainly" and listed fake items (Google categories, CTAs, coverage). **A.M.T Roofing Penarth** had "Local coverage" and "Quotes by phone or email" instead of roofing work. **Ellis Plumbing** listed "Building & construction" (a Places category). **The Lock Dr** used a giant "Steve" headline in a duplicate "What customers say" section alongside a review wall. Most sites duplicated reviews (featured-review + review-wall). Service layouts were almost all `services-grid` card grids (>50% of the batch). **Heattech** showed broken OSM static map alt text in coverage. Durable rules added to `docs/open-design-webfortrades-brief-format.md`, port prompt, SKILL.md, and blocking `no_em_dashes.ts` on `build:site` and port pre-build.
+
+**Next-batch hero note:** Painters Force Ltd hero "Nottingham's local painters and decorators" (Pattern D) is acceptable for now; no hero copy changes in round 2.
+
+## 2026-06-12 google maps embed rule
+
+Heattech's round-2 fix used an inline SVG hexagon as a map substitute when OSM static failed. That triggered a durable rule: coverage sections must use keyless Google Maps iframe embeds (`?output=embed`), centred on **town + postcode outward only** (e.g. `Edinburgh EH15`), never the business street address or inward postcode. Privacy and consistency: we do not pin residential door numbers on public prospect sites, and we avoid any map API key in deployed HTML.
+
+## 2026-06-12 directory probe rebuild
+
+**Why:** Audit found 0/10 useful directory captures. Slug-guess only; `search_deferred` notes never executed; `source-evidence.json` marked directories `not_attempted` while `brief.json` had probe rows; `directory_probes_attempted: true` was misleading; Trustpilot missing; no identity verify (homonym risk e.g. Heat Tech Scotland vs Heattech Gas Services Ltd).
+
+**What changed:** `scripts/directory_probe.ts` rebuilt with search-driven discovery (`scripts/lib/web_search.ts`: SerpAPI optional, DuckDuckGo, Bing fetch, Playwright Bing fallback), two-of-four identity verify (`scripts/directory_identity.ts`), snippet fallback on 403/429, Trustpilot + MyJobQuote added, Nextdoor dropped from active probes, status flags honest in `source_quality.ts` and `source_evidence.ts`, enrich summary prints per-platform lines. Re-probe only: `npm run enrich:lead -- --slug <slug> --probe-directories-only`. Tests: `npm run test:directory-probe`.
+
+**Klaudius lesson:** Identity verify exists to prevent pitching the wrong business. Homonyms are an active threat - mark `NOT_FOUND_HOMONYM`, do not trust ratings on `FOUND_UNVERIFIED`.
+
+**Backfill:** Batch `2026-06-11-ten-build` briefs re-probed via `scripts/backfill_ten_directory_probes.ts` (brief data only, no site rebuild).
+
+## 2026-06-12 copy voice rule
+
+**Why:** Klaudius's gardener reply ("woodland focus...an angle Klaudius spotted and built in entirely on its own") - current 10-site batch reads as generic-trade-template, not as the specific business.
+
+**What changed:** Voice discovery brief step (`scripts/voice_discovery.ts`, output `briefs/<slug>/voice.json`) pulls from Google reviews + `directory_probes` + photos + owner self-description. Runs in `site:prepare` after enrich, before `od:prepare` (`--skip-voice` for debug). Port prompt in `batch_port_invoke.ts` passes voice constraints with confidence-aware fallback. Global banned phrase list. `scripts/checks/voice_review.ts` wired on `build:site` - **blocking** for banned phrases and unsupported badges; **warning** for hero angle and proof points (promote to blocking after one validation batch). Four contrasting examples in `docs/copy-voice-examples.md` including low-signal fallback.
+
+**Klaudius lesson tie-in:** Badge fact-check rule exists to prevent the 2-star-review-pulled-as-5-star class of mistake - never claim Checkatrade Vetted, Gas Safe, or similar unless `brief.certifications` or verified `directory_probes[*].badges` back it.
+
+## 2026-06-12 lead identity rebuild
+
+**Why:** Read-only audit found Place ID never persisted, phone never normalized, no coverage map, no cross-ref with contacted leads. Fifteen businesses from recent batches did not collide by luck. One existing DB collision: two Bristol locksmith rows sharing `07403 942726`.
+
+**What changed:** Schema migration (`2026-06-12-lead-identity.sql`) + backfill of existing rows; `place_id` + phone/postcode unique constraints; `search_history` coverage map; `scripts/lead_search_strategy.ts` + `npm run prospect:auto`; cross-ref at prospect (outreach log + briefs/sites dirs); `tryInsertLead` replaces in-run `PlaceSearchDeduper` / phone cluster dedupe; `syncLeadStateToPitched` + `npm run check:state-sync`; hard filters promoted (reviews &lt; 3, rating &lt; 3.5, no phone) because the manual-review pile was growing faster than it was being reviewed.
+
+**Klaudius lesson tie-in:** Place ID-first dedupe + directory identity verify (2026-06-12 directory rebuild) together prevent the "pitched the wrong business" and "pitched the same business twice" classes of mistake.
+
+## 2026-06-12 bathroom-fitters hung slugs
+
+Batch `2026-06-12-bathroom-fitters`, resume 2026-06-12 ~21:22 UTC.
+
+| Slug | Stage hung | Duration | Action |
+|------|------------|----------|--------|
+| dps-plumbing-bathrooms | port_invoke (cursor-agent) | >33 min (started 20:49:26Z, killed 21:22:25Z) | BAILED in port-summary.json + `.bail` file; not retried tonight |
+
+**Follow-up:** Durable hard timeouts added in `scripts/lib/stage_timeout.ts` - port invoke 25m, next build 10m, vercel deploy 8m. `batch_port_worker.ts` logs `BAILED_TIMEOUT` and writes bail file on port invoke timeout.
+
+**Context:** 7/10 slugs ported successfully before hang blocked batch-run4. Resume deploys those 7 only; stephen-sharp and emmo failed build during port; dps hung on cursor-agent.
+
+## 2026-06-12 bathroom-fitters recovery (phase 4)
+
+**Target:** 3 → 7+ COMPLETE without re-porting deploy-fail sites.
+
+**Root causes fixed:**
+- **Gallery 1-col false positive:** `section_integrity` matched outer `.gallery` section wrapper (padding-only) instead of inner `.gallery-masonry` grid. Bare `.gallery` removed from `gallery_selectors.ts`; `.gallery-masonry` / `.gallery-pair` added. renovate-cardiff + renovatik switched section class to `section-gallery` and CSS `columns` → `display:grid` with 3 cols at >=1024px. Check now scans all gallery selectors and takes max column count; 2-col pair layout downgraded to warn.
+- **Facebook 404s (s-m, lc-tiling):** Local `/assets/images/facebook/*.webp` refs in page.tsx but files never copied to `public/` during port. Sources existed in `briefs/<slug>/images/facebook/`. Fixed via `batch_copy_site_images.ts` (image-copy-at-port-gate gap).
+
+**COMPLETE after recovery (7/10):** cutts-plumbing, bristol-bathroom-fitters, newcastle-bathroom-company-ltd, renovate-cardiff-ltd-bathroom-fitters-cardiff, renovatik-kitchen-fitter-and-joinery, s-m-plumbing-bathrooms, lc-tiling-bathrooms.
+
+**Still incomplete (3/10):** stephen-sharp-handyman-glasgow-west-end (FAILED_PORT build), emmo-plumbing-ltd (FAILED_PORT build), dps-plumbing-bathrooms (BAILED_PORT port_invoke timeout).
+
+## 2026-06-12 bathroom-fitters infra notes
+
+- **pnpm not on PATH:** Open Design daemon start via `pnpm tools-dev run web` failed (`command not found: pnpm`). Batch fell back to ephemeral port 60172 on Open Design.app. Add PATH check or document requirement at batch start (`npm run od:status` should fail fast with actionable message).
+- **Gallery 1-col root cause:** Integrity check targeted wrong DOM node (section.gallery wrapper). Durable fix in `gallery_selectors.ts` + `section_integrity.ts` max-column scan (2026-06-12 recovery).
+- **Image copy gate edge case:** Facebook subfolder refs in page.tsx not copied when port completed before thumbs block added, or copy gate ran once without nested paths. `copyBriefImagesToSite` supports nested paths; port worker must re-run copy after port invoke. Same class of bug as ten-build image-copy gate.
+- **Hard stage timeouts:** commit `fb393c6` — port invoke 25m, next build 10m, vercel deploy 8m, `BAILED_TIMEOUT` logging.
+
+## 2026-06-12 bathroom-fitters retry results
+
+- **Wall time:** 28 min (22:02:49 - 22:30:31 UTC)
+- **emmo-plumbing-ltd:** FAILED_PORT at port — `SiteEnhancements.tsx:77` TypeScript error (`mobileBar` possibly null); next build failed after port invoke
+- **stephen-sharp-handyman-glasgow-west-end:** COMPLETE after retry — port 4m41s, deploy + live style verify PASS, OG generated post-retry (script bug had skipped OG; deploy/style were ok)
+- **dps-plumbing-bathrooms:** COMPLETE after retry — port 15m26s (within 25m timeout), deploy + live style verify PASS (gallery 2-col warn only), OG generated post-retry
+- **Batch after retry:** 9/10 COMPLETE; only emmo-plumbing-ltd remains incomplete
+- **Script fix:** `bathroom_port_retry.ts` `isComplete()` wrongly required og.png before og:generate ran; split into `isDeployed()` + og check
+
+## 2026-06-12 hardlock pass v2
+
+- **Why:** AI + Vestra reviewed live bathroom-fitter sites and found extensive defensive provenance, source-citing services, third-person owner sections, broken-form disclaimers, dual stickies, palette/font monotony, plus possible identity contamination on stephen-sharp (Jordan review).
+- **What changed:** Extended `BANNED_*` in `copy_voice_constants.ts`; new checks: `no_meta_provenance`, `no_negative_services`, `banned_sections`, `owner_voice`, `service_icons`, `sticky_cta`, `hero_subhead`, `mobile_header`, `identity_review_names` (warn), `palette_diversity`, `font_diversity` (batch). Owner sections first-person; sticky CTA quote-only; service SVG icons replaced with numbers.
+- **Stephen-sharp Jordan resolution:** Review author Shane praised “Jordan” — not in team list. Swapped for Mena’s Stephen-focused review from brief. `voice.json` distinctive_angle rewritten to handyman explains-before-starting angle.
+- **Hardlocked at:** `npm run build:site`, `port_site_install.ts` pre/post-build via `scripts/run_site_source_checks.ts`.
+- **9/9 bathroom batch sites fixed and redeployed** (emmo-plumbing-ltd still incomplete, excluded).
+
+## 2026-06-12 no-generated-svg-icons rule
+
+- **Why:** Vestra flagged generic lucide-style SVG icons (key, wrench, hammer, droplet) on service cards as agent-generated and off-brand for artisan trades.
+- **Rule:** No inline `<svg>`, `lucide-react`, or `@heroicons/*` in service/process UI. Use numbers, accent dots, two-letter marks, or nothing — vary per site in a batch.
+- **Enforcement:** `scripts/checks/no_service_icons.ts` (blocking check #6). Documented in `skills/webfortrades-site-design/SKILL.md` (Iconography) and `docs/open-design-webfortrades-brief-format.md`.
+- **Bathroom batch v3 pass:** Removed service SVGs on stephen-sharp (01–05), newcastle (BR/BI/TL/SR/PL), lc-tiling (accent dots); copy fixes on stephen-sharp gallery, s-m-plumbing FAQ, renovate-cardiff reviews subhead. Extended `BANNED_META_PROVENANCE_SUBSTRINGS` in `copy_voice_constants.ts`.
+
+## 2026-06-13 outreach gating correction
+
+**Supersedes earlier "no outreach sent" / "sending disabled" claims (they stay above for history; this corrects them).** The 2026-06-13 audit (`data/outreach-audit-2026-06-13.md`) and root-cause (`docs/claude-migration/outreach-gating-rootcause.md`) found **14 real WhatsApp sends to real UK business numbers**, 2026-06-09 → 2026-06-12, despite every log row reading `sending_enabled=false`.
+
+- **Slugs sent (touch 1):** 2026-06-09 bristol-plumbing-co; 2026-06-11 jt-plumbing, greens-precise-plumbing-heating-ltd (gateway IDs `true_169165927247991@lid` / `true_225335593422935@lid`, `delivery_status=accepted_by_openwa`), nfs-plumbing-heating, bbr-plumbing-heating-bristol-bristol-boiler-repairs, west-park-electrics, alexander-s-painters-decorators; 2026-06-12 rm-electrical, a-m-t-roofing-penarth, ellis-plumbing-heating-services-birmingham, heattech-gas-services-ltd, the-lock-dr, chestnut-trees-fencing, edgar-landscapes-driveways-ltd.
+- **Why the logs say `sending_enabled=false`:** every live sender flipped the flag on via `enableLiveOutreach()` (`scripts/test_recipient.ts`) writing `config.yaml` at runtime, sent, then reset it in `finally{}` and logged the post-reset value (`send_whatsapp_pitch.ts:199/220/262`). Two paths even hardcode `sending_enabled_final: false` (`outreach/send_one.ts:244`, `send_whatsapp_caption_pitches.ts:318`). The only real gate was the `--live` CLI flag.
+- **Secondary bypasses:** jt-plumbing was sent with `clone_review=FAIL` + `source_quality=FAIL` and greens with a Bristol/Swansea location mismatch, "waived_by_user" via manifest fields the send code never enforced. `pitch_gate.ts` does not even read clone_review/source_quality.
+- **No leads.db rows were modified by the audit.** Whether the 14 `PITCHED` rows stay as-is or get corrected is a separate decision.
+
+## 2026-06-13 whatsapp manual policy
+
+**No automated WhatsApp sends, ever, for any reason.** My WhatsApp account was restricted, almost certainly from OpenWA automation fingerprinting; the 14 sends above are the likely trigger. Attempted setup was OpenWA via OpenWA-API on `localhost:2785` (Docker at `~/.cursor/openwa`, session `webfortrades-outreach`), send-text + send-video over HTTP.
+
+- **Policy:** the entire OpenWA / live WhatsApp path is to be deleted (delete list in `docs/claude-migration/outreach-gating-rootcause.md` §6a). WhatsApp outreach becomes **manual handoff only**: the pipeline writes a paste-ready queue (`data/outreach-queue-whatsapp.md`, spec in rootcause §8), I send each message myself in WhatsApp Web at my own pace, then run `outreach:mark-sent` (local state only, zero network).
+- **Email** remains the only automated channel, gated by `sending_enabled` through the single chokepoint `scripts/outreach/send_email.ts` (reads config fresh, throws if false, no override).
+- **Architectural lesson (carries into the new pipeline):** `config.yaml` is read-only at runtime. Code reads it; code never writes it. The runtime config-mutation in `scripts/test_recipient.ts` is the root cause and the anti-pattern to design out.
+
