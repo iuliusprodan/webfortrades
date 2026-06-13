@@ -180,7 +180,7 @@ img { max-width: 100%; display: block; }
   #nav-mobile, #nav-scrim, .menu-toggle span { transition-duration: 0s; }
 }
 
-/* ---------- Hero (full viewport, responsive, typographic/solid) ---------- */
+/* ---------- Hero (copy left / photo right; stacks copy-then-photo on mobile) ---------- */
 .hero {
   position: relative; color: var(--surface); overflow: hidden;
   min-height: 100vh; min-height: 100dvh;
@@ -196,17 +196,41 @@ img { max-width: 100%; display: block; }
   -webkit-mask-image: radial-gradient(120% 90% at 80% 20%, #000 30%, transparent 75%);
   mask-image: radial-gradient(120% 90% at 80% 20%, #000 30%, transparent 75%);
 }
-.hero-inner { position: relative; z-index: 2; padding: 7rem 1.5rem 4rem; max-width: 820px; }
+/* Mobile: single column, copy first then photo below (headline still leads). */
+.hero-inner {
+  position: relative; z-index: 2;
+  padding: 7rem 1.5rem 4rem;
+  display: grid; grid-template-columns: 1fr; gap: 2.25rem;
+  align-items: center; width: 100%;
+}
+.hero-copy { min-width: 0; }
 .hero .eyebrow { color: var(--pewter); }
 .hero h1 { font-size: clamp(2.5rem, 6.2vw, 4.6rem); letter-spacing: 0; color: var(--surface); }
 .hero-sub { font-size: 1.2rem; margin: 1.4rem 0 1.9rem; color: #d9d2e6; max-width: 640px; }
 .hero-cta { display: flex; flex-wrap: wrap; gap: 0.85rem; align-items: center; }
 .hero-proof { margin: 1.4rem 0 0; font-size: 0.92rem; font-weight: 600; color: #d9d2e6; letter-spacing: 0.02em; }
 .hero-proof .accent-text { color: #c79df0; }
+/* Hero photo */
+.hero-media { min-width: 0; }
+.hero-photo {
+  width: 100%; height: auto; max-height: 60vh; object-fit: cover;
+  border-radius: 10px; border: 1px solid rgba(154,147,168,0.32);
+  box-shadow: 0 18px 50px rgba(21, 10, 36, 0.45);
+}
 @media (max-width: 640px) {
   .hero-cta { flex-direction: column; align-items: stretch; }
   .hero-cta .btn { width: 100%; }
   .hero-proof { text-align: left; }
+  .hero-photo { max-height: 48vh; }
+}
+/* Desktop: copy ~55% / photo ~45% side by side. */
+@media (min-width: 900px) {
+  .hero-inner {
+    grid-template-columns: 55fr 45fr;
+    gap: 3.5rem;
+    padding: 7rem 1.5rem 6rem;
+  }
+  .hero-photo { max-height: 78vh; }
 }
 
 /* ---------- Proof marquee ---------- */
@@ -230,8 +254,17 @@ img { max-width: 100%; display: block; }
 .standard-item p { color: #d3cae2; max-width: 760px; margin: 0; font-size: 1.1rem; }
 
 /* ---------- Services ---------- */
-.service-row { display: grid; grid-template-columns: 3.5rem 1fr; gap: 1rem; padding: 1.4rem 0; align-items: start; }
-.service-mark { font-family: var(--font-display), serif; font-weight: 700; font-size: 1.15rem; color: var(--accent); letter-spacing: 0.04em; }
+.service-row { display: grid; grid-template-columns: 1.25rem 1fr; gap: 1rem; padding: 1.4rem 0; align-items: start; }
+/* Brand-accent dot marker, aligned to the first line of the service title. */
+.service-mark {
+  display: block;
+  width: 9px; height: 9px;
+  border-radius: 50%;
+  background: var(--accent);
+  /* nudge down so the dot sits on the cap-height baseline of the title's first line */
+  margin-top: 0.62rem;
+  justify-self: center;
+}
 .service-name { font-weight: 600; font-size: 1.2rem; margin-bottom: 0.2rem; font-family: var(--font-display), serif; }
 .service-desc { color: var(--muted); margin: 0; }
 

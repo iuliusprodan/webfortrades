@@ -6,20 +6,23 @@ const PHONE_TEL = "07716418405";
 const GOOGLE_URL = "https://maps.google.com/?cid=9346552790654223777";
 
 const services = [
-  { mark: "LT", name: "Lighting and downlights", desc: "Downlights, feature and outdoor lighting, switches and dimmers, set out and fitted to a high standard." },
-  { mark: "CU", name: "Consumer units and fuse boards", desc: "Outdated boards replaced and brought up to current standard, sorted before any work that depends on it." },
-  { mark: "RW", name: "Rewires and new circuits", desc: "New sockets, outdoor power and added circuits, through to full and partial rewires, done neatly." },
-  { mark: "FF", name: "Fault-finding and repairs", desc: "Dodgy or intermittent electrics traced, explained, and put right, with recommendations where they help." },
+  { name: "Lighting and downlights", desc: "Downlights, feature and outdoor lighting, switches and dimmers, set out and fitted to a high standard." },
+  { name: "Consumer units and fuse boards", desc: "Outdated boards replaced and brought up to current standard, sorted before any work that depends on it." },
+  { name: "Rewires and new circuits", desc: "New sockets, outdoor power and added circuits, through to full and partial rewires, done neatly." },
+  { name: "Fault-finding and repairs", desc: "Dodgy or intermittent electrics traced, explained, and put right, with recommendations where they help." },
 ];
 
-// Typographic/solid hero (no photo behind the headline) - see build-notes.md.
-// Gallery uses the strong finished-work shots: 01 (completed consumer unit),
-// 10 (Lawrence at the kitted van, the personal brand), 08 (neat outdoor spur),
-// 04 (testing a circuit), 05 + 06 (earthing/bonding). Excluded: 02 + 07
-// (work-in-progress on bare/peeling walls) and 09 (workbench detail crop).
+// Hero now uses a copy|photo split. Hero photo is 10 (Lawrence at the kitted
+// van, the personal brand: depth, natural light, sense of place) - removed from
+// the gallery below to avoid showing the same image twice.
+// Gallery keeps the strong finished-work shots: 01 (completed consumer unit),
+// 08 (neat outdoor spur), 04 (testing a circuit), 05 + 06 (earthing/bonding).
+// Excluded: 02 + 07 (work-in-progress on bare/peeling walls), 09 (workbench
+// detail crop) and 10 (now the hero photo).
+const HERO_PHOTO = { src: "/assets/images/10-places.webp", alt: "Lawrence of Electrical Solutions Bristol at his kitted-out van" };
+
 const gallery = [
   { src: "/assets/images/01-places.webp", cap: "Completed consumer unit, Bristol" },
-  { src: "/assets/images/10-places.webp", cap: "Lawrence and the van, kitted for the job" },
   { src: "/assets/images/08-places.webp", cap: "Outdoor switched spur, Bristol" },
   { src: "/assets/images/04-places.webp", cap: "Testing a finished circuit, Bristol" },
   { src: "/assets/images/05-places.webp", cap: "Earth bonding, Bristol" },
@@ -92,19 +95,24 @@ export default function Page() {
       </nav>
 
       <main id="top">
-        {/* HERO - typographic/solid on deep amethyst */}
+        {/* HERO - copy left / photo right (stacks to copy-then-photo on mobile) */}
         <section className="hero" data-section-id="hero">
           <div className="container hero-inner">
-            <p className="eyebrow">Electrician, Bristol BS16 - Downend and across the city</p>
-            <h1>High-end home electrics for Bristol, lighting and all, done to a considered standard.</h1>
-            <p className="hero-sub">
-              Lawrence fits lighting and downlights, upgrades consumer units, rewires and chases down faults across Bristol and the BS postcodes. The board and the safety sorted first, the latest solutions rather than the same old kit, and the job left tidy.
-            </p>
-            <div className="hero-cta">
-              <a className="btn btn-primary" href="#quote">Get a quote</a>
-              <a className="btn btn-secondary" href={`tel:${PHONE_TEL}`} style={{ color: "#fff", borderColor: "#fff" }}>Call Lawrence, {PHONE}</a>
+            <div className="hero-copy">
+              <p className="eyebrow">Electrician, Bristol BS16 - Downend and across the city</p>
+              <h1>High-end home electrics for Bristol, lighting and all, done to a considered standard.</h1>
+              <p className="hero-sub">
+                Lawrence fits lighting and downlights, upgrades consumer units, rewires and chases down faults across Bristol and the BS postcodes. The board and the safety sorted first, the latest solutions rather than the same old kit, and the job left tidy.
+              </p>
+              <div className="hero-cta">
+                <a className="btn btn-primary" href="#quote">Get a quote</a>
+                <a className="btn btn-secondary" href={`tel:${PHONE_TEL}`} style={{ color: "#fff", borderColor: "#fff" }}>Call Lawrence, {PHONE}</a>
+              </div>
+              <p className="hero-proof"><span className="accent-text">5.0</span> on Google · 135 reviews</p>
             </div>
-            <p className="hero-proof"><span className="accent-text">5.0</span> on Google · 135 reviews</p>
+            <div className="hero-media">
+              <img src={HERO_PHOTO.src} alt={HERO_PHOTO.alt} className="hero-photo" />
+            </div>
           </div>
         </section>
 
@@ -147,10 +155,10 @@ export default function Page() {
             <p className="section-intro" data-reveal>Domestic electrical work across Bristol, from a single light to a full rewire.</p>
             <div style={{ marginTop: "1.5rem" }}>
               {services.map((s, i) => (
-                <div key={s.mark} data-reveal>
+                <div key={s.name} data-reveal>
                   {i > 0 ? <div className="filament-rule" role="presentation" /> : null}
                   <div className="service-row">
-                    <div className="service-mark">{s.mark}</div>
+                    <span className="service-mark" aria-hidden="true" />
                     <div>
                       <div className="service-name">{s.name}</div>
                       <p className="service-desc">{s.desc}</p>

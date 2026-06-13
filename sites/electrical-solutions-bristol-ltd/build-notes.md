@@ -58,7 +58,7 @@ NEEDS_MANUAL_REVIEW state. WhatsApp confirmed "WhatsApp checked: no" at gather.
 
 ## Deploy verification (2026-06-13)
 - Preferred alias: electrical-solutions-bristol-ltd.vercel.app
-- Deployment URL: https://electrical-solutions-bristol-2gc95p0vi-iulius-projects-0cb33a7b.vercel.app
+- Deployment URL: https://electrical-solutions-bristol-l5i71wybk-iulius-projects-0cb33a7b.vercel.app
 - Verified URL: https://electrical-solutions-bristol-ltd.vercel.app
 - Alias status: VERIFIED
 - Deploy manifest: `/Users/iuliusprodan/.cursor/website/briefs/electrical-solutions-bristol-ltd/deploy.json`
