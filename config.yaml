@@ -19,13 +19,8 @@ outreach:
   from_email: "contact@webfortradesuk.co.uk"
   channels: ["whatsapp", "email"]
   primary_channel: "whatsapp"
-  whatsapp_mode: "approval_first"
-  whatsapp_check_enabled: true
-  sending_enabled: false   # set true only when Julius explicitly enables live sends
-  test_recipient_only: true   # redirect all outbound test sends to MY_OWN_TEST_NUMBER
+  sending_enabled: false   # email-only gate; set true only when Julius explicitly enables live email sends (ARCH-6)
   daily_send_cap: 15
-  whatsapp_daily_cap: 10
-  min_minutes_between_whatsapp: 3
   sequence_touches: 5
   tone: "friendly, concise, no hard sell"
   # per_send: ask before each lead | batch: one approval at preflight then auto-send

@@ -415,3 +415,23 @@ Batch `2026-06-12-bathroom-fitters`, resume 2026-06-12 ~21:22 UTC.
 - **Email** remains the only automated channel, gated by `sending_enabled` through the single chokepoint `scripts/outreach/send_email.ts` (reads config fresh, throws if false, no override).
 - **Architectural lesson (carries into the new pipeline):** `config.yaml` is read-only at runtime. Code reads it; code never writes it. The runtime config-mutation in `scripts/test_recipient.ts` is the root cause and the anti-pattern to design out.
 
+## 2026-06-13 outreach teardown executed (ARCH-5/6/7)
+
+The teardown scoped in `docs/claude-migration/outreach-gating-rootcause.md` §6a is **done**, in 5 commits on `claude-migration`:
+- `dfd95d1` delete 20 OpenWA/WhatsApp live-send modules (incl. `test_recipient.ts` and the whole `scripts/outreach/` send pipeline; dir removed).
+- `6498409` add `scripts/lib/uk_mobile.ts` (`isUkMobileCandidate`, pure/no-network, 9-case test) + gut `contactability.ts` to a synchronous binary decision.
+- `6320182` `outreach.ts` → draft-only (no `--send` path at all); `pitch_gate.ts` now reads `clone-review.json`/`source-quality.json`.
+- `85b8c1d` ARCH-7 enforcement: static check `scripts/checks/no_config_yaml_writes.ts` + runtime `scripts/config_guard.ts`.
+- (final commit) config.yaml + package.json + this note.
+
+**Semantic shift to watch (Adjustment 6):** `NEEDS_MANUAL_CONTACT` / `NEEDS_MANUAL_REVIEW` no longer means "WhatsApp network check pending"; it now means "no email but a UK-mobile-shaped number → manual WhatsApp only". Foreign/unknown-shape numbers with no email, which used to be NEEDS_MANUAL_REVIEW, are now `DISQUALIFIED_NO_CONTACT_METHOD`. **Existing leads.db rows were NOT re-qualified** — any lead written before 2026-06-13 carries the old semantics; do not compare pre/post `contactability_status` values without accounting for this.
+
+**Config/runtime invariants now true:**
+- Removed config keys: `outreach.whatsapp_mode`, `whatsapp_check_enabled`, `test_recipient_only`, `whatsapp_daily_cap`, `min_minutes_between_whatsapp`. `sending_enabled` stays as the **email-only** gate (ARCH-6).
+- The email chokepoint is `scripts/send_email.ts` (top-level) — earlier notes calling it `scripts/outreach/send_email.ts` are wrong; `scripts/outreach/` no longer exists.
+- ARCH-7 is enforced two ways: `npm run test:config-readonly` (static, fails build on any root-`config.yaml` writer) and `config_guard.ts` (runtime mtime/hash assert). `chmod 0444` deliberately NOT applied.
+
+**Pre-existing-changes hazard discovered (carry forward):** `source_evidence.ts` (+114) and `site_prepare.ts` (+34) carry large *uncommitted* pre-existing changes (directory-probe rework, voice-discovery step). The ARCH-7 runtime guard was therefore left **unwired** in those two entrypoints to avoid bundling that work — wire `import "./config_guard.js"` into both once their pre-existing changes are committed. `package.json` likewise had pre-existing script additions; the teardown commit was partial-staged to contain only the 9 removals + `test:config-readonly`.
+
+**Repo tsc baseline:** `npx tsc --noEmit` reports 38 pre-existing errors across 19 untouched files (part of the out-of-scope 272 changes); all teardown-touched files are type-clean. `tsc` does not pass repo-wide yet — that is a separate cleanup, not this teardown.
+
