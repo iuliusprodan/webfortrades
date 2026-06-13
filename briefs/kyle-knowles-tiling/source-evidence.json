@@ -1,0 +1,444 @@
+{
+  "slug": "kyle-knowles-tiling",
+  "gathered_at": "2026-06-13T12:38:33.466Z",
+  "attempted_sources": [
+    {
+      "platform": "google_places",
+      "status": "found",
+      "url": "https://maps.google.com/?cid=13809484651488138570"
+    },
+    {
+      "platform": "google_maps",
+      "status": "not_attempted",
+      "search_query": "Kyle Knowles Tiling Manchester M11 1NW site:google.com/maps",
+      "reason": "Automated search not run in enrich pass unless URL provided"
+    },
+    {
+      "platform": "google_reviews",
+      "status": "found",
+      "url": "https://maps.google.com/?cid=13809484651488138570"
+    },
+    {
+      "platform": "google_photos",
+      "status": "found",
+      "url": "https://maps.google.com/?cid=13809484651488138570"
+    },
+    {
+      "platform": "facebook",
+      "status": "not_attempted",
+      "search_query": "Kyle Knowles Tiling Manchester M11 1NW Facebook",
+      "reason": "Automated search not run in enrich pass unless URL provided"
+    },
+    {
+      "platform": "checkatrade",
+      "status": "not_attempted",
+      "search_query": "Kyle Knowles Tiling Manchester M11 1NW site:checkatrade.com",
+      "reason": "Automated search not run in enrich pass unless URL provided"
+    },
+    {
+      "platform": "trustatrader",
+      "status": "not_attempted",
+      "search_query": "Kyle Knowles Tiling Manchester M11 1NW site:trustatrader.com",
+      "reason": "Automated search not run in enrich pass unless URL provided"
+    },
+    {
+      "platform": "yell",
+      "status": "not_attempted",
+      "search_query": "Kyle Knowles Tiling Manchester M11 1NW site:yell.com",
+      "reason": "Automated search not run in enrich pass unless URL provided"
+    },
+    {
+      "platform": "mybuilder",
+      "status": "not_attempted",
+      "search_query": "Kyle Knowles Tiling Manchester M11 1NW site:mybuilder.com",
+      "reason": "Automated search not run in enrich pass unless URL provided"
+    },
+    {
+      "platform": "rated_people",
+      "status": "not_attempted",
+      "search_query": "Kyle Knowles Tiling Manchester M11 1NW site:ratedpeople.com",
+      "reason": "Automated search not run in enrich pass unless URL provided"
+    },
+    {
+      "platform": "bark",
+      "status": "not_attempted",
+      "search_query": "Kyle Knowles Tiling Manchester M11 1NW site:bark.com",
+      "reason": "Automated search not run in enrich pass unless URL provided"
+    },
+    {
+      "platform": "houzz",
+      "status": "not_attempted",
+      "search_query": "Kyle Knowles Tiling Manchester M11 1NW site:houzz.co.uk",
+      "reason": "Automated search not run in enrich pass unless URL provided"
+    },
+    {
+      "platform": "myjobquote",
+      "status": "not_attempted",
+      "search_query": "Kyle Knowles Tiling Manchester M11 1NW site:myjobquote.co.uk",
+      "reason": "Automated search not run in enrich pass unless URL provided"
+    },
+    {
+      "platform": "trustpilot",
+      "status": "not_attempted",
+      "search_query": "Kyle Knowles Tiling Manchester M11 1NW site:trustpilot.com",
+      "reason": "Automated search not run in enrich pass unless URL provided"
+    },
+    {
+      "platform": "youtube",
+      "status": "not_attempted",
+      "search_query": "Kyle Knowles Tiling Manchester M11 1NW site:youtube.com",
+      "reason": "Automated search not run in enrich pass unless URL provided"
+    },
+    {
+      "platform": "companies_house",
+      "status": "not_attempted",
+      "search_query": "Kyle Knowles Tiling site:find-and-update.company-information.service.gov.uk",
+      "reason": "Automated search not run in enrich pass unless URL provided"
+    },
+    {
+      "platform": "official_website",
+      "status": "not_attempted",
+      "search_query": "Kyle Knowles Tiling Manchester M11 1NW website",
+      "reason": "Automated search not run in enrich pass unless URL provided"
+    },
+    {
+      "platform": "email_domain_website",
+      "status": "not_attempted",
+      "search_query": "https://",
+      "reason": "Automated search not run in enrich pass unless URL provided"
+    },
+    {
+      "platform": "directories",
+      "status": "not_attempted",
+      "search_query": "Kyle Knowles Tiling Manchester M11 1NW plumber electrician directory",
+      "reason": "Automated search not run in enrich pass unless URL provided"
+    },
+    {
+      "platform": "local_trade_directories",
+      "status": "not_attempted",
+      "search_query": "Kyle Knowles Tiling Manchester M11 1NW local directory",
+      "reason": "Automated search not run in enrich pass unless URL provided"
+    },
+    {
+      "platform": "trade_association",
+      "status": "not_attempted",
+      "search_query": "Kyle Knowles Tiling  association member",
+      "reason": "Automated search not run in enrich pass unless URL provided"
+    },
+    {
+      "platform": "review_aggregators",
+      "status": "not_attempted",
+      "search_query": "Kyle Knowles Tiling Manchester M11 1NW reviews",
+      "reason": "Automated search not run in enrich pass unless URL provided"
+    },
+    {
+      "platform": "instagram",
+      "status": "not_attempted",
+      "search_query": "Kyle Knowles Tiling Manchester M11 1NW Instagram",
+      "reason": "Requires login - manual review only"
+    },
+    {
+      "platform": "nextdoor",
+      "status": "not_attempted",
+      "search_query": "Kyle Knowles Tiling Manchester M11 1NW site:nextdoor.co.uk",
+      "reason": "Requires login - manual review only"
+    },
+    {
+      "platform": "pinterest",
+      "status": "not_attempted",
+      "search_query": "Kyle Knowles Tiling Manchester M11 1NW site:pinterest.com",
+      "reason": "Requires login - manual review only"
+    },
+    {
+      "platform": "tiktok",
+      "status": "not_attempted",
+      "search_query": "Kyle Knowles Tiling Manchester M11 1NW TikTok",
+      "reason": "Requires login - manual review only"
+    },
+    {
+      "platform": "linkedin",
+      "status": "not_attempted",
+      "search_query": "Kyle Knowles Tiling Manchester M11 1NW site:linkedin.com",
+      "reason": "Requires login - manual review only"
+    },
+    {
+      "platform": "twitter",
+      "status": "not_attempted",
+      "search_query": "Kyle Knowles Tiling Manchester M11 1NW site:twitter.com OR site:x.com",
+      "reason": "Requires login - manual review only"
+    }
+  ],
+  "sources": [
+    {
+      "platform": "google_places",
+      "url": "https://maps.google.com/?cid=13809484651488138570",
+      "verified": true,
+      "verification_method": "place_id_from_gather",
+      "phone_match": true,
+      "notes": "Primary gather source"
+    }
+  ],
+  "sources_found": [
+    "google_places",
+    "google_reviews",
+    "google_photos"
+  ],
+  "sources_verified": [
+    "google_places"
+  ],
+  "strongest_proof_source": {
+    "platform": "google",
+    "metric": "4.9 rating, 43 reviews",
+    "url": "https://maps.google.com/?cid=13809484651488138570"
+  },
+  "best_review_details": [
+    {
+      "text": "I was fortunate to find Kyle on a google search and after reading the reviews decided to contact him. I'm so glad I did. I had a challenging kitchen floor and hallway that needed leveling and lots more TLC.  Kyle was  not phased by the level of work that needed to be done and reassured me that he would be able to work with it. And he did! I am so pleased with my new floor. Kyle is professional and",
+      "author": "Laura",
+      "rating": 5,
+      "source": "google"
+    },
+    {
+      "text": "I’ve had the pleasure to have Kyle work on both my kitchen and bathroom. Coming from the back of an awful experience where previous fitter/tiler went AWOL Kyle had to step in and I’m really glad he did. Reliable, punctual and very proud of his work- rightly so I’d add. I was kept up to date with progress and his expert advice came in handy with choosing the right tiles. I found his rates very fair",
+      "author": "Luca",
+      "rating": 5,
+      "source": "google"
+    },
+    {
+      "text": "Kyle was brilliant - I found him through Google after our bathroom fitter said the tiles we wanted were a too complex for him.  Kyle did a brilliant job, was enthusiastic, turned up on time and got the job done in a good time (knowing we were on a strict deadline with a baby due the following week!) We'll definitely use him again in the future.",
+      "author": "Stephanie",
+      "rating": 5,
+      "source": "google"
+    }
+  ],
+  "image_source_summary": {
+    "google_photos": 9,
+    "facebook_photos": 0,
+    "directory_photos": 0,
+    "manual_photos": 0,
+    "other": 0,
+    "preferred_source": "google_places",
+    "notes": "Google Places photos preferred for gallery when high quality",
+    "priority_order": [
+      "official_website",
+      "google_places",
+      "directory",
+      "manual_asset",
+      "facebook_evidence",
+      "proof_led"
+    ]
+  },
+  "manual_review_flags": [
+    "contactability=NEEDS_MANUAL_REVIEW"
+  ],
+  "enrichment_complete": false,
+  "risks": [],
+  "manual_asset_review_recommended": false,
+  "manual_asset_status": "OK",
+  "asset_readiness": {
+    "manual_asset_status": "OK",
+    "usable_automatic_count": 9,
+    "usable_manual_count": 0,
+    "usable_total_count": 9,
+    "has_hero_candidate": true,
+    "pause_before_open_design": false,
+    "pause_message": null,
+    "layout_recommendation": "photo_led",
+    "image_slots": [
+      {
+        "slot": "hero",
+        "desired": "Best finished project photo or strong proof visual",
+        "source_status": "automatic"
+      },
+      {
+        "slot": "gallery_1",
+        "desired": "Finished work close-up or wide project shot",
+        "source_status": "automatic"
+      },
+      {
+        "slot": "gallery_2",
+        "desired": "Finished work close-up or wide project shot",
+        "source_status": "automatic"
+      },
+      {
+        "slot": "gallery_3",
+        "desired": "Finished work close-up or wide project shot",
+        "source_status": "automatic"
+      },
+      {
+        "slot": "gallery_4",
+        "desired": "Finished work close-up or wide project shot",
+        "source_status": "automatic"
+      }
+    ],
+    "manual_folder": "briefs/kyle-knowles-tiling/images/manual/"
+  },
+  "image_slots": [
+    {
+      "slot": "hero",
+      "desired": "Best finished project photo or strong proof visual",
+      "source_status": "automatic"
+    },
+    {
+      "slot": "gallery_1",
+      "desired": "Finished work close-up or wide project shot",
+      "source_status": "automatic"
+    },
+    {
+      "slot": "gallery_2",
+      "desired": "Finished work close-up or wide project shot",
+      "source_status": "automatic"
+    },
+    {
+      "slot": "gallery_3",
+      "desired": "Finished work close-up or wide project shot",
+      "source_status": "automatic"
+    },
+    {
+      "slot": "gallery_4",
+      "desired": "Finished work close-up or wide project shot",
+      "source_status": "automatic"
+    }
+  ],
+  "email": null,
+  "email_found": false,
+  "email_domain_checked": false,
+  "email_domain_website": null,
+  "website_discovery": null,
+  "website_status": "NO_WEBSITE",
+  "truly_no_website": null,
+  "logo_found": false,
+  "logo_path": null,
+  "facebook_url": null,
+  "facebook_verified": false,
+  "source_verifications": [
+    {
+      "platform": "google_places",
+      "url": "https://maps.google.com/?cid=13809484651488138570",
+      "confidence": "low",
+      "verified": false,
+      "verification_reasons": [
+        "Business name matches or clearly aliases Google listing",
+        "Name match only - common name risk"
+      ],
+      "matches": {
+        "phone": false,
+        "email": false,
+        "website": false,
+        "business_name": true,
+        "location": false,
+        "service_trade": false,
+        "logo": false
+      },
+      "rejected_reason": "Insufficient verification signals for automatic use"
+    }
+  ],
+  "source_confidence": {
+    "overall": "low",
+    "verified_platforms": [],
+    "rejected_platforms": [
+      "google_places"
+    ],
+    "notes": [
+      "No verified sources with medium or high confidence",
+      "1 source(s) rejected for low confidence"
+    ]
+  },
+  "image_manifest": [
+    {
+      "local": "images/01-places.webp",
+      "source": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3kL5e52Kwkoy15XT1HLhT-u21hxeYtsVYfRSu0b5XBUuB-I9jC5cUdF9R-x2Lg_HFfwngtjTdff9P8OAmRA8J-Ux0S9U3A0ulaYk-M8I6QEeBi22nIsQvjpppm0sJT0ppUJi-FXy-ya6cTOdiAQaGYj6U-uc-r42vfg2dQg2TWPH466sv17aB-qzq-M-6CjXj1XcIbekb5EnpowkffZXkm_UC0Gddi3pVVi8dOOatei49TN1CVaV4aLGYha_9WdxeCVx97aEu_TFmlYopGrhLpnP51FmFfntUxGtSEJjBlw6UtUBxcOxZsK51TRLjfdMw3HtfYmnatWCG8Y_o8xLgSuhN2eEEV-_AaXEDi17DhuTVsv-JNF7fosw6RlVTOk9y4CMskf_r8w9HOJP5aXYezflw1Jkln9PHdAeJiHx_EpCw&key=REDACTED",
+      "source_type": "google_places",
+      "confidence": "medium",
+      "purpose": "gallery",
+      "selected": true,
+      "reason": "Default from gather"
+    },
+    {
+      "local": "images/02-places.webp",
+      "source": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3nhnveS0Z4BcqOuEQfo706Q7HINb3IuUiGJv0mcuRrXSeXKJVPB5g389rMPYLMH2X7xTIl8gciJVRYsD5XDBjc3Q6vHa46IEFBtyjw22OmOvnICg9xaHYZ7oaP_olAANHoeMJwUZmNee0R5CM4p7WRuwiyFAfxro5mUWOETFTWONkPR3-AB_DC5lMROHwbzLpV2c3-q-WTQT-FnIG2vkq71P3K4_saFs2aHg8h_O3c461s2zQBo0_DMWnNscoUKcUEDDZ9EOIxPPFEjwZKHP-jUTYEu6L_owQ-b9zNddvJEGki6IW7blqwaPsWxGwF5L2p4AfM4JX1ZSZsE4oY8P9MQaD7mPVZRWRRHPfzhg6PCRA9Vk6_ustRnqlO5FVgyCUNO02d7Zy-jGl1eDT5wK0HwFzlCS_t7U_2KfwBQloxY3hc&key=REDACTED",
+      "source_type": "google_places",
+      "confidence": "medium",
+      "purpose": "gallery",
+      "selected": true,
+      "reason": "Default from gather"
+    },
+    {
+      "local": "images/03-places.webp",
+      "source": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3kU7MUxgKELquGoQEa3vfHzuG-g0bSJ11UIL70ra6Zq1Qj9Rp88GnuJnrL3wXvcM6fhjfbHghARjqhGM2IFkXsR4UX8R-Sb6yYPzmLdN8L4UtGWS2vJfK4bNeceG63BhufwFJ2xNSBGz3mcGoSNzSo7CnlPFVKGrBwwCXnykpdRwon2x1QBM5Pyi-ceeix7p3kLwfechpNKCIbBjUkh7kLmP_lW7QOwBEyoY7IR9RL_pgo7DuqVqS-7wPsMfNb_tsnojPCuHSaA2ksRFNi1tk3KtzG_Y45C7vvTe38vCpy01GhI11hNIe0stX-JECz1-K9QEgso8B-9dSyW76nBad-_Xyk3B_8DiHCkx_ZmPDUoQOY4QhOMiVMeOGOm9XUuRV6oGPeiAlsZMaiWnOF-nFxGHTbv9ATeJBtLUVOfsPc&key=REDACTED",
+      "source_type": "google_places",
+      "confidence": "medium",
+      "purpose": "gallery",
+      "selected": true,
+      "reason": "Default from gather"
+    },
+    {
+      "local": "images/04-places.webp",
+      "source": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3k_L0gygNPLZ3LR2hAIDBJvBW6e-VCdcg1RxYbsUkasTt12RsWZvDMbdhciOfuhyq3Cgws83vjm-43VHOiyBmI7s2hig3I7iOEEd8ACaHnHe-6RAzpHWu_kvd--PS2ECreUdTANg_RxWo6D5f8-94MIZK_79ahfGRGo0VWqmB8V44xywDBtIkPP-N9ehYHSfbkfyJC6GMwgrHlNUHGnhtTTdGZFJfLauTOnYKXez5PZcNXqkV06E29TogB_y2mc1oIb_OzJ3hF_fTvB2XLmLCSujBEbQ5VXa97ntfgiXDWG3LazCVvalwl7CtqnbFi4rJ-CqBXGlXbAlUqRMthQHryVZThIqs02futEP5_Z-UpFU6oE_Rl5H4Ov5bKZwNsYL-EGrXOBQl26i3kZP8Ni4F8GskXBBo-j6KPICH7POubU6w&key=REDACTED",
+      "source_type": "google_places",
+      "confidence": "medium",
+      "purpose": "gallery",
+      "selected": true,
+      "reason": "Default from gather"
+    },
+    {
+      "local": "images/06-places.webp",
+      "source": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3nVPUnPq8pPklP11M9_CzhEH6JBW67EDdIh8_s2AVsSBzYJCFu2zOWNi6rjpvs-PMgHx3QqyyCxSRit6lDxFH1-JWrf3UIEaAMD3vgul2PZ-EdfVWl40vSN6yWW6cjV7Aj3LF9PQdeHmP6gxRFfbDXnhHKAlynVO4pREUAZgx9vW5tUYkN83iAatYq8areQ4Y1C8svhYjaGAISlACoZpqD0t3f4fZfnLM-LAedrtmajEkbTwGswLGsrsww3xCZ8rPTXuR9DmoMVMgcdpRASWV_dKd14ndPUnktVgx3hUgtDKDHwvEHYnjpHN4IqnlglWKRq86Fvss1p_xZaqdD9nDEe73EoYqvbKbwGBPKJ8TM4Yd9JkDjKyOPZk9DIfiyZHS46kE4ANGWKoN16kMG-2ZnBItONWTBAzT3kS1lBAn4GkA&key=REDACTED",
+      "source_type": "google_places",
+      "confidence": "medium",
+      "purpose": "gallery",
+      "selected": true,
+      "reason": "Default from gather"
+    },
+    {
+      "local": "images/07-places.webp",
+      "source": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3kH7CGwIzvB0h8cnBXIuwLNeSQ11EY7ytZg5cy7amJMmPZtUjb8NGDnyHxOTIEXjVQwp1mhtJQiIXsE0_szAK7e_IIQ9xnCqSOcJl0dH4BhBLBWfZYmuGtVKH10KTR1nc-sQgCDrSItS1wo553f_KS1BlF-o7vNkHpveFpxDEf-Am6U1FFcbz6hIXDkofcRs_hR29ZLMmSYWrkFof3RvGEzQfFdomOxdFyrgDW9WFXKz7O7c6-c1XzLDGnTp7nKlkx6P5XwEnB3cttK7Gr8UR8cQHyRhsEk7a8o8BjGHWsDv0r8hzWjMljubUWMFU342zfwa8adNleRf0mAtnr1kr8tNHLQZEKWMRLXy86g7X4zUqMfB4c9J-pnKa6UfTTVI8HUh-T-3xDthKeecHGDrl177OQuuYYfPfvethlgZ0CPf__a&key=REDACTED",
+      "source_type": "google_places",
+      "confidence": "medium",
+      "purpose": "gallery",
+      "selected": true,
+      "reason": "Default from gather"
+    },
+    {
+      "local": "images/08-places.webp",
+      "source": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3ngeJqv_w1dQH17t4LCQU0RvdU-IZrfFfCLfONLNlgKyRIvcAFxBs-Lz88Gp833Esw_Dnj-qrehoEzC5TggYM20KMt76qRkCpbG923k-dX_3SUEID0p-h2yR8NOlUyArqZ_gISmUC_MIz3TXJXzy3x5bFT9ur-XUfQgpMvWwOvFQn-4h_x31-sfvCzJ9HYTRrLnMCTC5JOOyVzoPnZC9A7ooQV47dtgOcB6x2_NY7prYERr231VGyyJYrk2LOzP1AdmOMsqAm_XpR_ZOOu2x5l_8ZE5eIJUn-0It1hwFTiDzMPwXPGdUGLw5raEQBS0UOzBJ_n-_n9mcFxF0aatKgHDISyeH0gjtshPzI3xbbvU5WlJhaKef_iJADsr8YmUtnp-CEhN8oO1Uus__t8fdtRqWoEhY_VffLCLLoqy0GpA-Gw&key=REDACTED",
+      "source_type": "google_places",
+      "confidence": "medium",
+      "purpose": "gallery",
+      "selected": true,
+      "reason": "Default from gather"
+    },
+    {
+      "local": "images/09-places.webp",
+      "source": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3njZXbr-h3jDI-3JP536A8Au2kdCAhcSoz-w2RSnF1wVu4rUPsvhmEsRs6EoLjNxnQ0Lx7PoHRga4q3lSnPSN0lrQnirH0FnnD08CdSz5JFBEVjBwLq93KJFE7L78bMgm9K8AVnO_jTavUCRIUmLE949FwHgdIn1QU_Qwbn8nI2OiO5W8vwaS_wKqRc3lO_K63Fe6Z6f-uEyu3JFrkKG0TCw6co4AqrE1pC19OIUjjXX13a8fgpVM9gga1-99kAlyN0IuvjDY6ihw3EhCcoYaMeGexT1vjivP-wqz8WXLeicpw4jy7PYN6yLTOJXxHYpGvkPIZfRfyR35rkcAUgwUl-kPUgw8KDFdQFOJmotwHSNkodbZUZ2zCGqnQiUZfTarn_5703-a6Yrf05BxnXWPH2q84gfBpZQNRRhXYyoa-eag&key=REDACTED",
+      "source_type": "google_places",
+      "confidence": "medium",
+      "purpose": "gallery",
+      "selected": true,
+      "reason": "Default from gather"
+    },
+    {
+      "local": "images/10-places.webp",
+      "source": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3nu7ZMRy_0oT2bwuDIFl2agMAZZvVjREe_Obv69BwnFNOBzn_JfvS1uR1NRS0Yd_lMSR_UI1v9IMoPTRzc-J15Mvc7MAxCp3gR9EKAIrZy7VYnwjXlolLak0BNxPGavrEagO-Ks2rtFzBKQKHmyQCywaHmYC1k6M5sTfwkWdDXgJISIjHfA4iK4bVFVlG7hO9hqPJMq2p4rb-_PApGziOnxNcZWWtN3Khjnc8-rm1tXRxkoSgbHI_SucB8dFWJO6Z2VAajgA5xFiLjDWE6HaJ5fd6DCGAKxC5uxcD5SI9EP6qhimtI6VsMNzKJANsFbmj_ZXxvZ-iLdYkWawQ6oqiChOht90EuLLu9nlpDNCpcSu9kedtibJ24AwPFA3OsyzifVNt5BTaRgw1DBXoG5NbIOdSCALbLyDplnSAfnQ4h1aw&key=REDACTED",
+      "source_type": "google_places",
+      "confidence": "medium",
+      "purpose": "gallery",
+      "selected": true,
+      "reason": "Default from gather"
+    }
+  ],
+  "selected_images": [
+    "images/01-places.webp",
+    "images/02-places.webp",
+    "images/03-places.webp",
+    "images/04-places.webp",
+    "images/06-places.webp",
+    "images/07-places.webp",
+    "images/08-places.webp",
+    "images/09-places.webp",
+    "images/10-places.webp"
+  ],
+  "lead_validity_status": null,
+  "ready_for_build": null,
+  "registry_source_count": 28
+}
