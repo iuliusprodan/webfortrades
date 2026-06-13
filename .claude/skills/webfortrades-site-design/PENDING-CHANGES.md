@@ -53,3 +53,33 @@ independent agents all reached for it. Kyle/Damo/library bans don't yet include 
 
 **Severity:** low. No site fails; this is a quality/distinctness refinement. The three sites are still
 visibly distinct on palette + display font + hero + voice.
+
+---
+
+## Proposal: note two predictable verification false-positives (electrician / typographic-hero build)
+
+**Discovered by:** steel-city-electrics-ltd build (electricians, Sheffield; monochrome-industrial,
+typographic hero). Build passed 13/13 checks and deployed VERIFIED; these are tooling-noise notes, not
+craft failures.
+
+**Under-specification (low severity):** the skill's "Verification before done" section does not warn that
+two checks emit predictable false positives a future builder may waste effort chasing:
+
+1. **`identity_review_names` (warn-only check 12)** flags capitalised sentence-START words inside verbatim
+   review quotes as candidate "names" (e.g. "These", "Fantastic", "Had", "Did", "Thanks", "Always"). When
+   reviews are pasted verbatim this fires once per such word. It is warn-only and correct to ignore *as
+   long as* every attributed reviewer first name is a real customer from the brief (here: Andy, Alina,
+   Wakas, Pat). Suggested skill note: "identity_review_names will list sentence-start words from verbatim
+   quotes; that is expected noise — only act if an actual *attribution* names someone not in the brief."
+
+2. **Deploy-time live style-verify** warned "Primary CTA has no background and no border radius (may be
+   unstyled)" for a `.btn-primary` whose background is a CSS custom property (`background: var(--accent)`)
+   with a small radius (`border-radius: 2px`). Playwright `getComputedStyle` at verify confirmed the CTA
+   is fully styled (bg `rgb(232,176,33)`, radius `2px`, graphite text). The probe appears to miss
+   var()-resolved backgrounds and/or sub-3px radii. Suggested skill note: "the live style-verify CTA
+   warning can false-positive on var()-driven backgrounds / small radii; confirm with a computed-style
+   read before treating it as real."
+
+**Severity:** low. No rule was wrong; this just saves the next builder from chasing non-issues. Also a
+data point that the skill's "typographic hero when no usable photo exists" guidance worked cleanly for an
+electrician whose only photos were a logo + burnt-board fault shots.
