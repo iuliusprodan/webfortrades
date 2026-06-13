@@ -1,0 +1,47 @@
+{
+  "lead_validity_status": "SOCIAL_ONLY_READY",
+  "lead_validity_reason": "Social presence only, no real website",
+  "pitch_type": "social_only",
+  "website_status": "SOCIAL_OR_DIRECTORY_ONLY",
+  "website_url": null,
+  "website_discovery_classification": "NO_WEBSITE",
+  "email_domain_website": {
+    "classification": "NO_WEBSITE",
+    "db_status": "NO_WEBSITE",
+    "domain": null,
+    "initial_url": null,
+    "final_url": null,
+    "status_code": null,
+    "title": null,
+    "reason": "generic_or_invalid_email_domain",
+    "probes": [],
+    "text_snippet": null
+  },
+  "source_confidence_summary": {
+    "overall": "high",
+    "verified_platforms": [
+      "facebook"
+    ],
+    "rejected_platforms": [
+      "google_places"
+    ],
+    "notes": [
+      "1 source(s) rejected for low confidence"
+    ]
+  },
+  "ready_for_build": false,
+  "ready_for_design": false,
+  "ready_for_pitch": false,
+  "manual_review_required": true,
+  "has_real_website": false,
+  "truly_no_website": true,
+  "warnings": [
+    "Facebook page needs manual review before using more assets",
+    "email found; UK mobile also present for optional manual WhatsApp",
+    "LOW_RES_FACEBOOK_ONLY",
+    "NEEDS_MANUAL_ASSET_REVIEW"
+  ],
+  "manual_asset_status": "OK",
+  "pause_before_open_design": false,
+  "manual_asset_folder": "briefs/d-g-decorating-services/images/manual/"
+}

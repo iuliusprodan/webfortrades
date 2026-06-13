@@ -1,0 +1,34 @@
+{
+  "slug": "d-g-decorating-services",
+  "extends": "CLAUDE.md banned-phrase reference + scripts/copy_voice_constants.ts (authoritative). This file adds lead-specific decisions only.",
+  "register": "calm, exacting, considerate British English; a decorator talking straight to a homeowner about prep and finish. Short sentences. Concrete nouns (prep, sanding, doors, woodwork, coats, dust sheets, finish, rooms), not adjectives.",
+  "naming": {
+    "use_name": "Dan",
+    "decision": "Use Dan's first name freely in copy. Basis: brief.json contact_name='Dan' with contact_name_usage_allowed=true, named in two review bodies (Lynn 'the work that Dan has done', simon 'Dan prepares well before decorating'), and 'D' is the initial in the business name 'D.G. Decorating services'. The skill's contact_name_usage rule allows a first name when named in the business name or in >=2 review bodies; both apply. Surname is unknown, so only 'Dan' is used, never an invented surname.",
+    "third_vs_first_person": "Default to a light third person ('Dan preps before every coat...'). A first-person line is allowed only if strictly factual (no invented backstory, no specific years). There is no self-description from Dan in evidence, so do not write an owner-monologue."
+  },
+  "the_angle": {
+    "name": "prep-led, flawless smooth modern finishes",
+    "how_to_use": "Lead with it, state it as fact. Frame: Dan preps the surface properly before he paints - sanding old doors and woodwork back, covering and protecting the rooms - so the finish comes up flawlessly smooth and a dated home comes back brighter. Anchored to reviews[1] (Walter: 'never saw paintwork so smooth', doors 'sanded' to 'look like new', 'dust sheets right throughout', 'respectful of your home'), reviews[2] (simon: 'prepares well before decorating which gives that great finish', 'always booked up'), reviews[0] (Lynn: whole-home, 'preparation work was excellent', 'tidy workers', written quote in days), reviews[3] (allen: 'outdated for years ... completely transformed ... every room feel brighter'). Acceptable phrasings: 'prep before every coat', 'a finish so smooth it looks like new', 'old doors and woodwork brought back', 'dated rooms back brighter', 'covered and kept tidy throughout', 'worth booking ahead for'. Do not invent surfaces, rooms, colours or outcomes beyond what the reviews state."
+  },
+  "proof_rules": {
+    "google": "State exactly: '5.0 on Google' and '24 reviews' (google_rating=5, google_review_count=24, google_review_count_sourced=true). '5.0 from 24 reviews' and '24 local reviews' are acceptable variants. Attribute the rating to Google.",
+    "facebook": "A verified Facebook page exists and corroborates the listing, but do NOT write meta lines about it (no 'as seen on our verified Facebook page' - banned meta-provenance). It is an internal multi-source signal only, not on-page copy.",
+    "no_other_proof": "Do NOT cite Checkatrade / Yell / MyBuilder / Trustpilot - those probes are unverified, snippet-only or NOT_FOUND (brief.json directory_probes); TrustATrader was a rejected homonym. Do NOT claim any certification, membership, insurance, or 'qualified/certified/fully insured' - none verified.",
+    "no_invented_numbers": "No years-trading number (none evidenced). No 'X homes/rooms decorated' count. Sourced stats only: 5.0 rating, 24 reviews, Monday-to-Saturday availability. Never a photo count."
+  },
+  "review_attribution": "First name + 'Google review' (e.g. 'Walter, Google review', 'Lynn, Google review', 'Simon, Google review', 'Allen, Google review'). Reviewer names are normalised to title case (the brief stores 'simon'/'allen' lowercase). No reviewer first name as a section headline (the 'Steve' anti-pattern). Dan is the only person named as part of the business; every other name in a quote is a customer's own.",
+  "banned_for_this_business": [
+    "any phrase on the CLAUDE.md / copy_voice_constants.ts lists (generic, provenance, meta-provenance, stat sub-labels)",
+    "'decorating done right' / 'painting done properly' / 'painting sorted' as a hero or standalone slogan (generic-trade filler)",
+    "'your trusted/local decorating experts' and relatives",
+    "'no job too big or small', 'competitive prices', 'professional service', 'quality you can rely on', 'second to none', 'we pride ourselves'",
+    "exterior painting, rendering, plastering or wallpaper-hanging as a service (not evidenced; the photos that hint at other settings - 02 exterior, 07 commercial, 08 paint-shop demo - are excluded)",
+    "the exact street address 'Garth Twenty Four' anywhere public; claiming areas beyond the Newcastle / North Tyneside metro reachable from NE12",
+    "first-person claims of qualifications, insurance, or years trading",
+    "meta lines like 'customers mention' / 'reviews describe' / 'as described in google reviews' - state the thing directly instead"
+  ],
+  "allowed_words_from_reviews_in_quotes_only": "Words like 'amazing', 'professional', 'fantastic', 'second to none', 'highly recommend', 'thorough' appear in real review text (Walter, simon, James, allen). They are fine INSIDE attributed verbatim quotes, but must NOT appear in Dan's own/site prose (CLAUDE.md salesy ban). In particular the James review ('Professional, clean, amazing finish ... standard of work') is kept verbatim inside its quote only if used; James is the weakest/shortest quote and is the drop candidate if four quotes are too many.",
+  "punctuation": "No em/en dashes anywhere. The review quotes use a stray hyphen ('the work that Dan has done -from') and non-ASCII apostrophes/quotes from Google; normalise apostrophes to ASCII and the stray ' -' to ', ' or a full stop when transcribing, but keep the wording verbatim. Use ' - ', comma, or full stop. British spelling (colour, neighbouring, redecoration).",
+  "cta_language": "Quote-only sticky and primary CTA: 'Get a quote'. Secondary: 'Call Dan' / the number. Never put the phone in the sticky CTA (sticky_cta check)."
+}

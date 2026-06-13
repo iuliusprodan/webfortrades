@@ -1,0 +1,628 @@
+{
+  "slug": "d-g-decorating-services",
+  "gathered_at": "2026-06-13T19:28:24.540Z",
+  "attempted_sources": [
+    {
+      "platform": "google_places",
+      "status": "found",
+      "url": "https://maps.google.com/?cid=3767856490354972796"
+    },
+    {
+      "platform": "google_maps",
+      "status": "not_attempted",
+      "search_query": "D.G. Decorating services Newcastle upon Tyne NE12 6HL site:google.com/maps",
+      "reason": "Automated search not run in enrich pass unless URL provided"
+    },
+    {
+      "platform": "google_reviews",
+      "status": "found",
+      "url": "https://maps.google.com/?cid=3767856490354972796"
+    },
+    {
+      "platform": "google_photos",
+      "status": "found",
+      "url": "https://maps.google.com/?cid=3767856490354972796"
+    },
+    {
+      "platform": "facebook",
+      "status": "found",
+      "url": "http://www.facebook.com/dgdecoratingservices"
+    },
+    {
+      "platform": "checkatrade",
+      "status": "not_attempted",
+      "search_query": "D.G. Decorating services Newcastle upon Tyne NE12 6HL site:checkatrade.com",
+      "reason": "Automated search not run in enrich pass unless URL provided"
+    },
+    {
+      "platform": "trustatrader",
+      "status": "not_attempted",
+      "search_query": "D.G. Decorating services Newcastle upon Tyne NE12 6HL site:trustatrader.com",
+      "reason": "Automated search not run in enrich pass unless URL provided"
+    },
+    {
+      "platform": "yell",
+      "status": "not_attempted",
+      "search_query": "D.G. Decorating services Newcastle upon Tyne NE12 6HL site:yell.com",
+      "reason": "Automated search not run in enrich pass unless URL provided"
+    },
+    {
+      "platform": "mybuilder",
+      "status": "not_attempted",
+      "search_query": "D.G. Decorating services Newcastle upon Tyne NE12 6HL site:mybuilder.com",
+      "reason": "Automated search not run in enrich pass unless URL provided"
+    },
+    {
+      "platform": "rated_people",
+      "status": "not_attempted",
+      "search_query": "D.G. Decorating services Newcastle upon Tyne NE12 6HL site:ratedpeople.com",
+      "reason": "Automated search not run in enrich pass unless URL provided"
+    },
+    {
+      "platform": "bark",
+      "status": "not_attempted",
+      "search_query": "D.G. Decorating services Newcastle upon Tyne NE12 6HL site:bark.com",
+      "reason": "Automated search not run in enrich pass unless URL provided"
+    },
+    {
+      "platform": "houzz",
+      "status": "not_attempted",
+      "search_query": "D.G. Decorating services Newcastle upon Tyne NE12 6HL site:houzz.co.uk",
+      "reason": "Automated search not run in enrich pass unless URL provided"
+    },
+    {
+      "platform": "myjobquote",
+      "status": "not_attempted",
+      "search_query": "D.G. Decorating services Newcastle upon Tyne NE12 6HL site:myjobquote.co.uk",
+      "reason": "Automated search not run in enrich pass unless URL provided"
+    },
+    {
+      "platform": "trustpilot",
+      "status": "not_attempted",
+      "search_query": "D.G. Decorating services Newcastle upon Tyne NE12 6HL site:trustpilot.com",
+      "reason": "Automated search not run in enrich pass unless URL provided"
+    },
+    {
+      "platform": "youtube",
+      "status": "not_attempted",
+      "search_query": "D.G. Decorating services Newcastle upon Tyne NE12 6HL site:youtube.com",
+      "reason": "Automated search not run in enrich pass unless URL provided"
+    },
+    {
+      "platform": "companies_house",
+      "status": "not_attempted",
+      "search_query": "D.G. Decorating services site:find-and-update.company-information.service.gov.uk",
+      "reason": "Automated search not run in enrich pass unless URL provided"
+    },
+    {
+      "platform": "official_website",
+      "status": "not_attempted",
+      "search_query": "D.G. Decorating services Newcastle upon Tyne NE12 6HL website",
+      "reason": "Automated search not run in enrich pass unless URL provided"
+    },
+    {
+      "platform": "email_domain_website",
+      "status": "not_attempted",
+      "search_query": "https://",
+      "reason": "Automated search not run in enrich pass unless URL provided"
+    },
+    {
+      "platform": "directories",
+      "status": "not_attempted",
+      "search_query": "D.G. Decorating services Newcastle upon Tyne NE12 6HL plumber electrician directory",
+      "reason": "Automated search not run in enrich pass unless URL provided"
+    },
+    {
+      "platform": "local_trade_directories",
+      "status": "not_attempted",
+      "search_query": "D.G. Decorating services Newcastle upon Tyne NE12 6HL local directory",
+      "reason": "Automated search not run in enrich pass unless URL provided"
+    },
+    {
+      "platform": "trade_association",
+      "status": "not_attempted",
+      "search_query": "D.G. Decorating services  association member",
+      "reason": "Automated search not run in enrich pass unless URL provided"
+    },
+    {
+      "platform": "review_aggregators",
+      "status": "not_attempted",
+      "search_query": "D.G. Decorating services Newcastle upon Tyne NE12 6HL reviews",
+      "reason": "Automated search not run in enrich pass unless URL provided"
+    },
+    {
+      "platform": "instagram",
+      "status": "not_attempted",
+      "search_query": "D.G. Decorating services Newcastle upon Tyne NE12 6HL Instagram",
+      "reason": "Requires login - manual review only"
+    },
+    {
+      "platform": "nextdoor",
+      "status": "not_attempted",
+      "search_query": "D.G. Decorating services Newcastle upon Tyne NE12 6HL site:nextdoor.co.uk",
+      "reason": "Requires login - manual review only"
+    },
+    {
+      "platform": "pinterest",
+      "status": "not_attempted",
+      "search_query": "D.G. Decorating services Newcastle upon Tyne NE12 6HL site:pinterest.com",
+      "reason": "Requires login - manual review only"
+    },
+    {
+      "platform": "tiktok",
+      "status": "not_attempted",
+      "search_query": "D.G. Decorating services Newcastle upon Tyne NE12 6HL TikTok",
+      "reason": "Requires login - manual review only"
+    },
+    {
+      "platform": "linkedin",
+      "status": "not_attempted",
+      "search_query": "D.G. Decorating services Newcastle upon Tyne NE12 6HL site:linkedin.com",
+      "reason": "Requires login - manual review only"
+    },
+    {
+      "platform": "twitter",
+      "status": "not_attempted",
+      "search_query": "D.G. Decorating services Newcastle upon Tyne NE12 6HL site:twitter.com OR site:x.com",
+      "reason": "Requires login - manual review only"
+    }
+  ],
+  "sources": [
+    {
+      "platform": "google_places",
+      "url": "https://maps.google.com/?cid=3767856490354972796",
+      "verified": true,
+      "verification_method": "place_id_from_gather",
+      "phone_match": true,
+      "notes": "Primary gather source"
+    },
+    {
+      "platform": "facebook",
+      "url": "http://www.facebook.com/dgdecoratingservices",
+      "verified": true,
+      "verification_method": "facebook_source_module",
+      "phone_match": true,
+      "notes": "Phone number matches Google/lead phone; Business name matches or clearly aliases Google listing; Public email visible on page (dgdecoratingservices@gmail.com)"
+    }
+  ],
+  "sources_found": [
+    "google_places",
+    "google_reviews",
+    "google_photos",
+    "facebook"
+  ],
+  "sources_verified": [
+    "google_places",
+    "facebook"
+  ],
+  "strongest_proof_source": {
+    "platform": "facebook",
+    "metric": "10 public photos, phone verified",
+    "url": "http://www.facebook.com/dgdecoratingservices"
+  },
+  "best_review_details": [
+    {
+      "text": "We are absolutely delighted with the work that Dan has done -from our first contact with Dan to completion we couldn’t fault him. We had hall landing and stairs , dining kitchen , utility, en-suite  and bedroom redecorated - everything was done to a very standard- preparation work was excellent  . He came when he said and we had a detailed written quotation within a few days . Dan is such a friend",
+      "author": "Lynn",
+      "rating": 5,
+      "source": "google"
+    },
+    {
+      "text": "Had some work done recently it looks amazing, very thorough from start to finish I have never saw paintwork so smooth, doors were not new ones so had been painted before, they were sanded and their is not a flaw with them they are so good look like new, would highly recommend too anyone as their detail too work is second too none, everything was covered with dust sheets right throughout property, ",
+      "author": "Walter",
+      "rating": 5,
+      "source": "google"
+    },
+    {
+      "text": "Fantastic job as usual. Dan prepares well before decorating which gives that great finish. I’ve always had to book well in advance as he is always booked up. Wouldn’t go anywhere else.",
+      "author": "simon",
+      "rating": 5,
+      "source": "google"
+    }
+  ],
+  "image_source_summary": {
+    "google_photos": 10,
+    "facebook_photos": 10,
+    "directory_photos": 0,
+    "manual_photos": 0,
+    "other": 0,
+    "preferred_source": "google_places",
+    "notes": "Google Places photos preferred for gallery when high quality",
+    "priority_order": [
+      "official_website",
+      "google_places",
+      "directory",
+      "manual_asset",
+      "facebook_evidence",
+      "proof_led"
+    ]
+  },
+  "manual_review_flags": [
+    "Facebook page needs manual review before using more assets",
+    "email found; UK mobile also present for optional manual WhatsApp",
+    "LOW_RES_FACEBOOK_ONLY",
+    "NEEDS_MANUAL_ASSET_REVIEW"
+  ],
+  "enrichment_complete": true,
+  "risks": [
+    "Facebook media is thumbnail-only - photo-led design not recommended"
+  ],
+  "facebook_graph": {
+    "attempted": false,
+    "success": false,
+    "page_id": null,
+    "photos_found": 0,
+    "photos_downloaded": 0,
+    "largest_width": null,
+    "largest_height": null,
+    "failure_reason": "META_GRAPH_API_TOKEN not configured",
+    "permission_required": false
+  },
+  "facebook_apify": {
+    "attempted": false,
+    "success": false,
+    "actor": null,
+    "photos_found": 0,
+    "photos_downloaded": 0,
+    "largest_width": null,
+    "largest_height": null,
+    "failure_reason": "APIFY_TOKEN not configured",
+    "cost_estimate": null,
+    "requires_login": false,
+    "via_mcp": false
+  },
+  "facebook_media_quality": "LOW_RES_ONLY",
+  "manual_asset_review_recommended": true,
+  "manual_asset_status": "OK",
+  "asset_readiness": {
+    "manual_asset_status": "OK",
+    "usable_automatic_count": 10,
+    "usable_manual_count": 0,
+    "usable_total_count": 10,
+    "has_hero_candidate": true,
+    "pause_before_open_design": false,
+    "pause_message": null,
+    "layout_recommendation": "photo_led",
+    "image_slots": [
+      {
+        "slot": "hero",
+        "desired": "Best finished project photo or strong proof visual",
+        "source_status": "automatic"
+      },
+      {
+        "slot": "gallery_1",
+        "desired": "Finished work close-up or wide project shot",
+        "source_status": "automatic"
+      },
+      {
+        "slot": "gallery_2",
+        "desired": "Finished work close-up or wide project shot",
+        "source_status": "automatic"
+      },
+      {
+        "slot": "gallery_3",
+        "desired": "Finished work close-up or wide project shot",
+        "source_status": "automatic"
+      },
+      {
+        "slot": "gallery_4",
+        "desired": "Finished work close-up or wide project shot",
+        "source_status": "automatic"
+      }
+    ],
+    "manual_folder": "briefs/d-g-decorating-services/images/manual/"
+  },
+  "image_slots": [
+    {
+      "slot": "hero",
+      "desired": "Best finished project photo or strong proof visual",
+      "source_status": "automatic"
+    },
+    {
+      "slot": "gallery_1",
+      "desired": "Finished work close-up or wide project shot",
+      "source_status": "automatic"
+    },
+    {
+      "slot": "gallery_2",
+      "desired": "Finished work close-up or wide project shot",
+      "source_status": "automatic"
+    },
+    {
+      "slot": "gallery_3",
+      "desired": "Finished work close-up or wide project shot",
+      "source_status": "automatic"
+    },
+    {
+      "slot": "gallery_4",
+      "desired": "Finished work close-up or wide project shot",
+      "source_status": "automatic"
+    }
+  ],
+  "email": "dgdecoratingservices@gmail.com",
+  "email_found": true,
+  "email_domain_checked": false,
+  "email_domain_website": {
+    "classification": "NO_WEBSITE",
+    "db_status": "NO_WEBSITE",
+    "domain": null,
+    "initial_url": null,
+    "final_url": null,
+    "status_code": null,
+    "title": null,
+    "reason": "generic_or_invalid_email_domain",
+    "probes": [],
+    "text_snippet": null
+  },
+  "website_discovery": {
+    "classification": "NO_WEBSITE",
+    "db_status": "NO_WEBSITE",
+    "domain": null,
+    "initial_url": null,
+    "final_url": null,
+    "status_code": null,
+    "title": null,
+    "reason": "generic_or_invalid_email_domain",
+    "probes": [],
+    "text_snippet": null
+  },
+  "website_status": "SOCIAL_OR_DIRECTORY_ONLY",
+  "truly_no_website": null,
+  "logo_found": false,
+  "logo_path": null,
+  "facebook_url": "http://www.facebook.com/dgdecoratingservices",
+  "facebook_verified": true,
+  "source_verifications": [
+    {
+      "platform": "google_places",
+      "url": "https://maps.google.com/?cid=3767856490354972796",
+      "confidence": "low",
+      "verified": false,
+      "verification_reasons": [
+        "Business name matches or clearly aliases Google listing",
+        "Name match only - common name risk"
+      ],
+      "matches": {
+        "phone": false,
+        "email": false,
+        "website": false,
+        "business_name": true,
+        "location": false,
+        "service_trade": false,
+        "logo": false
+      },
+      "rejected_reason": "Insufficient verification signals for automatic use"
+    },
+    {
+      "platform": "facebook",
+      "url": "http://www.facebook.com/dgdecoratingservices",
+      "confidence": "high",
+      "verified": true,
+      "verification_reasons": [
+        "Phone number matches Google/lead phone",
+        "Email matches or shares domain with lead email",
+        "Business name matches or clearly aliases Google listing",
+        "Website or domain link visible on source"
+      ],
+      "matches": {
+        "phone": true,
+        "email": true,
+        "website": true,
+        "business_name": true,
+        "location": false,
+        "service_trade": false,
+        "logo": false
+      },
+      "rejected_reason": null
+    }
+  ],
+  "source_confidence": {
+    "overall": "high",
+    "verified_platforms": [
+      "facebook"
+    ],
+    "rejected_platforms": [
+      "google_places"
+    ],
+    "notes": [
+      "1 source(s) rejected for low confidence"
+    ]
+  },
+  "image_manifest": [
+    {
+      "local": "images/01-places.webp",
+      "source": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3kup06E5z0Ulv3Gu7How6khOMDl1eSrsJnlRR0QWM-u758LIlaeD_t4i3e_vSNt-KJLNXQONYXdcsLufv_dsDaZjYCyMcXm2dOTgSL21NOFrZrK_048pw_E2YT-TyWLdOd0Z6NakYEBE3n3WHljUHxX1Z1D5lz1L8lXzsRjoB42PqWDMKMfEoKFGhQrf7jT03KxrG7xCyFagNUJ7gg50yGME_hvoHOLwtT0wMc_QbMFsinU4O4HZoJBwTBjXrGuOfpYhINAAgv7Gi1j9cc-BjQL4NVy25yotM40ZyC2tTBl1iVwd5D5O5nXfRst3bhA1upVvDO3l0Nk_sQx8iguSkFIyMN-6AQYHBKKrxSXOUoPgpnizarOY66Ve-ygLN0dD4Ehi_gsbKL4JQw-XqB17jyO68PpgPLeeq_IfvrtVL75Fg&key=REDACTED",
+      "source_type": "google_places",
+      "confidence": "medium",
+      "purpose": "gallery",
+      "selected": true,
+      "reason": "Default from gather"
+    },
+    {
+      "local": "images/02-places.webp",
+      "source": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3k91WmhXnPhKOZNEZS9z_p6QAUPfLE7GYo-3IKj0znEUaTvWo3pbe18rwThCwyQTPhizKUk8Dbjpy4jb73qkRjdUfBFAPfvJ0umMht5L5Zp0oY9i708VKamv1sGgJPVYZZ5JBcjxT8yU52nwJMm4xrOaVG7gpYTeSYMg8nyp1TidiKaCZiAS-6WbgjiCt5TqiWqYc83-u6xaHj6K-w_QTeqvLRG4QH93aPIKOBFnp0wm0DPl3nd1WlROrhK13TnqEtGZ0Ja4Bq2a031sHVpboD1TBRJWEyox9NWDXjnOzpHYz6XohEJvtBI7ZQh-hpW0m8u1TBRf0Bq9EZxVWZAu9s00K4X9f3xLP_frAPWVoDBU46X3TzIbv0Z2qoNnPINjtttvp5OkD7wIBcwN1i1Bby72Y3GCiNbwwgRdWArqYc&key=REDACTED",
+      "source_type": "google_places",
+      "confidence": "medium",
+      "purpose": "gallery",
+      "selected": true,
+      "reason": "Default from gather"
+    },
+    {
+      "local": "images/03-places.webp",
+      "source": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3kNuiAnK8V8v_lCzNrd9K5CnqFMleBuRNfvMXLpnYyh1LeNMIDx2FH1jofaxvcRRkML3quBfTKj16JklTWq4QFpiGBrQZRy7gwFzz04_s73FjGf_cow36cOCvzumD4IovCQUaL-nzR1-HDZSpKjJpSKx9VEqfHdoLYPRRgcN_8YS0uluQEDlmG_8TR_HOOpjDe0WtzbwnqeTh0FApvDe-IwZHpX6lH8CCNe5KdxGQPTYUhsGkcPdPkjyrFvsuQs7_r8nLkrir-VGItt8ABhxZ-bNdJ7PvbvvrpEwVXfQohG6eMf5B69WAJsL1fYtB09YDCcBra1xL4d_tzY8a6-VFEuZLMnrLaw09Rja78g5svgOJjUGSkzR7QoAtqKTXcR1SOks3v-Pbi-tZotquLx7SJNJ1JqLwUf6zpwcE4lWyTHYUL3&key=REDACTED",
+      "source_type": "google_places",
+      "confidence": "medium",
+      "purpose": "gallery",
+      "selected": true,
+      "reason": "Default from gather"
+    },
+    {
+      "local": "images/04-places.webp",
+      "source": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3mZ0mPqo2BLHG80c-ywFtpWcBquHf634yKhnXzKHnX-01GIeCOT4qL0Hqh56JGHgXuPyMntM24Bi-W7CpBH7T7SZW_W67UCDiz_kTsqOI3E9pW_QmYSdjmmYmsooTDtYGCqSB6gR7FXdoFrINe72vbQir0a8NlwkbMlhI7Gt441c9eJJWOfOZZR7qssoPN5PJy-qRaXPvHlnJ4jOlND8CABBcBXRR3hDgFRPWjZSw_8BtHsNZE2QmL1HsXnYCVJkaZDFdKEh6kWksRt42sngq6uSJY2zwGnl81XFT0FUN-tXlqdxvg1buY7PuQp55IhRHX7s72Sh_T8OlciepOzBi1Yo3ONAVE72ZdBd3cOMRNdftljrIChWPGmowGPY23qGJT8Q9MglV5svEh7PuHKnDPnerBF7xRauoGxdIlSU3JNUxV4&key=REDACTED",
+      "source_type": "google_places",
+      "confidence": "medium",
+      "purpose": "gallery",
+      "selected": true,
+      "reason": "Default from gather"
+    },
+    {
+      "local": "images/05-places.webp",
+      "source": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3ny2YX7CxKKmtkU8xsTMDww-or6YoC3I7a0lRzIt89VvRa49aq7Rro11F5Aucn3cYI4gfrByPl1jToFfkiy3WnWG5JBrEbEMfiv6LAKBShvWnTUmFW7ovsNI8nuZim8o3ayBVyXzM_usLpZCQwozcO7nmzvqD2aF7dk_uBCl-soBEVr_CL4_aqTHr_UqYNvn7HDtI-rlHjXlg_49WQumFw1X5cIkLSbcsfZFV5Zcc1aK836bJ4-RuPBWUH2LFWVe7Zob2_GmmJEY9FOeE0V15qaTu0ltjmEb4tg1ZoS7GbCHfhwCNDX3WVJeyB6UhtOV9KsuSYqzQNfJv9w7FbUVkpsjfzxGfcx9BG99kG8NAvJIRQzwxebfl64NT_nxefOLsw3HCs_k1Pqw8dhf3MUW8TsG8Wbr7sDgC4s2gL3VZ8&key=REDACTED",
+      "source_type": "google_places",
+      "confidence": "medium",
+      "purpose": "gallery",
+      "selected": true,
+      "reason": "Default from gather"
+    },
+    {
+      "local": "images/06-places.webp",
+      "source": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3kZ_Z1t3KL9x6XAnOGKPnX7-g8tmogLXrEhyZgLBCc7o3bHYWJ0w8Gx4ebKMmIG9DEDl5f28Y_RpaEeiTqvodOCjwh4-g96gJhJVAiJcEA7zK0JDkpQAzkJnpUhW0B24KnvVf7euZFXBg-PlQ2lBVWbd4md1WVCCVdQbJJXZIBD-huSksbdxuStPj7t2fKMjpNr-7Py5Z50774hDiWCU2YKxtwL1NdvTOhinqyIZ-GQcbwWGnPr15oaTA6nDIRAOAIwXNGlk-1SRQhmzrHJqQ-7DlQNwCdWpq3WaR6DcuWAa8xCNsLZC4wZRWmtUCBl2pZhadg10UHiWZ059wmCDDq8e31S5SZaZeWhqzRIdjoiWuXCvUfyu4CM9giSdWe2uMMRqasVnv9eWYvNK8pUQhUMcp5PiO9wGNXhvT4FGvY7ZE8&key=REDACTED",
+      "source_type": "google_places",
+      "confidence": "medium",
+      "purpose": "gallery",
+      "selected": true,
+      "reason": "Default from gather"
+    },
+    {
+      "local": "images/07-places.webp",
+      "source": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3nQuiktpTsM5An9yvxfd2ls9kuZ4h5Cts0k9Zx7sFrqBcCDe00UOhfZYyw6WlLd2xnkGI50cY75hH8aC19EHhvDZB936F0-wkh4yaynvTdAO8TbbJ850-4drCfKpMO1em4LZypo0agmm_5yFkx9QFS3foTmVWGC7WuCNt1Xci-Q4zRnfeGNnGRyeejYF8cZlU1-iYfD1zj86VNt00VtF9jVsCLDhLnVER5KIvbhwpQRT_rMRf9R02FNgh3-YfOxxetfUiAm9rs7UC4Wx1ky4ZyLxQdIxN8fOrEWS-Xr2FdDEJMYeLvrWb3WTq_8HY1unBTG5JC4Dib-yBgBrp6Ej7gFxTV_QO19-r2_Zeu2SkfzD9NZbAWT6SZCgoIzry5diUGmChAILQlnwxqyrPmvU5uBGuUKgKN8ACt8VdeGg56byA&key=REDACTED",
+      "source_type": "google_places",
+      "confidence": "medium",
+      "purpose": "gallery",
+      "selected": true,
+      "reason": "Default from gather"
+    },
+    {
+      "local": "images/08-places.webp",
+      "source": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3kBVbFiE7wXi9kTzXjIWDSy8Xq70qlYifw6zNLSAJCYIyJk0CuElt5axSW5q3JiLOgGV-nucijBbTJi_wKNKsBjm7sFlAFRkq3W6cZSID2h7q0Y_G5yw66ODTRJ-S61KX0wNMuVsnOXWSimnmeUgK2vPDuWuVApuc12Wsl1rPZgqVyb8A87g-oXctYmwX9lCsIAWGR0oLvzsgB9v4fo91Yxdi5B4GLoIFewqMu0NJ_QD3Cu16ClUJ04nKFSREgoqj9OAbMHjhLMFnD9IZv0ni6UhdjV5S4ndoSztg-Fsf_Pcup4t-RszSOg5Mdh1_7BI4fntc6DEVYoLFIDMhy5Zq8-ce47NOEGmkeUn9xMp_Wa24xjQ5ZDLfa-2yz8Og_DR-DugclZSgaUrSLYzzTF27kbTV4Jyp8RVpR4JkgxdXs&key=REDACTED",
+      "source_type": "google_places",
+      "confidence": "medium",
+      "purpose": "gallery",
+      "selected": true,
+      "reason": "Default from gather"
+    },
+    {
+      "local": "images/09-places.webp",
+      "source": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3kC4ZsOGZdCgAv1-oExt63T5mIqHyxDVz3teA7NI-HUd4jcuH4anvhGQqeedbRSOq1xgo3XijrOLOB-sTCKpAMK9zTWOofiikSyGen7oPR6Sm3UfpCtEEgeQ719NdLBP_Po_DZr5cgIH5bXAXLZ8bABJtuSx5iVi6Yo_0yQ68p7UegANDghjDfZn1BqmrZOyCA7s_NNoMzJha86YAcII8XqfB0nCXHO4ltR_qYwVyj7_1bYIXzfZEX1JZU_6DEwin8y-45X6xpiKA5F8xrhUXeEt_D-ypLaIxIu8jPDTIsBnOYIJi0PyeANqXYeaTHj7pciqW3wwsatIYNHEJI8TE1gqvkQcxwN8aRPvVM1hrN0U2XXtlUcB27IZSlSkKr_FT5ijs0g8gVHvOgSIqXXrOh8jzGoUY0zQz7d0krF3O_OnnNd&key=REDACTED",
+      "source_type": "google_places",
+      "confidence": "medium",
+      "purpose": "gallery",
+      "selected": true,
+      "reason": "Default from gather"
+    },
+    {
+      "local": "images/10-places.webp",
+      "source": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3lTaf-l-AFVCzl8kGXJu-vyFQ6u0TJpu790uhxBPDfIeNlcVgrG-ladG4ykLLjO0j2nVK4qwErql3JkV7poXcR76IFIPzDsPjypdWyMHaeM6f7_-m1sSWJVNv0ekBwPbPdQdTNyBiihZzB4LOZgniYIdfkZml7BqRbXq4qCBINkAw013wxDMNJJbFYqyK0A-Zn1BiFPpuY8vAi9RYosCF6zHk1CZJH2z7TzV3-2CJEa0vVQGMN5EtE4AIV9Zkt7qgUoJnEBnDObvjk8-iASe3vh4bgTLJulp1jYUqt7WrBBwGbHCXB1fIkzAt_HMS-pfUjIKbff8iDMmVmUb0iMyDTQMZIB_SzcpNUCFLzWQmLLHi1Wb4UumgXsEYBZA-TNleZIZhHO0mtlipjHvkwnpnFyuctaRVZqyQ0m_DOJFpMoUA&key=REDACTED",
+      "source_type": "google_places",
+      "confidence": "medium",
+      "purpose": "gallery",
+      "selected": true,
+      "reason": "Default from gather"
+    },
+    {
+      "local": "images/facebook/01-facebook.webp",
+      "source": "https://scontent-lhr8-2.xx.fbcdn.net/v/t39.30808-6/672685719_1543572911107903_6613313923459014818_n.jpg?stp=c256.0.1536.1536a_cp6_dst-jpg_tt6&cstp=mx1536x1536&ctp=s851x315&_nc_cat=101&ccb=1-7&_nc_sid=8a6525&_nc_ohc=EA-mBI7wID8Q7kNvwEHH5Ux&_nc_oc=Adonormif60bN5b7IUn9w67eVgQXmPDQmy1ejspk2o6yW-p3mN-UDXGZBAQqbTADQAlBO2XapkL3Kgeomv14JJuD&_nc_zt=23&_nc_ht=scontent-lhr8-2.xx&_nc_gid=PpaPp-8PtiXDxy99H_T8UA&_nc_ss=7b20f&oh=00_Af-s3zGBqGkeD3OuOex3L9P0F9MRIsN-SiSEeDeXoX43jA&oe=6A33788F",
+      "source_type": "facebook_photo",
+      "confidence": "high",
+      "purpose": "skipped",
+      "selected": false,
+      "reason": "Downloaded via http (public HTML/CDN)"
+    },
+    {
+      "local": "images/facebook/02-facebook.webp",
+      "source": "https://scontent-lhr8-2.xx.fbcdn.net/v/t39.30808-6/674036452_1543572901107904_8750468204009131745_n.jpg?stp=c256.0.1536.1536a_cp6_dst-jpg_tt6&cstp=mx1536x1536&ctp=s851x315&_nc_cat=101&ccb=1-7&_nc_sid=8a6525&_nc_ohc=9HGdIcVYbRgQ7kNvwGxiKDN&_nc_oc=AdrMuRe2vEr-zNweFbAmcp1bpeI_BsdteWgcdDfYW-1_ImUXa7EfJcyzi--59iLBM8w5ydaUaROOBRY6zsi_qBAd&_nc_zt=23&_nc_ht=scontent-lhr8-2.xx&_nc_gid=PpaPp-8PtiXDxy99H_T8UA&_nc_ss=7b20f&oh=00_Af_d2sW5Dnbcs41AgC7kuGCrrQkOtQwIYdao_nf1Wiu4wQ&oe=6A3380E7",
+      "source_type": "facebook_photo",
+      "confidence": "high",
+      "purpose": "skipped",
+      "selected": false,
+      "reason": "Downloaded via http (public HTML/CDN)"
+    },
+    {
+      "local": "images/facebook/03-facebook.webp",
+      "source": "https://scontent-lhr6-2.xx.fbcdn.net/v/t39.30808-6/673803099_1543572864441241_1913940801064280843_n.jpg?stp=c256.0.1536.1536a_cp6_dst-jpg_tt6&cstp=mx1536x1536&ctp=s851x315&_nc_cat=100&ccb=1-7&_nc_sid=8a6525&_nc_ohc=vAJjmwOCxRAQ7kNvwERK_4D&_nc_oc=AdphA6TTDpuoroIjFzOZnRWSvzKwjqQLEQdsdpeohKqOGGereoyP7iMxyBfLJBlIvNbqN5J5mIgnlEusjIClx2bp&_nc_zt=23&_nc_ht=scontent-lhr6-2.xx&_nc_gid=PpaPp-8PtiXDxy99H_T8UA&_nc_ss=7b20f&oh=00_Af_53BvRnDjtOGfDFlo6m9_mVpk7GbL48B4YxRFnizY1_g&oe=6A3367B1",
+      "source_type": "facebook_photo",
+      "confidence": "high",
+      "purpose": "skipped",
+      "selected": false,
+      "reason": "Downloaded via http (public HTML/CDN)"
+    },
+    {
+      "local": "images/facebook/04-facebook.webp",
+      "source": "https://scontent-lhr6-2.xx.fbcdn.net/v/t39.30808-6/673508533_1543572874441240_5879240868052070126_n.jpg?stp=c256.0.1536.1536a_cp6_dst-jpg_tt6&cstp=mx1536x1536&ctp=s851x315&_nc_cat=105&ccb=1-7&_nc_sid=8a6525&_nc_ohc=-Kw_FR8g-VQQ7kNvwESd6t9&_nc_oc=AdrtgsTEpUjawocIWIBoaN8877hsyxLNKcrtxamImpf2tqtQqSkW4IMaVZyeYsuJyE2qji9EXjRZ75EVBYIwqfSE&_nc_zt=23&_nc_ht=scontent-lhr6-2.xx&_nc_gid=PpaPp-8PtiXDxy99H_T8UA&_nc_ss=7b20f&oh=00_Af8pwgi9tplKL_vPNA8NZ_up24CR-7ApoPXRZAIeKxPNoQ&oe=6A337675",
+      "source_type": "facebook_photo",
+      "confidence": "high",
+      "purpose": "skipped",
+      "selected": false,
+      "reason": "Downloaded via http (public HTML/CDN)"
+    },
+    {
+      "local": "images/facebook/05-facebook.webp",
+      "source": "https://scontent-lhr8-2.xx.fbcdn.net/v/t39.30808-6/679665306_1549990757132785_6804981094664454594_n.jpg?stp=c180.0.1080.1080a_cp6_dst-jpg_tt6&cstp=mx1080x1080&ctp=s851x315&_nc_cat=101&ccb=1-7&_nc_sid=8a6525&_nc_ohc=z1_K-m3vfPAQ7kNvwG783Mu&_nc_oc=AdqUYjltX8e0LCPlyLKbBFZ1vcEtHgyyGuXiujNPhND_DXz8fz1FwCdLh0_BBcO1QbtQsi20bXForuvv7SeUxFJz&_nc_zt=23&_nc_ht=scontent-lhr8-2.xx&_nc_gid=PpaPp-8PtiXDxy99H_T8UA&_nc_ss=7b20f&oh=00_Af_vqVCYBAfpveP8qHT1tpqOccMqRH3Cf-mwjY2JtrPuWg&oe=6A336877",
+      "source_type": "facebook_photo",
+      "confidence": "high",
+      "purpose": "skipped",
+      "selected": false,
+      "reason": "Downloaded via http (public HTML/CDN)"
+    },
+    {
+      "local": "images/facebook/06-facebook.webp",
+      "source": "https://scontent-lhr11-1.xx.fbcdn.net/v/t39.30808-6/488893332_1204456568352874_1494082157124367248_n.jpg?stp=dst-jpg_fb50_s320x320_tt6&_nc_cat=111&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=aOFOeZi7sGoQ7kNvwE438RK&_nc_oc=AdprT87r4h-obtrSy2XxphMmKbD8ZFKODRnClXj1eGcU6hYmEf6AXNq7wOjqDvM7FJLCm7uROEsbgJj9umO1do9T&_nc_zt=23&_nc_ht=scontent-lhr11-1.xx&_nc_gid=PpaPp-8PtiXDxy99H_T8UA&_nc_ss=7b20f&oh=00_Af-9_APZ_sasCf5eNXiqdzz16auT-M-01Sy7YV9nLEWG0w&oe=6A3379C1",
+      "source_type": "facebook_photo",
+      "confidence": "high",
+      "purpose": "skipped",
+      "selected": false,
+      "reason": "Downloaded via http (public HTML/CDN)"
+    },
+    {
+      "local": "images/facebook/07-facebook.webp",
+      "source": "https://scontent-lhr11-1.xx.fbcdn.net/v/t39.30808-6/678739861_1550863180378876_5921734571989821282_n.jpg?stp=c15.0.1177.1177a_cp6_dst-jpg_tt6&cstp=mx1177x1177&ctp=s851x315&_nc_cat=110&ccb=1-7&_nc_sid=8a6525&_nc_ohc=-e8hgmeyQTcQ7kNvwGuu_Wd&_nc_oc=Adrcv2kr5tRTs4EFOH3j4_HUgCQ6v58N4qFP1Lqk3xkGBAZ227qRhm2hsomz8FFhlQR7lJZ0xGsBhSqlxCIvvQbt&_nc_zt=23&_nc_ht=scontent-lhr11-1.xx&_nc_gid=PpaPp-8PtiXDxy99H_T8UA&_nc_ss=7b20f&oh=00_Af8fnA6wtG_4vVyQU85HG96DiQCdcwOlwWCxX2njN0dNDg&oe=6A3368A7",
+      "source_type": "facebook_photo",
+      "confidence": "high",
+      "purpose": "skipped",
+      "selected": false,
+      "reason": "Downloaded via http (public HTML/CDN)"
+    },
+    {
+      "local": "images/facebook/08-facebook.webp",
+      "source": "https://scontent-lhr6-2.xx.fbcdn.net/v/t39.30808-6/680704838_1549990753799452_6963534148250548378_n.jpg?stp=c181.0.1079.1079a_cp6_dst-jpg_tt6&cstp=mx1079x1079&ctp=s851x315&_nc_cat=104&ccb=1-7&_nc_sid=8a6525&_nc_ohc=VpE3YJ0D-CUQ7kNvwGlGKVA&_nc_oc=AdoNcre1h-W93BzGtKIPVFh_wK5QLn1L-I0JIcMBiuLcVrYU7EZuCTczWLPSzZ9zWCBPw2lt7qJWXQPoFjUO9CHL&_nc_zt=23&_nc_ht=scontent-lhr6-2.xx&_nc_gid=PpaPp-8PtiXDxy99H_T8UA&_nc_ss=7b20f&oh=00_Af-njrEC_zFTxYi3sFwvrp1HH4CmNA5GM1wdx84BVdrK3w&oe=6A3387B7",
+      "source_type": "facebook_photo",
+      "confidence": "high",
+      "purpose": "skipped",
+      "selected": false,
+      "reason": "Downloaded via http (public HTML/CDN)"
+    },
+    {
+      "local": "images/facebook/09-facebook.webp",
+      "source": "https://scontent-lhr8-2.xx.fbcdn.net/v/t39.30808-6/669284760_1538337504964777_5094007008753537896_n.jpg?stp=c240.0.960.960a_dst-jpg_tt6&cstp=mx960x960&ctp=s851x315&_nc_cat=101&ccb=1-7&_nc_sid=8a6525&_nc_ohc=UYDrr9tv3dAQ7kNvwFljeRL&_nc_oc=Adrf5281OtU9wIHExgshxjxpDgzezoe6KmvZzXMFdG_kTDPT1xr7F0X6euJe81741oCtCmXOkM40SpluK-aeo9Kc&_nc_zt=23&_nc_ht=scontent-lhr8-2.xx&_nc_gid=PpaPp-8PtiXDxy99H_T8UA&_nc_ss=7b20f&oh=00_Af8VT0LO5EG1k5KxDH4ozLJb1f6f9nkZowhihbFOBu4Yrg&oe=6A337C14",
+      "source_type": "facebook_photo",
+      "confidence": "high",
+      "purpose": "skipped",
+      "selected": false,
+      "reason": "Downloaded via http (public HTML/CDN)"
+    },
+    {
+      "local": "images/facebook/10-facebook.webp",
+      "source": "https://scontent-lhr6-1.xx.fbcdn.net/v/t39.30808-6/662844747_1533958398736021_2542626849336178653_n.jpg?stp=c181.0.1079.1079a_cp6_dst-jpg_tt6&cstp=mx1079x1079&ctp=s851x315&_nc_cat=103&ccb=1-7&_nc_sid=8a6525&_nc_ohc=HDXqjw9wugwQ7kNvwGklIyW&_nc_oc=AdrsfYi080icDirp12huNNw5d9Al7s4Z2uQb1oyVA6hRQLkHHGMG4jxlgQ0MaAnwL-Ntha3g0bQDwzLbUjfzkodm&_nc_zt=23&_nc_ht=scontent-lhr6-1.xx&_nc_gid=PpaPp-8PtiXDxy99H_T8UA&_nc_ss=7b20f&oh=00_Af8hBgRsTQirbiY9ay6n7M8JHUoPXULYXbne8S9dMLXZpA&oe=6A336D56",
+      "source_type": "facebook_photo",
+      "confidence": "high",
+      "purpose": "skipped",
+      "selected": false,
+      "reason": "Downloaded via http (public HTML/CDN)"
+    }
+  ],
+  "selected_images": [
+    "images/01-places.webp",
+    "images/02-places.webp",
+    "images/03-places.webp",
+    "images/04-places.webp",
+    "images/05-places.webp",
+    "images/06-places.webp",
+    "images/07-places.webp",
+    "images/08-places.webp",
+    "images/09-places.webp",
+    "images/10-places.webp"
+  ],
+  "lead_validity_status": null,
+  "ready_for_build": null,
+  "registry_source_count": 28
+}

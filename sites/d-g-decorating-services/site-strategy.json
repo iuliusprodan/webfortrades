@@ -1,0 +1,61 @@
+{
+  "slug": "d-g-decorating-services",
+  "path": "B (Claude-direct)",
+  "frozen_input_tag": "d-g-decorating-services-brief-frozen",
+  "business_angle": "Dan is the Killingworth painter and decorator known for prep-led, flawlessly smooth modern finishes - sanding back old doors and woodwork until they look like new, redecorating a whole home room by room so dated rooms come back brighter, and finishing the surface so smooth that customers say they have never seen paintwork like it.",
+  "why_this_trader_wins": "Three independent reviews describe the same prep-and-finish specialism rather than generic decorating: Walter ('never saw paintwork so smooth', old doors 'sanded' and brought back so they 'look like new', everything covered with dust sheets); simon ('Dan prepares well before decorating which gives that great finish' and is 'always booked up'); Lynn (a whole-home redecoration - hall, landing and stairs, dining kitchen, utility, en-suite and bedroom - where the 'preparation work was excellent' and a detailed written quote came within days). allen adds the outcome: an 'outdated' home 'completely transformed', every room 'brighter and more welcoming'. This is meticulous surface preparation and a smooth modern finish across a full home, not a one-room paint job.",
+  "target_customer": "Killingworth and North Tyneside homeowners (NE12, plus Gosforth, Longbenton, Forest Hall, Wideopen, Wallsend and the wider Newcastle upon Tyne suburbs) who want a dated home redecorated properly - old woodwork and doors sanded and repainted to a flawless smooth finish, whole rooms brought back brighter - and who are happy to book ahead for someone who preps before painting.",
+  "page_single_job": "Get that homeowner to request a quote (or call) for an interior painting and decorating job - a room, the woodwork and doors, or a whole-home redecoration.",
+  "distinctive_angle": "prep-led-flawless-smooth-modern-finishes",
+  "customer_praise_themes": [
+    {"theme": "preparation before painting, every time", "evidence": "brief.json reviews[2] (simon): 'Dan prepares well before decorating which gives that great finish'; reviews[0] (Lynn): 'preparation work was excellent'; reviews[1] (Walter): doors 'were sanded'"},
+    {"theme": "flawlessly smooth paintwork", "evidence": "brief.json reviews[1] (Walter): 'I have never saw paintwork so smooth ... their is not a flaw with them'"},
+    {"theme": "old doors and woodwork brought back to look like new", "evidence": "brief.json reviews[1] (Walter): 'doors were not new ones so had been painted before, they were sanded and their is not a flaw with them they are so good look like new'"},
+    {"theme": "dated homes transformed brighter and more welcoming", "evidence": "brief.json reviews[3] (allen): 'Our home looked outdated for years, but D.G. Decorating Services completely transformed it. The fresh paint and neat decorating work made every room feel brighter and more welcoming'"},
+    {"theme": "whole-home, multi-room redecoration", "evidence": "brief.json reviews[0] (Lynn): 'hall landing and stairs, dining kitchen, utility, en-suite and bedroom redecorated ... everything was done to a very high standard'"},
+    {"theme": "tidy, respectful of the home", "evidence": "brief.json reviews[1] (Walter): 'everything was covered with dust sheets right throughout property, they are very respectful of your home'; reviews[0] (Lynn): 'such tidy workers'"},
+    {"theme": "booked well in advance / high demand", "evidence": "brief.json reviews[2] (simon): 'I have always had to book well in advance as he is always booked up'"},
+    {"theme": "clear written quote, turns up when he says", "evidence": "brief.json reviews[0] (Lynn): 'He came when he said and we had a detailed written quotation within a few days'"}
+  ],
+  "named_people": [
+    {"name": "Dan", "role": "proprietor / painter and decorator", "usage": "approved", "basis": "brief.json contact_name='Dan', contact_name_usage_allowed=true, named in 2 Google review bodies (Lynn 'the work that Dan has done', simon 'Dan prepares well') and is the 'D' in the business name 'D.G. Decorating services'. Two-review threshold for first-name use is met per the skill's contact_name_usage rule. Surname unknown, so only the first name 'Dan' is used."}
+  ],
+  "strongest_review_quote": {
+    "text": "Had some work done recently it looks amazing, very thorough from start to finish I have never saw paintwork so smooth, doors were not new ones so had been painted before, they were sanded and their is not a flaw with them they are so good look like new, would highly recommend too anyone as their detail too work is second too none, everything was covered with dust sheets right throughout property, they are very respectful of your home and very approachable",
+    "author": "Walter",
+    "source": "google",
+    "source_ref": "brief.json reviews[1]"
+  },
+  "strongest_proof_source": {
+    "platform": "google",
+    "metric": "5.0 rating from 24 reviews",
+    "url": "https://maps.google.com/?cid=3767856490354972796",
+    "source_ref": "brief.json google_rating, google_review_count, google_maps_url"
+  },
+  "multi_source_note": "Facebook page http://www.facebook.com/dgdecoratingservices is VERIFIED high-confidence in brief.json (facebook.verified=true, confidence=high): phone matches the Google/lead number, business name matches, and the public email dgdecoratingservices@gmail.com is visible on the page. That is a genuine second independent source corroborating the Google listing - this lead is multi-source (Google + verified Facebook), not Google-only. The mechanical source-quality.json status reads FAIL only because the email-domain website-discovery step did not complete (the email is a gmail.com address, so there is no business domain to discover); it is not an evidence failure. Facebook media is thumbnail-only (315px), so per the skill the gallery and hero use the 1600px Google Places photos, not the Facebook thumbnails.",
+  "real_services": [
+    {"name": "Interior painting and decorating", "evidence": "services_meta[0] 'Painting & decorating' (google, direct); reviews[0] Lynn whole-home redecoration; reviews[3] allen 'fresh paint and neat decorating work'"},
+    {"name": "Doors and woodwork refinishing", "evidence": "reviews[1] Walter (old doors sanded and repainted to look like new, smooth flawless finish)"},
+    {"name": "Surface preparation", "evidence": "reviews[2] simon 'prepares well before decorating'; reviews[0] Lynn 'preparation work was excellent'; reviews[1] Walter (sanding)"},
+    {"name": "Whole-home redecoration", "evidence": "reviews[0] Lynn (hall/landing/stairs, dining kitchen, utility, en-suite, bedroom); reviews[3] allen ('completely transformed', every room brighter)"}
+  ],
+  "claims_to_avoid": [
+    "any certification or membership (Gas Safe, NICEIC, NAPIT, Checkatrade Vetted, TrustATrader Approved, Which? Trusted Trader) - none verified; directory_probes show 0 verified profiles (checkatrade NOT_FOUND, trustatrader HOMONYM rejected, yell/mybuilder/trustpilot snippet-only, the rest NOT_FOUND)",
+    "'fully insured' / insurance claims - not evidenced",
+    "specific years-trading number - none evidenced",
+    "the exact street address 'Garth Twenty Four' anywhere public - use Killingworth / North Tyneside / NE12 only",
+    "exterior painting, rendering, plastering, wallpaper-hanging or commercial fit-out as headline services - the evidence is interior redecoration; photos[06] (kitchen) and 07/08 (a retail/commercial setting and a paint-shop sprayer demo) and 02 (an exterior) are NOT used as proof of services not evidenced in reviews",
+    "Google Places category labels as services ('Painting & decorating' is fine as a real service; 'painters and decorators' the niche label is not a separate service)",
+    "photo counts or invented numbers as stats - only Google 5.0 / 24 reviews and the sourced opening hours are citable",
+    "claiming areas beyond the Newcastle upon Tyne / North Tyneside metro plausibly reachable from NE12"
+  ],
+  "personality": "calm, exacting, considerate; a decorator who preps properly, keeps your home covered and tidy, and leaves a finish so smooth it looks like new - worth booking ahead for",
+  "evidence_strength": "moderate-content / multi-source (specific, prep-and-finish-led Google reviews + 10 completed-project photos from Google Places + a verified high-confidence Facebook page corroborating phone/name/email). Richer and better-corroborated than a Google-only lead.",
+  "pitch_hook_summary": "Lead on the prep-led flawless-smooth-finish angle (old doors and woodwork sanded back to look like new, dated rooms brought back brighter, whole-home redecoration), backed by 5.0/24 Google and a high-demand 'book well in advance' reputation.",
+  "metadata": {
+    "source_quality": "FAIL (mechanical) - actually multi-source",
+    "lead_validity_status": "SOCIAL_ONLY_READY",
+    "manual_review_note": "source-quality.json reads FAIL with reason 'Email present but email-domain website discovery not completed'. The email is a gmail.com address (no business domain to resolve), so this is a mechanical gate, not an evidence gap. The real signal is the opposite: a verified high-confidence Facebook page corroborates the Google listing on phone, name and email, making this lead MULTI-SOURCE. This is a BUILD run; pitch_gate enforces at outreach time, not build time. Same posture as the Kyle Knowles and Damo reference builds.",
+    "authored_blind": "Path B authored from frozen evidence + CLAUDE.md + the webfortrades-site-design skill only. Palette and fonts derive from this trader's own world (a smooth chalk-white wall, soft eucalyptus-grey paint, a pale-oak floor) and are deliberately NOT Kyle's (wet-slate ink + viridian teal; Bricolage Grotesque + Instrument Sans), NOT Damo's (blackened-iron ink + cedar amber; Oswald + Hanken Grotesk), and NOT any library pairing. The eucalyptus accent is kept soft and greyed, never forest-green or viridian-teal."
+  }
+}

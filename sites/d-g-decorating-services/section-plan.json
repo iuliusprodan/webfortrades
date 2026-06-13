@@ -1,0 +1,106 @@
+{
+  "slug": "d-g-decorating-services",
+  "generic_plan": false,
+  "layout_note": "Single column, light and airy on a cool chalk-white background. The structural signature is a short soft-eucalyptus brushstroke rule under each section eyebrow and as the section divider (a thin hairline with a short painted-edge accent, like the clean line where a freshly cut-in wall meets the trim) - it encodes the prep-and-finish craft rather than decorating. Boldness spent once on the prep-and-finish signature block and the single soft-eucalyptus accent (with a pale-oak warm note used sparingly); everything else stays quiet and calm. Photo-led where the Google Places shots are strong finished interiors.",
+  "sections": [
+    {
+      "id": "header",
+      "type": "sticky-header",
+      "purpose": "Wayfinding + persistent quote CTA.",
+      "evidence_anchors": ["brief.json business_name", "brief.json phone"],
+      "copy_intent": "Text wordmark 'D.G. Decorating Services'; nav: Work, Reviews, Areas; one button 'Get a quote'. No phone in the bar on mobile.",
+      "visual_intent": "Quiet solid chalk-white header (no backdrop-filter so the mobile drawer/scrim are not trapped - containing-block rule), soft eucalyptus hairline underneath. Mobile: wordmark + hamburger only (no phone, <=2 links) per mobile_header check."
+    },
+    {
+      "id": "hero",
+      "type": "trade-led-hero-with-photo",
+      "priority": 1,
+      "purpose": "State trade + location + the prep-led smooth-finish angle in one line; show real finished work (freshly painted doors and woodwork); surface the only headline proof.",
+      "evidence_anchors": ["reviews[1] Walter (never saw paintwork so smooth, doors sanded to look like new)", "reviews[2] simon (prepares well, that great finish)", "google_rating 5.0 / google_review_count 24", "based_location Killingworth, NE12", "05-places.webp (vision-selected: hallway of freshly painted smooth white panel doors and crisp trim against a calm soft blue-grey wall - the smooth-finish angle made visible)"],
+      "copy_intent": "Headline = trade-led positioning on the prep-led flawless-smooth-finish angle (NOT a review quote). Subhead = interior painting and decorating across named North Tyneside / Newcastle areas, prep-first method + the smooth finish, single sentence. CTAs: Get a quote (primary, #quote), Call Dan (secondary, phone).",
+      "visual_intent": "Full-bleed best finished-interior photo (05-places, the smooth white doors) under a soft cool-charcoal scrim for legibility; Schibsted Grotesk headline; soft-eucalyptus primary button; small proof chip '5.0 on Google, 24 reviews'. Text block keeps the site container side padding on mobile (hero horizontal-inset rule); CTAs stack full-width <=640px, proof chip below both."
+    },
+    {
+      "id": "proof-strip",
+      "type": "proof-marquee",
+      "priority": 2,
+      "purpose": "A factual, evidence-drawn strip directly beneath the hero.",
+      "evidence_anchors": ["google_rating 5.0", "google_review_count 24", "based_location NE12", "reviews[1] Walter (smooth finish)", "reviews[2] simon (prep / booked up)", "opening_hours"],
+      "copy_intent": "5-6 proof points: '5.0 on Google', '24 reviews', 'Killingworth, NE12', 'Prep before every coat', 'Doors brought back like new', 'Booked well ahead'. Factual, no exclamation marks, no salesy framing.",
+      "visual_intent": "Cool-charcoal (--ink) band, light text, soft-eucalyptus diamond separators. Seamless infinite loop (list rendered twice, translateX(-50%), single linear traversal ~36s), animates on ALL viewports incl. mobile; only prefers-reduced-motion degrades to a static row."
+    },
+    {
+      "id": "the-difference",
+      "type": "signature-positioning-block",
+      "priority": 3,
+      "purpose": "The one memorable thing: Dan preps properly before painting, brings old doors and woodwork back to a flawless smooth finish, and redecorates whole dated homes brighter. This is where boldness is spent.",
+      "evidence_anchors": ["reviews[2] simon (prepares well before decorating, that great finish)", "reviews[1] Walter (never saw paintwork so smooth, doors sanded to look like new, dust sheets, respectful)", "reviews[3] allen (outdated home completely transformed, brighter)", "reviews[0] Lynn (whole-home, preparation excellent, tidy)"],
+      "copy_intent": "3 short, concrete statements of the specialism, stated plainly and factually (no boast adjectives): prep before every coat, the smooth finish on old woodwork, dated rooms brought back brighter. The smooth-finish phrase carries the single accent. Plus the 3 stats inline.",
+      "visual_intent": "Palest-eucalyptus (--stone) section; large Schibsted Grotesk statements stacked, soft brushstroke rules between; the eucalyptus accent used once, on the key phrase ('a finish so smooth it looks like new'). No icons. The boldest moment on the page. Three sourced stats inline beneath (5.0 / 24 / 6 days callable)."
+    },
+    {
+      "id": "services",
+      "type": "evidence-based-services",
+      "priority": 4,
+      "purpose": "Name the 4 real services from evidence with specific, grounded descriptions.",
+      "evidence_anchors": ["site-strategy.json real_services (interior painting & decorating, doors & woodwork refinishing, surface preparation, whole-home redecoration)"],
+      "copy_intent": "Each service: short label + one evidence-grounded line. NEVER the niche label as a service, NEVER exterior/plaster/wallpaper not in evidence. NEVER 'X services explained plainly'.",
+      "visual_intent": "Labelled rows with small two-letter marks (PD / DW / PR / WH) in soft eucalyptus - NOT 01/02/03 (services are not a sequence; the numbered process below is) and NOT SVG/lucide icons (no_service_icons check). Soft brushstroke rule between rows."
+    },
+    {
+      "id": "gallery",
+      "type": "gallery-masonry",
+      "priority": 5,
+      "purpose": "Show the actual finished interiors - the proof that matters most for a trader whose proof is photo-led.",
+      "evidence_anchors": ["brief.json photos[] Google Places completed_project (1600px): 05 doors hallway, 06 kitchen/diner, 09 feature wall, 10 botanical feature wall, 04 dining feature wall, 01 living room"],
+      "copy_intent": "Short section intro; safe captions only (work type + Killingworth/North Tyneside; no invented job address or customer name).",
+      "visual_intent": "CSS masonry: 3 columns >=1024px, 2 columns 640-1023px, 1 column mobile; natural aspect ratios, top-aligned, captions directly under each image (gallery check compliance). Thin soft-eucalyptus frame on each tile. Excludes 02 (exterior), 03 (cluttered/sofas), 07 (commercial reception, blurry), 08 (person at a paint-shop sprayer demo - WIP/promo, not a finished room)."
+    },
+    {
+      "id": "reviews",
+      "type": "review-feature",
+      "priority": 6,
+      "purpose": "Exactly one review section. Lead with the smooth-finish and whole-home quotes that carry the angle.",
+      "evidence_anchors": ["reviews[1] Walter (smooth finish, doors like new)", "reviews[0] Lynn (whole-home, prep excellent, tidy)", "reviews[2] simon (prep / booked up)", "reviews[3] allen (transformed, brighter)"],
+      "copy_intent": "3-4 verbatim Google excerpts, attributed 'First name, Google review' (capitalised: Walter, Lynn, Simon, Allen). No first name as a headline (no 'Steve' anti-pattern). One review section only (no duplicate wall).",
+      "visual_intent": "Quiet cards on --stone; soft-eucalyptus quote rule; the 5.0/24 proof restated once as a stat, label 'Google rating' (no banned sub-labels)."
+    },
+    {
+      "id": "process",
+      "type": "process-numbered",
+      "priority": 7,
+      "purpose": "Reduce risk: show the orderly, prep-first way Dan works.",
+      "evidence_anchors": ["reviews[0] Lynn (written quote within days, came when he said, tidy)", "reviews[2] simon (prepares well before decorating)", "reviews[1] Walter (dust sheets, sanding, smooth finish)", "reviews[3] allen (brighter, transformed)"],
+      "copy_intent": "4 ordered steps grounded in review behaviour: come and look + written quote -> cover and prep the rooms first -> sand and paint to a smooth finish -> leave the home tidy and brighter. Booking-ahead noted (high demand).",
+      "visual_intent": "Numbered 01-04 IS appropriate here (a real sequence). Numerals in Schibsted Grotesk, soft eucalyptus; soft hairline dividers between steps. Dark cool-charcoal (--ink) section for contrast."
+    },
+    {
+      "id": "areas",
+      "type": "local-coverage",
+      "priority": 8,
+      "purpose": "Establish locality and availability without exposing the home address.",
+      "evidence_anchors": ["brief.json based_location 'Newcastle Upon Tyne, NE12' (Killingworth)", "service_area Killingworth / North Tyneside / Newcastle upon Tyne", "opening_hours (Mon-Fri 8-5, Sat 8-1, Sun closed)", "google_maps_url cid"],
+      "copy_intent": "Based in Killingworth, covers North Tyneside and the Newcastle upon Tyne suburbs (8-14 districts). Killingworth/North Tyneside/Newcastle evidenced as the base+service area; the named districts (Gosforth, Longbenton, Forest Hall, Wideopen, etc) derived from NE12 geography (plausible one-van radius, no over-claim). Hours Monday to Friday 8am-5pm, Saturday 8am-1pm (sourced). No street address.",
+      "visual_intent": "Keyless Google Maps iframe centred on 'Killingworth NE12' (town + outward only); area list (two-column) + hours beside it."
+    },
+    {
+      "id": "quote",
+      "type": "contact-quote-form",
+      "priority": 9,
+      "purpose": "Convert: a quote form plus phone, anchored at #quote.",
+      "evidence_anchors": ["brief.json phone 07411 680190", "based_location Killingworth NE12", "opening_hours"],
+      "copy_intent": "Two columns. Left: heading + framing prose + key details (phone click-to-call, Killingworth / NE12, hours). Right: quote form (name, phone, postcode, job type painter-specific, details, optional email). Heading specific to Dan. Form is presentational only (does not submit to the business; no 'preview form' disclaimer).",
+      "visual_intent": "Dark cool-charcoal (--ink) surface, NOT the eucalyptus accent (contact section rule). Form fields visually distinct from the side details (light fields). Mobile: stack to single column, details first. Quote-only sticky CTA reveals after hero on scroll (fade+slide), hides near footer."
+    },
+    {
+      "id": "footer",
+      "type": "business-footer",
+      "purpose": "Real local-business footer, not just the agency credit.",
+      "evidence_anchors": ["business_name", "phone", "service_area", "opening_hours", "google_maps_url"],
+      "copy_intent": "Brand, phone, areas, hours, quick links, link to read Google reviews. Small 'Website by WebForTrades' credit at the bottom.",
+      "visual_intent": "Cool-charcoal footer; soft hairline dividers; restrained."
+    }
+  ],
+  "omitted_defaults": ["owner-backstory/about-me narrative (no self-description evidence)", "FAQ (no real questions in evidence)", "fabricated stats band (only Google 5.0/24 + the sourced opening hours are real)", "certifications/badges strip (none verified)", "separate second review wall", "exterior painting / plastering / wallpaper-hanging services (not evidenced)", "Facebook thumbnail gallery (315px - too low-res per the skill; Google Places 1600px photos used instead)"],
+  "omitted_reasons": "Kept lean and evidence-only. No section exists without a specific anchor in the frozen brief. The verified Facebook page is used as a corroborating multi-source signal, not as a media source (its images are thumbnail-only)."
+}
