@@ -3,15 +3,8 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { parse as parseYaml } from "yaml";
 import type { Lead, LeadState } from "./db.js";
-import {
-  classifyUkPhone,
-  isWhatsAppCandidate,
-  type PhoneType,
-} from "./phone_utils.js";
-import {
-  checkWhatsAppAvailable,
-  type WhatsAppCheckResult,
-} from "./whatsapp_gateway.js";
+import { classifyUkPhone, type PhoneType } from "./phone_utils.js";
+import { isUkMobileCandidate } from "./lib/uk_mobile.js";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.join(__dirname, "..");
@@ -34,7 +27,6 @@ export interface QualificationConfig {
   no_email_requires_whatsapp: boolean;
   disqualify_no_email_no_whatsapp: boolean;
   whatsapp_errors_manual_review: boolean;
-  whatsapp_check_enabled: boolean;
 }
 
 export interface ContactabilityResult {
@@ -52,7 +44,6 @@ export interface ContactabilityResult {
 interface QualifyInput {
   email: string | null | undefined;
   phone: string | null | undefined;
-  whatsappCheck?: WhatsAppCheckResult | null;
   config?: Partial<QualificationConfig>;
 }
 
@@ -61,7 +52,6 @@ const DEFAULT_CONFIG: QualificationConfig = {
   no_email_requires_whatsapp: true,
   disqualify_no_email_no_whatsapp: true,
   whatsapp_errors_manual_review: true,
-  whatsapp_check_enabled: true,
 };
 
 export function loadQualificationConfig(): QualificationConfig {
@@ -69,79 +59,48 @@ export function loadQualificationConfig(): QualificationConfig {
   if (!fs.existsSync(configPath)) return DEFAULT_CONFIG;
   const raw = parseYaml(fs.readFileSync(configPath, "utf8")) as {
     qualification?: Partial<QualificationConfig>;
-    outreach?: { whatsapp_check_enabled?: boolean };
   };
   return {
     ...DEFAULT_CONFIG,
     ...raw.qualification,
-    whatsapp_check_enabled:
-      raw.outreach?.whatsapp_check_enabled ?? DEFAULT_CONFIG.whatsapp_check_enabled,
   };
 }
 
-function isWhatsAppCheckError(result: WhatsAppCheckResult): boolean {
-  if (result.status !== "unknown") return false;
-  if (!result.checked) {
-    return result.detail !== "whatsapp_check_enabled=false";
-  }
-  return Boolean(result.detail);
-}
-
-function whatsappAvailabilityFromCheck(
-  check: WhatsAppCheckResult | null | undefined,
-  phoneType: PhoneType,
-  checkAttempted: boolean
-): WhatsAppAvailability {
-  if (!checkAttempted) return "not_checked";
-  if (!check) return "not_checked";
-  if (check.status === "available") return "available";
-  if (check.status === "unavailable") return "unavailable";
-  return "unknown";
-}
-
 /**
- * Pure contactability decision. Pass whatsappCheck when email is missing and phone is UK mobile.
- * Does not call OpenWA. Never sends messages.
+ * Pure, synchronous contactability decision.
+ *
+ * ARCH-5: WhatsApp is permanently manual, so there is no longer any network availability
+ * ping (the OpenWA `checkWhatsAppAvailable` path was torn out on 2026-06-13). The single
+ * source of truth is now `isUkMobileCandidate`, a pure format predicate. The no-email case
+ * collapses to a binary: a UK-mobile candidate routes to manual WhatsApp contact
+ * (NEEDS_MANUAL_REVIEW), anything else is DISQUALIFIED_NO_CONTACT_METHOD.
+ *
+ * Never sends messages; never touches the network.
  */
 export function qualifyContactability(input: QualifyInput): ContactabilityResult {
-  const config = { ...DEFAULT_CONFIG, ...input.config };
   const email = input.email?.trim() ?? "";
   const phone = input.phone?.trim() ?? "";
   const emailAvailable = Boolean(email);
   const phoneType = classifyUkPhone(phone || null);
-  const whatsappCandidate = isWhatsAppCandidate(phone || null);
-  const check = input.whatsappCheck ?? null;
-
-  const checkAttempted =
-    Boolean(check?.checked) ||
-    (whatsappCandidate && !emailAvailable && config.whatsapp_check_enabled);
-
-  const whatsappAvailable = whatsappAvailabilityFromCheck(
-    check,
-    phoneType,
-    checkAttempted
-  );
-  const whatsappChecked = checkAttempted && whatsappAvailable !== "not_checked";
+  const mobileCandidate = isUkMobileCandidate(phone || null);
 
   const base = {
     email_available: emailAvailable,
     phone_type: phoneType,
-    whatsapp_candidate: whatsappCandidate,
-    whatsapp_available: whatsappAvailable,
-    whatsapp_checked: whatsappChecked,
-    whatsapp_check_detail: check?.detail ?? null,
+    whatsapp_candidate: mobileCandidate,
+    whatsapp_available: "not_checked" as WhatsAppAvailability,
+    whatsapp_checked: false,
+    whatsapp_check_detail: null as string | null,
   };
 
   if (emailAvailable) {
-    const preferWhatsApp =
-      whatsappCandidate && whatsappAvailable === "available";
     return {
       ...base,
       contactability_status: "CONTACTABLE",
-      contactability_reason: preferWhatsApp
-        ? "email found, WhatsApp available on mobile"
-        : "email found, email-only outreach if WhatsApp unavailable",
-      preferred_channel: preferWhatsApp ? "whatsapp" : "email",
+      contactability_reason: mobileCandidate
+        ? "email found; UK mobile also present for optional manual WhatsApp"
+        : "email found",
+      preferred_channel: "email",
     };
   }
 
@@ -154,149 +113,40 @@ export function qualifyContactability(input: QualifyInput): ContactabilityResult
     };
   }
 
-  if (phoneType === "landline") {
+  if (mobileCandidate) {
     return {
       ...base,
-      whatsapp_available: "not_checked",
-      whatsapp_checked: false,
-      contactability_status: "DISQUALIFIED_NO_CONTACT_METHOD",
-      contactability_reason:
-        "no email found and phone is landline, not WhatsApp eligible",
-      preferred_channel: null,
-    };
-  }
-
-  if (phoneType === "foreign") {
-    return {
-      ...base,
-      whatsapp_available: "not_checked",
-      whatsapp_checked: false,
       contactability_status: "NEEDS_MANUAL_REVIEW",
       contactability_reason:
-        "no email found and phone type is foreign, not auto-qualified",
-      preferred_channel: null,
-    };
-  }
-
-  if (phoneType === "unknown") {
-    return {
-      ...base,
-      whatsapp_available: "not_checked",
-      whatsapp_checked: false,
-      contactability_status: "NEEDS_MANUAL_REVIEW",
-      contactability_reason:
-        "no email found and phone type is unknown, needs manual review",
-      preferred_channel: null,
-    };
-  }
-
-  if (!whatsappCandidate) {
-    return {
-      ...base,
-      contactability_status: "NEEDS_MANUAL_REVIEW",
-      contactability_reason: "no email found and phone is not a UK mobile",
-      preferred_channel: null,
-    };
-  }
-
-  if (!config.whatsapp_check_enabled) {
-    return {
-      ...base,
-      whatsapp_available: "unknown",
-      whatsapp_checked: false,
-      contactability_status: "NEEDS_MANUAL_REVIEW",
-      contactability_reason:
-        "no email found, mobile present, WhatsApp check disabled in config",
-      preferred_channel: null,
-    };
-  }
-
-  if (!check) {
-    return {
-      ...base,
-      whatsapp_available: "not_checked",
-      whatsapp_checked: false,
-      contactability_status: "NEEDS_MANUAL_REVIEW",
-      contactability_reason:
-        "no email found, UK mobile present, WhatsApp check not run yet",
-      preferred_channel: null,
-    };
-  }
-
-  if (isWhatsAppCheckError(check) && config.whatsapp_errors_manual_review) {
-    return {
-      ...base,
-      whatsapp_available: "unknown",
-      whatsapp_checked: true,
-      contactability_status: "NEEDS_MANUAL_REVIEW",
-      contactability_reason: "WhatsApp availability check failed",
-      preferred_channel: null,
-      whatsapp_check_detail: check.detail,
-    };
-  }
-
-  if (check.status === "available") {
-    return {
-      ...base,
-      whatsapp_available: "available",
-      whatsapp_checked: true,
-      contactability_status: "CONTACTABLE",
-      contactability_reason: "no email found, WhatsApp available",
+        "no email found; UK mobile present, requires manual WhatsApp contact",
       preferred_channel: "whatsapp",
-    };
-  }
-
-  if (check.status === "unavailable") {
-    return {
-      ...base,
-      whatsapp_available: "unavailable",
-      whatsapp_checked: true,
-      contactability_status: "DISQUALIFIED_NO_CONTACT_METHOD",
-      contactability_reason:
-        "no email found and mobile is not on WhatsApp",
-      preferred_channel: null,
     };
   }
 
   return {
     ...base,
-    whatsapp_available: "unknown",
-    whatsapp_checked: true,
-    contactability_status: "NEEDS_MANUAL_REVIEW",
-    contactability_reason: "WhatsApp availability check returned unknown",
+    contactability_status: "DISQUALIFIED_NO_CONTACT_METHOD",
+    contactability_reason:
+      phoneType === "landline"
+        ? "no email found and phone is landline, not WhatsApp eligible"
+        : "no email found and phone is not a UK mobile",
     preferred_channel: null,
-    whatsapp_check_detail: check.detail,
   };
 }
 
 /**
- * Run WhatsApp availability check when required, then qualify. Check-only, never sends messages.
+ * Async wrapper retained for call-site compatibility. There is no network check any more
+ * (ARCH-5); this applies config defaults and delegates to the synchronous decision.
  */
 export async function qualifyContactabilityAsync(
-  input: Omit<QualifyInput, "whatsappCheck"> & {
+  input: QualifyInput & {
     skipWhatsAppCheck?: boolean;
   }
 ): Promise<ContactabilityResult> {
   const config = { ...DEFAULT_CONFIG, ...input.config, ...loadQualificationConfig() };
-  const email = input.email?.trim() ?? "";
-  const phone = input.phone?.trim() ?? "";
-  const phoneType = classifyUkPhone(phone || null);
-  const needsWhatsAppCheck =
-    !email &&
-    phoneType === "mobile" &&
-    isWhatsAppCandidate(phone) &&
-    config.whatsapp_check_enabled &&
-    !input.skipWhatsAppCheck;
-
-  let whatsappCheck: WhatsAppCheckResult | null = null;
-  if (needsWhatsAppCheck) {
-    whatsappCheck = await checkWhatsAppAvailable(phone);
-  }
-
   return qualifyContactability({
     email: input.email,
     phone: input.phone,
-    whatsappCheck,
     config,
   });
 }
