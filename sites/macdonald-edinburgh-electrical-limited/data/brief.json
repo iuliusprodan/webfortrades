@@ -1,0 +1,637 @@
+{
+  "business_name": "Macdonald Edinburgh Electrical Limited",
+  "owner_name": null,
+  "contact_name": "David",
+  "contact_name_source": "google_reviews",
+  "contact_name_confidence": "high",
+  "contact_name_evidence_count": 5,
+  "contact_name_usage_allowed": true,
+  "possible_contact_name": null,
+  "phone": "07453 277434",
+  "email": null,
+  "phone_type": "mobile",
+  "whatsapp_candidate": true,
+  "email_available": false,
+  "whatsapp_available": "not_checked",
+  "contactability_status": "NEEDS_MANUAL_REVIEW",
+  "contactability_reason": "no email found; UK mobile present, requires manual WhatsApp contact",
+  "preferred_channel": "whatsapp",
+  "address": "4 Mauricewood Grove, Penicuik EH26 0BN, UK",
+  "opening_hours": [
+    "Monday: 9:00 AM – 5:00 PM",
+    "Tuesday: 9:00 AM – 5:00 PM",
+    "Wednesday: 9:00 AM – 5:00 PM",
+    "Thursday: 9:00 AM – 5:00 PM",
+    "Friday: 9:00 AM – 5:00 PM",
+    "Saturday: 9:00 AM – 5:00 PM",
+    "Sunday: Closed"
+  ],
+  "services": [
+    "Repairs and maintenance",
+    "Installations",
+    "Emergency callouts"
+  ],
+  "services_meta": [],
+  "service_confidence": "broad",
+  "service_sources": [
+    "google",
+    "niche"
+  ],
+  "service_area": [
+    "Penicuik",
+    "Edinburgh",
+    "Penicuik EH26 0BN"
+  ],
+  "based_location": "Penicuik, EH26",
+  "google_rating": 4.9,
+  "google_review_count": 63,
+  "google_review_count_sourced": true,
+  "service_areas_inferred": true,
+  "google_maps_url": "https://maps.google.com/?cid=1855229081902958572",
+  "website_status": "BROKEN_OR_BAD_SITE",
+  "website_check_notes": "reason=fetch_error; url=https://www.macdonaldedinburghelectrical.com/; final=https://www.macdonaldedinburghelectrical.com/",
+  "website_url": "https://www.macdonaldedinburghelectrical.com/",
+  "photos": [
+    {
+      "local": "images/01-places.webp",
+      "source_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3mGEJLD_SRx6CfTNX1sFul2-gtcPYaSnUVKRwKM3SNEPOXsiL7BFEboVX_reDiFOIciMQADmcdWEPW_Z9tnpsSiC-nq1AQrcqOs5DKtfyqL6oh46xxha1WuQgmNjssyq0xpM-uiePL4xCzAzlD4E58LaZ815Ffca3wqm4WfMTnWiY2D_S-RPUqNqoiUMZnMeajxToMSmJK3ZgyPrWPCxthkvQUz02Ot0DnUbtFOaX0O46bAodDhcE_ZyROquTMpa1lw6MYgl8h7liua6jpTpVwtj0Oo5rFmhQVQp3xoQmsv4abbDToCJFIDywMmJje1fQf2yqjwT0hOHmQQPtm52-VEgh1BU8N5aNUiUWdSSuvvVxS72Fj00TTWGR9aMMfiJ64zweEr4OXpqY5nImIiQ9glXUeMzsSgeIVJRLgmMOUC9G7B&key=REDACTED",
+      "width": 960,
+      "height": 720,
+      "classification": "completed_project",
+      "pair_id": null,
+      "source_type": "google_places"
+    },
+    {
+      "local": "images/02-places.webp",
+      "source_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3k5lrXj4Er1lMo1GZoPr-pMsQFMA_9BJmkqHCCb6JesSyAy3qrLzsJ6zWay4uD_6M7iI9kcT0scu0BczM1OIZ2PLSr9PQidWEdoHpCYfg_McIBNlwmAokNmy6_tYbvZ39RkuBDda-TOIgmJjhLEm6156oejCsuCSGBC_AwTeAcYsigpKBwcCXNj0xRNUBDWz7WEGsFI3Vo4IkmoR5oTarQVZENaL3bG-HnchXMH1gAIvxnoUygBywFp9EiRX_WU8-KOBC6BvVdeheNRbCMeGPw7kmfhRWV6wCCJYnt258N8SWOPHgQghFpWRJdkT3QUSdmq7vf-o_8I3GH_ZVyP6TwK2BcDZvvPQcQ1dKV_kM3ZkGVipaB4m2JOCpj9tlH1BBXOppLrTOmS1rfovEiKWqv2RwuglaBylnUU7lVxZ6xfdamP&key=REDACTED",
+      "width": 960,
+      "height": 720,
+      "classification": "completed_project",
+      "pair_id": null,
+      "source_type": "google_places"
+    },
+    {
+      "local": "images/03-places.webp",
+      "source_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3kGSXGFpZC7Y4O1aqHhk_qZF8oZXcAzVPqlrOU2nNdplNregXdnt4tMzoOYuJORFtL_vvRlHC2eLYvGLPqvrmcaLJNSTRqy1A7XBHz9rVQDndyyceDZTjXArZa1PtT5WFBa8EmHZolgkCIZMRE-HrrXEqWKBZ38dAA_G3s_5y-tET7UK1PzQEVfi2EU8rArozCGeh61TG0JPh7-gfqyR_8EaPNRuy0fmQltjnW6PenN5hY9P9LRY2n37i4JTCdHmjJ4ccbITyUjMm6-0deHnIVoidAP_PZITlOmjgdsVzQIT1Rn2HeZ8TjKbmjP1Isk4Pillc3wq5GpZjbPvZCPv4ATmBdrukrgQCx5aP4brq3YRgWV_puHHJk-3RcjQAI8_qV3vY5IngedK5atMTC1T78M4MMAm6srEcpqEe56DwgWzdYUik6iAfBxuBhjwB7r&key=REDACTED",
+      "width": 1200,
+      "height": 1600,
+      "classification": "completed_project",
+      "pair_id": null,
+      "source_type": "google_places"
+    },
+    {
+      "local": "images/04-places.webp",
+      "source_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3kO0-TmbzcyOqoFc9FV1grfazNLaq0vjJzGdYuP8s_GEffUBBQKKrVWxNJQZsljdpRhSeUs_FLS30uGZh8l_Rz4FJu_M-oUn3J-zmpc2P0wxwnAhJFWesyubemcomWbBg-2ttRkNQQ1_R4XiOfQpocyR2SidLn53Vwr8ztKXJuomXm1BFN6-fkNtraQtTva0yt-MvhSHmt3E8Q5sWFDAl4gpdSChR8pgbBBPRiAI2xfnXoL5642wZrNext-MuwXF8W9MQHah_VsAJ_qMgACAvXa1aTuOUOVRTauCjNyOSBazfPJ5WTlpZHjcEbEL8dF4c2DZDaEj9ChbMJdmgGKrAcNpPPqtApw4IVdFbyi_370vi9BesfSTX_M-E-BrcXlgnxy9suwj0McH0u7QZVNbNA-c3aPRHlhnemfFFiArFOcIA&key=REDACTED",
+      "width": 1200,
+      "height": 1600,
+      "classification": "completed_project",
+      "pair_id": null,
+      "source_type": "google_places"
+    },
+    {
+      "local": "images/05-places.webp",
+      "source_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3mU8fbyBaudiAv8zoLN25DFjdGIFEXUGxz2wQSIGErfDqhZOlaRQoxF6sPzYWkn-24OoNBhcC97APrgHAiKElewdYfsSvUBCinu3_Ux2OF1vFLNSivD3h3zrD1HowrpVmpHCoiMWGPnnl2AUIQcqTYFePY3I96adVolY98FgfNzJweCr1lcvUY9k9pnZMzVA7L5dULqmBIpMD4gg_o6EnHNjnyPhwCihVBEBv0Fp2Pp35wu-8I9ZHmzke8wTCV14HFle_6Jr8EVxOtjQySUukJKHevidoREF_3aZhis9-WKUgdPHWmKL6arpabA9zrrJx_BAxHxb3xOO4jZLetCuW9622eac_6uMbdc3vZTQqMOsMG9SO1itcOUarsjYQdvvmkxbY_0rEzuXN458d3ilsHu24I7vxqdYMCLKEwWXpFIkru_1yTUTYdPBGUWpp8T&key=REDACTED",
+      "width": 1200,
+      "height": 1600,
+      "classification": "completed_project",
+      "pair_id": null,
+      "source_type": "google_places"
+    },
+    {
+      "local": "images/06-places.webp",
+      "source_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3kydGVaRlY4TTn4hz2d7thN5yKxxrgqpYu98X7p1W6ei-NLcZi-iK6WUOjYm9at2H3vlAlUvAdoWfxgcx4AxzhyIDSCRZmIMVd14EoHZYYlOuqO0aqbiGR5-_BI8haptAlE6l1lwJvz6VHi8vbf1cJPcg-3dmKmJ8zQSFdXPnTAOVPAWCzqaeAZH2934aJBzoSbbQtRWhzEduv9AnBiJrO-gayl27BcaR9VMdTN9JcMJzh5lBeI4x9TvVmrSCY-r9Nr1WafHD8i9NOhi8G2jjQg8cyAHCPTwlT_-oBT4suAtEfo0xgQj9Uj-yoIkkPXyvNXevQJUwMcEksN0CU6pNQDXkE3LOELzGQ3B6T3hJqhYmftERkPvW4NP55nvz63cmog7XvotMpAzDLkaXb6nTVqGJluEEupN-Z1g2PI8yyFrZjjM7GFoy9CODrRIOLl&key=REDACTED",
+      "width": 1200,
+      "height": 1600,
+      "classification": "completed_project",
+      "pair_id": null,
+      "source_type": "google_places"
+    },
+    {
+      "local": "images/07-places.webp",
+      "source_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3libSoKNmr9GkrYCikRuD5bqo1BmYI16L4Ioo5OZAr0Ai23QRRHlXgtSB7QSyeqEUWiAoxE5gvwHsO19otlVDSRTUxvahwyzdidkA4yaSsPqjWHW42-RH32pZ_1sWc3KfQ9cRhT4MyshIywWHViH_ylNOwPGfdLFw1DBavLmCy5KpajC1GQD6mmGu6dO270KhoX2QQcqYuvsHkTHkVXfrdSR2wikRxm7PzJJLs3D2CgIktmmY1yo85VQS5NImpfLDXZ_Dy3Vy4ZD7PK5K2Qjb7TFpXoWrnV1L7AOAOEaC-GJjgqoIEJpbWzxCFDLL-fig9XLo9-0aTS9LGOgwDRUcmrALsarRtlfGDKybCy0Gq-6tSKT3hWj1cQpcQB-h2FZrFQEZRbrggdqI-_SiFPMCX4ct9j2Qmo01qHZoNVoggMt5TZ&key=REDACTED",
+      "width": 1200,
+      "height": 1600,
+      "classification": "completed_project",
+      "pair_id": null,
+      "source_type": "google_places"
+    },
+    {
+      "local": "images/08-places.webp",
+      "source_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3knHItCmJAXREzlxKUixJMEEOeFBqH6TQxgdUpG7fhxM6A6nJ3mNzdteEm-bHhQPGIA4nthoeWLNv9F2vcVoytnVHFitHG5hiaV6JXtmARU-RNjo5SKZT8S5fMcNQNboJfdSypi_a6-IcJ4l2tgf_9shIiDZdhmkJcDPSAo-2zfBHXeXP-mk_T-ra858UzMWlqZuL3te99VuaoJ5TQGJor9Ql5RG35ff272wdU-C4sk82ztz9BMaqmbdQ7PyPSADzBF8cud74yizSm9qNP4iCyzPQmqnk-s2Xb3PjlUijkkfHD-x-iZDdeOL4VrMQFHov760v1o5fdg-aL_tUhQl0TLElZwMwfR0FVAQwRimOFsl2ovODUIpG13zmq9IqMD0LPCZ6lyKDyA7mQTH7MdppJvZtrfK-wSAqP861Gj-y9jKQ&key=REDACTED",
+      "width": 1600,
+      "height": 1200,
+      "classification": "completed_project",
+      "pair_id": null,
+      "source_type": "google_places"
+    },
+    {
+      "local": "images/09-places.webp",
+      "source_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3nkkPj_rn8RpTXUKHc6CZnrAcCdZIfFnlT8XBQ_ah0GZ3KZQGLsl7XS-Xoaa31q4yz57lhAdNEi3442CZ225_kBveu7e-ZYp6z-a2ITrMp8xuyefStN0qSuDpq9OhUUSpIq2yxcaZsvaAwJxQcQ5m42ptT0D1uW3BGY0G-urnOjfSBuBCyebjijAEUFfk2GsvvW6cKbAP3znaNhaMO82prhsV6_G6ezepw07n5Wb8jLjrRGqzNS7uJ1f-51g0nMjRvLnSb6blQqz4YEmZ6ylRh8q1GNVEanECtSSZZDi4DTztxf2LVPuJcwiDfMnjHWBTh3bHMV047R9Af-AAlvnwirVmEbDzf0js-tMYs7cQI-v-JRcPgh3xCbyXWE7GKj4MwPWlPPrOBZuUjSxjLcc_5VJRaTbDDu9FYAbcYO1t61I8PzYDrStX6Lo5D0rg&key=REDACTED",
+      "width": 1200,
+      "height": 1600,
+      "classification": "completed_project",
+      "pair_id": null,
+      "source_type": "google_places"
+    },
+    {
+      "local": "images/10-places.webp",
+      "source_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3lOe-fE7x4ri2pbSazZaTRwH583wjBIyX5_U_3eO1XQR5U8VGzu75Q66yC6oa1oAwttCnS5X3yIEqoyfwQkh4_4Tqkqwm-gGo7dGiixf7RcsWMdXTqskuEIRhRRmEkM-ysGkyPVy4ZaUZbVnLTvhLfNOkDR0jwwDFaK4YO1ybKPvGabeeiD1dJahNBSdHvzpNcR-AaLwR5L0qdf5jOdDbmsEzwz9SVufkJ2_76jmIZCvC2pwKbh3x5SAP-QDeh7JIfCyInoX1kT6LjePawaP4tlpaVmcpzZmry0kWd5SdNfVFVpYYmpleVqVDRhWWiGPbrttb5sH3M6L_lY6QvpJfCInPid-X88O1EY-0r_K3Yej1jPW-WxYNmPfCGc0iPcSGPOrgd0saLsm7S1_6VFqUBPRevUOrJlD-HVSITznL3uoSRn&key=REDACTED",
+      "width": 1200,
+      "height": 1600,
+      "classification": "completed_project",
+      "pair_id": null,
+      "source_type": "google_places"
+    }
+  ],
+  "reviews": [
+    {
+      "text": "David MacDonald provided excellent service and quality of work from start to finish. He talked us through each step diligently from the original consultation to setting up the system once it was installed in a way that worked best for our usage and needs. His work standards are top quality, and I don't think he left a spec of dust anywhere which is refreshing. All in all we found David to be honest, reliable and an expert in his field. Wouldn't hesitate to recommend him or employ his services again. Thanks for everything, David. We're over the moon with our solar system.",
+      "reviewer": "Liam",
+      "rating": 5
+    },
+    {
+      "text": "An excellent, professional job done by David. He explained everything, got on with the job and tidied up at the end. I'm very happy with the work that was carried out. I would highly recommend him and I will definitely use his company again without hesitation. The before and after photos speak for themselves.",
+      "reviewer": "Marianne",
+      "rating": 5
+    },
+    {
+      "text": "David and Ryan recently replaced our main consumer unit, as well as running wiring for additional sockets and induction hob. Couldn't be happier with their work - box and wiring all tidy and neatly labeled. Very honest and pleasant to deal with, and I'd highly recommend them to anyone.",
+      "reviewer": "Daniel",
+      "rating": 5
+    },
+    {
+      "text": "Craig responded to my post very promptly and arranged a convenient appointment. On the day, David arrived on time and completed the job efficiently. Happy customer and absolutely satisfied with their excellent service. would not hesitate to recommend to friends and family!",
+      "reviewer": "Liliane",
+      "rating": 5
+    },
+    {
+      "text": "David fitted our solar panels and batteries and throughout the whole process he was reliable and professional and arrived on our agreed start date. He explained what he was doing at every stage and I am delighted I chose his company to do the work. I recommend him 100%",
+      "reviewer": "Suzanne",
+      "rating": 5
+    }
+  ],
+  "social": {
+    "facebook": null,
+    "instagram": null,
+    "youtube": null,
+    "tiktok": null
+  },
+  "gallery_layout": "completed_project_gallery",
+  "photo_classification_summary": {
+    "completed_project": 10
+  },
+  "brand": {
+    "colours": [],
+    "logo_url": null,
+    "logo_local": null
+  },
+  "source_urls": [
+    "https://maps.google.com/?cid=1855229081902958572",
+    "https://www.macdonaldedinburghelectrical.com/",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3mGEJLD_SRx6CfTNX1sFul2-gtcPYaSnUVKRwKM3SNEPOXsiL7BFEboVX_reDiFOIciMQADmcdWEPW_Z9tnpsSiC-nq1AQrcqOs5DKtfyqL6oh46xxha1WuQgmNjssyq0xpM-uiePL4xCzAzlD4E58LaZ815Ffca3wqm4WfMTnWiY2D_S-RPUqNqoiUMZnMeajxToMSmJK3ZgyPrWPCxthkvQUz02Ot0DnUbtFOaX0O46bAodDhcE_ZyROquTMpa1lw6MYgl8h7liua6jpTpVwtj0Oo5rFmhQVQp3xoQmsv4abbDToCJFIDywMmJje1fQf2yqjwT0hOHmQQPtm52-VEgh1BU8N5aNUiUWdSSuvvVxS72Fj00TTWGR9aMMfiJ64zweEr4OXpqY5nImIiQ9glXUeMzsSgeIVJRLgmMOUC9G7B&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3k5lrXj4Er1lMo1GZoPr-pMsQFMA_9BJmkqHCCb6JesSyAy3qrLzsJ6zWay4uD_6M7iI9kcT0scu0BczM1OIZ2PLSr9PQidWEdoHpCYfg_McIBNlwmAokNmy6_tYbvZ39RkuBDda-TOIgmJjhLEm6156oejCsuCSGBC_AwTeAcYsigpKBwcCXNj0xRNUBDWz7WEGsFI3Vo4IkmoR5oTarQVZENaL3bG-HnchXMH1gAIvxnoUygBywFp9EiRX_WU8-KOBC6BvVdeheNRbCMeGPw7kmfhRWV6wCCJYnt258N8SWOPHgQghFpWRJdkT3QUSdmq7vf-o_8I3GH_ZVyP6TwK2BcDZvvPQcQ1dKV_kM3ZkGVipaB4m2JOCpj9tlH1BBXOppLrTOmS1rfovEiKWqv2RwuglaBylnUU7lVxZ6xfdamP&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3kGSXGFpZC7Y4O1aqHhk_qZF8oZXcAzVPqlrOU2nNdplNregXdnt4tMzoOYuJORFtL_vvRlHC2eLYvGLPqvrmcaLJNSTRqy1A7XBHz9rVQDndyyceDZTjXArZa1PtT5WFBa8EmHZolgkCIZMRE-HrrXEqWKBZ38dAA_G3s_5y-tET7UK1PzQEVfi2EU8rArozCGeh61TG0JPh7-gfqyR_8EaPNRuy0fmQltjnW6PenN5hY9P9LRY2n37i4JTCdHmjJ4ccbITyUjMm6-0deHnIVoidAP_PZITlOmjgdsVzQIT1Rn2HeZ8TjKbmjP1Isk4Pillc3wq5GpZjbPvZCPv4ATmBdrukrgQCx5aP4brq3YRgWV_puHHJk-3RcjQAI8_qV3vY5IngedK5atMTC1T78M4MMAm6srEcpqEe56DwgWzdYUik6iAfBxuBhjwB7r&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3kO0-TmbzcyOqoFc9FV1grfazNLaq0vjJzGdYuP8s_GEffUBBQKKrVWxNJQZsljdpRhSeUs_FLS30uGZh8l_Rz4FJu_M-oUn3J-zmpc2P0wxwnAhJFWesyubemcomWbBg-2ttRkNQQ1_R4XiOfQpocyR2SidLn53Vwr8ztKXJuomXm1BFN6-fkNtraQtTva0yt-MvhSHmt3E8Q5sWFDAl4gpdSChR8pgbBBPRiAI2xfnXoL5642wZrNext-MuwXF8W9MQHah_VsAJ_qMgACAvXa1aTuOUOVRTauCjNyOSBazfPJ5WTlpZHjcEbEL8dF4c2DZDaEj9ChbMJdmgGKrAcNpPPqtApw4IVdFbyi_370vi9BesfSTX_M-E-BrcXlgnxy9suwj0McH0u7QZVNbNA-c3aPRHlhnemfFFiArFOcIA&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3mU8fbyBaudiAv8zoLN25DFjdGIFEXUGxz2wQSIGErfDqhZOlaRQoxF6sPzYWkn-24OoNBhcC97APrgHAiKElewdYfsSvUBCinu3_Ux2OF1vFLNSivD3h3zrD1HowrpVmpHCoiMWGPnnl2AUIQcqTYFePY3I96adVolY98FgfNzJweCr1lcvUY9k9pnZMzVA7L5dULqmBIpMD4gg_o6EnHNjnyPhwCihVBEBv0Fp2Pp35wu-8I9ZHmzke8wTCV14HFle_6Jr8EVxOtjQySUukJKHevidoREF_3aZhis9-WKUgdPHWmKL6arpabA9zrrJx_BAxHxb3xOO4jZLetCuW9622eac_6uMbdc3vZTQqMOsMG9SO1itcOUarsjYQdvvmkxbY_0rEzuXN458d3ilsHu24I7vxqdYMCLKEwWXpFIkru_1yTUTYdPBGUWpp8T&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3kydGVaRlY4TTn4hz2d7thN5yKxxrgqpYu98X7p1W6ei-NLcZi-iK6WUOjYm9at2H3vlAlUvAdoWfxgcx4AxzhyIDSCRZmIMVd14EoHZYYlOuqO0aqbiGR5-_BI8haptAlE6l1lwJvz6VHi8vbf1cJPcg-3dmKmJ8zQSFdXPnTAOVPAWCzqaeAZH2934aJBzoSbbQtRWhzEduv9AnBiJrO-gayl27BcaR9VMdTN9JcMJzh5lBeI4x9TvVmrSCY-r9Nr1WafHD8i9NOhi8G2jjQg8cyAHCPTwlT_-oBT4suAtEfo0xgQj9Uj-yoIkkPXyvNXevQJUwMcEksN0CU6pNQDXkE3LOELzGQ3B6T3hJqhYmftERkPvW4NP55nvz63cmog7XvotMpAzDLkaXb6nTVqGJluEEupN-Z1g2PI8yyFrZjjM7GFoy9CODrRIOLl&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3libSoKNmr9GkrYCikRuD5bqo1BmYI16L4Ioo5OZAr0Ai23QRRHlXgtSB7QSyeqEUWiAoxE5gvwHsO19otlVDSRTUxvahwyzdidkA4yaSsPqjWHW42-RH32pZ_1sWc3KfQ9cRhT4MyshIywWHViH_ylNOwPGfdLFw1DBavLmCy5KpajC1GQD6mmGu6dO270KhoX2QQcqYuvsHkTHkVXfrdSR2wikRxm7PzJJLs3D2CgIktmmY1yo85VQS5NImpfLDXZ_Dy3Vy4ZD7PK5K2Qjb7TFpXoWrnV1L7AOAOEaC-GJjgqoIEJpbWzxCFDLL-fig9XLo9-0aTS9LGOgwDRUcmrALsarRtlfGDKybCy0Gq-6tSKT3hWj1cQpcQB-h2FZrFQEZRbrggdqI-_SiFPMCX4ct9j2Qmo01qHZoNVoggMt5TZ&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3knHItCmJAXREzlxKUixJMEEOeFBqH6TQxgdUpG7fhxM6A6nJ3mNzdteEm-bHhQPGIA4nthoeWLNv9F2vcVoytnVHFitHG5hiaV6JXtmARU-RNjo5SKZT8S5fMcNQNboJfdSypi_a6-IcJ4l2tgf_9shIiDZdhmkJcDPSAo-2zfBHXeXP-mk_T-ra858UzMWlqZuL3te99VuaoJ5TQGJor9Ql5RG35ff272wdU-C4sk82ztz9BMaqmbdQ7PyPSADzBF8cud74yizSm9qNP4iCyzPQmqnk-s2Xb3PjlUijkkfHD-x-iZDdeOL4VrMQFHov760v1o5fdg-aL_tUhQl0TLElZwMwfR0FVAQwRimOFsl2ovODUIpG13zmq9IqMD0LPCZ6lyKDyA7mQTH7MdppJvZtrfK-wSAqP861Gj-y9jKQ&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3nkkPj_rn8RpTXUKHc6CZnrAcCdZIfFnlT8XBQ_ah0GZ3KZQGLsl7XS-Xoaa31q4yz57lhAdNEi3442CZ225_kBveu7e-ZYp6z-a2ITrMp8xuyefStN0qSuDpq9OhUUSpIq2yxcaZsvaAwJxQcQ5m42ptT0D1uW3BGY0G-urnOjfSBuBCyebjijAEUFfk2GsvvW6cKbAP3znaNhaMO82prhsV6_G6ezepw07n5Wb8jLjrRGqzNS7uJ1f-51g0nMjRvLnSb6blQqz4YEmZ6ylRh8q1GNVEanECtSSZZDi4DTztxf2LVPuJcwiDfMnjHWBTh3bHMV047R9Af-AAlvnwirVmEbDzf0js-tMYs7cQI-v-JRcPgh3xCbyXWE7GKj4MwPWlPPrOBZuUjSxjLcc_5VJRaTbDDu9FYAbcYO1t61I8PzYDrStX6Lo5D0rg&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3lOe-fE7x4ri2pbSazZaTRwH583wjBIyX5_U_3eO1XQR5U8VGzu75Q66yC6oa1oAwttCnS5X3yIEqoyfwQkh4_4Tqkqwm-gGo7dGiixf7RcsWMdXTqskuEIRhRRmEkM-ysGkyPVy4ZaUZbVnLTvhLfNOkDR0jwwDFaK4YO1ybKPvGabeeiD1dJahNBSdHvzpNcR-AaLwR5L0qdf5jOdDbmsEzwz9SVufkJ2_76jmIZCvC2pwKbh3x5SAP-QDeh7JIfCyInoX1kT6LjePawaP4tlpaVmcpzZmry0kWd5SdNfVFVpYYmpleVqVDRhWWiGPbrttb5sH3M6L_lY6QvpJfCInPid-X88O1EY-0r_K3Yej1jPW-WxYNmPfCGc0iPcSGPOrgd0saLsm7S1_6VFqUBPRevUOrJlD-HVSITznL3uoSRn&key=REDACTED"
+  ],
+  "notes": [
+    "owner_name not found in public sources",
+    "email not found in public sources",
+    "contact_name \"David\" from 5 Google review mention(s) (high confidence); owner_name not set",
+    "contactability=NEEDS_MANUAL_REVIEW",
+    "no email found; UK mobile present, requires manual WhatsApp contact",
+    "Google address city (Penicuik) differs from prospect region (Edinburgh)",
+    "Logo discovery: Website fetch failed for logo discovery: network_error",
+    "rated_people directory images: 1 saved (max 918px)",
+    "myjobquote directory images: 1 saved (max 600px)",
+    "Photo discovery: 11/12 selected (Enough photos for photo-led layout)"
+  ],
+  "missing_fields": [
+    "owner_name",
+    "email",
+    "facebook",
+    "instagram"
+  ],
+  "website_url_validation": {
+    "validated_at": "2026-06-13T20:49:58.567Z",
+    "issue": null,
+    "note": "website_url valid",
+    "previous_url": "https://www.macdonaldedinburghelectrical.com/"
+  },
+  "prospect_region": "Edinburgh",
+  "location_validation_status": "LOCATION_MISMATCH_NEEDS_REVIEW",
+  "directory_probes": [
+    {
+      "platform": "checkatrade",
+      "candidate_url": null,
+      "status": "NOT_FOUND",
+      "confidence": "rejected",
+      "title": null,
+      "rating": null,
+      "review_count": null,
+      "member_since": null,
+      "badges": [],
+      "review_snippets": [],
+      "phone_visible": false,
+      "verification_reasons": [],
+      "identity_match_count": 0,
+      "identity_match_signals": [],
+      "homonym_url": null,
+      "search_query": "site:checkatrade.com \"Macdonald Edinburgh Electrical Limited\" Penicuik EH26 0BN EH26",
+      "probed": true,
+      "note": "candidates_exhausted"
+    },
+    {
+      "platform": "trustatrader",
+      "candidate_url": "https://www.trustatrader.com/",
+      "status": "NOT_FOUND_HOMONYM",
+      "confidence": "rejected",
+      "title": "Find Trusted Traders and Local Tradesmen | TrustATrader",
+      "rating": null,
+      "review_count": null,
+      "member_since": null,
+      "badges": [],
+      "review_snippets": [],
+      "phone_visible": false,
+      "verification_reasons": [],
+      "identity_match_count": 0,
+      "identity_match_signals": [],
+      "homonym_url": "https://www.trustatrader.com/",
+      "search_query": "site:trustatrader.com \"Macdonald Edinburgh Electrical Limited\" Penicuik EH26 0BN EH26",
+      "probed": true,
+      "note": "identity_homonym"
+    },
+    {
+      "platform": "yell",
+      "candidate_url": "https://www.yell.com/biz/macdonald-edinburgh-electrical-limited-penicuik-eh26-0bn/",
+      "status": "FOUND_FROM_SNIPPET",
+      "confidence": "low",
+      "title": null,
+      "rating": null,
+      "review_count": null,
+      "member_since": null,
+      "badges": [],
+      "review_snippets": [],
+      "phone_visible": false,
+      "verification_reasons": [],
+      "identity_match_count": 1,
+      "identity_match_signals": [
+        "exact_name"
+      ],
+      "homonym_url": null,
+      "search_query": "site:yell.com \"Macdonald Edinburgh Electrical Limited\" Penicuik EH26 0BN EH26",
+      "probed": true,
+      "note": "snippet_unverified_single_signal"
+    },
+    {
+      "platform": "mybuilder",
+      "candidate_url": "https://www.mybuilder.com/profile/macdonald-edinburgh-electrical-limited",
+      "status": "FOUND_FROM_SNIPPET",
+      "confidence": "low",
+      "title": null,
+      "rating": null,
+      "review_count": null,
+      "member_since": null,
+      "badges": [],
+      "review_snippets": [],
+      "phone_visible": false,
+      "verification_reasons": [],
+      "identity_match_count": 1,
+      "identity_match_signals": [
+        "exact_name"
+      ],
+      "homonym_url": null,
+      "search_query": "site:mybuilder.com \"Macdonald Edinburgh Electrical Limited\" Penicuik EH26 0BN EH26",
+      "probed": true,
+      "note": "snippet_unverified_single_signal"
+    },
+    {
+      "platform": "rated_people",
+      "candidate_url": "https://www.ratedpeople.com/profile/macdonald-edinburgh-electrical",
+      "status": "FOUND_UNVERIFIED",
+      "confidence": "low",
+      "title": "Macdonald Edinburgh Electrical Ltd in Penicuik | Rated People",
+      "rating": null,
+      "review_count": null,
+      "member_since": null,
+      "badges": [
+        "Rated People verified checks"
+      ],
+      "review_snippets": [],
+      "phone_visible": false,
+      "verification_reasons": [
+        "exact_name"
+      ],
+      "identity_match_count": 1,
+      "identity_match_signals": [
+        "exact_name"
+      ],
+      "homonym_url": null,
+      "search_query": "site:ratedpeople.com \"Macdonald Edinburgh Electrical Limited\" Penicuik EH26 0BN EH26",
+      "probed": true,
+      "note": "identity_single_signal_only; search_empty_slug_candidates",
+      "login_required": false,
+      "image_probe": {
+        "profile_url": "https://www.ratedpeople.com/profile/macdonald-edinburgh-electrical",
+        "verified_match_confidence": "low",
+        "photos_found": 12,
+        "photos_downloaded": 1,
+        "largest_width": 918,
+        "largest_height": 329,
+        "failure_reason": null,
+        "login_required": false,
+        "safe_for_draft_design": false,
+        "candidates": [
+          {
+            "url": "https://www.ratedpeople.com/cdn-cgi/image/format=auto,fit=scale-down,width=60,height=60/https://s3-eu-west-1.amazonaws.com/rp-prod-static-content/image/2/3/8/2/2/2/2/profile/profile-image_t.png",
+            "width": 60,
+            "height": 60,
+            "downloaded": false,
+            "local": null,
+            "failure_reason": "under_600px"
+          },
+          {
+            "url": "data:image/svg+xml,%3csvg%20width=&#x27;25&#x27;%20height=&#x27;25&#x27;%20fill=&#x27;none&#x27;%20xmlns=&#x27;http://www.w3.org/2000/svg&#x27;%3e%3cpath%20fill-rule=&#x27;evenodd&#x27;%20clip-rule=&#x27;evenodd&#x27;%20d=&#x27;M13.04%2020.386a1%201%200%2000-1.08%200l-5.13%203.293c-.752.484-1.713-.19-1.515-1.062l1.43-6.304a1%201%200%2000-.306-.964l-4.723-4.254c-.65-.586-.287-1.666.585-1.74l6.105-.514a1%201%200%2000.846-.629l2.318-5.861c.333-.843%201.527-.843%201.86%200l2.318%205.861a1%201%200%2000.846.629l6.105.514c.872.074%201.236%201.154.585%201.74l-4.723%204.254a1%201%200%2000-.306.964l1.43%206.304c.198.873-.763%201.546-1.516%201.062l-5.129-3.293z&#x27;%20fill=&#x27;%2384B818&#x27;%20/%3e%3c/svg%3e",
+            "width": 0,
+            "height": 0,
+            "downloaded": false,
+            "local": null,
+            "failure_reason": "under_600px"
+          },
+          {
+            "url": "https://www.ratedpeople.com/cdn-cgi/image/format=auto,fit=scale-down,width=1100/https://s3-eu-west-1.amazonaws.com/rp-prod-static-content/image/2/3/8/2/2/2/2/profile/profile-hero-image.jpg",
+            "width": 918,
+            "height": 329,
+            "downloaded": true,
+            "local": "images/directory/rated_people/01-rated_people.webp",
+            "failure_reason": null
+          },
+          {
+            "url": "data:image/svg+xml,%3csvg%20xmlns=&#x27;http://www.w3.org/2000/svg&#x27;%20xmlns:xlink=&#x27;http://www.w3.org/1999/xlink&#x27;%20width=&#x27;22&#x27;%20height=&#x27;24&#x27;%3e%3cdefs%3e%3cpath%20id=&#x27;a&#x27;%20d=&#x27;M3.915.337C6.683.112%208.712%200%2010%200c1.288%200%203.317.112%206.085.337a4%204%200%200%201%203.66%204.361l-.975%2010.358a5%205%200%200%201-2.868%204.065l-4.214%201.961a4%204%200%200%201-3.376%200l-4.214-1.961a5%205%200%200%201-2.868-4.065L.256%204.698A4%204%200%200%201%203.915.337Z&#x27;%20/%3e%3cpath%20id=&#x27;b&#x27;%20d=&#x27;M10.803%2012.303v-7a1%201%200%201%201%202%200v8a1%201%200%200%201-1%201h-3a1%201%200%200%201%200-2h2Z&#x27;%20/%3e%3c/defs%3e%3cg%20fill=&#x27;none&#x27;%20fill-rule=&#x27;evenodd&#x27;%20transform=&#x27;translate(1%201)&#x27;%3e%3cg%20fill-rule=&#x27;nonzero&#x27;%3e%3cpath%20fill=&#x27;%233B852A&#x27;%20fill-rule=&#x27;evenodd&#x27;%20stroke=&#x27;%2384B818&#x27;%20stroke-linejoin=&#x27;square&#x27;%20stroke-width=&#x27;2&#x27;%20d=&#x27;m3.995%201.334-.038.003a3%203%200%200%200-2.706%203.268l.975%2010.358a4%204%200%200%200%202.294%203.251l4.214%201.962a3%203%200%200%200%202.532%200l4.214-1.962a4%204%200%200%200%202.294-3.251l.975-10.358.003-.038a3%203%200%200%200-2.747-3.233C13.26%201.11%2011.255%201%2010%201s-3.26.111-6.005.334Z&#x27;%20/%3e%3cuse%20xlink:href=&#x27;%23a&#x27;%20stroke=&#x27;%233B852A&#x27;%20/%3e%3c/g%3e%3cuse%20xlink:href=&#x27;%23b&#x27;%20fill=&#x27;%23FFF&#x27;%20transform=&#x27;rotate(45%2010.303%209.303)&#x27;%20/%3e%3c/g%3e%3c/svg%3e",
+            "width": 0,
+            "height": 0,
+            "downloaded": false,
+            "local": null,
+            "failure_reason": "under_600px"
+          },
+          {
+            "url": "https://www.ratedpeople.com/cdn-cgi/image/format=auto/https://a.rpassets.com/badges/ratings/100.png",
+            "width": 168,
+            "height": 186,
+            "downloaded": false,
+            "local": null,
+            "failure_reason": "under_600px"
+          },
+          {
+            "url": "https://www.ratedpeople.com/cdn-cgi/image/format=auto/https://a.rpassets.com/badges/memberSince/11.png",
+            "width": 168,
+            "height": 186,
+            "downloaded": false,
+            "local": null,
+            "failure_reason": "under_600px"
+          },
+          {
+            "url": "data:image/svg+xml,%3csvg%20width=&#x27;24&#x27;%20height=&#x27;24&#x27;%20viewBox=&#x27;0%200%2012%2012&#x27;%20fill=&#x27;none&#x27;%20xmlns=&#x27;http://www.w3.org/2000/svg&#x27;%3e%3cpath%20fill-rule=&#x27;evenodd&#x27;%20clip-rule=&#x27;evenodd&#x27;%20d=&#x27;M6%2012C5.90824%2012%205.82518%2011.9514%205.78659%2011.8759L2.40706%205.24529C2.13788%204.74771%202%204.20729%202%203.64286C2%201.63414%203.79435%200%206%200C8.20565%200%2010%201.63414%2010%203.64286C10%204.20707%209.86235%204.7475%209.59106%205.24979L6.21341%2011.8759C6.17482%2011.9514%206.09176%2012%206%2012ZM6%201.84615C4.8972%201.84615%204%202.74335%204%203.84615C4%204.94895%204.8972%205.84615%206%205.84615C7.1028%205.84615%208%204.94895%208%203.84615C8%202.74335%207.1028%201.84615%206%201.84615Z&#x27;%20fill=&#x27;%23636065&#x27;%20/%3e%3c/svg%3e",
+            "width": 0,
+            "height": 0,
+            "downloaded": false,
+            "local": null,
+            "failure_reason": "under_600px"
+          },
+          {
+            "url": "data:image/svg+xml,%3csvg%20width=&#x27;12&#x27;%20height=&#x27;12&#x27;%20viewBox=&#x27;0%200%2012%2012&#x27;%20fill=&#x27;none&#x27;%20xmlns=&#x27;http://www.w3.org/2000/svg&#x27;%3e%3cpath%20fill-rule=&#x27;evenodd&#x27;%20clip-rule=&#x27;evenodd&#x27;%20d=&#x27;M6.30348%209.85945C6.13608%209.74824%205.91831%209.74824%205.75091%209.85945L3.32691%2011.4698C2.95301%2011.7182%202.46676%2011.3855%202.56292%2010.947L3.25121%207.80854C3.28902%207.63615%203.233%207.4566%203.10387%207.33628L0.815172%205.20388C0.498741%204.90905%200.6813%204.37874%201.11216%204.34117L4.03789%204.08605C4.22834%204.06944%204.39259%203.94555%204.46087%203.76698L5.56084%200.890462C5.72448%200.462519%206.32991%200.462518%206.49355%200.890461L7.59352%203.76698C7.6618%203.94555%207.82605%204.06944%208.0165%204.08605L10.9422%204.34117C11.3731%204.37874%2011.5556%204.90905%2011.2392%205.20388L8.95052%207.33628C8.82139%207.4566%208.76537%207.63615%208.80318%207.80854L9.49147%2010.947C9.58763%2011.3855%209.10138%2011.7182%208.72748%2011.4698L6.30348%209.85945Z&#x27;%20fill=&#x27;%23908E91&#x27;/%3e%3c/svg%3e",
+            "width": 0,
+            "height": 0,
+            "downloaded": false,
+            "local": null,
+            "failure_reason": "under_600px"
+          },
+          {
+            "url": "data:image/svg+xml,%3csvg%20width=&#x27;25&#x27;%20height=&#x27;25&#x27;%20fill=&#x27;none&#x27;%20xmlns=&#x27;http://www.w3.org/2000/svg&#x27;%3e%3cpath%20fill-rule=&#x27;evenodd&#x27;%20clip-rule=&#x27;evenodd&#x27;%20d=&#x27;M13.04%2020.386a1%201%200%2000-1.08%200l-5.13%203.293c-.752.484-1.713-.19-1.515-1.062l1.43-6.304a1%201%200%2000-.306-.964l-4.723-4.254c-.65-.586-.287-1.666.585-1.74l6.105-.514a1%201%200%2000.846-.629l2.318-5.861c.333-.843%201.527-.843%201.86%200l2.318%205.861a1%201%200%2000.846.629l6.105.514c.872.074%201.236%201.154.585%201.74l-4.723%204.254a1%201%200%2000-.306.964l1.43%206.304c.198.873-.763%201.546-1.516%201.062l-5.129-3.293z&#x27;%20fill=&#x27;%23F7DB34&#x27;%20/%3e%3c/svg%3e",
+            "width": 0,
+            "height": 0,
+            "downloaded": false,
+            "local": null,
+            "failure_reason": "under_600px"
+          },
+          {
+            "url": "https://www.ratedpeople.com/cdn-cgi/image/format=auto,fit=scale-down,width=160,height=160/https://s3-eu-west-1.amazonaws.com/rp-prod-static-content/image/2/3/8/2/2/2/2/profile/profile-image_t.png",
+            "width": 160,
+            "height": 160,
+            "downloaded": false,
+            "local": null,
+            "failure_reason": "under_600px"
+          },
+          {
+            "url": "data:image/svg+xml,%3csvg%20width=&#x27;20&#x27;%20height=&#x27;20&#x27;%20viewBox=&#x27;0%200%201024%201024&#x27;%20fill=&#x27;none&#x27;%20xmlns=&#x27;http://www.w3.org/2000/svg&#x27;%3e%3cpath%20fill-rule=&#x27;evenodd&#x27;%20clip-rule=&#x27;evenodd&#x27;%20d=&#x27;M1024%20226.4c-37.6%2016.8-78.2%2028-120.6%2033%2043.4-26%2076.6-67.2%2092.4-116.2-40.6%2024-85.6%2041.6-133.4%2051-38.4-40.8-93-66.2-153.4-66.2-116%200-210%2094-210%20210%200%2016.4%201.8%2032.4%205.4%2047.8-174.6-8.8-329.4-92.4-433-219.6-18%2031-28.4%2067.2-28.4%20105.6%200%2072.8%2037%20137.2%2093.4%20174.8-34.4-1-66.8-10.6-95.2-26.2%200%200.8%200%201.8%200%202.6%200%20101.8%2072.4%20186.8%20168.6%20206-17.6%204.8-36.2%207.4-55.4%207.4-13.6%200-26.6-1.4-39.6-3.8%2026.8%2083.4%20104.4%20144.2%20196.2%20146-72%2056.4-162.4%2090-261%2090-17%200-33.6-1-50.2-3%2093.2%2059.8%20203.6%2094.4%20322.2%2094.4%20386.4%200%20597.8-320.2%20597.8-597.8%200-9.2-0.2-18.2-0.6-27.2%2041-29.4%2076.6-66.4%20104.8-108.6z&#x27;%20fill=&#x27;%23333&#x27;%20/%3e%3c/svg%3e",
+            "width": 0,
+            "height": 0,
+            "downloaded": false,
+            "local": null,
+            "failure_reason": "under_600px"
+          },
+          {
+            "url": "data:image/svg+xml,%3csvg%20width=&#x27;20&#x27;%20height=&#x27;20&#x27;%20viewBox=&#x27;0%200%201024%201024&#x27;%20xmlns=&#x27;http://www.w3.org/2000/svg&#x27;%20fill=&#x27;none&#x27;%3e%3cpath%20d=&#x27;M%20608%20192%20h%20160%20v%20-192%20h%20-160%20c%20-123.514%200%20-224%20100.486%20-224%20224%20v%2096%20h%20-128%20v%20192%20h%20128%20v%20512%20h%20192%20v%20-512%20h%20160%20l%2032%20-192%20h%20-192%20v%20-96%20c%200%20-17.346%2014.654%20-32%2032%20-32%20Z&#x27;%20fill=&#x27;%23333&#x27;%20/%3e%3c/svg%3e",
+            "width": 0,
+            "height": 0,
+            "downloaded": false,
+            "local": null,
+            "failure_reason": "under_600px"
+          }
+        ]
+      }
+    },
+    {
+      "platform": "bark",
+      "candidate_url": null,
+      "status": "NOT_FOUND",
+      "confidence": "rejected",
+      "title": null,
+      "rating": null,
+      "review_count": null,
+      "member_since": null,
+      "badges": [],
+      "review_snippets": [],
+      "phone_visible": false,
+      "verification_reasons": [],
+      "identity_match_count": 0,
+      "identity_match_signals": [],
+      "homonym_url": null,
+      "search_query": "site:bark.com \"Macdonald Edinburgh Electrical Limited\" Penicuik EH26 0BN EH26",
+      "probed": true,
+      "note": "candidates_exhausted"
+    },
+    {
+      "platform": "houzz",
+      "candidate_url": null,
+      "status": "NOT_FOUND",
+      "confidence": "rejected",
+      "title": null,
+      "rating": null,
+      "review_count": null,
+      "member_since": null,
+      "badges": [],
+      "review_snippets": [],
+      "phone_visible": false,
+      "verification_reasons": [],
+      "identity_match_count": 0,
+      "identity_match_signals": [],
+      "homonym_url": null,
+      "search_query": "site:houzz.co.uk \"Macdonald Edinburgh Electrical Limited\" Penicuik EH26 0BN EH26",
+      "probed": true,
+      "note": "candidates_exhausted"
+    },
+    {
+      "platform": "trustpilot",
+      "candidate_url": "https://www.trustpilot.com/review/macdonald-edinburgh-electrical-limited",
+      "status": "FOUND_FROM_SNIPPET",
+      "confidence": "low",
+      "title": null,
+      "rating": null,
+      "review_count": null,
+      "member_since": null,
+      "badges": [],
+      "review_snippets": [],
+      "phone_visible": false,
+      "verification_reasons": [],
+      "identity_match_count": 1,
+      "identity_match_signals": [
+        "exact_name"
+      ],
+      "homonym_url": null,
+      "search_query": "site:uk.trustpilot.com \"Macdonald Edinburgh Electrical Limited\" Penicuik EH26 0BN EH26",
+      "probed": true,
+      "note": "snippet_unverified_single_signal"
+    },
+    {
+      "platform": "myjobquote",
+      "candidate_url": "https://www.myjobquote.co.uk/t/macdonald-edinburgh-electrical-limited",
+      "status": "FOUND_UNVERIFIED",
+      "confidence": "low",
+      "title": "Macdonald Edinburgh Electrical Limited - Electrician in Penicuik",
+      "rating": null,
+      "review_count": null,
+      "member_since": null,
+      "badges": [],
+      "review_snippets": [],
+      "phone_visible": false,
+      "verification_reasons": [
+        "exact_name"
+      ],
+      "identity_match_count": 1,
+      "identity_match_signals": [
+        "exact_name"
+      ],
+      "homonym_url": null,
+      "search_query": "site:myjobquote.co.uk \"Macdonald Edinburgh Electrical Limited\" Penicuik EH26 0BN EH26",
+      "probed": true,
+      "note": "identity_single_signal_only; search_empty_slug_candidates",
+      "login_required": false,
+      "image_probe": {
+        "profile_url": "https://www.myjobquote.co.uk/t/macdonald-edinburgh-electrical-limited",
+        "verified_match_confidence": "low",
+        "photos_found": 3,
+        "photos_downloaded": 1,
+        "largest_width": 600,
+        "largest_height": 337,
+        "failure_reason": null,
+        "login_required": false,
+        "safe_for_draft_design": false,
+        "candidates": [
+          {
+            "url": "https://assets.myjobquote.co.uk/images/mjqsquare.png",
+            "width": 180,
+            "height": 180,
+            "downloaded": false,
+            "local": null,
+            "failure_reason": "under_600px"
+          },
+          {
+            "url": "https://assets.myjobquote.co.uk/assets/images/loading.gif",
+            "width": 600,
+            "height": 337,
+            "downloaded": true,
+            "local": "images/directory/myjobquote/01-myjobquote.webp",
+            "failure_reason": null
+          },
+          {
+            "url": "https://www.myjobquote.co.uk/images/annon.png",
+            "width": 170,
+            "height": 170,
+            "downloaded": false,
+            "local": null,
+            "failure_reason": "under_600px"
+          }
+        ]
+      }
+    }
+  ],
+  "enrichment": {
+    "enriched_at": "2026-06-13T20:50:23.796Z",
+    "email_domain_checked": false,
+    "website_discovery_run": true
+  },
+  "lead_validity": {
+    "lead_validity_status": "INSUFFICIENT_EVIDENCE",
+    "lead_validity_reason": "Enrichment incomplete or source confidence too low",
+    "pitch_type": "manual_review",
+    "website_status": "BROKEN_OR_BAD_SITE",
+    "website_url": "https://www.macdonaldedinburghelectrical.com/",
+    "website_discovery_classification": "BROKEN_OR_BAD_SITE",
+    "email_domain_website": null,
+    "source_confidence_summary": {
+      "overall": "low",
+      "verified_platforms": [],
+      "rejected_platforms": [
+        "google_places",
+        "email_domain_website"
+      ],
+      "notes": [
+        "No verified sources with medium or high confidence",
+        "2 source(s) rejected for low confidence"
+      ]
+    },
+    "ready_for_build": false,
+    "ready_for_design": false,
+    "ready_for_pitch": false,
+    "manual_review_required": true,
+    "has_real_website": false,
+    "truly_no_website": true,
+    "warnings": [
+      "LOCATION_MISMATCH_NEEDS_REVIEW",
+      "contactability=NEEDS_MANUAL_REVIEW",
+      "no email found; UK mobile present, requires manual WhatsApp contact",
+      "Location mismatch: LOCATION_MISMATCH_NEEDS_REVIEW - pitch blocked until resolved",
+      "Source confidence is low - lean site or manual review recommended"
+    ],
+    "manual_asset_status": "OK",
+    "pause_before_open_design": false,
+    "manual_asset_folder": "briefs/macdonald-edinburgh-electrical-limited/images/manual/"
+  },
+  "source_quality": {
+    "source_quality_status": "PASS_WITH_WARNINGS",
+    "source_quality_reason": "Lead validity requires manual review; Directory probes ran but no verified third-party profiles found",
+    "website_url_validated": true,
+    "email_domain_checked": true,
+    "enrichment_complete": true,
+    "logo_discovery_attempted": true,
+    "photo_discovery_attempted": true,
+    "directory_probes": {
+      "attempted": true,
+      "platforms_probed": 9,
+      "verified_profiles": 0,
+      "unverified_profiles": 5,
+      "blocked": []
+    },
+    "warnings": [
+      "Lead validity requires manual review",
+      "Directory probes ran but no verified third-party profiles found"
+    ],
+    "blockers": []
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "slug": "macdonald-edinburgh-electrical-limited",
+  "extends": "CLAUDE.md banned-phrase reference + scripts/copy_voice_constants.ts (authoritative). This file adds lead-specific decisions only.",
+  "register": "plain, grounded, calm British English; an electrician talking straight to a homeowner. Short sentences. Concrete nouns (solar panels, battery, inverter, consumer unit, induction hob, sockets, labels), not adjectives.",
+  "naming": {
+    "use_name": "David",
+    "decision": "Use David's first name in copy, in light third person. Basis: brief.json contact_name='David', contact_name_usage_allowed=true, contact_name_confidence='high', contact_name_evidence_count=5 - David is named in all 5 Google reviews as the person doing the work. Same judgment-call basis as the Kyle Knowles ARCH-2 precedent. Owner_name is null and there is no self-description, so do NOT write a first-person owner monologue or backstory.",
+    "team_names": "Ryan and Craig are real (reviews[2] Daniel names Ryan; reviews[3] Liliane names Craig). They appear ONLY inside the verbatim attributed review quotes, never in site prose, since their roles beyond those quotes are not evidenced.",
+    "third_vs_first_person": "Default to a light third person ('David fits the solar and sets it up around how you use power...'). No first-person owner monologue (no evidence). Avoid any owner/team section heading matching the owner_voice check (e.g. 'Meet David', 'About the team', 'Who you deal with')."
+  },
+  "the_angle": {
+    "name": "clean-energy electrician, tidy and neatly labelled work",
+    "how_to_use": "Lead with it, state it as fact. Frame: Macdonald Edinburgh Electrical fits solar panels and battery storage, upgrades consumer units and wires for induction hobs and EV chargers, and finishes the work tidy and neatly labelled, explaining it as it goes. Anchored to reviews[0] (Liam, solar system end to end, no spec of dust), reviews[4] (Suzanne, solar panels and batteries, explained at every stage), reviews[2] (Daniel, consumer unit + induction-hob wiring, 'all tidy and neatly labeled'). Acceptable phrasings: 'solar panels and battery storage', 'fitted tidy and neatly labelled', 'explained as it goes', 'set up around how you use power', 'consumer unit upgrade'. Do not invent system sizes, savings figures, grant eligibility, or outcomes beyond what the reviews and photos state."
+  },
+  "proof_rules": {
+    "google": "State exactly: '4.9 on Google' and '63 reviews' / '63 local reviews' (both sourced=true in brief.json). '4.9 from 63 reviews' is an acceptable variant. Attribute the rating to Google.",
+    "no_other_proof": "Do NOT cite Yell / MyBuilder / Trustpilot / RatedPeople / MyJobQuote - those probes are low-confidence, single-signal, unverified (brief.json directory_probes); TrustATrader was a rejected homonym; Checkatrade/Bark/Houzz not found. Do NOT claim NICEIC, NAPIT, Part P, MCS, any certification, membership, insurance, or 'qualified/certified/fully insured' - none verified (the van livery shows 'NICEIC Approved Contractor' but the directory probe did not verify it).",
+    "no_invented_numbers": "No years-trading number (none evidenced). No 'X installs/systems fitted' count, no kW or savings figures. Sourced stats only: 4.9 rating, 63 reviews, Monday-to-Saturday availability. Never a photo count."
+  },
+  "location_framing": {
+    "rule": "brief.json has LOCATION_MISMATCH_NEEDS_REVIEW: the business name says 'Edinburgh' but the registered base is Penicuik EH26 (note: 'Google address city (Penicuik) differs from prospect region (Edinburgh)'). Frame honestly: based in Penicuik, covering Midlothian and south Edinburgh. Do NOT claim a central-Edinburgh base or a city-wide footprint. The brand name 'Macdonald Edinburgh Electrical' is used as-is (it is the business name) but the coverage prose says Penicuik / Midlothian / south Edinburgh.",
+    "address_privacy": "Never publish the street address '4 Mauricewood Grove'. Use Penicuik / EH26 / Midlothian only. Map iframe centres on 'Penicuik EH26' (town + outward)."
+  },
+  "review_attribution": "First name + 'Google review' (e.g. 'Suzanne, Google review', 'Liam, Google review', 'Daniel, Google review', 'Liliane, Google review'). No reviewer first name as a section headline (the 'Steve' anti-pattern). David is the only person named in site prose; Ryan and Craig appear only inside verbatim quotes; every other name in a quote is a customer's own.",
+  "banned_for_this_business": [
+    "any phrase on the CLAUDE.md / copy_voice_constants.ts lists (generic, provenance, meta-provenance, stat sub-labels)",
+    "'your trusted/local electrician/electrical experts' and relatives; 'expert', 'premier', 'leading', 'top-rated', 'professional service' in site prose",
+    "'electrics done right' / 'sparks sorted' / 'power in safe hands' as a hero or standalone slogan (generic-trade filler)",
+    "'no job too big or small', 'competitive prices', 'satisfaction guaranteed', 'quality you can rely on'",
+    "NICEIC / NAPIT / Part P / MCS / 'fully insured' / 'certified' / 'qualified' claims (none verified)",
+    "emergency / 24-hour / out-of-hours callout as a service or claim (unverified Places label; hours Mon-Sat 9-5)",
+    "the broad Google labels 'Repairs and maintenance', 'Installations', 'Emergency callouts' as the service list",
+    "claiming a central-Edinburgh base; the street address '4 Mauricewood Grove' anywhere public",
+    "invented solar specifics (kW, panel counts, savings, payback, grant eligibility) not in evidence",
+    "first-person claims of qualifications, insurance, or years trading; an owner-monologue / backstory",
+    "meta lines like 'customers mention' / 'reviews describe' - state the thing directly instead"
+  ],
+  "allowed_words_from_reviews_in_quotes_only": "Words like 'professional', 'excellent', 'expert', 'top quality' appear in real review text. They are fine INSIDE attributed verbatim quotes, but must NOT appear in the site's own prose (CLAUDE.md salesy ban).",
+  "punctuation": "No em/en dashes anywhere. The review quotes use ' - ' hyphens / commas only. Use ' - ', comma, or full stop. British spelling (labelled, neighbouring, organise). Note: the verbatim Daniel quote contains the US spelling 'labeled' - kept as-is inside the quote (verbatim); site prose uses British 'labelled'.",
+  "cta_language": "Quote-only sticky and primary CTA: 'Get a quote'. Secondary: 'Call David' / the number. Never put the phone in the sticky CTA (sticky_cta check)."
+}

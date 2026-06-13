@@ -1,0 +1,61 @@
+{
+  "slug": "macdonald-edinburgh-electrical-limited",
+  "path": "B (Claude-direct)",
+  "frozen_input_tag": "macdonald-edinburgh-electrical-limited-brief-frozen",
+  "business_angle": "Macdonald Edinburgh Electrical is the Penicuik-based electrician for homes going solar and electric - solar panels and battery storage, consumer-unit upgrades and induction-hob and EV wiring - fitted clean, tidy and neatly labelled, across Penicuik, Midlothian and south Edinburgh.",
+  "why_this_trader_wins": "The solar / home-electrification angle is the trader's own, not invented: two independent reviews describe full renewables installs (Liam: 'over the moon with our solar system', the whole consultation-to-commissioning process; Suzanne: 'fitted our solar panels and batteries ... explained what he was doing at every stage'), and a third describes the electrification side (Daniel: 'replaced our main consumer unit, as well as running wiring for additional sockets and induction hob - box and wiring all tidy and neatly labeled'). The completed-work photos back it directly: roof panel arrays, wall-mounted inverters and batteries (Sofar, Anker Solix), and a freshly mounted consumer unit. Combined with 4.9 on Google from 63 reviews and a repeated 'left no dust / tidy / neatly labelled' theme, this is clean-energy electrical work done to a visible standard, not generic 'electrician services'.",
+  "target_customer": "Penicuik, Midlothian and south-Edinburgh homeowners adding solar panels and battery storage, upgrading a consumer unit / fuse board, or wiring for an induction hob or EV charger, who want the work done tidily and explained as it goes.",
+  "page_single_job": "Get that homeowner to request a quote (or call) for a solar-and-battery, consumer-unit, EV / induction-hob, or general electrical job.",
+  "distinctive_angle": "clean-energy-electrician-tidy-labelled-work",
+  "customer_praise_themes": [
+    {"theme": "solar panel and battery installs done end to end", "evidence": "brief.json reviews[0] (Liam): 'setting up the system once it was installed in a way that worked best for our usage and needs ... over the moon with our solar system'; reviews[4] (Suzanne): 'fitted our solar panels and batteries and throughout the whole process he was reliable and professional'"},
+    {"theme": "consumer-unit upgrades and home electrification (induction hob, sockets)", "evidence": "brief.json reviews[2] (Daniel): 'replaced our main consumer unit, as well as running wiring for additional sockets and induction hob'"},
+    {"theme": "clean, tidy, neatly labelled work", "evidence": "brief.json reviews[2] (Daniel): 'box and wiring all tidy and neatly labeled'; reviews[0] (Liam): \"I don't think he left a spec of dust anywhere which is refreshing\"; reviews[1] (Marianne): 'got on with the job and tidied up at the end'"},
+    {"theme": "explains each step / talks you through it", "evidence": "brief.json reviews[0] (Liam): 'He talked us through each step diligently from the original consultation'; reviews[4] (Suzanne): 'He explained what he was doing at every stage'; reviews[1] (Marianne): 'He explained everything'"},
+    {"theme": "reliable, on time, arrives on the agreed date", "evidence": "brief.json reviews[4] (Suzanne): 'reliable and professional and arrived on our agreed start date'; reviews[3] (Liliane): 'David arrived on time and completed the job efficiently'"},
+    {"theme": "responsive / easy to arrange", "evidence": "brief.json reviews[3] (Liliane): 'Craig responded to my post very promptly and arranged a convenient appointment'"}
+  ],
+  "named_people": [
+    {"name": "David", "role": "electrician (carries out the work)", "usage": "approved", "basis": "brief.json contact_name='David', contact_name_usage_allowed=true, contact_name_confidence='high', contact_name_evidence_count=5: David is named in 5 of 5 Google reviews as the person doing the work. Used in light third person; no owner-backstory or first-person monologue is invented (no self-description in evidence). This is the ARCH-2 / Kyle Knowles judgment-call basis."},
+    {"name": "Ryan", "role": "electrician (works alongside David)", "usage": "approved-in-quote-only", "basis": "brief.json reviews[2] (Daniel): 'David and Ryan recently replaced our main consumer unit'. Appears only inside the verbatim attributed review, not in site prose."},
+    {"name": "Craig", "role": "arranges appointments", "usage": "approved-in-quote-only", "basis": "brief.json reviews[3] (Liliane): 'Craig responded to my post very promptly and arranged a convenient appointment'. Appears only inside the verbatim attributed review, not in site prose."}
+  ],
+  "strongest_review_quote": {
+    "text": "David fitted our solar panels and batteries and throughout the whole process he was reliable and professional and arrived on our agreed start date. He explained what he was doing at every stage and I am delighted I chose his company to do the work. I recommend him 100%",
+    "author": "Suzanne",
+    "source": "google",
+    "source_ref": "brief.json reviews[4]"
+  },
+  "strongest_proof_source": {
+    "platform": "google",
+    "metric": "4.9 rating from 63 reviews",
+    "url": "https://maps.google.com/?cid=1855229081902958572",
+    "source_ref": "brief.json google_rating, google_review_count, google_maps_url"
+  },
+  "real_services": [
+    {"name": "Solar panels and battery storage", "evidence": "reviews[0] Liam (solar system, consultation to setup); reviews[4] Suzanne (solar panels and batteries); photos[] roof arrays (05/07/08) + wall-mounted inverters/batteries (03/04/06)"},
+    {"name": "Consumer unit upgrades", "evidence": "reviews[2] Daniel (replaced our main consumer unit); photos[] freshly mounted consumer unit (10)"},
+    {"name": "EV chargers and induction-hob wiring", "evidence": "reviews[2] Daniel (running wiring for additional sockets and induction hob); home-electrification angle"},
+    {"name": "Electrical installation and rewiring", "evidence": "reviews[2] Daniel (running wiring for additional sockets); niche=electrician; brief.json services (installations, repairs and maintenance)"}
+  ],
+  "claims_to_avoid": [
+    "any certification or membership (NICEIC, NAPIT, Part P, MCS, Gas Safe, Checkatrade Vetted, TrustATrader) - none verified; directory_probes show 0 verified profiles (Yell/MyBuilder/Trustpilot are snippet-only, exact-name-single-signal; RatedPeople/MyJobQuote are single-signal unverified; TrustATrader was a homonym; Checkatrade/Bark/Houzz not found). The van in the photos shows an 'NICEIC Approved Contractor' livery but the directory probe did not verify it, so it is NOT claimed in copy.",
+    "'fully insured' / insurance claims - not evidenced",
+    "MCS-certified / government-grant-eligible solar claims - not evidenced",
+    "specific years-trading number - none evidenced",
+    "Google Places junk categories as services: brief.json services[] 'Repairs and maintenance', 'Installations', 'Emergency callouts' are broad niche/Places labels, not the evidenced specialisms; do not surface them as the service list",
+    "the street address '4 Mauricewood Grove' anywhere public - use Penicuik / EH26 / Midlothian only",
+    "claiming Edinburgh city-centre as the base - the base is Penicuik EH26 (LOCATION_MISMATCH_NEEDS_REVIEW: the 'Edinburgh' is in the brand name, the registered base is Penicuik). Frame coverage honestly: based in Penicuik, covering Midlothian and south Edinburgh.",
+    "emergency / 24-hour callout as a headline service - 'Emergency callouts' is an unverified Places-style label and no review evidences out-of-hours work; opening hours are Mon-Sat 9-5",
+    "a photo count or any invented number as a stat"
+  ],
+  "personality": "calm, methodical, clean; an electrician who talks you through the work, fits it tidily and labels it, and is comfortable with modern solar/battery and electrification kit",
+  "evidence_strength": "moderate-content / single-source (specific, on-angle Google reviews naming solar/battery/consumer-unit work + 10 completed-project photos that match; no verified third-party profile - directories unverified, Facebook none)",
+  "pitch_hook_summary": "Lead on the clean-energy angle (solar panels + battery storage, consumer-unit upgrades, induction-hob/EV wiring, all fitted tidy and neatly labelled), based in Penicuik covering Midlothian and south Edinburgh, backed by 4.9/63 Google.",
+  "metadata": {
+    "source_quality": "PASS_WITH_WARNINGS",
+    "lead_validity_status": "INSUFFICIENT_EVIDENCE",
+    "manual_review_note": "Single-source (Google-only): no verified third-party profile, contactability=NEEDS_MANUAL_REVIEW (no email, UK mobile only), and LOCATION_MISMATCH_NEEDS_REVIEW (brand says Edinburgh, base is Penicuik EH26). This is a BUILD run; pitch_gate enforces at outreach time, not build time. The TLS-broken existing site (BROKEN_OR_BAD_SITE, untrusted cert) is a valid rebuild target. Evidence is specific and on-angle (same posture as the Damo / Kyle reference builds).",
+    "authored_blind": "Path B authored from the frozen evidence + CLAUDE.md + the webfortrades-site-design skill only. Pre-allocated seed: green-natural family (deep pine/forest, NOT sage [Brian] or eucalyptus [D.G.]), body=Geist, display=slab-serif (Roboto Slab). Distinct from all 9 deployed sites; see design-direction.md distinctness check."
+  }
+}

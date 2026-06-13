@@ -1,0 +1,106 @@
+{
+  "slug": "macdonald-edinburgh-electrical-limited",
+  "generic_plan": false,
+  "layout_note": "Single column on a deep-pine + warm-stone palette. The structural signature is a thin circuit-line divider between sections (a hairline with a single small node/square set on it, like a junction on a wiring run) plus a slab-serif display (Roboto Slab, technical/utilitarian, reads like a meter or breaker label). Boldness spent once on the clean-energy 'how the work is done' signature block and the single clean-green accent; everything else quiet. Photo-led (10 completed solar/battery/consumer-unit images carry the proof).",
+  "sections": [
+    {
+      "id": "header",
+      "type": "sticky-header",
+      "purpose": "Wayfinding + persistent quote CTA.",
+      "evidence_anchors": ["brief.json business_name", "brief.json phone"],
+      "copy_intent": "Text wordmark 'Macdonald Edinburgh Electrical'; nav: Work, Reviews, Areas; one button 'Get a quote'. No phone in the bar on mobile.",
+      "visual_intent": "Quiet solid header (no backdrop-filter so the mobile drawer/scrim are not trapped - containing-block rule), circuit-line hairline underneath. Mobile: wordmark + hamburger only (no phone, <=2 links) per mobile_header check."
+    },
+    {
+      "id": "hero",
+      "type": "trade-led-hero-with-photo",
+      "priority": 1,
+      "purpose": "State trade + location + the clean-energy angle in one line; show a real finished solar install; surface the only citable proof.",
+      "evidence_anchors": ["reviews[0] Liam (solar system, end to end)", "reviews[4] Suzanne (solar panels and batteries)", "reviews[2] Daniel (consumer unit, induction-hob wiring, tidy labelled)", "google_rating 4.9 / google_review_count 63", "based_location Penicuik EH26 + prospect_region Edinburgh", "best landscape completed-project photo (08-places, 1600x1200, detached house with two roof solar arrays, blue sky, no people)"],
+      "copy_intent": "Headline = trade-led positioning on the clean-energy angle (NOT a review quote): electrician for homes going solar and electric, Penicuik + south Edinburgh. Subhead = solar panels + battery storage, consumer-unit upgrades and induction/EV wiring, tidy and labelled + 4.9/63 proof (<=2 sentences, <=220 chars). CTAs: Get a quote (primary, #quote), Call David (secondary, phone).",
+      "visual_intent": "Full-bleed solar-install photo (08) under a deep-pine (#1A3326) scrim for legibility; slab-serif Roboto Slab headline, clean-green primary button; small proof chip '4.9 on Google, 63 reviews'. Text block keeps the site container side padding on mobile (hero horizontal-inset rule); CTAs stack full-width <=640px, proof chip below both."
+    },
+    {
+      "id": "proof-strip",
+      "type": "proof-marquee",
+      "priority": 2,
+      "purpose": "Evidence-drawn proof points directly beneath the hero, factual, no salesy framing.",
+      "evidence_anchors": ["google_rating 4.9", "google_review_count 63", "based_location Penicuik EH26", "reviews (solar + battery + consumer unit + tidy labelled)", "opening_hours Mon-Sat 9-5"],
+      "copy_intent": "6 proof points: 4.9 on Google, 63 local reviews, Penicuik & south Edinburgh, Solar and battery installs, Tidy and neatly labelled, Monday to Saturday. No exclamation marks.",
+      "visual_intent": "Deep-pine band (contrasting), clean-green diamond separators; genuine infinite loop (list rendered twice, translateX -50%, 38s linear). Animates on ALL viewports; degrades to a static row only under prefers-reduced-motion."
+    },
+    {
+      "id": "the-difference",
+      "type": "signature-positioning-block",
+      "priority": 3,
+      "purpose": "The one memorable thing: the clean-energy work is done tidily, explained step by step, and labelled. This is where boldness is spent. Stats inline.",
+      "evidence_anchors": ["reviews[0] Liam (talked us through each step, no spec of dust, over the moon with solar system)", "reviews[4] Suzanne (explained at every stage, arrived on agreed date)", "reviews[2] Daniel (tidy and neatly labelled box and wiring)", "reviews[1] Marianne (explained everything, tidied up)"],
+      "copy_intent": "3 short, concrete statements stated plainly (no boast adjectives), each tied to a real situation: solar and battery fitted and set up around how you use power; consumer units and wiring left tidy and labelled; the job explained as it goes and arrived on the agreed day. Then a 3-stat band (4.9, 63 reviews, Mon-Sat). Third-person 'David'; no first-person owner monologue.",
+      "visual_intent": "Warm-stone (--stone) section; large Roboto Slab statements separated by circuit-line rules; clean-green used once on the key phrase ('tidy and neatly labelled'). No icons. The boldest moment on the page."
+    },
+    {
+      "id": "services",
+      "type": "evidence-based-services",
+      "priority": 4,
+      "purpose": "Name the 4 real services from evidence with specific, grounded descriptions.",
+      "evidence_anchors": ["site-strategy.json real_services (solar + battery storage, consumer unit upgrades, EV/induction wiring, electrical installation & rewiring)"],
+      "copy_intent": "Each service: short label + one evidence-grounded line. NEVER the Google broad labels ('Repairs and maintenance', 'Installations', 'Emergency callouts') as the list. NEVER 'X services explained plainly'.",
+      "visual_intent": "Labelled rows with small two-letter marks (SB / CU / EV / EI) in clean-green - NOT 01/02/03 (services are not a sequence; the numbered process below is) and NOT SVG/lucide icons (no_service_icons check). Circuit-line rule between rows."
+    },
+    {
+      "id": "gallery",
+      "type": "gallery-masonry",
+      "priority": 5,
+      "purpose": "Show the actual finished solar arrays, batteries/inverters and consumer unit - the proof that matters most for a trader with no third-party profiles.",
+      "evidence_anchors": ["brief.json photos[] (10 completed_project webp; solar roof arrays, wall-mounted inverters + batteries, consumer unit)"],
+      "copy_intent": "Short section intro; safe captions only (work type + Penicuik/Midlothian; no invented job address or customer name).",
+      "visual_intent": "CSS masonry: 3 columns >=1024px, 2 columns 640-1023px, 1 column mobile; natural aspect ratios, top-aligned, captions directly under each image (gallery check compliance). Thin --line frame on each tile."
+    },
+    {
+      "id": "reviews",
+      "type": "review-feature",
+      "priority": 6,
+      "purpose": "Exactly one review section. Lead with the solar / battery / consumer-unit quotes that carry the angle.",
+      "evidence_anchors": ["reviews[4] Suzanne (solar + batteries)", "reviews[0] Liam (solar system, no dust)", "reviews[2] Daniel (consumer unit, induction hob, tidy labelled)", "reviews[3] Liliane (Craig arranged, David on time)"],
+      "copy_intent": "4 verbatim Google excerpts, attributed 'First name, Google review'. Ryan and Craig appear ONLY inside the verbatim quotes. No first name as a headline (no 'Steve' anti-pattern). One review section only (no duplicate wall).",
+      "visual_intent": "Quiet cards on --stone; clean-green quote rule; the 4.9/63 restated once as a stat, label 'Google rating' (no banned sub-labels)."
+    },
+    {
+      "id": "process",
+      "type": "process-numbered",
+      "priority": 7,
+      "purpose": "Reduce risk: show the orderly way the work is done, consultation-first.",
+      "evidence_anchors": ["reviews[0] Liam (original consultation, talked through each step, set up for your usage)", "reviews[4] Suzanne (arrived on agreed start date, explained at every stage)", "reviews[3] Liliane (Craig arranged a convenient appointment)", "reviews[2] Daniel (tidy and neatly labelled), reviews[1] Marianne (tidied up at the end)"],
+      "copy_intent": "4 ordered steps grounded in review behaviour: arrange a visit and a price -> plan it around how you use power -> fitted and set up, explained as it goes -> left tidy and clearly labelled. Numbered 01-04 (a real sequence).",
+      "visual_intent": "Numbered 01-04 IS appropriate here. Numerals in Roboto Slab, clean-green; circuit-line dividers between steps. Deep-pine dark section for contrast."
+    },
+    {
+      "id": "areas",
+      "type": "local-coverage",
+      "priority": 8,
+      "purpose": "Establish locality and availability honestly without exposing the home address; resolve the Edinburgh/Penicuik framing.",
+      "evidence_anchors": ["brief.json based_location 'Penicuik, EH26'", "prospect_region Edinburgh", "service_area Penicuik/Edinburgh", "opening_hours (Mon-Sat 9:00-17:00, Sun closed)", "google_maps_url cid"],
+      "copy_intent": "Based in Penicuik (EH26), covers Midlothian and south Edinburgh (8-14 districts derived from EH26 geography). Honest framing: NOT central-Edinburgh-based. Hours Monday to Saturday, 9am to 5pm (sourced). No street address.",
+      "visual_intent": "Keyless Google Maps iframe centred on 'Penicuik EH26' (town + outward only); area list (two-column) + hours beside it."
+    },
+    {
+      "id": "quote",
+      "type": "contact-quote-form",
+      "priority": 9,
+      "purpose": "Convert: a quote form plus phone, anchored at #quote.",
+      "evidence_anchors": ["brief.json phone 07453 277434", "based_location Penicuik EH26", "opening_hours"],
+      "copy_intent": "Two columns. Left: heading + framing prose + key details (phone click-to-call, Penicuik / EH26, Mon-Sat 9am-5pm). Right: quote form (name, phone, email optional, postcode, job type incl. Solar/battery, EV charger, Consumer unit, Rewire, Other, details). Heading specific to the business. Form is presentational only (does not submit to the business; no 'preview form' disclaimer).",
+      "visual_intent": "Dark deep-pine (#1A3326) surface, NOT the clean-green accent (contact section rule). Form fields visually distinct from the side details. Mobile: stack to single column, details first. Quote-only sticky CTA reveals after hero on scroll (fade+slide), hides near footer."
+    },
+    {
+      "id": "footer",
+      "type": "business-footer",
+      "purpose": "Real local-business footer, not just the agency credit.",
+      "evidence_anchors": ["business_name", "phone", "service_area", "opening_hours", "google_maps_url"],
+      "copy_intent": "Brand, phone, areas, hours, quick links, link to read Google reviews. Small 'Website by WebForTrades' credit at the bottom.",
+      "visual_intent": "Deep-pine footer; circuit-line dividers; restrained."
+    }
+  ],
+  "omitted_defaults": ["owner-backstory/about-me narrative (no self-description evidence; avoids the owner_voice first-person trap)", "FAQ (no real questions in evidence)", "fabricated stats band beyond 4.9/63 + Mon-Sat (only those are sourced)", "certifications/badges strip (none verified - NICEIC van livery is unverified by directory probe)", "separate second review wall", "emergency/24-hour callout headline (unverified Places label; hours are Mon-Sat 9-5)"],
+  "omitted_reasons": "Kept lean and evidence-only. No section exists without a specific anchor in the frozen brief. NICEIC and any cert/insurance claim withheld pending a verified probe."
+}

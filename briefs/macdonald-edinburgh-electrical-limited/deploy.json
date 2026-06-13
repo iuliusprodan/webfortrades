@@ -1,0 +1,31 @@
+{
+  "slug": "macdonald-edinburgh-electrical-limited",
+  "updated_at": "2026-06-13T21:06:48.177Z",
+  "preferred_alias": "macdonald-edinburgh-electrical-limited",
+  "deployment_url": "https://macdonald-edinburgh-electrical-limited-hn7ud3q90.vercel.app",
+  "verified_url": "https://macdonald-edinburgh-electrical-limited.vercel.app",
+  "final_url": "https://macdonald-edinburgh-electrical-limited.vercel.app",
+  "alias_status": "VERIFIED",
+  "candidates": [
+    {
+      "hostname": "macdonald-edinburgh-electrical-limited",
+      "url": "https://macdonald-edinburgh-electrical-limited.vercel.app",
+      "preflight": "already_ours",
+      "detail": "Build marker macdonald-edinburgh-electrical-limited:20260613-1",
+      "assign": "alias_assigned",
+      "verify": "verified"
+    }
+  ],
+  "verification": {
+    "ok": true,
+    "httpStatus": 200,
+    "markerFound": true,
+    "businessNameFound": true,
+    "phoneFound": true,
+    "marker": {
+      "buildId": "macdonald-edinburgh-electrical-limited:20260613-1",
+      "slug": "macdonald-edinburgh-electrical-limited"
+    },
+    "errors": []
+  }
+}
