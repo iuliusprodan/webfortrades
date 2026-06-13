@@ -69,14 +69,41 @@ Select the hero image from the gallery by **quality, not file order**.
   quote, first-person narrative, owner backstory, or platitude. Sub-head <= 2 sentences, <= 220 chars.
 - Primary CTA "Get a quote" -> `#quote`; secondary is the phone.
 
+**Hero - horizontal inset on mobile.** The background image may full-bleed, but the **text content block**
+(eyebrow, headline, sub-head, CTAs) must keep the same horizontal breathing room as every other section on
+mobile - match the site's container padding token (e.g. `24px` / `var(--container-x)`). The common bug is a
+hero that uses a different (full-bleed) container so the text inherits zero side padding on phones; fix it
+at the content wrapper, not the section.
+
+**Hero CTAs - mobile stack.** At `<= 640px` the CTA buttons stack **vertically, each full width** of the
+content column: primary ("Get a quote") on top, secondary (phone) below, min tap target 44-48px tall. A
+proof chip, if used, goes **below both CTAs**, never inline. At `>= 768px` they sit side by side.
+
 ### Proof marquee / strip
 Directly beneath the hero, a horizontal strip of **4-6 evidence-drawn proof points** separated by a
-diamond or dot (`·`). On mobile, a static strip if a moving marquee is undesirable.
+diamond or dot (`·`).
 - Content from `source-evidence.json`: Google rating, review count, named specialism, location, years
   trading (only if known), verified certification names (only if verified).
 - Tone: factual, no exclamation marks, no salesy framing.
   Example: `4.9 on Google · 43 local reviews · Manchester M11 · Floors levelled first · Seven days, 7am-7pm`
 - Background: a contrasting band (dark on light pages, accent on dark pages).
+
+**Implementation rules (the marquee must loop seamlessly and animate everywhere).** The strip is a
+genuine infinite loop: no hard cut, no visible reset, no empty tail. Render the proof-point list **twice**
+inside the animated track, then `translateX(-50%)` over the animation duration; because the second copy
+occupies the position the first held, the wrap is invisible. The track is `2x` the content width and the
+parent is `overflow: hidden` so the second half is off-screen on first paint. Use a **single full
+traversal of one copy in 25-45s** (slower than instinct) with `animation-timing-function: linear` - any
+`ease-*` pulses and reads as broken. The separator must sit between **every** proof point, including at the
+wrap boundary (between the last item of copy 1 and the first of copy 2) - the simplest way is a separator
+rendered after each item (e.g. `::after`), which naturally covers the seam.
+
+**Animate on ALL viewports, including mobile.** Do **not** disable the animation on small screens. The
+only exception is `prefers-reduced-motion: reduce`, where you degrade to a **static row showing the first
+3-4 proof points** (not a frozen scrollable strip). If you ever write
+`@media (max-width: Npx) { animation: none }` for the marquee, that is the bug - stop and surface. (This
+was the live bug on Kyle: a mobile breakpoint set `animation: none` and turned the strip into a static
+overflow-scroll row.)
 
 ### Coverage / areas section
 - **Banned:** a dump of the brief's Google-Maps chips (e.g. "Manchester / Openshaw / East Manchester /
@@ -116,6 +143,35 @@ process -> coverage -> contact (two-col)`.
 Acceptable variation: gallery earlier; reviews split into a lead testimonial + a wall; stats as their own
 band. Reviews appear in **exactly one** section (no duplicate "What customers say" + review wall). Exactly
 one review section; first names + "Google review" attribution; never a first name as a section headline.
+
+---
+
+## Interaction & motion patterns
+
+### Sticky CTA - entrance / exit animation
+The mobile sticky CTA (quote-only - never the phone, per `sticky_cta`) appears once the user has scrolled
+past the hero (IntersectionObserver on the hero, or a ~80%-viewport-height threshold). It must **animate**,
+not hard-toggle `display`. Drive it with a class (e.g. `.is-visible`) on an element that already has
+`transform`/`opacity` transitions:
+- **Entrance:** fade `opacity 0 -> 1` **and** slide `translateY(16px) -> 0`, 200-280ms, `ease-out`.
+- **Exit** (scrolling back up past the threshold): reverse - `opacity 1 -> 0` and `translateY(0 -> 16px)`,
+  160-200ms, `ease-in`.
+- Never `display:none` toggling (it kills the transition). Keep it in the DOM and transition it.
+- `prefers-reduced-motion: reduce`: keep the fade, skip the slide.
+
+### Mobile nav - overlay drawer (never push-down)
+The mobile nav **overlays** page content; it must **not** push content down or otherwise shift layout
+(changing `margin-top` or inserting into document flow breaks the user's scroll position - this was the
+Kyle bug). Implementation:
+- A `position: fixed` panel entering from the right (project convention): `translateX(100%) -> 0`,
+  240-320ms `ease-out`; a backdrop **scrim** fading `opacity 0 -> 0.5` in parallel. Exit reverses,
+  200-240ms `ease-in`.
+- **Body scroll locked** while open (`overflow: hidden` on `body`; restore on close).
+- **Close on:** tap a nav link, tap the scrim, or `Escape`.
+- **Focus** moves to the first link on open and returns to the hamburger on close; trap focus inside the
+  open panel.
+- Hamburger animates to an X (or rotates) on open as the standard affordance.
+- **Banned anti-pattern:** a drawer that pushes `.site-content` down via flow/margin. Overlay only.
 
 ---
 
