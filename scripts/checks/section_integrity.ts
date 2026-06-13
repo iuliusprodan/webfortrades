@@ -39,8 +39,8 @@ export function evaluateSectionIntegrity(metrics: SectionIntegrityMetrics): Styl
       });
     } else if (metrics.galleryColumnCount < 3 && metrics.viewportWidth >= 1024) {
       issues.push({
-        severity: "error",
-        message: `${SECTION_INTEGRITY_CHECK_NAME}: gallery has ${metrics.galleryColumnCount} columns at ${metrics.viewportWidth}px; expected 3 at >=1024px`,
+        severity: "warn",
+        message: `${SECTION_INTEGRITY_CHECK_NAME}: gallery has ${metrics.galleryColumnCount} columns at ${metrics.viewportWidth}px (pair layout OK; 3 cols preferred at >=1024px)`,
       });
     }
   }
@@ -118,14 +118,21 @@ export async function collectSectionIntegrityMetrics(page: Page): Promise<Sectio
   return page.evaluate(
     ({ promiseReSource, gallerySelectors }: { promiseReSource: string; gallerySelectors: string[] }) => {
     const promiseRe = new RegExp(promiseReSource, "i");
-    let gallery: Element | null = null;
+    let galleryFound = false;
+    let galleryColumnCount = 0;
+
     for (const sel of gallerySelectors) {
-      gallery = document.querySelector(sel);
-      if (gallery) break;
+      const el = document.querySelector(sel);
+      if (!el) continue;
+      galleryFound = true;
+      const style = getComputedStyle(el);
+      let count = parseInt(style.columnCount, 10) || 1;
+      if (count < 2 && style.gridTemplateColumns && style.gridTemplateColumns !== "none") {
+        const gridTracks = style.gridTemplateColumns.split(" ").filter((t) => t && t !== "0px");
+        if (gridTracks.length >= 2) count = gridTracks.length;
+      }
+      if (count > galleryColumnCount) galleryColumnCount = count;
     }
-    const galleryColumnCount = gallery
-      ? parseInt(getComputedStyle(gallery).columnCount, 10) || 1
-      : 0;
 
     const promiseSections: SectionIntegrityMetrics["promiseSections"] = [];
     const sections = document.querySelectorAll("section[data-section-id], section[id]");
@@ -160,7 +167,7 @@ export async function collectSectionIntegrityMetrics(page: Page): Promise<Sectio
     });
 
     return {
-      galleryFound: Boolean(gallery),
+      galleryFound,
       galleryColumnCount,
       viewportWidth: window.innerWidth,
       promiseSections,

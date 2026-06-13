@@ -5,6 +5,7 @@ import {
   validateLinkSpacing,
   validateOutreachPayload,
 } from "../outreach_message_format.js";
+import { assertNoEmDashes } from "./no_em_dashes.js";
 
 function test(name: string, fn: () => void): void {
   try {
@@ -72,6 +73,10 @@ test("accepts spaced site and video URLs in separate messages", () => {
     videoUrl: "https://video.example.com/scroll.mp4",
   });
   assert.equal(issues.length, 0);
+});
+
+test("no banned dash punctuation in outreach and live site source", () => {
+  assertNoEmDashes({ scopes: ["outreach", "sites"] });
 });
 
 console.log("\nAll outreach_format tests passed.");
