@@ -1,3 +1,4 @@
+import "./config_guard.js"; // ARCH-7: config.yaml read-only at runtime
 import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
