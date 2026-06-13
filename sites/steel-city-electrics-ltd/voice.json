@@ -1,0 +1,45 @@
+{
+  "slug": "steel-city-electrics-ltd",
+  "extends": "CLAUDE.md banned-phrase reference + scripts/copy_voice_constants.ts (authoritative). This file adds lead-specific decisions only.",
+  "confidence": "low",
+  "distinctive_angle": "the Sheffield team who take on full re-wires and old or burnt-out fuse boards, price it straight and leave it tested and safe",
+  "specific_proof_points": [
+    "full house re-wiring, efficient and reasonably priced (Andy)",
+    "made sure everything was safe and working perfectly before leaving (Alina)",
+    "always punctual and transparent, thanks again lads (Wakas)",
+    "quick response to my texts, did not have to wait long (Pat)",
+    "5.0 on Google from 20 reviews"
+  ],
+  "register": "plain, capable, unflustered British English; a working electrical team talking straight to a homeowner or landlord. Short sentences. Concrete electrical nouns (re-wire, consumer unit, fuse board, circuits, fault, tested), not adjectives or sales talk.",
+  "naming": {
+    "use_name": null,
+    "decision": "No personal first name is used anywhere. brief.json owner_name=null, contact_name=null, contact_name_usage_allowed=false. The only candidate 'Did' is a misread of 'Did not have to wait long' in Pat's review and is flagged not-for-use. Reviews frame the business as a team ('these guys', 'the lads', 'Had steel city out'). The site uses the team framing and the business name only.",
+    "team_voice": "Refer to the business as 'Steel City', 'the Steel City team', or 'the lads' (the lads is used by Wakas in a real review, so it is evidenced and on-voice for Sheffield). In the one team/about block use the first person plural ('We ...') - this both matches how a small team speaks and satisfies the owner_voice check, which requires first-person voice in a team section. Reviews that say 'he' are kept verbatim inside the quote; site prose stays on 'we' / 'the team'."
+  },
+  "the_angle": {
+    "name": "re-wire it, modernise the board, leave it safe",
+    "how_to_use": "Lead with it, state it as fact. Frame: Steel City take on the heavy electrical work - full and partial re-wires, tired or burnt-out consumer units stripped out and replaced with a modern board, faults traced - and they test it and leave it safe and working before they go, with a clear price up front. Anchored to reviews[2] (Andy, full house re-wiring, efficient, reasonably priced), reviews[1] (Alina, made everything safe and working before leaving, explained clearly), reviews[3] (Wakas, punctual and transparent, the lads), reviews[0] (Pat, quick response, felt safe, competitive price). Acceptable phrasings: 'take on the re-wire', 'old board out, modern unit in', 'traced the fault', 'tested and left safe', 'a straight price'. Do not invent job details, fault types, or scope beyond what the reviews and photos state."
+  },
+  "proof_rules": {
+    "google": "State exactly: '5.0 on Google' and '20 reviews' (google_rating=5, google_review_count=20, google_review_count_sourced=true). '5.0 from 20 reviews' and '20 Google reviews' are acceptable variants. Attribute the rating to Google. (Write 5.0, not 5, to read as a rating.)",
+    "no_certifications": "Do NOT claim or imply NICEIC, NAPIT, Part P, 'registered', 'approved', 'certified/qualified electrician', or 'fully insured' - none verified (0 verified directory profiles, no certifications in brief). The badge check is build-blocking and will fire on any of these strings. Speak to the WORK being tested and made safe, not to a scheme badge. An EICR or electrical safety certificate handed to the customer for a specific job is a normal deliverable and may be mentioned as a document they receive, but never as an accreditation of the firm.",
+    "no_other_platform_proof": "Do NOT cite Trustpilot / Yell / MyBuilder - snippet-only, single-signal, unverified (brief.json directory_probes). Google 5.0 / 20 is the only citable proof.",
+    "no_invented_numbers": "No years-trading number (none evidenced). No 'X re-wires done' count. No literal '24/7' guarantee (the Places 'open 24 hours' is an unreliable artifact). Sourced stats only: 5.0 rating, 20 reviews. Never a photo count.",
+    "availability": "Frame availability softly and truthfully: 'quick to answer', 'call-outs across Sheffield', anchored to Pat's 'quick response to my texts' and the listed 'Emergency callouts' service. Do not promise round-the-clock hours."
+  },
+  "review_attribution": "First name + 'Google review' (e.g. 'Andy, Google review', 'Alina, Google review', 'Wakas, Google review', 'Pat, Google review'). No reviewer first name as a section headline (the 'Steve' anti-pattern). Every named person in a review is a customer; the business names no individual. Quotes are kept verbatim, including the words 'professional', 'transparent', 'competitive' and the review typo 'tranparent' - those are allowed inside attributed quotes only.",
+  "banned_for_this_business": [
+    "any phrase on the CLAUDE.md / copy_voice_constants.ts lists (generic, provenance, meta-provenance, stat sub-labels)",
+    "ALL certification/badge wording in site prose: NICEIC, NAPIT, Part P, registered, approved, certified electrician, qualified electrician, fully insured (none verified - build-blocking)",
+    "'your trusted/local electrician(s)' and relatives; 'your local electrical experts'",
+    "'professional service', 'competitive prices', 'quality you can rely on', 'no job too big or small', 'satisfaction guaranteed', 'one-stop shop' (these words appear inside real review quotes and are fine THERE, never in site prose)",
+    "'electrics sorted' / 'electrical work done right' as a hero or standalone slogan (generic-trade filler)",
+    "a literal 24/7 / round-the-clock promise; any years-trading claim; any project-count number",
+    "any personal first name (owner unknown; 'Did' is a misread fragment)",
+    "the street address '50 Fieldhead Rd' / exact 'Highfield' street; areas beyond Sheffield and its S postcodes",
+    "scare-tactic framing of the burnt-board photos; meta lines like 'reviews describe' / 'customers mention' - state the thing directly instead",
+    "the navy+red logo image on the page (palette clash with the mandated monochrome-industrial direction)"
+  ],
+  "punctuation": "No em/en dashes anywhere. Use ' - ', comma, or full stop. British spelling (modernise, colour, neighbouring). Review quotes are verbatim and already use ' - ' hyphens, so they stay clean.",
+  "cta_language": "Quote-only sticky and primary CTA: 'Get a quote'. Secondary: 'Call Steel City' / the number. Never put the phone in the sticky CTA (sticky_cta check)."
+}

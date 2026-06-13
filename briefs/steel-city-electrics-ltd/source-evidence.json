@@ -1,0 +1,415 @@
+{
+  "slug": "steel-city-electrics-ltd",
+  "gathered_at": "2026-06-13T20:49:34.762Z",
+  "attempted_sources": [
+    {
+      "platform": "google_places",
+      "status": "found",
+      "url": "https://maps.google.com/?cid=10338716508790624105"
+    },
+    {
+      "platform": "google_maps",
+      "status": "not_attempted",
+      "search_query": "Steel City Electrics Ltd Sheffield S8 0ZX site:google.com/maps",
+      "reason": "Automated search not run in enrich pass unless URL provided"
+    },
+    {
+      "platform": "google_reviews",
+      "status": "found",
+      "url": "https://maps.google.com/?cid=10338716508790624105"
+    },
+    {
+      "platform": "google_photos",
+      "status": "found",
+      "url": "https://maps.google.com/?cid=10338716508790624105"
+    },
+    {
+      "platform": "facebook",
+      "status": "not_attempted",
+      "search_query": "Steel City Electrics Ltd Sheffield S8 0ZX Facebook",
+      "reason": "Automated search not run in enrich pass unless URL provided"
+    },
+    {
+      "platform": "checkatrade",
+      "status": "not_attempted",
+      "search_query": "Steel City Electrics Ltd Sheffield S8 0ZX site:checkatrade.com",
+      "reason": "Automated search not run in enrich pass unless URL provided"
+    },
+    {
+      "platform": "trustatrader",
+      "status": "not_attempted",
+      "search_query": "Steel City Electrics Ltd Sheffield S8 0ZX site:trustatrader.com",
+      "reason": "Automated search not run in enrich pass unless URL provided"
+    },
+    {
+      "platform": "yell",
+      "status": "not_attempted",
+      "search_query": "Steel City Electrics Ltd Sheffield S8 0ZX site:yell.com",
+      "reason": "Automated search not run in enrich pass unless URL provided"
+    },
+    {
+      "platform": "mybuilder",
+      "status": "not_attempted",
+      "search_query": "Steel City Electrics Ltd Sheffield S8 0ZX site:mybuilder.com",
+      "reason": "Automated search not run in enrich pass unless URL provided"
+    },
+    {
+      "platform": "rated_people",
+      "status": "not_attempted",
+      "search_query": "Steel City Electrics Ltd Sheffield S8 0ZX site:ratedpeople.com",
+      "reason": "Automated search not run in enrich pass unless URL provided"
+    },
+    {
+      "platform": "bark",
+      "status": "not_attempted",
+      "search_query": "Steel City Electrics Ltd Sheffield S8 0ZX site:bark.com",
+      "reason": "Automated search not run in enrich pass unless URL provided"
+    },
+    {
+      "platform": "houzz",
+      "status": "not_attempted",
+      "search_query": "Steel City Electrics Ltd Sheffield S8 0ZX site:houzz.co.uk",
+      "reason": "Automated search not run in enrich pass unless URL provided"
+    },
+    {
+      "platform": "myjobquote",
+      "status": "not_attempted",
+      "search_query": "Steel City Electrics Ltd Sheffield S8 0ZX site:myjobquote.co.uk",
+      "reason": "Automated search not run in enrich pass unless URL provided"
+    },
+    {
+      "platform": "trustpilot",
+      "status": "not_attempted",
+      "search_query": "Steel City Electrics Ltd Sheffield S8 0ZX site:trustpilot.com",
+      "reason": "Automated search not run in enrich pass unless URL provided"
+    },
+    {
+      "platform": "youtube",
+      "status": "not_attempted",
+      "search_query": "Steel City Electrics Ltd Sheffield S8 0ZX site:youtube.com",
+      "reason": "Automated search not run in enrich pass unless URL provided"
+    },
+    {
+      "platform": "companies_house",
+      "status": "not_attempted",
+      "search_query": "Steel City Electrics Ltd site:find-and-update.company-information.service.gov.uk",
+      "reason": "Automated search not run in enrich pass unless URL provided"
+    },
+    {
+      "platform": "official_website",
+      "status": "not_attempted",
+      "search_query": "Steel City Electrics Ltd Sheffield S8 0ZX website",
+      "reason": "Automated search not run in enrich pass unless URL provided"
+    },
+    {
+      "platform": "email_domain_website",
+      "status": "not_attempted",
+      "search_query": "https://",
+      "reason": "Automated search not run in enrich pass unless URL provided"
+    },
+    {
+      "platform": "directories",
+      "status": "not_attempted",
+      "search_query": "Steel City Electrics Ltd Sheffield S8 0ZX plumber electrician directory",
+      "reason": "Automated search not run in enrich pass unless URL provided"
+    },
+    {
+      "platform": "local_trade_directories",
+      "status": "not_attempted",
+      "search_query": "Steel City Electrics Ltd Sheffield S8 0ZX local directory",
+      "reason": "Automated search not run in enrich pass unless URL provided"
+    },
+    {
+      "platform": "trade_association",
+      "status": "not_attempted",
+      "search_query": "Steel City Electrics Ltd  association member",
+      "reason": "Automated search not run in enrich pass unless URL provided"
+    },
+    {
+      "platform": "review_aggregators",
+      "status": "not_attempted",
+      "search_query": "Steel City Electrics Ltd Sheffield S8 0ZX reviews",
+      "reason": "Automated search not run in enrich pass unless URL provided"
+    },
+    {
+      "platform": "instagram",
+      "status": "not_attempted",
+      "search_query": "Steel City Electrics Ltd Sheffield S8 0ZX Instagram",
+      "reason": "Requires login - manual review only"
+    },
+    {
+      "platform": "nextdoor",
+      "status": "not_attempted",
+      "search_query": "Steel City Electrics Ltd Sheffield S8 0ZX site:nextdoor.co.uk",
+      "reason": "Requires login - manual review only"
+    },
+    {
+      "platform": "pinterest",
+      "status": "not_attempted",
+      "search_query": "Steel City Electrics Ltd Sheffield S8 0ZX site:pinterest.com",
+      "reason": "Requires login - manual review only"
+    },
+    {
+      "platform": "tiktok",
+      "status": "not_attempted",
+      "search_query": "Steel City Electrics Ltd Sheffield S8 0ZX TikTok",
+      "reason": "Requires login - manual review only"
+    },
+    {
+      "platform": "linkedin",
+      "status": "not_attempted",
+      "search_query": "Steel City Electrics Ltd Sheffield S8 0ZX site:linkedin.com",
+      "reason": "Requires login - manual review only"
+    },
+    {
+      "platform": "twitter",
+      "status": "not_attempted",
+      "search_query": "Steel City Electrics Ltd Sheffield S8 0ZX site:twitter.com OR site:x.com",
+      "reason": "Requires login - manual review only"
+    }
+  ],
+  "sources": [
+    {
+      "platform": "google_places",
+      "url": "https://maps.google.com/?cid=10338716508790624105",
+      "verified": true,
+      "verification_method": "place_id_from_gather",
+      "phone_match": true,
+      "notes": "Primary gather source"
+    }
+  ],
+  "sources_found": [
+    "google_places",
+    "google_reviews",
+    "google_photos"
+  ],
+  "sources_verified": [
+    "google_places"
+  ],
+  "strongest_proof_source": {
+    "platform": "google",
+    "metric": "5 rating, 20 reviews",
+    "url": "https://maps.google.com/?cid=10338716508790624105"
+  },
+  "best_review_details": [
+    {
+      "text": "Have had 2 jobs done and could not be happier with the service. Did not have to wait long for the jobs to be done and  always got a quick response to my texts. Friendly and professional plus happy for a call back if anything was not quite right. As an older lady on my own, I felt safe at all times and the price quoted was very competitive. Can highly recommend.",
+      "author": "Pat",
+      "rating": 5,
+      "source": "google"
+    },
+    {
+      "text": "I couldn’t be happier with the service. He was punctual, professional and clearly very experienced. He explained everything clearly, completed the work efficiently and made sure everything was safe and working perfectly before leaving. It’s such a relief to find a trustworthy electrician — I would definitely use his services again and highly recommend him.",
+      "author": "Alina",
+      "rating": 5,
+      "source": "google"
+    },
+    {
+      "text": "These guys came to do a full house re-wiring on a house of mine. Fantastic service from start to finish. They were efficient and very reasonably priced. I will definitely be using them again in the future. Highly recommend.",
+      "author": "Andy",
+      "rating": 5,
+      "source": "google"
+    }
+  ],
+  "image_source_summary": {
+    "google_photos": 6,
+    "facebook_photos": 0,
+    "directory_photos": 0,
+    "manual_photos": 0,
+    "other": 0,
+    "preferred_source": "google_places",
+    "notes": "Google Places photos preferred for gallery when high quality",
+    "priority_order": [
+      "official_website",
+      "google_places",
+      "directory",
+      "manual_asset",
+      "facebook_evidence",
+      "proof_led"
+    ]
+  },
+  "manual_review_flags": [
+    "contactability=NEEDS_MANUAL_REVIEW",
+    "no email found; UK mobile present, requires manual WhatsApp contact"
+  ],
+  "enrichment_complete": false,
+  "risks": [],
+  "manual_asset_review_recommended": false,
+  "manual_asset_status": "OK",
+  "asset_readiness": {
+    "manual_asset_status": "OK",
+    "usable_automatic_count": 6,
+    "usable_manual_count": 0,
+    "usable_total_count": 6,
+    "has_hero_candidate": true,
+    "pause_before_open_design": false,
+    "pause_message": null,
+    "layout_recommendation": "photo_led",
+    "image_slots": [
+      {
+        "slot": "hero",
+        "desired": "Best finished project photo or strong proof visual",
+        "source_status": "automatic"
+      },
+      {
+        "slot": "gallery_1",
+        "desired": "Finished work close-up or wide project shot",
+        "source_status": "automatic"
+      },
+      {
+        "slot": "gallery_2",
+        "desired": "Finished work close-up or wide project shot",
+        "source_status": "automatic"
+      },
+      {
+        "slot": "gallery_3",
+        "desired": "Finished work close-up or wide project shot",
+        "source_status": "automatic"
+      },
+      {
+        "slot": "gallery_4",
+        "desired": "Finished work close-up or wide project shot",
+        "source_status": "automatic"
+      }
+    ],
+    "manual_folder": "briefs/steel-city-electrics-ltd/images/manual/"
+  },
+  "image_slots": [
+    {
+      "slot": "hero",
+      "desired": "Best finished project photo or strong proof visual",
+      "source_status": "automatic"
+    },
+    {
+      "slot": "gallery_1",
+      "desired": "Finished work close-up or wide project shot",
+      "source_status": "automatic"
+    },
+    {
+      "slot": "gallery_2",
+      "desired": "Finished work close-up or wide project shot",
+      "source_status": "automatic"
+    },
+    {
+      "slot": "gallery_3",
+      "desired": "Finished work close-up or wide project shot",
+      "source_status": "automatic"
+    },
+    {
+      "slot": "gallery_4",
+      "desired": "Finished work close-up or wide project shot",
+      "source_status": "automatic"
+    }
+  ],
+  "email": null,
+  "email_found": false,
+  "email_domain_checked": false,
+  "email_domain_website": null,
+  "website_discovery": null,
+  "website_status": "NO_WEBSITE",
+  "truly_no_website": null,
+  "logo_found": false,
+  "logo_path": null,
+  "facebook_url": null,
+  "facebook_verified": false,
+  "source_verifications": [
+    {
+      "platform": "google_places",
+      "url": "https://maps.google.com/?cid=10338716508790624105",
+      "confidence": "low",
+      "verified": false,
+      "verification_reasons": [
+        "Business name matches or clearly aliases Google listing",
+        "Name match only - common name risk"
+      ],
+      "matches": {
+        "phone": false,
+        "email": false,
+        "website": false,
+        "business_name": true,
+        "location": false,
+        "service_trade": false,
+        "logo": false
+      },
+      "rejected_reason": "Insufficient verification signals for automatic use"
+    }
+  ],
+  "source_confidence": {
+    "overall": "low",
+    "verified_platforms": [],
+    "rejected_platforms": [
+      "google_places"
+    ],
+    "notes": [
+      "No verified sources with medium or high confidence",
+      "1 source(s) rejected for low confidence"
+    ]
+  },
+  "image_manifest": [
+    {
+      "local": "images/01-places.webp",
+      "source": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3noiFN2ff3cLV-j-vVAO3KakYA-YZilqQPVES-xPhWg-Dp2ZDJ-98yEX5UlH_2wlIhNd6OVjDFbmYnNord4IQtNSSj-sPaWzsuzcY5Lp9Q9jEykVGpm-j-hFAXIqe5mAAeEVbur9bejA96AoXb3A3IbKaB1-A3EjDnnTGPuV7A_pPcNlw8rkSfWqi-Nia-U32juR8aMN5e0UDXghcBgbU6A_6VG7uNuySIasdmRCywMDMfu_U_ELxwjyZFi-Y7Q0cUDngG012vxPOtVHTPi6WqU3Whw6336sObn4C_PjtmsbPLBDgIZw5HbTZ6DUi0JpWGboQ-NxHKPL3bMZ28SBnadOEXpgIQb-kC4CqZNgycBBatlpOdt_yu12UhtTyuYMnSUR6VJ4wu2q4VsDlflIxX3B0mTP1xf4R7_dDGBNQfwJHG4FcS5zhH3Jdxanw&key=REDACTED",
+      "source_type": "google_places",
+      "confidence": "medium",
+      "purpose": "gallery",
+      "selected": true,
+      "reason": "Default from gather"
+    },
+    {
+      "local": "images/03-places.webp",
+      "source": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3mGkbXBpPqKrKy99QusllMhTNIy4p-hkVV2wdTZOEMBA2CUmFjXuCuTK82TYeysbZNKsLI8JMIGkg0u-f4f0zhGGx_xT2q1BcNu-is3omuWd4ND1C0V-rqdDeOVhuXLp0ytPLJjiHKeAUYpEbVAg5khCjWCnZ0Utr4z5Em30bIi8naxI-r_myXSCmcMe2zSTAy7StK0_xWioizZfH0GR9pOnppyHEUzRMBrzSl6Pu_D7tqhksbxVQJQA9fEaIVRXTtl97eu6JQSvl5IdOiU_eH0am5JWNPSnkrDkG3mdR0B8Bmo-oaPTlH5OHuEVingXx_3Abkv2fAaYPFqp41rKVISejFCuYjqufLW_CqBue5qIY0M46cmKwZex5Wx89r2JZMYt-rqw3YF-p6Pl1GmWAp47s5WIfvx9ErmvOep66WzOV9It9EFM5qwTf1wZKlx&key=REDACTED",
+      "source_type": "google_places",
+      "confidence": "medium",
+      "purpose": "gallery",
+      "selected": true,
+      "reason": "Default from gather"
+    },
+    {
+      "local": "images/04-places.webp",
+      "source": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3maAVi11el7_OudS9PtaCPTtcapYUW8jdCqAmXbtgPt5eBzmVz03-QjbMVmxWvHtjEQwCWnUBQpOVZhv2m0EOtHIIZS8vsfM8WjJ2lMS0NBA2XjFgn1-5DuRH6o78zLIhUYIuQhn8iYBvHCCDniVoCSjFUxNEoQqQsb4W11Qp6DDSZ7SJOgjN2hVbqVBbsihxJH4OcFXqKUODr4fskxadVZRm-RZgZxQA4vAr9pVNjdFo3iwiTPbVps7684E6lE3occPeREsL2cltpiP0boGPZH3KQEit6zrAnekc2yxtMroZTskhrdhWzpH0XrNqQofw8k4q1FmbLi3F2alYcWsstvWIrsCKIuUMKSW8AcEOX3cjjqz5FcpHnrQkLhJh-vOFVao4lzWa2NFozgAXLr10cmE2wnjjmeJ1_eglPO0ubc3-Twdt3jI1wLgvXa8w&key=REDACTED",
+      "source_type": "google_places",
+      "confidence": "medium",
+      "purpose": "gallery",
+      "selected": true,
+      "reason": "Default from gather"
+    },
+    {
+      "local": "images/08-places.webp",
+      "source": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3nanDjOA76nTSx6NgMfeBWuK4G7dilyKzO585AkIcTmPg9AEVSAG69TM3LJXBPpXSJFTZFTZpveDf93TlidnmqfPurNHXAGcJaA57TgWvJYcBpqPD_HWSS5-gEJszLA1FtKmljBKxqloq2rB95ahjTTH7uPvqCwv5SpEzcIgHXDkoXgaOo6q7-_mHiO4WTspX5Y5pFcmfbJlkMaJW6Nqm63kuNWrP1YgvE5uXQAHsSCBPKBb9ahDW3v3Z67-rHZnSlWBNJT3lFSvk3T327Jo5BUjsEvY12qw7dGiUNloZ7T-o7NTo03majPdLEEh0cs4m3SMOY_b9UtHQBFNThqeYICP6YwbcFo_R8N9z_mtgnfgtZxETOhsvr-XicppYK_SbFvQ7LcDv8Y9CgDc2O-Qzyp06QN-4LyHCcKTsoWqRmUFN8BkU7ODBEPcI12yd0m&key=REDACTED",
+      "source_type": "google_places",
+      "confidence": "medium",
+      "purpose": "gallery",
+      "selected": true,
+      "reason": "Default from gather"
+    },
+    {
+      "local": "images/09-places.webp",
+      "source": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3kZzUcpR35DXyfj1EbYZI7cKswKYFeRqG5exgMvO90r26KImN5ImJbTT6CxIxbLebnXr0IKKN42QW6PAP59OQ-vJvoUTwMjPDZthezbDridqZ3dYUO13Eq4DJRulZxkTPAE7gCUW5_OqdlzjtdVVH0cRrfb8mSZIiKjV-JBbFR4VXDjVSRHpfA3wcAmdHfBW9eveYdvKBcXw9wlEW9f8PtBkdbdw5tek6iylkmbVr2NosVasyAmb26yc52SFj13QU-bxq87ih5sHy3xqDgE0eJzMXA6E4U-PyVrLGdOkVFw9QxJbWYU9VmiRudZqppaNVGFiuXW9uLoeaGlSORh8RFftXDmohg3qVAjK3wCf62yDE3tkysQjRQZRXL8Uk4cPgAffydqTVWXGqPfeSZvwzwd2pqX1E-wlXMfgvD_CAecpJUStxPqSuEUtjqRXo59&key=REDACTED",
+      "source_type": "google_places",
+      "confidence": "medium",
+      "purpose": "gallery",
+      "selected": true,
+      "reason": "Default from gather"
+    },
+    {
+      "local": "images/10-places.webp",
+      "source": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3n04bOfIlv9deVwnWDIdrVJhkedKa-is6_VadXkwtN-FpsPZ3-to-UOqft7Nn7CuHzL3W5vmmY3QmZiv3hbm5z2cRAwat9VlZOIY1hF_O3FVf2_pqcmYy5yXkWfC3IpTSUfj07mKvIP6wr6kLqBqPxIWOBBr1GiSW1zjaXyzqd2eNMZs6zmVsBXVfWC7yESHQpUDV_c_-6_w1E3LXJ-ogtrgNrhTtuwlnT1zid67faH1fmAcYoJoWW6KvcxYslHLabjXimTuVM3WASb5hGFL0hQx1_8x2sdXLZpmiH5gBr_ySXKVexWkC4wPv-_TK8eOPDVT606aUjcS9AMXzlHrFq8t4qy1HsYAWyD2ttmnfPng0qgVRBXG7Jj4pFrthMquX1Xq4bZD21AXgL4pev8A9E2-cLAgGZ4YPgK5pNk98sdVeyVM2Dl-jfCiTdYxg&key=REDACTED",
+      "source_type": "google_places",
+      "confidence": "medium",
+      "purpose": "gallery",
+      "selected": true,
+      "reason": "Default from gather"
+    }
+  ],
+  "selected_images": [
+    "images/01-places.webp",
+    "images/03-places.webp",
+    "images/04-places.webp",
+    "images/08-places.webp",
+    "images/09-places.webp",
+    "images/10-places.webp"
+  ],
+  "lead_validity_status": null,
+  "ready_for_build": null,
+  "registry_source_count": 28
+}

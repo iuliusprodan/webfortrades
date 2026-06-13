@@ -1,0 +1,115 @@
+{
+  "slug": "steel-city-electrics-ltd",
+  "generic_plan": false,
+  "layout_note": "Single column on a graphite/steel monochrome-industrial field. Sections divided by a 'busbar rule' (a 3px solid graphite bar over a 1px steel hairline, like a busbar seated on a DIN rail) - the structural signature, encoding switchgear rather than decorating. Boldness spent once on the 'take on the re-wire and leave it safe' positioning block and the single signal-amber accent; everything else quiet. TYPOGRAPHIC hero (no usable finished-work photo); the fault/board Places photos carry the gallery as honest fault-finding / board-replacement evidence.",
+  "sections": [
+    {
+      "id": "header",
+      "type": "sticky-header",
+      "purpose": "Wayfinding + persistent quote CTA.",
+      "evidence_anchors": ["brief.json business_name", "brief.json phone"],
+      "copy_intent": "Text wordmark 'Steel City Electrics'; nav: Work, Reviews, Areas; one button 'Get a quote'. No phone in the bar on mobile.",
+      "visual_intent": "Quiet solid graphite-on-concrete header (no backdrop-filter so the mobile drawer/scrim are not trapped - containing-block rule), busbar hairline underneath. Mobile: wordmark + hamburger only (no phone, <=2 links) per mobile_header check."
+    },
+    {
+      "id": "hero",
+      "type": "trade-led-hero-typographic",
+      "priority": 1,
+      "purpose": "State trade + location + the re-wire/make-safe angle in one line; surface the only citable proof. Typographic (no photo) because no usable finished-work image exists.",
+      "evidence_anchors": ["reviews[2] Andy (full house re-wiring, efficient, reasonably priced)", "reviews[1] Alina (made everything safe and working before leaving)", "reviews[3] Wakas (punctual and transparent)", "google_rating 5.0 / google_review_count 20", "based_location Sheffield, S8"],
+      "copy_intent": "Headline = trade-led positioning on re-wires / old boards / left safe (NOT a review quote). Subhead = re-wires + consumer units + fault-finding across Sheffield, transparent on price + quick to answer + 5.0/20 proof. CTAs: Get a quote (primary, #quote), Call Steel City (secondary, phone).",
+      "visual_intent": "Graphite (--ink) field with a gunmetal (--ink-2) content panel and a thin signal-amber edge rule; condensed Barlow headline (stencilled switchgear feel), signal-amber primary button; small proof chip '5.0 on Google, 20 reviews'. Text block keeps the site container side padding on mobile (hero horizontal-inset rule); CTAs stack full-width <=640px, proof chip below both. NO image."
+    },
+    {
+      "id": "proof-strip",
+      "type": "proof-marquee",
+      "priority": 2,
+      "purpose": "Evidence-drawn proof points directly beneath the hero, seamless infinite loop, animating on all viewports.",
+      "evidence_anchors": ["google_rating 5.0", "google_review_count 20", "based_location Sheffield S8", "reviews[2] Andy (re-wires)", "reviews[3] Wakas (transparent)", "reviews[1] Alina (left safe)"],
+      "copy_intent": "5.0 on Google, 20 reviews, Sheffield, Full re-wires and board upgrades, Tested and left safe, Straight prices, quick to answer. Factual, no exclamation, no salesy framing.",
+      "visual_intent": "Graphite (--ink) band, signal-amber square separators; list rendered twice, translateX(-50%) over ~36s linear; animates on mobile too (only prefers-reduced-motion degrades to a static row)."
+    },
+    {
+      "id": "what-we-take-on",
+      "type": "signature-positioning-block",
+      "priority": 3,
+      "purpose": "The one memorable thing: Steel City take on the heavy job (re-wire / old board), price it straight, and leave it tested and safe. This is where boldness is spent.",
+      "evidence_anchors": ["reviews[2] Andy (full house re-wiring)", "reviews[1] Alina (made everything safe and working, explained clearly)", "reviews[3] Wakas (punctual and transparent)", "reviews[0] Pat (competitive price, quick response, felt safe)"],
+      "copy_intent": "3 short, concrete statements of the specialism, stated plainly (no boast adjectives). Each tied to a real situation: take on the re-wire / old board out, modern unit in; a straight price you agree first; tested and left safe before they go.",
+      "visual_intent": "Brushed-steel (--steel) section; large Barlow statements separated by busbar rules; signal amber used once on the phrase 'tested and left safe'. No icons. The boldest moment on the page."
+    },
+    {
+      "id": "services",
+      "type": "evidence-based-services",
+      "priority": 4,
+      "purpose": "Name the 5 real services from evidence with specific, grounded descriptions.",
+      "evidence_anchors": ["site-strategy.json real_services (re-wires, consumer unit replacement, fault-finding & repairs, new installations, quick-response call-outs)"],
+      "copy_intent": "Each service: short label + one evidence-grounded line. NEVER the broad Google labels alone ('Repairs and maintenance', 'Installations', 'Emergency callouts') - expand each to a concrete electrical service. NEVER 'X services explained plainly'. No certification wording.",
+      "visual_intent": "Labelled rows with small two-letter marks (RW / CU / FF / IN / CO) in signal amber - NOT 01/02/03 (services are not a sequence; the numbered process below is) and NOT SVG/lucide icons (no_service_icons check). Busbar rule between rows."
+    },
+    {
+      "id": "gallery",
+      "type": "gallery-masonry",
+      "priority": 5,
+      "purpose": "Show the actual work - fault-finding and consumer-unit / board replacement - the honest 'before' of this trade, the proof that matters for a trader with no third-party profile.",
+      "evidence_anchors": ["brief.json photos[] (5 usable fault/board webp; the navy+red logo image excluded for palette clash)"],
+      "copy_intent": "Short section intro; honest, safe captions only (fault-finding, consumer-unit work, board replacement, Sheffield; no invented job address or customer name). No scare-tactic language.",
+      "visual_intent": "CSS masonry: 3 columns >=1024px, 2 columns 640-1023px, 1 column mobile; natural aspect ratios, top-aligned, captions directly under each image (gallery + section_integrity compliance). Thin steel frame on each tile."
+    },
+    {
+      "id": "who-we-are",
+      "type": "team-positioning-first-person",
+      "priority": 6,
+      "purpose": "Establish that this is a small Sheffield team ('the lads') without inventing a backstory or a named owner; carry the 5.0/20 stats inline.",
+      "evidence_anchors": ["reviews[3] Wakas ('the lads', 'Had steel city out multiple times')", "reviews[2] Andy ('these guys')", "based_location Sheffield S8", "google_rating 5.0 / google_review_count 20", "business_name 'Steel City'"],
+      "copy_intent": "Short first-person team block: who we are (a Sheffield electrical team), what we take on (the heavy electrical work), how we leave it (tested and safe, a straight price). MUST open first-person ('We are ...' / 'We ...') for owner_voice. No named individual, no invented years, no certification claims. Stats band inline (5.0, 20 reviews, Sheffield).",
+      "visual_intent": "Brushed-steel (--steel) section; first-person prose; stats band with large amber Barlow numerals (5.0 / 20 / Sheffield). NOT a triggering heading like 'Meet ...' with third-person body."
+    },
+    {
+      "id": "reviews",
+      "type": "review-feature",
+      "priority": 7,
+      "purpose": "Exactly one review section. Lead with the re-wire and made-safe quotes that carry the angle.",
+      "evidence_anchors": ["reviews[2] Andy (re-wire)", "reviews[1] Alina (made safe)", "reviews[3] Wakas (transparent, the lads)", "reviews[0] Pat (felt safe, competitive, quick)"],
+      "copy_intent": "4 verbatim Google excerpts, attributed 'First name, Google review'. No first name as a headline. One review section only (no duplicate wall). 5.0/20 restated once as a stat (label 'Google rating' - no banned sub-labels).",
+      "visual_intent": "Cool-concrete (--surface) section; quiet cards on steel; signal-amber quote rule; the 5.0/20 proof restated once as a stat."
+    },
+    {
+      "id": "process",
+      "type": "process-numbered",
+      "priority": 8,
+      "purpose": "Reduce risk: show the orderly way a job runs, safety-checked at the end.",
+      "evidence_anchors": ["reviews[0] Pat (quick response to texts, call back if anything not right)", "reviews[1] Alina (explained clearly, made safe and working before leaving)", "reviews[2] Andy (start to finish, efficient)", "reviews[3] Wakas (punctual, transparent)"],
+      "copy_intent": "4 ordered steps grounded in review behaviour: get in touch + a straight price -> we do the work (re-wire / board / fault), explained as we go -> tested and left safe and working before we leave -> we will come back if anything is not right. Numbered 01-04 (a real sequence).",
+      "visual_intent": "Graphite (--ink) dark section for contrast; large amber Barlow numerals 01-04; busbar dividers between steps."
+    },
+    {
+      "id": "areas",
+      "type": "local-coverage",
+      "priority": 9,
+      "purpose": "Establish locality and availability without exposing the home address.",
+      "evidence_anchors": ["brief.json based_location 'Sheffield, S8'", "service_area Sheffield", "reviews[0] Pat (quick response)", "google_maps_url cid"],
+      "copy_intent": "Based in Sheffield, covers the city and surrounding S postcodes (8-14 districts). Districts derived from Sheffield/S8 geography (plausible small-team radius, no over-claim). Availability framed softly (quick to answer, call-outs across Sheffield) - no literal 24/7. No street address.",
+      "visual_intent": "Cool-concrete (--surface) section; keyless Google Maps iframe (query 'Sheffield S8' - town + outward only, no street, no inward postcode); area list (two-column) + availability line beside it."
+    },
+    {
+      "id": "quote",
+      "type": "contact-quote-form",
+      "priority": 10,
+      "purpose": "Convert: a quote form plus phone, anchored at #quote.",
+      "evidence_anchors": ["brief.json phone 07936 498907", "based_location Sheffield S8", "service 'Emergency callouts'"],
+      "copy_intent": "Two columns. Left: heading + framing prose + key details (phone click-to-call, Sheffield / S8, quick to answer). Right: quote form (name, phone, email optional, postcode, job type = Rewire / Consumer unit / Fault-finding / EV charger / Other, details). Heading specific to Steel City. Form presentational only (no submit to the business; no 'preview form' disclaimer).",
+      "visual_intent": "Graphite (--ink) dark surface, NOT the signal-amber accent (contact section rule). Form fields visually distinct from the side details. Mobile: stack to single column, details first. Quote-only sticky CTA reveals after hero on scroll (fade+slide), hides near footer."
+    },
+    {
+      "id": "footer",
+      "type": "business-footer",
+      "purpose": "Real local-business footer, not just the agency credit.",
+      "evidence_anchors": ["business_name", "phone", "service_area", "google_maps_url"],
+      "copy_intent": "Brand, phone, areas, availability, quick links, link to read Google reviews. Small 'Website by WebForTrades' credit at the bottom.",
+      "visual_intent": "Graphite footer; busbar dividers; restrained."
+    }
+  ],
+  "omitted_defaults": ["owner-backstory/about-me narrative (no named owner, no self-description evidence) - replaced by a short first-person TEAM block only", "FAQ (no real questions in evidence)", "fabricated stats band (only Google 5.0/20 are sourced)", "certifications/badges strip (NONE verified - build-blocking if claimed)", "separate second review wall", "EV-charger or other services as evidenced facts (EV charger appears only as a quote-form job-type option, not as a claimed service)", "literal 24/7 availability banner (Places hours unreliable)", "the navy+red logo image (palette clash)"],
+  "omitted_reasons": "Kept lean and evidence-only. No section exists without a specific anchor in the frozen brief. The hero is typographic because no usable finished-work photo exists; the gallery uses the fault/board shots honestly."
+}

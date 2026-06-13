@@ -1,0 +1,60 @@
+{
+  "slug": "steel-city-electrics-ltd",
+  "path": "B (Claude-direct)",
+  "frozen_input_tag": "steel-city-electrics-ltd-brief-frozen",
+  "business_angle": "Steel City Electrics are the Sheffield team (the lads) who take on the heavy work other electricians put off: full house re-wires and tired or burnt-out consumer units stripped out and modernised, then tested and left safe and working before they go - punctual, transparent on price, and quick to answer.",
+  "why_this_trader_wins": "The reviews point at one specialism the rest of the trade tends to avoid: heavy-current re-wiring and board modernisation. Andy had a whole house re-wired ('full house re-wiring on a house of mine ... efficient and very reasonably priced'); Alina describes the safety-first finish ('made sure everything was safe and working perfectly before leaving'); Wakas, used them more than once, calls them 'always punctual and transparent ... thanks again lads'; Pat, an older customer on her own, 'felt safe at all times' and was quoted 'a very competitive' price. That is a 5.0 from 20 reviews with no complaint to soften - rewiring done properly, explained, and made safe.",
+  "target_customer": "Sheffield homeowners and landlords (the S postcodes, from Highfield and Heeley out across the city) who need a full or partial re-wire, an old or failing fuse board replaced with a modern consumer unit, or an electrical fault traced and made safe - and who want a clear price and a straight answer.",
+  "page_single_job": "Get that Sheffield homeowner or landlord to request a quote (or call) for a re-wire, consumer-unit replacement, or fault-finding job.",
+  "distinctive_angle": "the-sheffield-team-who-take-on-the-rewire-and-leave-it-safe",
+  "customer_praise_themes": [
+    {"theme": "full house re-wiring (the heavy-current specialism)", "evidence": "brief.json reviews[2] (Andy): 'came to do a full house re-wiring on a house of mine. Fantastic service from start to finish. They were efficient and very reasonably priced'"},
+    {"theme": "left safe and working, checked before leaving", "evidence": "brief.json reviews[1] (Alina): 'completed the work efficiently and made sure everything was safe and working perfectly before leaving'; reviews[0] (Pat): 'happy for a call back if anything was not quite right'"},
+    {"theme": "transparent and competitive on price", "evidence": "brief.json reviews[3] (Wakas): 'Always punctual and tranparent'; reviews[0] (Pat): 'the price quoted was very competitive'"},
+    {"theme": "quick to respond, easy to deal with", "evidence": "brief.json reviews[0] (Pat): 'always got a quick response to my texts ... Did not have to wait long for the jobs to be done'; reviews[4] (Samaira): 'Very easy to communicate with and helped with all my electrical issues'"},
+    {"theme": "explains the work clearly, customers feel safe", "evidence": "brief.json reviews[1] (Alina): 'He explained everything clearly'; reviews[0] (Pat): 'As an older lady on my own, I felt safe at all times'"},
+    {"theme": "a team / the lads, used more than once", "evidence": "brief.json reviews[2] (Andy): 'These guys came to do'; reviews[3] (Wakas): 'Had steel city out multiple times ... Thanks again lads'"}
+  ],
+  "named_people": [
+    {"name": null, "role": "no named proprietor", "usage": "not_used", "basis": "brief.json owner_name=null, contact_name=null, contact_name_usage_allowed=false. The only candidate, 'Did', is a one-review fragment (almost certainly the start of 'Did not have to wait long' in Pat's review, misread as a name) and is explicitly flagged 'not used in copy'. The reviews refer to the business as a team ('these guys', 'the lads', 'Had steel city out'). Copy uses the team framing ('the lads', 'the Steel City team', 'we') and the business name 'Steel City Electrics', never a personal first name. Some reviews say 'he' (a single attendee), but with no name evidenced the site stays on the team."}
+  ],
+  "strongest_review_quote": {
+    "text": "These guys came to do a full house re-wiring on a house of mine. Fantastic service from start to finish. They were efficient and very reasonably priced. I will definitely be using them again in the future. Highly recommend.",
+    "author": "Andy",
+    "source": "google",
+    "source_ref": "brief.json reviews[2]"
+  },
+  "strongest_proof_source": {
+    "platform": "google",
+    "metric": "5.0 rating from 20 reviews",
+    "url": "https://maps.google.com/?cid=10338716508790624105",
+    "source_ref": "brief.json google_rating, google_review_count, google_maps_url"
+  },
+  "real_services": [
+    {"name": "Full and partial re-wires", "evidence": "reviews[2] Andy ('full house re-wiring on a house of mine ... efficient and very reasonably priced'); the heavy-current angle"},
+    {"name": "Consumer unit (fuse board) replacement", "evidence": "photos 01/04/08/09/10 show old and burnt-out consumer units / boards being replaced and modernised; reviews[1] Alina 'made sure everything was safe' (board work is the safety-critical job)"},
+    {"name": "Fault-finding and repairs", "evidence": "brief.json services 'Repairs and maintenance'; reviews[4] Samaira 'helped with all my electrical issues'; reviews[0] Pat 'had 2 jobs done'; the burnt-tail fault photos"},
+    {"name": "New installations and additions", "evidence": "brief.json services 'Installations'; reviews[1] Alina 'completed the work efficiently and made sure everything was safe and working perfectly'"},
+    {"name": "Quick-response call-outs", "evidence": "brief.json services 'Emergency callouts'; reviews[0] Pat 'quick response to my texts ... did not have to wait long'; reviews[4] Samaira 'easy to communicate with'"}
+  ],
+  "claims_to_avoid": [
+    "ANY certification or membership wording: NICEIC, NAPIT, Part P, 'registered', 'approved', 'certified electrician', 'qualified electrician', 'fully insured' - NONE are verified (brief.json directory_probes: 0 verified, all NOT_FOUND/HOMONYM/snippet-only with empty badges; brief.certifications absent). This is the central electrician trap: do not imply a scheme membership the evidence does not carry. (An EICR / electrical safety CERTIFICATE issued for a job is a normal deliverable and may be referenced as a document the customer receives, but NOT as a trade-body accreditation of the business.)",
+    "Trustpilot / Yell / MyBuilder as proof - all snippet-only, single-signal, unverified (brief.json directory_probes)",
+    "a specific years-trading number - none evidenced",
+    "any personal first name - owner_name=null; 'Did' is a misread review fragment, flagged not-for-use",
+    "literal '24/7' / 'open 24 hours' claims as a headline promise - the Places hours are an unreliable artifact (all 7 days 'Open 24 hours'); frame availability softly as 'quick to answer' / 'call-outs', anchored to Pat's 'quick response' and the listed 'Emergency callouts' service, not a literal round-the-clock guarantee",
+    "the street address '50 Fieldhead Rd' / 'Highfield' exact street anywhere public - use Sheffield / S8 only",
+    "service areas beyond Sheffield and its S postcodes (one-van/small-team radius); no regional or national footprint",
+    "the navy + red Steel City logo image (03/08 in the gallery): it is an AI-style brand asset whose palette (navy + red) conflicts with the mandated monochrome-industrial direction - do not place it on the page",
+    "describing the burnt-board photos with alarm or as a scare tactic; caption them plainly as fault/board work in Sheffield"
+  ],
+  "personality": "straight-talking, capable, unflustered; a Sheffield team that takes the heavy electrical job, prices it honestly, explains what it is doing, and leaves it tested and safe",
+  "evidence_strength": "moderate-content / single-source (5.0 from 20 specific Google reviews + 6 Google Places photos that are fault/board shots, not finished-room showcases; no verified third-party profile - directory/Facebook unverified)",
+  "pitch_hook_summary": "Lead on the re-wire-and-make-safe angle (full re-wires, old/burnt boards modernised, faults traced and left tested), the Sheffield steel-city identity, and a clean 5.0/20 Google.",
+  "metadata": {
+    "source_quality": "FAIL",
+    "lead_validity_status": "INSUFFICIENT_EVIDENCE",
+    "manual_review_note": "Single-source (Google-only): no verified third-party profile and contactability=NEEDS_MANUAL_REVIEW (no email, UK mobile only; WhatsApp manual per ARCH-5). This is a BUILD run; pitch_gate enforces at outreach time, not build time. The evidence is specific and usable - same posture as the Kyle Knowles reference build (also source_quality=FAIL). Clean target: truly_no_website=true, HAS_REAL_SITE=false.",
+    "authored_blind": "Path B authored from frozen evidence + CLAUDE.md + the webfortrades-site-design skill only. Pre-allocated design seed (parallel batch): palette family = monochrome-industrial, body = Public Sans, display category = sans-condensed. None of the 5 reserved specific palettes or 3 reserved body fonts is used. See design-direction.md for the explicit distinctness check."
+  }
+}

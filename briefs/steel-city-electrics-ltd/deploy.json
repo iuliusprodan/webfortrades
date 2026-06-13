@@ -1,0 +1,31 @@
+{
+  "slug": "steel-city-electrics-ltd",
+  "updated_at": "2026-06-13T21:06:21.738Z",
+  "preferred_alias": "steel-city-electrics-ltd",
+  "deployment_url": "https://steel-city-electrics-d01uzdz3z-iulius-projects-0cb33a7b.vercel.app",
+  "verified_url": "https://steel-city-electrics-ltd.vercel.app",
+  "final_url": "https://steel-city-electrics-ltd.vercel.app",
+  "alias_status": "VERIFIED",
+  "candidates": [
+    {
+      "hostname": "steel-city-electrics-ltd",
+      "url": "https://steel-city-electrics-ltd.vercel.app",
+      "preflight": "already_ours",
+      "detail": "Build marker steel-city-electrics-ltd:20260613-1",
+      "assign": "alias_assigned",
+      "verify": "verified"
+    }
+  ],
+  "verification": {
+    "ok": true,
+    "httpStatus": 200,
+    "markerFound": true,
+    "businessNameFound": true,
+    "phoneFound": true,
+    "marker": {
+      "buildId": "steel-city-electrics-ltd:20260613-1",
+      "slug": "steel-city-electrics-ltd"
+    },
+    "errors": []
+  }
+}
