@@ -1,0 +1,50 @@
+{
+  "slug": "jp-electrical-compliance-ltd",
+  "business_name": "JP Electrical & Compliance ltd",
+  "trade": "Electrician",
+  "based_location": "Bristol, BS5",
+  "generic_plan": false,
+  "positioning": {
+    "one_line": "Bristol electricians whose name is on the certificate - EICRs, consumer units, EV chargers and rewires done to standard and signed off, with the paperwork handed over.",
+    "angle": "compliance / certification / safety + EV charging",
+    "why_this_angle": "The trading name carries 'Compliance', and the evidence backs it: a review cites an EICR booked and done within a week [src:reviews.Sandi]; another cites an EV charger fitted with 'all the relevant certs provided' [src:reviews.Craig]; the photos show labelled consumer units with inspection records and dated boards [src:photos.02]. Most electrician sites lead on speed or price; this one leads on the part a homeowner or landlord actually has to prove - that the work is correct and certified.",
+    "differentiators": [
+      "Certification-first: EICR reports and the relevant certificates handed over on completion [src:reviews.Craig][src:reviews.Sandi]",
+      "Two named electricians on the job, Pier and Jack, not a rotating crew [src:reviews.Craig][src:reviews.Sandi][src:reviews.Poppy][src:reviews.Dan]",
+      "Work left clean and tidy, jobs finished on time [src:reviews.Dan]",
+      "5.0 on Google across 21 reviews, every one five stars [src:google_rating][src:google_review_count]"
+    ]
+  },
+  "audience": {
+    "primary": "Bristol homeowners, landlords and small commercial occupiers in and around BS5 who need electrical work that has to be certified - an EICR for a let or sale, a consumer-unit upgrade, an EV charger, or a fault put right safely.",
+    "jobs_to_be_done": [
+      "Get a periodic inspection (EICR) and a report I can give a letting agent or buyer",
+      "Replace an old fuse board with a modern, labelled consumer unit",
+      "Have an EV charger installed and certified",
+      "Get a fault found and fixed without guesswork, with the work signed off"
+    ]
+  },
+  "proof": {
+    "google_rating": 5,
+    "google_review_count": 21,
+    "review_count_sourced": true,
+    "named_team": ["Pier", "Jack"],
+    "verified_certifications": [],
+    "verified_directories": [],
+    "note": "No third-party certification badge (NICEIC/NAPIT/Part P) is evidenced - 0 verified directory probes - so no scheme badges are claimed. EICR / certificates are described as the work performed, evidenced in review bodies."
+  },
+  "services_source_of_truth": "Reviews + photos, not the broad Google categories. Google listed only 'Repairs and maintenance / Installations / Emergency callouts' (service_confidence: broad); the real, evidenced services are EICR & testing, consumer-unit upgrades, EV charger installs, rewires & new circuits, and fault-finding / repairs.",
+  "primary_cta": "Get a quote",
+  "secondary_cta": "Call Pier, 07803 541347",
+  "contact": {
+    "phone": "07803 541347",
+    "phone_tel": "07803541347",
+    "phone_type": "mobile",
+    "email": null,
+    "google_maps_url": "https://maps.google.com/?cid=16513911354490674125",
+    "base": "Bristol, BS5",
+    "hours_note": "Reachable seven days a week, including emergencies"
+  },
+  "swap_test_intent": "Every block is anchored on a JP-specific detail (EICR within a week, certs handed over, Pier & Jack by name, the labelled board in the photos, 5.0 from 21). It should not transplant onto another Bristol electrician without breaking.",
+  "outputs": ["site-strategy.json", "section-plan.json", "voice.json", "design-direction.md", "copy-blocks.md"]
+}

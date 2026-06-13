@@ -1,0 +1,25 @@
+{
+  "slug": "jp-electrical-compliance-ltd",
+  "tone": "Calm, technical, certification-led. The voice of an electrician who hands you the paperwork. Confident without being salesy; precise rather than chatty.",
+  "person": "First person plural for the team voice (we / Pier and Jack); third person elsewhere (JP Electrical, they).",
+  "reading_level": "Plain British English a homeowner or landlord reads easily; technical terms only where real (EICR, consumer unit, certificate, circuit).",
+  "do": [
+    "Lead on correctness and certification: tested, signed off, certs handed over",
+    "Name Pier and Jack where it is true and useful (contact_name usage allowed, high confidence)",
+    "Use real electrical nouns: EICR, consumer unit, EV charger, circuit, fault",
+    "Stay specific: 'EICR booked and done within a week', 'all the relevant certs provided'",
+    "British spelling (organised, recognised, metre)"
+  ],
+  "dont": [
+    "No em/en dashes; use ' - ', comma, or full stop",
+    "No certification-scheme badges (NICEIC, NAPIT, Part P, 'fully insured') - none are evidenced",
+    "No generic slop: 'your trusted partner', 'professional service', 'competitive prices', 'quality you can rely on', 'your local experts', 'satisfaction guaranteed'",
+    "No meta-provenance ('reviews describe', 'sourced from Google', 'drawn from the verified listing')",
+    "No exclamation marks in authored copy (review quotes are verbatim and exempt)",
+    "No invented stats or photo counts; no fabricated certifications"
+  ],
+  "headline_rule": "Trade + location + the compliance/certified angle. Never a review quote, owner backstory, or platitude.",
+  "evidence_rule": "Every visible claim traces to brief.json / source-evidence via a [src:] tag in copy-blocks.md.",
+  "allowed_named_people": ["Pier", "Pierre", "Jack"],
+  "phone": "07803 541347"
+}

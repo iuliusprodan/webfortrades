@@ -1,0 +1,31 @@
+{
+  "slug": "jp-electrical-compliance-ltd",
+  "updated_at": "2026-06-13T21:04:30.873Z",
+  "preferred_alias": "jp-electrical-compliance-ltd",
+  "deployment_url": "https://jp-electrical-compliance-3sba1m54v-iulius-projects-0cb33a7b.vercel.app",
+  "verified_url": "https://jp-electrical-compliance-ltd.vercel.app",
+  "final_url": "https://jp-electrical-compliance-ltd.vercel.app",
+  "alias_status": "VERIFIED",
+  "candidates": [
+    {
+      "hostname": "jp-electrical-compliance-ltd",
+      "url": "https://jp-electrical-compliance-ltd.vercel.app",
+      "preflight": "already_ours",
+      "detail": "Build marker jp-electrical-compliance-ltd:20260613-1",
+      "assign": "alias_assigned",
+      "verify": "verified"
+    }
+  ],
+  "verification": {
+    "ok": true,
+    "httpStatus": 200,
+    "markerFound": true,
+    "businessNameFound": true,
+    "phoneFound": true,
+    "marker": {
+      "buildId": "jp-electrical-compliance-ltd:20260613-1",
+      "slug": "jp-electrical-compliance-ltd"
+    },
+    "errors": []
+  }
+}

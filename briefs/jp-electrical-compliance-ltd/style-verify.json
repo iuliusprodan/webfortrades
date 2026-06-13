@@ -1,0 +1,90 @@
+{
+  "slug": "jp-electrical-compliance-ltd",
+  "updated_at": "2026-06-13T21:01:48.235Z",
+  "url": "https://jp-electrical-compliance-ltd.vercel.app",
+  "ok": true,
+  "screenshot": "/Users/iuliusprodan/.cursor/website/screenshots/jp-electrical-compliance-ltd/live-verify.png",
+  "stylesheet": {
+    "bytes": 46137,
+    "hasPreflight": true,
+    "hasUtilities": true,
+    "utilityMarkers": [
+      ".flex",
+      ".grid",
+      ".mx-auto",
+      ".items-center",
+      ".justify-",
+      ".max-w-",
+      ".px-/.py-",
+      ".rounded",
+      ".gap-"
+    ]
+  },
+  "metrics": {
+    "bodyFontFamily": "Manrope, \"Manrope Fallback\", -apple-system, \"system-ui\", \"Segoe UI\", system-ui, sans-serif, -apple-system, \"system-ui\", \"Segoe UI\", system-ui, sans-serif",
+    "bodyBoxSizing": "border-box",
+    "bodyMarginTop": 0,
+    "bodyMarginLeft": 0,
+    "appliedRuleCount": 833,
+    "styleSheetCount": 1,
+    "biggestGraphic": {
+      "tag": "IMG",
+      "w": 1280,
+      "h": 900,
+      "src": "https://jp-electrical-compliance-ltd.vercel.app/assets/images/02-places.webp"
+    },
+    "primaryButton": {
+      "found": true,
+      "background": "rgba(0, 0, 0, 0)",
+      "borderRadius": "0px",
+      "paddingTop": "8px"
+    },
+    "bodyText": "JP Electrical & Compliance\nWork\nReviews\nAreas\nGet a quote\n\nELECTRICIANS, BRISTOL BS5\n\nBristol electrical work, tested, signed off and certified.\n\nJP Electrical & Compliance covers EICRs, consumer units, EV chargers and rewires across Bristol, with the relevant certificates handed over when the job i"
+  },
+  "css_assets": [
+    {
+      "url": "https://jp-electrical-compliance-ltd.vercel.app/_next/static/css/e6353b052916b620.css",
+      "status": 200,
+      "bytes": 46137
+    }
+  ],
+  "js_assets": [
+    {
+      "url": "https://jp-electrical-compliance-ltd.vercel.app/_next/static/chunks/4bd1b696-c023c6e3521b1417.js",
+      "status": 200,
+      "bytes": 173019
+    },
+    {
+      "url": "https://jp-electrical-compliance-ltd.vercel.app/_next/static/chunks/255-eb4aecc3ff015961.js",
+      "status": 200,
+      "bytes": 173611
+    },
+    {
+      "url": "https://jp-electrical-compliance-ltd.vercel.app/_next/static/chunks/main-app-f9b5d20365cb8be2.js",
+      "status": 200,
+      "bytes": 557
+    },
+    {
+      "url": "https://jp-electrical-compliance-ltd.vercel.app/_next/static/chunks/app/page-d05fcf52ece19da7.js",
+      "status": 200,
+      "bytes": 6660
+    },
+    {
+      "url": "https://jp-electrical-compliance-ltd.vercel.app/_next/static/chunks/polyfills-42372ed130431b0a.js",
+      "status": 200,
+      "bytes": 112594
+    },
+    {
+      "url": "https://jp-electrical-compliance-ltd.vercel.app/_next/static/chunks/webpack-ae6f06502e6ed9a7.js",
+      "status": 200,
+      "bytes": 3770
+    }
+  ],
+  "failed_assets": [],
+  "issues": [
+    {
+      "severity": "warn",
+      "message": "Primary CTA has no background and no border radius (may be unstyled)"
+    }
+  ]
+}

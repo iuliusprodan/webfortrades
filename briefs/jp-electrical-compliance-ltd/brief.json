@@ -1,0 +1,468 @@
+{
+  "business_name": "JP Electrical & Compliance ltd",
+  "owner_name": null,
+  "contact_name": "Pier",
+  "contact_name_source": "google_reviews",
+  "contact_name_confidence": "high",
+  "contact_name_evidence_count": 3,
+  "contact_name_usage_allowed": true,
+  "possible_contact_name": null,
+  "phone": "07803 541347",
+  "email": null,
+  "phone_type": "mobile",
+  "whatsapp_candidate": true,
+  "email_available": false,
+  "whatsapp_available": "not_checked",
+  "contactability_status": "NEEDS_MANUAL_REVIEW",
+  "contactability_reason": "no email found; UK mobile present, requires manual WhatsApp contact",
+  "preferred_channel": "whatsapp",
+  "address": "11 Clyde Gardens, Bristol BS5 8QG, UK",
+  "opening_hours": [
+    "Monday: Open 24 hours",
+    "Tuesday: Open 24 hours",
+    "Wednesday: Open 24 hours",
+    "Thursday: Open 24 hours",
+    "Friday: Open 24 hours",
+    "Saturday: Open 24 hours",
+    "Sunday: Open 24 hours"
+  ],
+  "services": [
+    "Repairs and maintenance",
+    "Installations",
+    "Emergency callouts"
+  ],
+  "services_meta": [],
+  "service_confidence": "broad",
+  "service_sources": [
+    "google",
+    "niche"
+  ],
+  "service_area": [
+    "Bristol",
+    "Bristol BS5 8QG",
+    "Redfield",
+    "St George",
+    "Easton",
+    "Bedminster",
+    "Clifton",
+    "Kingswood",
+    "Fishponds"
+  ],
+  "based_location": "Bristol, BS5",
+  "google_rating": 5,
+  "google_review_count": 21,
+  "google_review_count_sourced": true,
+  "service_areas_inferred": true,
+  "google_maps_url": "https://maps.google.com/?cid=16513911354490674125",
+  "website_status": "NO_WEBSITE",
+  "website_check_notes": "google_places_website=empty; website_url empty",
+  "website_url": null,
+  "photos": [
+    {
+      "local": "images/01-places.webp",
+      "source_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3l-u4-foS_ylZ0REANRvxY5ZsqSgEzHw-xuQF7VS9xl-OiMXwqhte2qNQ4JZQqFNYqE0daQKOJw9QISQ4vaoMoIMTDAlP5IhBP4cZVdCJB8qYvhVaoc38jdg9nPFo6kdkQ9HaC1xxjf7kfHsMzC6r7pm9fZBIkopCeenYWGpzIc8tp_Nz_pHhTZFU6kwhcrPHGjctvD7wUOWMrGOoI5qlGPH8pFbk3ZZu_NUa8Ez1_GZL_MOwXgdRV0xDeyzO1KTUHtLlZpIcH48DQDAIkyMqqNS00F0k0_U7aCoJAToHWwNi8gbrMK9CsAhRkGlmTnlhk9bksQfLQjatUful6abnIUSK11APzYml5MV6_R0yeMcPPlffVyFMvZKx7FxEHs9RYo4MdK1eIrIybWfoMvo2ixgT_DQSi2MeOp3RwVuMilp9FLxKNob2erSJuiti9C&key=REDACTED",
+      "width": 1200,
+      "height": 1600,
+      "classification": "completed_project",
+      "pair_id": null,
+      "source_type": "google_places"
+    },
+    {
+      "local": "images/02-places.webp",
+      "source_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3nHmb3LkGfgkAeyFXYymU-egFDgbz6vaTDattD9xKdew2XXPagNISdtOd1z2_O-rYFAGfwFCVdQEvvLYELG62SqS45za4BEGI-t1qJvIeTWNcG0AN1SaeeFzbla8jau8DsA-qkh1P9YqQqALSOdofafXXTwanRTKY_qfjV-A6veVqB5qYrv7OEmntqQcbn0PCsAQ7LOXe69aUTjqtE9XVgOn2JrCesTlpLwvvVcrzlz5MdEMVlxcSsi3i7FVcEGENtvOsrg1KGc9JQCXyA0W2hHskxbdf9lNd6tnhw23pgktZS5AJGZChjsCATJb85lTfsauyU_HYpZcxqRRtV_sxNvrBWRtcC9N5GMWIYCl6YvRL8_roCb1F52rYYTlPcGkuT_XqaIMi7ES3Mon2kq71W-Xcvjxb0Z5vs3NEjAm9787fA_7vTxcSjmhPfS3QXp&key=REDACTED",
+      "width": 1200,
+      "height": 1600,
+      "classification": "completed_project",
+      "pair_id": null,
+      "source_type": "google_places"
+    },
+    {
+      "local": "images/04-places.webp",
+      "source_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3nao0LHioURTQu-6Jz2KIUVF00Elx13pfnJoyocEtMXblpTbJipiA0yItF82vsXjgYG9eBZQhknF57BcZ0cCdwPhrTMCcygDLa00l_8Q2OLsauHu3ynbBBsW14JUeZO3PHfs1GIeN2kjRWcv0Q2lhHXm4l_bpkA9_VOchG6mIEs7aDl3QTq2IE4_bhjNl1u3o7GCC0tKEJvNLEVcyfUU0_W2We6GmDXqAfPd16qOh4pbNh2SF-AWEddNYsEl14B0pyGJALumTQgImw9Oprz9W1s9RcPgCoApgnS_PKTKaNgMiinEgtzo1Lvnn1pT-0fLewwjt3gvO2l96nW6dBk7O5pqTTrpQvMys7aXGqFLPqm1OkBVMM2g7mhOVFTiu8U_NcOYvliD21jdIBP-6YeOfm9fg6COA8fYf3NatBniLu2bG9eiptuJf2VJJpDDEeD&key=REDACTED",
+      "width": 1200,
+      "height": 1600,
+      "classification": "completed_project",
+      "pair_id": null,
+      "source_type": "google_places"
+    },
+    {
+      "local": "images/05-places.webp",
+      "source_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3nFD8GaLIpOVBgmV6eeO4KmWgzLy1AoXSJQoChi7d1gcSVHA3x_F32uZd2hQZe50hrfgUlQqQs7vNI4FQs6pLNmPzK1DsIOrfG8_kVK3pqDPYp-MLUQczJplgMzojiwhzef5h1YE87EYNtCJsLbE7lvmVDshYxAVqHq75TllF3i6KN_pEL1gCfpj8EHkBOHuU5MztufAZ-1lt5sWf-6ixG8KwNOFj4vgcefgLloJMepzFfuQ75Qo1lMNvRrmRqs_AB8kVebN7tfFUy6JDBpiNGkpJSa2xsgaTvKW4T_3SwglcWLqkQ-Qc5FWJ0CvkN-VYD_vquxBN1mGK0YnmCLsKtT-ogM5VT5_mDCu-RrxucIwR_N5K2LYhWynKKijW_B-mkPnjYbXEsfDB6Jd1TlL2cS-SOeB2JX1uuvN_9yj2bFvcspKAmyyDXaxKqwfQ&key=REDACTED",
+      "width": 1600,
+      "height": 1200,
+      "classification": "completed_project",
+      "pair_id": null,
+      "source_type": "google_places"
+    },
+    {
+      "local": "images/06-places.webp",
+      "source_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3kVy7nnJX0Q65NgmZwqyayFG0uc3cnR5ZqtomQN5Oo3nW1TDzrYvhn4I8MYf7fPaMXqvl2Beg2XsApkHU-PgDbhTlnDu4jIjKaxukMeklDbAbYlbO7HA4iEeN2u9esaBl_qXZGH40AdpZQ3ZZT8bqhnzkac4JAN_oxycKqSKiJpbudYu2iR9zpbwzoVDMSpODWFUvOO4M7yV-TF7qqWJsSV1wa7HDQWEXX6i2jU6Nc9oTdXDmuzjgYPNiT0zVCTDjUJ--Tzzz2Fiya4gUygYL7JU5aGFSDQcfeQij17RaFQmukIr2f4kp1V394epNpe_l9z8Sh1ah6S1p20Cent_frNveQeiTQIDL6kWpe-t_4GZUOHX6qAvPFNdG-KG-hf2STxOml1dMNkD_Y1K0-ZS9NkMEWMnDXW0Mkrlosrw2spSadUHlBk-S2tkDVVeQ&key=REDACTED",
+      "width": 1200,
+      "height": 1600,
+      "classification": "completed_project",
+      "pair_id": null,
+      "source_type": "google_places"
+    },
+    {
+      "local": "images/07-places.webp",
+      "source_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3kzxO7z8Vx2rwEP8uyUqbr1bb0cmXDgLMD-US1etpdBekwq_dylw2LciI8xBY5rswiH5cJ145tLUroblkRhO1RNGDxAJvE1UurLaaZVaY3k3OA2chu63UyPAPNFvJZM6gj04RA3YJAeQ2vb1MPRf2l_HEySsTRKntcR-8Z5LO9mgrILlWOLyTl-WNQgdwkutCkUYkH4BMb52oSQbmhluYFh32vJRkWIBUJv2Cy3glx353KlR_6u3YGHjdD1t81KYER-t8ltLk6BoOetv09_NV1AYiP1hqf_iT3S_gOvFaM-Pf9ro1aoPczTe9iY1rx2hCUzfv75HVqYcz1_hzCs1_qiJW5q2X-seNjbVPXgZrKiC5hOMMhZ9S9eYS-p0JNiMP8Ih7oBF5arRyA4704vqIYbxhnzkGp7foMBNOmvvwh-gju5n5FonI977OvhJQ&key=REDACTED",
+      "width": 1600,
+      "height": 1200,
+      "classification": "completed_project",
+      "pair_id": null,
+      "source_type": "google_places"
+    },
+    {
+      "local": "images/08-places.webp",
+      "source_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3nS0nS5dgD5JLx-NGxhIfdH04YzElUChJqRG-X_px4sv172wbXGyH4FRem1p2w-9Eu5LzpeqogmLsNRcuyO8DbhNvCRXSTWhnYrIQxbCRcp2ikmskP9QVqwR_UENog4RATJtUBt9RbWraE8tjVfu6r-Cf0giEZytr_N3OoIoiSat-OMG7XWqe0cTowZxUZw0af3gSbTluo3X4a144WfxEYKFh99KSmVEh17cQKe9gPe9x9yKVx-f0GFffmw9eHb3k4F9EbV9Q2TO43DajgRYkcp0k0y-Ow69OjN1PjDRvqa7A03hoacfDhe2wVn--PkttYsZvicNRfB4FVKOoneDsyhX8evBCpjBJeGPTnrakkFvrY42a0fbcyvIwDjuqSSQRXHqYvIM82EJVgEEEXhDTLmLWnTnMIH_bfVgYF0WL-1xNW2SmfN_J12qevfJA&key=REDACTED",
+      "width": 1200,
+      "height": 1600,
+      "classification": "completed_project",
+      "pair_id": null,
+      "source_type": "google_places"
+    },
+    {
+      "local": "images/09-places.webp",
+      "source_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3nfneskPGdy7NLbXjnw7A2eKAud2-ejlAQoMhdj_X6w8X_Nyvl3g06C3CfFgKYXwhHVZNR-tC-RUq6SVMpBy3LTKK_YmK3J6u0asyB0g3Quar306se4-y_igDzCzu8Tn9HlY9D3XIA_ebdrK9zvsZYPjjUGIm39-T7jMqhwKFSLvcqd129Yp032joYcCW0-l_6a7i2ioloDkWXl2dGAuxask9NsC1iAJUjUE2KDyM80fwGDd_2Ccf7UYy6-SWjRL-CdbByVqiGkNgkm2cRU7y4IyBVoBqP1z1VhzeWzc7rPZXqJoiUkqTmcbJV7tRjH_e5K-LhFPOcXPKBKdFOm4vCHR9kOxL9fySfx9mFr9he_N6iM6a30kxQU_qXu_kbpgS7YiR3wXck9NDBlju58VNb6aytbOevCVpm9QPWVxTn-UWp871Bm8nbVteEyJghM&key=REDACTED",
+      "width": 1200,
+      "height": 1600,
+      "classification": "completed_project",
+      "pair_id": null,
+      "source_type": "google_places"
+    },
+    {
+      "local": "images/10-places.webp",
+      "source_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3m3KErzHay5ZBKnkgaIS_IGGSaNUmc8j4klQTMNmrTGaLI7JrpNRPgiBkkfwBGgty4_0_jfngjYzWl5T9HzbPHH5FByRK6jsKQxD42xjZKsX0hFFC3aH_qvhcHY-cfiH3O9XFp-sdBApB0YG8xgkX2XrbOfwZ3ynSvt7VTI9iwfrXTOXzg_OgnGo9erRDaSCXXjSnvhOqADXcpJBI_7uMrDcbukRnL8gyhc8ebTdkvpSzP7nHmkcbMKb5TJo5zS9pPw-dKqNMf9rquQPOgde3yHJDQFx79A65VvhxoJOWzWLd5rQE-fyEpTn-n48jtd_Ky2HZHUi8qSnncC6kXfr9j1sgIbZyW-HspCtKMbah8JPmLlMKZtWyC8mJeKUBoJ-mE8KeFfoCXqKCBfS6G8SgeydY5dvhuDQAS5kYkdmaaQ6_OY-128RcRYyq6Lbg&key=REDACTED",
+      "width": 1200,
+      "height": 1600,
+      "classification": "completed_project",
+      "pair_id": null,
+      "source_type": "google_places"
+    }
+  ],
+  "reviews": [
+    {
+      "text": "I would highly recommend Pier from JP Electrical & Compliance Ltd for their outstanding service and professionalism. From start to finish, everything was handled smoothly, efficiently, and to a very high standard.\n\nThey carried out all the electrics for my media wall, as well as installing lights and sockets in the front and dining rooms, and the quality of their work was excellent throughout. They were punctual, well-organised, and clearly experienced in what they do. They took the time to communicate clearly, ensuring everything was completed properly and with great attention to detail. It’s obvious they take real pride in their work, and it shows in the final result.\n\nWhat stood out most was their reliability and the care they put into every aspect of the job—everything was completed on time and left clean and tidy. If you’re looking for a dependable and professional company, Pier is a fantastic choice. I wouldn’t hesitate to use them again or recommend them to others.",
+      "reviewer": "Dan",
+      "rating": 5
+    },
+    {
+      "text": "Here’s a more natural version:\n\nWe’ve used JP Electrical a lot for multiple projects, as well as work in our office and home, and they have always provided an excellent service. They are our go-to electrical engineers and a company we will continue to use time and time again.\n\nThe team are professional, attentive and always helpful. Communication is great, the quality of their work is excellent, and nothing ever seems too much trouble. It’s reassuring to know that whenever we need electrical work carried out, we can rely on JP Electrical to get the job done properly.\n\nHighly recommended to anyone looking for reliable and trustworthy electricians. A genuine 5-star service.",
+      "reviewer": "Soteria",
+      "rating": 5
+    },
+    {
+      "text": "Fantastic job by the boys Pier & Jack fitting my EV charger. Excellent service with very reasonable pricing. Job completed quickly and efficiently with all the relevant certs provided. Would 100% recommend. Thanks chaps",
+      "reviewer": "Craig",
+      "rating": 5
+    },
+    {
+      "text": "Brilliant service! EICR booked & done within a week. Jack & Pierre absolutely sound chaps. Another 5* review fully deserved! Thanks guys :)",
+      "reviewer": "Sandi",
+      "rating": 5
+    },
+    {
+      "text": "Jack and Pier were brilliant. They sorted the problem quickly and were very polite. I will definitely come back again.",
+      "reviewer": "Poppy",
+      "rating": 5
+    }
+  ],
+  "social": {
+    "facebook": null,
+    "instagram": null,
+    "youtube": null,
+    "tiktok": null
+  },
+  "gallery_layout": "completed_project_gallery",
+  "photo_classification_summary": {
+    "completed_project": 9
+  },
+  "brand": {
+    "colours": [],
+    "logo_url": null,
+    "logo_local": null
+  },
+  "source_urls": [
+    "https://maps.google.com/?cid=16513911354490674125",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3l-u4-foS_ylZ0REANRvxY5ZsqSgEzHw-xuQF7VS9xl-OiMXwqhte2qNQ4JZQqFNYqE0daQKOJw9QISQ4vaoMoIMTDAlP5IhBP4cZVdCJB8qYvhVaoc38jdg9nPFo6kdkQ9HaC1xxjf7kfHsMzC6r7pm9fZBIkopCeenYWGpzIc8tp_Nz_pHhTZFU6kwhcrPHGjctvD7wUOWMrGOoI5qlGPH8pFbk3ZZu_NUa8Ez1_GZL_MOwXgdRV0xDeyzO1KTUHtLlZpIcH48DQDAIkyMqqNS00F0k0_U7aCoJAToHWwNi8gbrMK9CsAhRkGlmTnlhk9bksQfLQjatUful6abnIUSK11APzYml5MV6_R0yeMcPPlffVyFMvZKx7FxEHs9RYo4MdK1eIrIybWfoMvo2ixgT_DQSi2MeOp3RwVuMilp9FLxKNob2erSJuiti9C&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3nHmb3LkGfgkAeyFXYymU-egFDgbz6vaTDattD9xKdew2XXPagNISdtOd1z2_O-rYFAGfwFCVdQEvvLYELG62SqS45za4BEGI-t1qJvIeTWNcG0AN1SaeeFzbla8jau8DsA-qkh1P9YqQqALSOdofafXXTwanRTKY_qfjV-A6veVqB5qYrv7OEmntqQcbn0PCsAQ7LOXe69aUTjqtE9XVgOn2JrCesTlpLwvvVcrzlz5MdEMVlxcSsi3i7FVcEGENtvOsrg1KGc9JQCXyA0W2hHskxbdf9lNd6tnhw23pgktZS5AJGZChjsCATJb85lTfsauyU_HYpZcxqRRtV_sxNvrBWRtcC9N5GMWIYCl6YvRL8_roCb1F52rYYTlPcGkuT_XqaIMi7ES3Mon2kq71W-Xcvjxb0Z5vs3NEjAm9787fA_7vTxcSjmhPfS3QXp&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3m6jsj5D9R5QT8LdttiDtEu2prlFaNYVRZcXaQrP1N5j3Cca9pDMNqYMpyfov9B64MfMG8cjl-MQn3S5Ga84klGQE1-vdJJkMk8w6FiTK4f9-iztQ0i_HZtqbMmiYwVKRlCsDsAQ29SNm_X3YHRxIZmBgg8uezY-gawWJHYkQ_c5cNQLa1PDCdNaFauyIwYxbjEme4cb7GnOUa2TWalFwPRE6rzDIbJtD2Q4Ayn-W0SA-gfKn_USKBpVG5Q8RrBgkAivK8YWCr9uql8I16CIs52GVVDFogpLvKkJYsYGDH1bhMGO5EX4CIcvENbQb0rI5UNw-6n4SVsx2XyEccG2wQ-gAEh-JCtP1tdDSn_c3__1y4DCj7_nkJVfJ9UoM0qutpIYP5RPaFJpewv9ng1q6dJKuXJ0socrMcynNu2ql2xVc8dOcGqNBRP4v0vdPg7&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3nao0LHioURTQu-6Jz2KIUVF00Elx13pfnJoyocEtMXblpTbJipiA0yItF82vsXjgYG9eBZQhknF57BcZ0cCdwPhrTMCcygDLa00l_8Q2OLsauHu3ynbBBsW14JUeZO3PHfs1GIeN2kjRWcv0Q2lhHXm4l_bpkA9_VOchG6mIEs7aDl3QTq2IE4_bhjNl1u3o7GCC0tKEJvNLEVcyfUU0_W2We6GmDXqAfPd16qOh4pbNh2SF-AWEddNYsEl14B0pyGJALumTQgImw9Oprz9W1s9RcPgCoApgnS_PKTKaNgMiinEgtzo1Lvnn1pT-0fLewwjt3gvO2l96nW6dBk7O5pqTTrpQvMys7aXGqFLPqm1OkBVMM2g7mhOVFTiu8U_NcOYvliD21jdIBP-6YeOfm9fg6COA8fYf3NatBniLu2bG9eiptuJf2VJJpDDEeD&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3nFD8GaLIpOVBgmV6eeO4KmWgzLy1AoXSJQoChi7d1gcSVHA3x_F32uZd2hQZe50hrfgUlQqQs7vNI4FQs6pLNmPzK1DsIOrfG8_kVK3pqDPYp-MLUQczJplgMzojiwhzef5h1YE87EYNtCJsLbE7lvmVDshYxAVqHq75TllF3i6KN_pEL1gCfpj8EHkBOHuU5MztufAZ-1lt5sWf-6ixG8KwNOFj4vgcefgLloJMepzFfuQ75Qo1lMNvRrmRqs_AB8kVebN7tfFUy6JDBpiNGkpJSa2xsgaTvKW4T_3SwglcWLqkQ-Qc5FWJ0CvkN-VYD_vquxBN1mGK0YnmCLsKtT-ogM5VT5_mDCu-RrxucIwR_N5K2LYhWynKKijW_B-mkPnjYbXEsfDB6Jd1TlL2cS-SOeB2JX1uuvN_9yj2bFvcspKAmyyDXaxKqwfQ&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3kVy7nnJX0Q65NgmZwqyayFG0uc3cnR5ZqtomQN5Oo3nW1TDzrYvhn4I8MYf7fPaMXqvl2Beg2XsApkHU-PgDbhTlnDu4jIjKaxukMeklDbAbYlbO7HA4iEeN2u9esaBl_qXZGH40AdpZQ3ZZT8bqhnzkac4JAN_oxycKqSKiJpbudYu2iR9zpbwzoVDMSpODWFUvOO4M7yV-TF7qqWJsSV1wa7HDQWEXX6i2jU6Nc9oTdXDmuzjgYPNiT0zVCTDjUJ--Tzzz2Fiya4gUygYL7JU5aGFSDQcfeQij17RaFQmukIr2f4kp1V394epNpe_l9z8Sh1ah6S1p20Cent_frNveQeiTQIDL6kWpe-t_4GZUOHX6qAvPFNdG-KG-hf2STxOml1dMNkD_Y1K0-ZS9NkMEWMnDXW0Mkrlosrw2spSadUHlBk-S2tkDVVeQ&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3kzxO7z8Vx2rwEP8uyUqbr1bb0cmXDgLMD-US1etpdBekwq_dylw2LciI8xBY5rswiH5cJ145tLUroblkRhO1RNGDxAJvE1UurLaaZVaY3k3OA2chu63UyPAPNFvJZM6gj04RA3YJAeQ2vb1MPRf2l_HEySsTRKntcR-8Z5LO9mgrILlWOLyTl-WNQgdwkutCkUYkH4BMb52oSQbmhluYFh32vJRkWIBUJv2Cy3glx353KlR_6u3YGHjdD1t81KYER-t8ltLk6BoOetv09_NV1AYiP1hqf_iT3S_gOvFaM-Pf9ro1aoPczTe9iY1rx2hCUzfv75HVqYcz1_hzCs1_qiJW5q2X-seNjbVPXgZrKiC5hOMMhZ9S9eYS-p0JNiMP8Ih7oBF5arRyA4704vqIYbxhnzkGp7foMBNOmvvwh-gju5n5FonI977OvhJQ&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3nS0nS5dgD5JLx-NGxhIfdH04YzElUChJqRG-X_px4sv172wbXGyH4FRem1p2w-9Eu5LzpeqogmLsNRcuyO8DbhNvCRXSTWhnYrIQxbCRcp2ikmskP9QVqwR_UENog4RATJtUBt9RbWraE8tjVfu6r-Cf0giEZytr_N3OoIoiSat-OMG7XWqe0cTowZxUZw0af3gSbTluo3X4a144WfxEYKFh99KSmVEh17cQKe9gPe9x9yKVx-f0GFffmw9eHb3k4F9EbV9Q2TO43DajgRYkcp0k0y-Ow69OjN1PjDRvqa7A03hoacfDhe2wVn--PkttYsZvicNRfB4FVKOoneDsyhX8evBCpjBJeGPTnrakkFvrY42a0fbcyvIwDjuqSSQRXHqYvIM82EJVgEEEXhDTLmLWnTnMIH_bfVgYF0WL-1xNW2SmfN_J12qevfJA&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3nfneskPGdy7NLbXjnw7A2eKAud2-ejlAQoMhdj_X6w8X_Nyvl3g06C3CfFgKYXwhHVZNR-tC-RUq6SVMpBy3LTKK_YmK3J6u0asyB0g3Quar306se4-y_igDzCzu8Tn9HlY9D3XIA_ebdrK9zvsZYPjjUGIm39-T7jMqhwKFSLvcqd129Yp032joYcCW0-l_6a7i2ioloDkWXl2dGAuxask9NsC1iAJUjUE2KDyM80fwGDd_2Ccf7UYy6-SWjRL-CdbByVqiGkNgkm2cRU7y4IyBVoBqP1z1VhzeWzc7rPZXqJoiUkqTmcbJV7tRjH_e5K-LhFPOcXPKBKdFOm4vCHR9kOxL9fySfx9mFr9he_N6iM6a30kxQU_qXu_kbpgS7YiR3wXck9NDBlju58VNb6aytbOevCVpm9QPWVxTn-UWp871Bm8nbVteEyJghM&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3m3KErzHay5ZBKnkgaIS_IGGSaNUmc8j4klQTMNmrTGaLI7JrpNRPgiBkkfwBGgty4_0_jfngjYzWl5T9HzbPHH5FByRK6jsKQxD42xjZKsX0hFFC3aH_qvhcHY-cfiH3O9XFp-sdBApB0YG8xgkX2XrbOfwZ3ynSvt7VTI9iwfrXTOXzg_OgnGo9erRDaSCXXjSnvhOqADXcpJBI_7uMrDcbukRnL8gyhc8ebTdkvpSzP7nHmkcbMKb5TJo5zS9pPw-dKqNMf9rquQPOgde3yHJDQFx79A65VvhxoJOWzWLd5rQE-fyEpTn-n48jtd_Ky2HZHUi8qSnncC6kXfr9j1sgIbZyW-HspCtKMbah8JPmLlMKZtWyC8mJeKUBoJ-mE8KeFfoCXqKCBfS6G8SgeydY5dvhuDQAS5kYkdmaaQ6_OY-128RcRYyq6Lbg&key=REDACTED"
+  ],
+  "notes": [
+    "owner_name not found in public sources",
+    "email not found in public sources",
+    "contact_name \"Pier\" from 3 Google review mention(s) (high confidence); owner_name not set",
+    "contactability=NEEDS_MANUAL_REVIEW",
+    "no email found; UK mobile present, requires manual WhatsApp contact",
+    "Photo discovery: 9/9 selected (Enough photos for photo-led layout)"
+  ],
+  "missing_fields": [
+    "owner_name",
+    "email",
+    "facebook",
+    "instagram"
+  ],
+  "invalid_website_candidates": [],
+  "website_url_validation": {
+    "validated_at": "2026-06-13T20:50:40.740Z",
+    "issue": "empty",
+    "note": "website_url empty",
+    "previous_url": null
+  },
+  "prospect_region": "Bristol",
+  "location_validation_status": "OK",
+  "directory_probes": [
+    {
+      "platform": "checkatrade",
+      "candidate_url": null,
+      "status": "NOT_FOUND",
+      "confidence": "rejected",
+      "title": null,
+      "rating": null,
+      "review_count": null,
+      "member_since": null,
+      "badges": [],
+      "review_snippets": [],
+      "phone_visible": false,
+      "verification_reasons": [],
+      "identity_match_count": 0,
+      "identity_match_signals": [],
+      "homonym_url": null,
+      "search_query": "site:checkatrade.com \"JP Electrical & Compliance ltd\" Bristol BS5 8QG BS5",
+      "probed": true,
+      "note": "candidates_exhausted"
+    },
+    {
+      "platform": "trustatrader",
+      "candidate_url": "https://www.trustatrader.com/",
+      "status": "NOT_FOUND_HOMONYM",
+      "confidence": "rejected",
+      "title": "Find Trusted Traders and Local Tradesmen | TrustATrader",
+      "rating": null,
+      "review_count": null,
+      "member_since": null,
+      "badges": [],
+      "review_snippets": [],
+      "phone_visible": false,
+      "verification_reasons": [],
+      "identity_match_count": 0,
+      "identity_match_signals": [],
+      "homonym_url": "https://www.trustatrader.com/",
+      "search_query": "site:trustatrader.com \"JP Electrical & Compliance ltd\" Bristol BS5 8QG BS5",
+      "probed": true,
+      "note": "identity_homonym"
+    },
+    {
+      "platform": "yell",
+      "candidate_url": "https://www.yell.com/biz/jp-electrical-compliance-ltd-bristol-bs5-8qg/",
+      "status": "FOUND_FROM_SNIPPET",
+      "confidence": "low",
+      "title": null,
+      "rating": null,
+      "review_count": null,
+      "member_since": null,
+      "badges": [],
+      "review_snippets": [],
+      "phone_visible": false,
+      "verification_reasons": [],
+      "identity_match_count": 1,
+      "identity_match_signals": [
+        "exact_name"
+      ],
+      "homonym_url": null,
+      "search_query": "site:yell.com \"JP Electrical & Compliance ltd\" Bristol BS5 8QG BS5",
+      "probed": true,
+      "note": "snippet_unverified_single_signal"
+    },
+    {
+      "platform": "mybuilder",
+      "candidate_url": "https://www.mybuilder.com/profile/jp-electrical-compliance-ltd",
+      "status": "FOUND_FROM_SNIPPET",
+      "confidence": "low",
+      "title": null,
+      "rating": null,
+      "review_count": null,
+      "member_since": null,
+      "badges": [],
+      "review_snippets": [],
+      "phone_visible": false,
+      "verification_reasons": [],
+      "identity_match_count": 1,
+      "identity_match_signals": [
+        "exact_name"
+      ],
+      "homonym_url": null,
+      "search_query": "site:mybuilder.com \"JP Electrical & Compliance ltd\" Bristol BS5 8QG BS5",
+      "probed": true,
+      "note": "snippet_unverified_single_signal"
+    },
+    {
+      "platform": "rated_people",
+      "candidate_url": null,
+      "status": "NOT_FOUND",
+      "confidence": "rejected",
+      "title": null,
+      "rating": null,
+      "review_count": null,
+      "member_since": null,
+      "badges": [],
+      "review_snippets": [],
+      "phone_visible": false,
+      "verification_reasons": [],
+      "identity_match_count": 0,
+      "identity_match_signals": [],
+      "homonym_url": null,
+      "search_query": "site:ratedpeople.com \"JP Electrical & Compliance ltd\" Bristol BS5 8QG BS5",
+      "probed": true,
+      "note": "candidates_exhausted"
+    },
+    {
+      "platform": "bark",
+      "candidate_url": null,
+      "status": "NOT_FOUND",
+      "confidence": "rejected",
+      "title": null,
+      "rating": null,
+      "review_count": null,
+      "member_since": null,
+      "badges": [],
+      "review_snippets": [],
+      "phone_visible": false,
+      "verification_reasons": [],
+      "identity_match_count": 0,
+      "identity_match_signals": [],
+      "homonym_url": null,
+      "search_query": "site:bark.com \"JP Electrical & Compliance ltd\" Bristol BS5 8QG BS5",
+      "probed": true,
+      "note": "candidates_exhausted"
+    },
+    {
+      "platform": "houzz",
+      "candidate_url": null,
+      "status": "NOT_FOUND",
+      "confidence": "rejected",
+      "title": null,
+      "rating": null,
+      "review_count": null,
+      "member_since": null,
+      "badges": [],
+      "review_snippets": [],
+      "phone_visible": false,
+      "verification_reasons": [],
+      "identity_match_count": 0,
+      "identity_match_signals": [],
+      "homonym_url": null,
+      "search_query": "site:houzz.co.uk \"JP Electrical & Compliance ltd\" Bristol BS5 8QG BS5",
+      "probed": true,
+      "note": "candidates_exhausted"
+    },
+    {
+      "platform": "trustpilot",
+      "candidate_url": "https://www.trustpilot.com/review/jp-electrical-compliance-ltd",
+      "status": "FOUND_FROM_SNIPPET",
+      "confidence": "low",
+      "title": null,
+      "rating": null,
+      "review_count": null,
+      "member_since": null,
+      "badges": [],
+      "review_snippets": [],
+      "phone_visible": false,
+      "verification_reasons": [],
+      "identity_match_count": 1,
+      "identity_match_signals": [
+        "exact_name"
+      ],
+      "homonym_url": null,
+      "search_query": "site:uk.trustpilot.com \"JP Electrical & Compliance ltd\" Bristol BS5 8QG BS5",
+      "probed": true,
+      "note": "snippet_unverified_single_signal"
+    },
+    {
+      "platform": "myjobquote",
+      "candidate_url": null,
+      "status": "NOT_FOUND",
+      "confidence": "rejected",
+      "title": null,
+      "rating": null,
+      "review_count": null,
+      "member_since": null,
+      "badges": [],
+      "review_snippets": [],
+      "phone_visible": false,
+      "verification_reasons": [],
+      "identity_match_count": 0,
+      "identity_match_signals": [],
+      "homonym_url": null,
+      "search_query": "site:myjobquote.co.uk \"JP Electrical & Compliance ltd\" Bristol BS5 8QG BS5",
+      "probed": true,
+      "note": "candidates_exhausted"
+    }
+  ],
+  "enrichment": {
+    "enriched_at": "2026-06-13T20:51:00.528Z",
+    "email_domain_checked": false,
+    "website_discovery_run": true
+  },
+  "lead_validity": {
+    "lead_validity_status": "INSUFFICIENT_EVIDENCE",
+    "lead_validity_reason": "Enrichment incomplete or source confidence too low",
+    "pitch_type": "manual_review",
+    "website_status": "NO_WEBSITE",
+    "website_url": null,
+    "website_discovery_classification": null,
+    "email_domain_website": null,
+    "source_confidence_summary": {
+      "overall": "medium",
+      "verified_platforms": [
+        "google_places"
+      ],
+      "rejected_platforms": [],
+      "notes": []
+    },
+    "ready_for_build": false,
+    "ready_for_design": false,
+    "ready_for_pitch": false,
+    "manual_review_required": true,
+    "has_real_website": false,
+    "truly_no_website": true,
+    "warnings": [
+      "contactability=NEEDS_MANUAL_REVIEW",
+      "no email found; UK mobile present, requires manual WhatsApp contact",
+      "Source enrichment not complete - run enrich:lead before build"
+    ],
+    "manual_asset_status": "OK",
+    "pause_before_open_design": false,
+    "manual_asset_folder": "briefs/jp-electrical-compliance-ltd/images/manual/"
+  },
+  "source_quality": {
+    "source_quality_status": "FAIL",
+    "source_quality_reason": "Source enrichment not complete",
+    "website_url_validated": true,
+    "email_domain_checked": true,
+    "enrichment_complete": false,
+    "logo_discovery_attempted": true,
+    "photo_discovery_attempted": true,
+    "directory_probes": {
+      "attempted": true,
+      "platforms_probed": 9,
+      "verified_profiles": 0,
+      "unverified_profiles": 3,
+      "blocked": []
+    },
+    "warnings": [
+      "Lead validity requires manual review",
+      "Directory probes ran but no verified third-party profiles found"
+    ],
+    "blockers": [
+      "Source enrichment not complete"
+    ]
+  }
+}

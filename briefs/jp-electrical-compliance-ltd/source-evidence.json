@@ -1,0 +1,442 @@
+{
+  "slug": "jp-electrical-compliance-ltd",
+  "gathered_at": "2026-06-13T20:51:00.528Z",
+  "attempted_sources": [
+    {
+      "platform": "google_places",
+      "status": "found",
+      "url": "https://maps.google.com/?cid=16513911354490674125"
+    },
+    {
+      "platform": "google_maps",
+      "status": "not_attempted",
+      "search_query": "JP Electrical & Compliance ltd Bristol BS5 8QG site:google.com/maps",
+      "reason": "Automated search not run in enrich pass unless URL provided"
+    },
+    {
+      "platform": "google_reviews",
+      "status": "found",
+      "url": "https://maps.google.com/?cid=16513911354490674125"
+    },
+    {
+      "platform": "google_photos",
+      "status": "found",
+      "url": "https://maps.google.com/?cid=16513911354490674125"
+    },
+    {
+      "platform": "facebook",
+      "status": "not_attempted",
+      "search_query": "JP Electrical & Compliance ltd Bristol BS5 8QG Facebook",
+      "reason": "Automated search not run in enrich pass unless URL provided"
+    },
+    {
+      "platform": "checkatrade",
+      "status": "not_attempted",
+      "search_query": "JP Electrical & Compliance ltd Bristol BS5 8QG site:checkatrade.com",
+      "reason": "Automated search not run in enrich pass unless URL provided"
+    },
+    {
+      "platform": "trustatrader",
+      "status": "not_attempted",
+      "search_query": "JP Electrical & Compliance ltd Bristol BS5 8QG site:trustatrader.com",
+      "reason": "Automated search not run in enrich pass unless URL provided"
+    },
+    {
+      "platform": "yell",
+      "status": "not_attempted",
+      "search_query": "JP Electrical & Compliance ltd Bristol BS5 8QG site:yell.com",
+      "reason": "Automated search not run in enrich pass unless URL provided"
+    },
+    {
+      "platform": "mybuilder",
+      "status": "not_attempted",
+      "search_query": "JP Electrical & Compliance ltd Bristol BS5 8QG site:mybuilder.com",
+      "reason": "Automated search not run in enrich pass unless URL provided"
+    },
+    {
+      "platform": "rated_people",
+      "status": "not_attempted",
+      "search_query": "JP Electrical & Compliance ltd Bristol BS5 8QG site:ratedpeople.com",
+      "reason": "Automated search not run in enrich pass unless URL provided"
+    },
+    {
+      "platform": "bark",
+      "status": "not_attempted",
+      "search_query": "JP Electrical & Compliance ltd Bristol BS5 8QG site:bark.com",
+      "reason": "Automated search not run in enrich pass unless URL provided"
+    },
+    {
+      "platform": "houzz",
+      "status": "not_attempted",
+      "search_query": "JP Electrical & Compliance ltd Bristol BS5 8QG site:houzz.co.uk",
+      "reason": "Automated search not run in enrich pass unless URL provided"
+    },
+    {
+      "platform": "myjobquote",
+      "status": "not_attempted",
+      "search_query": "JP Electrical & Compliance ltd Bristol BS5 8QG site:myjobquote.co.uk",
+      "reason": "Automated search not run in enrich pass unless URL provided"
+    },
+    {
+      "platform": "trustpilot",
+      "status": "not_attempted",
+      "search_query": "JP Electrical & Compliance ltd Bristol BS5 8QG site:trustpilot.com",
+      "reason": "Automated search not run in enrich pass unless URL provided"
+    },
+    {
+      "platform": "youtube",
+      "status": "not_attempted",
+      "search_query": "JP Electrical & Compliance ltd Bristol BS5 8QG site:youtube.com",
+      "reason": "Automated search not run in enrich pass unless URL provided"
+    },
+    {
+      "platform": "companies_house",
+      "status": "not_attempted",
+      "search_query": "JP Electrical & Compliance ltd site:find-and-update.company-information.service.gov.uk",
+      "reason": "Automated search not run in enrich pass unless URL provided"
+    },
+    {
+      "platform": "official_website",
+      "status": "not_attempted",
+      "search_query": "JP Electrical & Compliance ltd Bristol BS5 8QG website",
+      "reason": "Automated search not run in enrich pass unless URL provided"
+    },
+    {
+      "platform": "email_domain_website",
+      "status": "not_attempted",
+      "search_query": "https://",
+      "reason": "Automated search not run in enrich pass unless URL provided"
+    },
+    {
+      "platform": "directories",
+      "status": "not_attempted",
+      "search_query": "JP Electrical & Compliance ltd Bristol BS5 8QG plumber electrician directory",
+      "reason": "Automated search not run in enrich pass unless URL provided"
+    },
+    {
+      "platform": "local_trade_directories",
+      "status": "not_attempted",
+      "search_query": "JP Electrical & Compliance ltd Bristol BS5 8QG local directory",
+      "reason": "Automated search not run in enrich pass unless URL provided"
+    },
+    {
+      "platform": "trade_association",
+      "status": "not_attempted",
+      "search_query": "JP Electrical & Compliance ltd  association member",
+      "reason": "Automated search not run in enrich pass unless URL provided"
+    },
+    {
+      "platform": "review_aggregators",
+      "status": "not_attempted",
+      "search_query": "JP Electrical & Compliance ltd Bristol BS5 8QG reviews",
+      "reason": "Automated search not run in enrich pass unless URL provided"
+    },
+    {
+      "platform": "instagram",
+      "status": "not_attempted",
+      "search_query": "JP Electrical & Compliance ltd Bristol BS5 8QG Instagram",
+      "reason": "Requires login - manual review only"
+    },
+    {
+      "platform": "nextdoor",
+      "status": "not_attempted",
+      "search_query": "JP Electrical & Compliance ltd Bristol BS5 8QG site:nextdoor.co.uk",
+      "reason": "Requires login - manual review only"
+    },
+    {
+      "platform": "pinterest",
+      "status": "not_attempted",
+      "search_query": "JP Electrical & Compliance ltd Bristol BS5 8QG site:pinterest.com",
+      "reason": "Requires login - manual review only"
+    },
+    {
+      "platform": "tiktok",
+      "status": "not_attempted",
+      "search_query": "JP Electrical & Compliance ltd Bristol BS5 8QG TikTok",
+      "reason": "Requires login - manual review only"
+    },
+    {
+      "platform": "linkedin",
+      "status": "not_attempted",
+      "search_query": "JP Electrical & Compliance ltd Bristol BS5 8QG site:linkedin.com",
+      "reason": "Requires login - manual review only"
+    },
+    {
+      "platform": "twitter",
+      "status": "not_attempted",
+      "search_query": "JP Electrical & Compliance ltd Bristol BS5 8QG site:twitter.com OR site:x.com",
+      "reason": "Requires login - manual review only"
+    }
+  ],
+  "sources": [
+    {
+      "platform": "google_places",
+      "url": "https://maps.google.com/?cid=16513911354490674125",
+      "verified": true,
+      "verification_method": "place_id_from_gather",
+      "phone_match": true,
+      "notes": "Primary gather source"
+    }
+  ],
+  "sources_found": [
+    "google_places",
+    "google_reviews",
+    "google_photos"
+  ],
+  "sources_verified": [
+    "google_places"
+  ],
+  "strongest_proof_source": {
+    "platform": "google",
+    "metric": "5 rating, 21 reviews",
+    "url": "https://maps.google.com/?cid=16513911354490674125"
+  },
+  "best_review_details": [
+    {
+      "text": "I would highly recommend Pier from JP Electrical & Compliance Ltd for their outstanding service and professionalism. From start to finish, everything was handled smoothly, efficiently, and to a very high standard.\n\nThey carried out all the electrics for my media wall, as well as installing lights and sockets in the front and dining rooms, and the quality of their work was excellent throughout. The",
+      "author": "Dan",
+      "rating": 5,
+      "source": "google"
+    },
+    {
+      "text": "Here’s a more natural version:\n\nWe’ve used JP Electrical a lot for multiple projects, as well as work in our office and home, and they have always provided an excellent service. They are our go-to electrical engineers and a company we will continue to use time and time again.\n\nThe team are professional, attentive and always helpful. Communication is great, the quality of their work is excellent, a",
+      "author": "Soteria",
+      "rating": 5,
+      "source": "google"
+    },
+    {
+      "text": "Fantastic job by the boys Pier & Jack fitting my EV charger. Excellent service with very reasonable pricing. Job completed quickly and efficiently with all the relevant certs provided. Would 100% recommend. Thanks chaps",
+      "author": "Craig",
+      "rating": 5,
+      "source": "google"
+    }
+  ],
+  "image_source_summary": {
+    "google_photos": 9,
+    "facebook_photos": 0,
+    "directory_photos": 0,
+    "manual_photos": 0,
+    "other": 0,
+    "preferred_source": "google_places",
+    "notes": "Google Places photos preferred for gallery when high quality",
+    "priority_order": [
+      "official_website",
+      "google_places",
+      "directory",
+      "manual_asset",
+      "facebook_evidence",
+      "proof_led"
+    ]
+  },
+  "manual_review_flags": [
+    "contactability=NEEDS_MANUAL_REVIEW",
+    "no email found; UK mobile present, requires manual WhatsApp contact"
+  ],
+  "enrichment_complete": false,
+  "risks": [],
+  "manual_asset_review_recommended": false,
+  "manual_asset_status": "OK",
+  "asset_readiness": {
+    "manual_asset_status": "OK",
+    "usable_automatic_count": 9,
+    "usable_manual_count": 0,
+    "usable_total_count": 9,
+    "has_hero_candidate": true,
+    "pause_before_open_design": false,
+    "pause_message": null,
+    "layout_recommendation": "photo_led",
+    "image_slots": [
+      {
+        "slot": "hero",
+        "desired": "Best finished project photo or strong proof visual",
+        "source_status": "automatic"
+      },
+      {
+        "slot": "gallery_1",
+        "desired": "Finished work close-up or wide project shot",
+        "source_status": "automatic"
+      },
+      {
+        "slot": "gallery_2",
+        "desired": "Finished work close-up or wide project shot",
+        "source_status": "automatic"
+      },
+      {
+        "slot": "gallery_3",
+        "desired": "Finished work close-up or wide project shot",
+        "source_status": "automatic"
+      },
+      {
+        "slot": "gallery_4",
+        "desired": "Finished work close-up or wide project shot",
+        "source_status": "automatic"
+      }
+    ],
+    "manual_folder": "briefs/jp-electrical-compliance-ltd/images/manual/"
+  },
+  "image_slots": [
+    {
+      "slot": "hero",
+      "desired": "Best finished project photo or strong proof visual",
+      "source_status": "automatic"
+    },
+    {
+      "slot": "gallery_1",
+      "desired": "Finished work close-up or wide project shot",
+      "source_status": "automatic"
+    },
+    {
+      "slot": "gallery_2",
+      "desired": "Finished work close-up or wide project shot",
+      "source_status": "automatic"
+    },
+    {
+      "slot": "gallery_3",
+      "desired": "Finished work close-up or wide project shot",
+      "source_status": "automatic"
+    },
+    {
+      "slot": "gallery_4",
+      "desired": "Finished work close-up or wide project shot",
+      "source_status": "automatic"
+    }
+  ],
+  "email": null,
+  "email_found": false,
+  "email_domain_checked": false,
+  "email_domain_website": null,
+  "website_discovery": null,
+  "website_status": "NO_WEBSITE",
+  "truly_no_website": null,
+  "logo_found": false,
+  "logo_path": null,
+  "facebook_url": null,
+  "facebook_verified": false,
+  "source_verifications": [
+    {
+      "platform": "google_places",
+      "url": "https://maps.google.com/?cid=16513911354490674125",
+      "confidence": "medium",
+      "verified": true,
+      "verification_reasons": [
+        "Business name matches or clearly aliases Google listing",
+        "Location or service area matches Google address/city"
+      ],
+      "matches": {
+        "phone": false,
+        "email": false,
+        "website": false,
+        "business_name": true,
+        "location": true,
+        "service_trade": false,
+        "logo": false
+      },
+      "rejected_reason": null
+    }
+  ],
+  "source_confidence": {
+    "overall": "medium",
+    "verified_platforms": [
+      "google_places"
+    ],
+    "rejected_platforms": [],
+    "notes": []
+  },
+  "image_manifest": [
+    {
+      "local": "images/01-places.webp",
+      "source": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3l-u4-foS_ylZ0REANRvxY5ZsqSgEzHw-xuQF7VS9xl-OiMXwqhte2qNQ4JZQqFNYqE0daQKOJw9QISQ4vaoMoIMTDAlP5IhBP4cZVdCJB8qYvhVaoc38jdg9nPFo6kdkQ9HaC1xxjf7kfHsMzC6r7pm9fZBIkopCeenYWGpzIc8tp_Nz_pHhTZFU6kwhcrPHGjctvD7wUOWMrGOoI5qlGPH8pFbk3ZZu_NUa8Ez1_GZL_MOwXgdRV0xDeyzO1KTUHtLlZpIcH48DQDAIkyMqqNS00F0k0_U7aCoJAToHWwNi8gbrMK9CsAhRkGlmTnlhk9bksQfLQjatUful6abnIUSK11APzYml5MV6_R0yeMcPPlffVyFMvZKx7FxEHs9RYo4MdK1eIrIybWfoMvo2ixgT_DQSi2MeOp3RwVuMilp9FLxKNob2erSJuiti9C&key=REDACTED",
+      "source_type": "google_places",
+      "confidence": "medium",
+      "purpose": "gallery",
+      "selected": true,
+      "reason": "Default from gather"
+    },
+    {
+      "local": "images/02-places.webp",
+      "source": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3nHmb3LkGfgkAeyFXYymU-egFDgbz6vaTDattD9xKdew2XXPagNISdtOd1z2_O-rYFAGfwFCVdQEvvLYELG62SqS45za4BEGI-t1qJvIeTWNcG0AN1SaeeFzbla8jau8DsA-qkh1P9YqQqALSOdofafXXTwanRTKY_qfjV-A6veVqB5qYrv7OEmntqQcbn0PCsAQ7LOXe69aUTjqtE9XVgOn2JrCesTlpLwvvVcrzlz5MdEMVlxcSsi3i7FVcEGENtvOsrg1KGc9JQCXyA0W2hHskxbdf9lNd6tnhw23pgktZS5AJGZChjsCATJb85lTfsauyU_HYpZcxqRRtV_sxNvrBWRtcC9N5GMWIYCl6YvRL8_roCb1F52rYYTlPcGkuT_XqaIMi7ES3Mon2kq71W-Xcvjxb0Z5vs3NEjAm9787fA_7vTxcSjmhPfS3QXp&key=REDACTED",
+      "source_type": "google_places",
+      "confidence": "medium",
+      "purpose": "gallery",
+      "selected": true,
+      "reason": "Default from gather"
+    },
+    {
+      "local": "images/04-places.webp",
+      "source": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3nao0LHioURTQu-6Jz2KIUVF00Elx13pfnJoyocEtMXblpTbJipiA0yItF82vsXjgYG9eBZQhknF57BcZ0cCdwPhrTMCcygDLa00l_8Q2OLsauHu3ynbBBsW14JUeZO3PHfs1GIeN2kjRWcv0Q2lhHXm4l_bpkA9_VOchG6mIEs7aDl3QTq2IE4_bhjNl1u3o7GCC0tKEJvNLEVcyfUU0_W2We6GmDXqAfPd16qOh4pbNh2SF-AWEddNYsEl14B0pyGJALumTQgImw9Oprz9W1s9RcPgCoApgnS_PKTKaNgMiinEgtzo1Lvnn1pT-0fLewwjt3gvO2l96nW6dBk7O5pqTTrpQvMys7aXGqFLPqm1OkBVMM2g7mhOVFTiu8U_NcOYvliD21jdIBP-6YeOfm9fg6COA8fYf3NatBniLu2bG9eiptuJf2VJJpDDEeD&key=REDACTED",
+      "source_type": "google_places",
+      "confidence": "medium",
+      "purpose": "gallery",
+      "selected": true,
+      "reason": "Default from gather"
+    },
+    {
+      "local": "images/05-places.webp",
+      "source": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3nFD8GaLIpOVBgmV6eeO4KmWgzLy1AoXSJQoChi7d1gcSVHA3x_F32uZd2hQZe50hrfgUlQqQs7vNI4FQs6pLNmPzK1DsIOrfG8_kVK3pqDPYp-MLUQczJplgMzojiwhzef5h1YE87EYNtCJsLbE7lvmVDshYxAVqHq75TllF3i6KN_pEL1gCfpj8EHkBOHuU5MztufAZ-1lt5sWf-6ixG8KwNOFj4vgcefgLloJMepzFfuQ75Qo1lMNvRrmRqs_AB8kVebN7tfFUy6JDBpiNGkpJSa2xsgaTvKW4T_3SwglcWLqkQ-Qc5FWJ0CvkN-VYD_vquxBN1mGK0YnmCLsKtT-ogM5VT5_mDCu-RrxucIwR_N5K2LYhWynKKijW_B-mkPnjYbXEsfDB6Jd1TlL2cS-SOeB2JX1uuvN_9yj2bFvcspKAmyyDXaxKqwfQ&key=REDACTED",
+      "source_type": "google_places",
+      "confidence": "medium",
+      "purpose": "gallery",
+      "selected": true,
+      "reason": "Default from gather"
+    },
+    {
+      "local": "images/06-places.webp",
+      "source": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3kVy7nnJX0Q65NgmZwqyayFG0uc3cnR5ZqtomQN5Oo3nW1TDzrYvhn4I8MYf7fPaMXqvl2Beg2XsApkHU-PgDbhTlnDu4jIjKaxukMeklDbAbYlbO7HA4iEeN2u9esaBl_qXZGH40AdpZQ3ZZT8bqhnzkac4JAN_oxycKqSKiJpbudYu2iR9zpbwzoVDMSpODWFUvOO4M7yV-TF7qqWJsSV1wa7HDQWEXX6i2jU6Nc9oTdXDmuzjgYPNiT0zVCTDjUJ--Tzzz2Fiya4gUygYL7JU5aGFSDQcfeQij17RaFQmukIr2f4kp1V394epNpe_l9z8Sh1ah6S1p20Cent_frNveQeiTQIDL6kWpe-t_4GZUOHX6qAvPFNdG-KG-hf2STxOml1dMNkD_Y1K0-ZS9NkMEWMnDXW0Mkrlosrw2spSadUHlBk-S2tkDVVeQ&key=REDACTED",
+      "source_type": "google_places",
+      "confidence": "medium",
+      "purpose": "gallery",
+      "selected": true,
+      "reason": "Default from gather"
+    },
+    {
+      "local": "images/07-places.webp",
+      "source": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3kzxO7z8Vx2rwEP8uyUqbr1bb0cmXDgLMD-US1etpdBekwq_dylw2LciI8xBY5rswiH5cJ145tLUroblkRhO1RNGDxAJvE1UurLaaZVaY3k3OA2chu63UyPAPNFvJZM6gj04RA3YJAeQ2vb1MPRf2l_HEySsTRKntcR-8Z5LO9mgrILlWOLyTl-WNQgdwkutCkUYkH4BMb52oSQbmhluYFh32vJRkWIBUJv2Cy3glx353KlR_6u3YGHjdD1t81KYER-t8ltLk6BoOetv09_NV1AYiP1hqf_iT3S_gOvFaM-Pf9ro1aoPczTe9iY1rx2hCUzfv75HVqYcz1_hzCs1_qiJW5q2X-seNjbVPXgZrKiC5hOMMhZ9S9eYS-p0JNiMP8Ih7oBF5arRyA4704vqIYbxhnzkGp7foMBNOmvvwh-gju5n5FonI977OvhJQ&key=REDACTED",
+      "source_type": "google_places",
+      "confidence": "medium",
+      "purpose": "gallery",
+      "selected": true,
+      "reason": "Default from gather"
+    },
+    {
+      "local": "images/08-places.webp",
+      "source": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3nS0nS5dgD5JLx-NGxhIfdH04YzElUChJqRG-X_px4sv172wbXGyH4FRem1p2w-9Eu5LzpeqogmLsNRcuyO8DbhNvCRXSTWhnYrIQxbCRcp2ikmskP9QVqwR_UENog4RATJtUBt9RbWraE8tjVfu6r-Cf0giEZytr_N3OoIoiSat-OMG7XWqe0cTowZxUZw0af3gSbTluo3X4a144WfxEYKFh99KSmVEh17cQKe9gPe9x9yKVx-f0GFffmw9eHb3k4F9EbV9Q2TO43DajgRYkcp0k0y-Ow69OjN1PjDRvqa7A03hoacfDhe2wVn--PkttYsZvicNRfB4FVKOoneDsyhX8evBCpjBJeGPTnrakkFvrY42a0fbcyvIwDjuqSSQRXHqYvIM82EJVgEEEXhDTLmLWnTnMIH_bfVgYF0WL-1xNW2SmfN_J12qevfJA&key=REDACTED",
+      "source_type": "google_places",
+      "confidence": "medium",
+      "purpose": "gallery",
+      "selected": true,
+      "reason": "Default from gather"
+    },
+    {
+      "local": "images/09-places.webp",
+      "source": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3nfneskPGdy7NLbXjnw7A2eKAud2-ejlAQoMhdj_X6w8X_Nyvl3g06C3CfFgKYXwhHVZNR-tC-RUq6SVMpBy3LTKK_YmK3J6u0asyB0g3Quar306se4-y_igDzCzu8Tn9HlY9D3XIA_ebdrK9zvsZYPjjUGIm39-T7jMqhwKFSLvcqd129Yp032joYcCW0-l_6a7i2ioloDkWXl2dGAuxask9NsC1iAJUjUE2KDyM80fwGDd_2Ccf7UYy6-SWjRL-CdbByVqiGkNgkm2cRU7y4IyBVoBqP1z1VhzeWzc7rPZXqJoiUkqTmcbJV7tRjH_e5K-LhFPOcXPKBKdFOm4vCHR9kOxL9fySfx9mFr9he_N6iM6a30kxQU_qXu_kbpgS7YiR3wXck9NDBlju58VNb6aytbOevCVpm9QPWVxTn-UWp871Bm8nbVteEyJghM&key=REDACTED",
+      "source_type": "google_places",
+      "confidence": "medium",
+      "purpose": "gallery",
+      "selected": true,
+      "reason": "Default from gather"
+    },
+    {
+      "local": "images/10-places.webp",
+      "source": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3m3KErzHay5ZBKnkgaIS_IGGSaNUmc8j4klQTMNmrTGaLI7JrpNRPgiBkkfwBGgty4_0_jfngjYzWl5T9HzbPHH5FByRK6jsKQxD42xjZKsX0hFFC3aH_qvhcHY-cfiH3O9XFp-sdBApB0YG8xgkX2XrbOfwZ3ynSvt7VTI9iwfrXTOXzg_OgnGo9erRDaSCXXjSnvhOqADXcpJBI_7uMrDcbukRnL8gyhc8ebTdkvpSzP7nHmkcbMKb5TJo5zS9pPw-dKqNMf9rquQPOgde3yHJDQFx79A65VvhxoJOWzWLd5rQE-fyEpTn-n48jtd_Ky2HZHUi8qSnncC6kXfr9j1sgIbZyW-HspCtKMbah8JPmLlMKZtWyC8mJeKUBoJ-mE8KeFfoCXqKCBfS6G8SgeydY5dvhuDQAS5kYkdmaaQ6_OY-128RcRYyq6Lbg&key=REDACTED",
+      "source_type": "google_places",
+      "confidence": "medium",
+      "purpose": "gallery",
+      "selected": true,
+      "reason": "Default from gather"
+    }
+  ],
+  "selected_images": [
+    "images/01-places.webp",
+    "images/02-places.webp",
+    "images/04-places.webp",
+    "images/05-places.webp",
+    "images/06-places.webp",
+    "images/07-places.webp",
+    "images/08-places.webp",
+    "images/09-places.webp",
+    "images/10-places.webp"
+  ],
+  "lead_validity_status": null,
+  "ready_for_build": null,
+  "registry_source_count": 28
+}

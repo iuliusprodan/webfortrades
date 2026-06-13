@@ -1,0 +1,93 @@
+{
+  "slug": "jp-electrical-compliance-ltd",
+  "generic_plan": false,
+  "rhythm": "hero -> proof marquee -> what they're known for (stats inline) -> services -> who you deal with -> gallery -> reviews -> process -> coverage -> contact",
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "headline_intent": "Trade-led: electrician + Bristol + the compliance/certified angle. Not a quote, not a backstory.",
+      "image": "02-places.webp",
+      "image_reason": "Labelled, certified consumer unit with a visible inspection/alarm record and dated board - finished, well-lit, no people, no clutter, and it embodies the compliance/EICR angle.",
+      "cta_primary": "Get a quote -> #quote",
+      "cta_secondary": "Call Pier, 07803 541347",
+      "proof_chip": "5.0 on Google, 21 reviews"
+    },
+    {
+      "id": "proof-strip",
+      "type": "marquee",
+      "items_source": "5.0 Google rating; 21 reviews; Bristol BS5; EICRs done within a week [src:reviews.Sandi]; Certificates handed over [src:reviews.Craig]; Pier & Jack on every job",
+      "loop": "duplicated track, translateX(-50%), linear, animates on all viewports"
+    },
+    {
+      "id": "the-difference",
+      "type": "content-rows + stats",
+      "rows": 3,
+      "rows_intent": [
+        "Certified and signed off - EICRs and the relevant certs handed over [src:reviews.Sandi][src:reviews.Craig]",
+        "Boards and circuits done properly - labelled consumer units, neat work [src:photos.01][src:photos.02][src:reviews.Dan]",
+        "Two electricians who turn up, finish on time, leave it tidy [src:reviews.Dan][src:reviews.Poppy]"
+      ],
+      "stats_inline": [
+        { "num": "5.0", "label": "Google rating" },
+        { "num": "21", "label": "Google reviews" },
+        { "num": "7 days", "label": "Reachable, incl. emergencies" }
+      ],
+      "stats_note": "All sourced (Google rating, review count, sourced opening hours = 24/7 in brief). No invented numbers, no photo counts."
+    },
+    {
+      "id": "services",
+      "type": "services",
+      "items_source": "Real, evidenced electrical services - NOT the broad Google categories",
+      "items": [
+        "EICR & electrical testing [src:reviews.Sandi]",
+        "Consumer unit / fuse board upgrades [src:photos.01][src:photos.02]",
+        "EV charger installation [src:reviews.Craig][src:photos.05][src:photos.06]",
+        "Rewires & new circuits [src:reviews.Dan][src:photos.04]",
+        "Fault-finding & repairs [src:reviews.Poppy]"
+      ]
+    },
+    {
+      "id": "team",
+      "type": "owner-note (first-person, Pier & Jack)",
+      "heading": "Who you deal with",
+      "voice": "first-person plural (we / Pier and Jack)",
+      "source": "[src:brief.contact_name][src:reviews.Craig][src:reviews.Sandi][src:reviews.Poppy]"
+    },
+    {
+      "id": "gallery",
+      "type": "gallery",
+      "layout": "masonry 1/2/3 cols",
+      "images": ["04-places.webp", "05-places.webp", "06-places.webp", "01-places.webp", "08-places.webp"],
+      "excluded": ["09-places.webp (WIP, tools/debris on ground)", "10-places.webp (mid-replacement, drill/light/step-stool)", "07-places.webp (floor clutter in commercial shot)"],
+      "captions": "Neutral, Bristol; never invent customer/location"
+    },
+    {
+      "id": "reviews",
+      "type": "reviews",
+      "count": 4,
+      "single_section": true,
+      "attribution": "First name + 'Google review'; named people (Pier/Pierre, Jack) match brief.contact_name / review bodies"
+    },
+    {
+      "id": "process",
+      "type": "process",
+      "steps": 4,
+      "intent": ["Call / message", "We come and assess", "Work done to standard", "Certified, signed off, left tidy"]
+    },
+    {
+      "id": "areas",
+      "type": "coverage",
+      "map": "keyless Google Maps iframe, q=Bristol BS5 (outward only, no street, no inward postcode)",
+      "districts": ["Easton", "Whitehall", "Redfield", "St George", "Barton Hill", "Eastville", "Fishponds", "Kingswood", "Bedminster", "Clifton", "Bishopston", "Brislington"],
+      "hours": "Reachable seven days a week, including emergencies (brief: open 24 hours)"
+    },
+    {
+      "id": "quote",
+      "type": "contact (two-col, dark navy ink)",
+      "left": "heading + framing + phone (click-to-call) + base + hours",
+      "right": "QuoteForm (presentational only)",
+      "job_types": ["EICR / testing & inspection", "Consumer unit upgrade", "EV charger", "Rewire / new circuits", "Fault-finding / repair", "Other"]
+    }
+  ]
+}
