@@ -128,6 +128,43 @@ export function evaluatePitchReadiness(
     }
   }
 
+  // Clone-review gate: a site that reads as a template clone of prior builds must not pitch.
+  const cloneReviewPath = path.join(root, "briefs", slug, "clone-review.json");
+  if (fs.existsSync(cloneReviewPath)) {
+    const clone = JSON.parse(fs.readFileSync(cloneReviewPath, "utf8")) as {
+      passed?: boolean;
+      clone_score?: number;
+    };
+    if (clone.passed === false) {
+      blockers.push(
+        `clone-review failed (clone_score=${clone.clone_score ?? "?"}); site too similar to other builds`
+      );
+    }
+  }
+
+  // Source-quality gate: the lead's source enrichment must clear the quality bar.
+  // FAIL is a hard blocker; NEEDS_MANUAL_REVIEW blocks unless --allow-manual-review.
+  const sourceQualityPath = path.join(root, "briefs", slug, "source-quality.json");
+  if (fs.existsSync(sourceQualityPath)) {
+    const sourceQuality = JSON.parse(fs.readFileSync(sourceQualityPath, "utf8")) as {
+      source_quality_status?: string;
+      source_quality_reason?: string;
+    };
+    const status = sourceQuality.source_quality_status;
+    const reason = sourceQuality.source_quality_reason ?? "source enrichment incomplete";
+    if (status === "FAIL") {
+      blockers.push(`source-quality FAIL (${reason})`);
+    } else if (status === "NEEDS_MANUAL_REVIEW") {
+      if (!options?.allowManualReview) {
+        blockers.push(`source-quality NEEDS_MANUAL_REVIEW (${reason})`);
+      } else {
+        warnings.push(
+          "source-quality NEEDS_MANUAL_REVIEW; manual review override active"
+        );
+      }
+    }
+  }
+
   return {
     ready: blockers.length === 0,
     blockers,

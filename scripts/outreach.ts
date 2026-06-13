@@ -1,8 +1,16 @@
+import "./config_guard.js"; // ARCH-7: config.yaml read-only at runtime
 import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { parse as parseYaml } from "yaml";
-import { getLeadBySlug, getNextDeployedLead, logWhatsAppSend, updateLead, type Lead } from "./db.js";
+import { assertConfigUnchanged } from "./config_guard.js";
+import {
+  getLeadBySlug,
+  getNextDeployedLead,
+  updateLead,
+  type Lead,
+  type WhatsAppStatus,
+} from "./db.js";
 import {
   buildOutreachPlan,
   draftForTouch,
@@ -15,18 +23,7 @@ import {
 } from "./outreach_sequence.js";
 import { assertOutreachPayloadValid } from "./outreach_message_format.js";
 import { isScrollVideoEnabled } from "./site_config.js";
-import { isWhatsAppCandidate } from "./phone_utils.js";
-import {
-  disableSendingEnabled,
-  formatTestWhatsAppMessage,
-  requireTestRecipientNumber,
-} from "./test_recipient.js";
-import {
-  checkWhatsAppAvailable,
-  loadEnv,
-  sendWhatsAppMessage,
-  type WhatsAppCheckResult,
-} from "./whatsapp_gateway.js";
+import { isUkMobileCandidate } from "./lib/uk_mobile.js";
 import {
   contactabilityBlocksPipeline,
   printContactabilitySummary,
@@ -38,16 +35,12 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.join(__dirname, "..");
 
 interface Config {
-  approval_mode: string;
   outreach: {
     from_name: string;
     from_email: string;
     agency_name: string;
     primary_channel: string;
-    whatsapp_mode: string;
-    whatsapp_check_enabled: boolean;
     sending_enabled: boolean;
-    test_recipient_only?: boolean;
     sequence_touches: number;
   };
 }
@@ -58,39 +51,43 @@ function loadConfig(): Config {
 
 function parseArgs(): {
   slug?: string;
-  send?: boolean;
   allowManualReview?: boolean;
+  help?: boolean;
 } {
   const args = process.argv.slice(2);
   let slug: string | undefined;
-  let send = false;
   let allowManualReview = false;
+  let help = false;
   for (let i = 0; i < args.length; i++) {
     if (args[i] === "--slug" && args[i + 1]) slug = args[++i];
-    else if (args[i] === "--send") send = true;
     else if (args[i] === "--allow-manual-review") allowManualReview = true;
+    else if (args[i] === "--help" || args[i] === "-h") help = true;
   }
-  return { slug, send, allowManualReview };
+  return { slug, allowManualReview, help };
 }
 
-function approvalRequiresSend(mode: string): boolean {
-  return mode.includes("ask_before_send") || mode === "ask_both";
+function printUsage(): void {
+  console.log(`outreach.ts — print the next-touch outreach draft for a deployed lead.
+
+ARCH-5: WhatsApp is permanently manual. This tool NEVER sends anything. It prints the
+next-touch draft (WhatsApp or email) to stdout so you can review and copy/paste it by hand.
+
+Usage:
+  tsx scripts/outreach.ts [--slug <slug>] [--allow-manual-review]
+  tsx scripts/outreach.ts --help
+
+Options:
+  --slug <slug>           Target a specific lead by slug (default: next DEPLOYED lead).
+  --allow-manual-review   Permit a lead in NEEDS_MANUAL_CONTACT to produce a draft.
+  --help, -h              Show this help and exit.`);
 }
 
-async function resolveWhatsAppCheck(lead: Lead): Promise<WhatsAppCheckResult> {
-  if (!isWhatsAppCandidate(lead.phone)) {
-    return { status: "unavailable", checked: true, detail: "not_a_mobile" };
-  }
-
-  if (lead.whatsapp_status === "available" || lead.whatsapp_status === "unavailable") {
-    return {
-      status: lead.whatsapp_status,
-      checked: true,
-      detail: null,
-    };
-  }
-
-  return checkWhatsAppAvailable(lead.phone!);
+/**
+ * ARCH-5: there is no network availability check any more. A UK-mobile-shaped number is a
+ * manual-WhatsApp candidate ("available" for sequencing); anything else is "unavailable".
+ */
+function resolveWhatsAppStatus(lead: Lead): WhatsAppStatus {
+  return isUkMobileCandidate(lead.phone) ? "available" : "unavailable";
 }
 
 function whatsappAvailableInt(status: string): number | null {
@@ -136,8 +133,14 @@ function printDraft(draft: ReturnType<typeof draftForTouch>): void {
 }
 
 async function main(): Promise<void> {
-  const { slug, send, allowManualReview } = parseArgs();
+  const { slug, allowManualReview, help } = parseArgs();
+  if (help) {
+    printUsage();
+    return;
+  }
+
   const config = loadConfig();
+  assertConfigUnchanged("outreach");
   const lead = slug ? getLeadBySlug(slug) : getNextDeployedLead();
 
   if (!lead?.slug) {
@@ -193,33 +196,21 @@ async function main(): Promise<void> {
   }
 
   const brief = JSON.parse(fs.readFileSync(briefPath, "utf8")) as BriefLike;
-  const waCheck = await resolveWhatsAppCheck(lead);
+  const waStatus = resolveWhatsAppStatus(lead);
   const contactability = qualifyContactability({
     email: lead.email ?? brief.email ?? null,
     phone: lead.phone,
-    whatsappCheck: waCheck,
   });
 
   console.log("");
   printContactabilitySummary(lead.business_name, lead.phone, contactability);
   console.log("");
 
-  if (contactability.contactability_status !== "CONTACTABLE") {
-    console.error(
-      `Outreach refused: ${contactability.contactability_reason}`
-    );
-    process.exit(1);
-  }
-
-  const plan = buildOutreachPlan(lead, brief, waCheck.status);
+  const plan = buildOutreachPlan(lead, brief, waStatus);
 
   console.log(`\nOutreach plan: ${lead.business_name} (${lead.slug})`);
-  console.log(`sending_enabled: ${config.outreach.sending_enabled} (outbound only)`);
-  console.log(`test_recipient_only: ${config.outreach.test_recipient_only === true}`);
-  console.log(`whatsapp_check_enabled: ${config.outreach.whatsapp_check_enabled}`);
   console.log(`Primary channel setting: ${config.outreach.primary_channel}`);
-  console.log(`WhatsApp mode: ${config.outreach.whatsapp_mode}`);
-  if (waCheck.detail) console.log(`WhatsApp check detail: ${waCheck.detail}`);
+  console.log("(draft-only: this tool prints drafts for manual send; it never sends)");
   console.log("");
 
   for (const line of printSequenceSummary(plan)) {
@@ -230,13 +221,11 @@ async function main(): Promise<void> {
     updateLead(lead.id, {
       state: plan.suggestedState,
       phone_type: plan.phoneType,
-      whatsapp_status: waCheck.status,
-      whatsapp_available: whatsappAvailableInt(waCheck.status),
-      whatsapp_checked_at: new Date().toISOString(),
+      whatsapp_status: waStatus,
+      whatsapp_available: whatsappAvailableInt(waStatus),
+      whatsapp_checked_at: null,
       primary_outreach_channel: null,
-      notes: [lead.notes, plan.blockedReason, waCheck.detail ? `wa_check=${waCheck.detail}` : null]
-        .filter(Boolean)
-        .join("; "),
+      notes: [lead.notes, plan.blockedReason].filter(Boolean).join("; "),
     });
     console.log(`\nLead marked ${plan.suggestedState}. No drafts created.`);
     return;
@@ -285,7 +274,7 @@ async function main(): Promise<void> {
 
   if (plan.needsManualReview) {
     console.log(
-      "\nManual review: whatsapp_status=unknown. Email draft shown. Verify WhatsApp manually before switching channels."
+      "\nManual review: verify WhatsApp manually before switching channels."
     );
   }
 
@@ -300,90 +289,16 @@ async function main(): Promise<void> {
     phone_type: plan.phoneType,
     owner_first_name: plan.ownerFirstName,
     contact_name: plan.contactName,
-    whatsapp_status: waCheck.status,
-    whatsapp_available: whatsappAvailableInt(waCheck.status),
-    whatsapp_checked_at: new Date().toISOString(),
+    whatsapp_status: waStatus,
+    whatsapp_available: whatsappAvailableInt(waStatus),
+    whatsapp_checked_at: null,
     primary_outreach_channel: plan.primaryChannel,
-    notes: [
-      lead.notes,
-      plan.blockedReason,
-      waCheck.detail ? `wa_check=${waCheck.detail}` : null,
-    ]
-      .filter(Boolean)
-      .join("; "),
+    notes: [lead.notes, plan.blockedReason].filter(Boolean).join("; "),
   });
 
-  if (approvalRequiresSend(config.approval_mode) && !send) {
-    console.log(
-      `\nPaused: approval_mode="${config.approval_mode}". Review the draft above.`
-    );
-    console.log(
-      "Live sending is disabled. Re-run with --send only after sending_enabled is true."
-    );
-    return;
-  }
-
-  if (send) {
-    if (!config.outreach.sending_enabled) {
-      console.error(
-        "\nOutbound sending is blocked. Set outreach.sending_enabled: true in config.yaml."
-      );
-      process.exit(1);
-    }
-
-    if (draft.channel === "email") {
-      if (config.outreach.test_recipient_only) {
-        console.log(`Would contact (email): ${draft.to || lead.email || "(none)"}`);
-        console.log("Email not sent (test_recipient_only=true).");
-        return;
-      }
-      console.error("\nEmail sending is not implemented yet.");
-      process.exit(1);
-    }
-
-    const testMode = config.outreach.test_recipient_only === true;
-    const env = { ...process.env, ...loadEnv() };
-
-    if (testMode) {
-      const testNumber = requireTestRecipientNumber(env);
-      console.log(`Would contact (WhatsApp): ${draft.to || lead.phone || "(none)"}`);
-      console.log(`Test send target: MY_OWN_TEST_NUMBER only`);
-
-      const message = formatTestWhatsAppMessage(lead.business_name, draft.text);
-      await sendWhatsAppMessage(testNumber, message, touch);
-      logWhatsAppSend(lead.id, touch);
-
-      updateLead(lead.id, {
-        state: "PITCHED",
-        last_touch: touch,
-        notes: [
-          lead.notes,
-          `test_whatsapp_sent_to=MY_OWN_TEST_NUMBER`,
-          `would_contact_whatsapp=${lead.phone ?? ""}`,
-        ]
-          .filter(Boolean)
-          .join("; "),
-      });
-
-      console.log("\nTest WhatsApp message sent to MY_OWN_TEST_NUMBER only.");
-      console.log("Actual business was not contacted.");
-
-      if (disableSendingEnabled()) {
-        console.log(
-          "sending_enabled reset to false in config.yaml after test send."
-        );
-      } else {
-        console.warn(
-          "WARNING: Set outreach.sending_enabled back to false in config.yaml now."
-        );
-      }
-      return;
-    }
-
-    console.error("\nLive WhatsApp sending to business numbers is not enabled.");
-    console.error("Set outreach.test_recipient_only: true for safe test sends.");
-    process.exit(1);
-  }
+  console.log(
+    "\nDraft printed above. Copy/paste to send manually (ARCH-5: no automated sending)."
+  );
 }
 
 const isMain =
