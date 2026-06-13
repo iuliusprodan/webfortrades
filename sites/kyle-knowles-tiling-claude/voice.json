@@ -1,0 +1,33 @@
+{
+  "slug": "kyle-knowles-tiling",
+  "extends": "CLAUDE.md banned-phrase reference + scripts/copy_voice_constants.ts (authoritative). This file adds lead-specific decisions only.",
+  "register": "plain, grounded, confident-without-boasting British English; tradesperson talking straight to a homeowner. Short sentences. Concrete nouns (floors, grout, set-out, levelling), not adjectives.",
+  "naming": {
+    "use_name": "Kyle",
+    "decision": "Use Kyle's first name freely in copy. Basis: the business is 'Kyle Knowles Tiling' and Kyle is named in 4 of 5 reviews. This deliberately overrides brief.json contact_name_usage_allowed=false (that flag guards against using an UNKNOWN name lifted from review text; Kyle is the named proprietor in the business name itself).",
+    "third_vs_first_person": "Default to a light third person ('Kyle levels the floors...'). A first-person line is allowed only if strictly factual (no invented backstory, no specific years). Do not write an owner-monologue: there is no self-description from Kyle in evidence."
+  },
+  "the_angle": {
+    "name": "the fitter others call when it's too complex",
+    "how_to_use": "Lead with it, state it as fact, never as a put-down of named competitors. Frame: Kyle takes the difficult and the abandoned jobs. Anchored to reviews[1] (Luca, previous tiler went AWOL) and reviews[2] (Stephanie, 'too complex' for the other fitter). Acceptable phrasings: 'the job another fitter turned down', 'picked up where a previous tiler walked off', 'the patterns others call too complex'. Do not invent the competitor or the outcome beyond what the two reviews state."
+  },
+  "proof_rules": {
+    "google": "State exactly: '4.9 on Google' and '43 Google reviews' (both sourced=true in brief.json). '40+ reviews' is an acceptable evergreen variant. Attribute the rating to Google.",
+    "no_other_proof": "Do NOT cite Yell / MyBuilder / Trustpilot - those probes are low-confidence, exact-name-only, unverified (brief.json directory_probes). Do NOT claim any certification, membership, insurance, or 'qualified/certified' - none verified.",
+    "experience": "Laura's review says 'many years of experience'. You may say 'years of experience' softly as a customer observation, but never a specific number of years and never as a first-person claim."
+  },
+  "review_attribution": "First name + 'Google review' (e.g. 'Stephanie, Google review'). No surnames (none known). Never use a reviewer's first name as a section headline (the 'Steve' anti-pattern).",
+  "banned_for_this_business": [
+    "any phrase on the CLAUDE.md / copy_voice_constants.ts lists (generic, provenance, meta-provenance, stat sub-labels)",
+    "'tiling sorted', 'tiling done properly', 'tiling done right' as a hero/standalone slogan (generic-trade filler)",
+    "'your trusted/local tiling experts' and relatives",
+    "'no job too big or small'",
+    "claiming areas beyond Manchester / Openshaw / East Manchester / M11",
+    "the street address (51 Lees St) anywhere public",
+    "first-person claims of qualifications, insurance, or years trading",
+    "meta lines like 'customers mention' / 'reviews describe' - state the thing directly instead"
+  ],
+  "allowed_words_from_reviews_in_quotes_only": "Words like 'professional', 'expert', 'amazing', '10/10' appear in real review text. They are fine INSIDE attributed verbatim quotes, but must NOT appear in Kyle's own/site prose (CLAUDE.md salesy ban).",
+  "punctuation": "No em/en dashes anywhere. Use ' - ', comma, or full stop. British spelling (levelling, colour, tiled).",
+  "cta_language": "Quote-only sticky and primary CTA: 'Get a quote'. Secondary: 'Call Kyle' / the number. Never put the phone in the sticky CTA (sticky_cta check)."
+}

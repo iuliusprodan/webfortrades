@@ -1,0 +1,97 @@
+{
+  "slug": "kyle-knowles-tiling",
+  "generic_plan": false,
+  "layout_note": "Single-column, built on an implied tile-module grid; sections divided by thin grout-grey rules (the structural signature). Boldness spent on the 'jobs others turn down' angle block and the deep-teal accent; everything else quiet.",
+  "sections": [
+    {
+      "id": "header",
+      "type": "sticky-header",
+      "purpose": "Wayfinding + persistent quote CTA.",
+      "evidence_anchors": ["brief.json business_name", "brief.json phone"],
+      "copy_intent": "Text wordmark 'Kyle Knowles Tiling'; nav: Work, Reviews, Areas; one button 'Get a quote'. No phone in the bar on mobile.",
+      "visual_intent": "Quiet solid header, grout-grey hairline underneath. Mobile: wordmark + hamburger only (no phone, no >2 links) per mobile_header check."
+    },
+    {
+      "id": "hero",
+      "type": "trade-led-hero-with-photo",
+      "priority": 1,
+      "purpose": "State trade + location + the complex-job angle in one line; show real finished work; surface the only citable proof.",
+      "evidence_anchors": ["reviews[2] Stephanie (too complex)", "reviews[1] Luca (stepped in)", "google_rating 4.9 / google_review_count 43", "address -> Manchester M11", "photos[1] 02-places.webp 1600x900 landscape"],
+      "copy_intent": "Headline = trade-led positioning on the too-complex angle (not a quote). Subhead = difficult floors + intricate work others pass on + 4.9/43 proof. CTAs: Get a quote (primary, #quote), Call (secondary).",
+      "visual_intent": "Full-bleed best landscape project photo (02-places) under a wet-slate ink scrim for legibility; Bricolage Grotesque headline, deep-teal primary button; small proof chip '4.9 on Google, 43 reviews'."
+    },
+    {
+      "id": "the-difference",
+      "type": "signature-positioning-block",
+      "priority": 2,
+      "purpose": "The one memorable thing: Kyle takes the jobs other fitters refuse or abandon, and levels the floors no one else will. This is where boldness is spent.",
+      "evidence_anchors": ["reviews[1] Luca (previous tiler went AWOL)", "reviews[2] Stephanie (too complex)", "reviews[0] Laura + reviews[3] Paulo (uneven/levelling)"],
+      "copy_intent": "2-3 short, concrete statements of the specialism, stated plainly and factually (no boast adjectives). Each tied to a real situation: rescue jobs, complex layouts, difficult subfloors.",
+      "visual_intent": "Stone-grey section, large Bricolage Grotesque statements separated by grout-line rules; deep-teal used once on a key phrase. No icons."
+    },
+    {
+      "id": "services",
+      "type": "evidence-based-services",
+      "priority": 3,
+      "purpose": "Name the 3-4 real services from evidence with specific, grounded descriptions.",
+      "evidence_anchors": ["site-strategy.json real_services (floor tiling + levelling, bathroom tiling, kitchen floors/walls, intricate/large-format layouts)"],
+      "copy_intent": "Each service: short label + one evidence-grounded line. NEVER the Google junk categories. NEVER 'X services explained plainly'.",
+      "visual_intent": "Labelled list (two-letter category marks or plain labels, NOT 01/02/03 - services are not a sequence; NOT SVG icons). Distinct from the numbered process below."
+    },
+    {
+      "id": "selected-work",
+      "type": "gallery-masonry",
+      "priority": 4,
+      "purpose": "Show the actual finished tiling - the proof that matters most for a tiler with no third-party profiles.",
+      "evidence_anchors": ["brief.json photos[] (9 completed_project webp, mixed portrait/landscape)"],
+      "copy_intent": "Short section intro; safe captions only (work type + Manchester; no invented job locations or customer names).",
+      "visual_intent": "CSS masonry: 3 columns >=1024px, 2 columns 640-1023px, 1 column mobile; natural aspect ratios, top-aligned, captions directly under each image (gallery check compliance)."
+    },
+    {
+      "id": "reviews",
+      "type": "review-feature",
+      "priority": 5,
+      "purpose": "Exactly one review section. Lead with the rescue/complex quotes that carry the angle.",
+      "evidence_anchors": ["reviews[2] Stephanie", "reviews[1] Luca", "reviews[0] Laura", "reviews[3] Paulo"],
+      "copy_intent": "3-4 verbatim Google excerpts, attributed 'First name, Google review'. No first name as a headline. One review section only (no duplicate wall).",
+      "visual_intent": "Quiet cards on surface; the 4.9/43 proof restated once as a stat, label 'Google rating' (no banned sub-labels)."
+    },
+    {
+      "id": "how-a-job-works",
+      "type": "process-numbered",
+      "priority": 6,
+      "purpose": "Reduce risk for someone whose last tradesperson let them down - show the orderly way Kyle works.",
+      "evidence_anchors": ["reviews[1] Luca (kept up to date, expert advice on tiles)", "reviews[0] Laura (turned up as promised each day)", "reviews[3] Paulo (did not rush, cleaned up daily)"],
+      "copy_intent": "4 ordered steps grounded in review behaviour: look + honest tile advice -> prep & level -> set out & tile (no rush) -> tidy finish, kept updated.",
+      "visual_intent": "Numbered 01-04 IS appropriate here (a real sequence, per frontend-design rule). Numerals in Bricolage Grotesque, grout-line dividers between steps."
+    },
+    {
+      "id": "areas-and-hours",
+      "type": "local-coverage",
+      "priority": 7,
+      "purpose": "Establish locality and availability without exposing the home address.",
+      "evidence_anchors": ["brief.json based_location 'Manchester, M11'", "service_area ['Manchester','Openshaw']", "opening_hours (7:00-19:00, 7 days)", "google_maps_url cid"],
+      "copy_intent": "Covers Manchester and East Manchester (Openshaw, M11) and nearby. Hours 7am-7pm, seven days (sourced). No street address.",
+      "visual_intent": "Keyless Google Maps iframe centred on 'Manchester M11' (town + outward only); area list + hours beside it."
+    },
+    {
+      "id": "quote",
+      "type": "contact-quote-form",
+      "priority": 8,
+      "purpose": "Convert: a quote form plus phone, anchored at #quote.",
+      "evidence_anchors": ["brief.json phone 07913 163118"],
+      "copy_intent": "Quote form: name, phone, postcode, job type, details, optional photos. Primary heading specific to Kyle. Phone as secondary. Form is presentational only (does not submit to the business).",
+      "visual_intent": "Deep-teal panel or accented form; quote-only sticky CTA reveals after hero on scroll, hides near footer."
+    },
+    {
+      "id": "footer",
+      "type": "business-footer",
+      "purpose": "Real local-business footer, not just the agency credit.",
+      "evidence_anchors": ["business_name", "phone", "service_area", "opening_hours", "google_maps_url"],
+      "copy_intent": "Brand, phone, areas, hours, quick links, link to read Google reviews. Small 'Website by WebForTrades' credit at the bottom.",
+      "visual_intent": "Wet-slate ink footer; grout-grey dividers; restrained."
+    }
+  ],
+  "omitted_defaults": ["owner-backstory/about-me narrative (no self-description evidence)", "FAQ (no real questions in evidence)", "fake stats band", "certifications/badges strip (none verified)", "separate second review wall"],
+  "omitted_reasons": "Kept lean and evidence-only. No section exists without a specific anchor in the frozen brief."
+}

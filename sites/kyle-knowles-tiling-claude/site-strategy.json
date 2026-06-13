@@ -1,0 +1,56 @@
+{
+  "slug": "kyle-knowles-tiling",
+  "path": "B (Claude-direct)",
+  "frozen_input_tag": "bakeoff-input-kyle-knowles-tiling",
+  "business_angle": "Kyle Knowles is the Manchester tiler other fitters call when the job is too complex - he levels difficult floors and sets out intricate tile work that less experienced fitters turn down or abandon.",
+  "why_this_trader_wins": "Two independent reviews describe Kyle stepping into jobs another fitter could not finish: one previous tiler went AWOL, and one homeowner's bathroom fitter said the tiles they wanted were too complex. Combined with repeated praise for levelling uneven floors, this is a rescue-and-difficulty specialism, not generic tiling.",
+  "target_customer": "Manchester homeowners (and East Manchester / M11) mid-renovation with a tricky tiling job - an uneven floor, an intricate pattern, large-format tile, or a job a previous tradesperson botched or walked away from.",
+  "page_single_job": "Get that homeowner to request a quote (or call) for a difficult or detailed tiling job.",
+  "distinctive_angle": "the-fitter-others-call-when-its-too-complex",
+  "customer_praise_themes": [
+    {"theme": "takes on complex / intricate tile work others refuse", "evidence": "brief.json reviews[2] (Stephanie): 'our bathroom fitter said the tiles we wanted were a too complex for him'; reviews[1] (Luca): 'previous fitter/tiler went AWOL Kyle had to step in'"},
+    {"theme": "levels difficult / uneven floors", "evidence": "brief.json reviews[0] (Laura): 'challenging kitchen floor and hallway that needed leveling'; reviews[3] (Paulo): 'amazing tiling specially considering the floor was uneven'"},
+    {"theme": "turns up as promised / reliable to deadline", "evidence": "brief.json reviews[0] (Laura): 'turned up as promised each day'; reviews[2] (Stephanie): 'turned up on time ... strict deadline with a baby due the following week'; reviews[1] (Luca): 'Reliable, punctual'"},
+    {"theme": "attention to detail, does not rush", "evidence": "brief.json reviews[3] (Paulo): 'Extreme attention to detail. Did not rush himself to finish the job'; reviews[0] (Laura): 'His attention to detail is excellent'"},
+    {"theme": "tidy / cleans up daily", "evidence": "brief.json reviews[3] (Paulo): 'Cleaned up after himself everyday'"},
+    {"theme": "honest advice on tile choice", "evidence": "brief.json reviews[1] (Luca): 'his expert advice came in handy with choosing the right tiles'; 'I found his rates very fair'"}
+  ],
+  "named_people": [
+    {"name": "Kyle", "role": "proprietor / tiler", "usage": "approved", "basis": "business_name is 'Kyle Knowles Tiling' (brief.json business_name) and Kyle is named in 4 of 5 reviews; this overrides brief.json contact_name_usage_allowed=false, which concerns extracting an UNKNOWN contact name from review text, not the named proprietor in the business name itself."}
+  ],
+  "strongest_review_quote": {
+    "text": "Kyle was brilliant - I found him through Google after our bathroom fitter said the tiles we wanted were a too complex for him. Kyle did a brilliant job, was enthusiastic, turned up on time and got the job done in a good time (knowing we were on a strict deadline with a baby due the following week!)",
+    "author": "Stephanie",
+    "source": "google",
+    "source_ref": "brief.json reviews[2]"
+  },
+  "strongest_proof_source": {
+    "platform": "google",
+    "metric": "4.9 rating from 43 reviews",
+    "url": "https://maps.google.com/?cid=13809484651488138570",
+    "source_ref": "brief.json google_rating, google_review_count, google_maps_url"
+  },
+  "real_services": [
+    {"name": "Floor tiling and levelling", "evidence": "reviews[0] Laura (kitchen floor + hallway levelling), reviews[3] Paulo (uneven floor)"},
+    {"name": "Bathroom tiling", "evidence": "reviews[1] Luca, reviews[2] Stephanie, reviews[4] Shel (main bathroom)"},
+    {"name": "Kitchen floors and walls", "evidence": "reviews[0] Laura (kitchen floor), reviews[1] Luca (kitchen)"},
+    {"name": "Intricate and large-format tile layouts", "evidence": "reviews[2] Stephanie ('tiles ... too complex' for the other fitter)"}
+  ],
+  "claims_to_avoid": [
+    "any certification or membership (Gas Safe, NICEIC, Checkatrade, TrustATrader) - none verified; directory_probes show 0 verified profiles",
+    "specific years-trading number - reviews say 'many years of experience' (Laura) only; no number is evidenced",
+    "service areas beyond Manchester / Openshaw / East Manchester / M11 - none evidenced",
+    "the street address '51 Lees St' on the public site - address privacy; use city + M11 only",
+    "Google Places junk categories as services ('Building & construction', 'home goods store' in brief.json services[] are not real services)",
+    "third-party platform proof (Yell / MyBuilder / Trustpilot snippets are low-confidence, exact-name-only, unverified - not citable)"
+  ],
+  "personality": "precise, grounded, dependable; a craftsperson who takes the hard jobs seriously",
+  "evidence_strength": "moderate-content / single-source (rich, specific Google reviews + 9 project photos; no third-party corroboration)",
+  "pitch_hook_summary": "Lead on the rescue/complex-job angle (two reviews about other fitters failing), backed by 4.9/43 Google and uneven-floor levelling proof.",
+  "metadata": {
+    "source_quality": "FAIL",
+    "lead_validity_status": "INSUFFICIENT_EVIDENCE",
+    "manual_review_waiver": "ACKNOWLEDGED - built under a documented manual_review waiver, identical to Path A, per docs/claude-migration/04-bake-off-plan.md and new-pipeline-design-todos.md TODO-2. The FAIL is single-source (Google-only), not thin content; the evidence is specific and usable.",
+    "authored_blind": "Path B authored from frozen evidence + CLAUDE.md + anthropics/frontend-design only; no existing WebForTrades site source consulted; Path A (OD) output not yet produced (strict 04 order)."
+  }
+}
