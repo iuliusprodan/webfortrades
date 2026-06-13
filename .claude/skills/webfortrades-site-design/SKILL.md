@@ -70,8 +70,11 @@ different from the reserved specific palettes (listed in Constraints):
 
 Constraints:
 - Reserved **specific palettes** stay blocked (Kyle wet-slate+viridian, Damo larch-iron+cedar-amber,
-  Brian sage+chalk+pewter, AC aubergine+brass+bone, D.G. eucalyptus+chalk-white+oak) - but each of their
-  *families* stays available for a meaningfully different palette within that family.
+  Brian sage+chalk+pewter, AC aubergine+brass+bone, D.G. eucalyptus+chalk-white+oak, Amrock client-brand
+  black `#0B0B0C` + red `#c4262b` [brand_source=client]) - but each of their *families* stays available for
+  a meaningfully different palette within that family. Note: Amrock is a client-brand override, so its
+  original **warm-earth** family slot is vacated and free for re-use in a future batch (per the
+  client-supplied-brand rule below).
 - Each sub-agent gets **one primary family + one supporting neutral**.
 - If two seeds would naturally derive into the same family (e.g. "heritage/period" and "prep-quality" both
   pull toward green-natural), the main thread **must re-seed before sub-agents start**, by either
