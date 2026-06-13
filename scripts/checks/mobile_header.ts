@@ -106,17 +106,18 @@ export async function reviewMobileHeader(
     headerInfo = await page.evaluate(() => {
       const header = document.querySelector(".site-header, header");
       if (!header) return { found: false, visibleLinks: [] as string[], hasHamburger: false, hasPhone: false };
-      const isVisible = (el: Element): boolean => {
-        const style = window.getComputedStyle(el);
-        if (style.display === "none" || style.visibility === "hidden") return false;
-        if (parseFloat(style.opacity || "1") === 0) return false;
-        // offsetParent null => an ancestor is display:none (unless fixed)
-        if ((el as HTMLElement).offsetParent === null && style.position !== "fixed") return false;
-        const r = el.getBoundingClientRect();
-        return r.width > 0 && r.height > 0;
-      };
+      // NB: keep this filter anonymous/inline. A named inner function here makes
+      // esbuild (via tsx) inject a __name helper that is undefined in the browser
+      // page context (ReferenceError: __name is not defined).
       const visible = Array.from(header.querySelectorAll("a, button"))
-        .filter(isVisible)
+        .filter((el) => {
+          const style = window.getComputedStyle(el);
+          if (style.display === "none" || style.visibility === "hidden") return false;
+          if (parseFloat(style.opacity || "1") === 0) return false;
+          if ((el as HTMLElement).offsetParent === null && style.position !== "fixed") return false;
+          const r = el.getBoundingClientRect();
+          return r.width > 0 && r.height > 0;
+        })
         .map((el) => (el.textContent ?? "").trim())
         .filter(Boolean);
       const hasHamburger = !!header.querySelector(".menu-toggle, [aria-label*='menu' i]");
