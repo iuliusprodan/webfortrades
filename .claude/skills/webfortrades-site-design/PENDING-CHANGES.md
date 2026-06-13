@@ -110,3 +110,18 @@ not site-design craft):
    single-figure block as a feature image, not a 1-column gallery. (amrock-electrical-ltd)
 5. **`identity_review_names` sentence-start false positives** (dup of steel-city's note above) recurred on
    every build with verbatim quotes. Worth promoting to the skill's "Verification before done" notes.
+
+---
+
+## Proposal: batch-2 touch-ups findings (main-thread; NOT applied to SKILL.md)
+
+1. **`og:generate` dev-badge heuristic false-positives on dark-themed sites (medium).** `imageHasBottomLeftDevBadge`
+   in `scripts/preview_capture.ts` flags the OG if >55% of the bottom-left 20x20px is near-black (r,g,b<25). A
+   genuinely dark site (Amrock, bg `#0B0B0C`) fills that corner at 100% → `og:generate` aborts with a false "dev
+   indicator detected" even though there is none. Fix: make the heuristic dark-theme-aware (detect the badge by
+   shape/contrast vs its local background, or skip when computed body bg is itself near-black). Surfaced via Amrock;
+   worked around with a one-off Playwright+sharp capture (dev-indicator DOM guard passed). Tooling, not site-design.
+2. **10-site consistency gap (low).** The dot-marker (Fix A) and Recent-work gate (Fix B) were applied + re-deployed
+   for the 5 batch-2 sites only. Kyle, Damo, and the 3 batch-1 painter sites still use two-letter service markers
+   (their galleries were not re-checked against the new gate). The batch-2 touch-up FINAL STEPS scoped 5 re-deploys;
+   a follow-up pass should apply Fix A/B to the older 5 for full 10-site consistency.
