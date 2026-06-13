@@ -1,0 +1,104 @@
+{
+  "slug": "ac-painters-decorators",
+  "generic_plan": false,
+  "layout_note": "Single column on a bone-white page with deep aubergine/damson dark sections. The structural signature is a thin double 'paint-edge' rule (two 1px brass-tinted lines a few px apart, like a cut-in line where two colours meet) between sections, plus brass used sparingly. Boldness is spent once on the colour-confidence signature block (the boutique-feature angle) and the single warm-brass accent; everything else stays quiet. Photo-light by necessity (only one genuinely finished interior photo exists), so the page is review-led: the finished shot carries the hero, the reviews carry the colour story.",
+  "sections": [
+    {
+      "id": "header",
+      "type": "sticky-header",
+      "purpose": "Wayfinding + persistent quote CTA.",
+      "evidence_anchors": ["brief.json business_name", "brief.json phone"],
+      "copy_intent": "Text wordmark 'AC Painters & Decorators'; nav: Work, Reviews, Areas; one button 'Get a quote'. No phone in the bar on mobile.",
+      "visual_intent": "Quiet solid bone-white header (no backdrop-filter so the mobile drawer/scrim are not trapped - containing-block rule), paint-edge hairline underneath. Mobile: wordmark + hamburger only (no phone, <=2 links) per mobile_header check."
+    },
+    {
+      "id": "hero",
+      "type": "trade-led-hero-with-photo",
+      "priority": 1,
+      "purpose": "State trade + location + the colour-confidence angle in one line; show the one real finished interior; surface the only citable proof.",
+      "evidence_anchors": ["reviews[2] Sylvia (olive green, boutique hotel look)", "reviews[4] Helen (exterior terrace house, Crosby)", "google_rating 4.9 / google_review_count 58", "based_location Bootle, L20", "10-places.webp (the only finished, well-lit interior: smooth deep-grey stairwell, crisp black flush door, white spindles - reads boutique/moody, on-brand for the aubergine palette)"],
+      "copy_intent": "Headline = trade-led positioning on the colour-confidence / feature-finish angle (NOT a review quote). Subhead = interior and exterior painting and decorating across Bootle, Crosby and Liverpool, with the bold-colour/feature-finish line + 4.9/58 proof. CTAs: Get a quote (primary, #quote), Call (secondary, phone).",
+      "visual_intent": "Full-bleed 10-places.webp under a deep-aubergine (#2E1A2C) scrim for legibility; Bodoni Moda editorial headline (boutique-fashion feel), warm-brass primary button; small proof chip '4.9 on Google, 58 reviews'. Text block keeps the site container side padding on mobile (hero horizontal-inset rule); CTAs stack full-width <=640px, proof chip below both."
+    },
+    {
+      "id": "proof-strip",
+      "type": "proof-marquee",
+      "purpose": "Evidence-drawn proof points directly under the hero.",
+      "evidence_anchors": ["google_rating 4.9", "google_review_count 58", "based_location Bootle L20", "reviews colour themes", "service_area Crosby"],
+      "copy_intent": "4-6 factual points: 4.9 on Google, 58 local reviews, Bootle and Crosby L20, interior and exterior, feature-colour finishes, tidy and on time. No exclamation marks, no salesy framing.",
+      "visual_intent": "Deep-aubergine band, bone text, brass diamond separators; single linear 36s loop, content rendered twice, translateX(-50%); animates on all viewports (reduced-motion degrades to a static row)."
+    },
+    {
+      "id": "the-difference",
+      "type": "signature-positioning-block",
+      "priority": 2,
+      "purpose": "The one memorable thing: this team is confident with colour - the feature wall, the boutique finish, furniture and shelving brought back, inside and out. This is where boldness is spent.",
+      "evidence_anchors": ["reviews[2] Sylvia (olive green, boutique hotel look, dated shelves unit transformed)", "reviews[1] N (bedroom paint + wallpaper, excellent finish)", "reviews[4] Helen (exterior terrace house, Crosby)", "reviews[0] nic (finish high quality, exactly what I was after)"],
+      "copy_intent": "3 short, concrete statements of the specialism, stated plainly: colour done with confidence (the feature wall / boutique finish), furniture and shelving refinished not just walls, and exterior work on terrace and period houses. Each tied to a real job. No boast adjectives in site prose.",
+      "visual_intent": "Mid-aubergine (--plum) feature surface; large Bodoni Moda statements separated by paint-edge rules; brass used once on the key phrase ('a luxurious, boutique-hotel finish'). No icons. The boldest moment on the page."
+    },
+    {
+      "id": "services",
+      "type": "evidence-based-services",
+      "priority": 3,
+      "purpose": "Name the 4 real services from evidence with specific, grounded descriptions.",
+      "evidence_anchors": ["site-strategy.json real_services (feature colour & full-room painting, wallpaper hanging, furniture & shelving refinishing, exterior house painting)"],
+      "copy_intent": "Each service: short label + one evidence-grounded line. NEVER the repeated Google niche label 'Painting & decorating' x3. NEVER 'X services explained plainly'.",
+      "visual_intent": "Labelled rows with small two-letter marks (FC / WP / FR / EX) in brass - NOT 01/02/03 (services are not a sequence; the numbered process below is) and NOT SVG/lucide icons (no_service_icons check). Paint-edge rule between rows."
+    },
+    {
+      "id": "gallery",
+      "type": "gallery-masonry",
+      "priority": 4,
+      "purpose": "Show the real finished work that exists - honestly. Only one genuinely finished interior photo is available; the period staircase shows the kind of older-house decorating they take on. Captions stay honest and never claim a finish a photo does not show.",
+      "evidence_anchors": ["brief.json photos[] (10-places.webp finished grey stairwell; 03-places.webp period staircase mid-renovation)"],
+      "copy_intent": "Short section intro. Captions safe and honest: finished shot -> 'Stairwell and landing, Liverpool'; period staircase (freshly plastered, stripped treads) -> framed honestly as period-house work, e.g. 'Period staircase, Liverpool'. Do NOT label a mid-renovation shot as 'finished'.",
+      "visual_intent": "CSS masonry (2 tiles): natural portrait aspect ratios, top-aligned, captions directly under each. Thin brass-tinted frame on each tile. 02-places.webp (room strip-out with a hire dehumidifier and bare plaster, no finished surface) is EXCLUDED per the hero/gallery rule (WIP / no finished surface)."
+    },
+    {
+      "id": "reviews",
+      "type": "review-feature",
+      "priority": 5,
+      "purpose": "Exactly one review section. This is where the colour story lives - lead with Sylvia's boutique-finish quote and Helen's Crosby exterior.",
+      "evidence_anchors": ["reviews[2] Sylvia (boutique finish, olive green)", "reviews[4] Helen (exterior, Crosby)", "reviews[1] N (Chris, bedroom paint + wallpaper)", "reviews[0] nic (finish, tidy, on time)"],
+      "copy_intent": "4 verbatim Google excerpts (emoji stripped from quote text), attributed 'First name, Google review'. Sylvia, Helen, N (kept as 'Google review' since 'N' is an initial, not a usable first name), nic. No first name as a headline (no 'Steve' anti-pattern). One review section only.",
+      "visual_intent": "Bone (--stone) cards; brass quote rule; the 4.9/58 proof restated once as a stat, label 'Google rating' (no banned sub-labels). Exactly one review section."
+    },
+    {
+      "id": "process",
+      "type": "process-numbered",
+      "priority": 6,
+      "purpose": "Reduce risk: show the orderly, tidy way the team works.",
+      "evidence_anchors": ["reviews[0] nic (came out promptly to quote, turned up on time, kept everything tidy)", "reviews[1] N (fit me in for a quote, communication good, cleaned up after)", "reviews[2] Sylvia (the finish)", "reviews[3] Gemma (tidied up after themselves)"],
+      "copy_intent": "4 ordered steps grounded in review behaviour: come out to quote (often at short notice) -> agree the colours and finish -> paint or paper to a high finish -> clean up and leave it tidy. Numbering is honest here (a real sequence).",
+      "visual_intent": "Deep-aubergine (--ink) dark section for contrast; large brass Bodoni numerals 01-04; paint-edge dividers between steps."
+    },
+    {
+      "id": "areas",
+      "type": "local-coverage",
+      "purpose": "Establish locality and availability without exposing the street address.",
+      "evidence_anchors": ["brief.json based_location 'Bootle, L20'", "reviews[4] Helen Crosby (evidenced area)", "opening_hours (long daily hours, 6am-8pm)", "google_maps_url cid"],
+      "copy_intent": "Based in Bootle, covers Crosby, Liverpool and north Merseyside (8-14 districts). Crosby evidenced; rest derived from L20 (Bootle) geography (plausible small-team radius, no over-claim). Hours: open seven days, from early. No street address.",
+      "visual_intent": "Keyless Google Maps iframe centred on 'Bootle L20' (town + outward only); two-column area list + hours beside it."
+    },
+    {
+      "id": "quote",
+      "type": "contact-quote-form",
+      "priority": 8,
+      "purpose": "Convert: a quote form plus phone, anchored at #quote.",
+      "evidence_anchors": ["brief.json phone 07592 753933", "based_location Bootle L20", "opening_hours"],
+      "copy_intent": "Two columns. Left: heading + framing prose + key details (phone click-to-call, Bootle / L20, open seven days). Right: quote form (name, phone, postcode, job type, details). Job types are painter-specific. Heading specific to AC Painters. Form is presentational only (no submit to the business; no 'preview form' disclaimer).",
+      "visual_intent": "Deep-aubergine (#2E1A2C) dark surface, NOT the brass accent (contact section rule). Form fields in a light bone field, visually distinct from the side details. Mobile: stack to single column, details first. Quote-only sticky CTA reveals after hero on scroll (fade+slide), hides near footer."
+    },
+    {
+      "id": "footer",
+      "type": "business-footer",
+      "purpose": "Real local-business footer, not just the agency credit.",
+      "evidence_anchors": ["business_name", "phone", "service_area", "opening_hours", "google_maps_url"],
+      "copy_intent": "Brand, phone, areas, hours, quick links, link to read Google reviews. Small 'Website by WebForTrades' credit at the bottom.",
+      "visual_intent": "Deep-aubergine footer; paint-edge dividers; restrained."
+    }
+  ],
+  "omitted_defaults": ["owner-backstory/about-me narrative (no self-description evidence; only the first name Chris + 'the lads')", "FAQ (no real questions in evidence)", "fabricated stats band beyond Google 4.9/58 + seven-days availability", "certifications/badges strip (none verified)", "separate second review wall", "an owner photo or logo (none found)", "a large multi-image masonry (only one finished photo exists; padding it would be dishonest)"],
+  "omitted_reasons": "Kept lean and evidence-only. No section exists without a specific anchor in the frozen brief. The gallery is deliberately small because only one genuinely finished photo is available; the colour story is carried by the signature block and the verbatim reviews instead."
+}

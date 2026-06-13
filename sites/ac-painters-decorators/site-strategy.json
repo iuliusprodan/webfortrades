@@ -1,0 +1,62 @@
+{
+  "slug": "ac-painters-decorators",
+  "path": "B (Claude-direct)",
+  "frozen_input_tag": "ac-painters-decorators-brief-frozen",
+  "business_angle": "AC Painters & Decorators are the Bootle and Crosby team who paint with colour confidence - the bold feature wall, the boutique-hotel finish, the wallpaper and the furniture and shelving brought back to life - inside and out, across north Merseyside.",
+  "why_this_trader_wins": "The reviews keep landing on the same thing: this is a painter people trust with strong, deliberate colour, not just magnolia. Sylvia's tired shelving unit became a 'luxurious boutique hotel look' in olive green; another customer had bedroom paint and wallpaper hung; Helen had the exterior of a terrace house in Crosby painted. Combined with a clean, tidy, on-time way of working that runs through every review, the angle is bold-colour interiors and feature finishes done to a high standard, not generic decorating.",
+  "target_customer": "Bootle, Crosby and north-Merseyside homeowners who want a room, a feature wall, a piece of furniture or the front of a period or terrace house painted with real colour and a proper finish - and who want tidy, on-time tradespeople they would have back.",
+  "page_single_job": "Get that homeowner to request a quote (or call) for an interior, feature-colour, wallpaper, furniture-refinishing or exterior painting job.",
+  "distinctive_angle": "colour-confident-feature-finishes-the-boutique-look",
+  "customer_praise_themes": [
+    {"theme": "bold, deliberate colour and a boutique-hotel finish", "evidence": "brief.json reviews[2] (Sylvia): 'from a bit dated looking shelves unit into a luxurious boutique hotel look! ... The olive green paint and finish looks stunning'"},
+    {"theme": "wallpaper hanging and full room decorating", "evidence": "brief.json reviews[1] (N): 'bedroom paint / wallpaper, communication was really good, excellent finish'"},
+    {"theme": "furniture and shelving refinished, not just walls", "evidence": "brief.json reviews[2] (Sylvia): 'a bit dated looking shelves unit into a luxurious boutique hotel look'"},
+    {"theme": "exterior painting of terrace and period houses", "evidence": "brief.json reviews[4] (Helen): 'painting exterior of terrace house in Crosby for me this week. Looks great'"},
+    {"theme": "high standard of finish, exactly what was wanted", "evidence": "brief.json reviews[0] (nic): 'the standard of work was excellent. The finish is high quality and exactly what I was after'"},
+    {"theme": "tidy, on time, fitted in at short notice", "evidence": "brief.json reviews[0] (nic): 'Turned up on time each day, kept everything tidy ... Managed to fit me in at short notice'; reviews[1] (N): 'cleaned all up after'; reviews[3] (Gemma): 'tidied up after themselves'"},
+    {"theme": "Chris and the team, easy and straightforward to deal with", "evidence": "brief.json reviews[1] (N): 'Chris and the lads were great'; reviews[3] (Gemma): 'Chris and the lads'; reviews[4] (Helen): 'Chris and his team at AC Painters'; reviews[0] (nic): 'genuinely nice, straightforward guys'"}
+  ],
+  "named_people": [
+    {"name": "Chris", "role": "lead decorator / proprietor named in reviews", "usage": "approved", "basis": "brief.json contact_name_usage_allowed=true; 'Chris' is named in 3 separate Google reviews (reviews[1] N 'Chris and the lads', reviews[3] Gemma 'Chris and the lads', reviews[4] Helen 'Chris and his team at AC Painters') - high confidence, evidence_count=3. This clears the skill's bar (named in >=2 review bodies). The business name is 'AC Painters & Decorators' (not 'Chris's...'), so use Chris in a light third person tied to the named team ('Chris and the team'), never invent a surname or an owner backstory."}
+  ],
+  "strongest_review_quote": {
+    "text": "Wow from a bit dated looking shelves unit into a luxurious boutique hotel look! I love it! The olive green paint and finish looks stunning! Super professional, excellent price. Definitely recommend.",
+    "author": "Sylvia",
+    "source": "google",
+    "source_ref": "brief.json reviews[2]"
+  },
+  "strongest_proof_source": {
+    "platform": "google",
+    "metric": "4.9 rating from 58 reviews",
+    "url": "https://maps.google.com/?cid=8375067658394021796",
+    "source_ref": "brief.json google_rating, google_review_count, google_maps_url"
+  },
+  "real_services": [
+    {"name": "Feature colour and full-room painting", "evidence": "reviews[2] Sylvia (olive green, boutique look); reviews[1] N (bedroom paint); reviews[3] Gemma (son's room)"},
+    {"name": "Wallpaper hanging", "evidence": "reviews[1] N (bedroom paint / wallpaper, excellent finish)"},
+    {"name": "Furniture and shelving refinishing", "evidence": "reviews[2] Sylvia (dated shelves unit refinished to a boutique-hotel look)"},
+    {"name": "Exterior house painting", "evidence": "reviews[4] Helen (exterior of a terrace house in Crosby)"}
+  ],
+  "claims_to_avoid": [
+    "any certification or membership (Dulux Select, Painting & Decorating Association, Checkatrade Vetted, TrustATrader, Which? Trusted Trader) - none verified; directory_probes show 0 verified profiles (Yell/MyBuilder/Trustpilot are snippet-only exact-name-single-signal; TrustATrader was an identity homonym and rejected; checkatrade/rated_people/bark/houzz/myjobquote NOT_FOUND)",
+    "'fully insured' / insurance claims - not evidenced",
+    "specific years-trading number - none evidenced",
+    "Google Places junk: brief.json services[] are all the same niche label ('Painting & decorating' x3 from google/name/niche) - use the real evidenced service set instead of repeating the generic label",
+    "the street 'Springs Cl' / full address 'Springs Cl, Liverpool, Bootle L20 3UA' anywhere public - use Bootle / L20 and the north-Merseyside framing only",
+    "service areas beyond Bootle, Crosby, Liverpool and north Merseyside - Crosby is evidenced (reviews[4] Helen); the rest are UK-geographic derivations from the L20 (Bootle) base and must stay plausible for a small team (no national footprint)",
+    "owner surname or backstory - only the first name 'Chris' and 'the lads / the team' are evidenced",
+    "an owner photo, logo or brand colours - none found (brief.json brand.colours empty, logo null)",
+    "a photo count as a stat, or any review/photo-count fabrication"
+  ],
+  "personality": "warm, confident with colour, tidy and straightforward; a small team you would happily have back in the house",
+  "evidence_strength": "moderate-content / single-source (5 specific Google reviews carrying a clear bold-colour angle + 4.9/58 Google; only 3 usable photos, of which one is a finished interior and two are mid-renovation; no verified third-party profile, no Facebook/Instagram)",
+  "pitch_hook_summary": "Lead on colour confidence and the boutique-feature finish (olive-green feature, boutique-hotel shelving, wallpaper, plus exterior terrace/period houses around Crosby and Bootle), backed by 4.9/58 Google.",
+  "metadata": {
+    "source_quality": "PASS_WITH_WARNINGS",
+    "lead_validity_status": "INSUFFICIENT_EVIDENCE",
+    "location_note": "enrich raised LOCATION_MISMATCH_NEEDS_REVIEW because the Google address city (Bootle) differs from the prospect region label (Liverpool). These are the same metro: Bootle (L20) is a town in the Liverpool/Merseyside urban area, and Crosby (evidenced in reviews[4]) sits just north of it. No real mismatch; coverage is framed as Bootle, Crosby, Liverpool and north Merseyside. This is a BUILD run; pitch_gate enforces at outreach time, not build time.",
+    "website_note": "Existing site is BROKEN_OR_BAD_SITE (sitelift.site/acpaintersdecorators - a thin auto-generated sitelift page; enrich has_real_website=false, truly_no_website=true). Genuine rebuild target, NOT HAS_REAL_SITE.",
+    "manual_review_note": "Single-source (Google-only): no verified third-party profile and contactability=NEEDS_MANUAL_REVIEW (no email, UK mobile only, WhatsApp not auto-checked per the OpenWA teardown - gather printed 'WhatsApp checked: no'). Same posture as the Damo and Kyle Knowles reference builds; the evidence is specific and usable.",
+    "authored_blind": "Path B authored from frozen evidence + CLAUDE.md + the webfortrades-site-design skill only. Distinct from Kyle (wet-slate + viridian teal; Bricolage + Instrument), Damo (blackened iron + cedar amber; Oswald + Hanken), library pairings, and the two parallel painter builds (sage+pewter, white+eucalyptus+oak). This build uses a deep aubergine/damson + warm brass + bone-white boutique palette with Bodoni Moda + Mulish, grounded in the trader's own bold-colour, boutique-finish world."
+  }
+}

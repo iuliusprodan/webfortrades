@@ -1,0 +1,436 @@
+{
+  "slug": "ac-painters-decorators",
+  "gathered_at": "2026-06-13T19:30:17.996Z",
+  "attempted_sources": [
+    {
+      "platform": "google_places",
+      "status": "found",
+      "url": "https://maps.google.com/?cid=8375067658394021796"
+    },
+    {
+      "platform": "google_maps",
+      "status": "not_attempted",
+      "search_query": "AC Painters & Decorators Bootle L20 3UA site:google.com/maps",
+      "reason": "Automated search not run in enrich pass unless URL provided"
+    },
+    {
+      "platform": "google_reviews",
+      "status": "found",
+      "url": "https://maps.google.com/?cid=8375067658394021796"
+    },
+    {
+      "platform": "google_photos",
+      "status": "found",
+      "url": "https://maps.google.com/?cid=8375067658394021796"
+    },
+    {
+      "platform": "facebook",
+      "status": "not_attempted",
+      "search_query": "AC Painters & Decorators Bootle L20 3UA Facebook",
+      "reason": "Automated search not run in enrich pass unless URL provided"
+    },
+    {
+      "platform": "checkatrade",
+      "status": "not_attempted",
+      "search_query": "AC Painters & Decorators Bootle L20 3UA site:checkatrade.com",
+      "reason": "Automated search not run in enrich pass unless URL provided"
+    },
+    {
+      "platform": "trustatrader",
+      "status": "not_attempted",
+      "search_query": "AC Painters & Decorators Bootle L20 3UA site:trustatrader.com",
+      "reason": "Automated search not run in enrich pass unless URL provided"
+    },
+    {
+      "platform": "yell",
+      "status": "not_attempted",
+      "search_query": "AC Painters & Decorators Bootle L20 3UA site:yell.com",
+      "reason": "Automated search not run in enrich pass unless URL provided"
+    },
+    {
+      "platform": "mybuilder",
+      "status": "not_attempted",
+      "search_query": "AC Painters & Decorators Bootle L20 3UA site:mybuilder.com",
+      "reason": "Automated search not run in enrich pass unless URL provided"
+    },
+    {
+      "platform": "rated_people",
+      "status": "not_attempted",
+      "search_query": "AC Painters & Decorators Bootle L20 3UA site:ratedpeople.com",
+      "reason": "Automated search not run in enrich pass unless URL provided"
+    },
+    {
+      "platform": "bark",
+      "status": "not_attempted",
+      "search_query": "AC Painters & Decorators Bootle L20 3UA site:bark.com",
+      "reason": "Automated search not run in enrich pass unless URL provided"
+    },
+    {
+      "platform": "houzz",
+      "status": "not_attempted",
+      "search_query": "AC Painters & Decorators Bootle L20 3UA site:houzz.co.uk",
+      "reason": "Automated search not run in enrich pass unless URL provided"
+    },
+    {
+      "platform": "myjobquote",
+      "status": "not_attempted",
+      "search_query": "AC Painters & Decorators Bootle L20 3UA site:myjobquote.co.uk",
+      "reason": "Automated search not run in enrich pass unless URL provided"
+    },
+    {
+      "platform": "trustpilot",
+      "status": "not_attempted",
+      "search_query": "AC Painters & Decorators Bootle L20 3UA site:trustpilot.com",
+      "reason": "Automated search not run in enrich pass unless URL provided"
+    },
+    {
+      "platform": "youtube",
+      "status": "not_attempted",
+      "search_query": "AC Painters & Decorators Bootle L20 3UA site:youtube.com",
+      "reason": "Automated search not run in enrich pass unless URL provided"
+    },
+    {
+      "platform": "companies_house",
+      "status": "not_attempted",
+      "search_query": "AC Painters & Decorators site:find-and-update.company-information.service.gov.uk",
+      "reason": "Automated search not run in enrich pass unless URL provided"
+    },
+    {
+      "platform": "official_website",
+      "status": "found",
+      "url": "https://sitelift.site/acpaintersdecorators/index.html"
+    },
+    {
+      "platform": "email_domain_website",
+      "status": "not_attempted",
+      "search_query": "https://",
+      "reason": "Automated search not run in enrich pass unless URL provided"
+    },
+    {
+      "platform": "directories",
+      "status": "not_attempted",
+      "search_query": "AC Painters & Decorators Bootle L20 3UA plumber electrician directory",
+      "reason": "Automated search not run in enrich pass unless URL provided"
+    },
+    {
+      "platform": "local_trade_directories",
+      "status": "not_attempted",
+      "search_query": "AC Painters & Decorators Bootle L20 3UA local directory",
+      "reason": "Automated search not run in enrich pass unless URL provided"
+    },
+    {
+      "platform": "trade_association",
+      "status": "not_attempted",
+      "search_query": "AC Painters & Decorators  association member",
+      "reason": "Automated search not run in enrich pass unless URL provided"
+    },
+    {
+      "platform": "review_aggregators",
+      "status": "not_attempted",
+      "search_query": "AC Painters & Decorators Bootle L20 3UA reviews",
+      "reason": "Automated search not run in enrich pass unless URL provided"
+    },
+    {
+      "platform": "instagram",
+      "status": "not_attempted",
+      "search_query": "AC Painters & Decorators Bootle L20 3UA Instagram",
+      "reason": "Requires login - manual review only"
+    },
+    {
+      "platform": "nextdoor",
+      "status": "not_attempted",
+      "search_query": "AC Painters & Decorators Bootle L20 3UA site:nextdoor.co.uk",
+      "reason": "Requires login - manual review only"
+    },
+    {
+      "platform": "pinterest",
+      "status": "not_attempted",
+      "search_query": "AC Painters & Decorators Bootle L20 3UA site:pinterest.com",
+      "reason": "Requires login - manual review only"
+    },
+    {
+      "platform": "tiktok",
+      "status": "not_attempted",
+      "search_query": "AC Painters & Decorators Bootle L20 3UA TikTok",
+      "reason": "Requires login - manual review only"
+    },
+    {
+      "platform": "linkedin",
+      "status": "not_attempted",
+      "search_query": "AC Painters & Decorators Bootle L20 3UA site:linkedin.com",
+      "reason": "Requires login - manual review only"
+    },
+    {
+      "platform": "twitter",
+      "status": "not_attempted",
+      "search_query": "AC Painters & Decorators Bootle L20 3UA site:twitter.com OR site:x.com",
+      "reason": "Requires login - manual review only"
+    }
+  ],
+  "sources": [
+    {
+      "platform": "google_places",
+      "url": "https://maps.google.com/?cid=8375067658394021796",
+      "verified": true,
+      "verification_method": "place_id_from_gather",
+      "phone_match": true,
+      "notes": "Primary gather source"
+    },
+    {
+      "platform": "official_website",
+      "url": "https://sitelift.site/acpaintersdecorators/index.html",
+      "verified": false,
+      "verification_method": "cross_check_needed",
+      "phone_match": true,
+      "notes": "BROKEN_OR_BAD_SITE"
+    }
+  ],
+  "sources_found": [
+    "google_places",
+    "google_reviews",
+    "google_photos",
+    "official_website"
+  ],
+  "sources_verified": [
+    "google_places"
+  ],
+  "strongest_proof_source": {
+    "platform": "google",
+    "metric": "4.9 rating, 58 reviews",
+    "url": "https://maps.google.com/?cid=8375067658394021796"
+  },
+  "best_review_details": [
+    {
+      "text": "Really pleased with these painters. They came out promptly to quote and were easy to deal with from the start. Managed to fit me in at short notice, which was a big help.\n\nTurned up on time each day, kept everything tidy, and the standard of work was excellent. The finish is high quality and exactly what I was after.\n\nPricing was very reasonable for the level of work delivered. Also just genuinely",
+      "author": "nic",
+      "rating": 5,
+      "source": "google"
+    },
+    {
+      "text": "Really hard to find top decorators - Chris and the lads were great.\nHe managed to fit me in for a quote then bedroom paint / wallpaper, communication was really good, excellent finish and cleaned all up after.\nWouldn’t hesitate to use Chris again and highly recommend. Thanks !",
+      "author": "N",
+      "rating": 5,
+      "source": "google"
+    },
+    {
+      "text": "Wow 🤩 from a bit dated looking shelves unit into a luxurious boutique hotel look! I love it! The olive 🫒 green paint and finish looks stunning! Super professional, excellent price. Definitely recommend. Thank you 🤩",
+      "author": "Sylvia",
+      "rating": 5,
+      "source": "google"
+    }
+  ],
+  "image_source_summary": {
+    "google_photos": 3,
+    "facebook_photos": 0,
+    "directory_photos": 0,
+    "manual_photos": 0,
+    "other": 0,
+    "preferred_source": "google_places",
+    "notes": "Google Places photos preferred for gallery when high quality",
+    "priority_order": [
+      "official_website",
+      "google_places",
+      "directory",
+      "manual_asset",
+      "facebook_evidence",
+      "proof_led"
+    ]
+  },
+  "manual_review_flags": [
+    "LOCATION_MISMATCH_NEEDS_REVIEW",
+    "contactability=NEEDS_MANUAL_REVIEW",
+    "no email found; UK mobile present, requires manual WhatsApp contact"
+  ],
+  "enrichment_complete": true,
+  "risks": [
+    "Location: LOCATION_MISMATCH_NEEDS_REVIEW"
+  ],
+  "manual_asset_review_recommended": false,
+  "manual_asset_status": "OK",
+  "asset_readiness": {
+    "manual_asset_status": "OK",
+    "usable_automatic_count": 3,
+    "usable_manual_count": 0,
+    "usable_total_count": 3,
+    "has_hero_candidate": true,
+    "pause_before_open_design": false,
+    "pause_message": null,
+    "layout_recommendation": "photo_led",
+    "image_slots": [
+      {
+        "slot": "hero",
+        "desired": "Best finished project photo or strong proof visual",
+        "source_status": "automatic"
+      },
+      {
+        "slot": "gallery_1",
+        "desired": "Finished work close-up or wide project shot",
+        "source_status": "automatic"
+      },
+      {
+        "slot": "gallery_2",
+        "desired": "Finished work close-up or wide project shot",
+        "source_status": "automatic"
+      },
+      {
+        "slot": "gallery_3",
+        "desired": "Finished work close-up or wide project shot",
+        "source_status": "manual_needed"
+      },
+      {
+        "slot": "gallery_4",
+        "desired": "Finished work close-up or wide project shot",
+        "source_status": "manual_needed"
+      }
+    ],
+    "manual_folder": "briefs/ac-painters-decorators/images/manual/"
+  },
+  "image_slots": [
+    {
+      "slot": "hero",
+      "desired": "Best finished project photo or strong proof visual",
+      "source_status": "automatic"
+    },
+    {
+      "slot": "gallery_1",
+      "desired": "Finished work close-up or wide project shot",
+      "source_status": "automatic"
+    },
+    {
+      "slot": "gallery_2",
+      "desired": "Finished work close-up or wide project shot",
+      "source_status": "automatic"
+    },
+    {
+      "slot": "gallery_3",
+      "desired": "Finished work close-up or wide project shot",
+      "source_status": "manual_needed"
+    },
+    {
+      "slot": "gallery_4",
+      "desired": "Finished work close-up or wide project shot",
+      "source_status": "manual_needed"
+    }
+  ],
+  "email": null,
+  "email_found": false,
+  "email_domain_checked": false,
+  "email_domain_website": null,
+  "website_discovery": {
+    "classification": "BROKEN_OR_BAD_SITE",
+    "db_status": "BROKEN_OR_BAD_SITE",
+    "domain": "sitelift.site",
+    "initial_url": "https://sitelift.site/acpaintersdecorators/index.html",
+    "final_url": "https://sitelift.site/acpaintersdecorators/index.html",
+    "status_code": null,
+    "title": null,
+    "reason": "reason=network_error; url=https://sitelift.site/acpaintersdecorators/index.html; final=https://sitelift.site/acpaintersdecorators/index.html",
+    "probes": [
+      {
+        "url": "https://sitelift.site/acpaintersdecorators/index.html",
+        "ok": false,
+        "status_code": null,
+        "final_url": "https://sitelift.site/acpaintersdecorators/index.html"
+      }
+    ],
+    "text_snippet": null
+  },
+  "website_status": "BROKEN_OR_BAD_SITE",
+  "truly_no_website": null,
+  "logo_found": false,
+  "logo_path": null,
+  "facebook_url": null,
+  "facebook_verified": false,
+  "source_verifications": [
+    {
+      "platform": "google_places",
+      "url": "https://maps.google.com/?cid=8375067658394021796",
+      "confidence": "low",
+      "verified": false,
+      "verification_reasons": [
+        "Business name matches or clearly aliases Google listing",
+        "Name match only - common name risk"
+      ],
+      "matches": {
+        "phone": false,
+        "email": false,
+        "website": false,
+        "business_name": true,
+        "location": false,
+        "service_trade": false,
+        "logo": false
+      },
+      "rejected_reason": "Insufficient verification signals for automatic use"
+    },
+    {
+      "platform": "email_domain_website",
+      "url": "https://sitelift.site/acpaintersdecorators/index.html",
+      "confidence": "low",
+      "verified": false,
+      "verification_reasons": [
+        "Business name matches or clearly aliases Google listing",
+        "Website or domain link visible on source",
+        "Name match only - common name risk"
+      ],
+      "matches": {
+        "phone": false,
+        "email": false,
+        "website": true,
+        "business_name": true,
+        "location": false,
+        "service_trade": false,
+        "logo": false
+      },
+      "rejected_reason": "Insufficient verification signals for automatic use"
+    }
+  ],
+  "source_confidence": {
+    "overall": "low",
+    "verified_platforms": [],
+    "rejected_platforms": [
+      "google_places",
+      "email_domain_website"
+    ],
+    "notes": [
+      "No verified sources with medium or high confidence",
+      "2 source(s) rejected for low confidence"
+    ]
+  },
+  "image_manifest": [
+    {
+      "local": "images/02-places.webp",
+      "source": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3mZEyvfcCDvnyQFdtHO-LfF01AvDLkeZofemdLyWrgSxnO0nFaNR0bRd_IBu4ZFFl8FyYQAIgVs5i4HoNk-JoCjqnrrmzEi4b1WqeGsHeooBWm4QBxN7hgoTHCaAzp23jpGTYRCqr2Ms8J37wq-inPQJ56Ndjm3HmeUHSnp-hrb1e9KSouHFW58zGONFIBPXjc42R1WNJFk_SYcmUSbEhTXmAKTZjwL2Wxyni8mwUURRdTmSdus1lr7hMrUEzggDAw9RXZWbz7AbImbr9ZjjbdH5o78pmoSrfTsxj5ZG6bimc1ldcbMNKArWsoG0ayByg5PZ18-bDdYMarGkp4-5ubIupXAc7HB5-3VLFIUj4ZL0S_jNy6-WSs8FZ24YNMWopJQh4HOTmHvMjA5r2TuIe1Y3Vsu9Et8KNO-nI6xDeJV4Ck&key=REDACTED",
+      "source_type": "google_places",
+      "confidence": "medium",
+      "purpose": "gallery",
+      "selected": true,
+      "reason": "Default from gather"
+    },
+    {
+      "local": "images/03-places.webp",
+      "source": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3kzFdrM7OQ5vCFKgz0LJBOZHSdYKxTAUP2ABkMg6ah95NuALCkzL4mTa3AB5ubOLiktAdBagt_6R2EzEZzRDN_AZQr5MmI1U59aqmLoJkmsBbKyZRyAK_keotEpf413Db4qTylXHyezJqaksZTBkWcrL2ISkOBFTHu-1yxGEPQpFadn8evrctSeCUT6nYEYEdIKOoQZcQBdazAbGondwSbkEFrQGzLcMCNzVCQQYW00KBHp9OlqQ5nZuGEIpN6jRTnCVihlToUFr_bfNmgexE9uLxLfSn69rwwFUpLE2tNvFZ0jOf7jfdThIpxy9Zf5AujGsINRLKhrsEuQGcdkzw3QN5yLSlm_kFrLCD_CgXCvfaTpJpjLRL9qLi5vZuv-3Obeq4zONFUgipxAKtZfwLGhrD7Slg9F8K3wdBkIqrdo&key=REDACTED",
+      "source_type": "google_places",
+      "confidence": "medium",
+      "purpose": "gallery",
+      "selected": true,
+      "reason": "Default from gather"
+    },
+    {
+      "local": "images/10-places.webp",
+      "source": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3lxRFMo4XHSvKBrsc9SKYB04CpL71hVAK0FMpu2NyieMfUhqZ9R4J0W36QLSw4VFny6omF48_FfhEiQQ3rNrXLpyr_NxnCb-dGlnIdwRSiH98h3W_kdFP7PT7vFpC4taDglzTs2jFsqcFv801iUBMQDpf5Q4sZAA86Pwkp6plxklmauJ_O6c8hvo7R2hmyfbJvsv2WP6aB-8mjP9k2M_pnsTD1l5znVDxI7pRlY-qKZCXW2JLlb-xRTN3vD4hwmi1lIZTtRDykLUyBzotTiLnhUAFX2tBGlNsUy9JCMzl8sXJxbp--5rQyiunaXsJ20OF3kYpPF3EfShBzs6Se1NvGid-BfHl8DtNZcKjP-eRuvFisgk9hENR8BQ3msoN11GhsC_Lah5kU-sjnDbEB_4fNOcxzRaYLssHymgVqw_3yrO15g&key=REDACTED",
+      "source_type": "google_places",
+      "confidence": "medium",
+      "purpose": "gallery",
+      "selected": true,
+      "reason": "Default from gather"
+    }
+  ],
+  "selected_images": [
+    "images/02-places.webp",
+    "images/03-places.webp",
+    "images/10-places.webp"
+  ],
+  "lead_validity_status": null,
+  "ready_for_build": null,
+  "registry_source_count": 28
+}

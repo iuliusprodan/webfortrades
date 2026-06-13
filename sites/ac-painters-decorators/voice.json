@@ -1,0 +1,34 @@
+{
+  "slug": "ac-painters-decorators",
+  "extends": "CLAUDE.md banned-phrase reference + scripts/copy_voice_constants.ts (authoritative). This file adds lead-specific decisions only.",
+  "register": "warm, plain, confident-without-boasting British English; a decorator talking straight to a homeowner about colour and finish. Short sentences. Concrete nouns (colour, feature wall, wallpaper, finish, shelving, brushwork), not adjectives.",
+  "naming": {
+    "use_name": "Chris",
+    "decision": "Use the first name 'Chris' in a light third person, tied to the named team ('Chris and the team'). Basis: brief.json contact_name_usage_allowed=true and 'Chris' is named in 3 separate Google reviews (reviews[1] N, reviews[3] Gemma, reviews[4] Helen), evidence_count=3, high confidence. This clears the skill bar (named in >=2 review bodies). Note the business name is 'AC Painters & Decorators', not 'Chris's...', so do NOT over-personalise: no possessive brand, no invented surname, no owner backstory or monologue. 'The lads' from the reviews becomes 'the team' in site prose (plainer).",
+    "third_vs_first_person": "Default to a light third person ('Chris and the team paint...'). No first-person owner monologue (no self-description in evidence)."
+  },
+  "the_angle": {
+    "name": "colour-confident feature finishes - the boutique look",
+    "how_to_use": "Lead with it, state it as fact. Frame: AC Painters paint with colour confidence - the feature wall, the boutique-hotel finish, wallpaper, furniture and shelving brought back to life - inside and out, across Bootle, Crosby and Liverpool. Anchored to reviews[2] (Sylvia, olive-green shelving, 'luxurious boutique hotel look'), reviews[1] (N, bedroom paint + wallpaper), reviews[4] (Helen, exterior terrace house in Crosby) and reviews[0] (nic, 'the finish is high quality and exactly what I was after'). Acceptable phrasings: 'a feature wall done with confidence', 'a luxurious, boutique-hotel finish', 'colour that lands', 'brought back to life', 'inside and out'. Do not invent colours, rooms or outcomes beyond what the reviews state - the only specific colour evidenced is olive green (Sylvia)."
+  },
+  "proof_rules": {
+    "google": "State exactly: '4.9 on Google' and '58 reviews' / '58 local reviews' (both sourced=true in brief.json). Attribute the rating to Google.",
+    "no_other_proof": "Do NOT cite Yell / MyBuilder / Trustpilot / Checkatrade / TrustATrader - those probes are NOT_FOUND, snippet-only low-confidence, or a rejected homonym (brief.json directory_probes; 0 verified). Do NOT claim any certification, membership, insurance, or 'qualified/certified/fully insured' - none verified.",
+    "no_invented_numbers": "No years-trading number (none evidenced). No 'X rooms/jobs painted' count. Sourced stats only: 4.9 rating, 58 reviews, seven-days availability. Never a photo count."
+  },
+  "review_attribution": "First name + 'Google review' (e.g. 'Sylvia, Google review', 'Helen, Google review', 'nic, Google review'). The review by 'N' is attributed simply 'Google review' (N is an initial, not a usable first name). Reviewer emoji are stripped from quoted text. No reviewer first name as a section headline (the 'Steve' anti-pattern). 'Chris' is the only person named as part of the business; every other name in a quote is the customer's own.",
+  "banned_for_this_business": [
+    "any phrase on the CLAUDE.md / copy_voice_constants.ts lists (generic, provenance, meta-provenance, stat sub-labels)",
+    "'painting done right' / 'decorating done properly' / 'painting sorted' as a hero or standalone slogan (generic-trade filler)",
+    "'your trusted/local painting experts' / 'your local decorators' and relatives",
+    "'no job too big or small', 'competitive prices', 'professional service', 'quality you can rely on', 'satisfaction guaranteed', 'we pride ourselves'",
+    "'professional' / 'super professional' / 'first class' / 'stunning' in SITE prose - these appear in real review text and are fine inside attributed quotes only",
+    "claiming areas beyond Bootle / Crosby / Liverpool / north Merseyside; the street 'Springs Cl' or the full address anywhere public",
+    "first-person claims of qualifications, insurance or years trading; any owner surname or backstory",
+    "meta lines like 'customers mention' / 'reviews describe' - state the thing directly instead",
+    "inventing a colour other than the evidenced olive green; claiming an exterior job type beyond a house exterior (only a terrace-house exterior in Crosby is evidenced)"
+  ],
+  "allowed_words_from_reviews_in_quotes_only": "Words like 'professional', 'super professional', 'first class', 'stunning', 'excellent', 'luxurious', 'reasonable' appear in real review text. They are fine INSIDE attributed verbatim quotes, but must NOT appear in AC Painters' own/site prose (CLAUDE.md salesy ban).",
+  "punctuation": "No em/en dashes anywhere. Review quotes that used ' - ' hyphens keep them; the dash in reviews[1] N ('top decorators - Chris') is normalised to ' - ' (hyphen-space). Use ' - ', comma, or full stop. British spelling (colour, neighbouring, refinishing).",
+  "cta_language": "Quote-only sticky and primary CTA: 'Get a quote'. Secondary: 'Call' / the number. Never put the phone in the sticky CTA (sticky_cta check)."
+}

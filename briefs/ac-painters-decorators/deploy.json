@@ -1,0 +1,31 @@
+{
+  "slug": "ac-painters-decorators",
+  "updated_at": "2026-06-13T19:42:59.115Z",
+  "preferred_alias": "ac-painters-decorators",
+  "deployment_url": "https://ac-painters-decorators-i49l7d565-iulius-projects-0cb33a7b.vercel.app",
+  "verified_url": "https://ac-painters-decorators.vercel.app",
+  "final_url": "https://ac-painters-decorators.vercel.app",
+  "alias_status": "VERIFIED",
+  "candidates": [
+    {
+      "hostname": "ac-painters-decorators",
+      "url": "https://ac-painters-decorators.vercel.app",
+      "preflight": "already_ours",
+      "detail": "Build marker ac-painters-decorators:20260613-1",
+      "assign": "alias_assigned",
+      "verify": "verified"
+    }
+  ],
+  "verification": {
+    "ok": true,
+    "httpStatus": 200,
+    "markerFound": true,
+    "businessNameFound": true,
+    "phoneFound": true,
+    "marker": {
+      "buildId": "ac-painters-decorators:20260613-1",
+      "slug": "ac-painters-decorators"
+    },
+    "errors": []
+  }
+}
