@@ -180,6 +180,40 @@ Kyle bug). Implementation:
 
 ---
 
+## Interactive state - visual verification
+
+**Code that compiles is not code that works.** For every interactive UI state - nav drawer
+open/closed, modal open/closed, sticky CTA visible/hidden, marquee animating, form focus, hover
+treatments - you MUST **visually verify the state with vision tools** (screenshot the actual rendered
+state and look at it) before reporting the implementation done. Geometry measurements and "the class
+toggles" are not enough; verify what the user actually sees. This section exists because a nav drawer was
+reported "verified" from measurements while, visually, it had no scrim, a see-through panel, and no
+visible close button.
+
+**Mobile nav overlay - run this checklist AT THE OPENED STATE (not closed):**
+- [ ] Backdrop scrim is visible and darkens the page behind the panel (page content is clearly dimmer
+      than when the nav is closed).
+- [ ] Panel has an opaque (or near-opaque) background; page content does **not** bleed through the nav
+      items.
+- [ ] A close affordance is visible **inside/above the panel** - an X button, or the hamburger
+      transformed to an X - and is **not occluded by the panel** (a hamburger left in a lower z-index
+      header will be hidden behind the panel; put the X in the panel or raise it above).
+- [ ] The panel occupies its intended region cleanly: no half-rendered artifacts, no partially-covered
+      wordmark/logo, no clipped edges.
+- [ ] Tapping the scrim closes the panel.
+- [ ] Tapping a nav link closes the panel.
+- [ ] Escape closes the panel.
+- [ ] Body scroll is locked while the panel is open.
+
+If any item fails, the implementation is **incomplete** - surface the failing item and fix before the
+next verification pass; do not report done.
+
+**This applies to ALL interactive states, not only mobile nav.** When implementing modals, drawers,
+carousels, accordions, or dropdowns, author a state-specific visual checklist and run it at each
+non-default state.
+
+---
+
 ## Services rules
 3-6 **real** services, each with a one-line evidence-based description. Never Google Places categories
 (e.g. "Building & construction", "home goods store"), CTAs, or coverage areas as services. Headings are
