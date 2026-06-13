@@ -38,10 +38,13 @@ time. Clean target (truly_no_website=true, HAS_REAL_SITE=false). No certificatio
 
 ## Deploy verification (2026-06-13)
 - Preferred alias: steel-city-electrics-ltd.vercel.app
-- Deployment URL: https://steel-city-electrics-d01uzdz3z-iulius-projects-0cb33a7b.vercel.app
+- Deployment URL: https://steel-city-electrics-ib9042kbh-iulius-projects-0cb33a7b.vercel.app
 - Verified URL: https://steel-city-electrics-ltd.vercel.app
 - Alias status: VERIFIED
 - Deploy manifest: `/Users/iuliusprodan/.cursor/website/briefs/steel-city-electrics-ltd/deploy.json`
 - Marker found: yes
 - Business name verified: yes
 - Phone verified: yes
+
+
+TODO: library screenshot - run npm run review then redeploy to copy screenshots/steel-city-electrics-ltd/desktop/01-hero.png

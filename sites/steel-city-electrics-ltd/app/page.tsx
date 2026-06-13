@@ -6,25 +6,19 @@ const PHONE_TEL = "07936498907";
 const GOOGLE_URL = "https://maps.google.com/?cid=10338716508790624105";
 
 const services = [
-  { mark: "RW", name: "Full and partial re-wires", desc: "Whole-house and single-circuit re-wires, taken on start to finish and left tested." },
-  { mark: "CU", name: "Consumer unit replacement", desc: "Old, failing or burnt-out fuse boards swapped for a modern consumer unit with proper circuit protection." },
-  { mark: "FF", name: "Fault-finding and repairs", desc: "Tracing the cause of a tripping circuit, dead socket or burnt connection and putting it right." },
-  { mark: "IN", name: "Installations and additions", desc: "New circuits, sockets, lighting and other electrical work added in and tested before we leave." },
-  { mark: "CO", name: "Call-outs across Sheffield", desc: "Quick to answer when something goes wrong, with a straight price before any work starts." },
+  { name: "Full and partial re-wires", desc: "Whole-house and single-circuit re-wires, taken on start to finish and left tested." },
+  { name: "Consumer unit replacement", desc: "Old, failing or burnt-out fuse boards swapped for a modern consumer unit with proper circuit protection." },
+  { name: "Fault-finding and repairs", desc: "Tracing the cause of a tripping circuit, dead socket or burnt connection and putting it right." },
+  { name: "Installations and additions", desc: "New circuits, sockets, lighting and other electrical work added in and tested before we leave." },
+  { name: "Call-outs across Sheffield", desc: "Quick to answer when something goes wrong, with a straight price before any work starts." },
 ];
 
 // HERO is typographic (no image): none of the 6 Google Places photos is a usable finished-work
 // hero (they are the AI navy+red logo, plus close-up work-in-progress / fault shots of old and
-// burnt-out consumer units). Per the site-design skill, a strong typographic hero beats a poor
-// photo. The fault/board shots are used honestly in the gallery below. The navy+red logo
-// (03-places.webp) is NOT used anywhere (palette clash with the monochrome-industrial direction).
-const gallery = [
-  { src: "/assets/images/01-places.webp", cap: "Fault-finding, Sheffield" },
-  { src: "/assets/images/04-places.webp", cap: "Board replacement, Sheffield" },
-  { src: "/assets/images/08-places.webp", cap: "Consumer unit work, Sheffield" },
-  { src: "/assets/images/09-places.webp", cap: "Fault-finding, Sheffield" },
-  { src: "/assets/images/10-places.webp", cap: "Circuit work, Sheffield" },
-];
+// burnt-out consumer units). The "Recent work" gallery was REMOVED (2026-06-13): it failed the
+// Fix B gate (repair / fault shots, no clean finished-work photo). All board shots show burnt
+// busbars, charred wiring or bare masonry; none reads as a finished-unit showcase, so NO photo is
+// inlined anywhere. The strong typographic hero carries the page.
 
 const stats = [
   { num: "5.0", label: "Google rating" },
@@ -148,35 +142,19 @@ export default function Page() {
         </section>
 
         {/* SERVICES */}
-        <section className="section" data-section-id="services">
+        <section className="section" data-section-id="services" id="work">
           <div className="container">
             <h2 data-reveal>What we do</h2>
             <p className="section-intro" data-reveal>Real electrical work across Sheffield, from a single fault to a full re-wire.</p>
             <div style={{ marginTop: "1.5rem" }}>
               {services.map((s) => (
-                <div className="service-row" key={s.mark} data-reveal>
-                  <div className="service-mark">{s.mark}</div>
+                <div className="service-row" key={s.name} data-reveal>
+                  <span className="service-mark" aria-hidden="true" />
                   <div>
                     <div className="service-name">{s.name}</div>
                     <p className="service-desc">{s.desc}</p>
                   </div>
                 </div>
-              ))}
-            </div>
-          </div>
-        </section>
-
-        {/* GALLERY */}
-        <section className="section" data-section-id="gallery" id="work">
-          <div className="container">
-            <h2 data-reveal>Recent work</h2>
-            <p className="section-intro" data-reveal>A look at the kind of jobs we take on across Sheffield, from fault-finding to full board replacements.</p>
-            <div className="gallery-masonry" style={{ marginTop: "1.5rem" }}>
-              {gallery.map((g) => (
-                <figure className="gallery-item" key={g.src}>
-                  <img src={g.src} alt={g.cap} loading="lazy" />
-                  <figcaption className="gallery-cap">{g.cap}</figcaption>
-                </figure>
               ))}
             </div>
           </div>

@@ -221,19 +221,13 @@ img { max-width: 100%; display: block; }
 .takeon-item p { color: #3c4248; max-width: 760px; margin: 0; font-size: 1.12rem; }
 
 /* ---------- Services ---------- */
-.service-row { display: grid; grid-template-columns: 3.5rem 1fr; gap: 1rem; padding: 1.4rem 0; align-items: start; }
+/* Row marker = a single brand-accent dot (no two-letter codes, no numbers).
+   Narrow marker column; dot aligned to the first line of the title. */
+.service-row { display: grid; grid-template-columns: 1.5rem 1fr; gap: 0.85rem; padding: 1.4rem 0; align-items: start; }
 .service-row + .service-row { border-top: 3px solid var(--ink); box-shadow: 0 -1px 0 var(--line) inset; }
-.service-mark { font-family: var(--font-display), sans-serif; font-weight: 700; font-size: 1.15rem; color: var(--accent-deep); letter-spacing: 0.08em; }
+.service-mark { display: block; width: 9px; height: 9px; border-radius: 50%; background: var(--accent); margin-top: 0.55rem; }
 .service-name { font-family: var(--font-display), sans-serif; font-weight: 600; font-size: 1.32rem; letter-spacing: 0.02em; text-transform: uppercase; margin-bottom: 0.2rem; }
 .service-desc { color: var(--muted); margin: 0; }
-
-/* ---------- Gallery (masonry) ---------- */
-.gallery-masonry { column-count: 1; column-gap: 1rem; }
-.gallery-item { break-inside: avoid; margin-bottom: 1rem; }
-.gallery-item img { width: 100%; height: auto; border: 1px solid var(--line); border-radius: 2px; background: var(--steel); }
-.gallery-cap { font-family: var(--font-display), sans-serif; font-size: 0.82rem; color: var(--muted); padding: 0.4rem 0 0; letter-spacing: 0.06em; text-transform: uppercase; }
-@media (min-width: 640px) { .gallery-masonry { column-count: 2; } }
-@media (min-width: 1024px) { .gallery-masonry { column-count: 3; } }
 
 /* ---------- Who we are (team) ---------- */
 .team { background: var(--steel); }
