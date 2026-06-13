@@ -43,8 +43,9 @@ Describe the palette as 4-6 named hex values grounded in that world.
 
 Numbered markers (`01 / 02 / 03`) are only acceptable where the content **is** a sequence (a real
 process / timeline). Never use them as decoration on non-sequential content (e.g. services). No inline
-`<svg>`, `lucide-react`, or `@heroicons/*` on service or process items - use numbers (sequences only),
-two-letter marks, dots, or nothing.
+`<svg>`, `lucide-react`, or `@heroicons/*` on service or process items - use numbers (real sequences only,
+e.g. "How a job works"), a single brand-accent dot for service rows, or nothing. Two-letter abbreviation
+codes are retired (see Services rules).
 
 ---
 
@@ -279,6 +280,14 @@ non-default state.
 3-6 **real** services, each with a one-line evidence-based description. Never Google Places categories
 (e.g. "Building & construction", "home goods store"), CTAs, or coverage areas as services. Headings are
 bespoke - never "X services explained plainly".
+
+**Row marker = a single brand-accent dot.** Mark each service row with one small filled dot (`•` / a
+~8-10px circle) in the brand accent colour, left-aligned with a small gap before the service title; the
+title keeps its normal weight/size and the description follows unchanged. Do **not** use two-letter
+abbreviation codes (RW / CU / FF / DK ...) - they read as column-junk and get confused with the numbered
+"How a job works" steps below. Do **not** use numbers here either - numbers are reserved for the
+real-sequence "How a job works" section only. (Still no inline `<svg>` / lucide / heroicons, per the
+iconography rule above.)
 
 ## Gallery rules
 Multi-column desktop masonry: 3 cols >= 1024px, 2 cols 640-1023px, 1 col mobile. Natural aspect ratios,
