@@ -29,6 +29,20 @@
 - **Severity:** design-level. For the bake-off this FAIL is intentionally waived (documented), and is
   itself the sharpest ARCH-2 R2 test: can Path B write specific copy from "insufficient" evidence?
 
+## TODO-3 - `mobile_header` hardcodes a brand-name exclusion list
+- **Found:** 2026-06-13, fixing `mobile_header` for the bake-off.
+- **Issue:** `scripts/checks/mobile_header.ts` excludes the wordmark from the nav-link count via a hardcoded regex of bathroom-batch brand prefixes (`/^(Cutts|Stephen|Bristol|Newcastle|Renovate|DPS|S\.M|LC|Renovatik)/`). Any other business (e.g. "Kyle") is not excluded, so its wordmark wrongly counts as a nav link.
+- **Fix (new-pipeline):** read `business_name` from `briefs/<slug>/brief.json` and exclude that, instead of a hardcoded per-batch list. Out of scope for the bake-off fix.
+
+## TODO-4 - audit all checks for `file://` loading
+- **Found:** 2026-06-13. `mobile_header` was loading the build over `file://`, where static-export absolute asset paths (`/_next/...`) do not resolve, so it judged an unstyled page. Other Playwright/HTML checks may do the same.
+- **Fix (new-pipeline):** audit all 13 checks (and `style_verify`, `clone_review`, `section_integrity` live mode) for `file://` usage or absolute-asset assumptions; route any rendered check through a local HTTP server. Out of scope for the bake-off fix (only `mobile_header` was fixed).
+
+## TODO-5 - existing deploys were never mobile-header-validated against rendered state
+- **Found:** 2026-06-13, and more serious than the bake-off scope.
+- **Issue:** because `mobile_header` loaded an unstyled DOM (TODO-4), a PASS on the 27 existing deployed sites did **not** validate their mobile responsive header. Those sites passed only when their (often simpler) header DOM happened to have few enough anchors total, not because the responsive behaviour was verified. Mobile-header correctness on the inherited deploys is effectively unknown.
+- **Fix (post bake-off):** once the architecture is decided, re-validate the inherited 27 deploys under the fixed checks as a separate triage. Do not assume prior PASS means correct.
+
 ---
 *Append new findings here as they surface. Acted on during the new-pipeline design + outreach-teardown
 steps, not during the bake-off.*
