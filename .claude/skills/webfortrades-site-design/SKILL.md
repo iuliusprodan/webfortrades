@@ -294,6 +294,15 @@ Multi-column desktop masonry: 3 cols >= 1024px, 2 cols 640-1023px, 1 col mobile.
 top-aligned, captions directly under each image. Captions safe: never invent a job location, room, or
 customer name you cannot verify; a neutral "Completed tiling, <city>" is fine.
 
+**The "Recent work" / gallery section is GATED on photo count + quality.** Include it ONLY when the lead
+has **>= 4 high-quality photos available AND >= 2 of those show finished work** (not in-progress / fault
+shots, not logo or business-card cards, not stock van photos). If the gate fails, **OMIT the section
+entirely - sparse 1-3 photo grids are banned**. A single strong photo may still be placed inline elsewhere
+(a hero supporting image, inside an about / "who we are" block, or as a captioned context break between two
+services) - the builder chooses placement by what reads well. When the section is omitted the page **must
+reflow cleanly**: no empty gap, no "missing section" rhythm break - "How a job works" moves up to fill, and
+the layout is verified end to end (mobile + desktop).
+
 ## Copy + evidence discipline
 - Every visible claim must trace to a specific key in `brief.json` / `source-evidence.json`. List any that
   cannot, and cut or soften them.
