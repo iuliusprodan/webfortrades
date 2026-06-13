@@ -101,6 +101,15 @@ three picked a serif-editorial display. Track fonts already deployed and do not 
 - Within a batch, **display categories must not repeat**, and **body fonts must not repeat** and must not be
   on the reserved list. (Update the reserved list as each batch ships.)
 
+**Client-supplied brand overrides the allocated seed.** When a lead has client-supplied brand assets (a
+logo, a fixed palette, a fixed font), those assets **override the pre-allocated design seed**. Record it in
+the site's `brief.json` as `design.brand_source = "client"`. Then:
+- The family-allocation rule **does not apply** to that seed - its family slot is effectively vacated and
+  free for re-use in a future batch.
+- Add the client-brand palette to the reserved-specific-palettes list under the lead's name.
+- The body font + display category from the original seed **may be retained** if they pair well with the
+  client brand; otherwise replace and document the swap in `design-direction.md`.
+
 ---
 
 ## Section rules (load-bearing)
