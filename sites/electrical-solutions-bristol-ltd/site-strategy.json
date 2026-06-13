@@ -1,0 +1,59 @@
+{
+  "slug": "electrical-solutions-bristol-ltd",
+  "path": "B (Claude-direct)",
+  "frozen_input_tag": "electrical-solutions-bristol-ltd-brief-frozen",
+  "business_angle": "Lawrence (the Bristol sparky) is the high-end domestic electrician for Bristol homes who wants the work done to a refined, considered standard - lighting and downlights planned and fitted, consumer units brought up to scratch first, faults found and explained - by someone who stays across the latest gear rather than fitting the same old stuff.",
+  "why_this_trader_wins": "The reviews describe a premium, design-minded domestic specialist, not a call-out generalist. Bel: 'his work is impeccable ... he stays across industry innovation and development so he is always able to offer the latest solutions instead of using the same old stuff'. Emily: 'did a fantastic job fitting some lights for us ... done to a really high quality'. Marc: he spotted an outdated consumer unit and explained it needed replacing before the rest of the lighting and socket work could be done. Matthieu and Megan: clear quoting, takes immense pride, 'impeccably tidy'. Five-star across 135 Google reviews is the strongest proof in the batch.",
+  "target_customer": "Bristol homeowners (BS16 Downend / Bromley Heath and wider Bristol) doing a considered domestic job - lighting and downlights, a rewire or new circuits, a consumer-unit upgrade, or a fault chased down - who want it planned, explained, and finished to a high standard rather than rushed.",
+  "page_single_job": "Get that homeowner to request a quote (or call Lawrence) for a domestic electrical job - lighting, rewire, consumer unit, or fault-finding.",
+  "distinctive_angle": "high-end-domestic-lighting-done-to-a-considered-standard",
+  "customer_praise_themes": [
+    {"theme": "lighting and downlights fitted to a high standard", "evidence": "brief.json reviews[2] (Emily): 'did a fantastic job fitting some lights for us ... The work he did was exactly as we asked and done to a really high quality'; reviews[0] (Marc): 'bathroom downlights, and a garden light and outdoor socket'"},
+    {"theme": "stays across the latest solutions rather than the same old stuff", "evidence": "brief.json reviews[1] (Bel): 'he stays across industry innovation and development so he is always able to offer the latest solutions instead of using the same old stuff'"},
+    {"theme": "consumer units and safety sorted first, explained honestly", "evidence": "brief.json reviews[0] (Marc): 'he noticed our consumer unit was outdated and explained that it needed replacing before the other work could be done ... clear and honest about everything'"},
+    {"theme": "fault-finding and putting dodgy electrics right", "evidence": "brief.json reviews[4] (Megan): 'did a fantastic job sorting out our dodgy electrics in our study ... happy to offer his recommendations'"},
+    {"theme": "clear quoting, kept updated, no surprises", "evidence": "brief.json reviews[0] (Marc): 'gave us a quote ... kept us updated throughout so there were no surprises'; reviews[3] (Matthieu): 'promptly received a quote ... which clearly detailed work to be undertaken'"},
+    {"theme": "takes pride in the work, impeccably tidy finish", "evidence": "brief.json reviews[3] (Matthieu): 'takes immense pride in his work'; reviews[4] (Megan): 'his work is of a very high standard and he is impeccably tidy'"}
+  ],
+  "named_people": [
+    {"name": "Lawrence", "role": "proprietor / electrician (the Bristol sparky)", "usage": "approved", "basis": "brief.json contact_name 'Lawrence', contact_name_usage_allowed=true, contact_name_confidence=high, named in 5 of 5 Google reviews; the personal brand is 'Bristolsparky' (the Linktree handle, brief.json website_url). Use Lawrence's first name freely in site prose. This is the Kyle Knowles ARCH-2 / contact_name_usage_allowed precedent applied directly (here the flag is already true)."}
+  ],
+  "strongest_review_quote": {
+    "text": "Lawrence is consistently brilliant. Not only is his work impeccable but he is a pleasure to have around. He also stays across industry innovation and development so he is always able to offer the latest solutions instead of using the same old stuff.",
+    "author": "Bel",
+    "source": "google",
+    "source_ref": "brief.json reviews[1]"
+  },
+  "strongest_proof_source": {
+    "platform": "google",
+    "metric": "5.0 rating from 135 reviews",
+    "url": "https://maps.google.com/?cid=9346552790654223777",
+    "source_ref": "brief.json google_rating, google_review_count (sourced=true), google_maps_url"
+  },
+  "real_services": [
+    {"name": "Lighting and downlights", "evidence": "reviews[2] Emily (fitting lights, high quality); reviews[0] Marc (bathroom downlights, garden light, hallway light switch); photos[] outdoor switched spur + sockets. This is the lead service per the high-end-domestic-lighting angle."},
+    {"name": "Consumer units and fuse boards", "evidence": "reviews[0] Marc (outdated consumer unit replaced before other work); photos[] 01-places.webp completed consumer unit board"},
+    {"name": "Rewires and new circuits", "evidence": "reviews[0] Marc (outdoor socket, hallway switch, garden light - new points and circuits); reviews[1] Bel ('all domestic and commercial jobs', unusual/complicated job); photos[] sockets being installed, earthing/bonding"},
+    {"name": "Fault-finding and repairs", "evidence": "reviews[4] Megan (sorting out dodgy electrics in study); photos[] 04-places.webp multifunction tester in use"}
+  ],
+  "claims_to_avoid": [
+    "any certification or membership badge (NICEIC, NAPIT, Part P, Gas Safe, Checkatrade Vetted, TrustATrader, Which? Trusted Trader) - none verified; brief.json directory_probes show 0 verified profiles (Yell/MyBuilder/Trustpilot snippet-only single-signal; TrustATrader was a rejected homonym; Checkatrade/RatedPeople/Bark/Houzz/MyJobQuote NOT_FOUND). Banned by copy_voice_constants CLAIMED_BADGE_PATTERNS unless evidenced.",
+    "'fully insured' / 'qualified' / 'certified electrician' / 'registered' claims - not evidenced (no certification in brief.certifications, none verified). Note: 'tested', 'testing' as a described activity is fine (photo shows a multifunction tester) but never a certification claim.",
+    "specific years-trading number - none evidenced",
+    "the Google-inferred service 'Bathroom installations' as a service - it is brief.json services[0] but inferred=true, source=review, direct=false; Lawrence is an electrician, the bathroom mention traces to bathroom downlights, not bathroom fitting. Do NOT list bathroom installation as a service.",
+    "the street address '4 Bromley Heath Ave' anywhere public - use Bristol / BS16 (Downend, Bromley Heath) only",
+    "service areas beyond Bristol and the plausible BS postcodes around BS16 - the brief service_area chips (Redfield, St George, Easton, Bedminster, Clifton, Kingswood, Fishponds) are Google-Maps chips, not coverage; treat as data, replace with a derived BS-district list around the BS16 base (no national footprint for a one-van trade)",
+    "any commercial-led positioning - Bel mentions 'domestic and commercial', so commercial work may be acknowledged once, but the angle and target customer are high-end DOMESTIC; do not lead on commercial",
+    "claiming the Linktree / any existing website as proof - it is a link aggregator (linktr.ee/Bristolsparky), classified HAS_REAL_SITE in enrich but it is NOT a real site; this build replaces it. Do not reference it."
+  ],
+  "personality": "refined, calm, precise; an electrician who plans the job, sorts the safety first, fits good kit to a high standard, and leaves it tidy. Premium without being showy. Lawrence talks straight and explains his recommendations.",
+  "evidence_strength": "rich-content / single-source (5 detailed five-star Google reviews + 9 completed-project photos; no verified third-party profile - directory probes unverified, Facebook/Instagram not found). Strong, specific, usable; same posture as the Kyle Knowles and Damo reference builds (source_quality FAIL/PASS_WITH_WARNINGS).",
+  "pitch_hook_summary": "Lead on the high-end-domestic angle: lighting and downlights planned and fitted to a high standard, consumer units and safety sorted first, latest solutions rather than the same old stuff, finished impeccably tidy - backed by a clean 5.0 from 135 Google reviews.",
+  "metadata": {
+    "source_quality": "FAIL",
+    "source_quality_reason": "HAS_REAL_SITE_SKIP - the detected 'real site' is a Linktree link-aggregator (linktr.ee/Bristolsparky), not a website. Per the assignment, the Linktree is not a real site; noted and continued. Lead validity HAS_REAL_SITE_SKIP, contactability=NEEDS_MANUAL_REVIEW (no email, UK mobile only, manual WhatsApp). This is a BUILD run; pitch_gate enforces at outreach time, not build time.",
+    "lead_validity_status": "HAS_REAL_SITE_SKIP",
+    "manual_review_note": "Same usable-evidence posture as the Kyle Knowles reference (also source_quality=FAIL). Evidence is specific and rich. Deploy will require --allow-manual-review to clear the NEEDS_MANUAL_REVIEW state.",
+    "authored_blind": "Path B authored from the frozen brief + CLAUDE.md + the webfortrades-site-design skill. Pre-allocated design seed honoured: jewel-tone family (deep amethyst violet, NOT green, NOT AC's aubergine+brass eggplant; cool chrome/pewter metal not brass), body=IBM Plex Sans, display=serif-editorial (Playfair Display). Distinct from all 9 prior deployed sites - see design-direction.md distinctness check."
+  }
+}

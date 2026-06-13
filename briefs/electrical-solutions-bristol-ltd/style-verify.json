@@ -1,0 +1,90 @@
+{
+  "slug": "electrical-solutions-bristol-ltd",
+  "updated_at": "2026-06-13T21:06:22.184Z",
+  "url": "https://electrical-solutions-bristol-ltd.vercel.app",
+  "ok": true,
+  "screenshot": "/Users/iuliusprodan/.cursor/website/screenshots/electrical-solutions-bristol-ltd/live-verify.png",
+  "stylesheet": {
+    "bytes": 47836,
+    "hasPreflight": true,
+    "hasUtilities": true,
+    "utilityMarkers": [
+      ".flex",
+      ".grid",
+      ".mx-auto",
+      ".items-center",
+      ".justify-",
+      ".max-w-",
+      ".px-/.py-",
+      ".rounded",
+      ".gap-"
+    ]
+  },
+  "metrics": {
+    "bodyFontFamily": "\"IBM Plex Sans\", \"IBM Plex Sans Fallback\", -apple-system, \"system-ui\", \"Segoe UI\", system-ui, sans-serif, -apple-system, \"system-ui\", \"Segoe UI\", system-ui, sans-serif",
+    "bodyBoxSizing": "border-box",
+    "bodyMarginTop": 0,
+    "bodyMarginLeft": 0,
+    "appliedRuleCount": 830,
+    "styleSheetCount": 1,
+    "biggestGraphic": {
+      "tag": "IMG",
+      "w": 340,
+      "h": 509,
+      "src": "https://electrical-solutions-bristol-ltd.vercel.app/assets/images/10-places.webp"
+    },
+    "primaryButton": {
+      "found": true,
+      "background": "rgba(0, 0, 0, 0)",
+      "borderRadius": "0px",
+      "paddingTop": "8px"
+    },
+    "bodyText": "Electrical Solutions Bristol\nWork\nReviews\nAreas\nGet a quote\n\nELECTRICIAN, BRISTOL BS16 - DOWNEND AND ACROSS THE CITY\n\nHigh-end home electrics for Bristol, lighting and all, done to a considered standard.\n\nLawrence fits lighting and downlights, upgrades consumer units, rewires and chases down faults "
+  },
+  "css_assets": [
+    {
+      "url": "https://electrical-solutions-bristol-ltd.vercel.app/_next/static/css/4f76f04560dda086.css",
+      "status": 200,
+      "bytes": 47836
+    }
+  ],
+  "js_assets": [
+    {
+      "url": "https://electrical-solutions-bristol-ltd.vercel.app/_next/static/chunks/4bd1b696-c023c6e3521b1417.js",
+      "status": 200,
+      "bytes": 173019
+    },
+    {
+      "url": "https://electrical-solutions-bristol-ltd.vercel.app/_next/static/chunks/255-eb4aecc3ff015961.js",
+      "status": 200,
+      "bytes": 173611
+    },
+    {
+      "url": "https://electrical-solutions-bristol-ltd.vercel.app/_next/static/chunks/main-app-f9b5d20365cb8be2.js",
+      "status": 200,
+      "bytes": 557
+    },
+    {
+      "url": "https://electrical-solutions-bristol-ltd.vercel.app/_next/static/chunks/app/page-41c5dcac739e8a96.js",
+      "status": 200,
+      "bytes": 6566
+    },
+    {
+      "url": "https://electrical-solutions-bristol-ltd.vercel.app/_next/static/chunks/polyfills-42372ed130431b0a.js",
+      "status": 200,
+      "bytes": 112594
+    },
+    {
+      "url": "https://electrical-solutions-bristol-ltd.vercel.app/_next/static/chunks/webpack-c2c1bc023d4a35e4.js",
+      "status": 200,
+      "bytes": 3770
+    }
+  ],
+  "failed_assets": [],
+  "issues": [
+    {
+      "severity": "warn",
+      "message": "Primary CTA has no background and no border radius (may be unstyled)"
+    }
+  ]
+}

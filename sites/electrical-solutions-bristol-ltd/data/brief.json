@@ -1,0 +1,477 @@
+{
+  "business_name": "Electrical Solutions Bristol Ltd",
+  "owner_name": null,
+  "contact_name": "Lawrence",
+  "contact_name_source": "google_reviews",
+  "contact_name_confidence": "high",
+  "contact_name_evidence_count": 5,
+  "contact_name_usage_allowed": true,
+  "possible_contact_name": null,
+  "phone": "07716 418405",
+  "email": null,
+  "phone_type": "mobile",
+  "whatsapp_candidate": true,
+  "email_available": false,
+  "whatsapp_available": "not_checked",
+  "contactability_status": "NEEDS_MANUAL_REVIEW",
+  "contactability_reason": "no email found; UK mobile present, requires manual WhatsApp contact",
+  "preferred_channel": "whatsapp",
+  "address": "4 Bromley Heath Ave, Bristol BS16 6JS, UK",
+  "opening_hours": [
+    "Monday: 9:00 AM – 5:00 PM",
+    "Tuesday: 9:00 AM – 5:00 PM",
+    "Wednesday: 9:00 AM – 5:00 PM",
+    "Thursday: 9:00 AM – 5:00 PM",
+    "Friday: 9:00 AM – 5:00 PM",
+    "Saturday: Closed",
+    "Sunday: Closed"
+  ],
+  "services": [
+    "Bathroom installations"
+  ],
+  "services_meta": [
+    {
+      "name": "Bathroom installations",
+      "source": "review",
+      "direct": false
+    }
+  ],
+  "service_confidence": "inferred",
+  "service_sources": [
+    "google",
+    "review",
+    "niche"
+  ],
+  "service_area": [
+    "Bristol",
+    "Bristol BS16 6JS",
+    "Redfield",
+    "St George",
+    "Easton",
+    "Bedminster",
+    "Clifton",
+    "Kingswood",
+    "Fishponds"
+  ],
+  "based_location": "Bristol, BS16",
+  "google_rating": 5,
+  "google_review_count": 135,
+  "google_review_count_sourced": true,
+  "service_areas_inferred": true,
+  "google_maps_url": "https://maps.google.com/?cid=9346552790654223777",
+  "website_status": "HAS_REAL_SITE",
+  "website_check_notes": "reason=working_site; status=200; final=https://linktr.ee/Bristolsparky; title=Bristolsparky Official: TikTok, Facebook | Linktree",
+  "website_url": "https://linktr.ee/Bristolsparky",
+  "photos": [
+    {
+      "local": "images/01-places.webp",
+      "source_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3mToiVo1u5lvOskDn3vLwBurLJPFP6Bkdn3YF6VydXoMH6rlPtt-8OdI2c435r-lF6BvOCLrRmxMZ1Ny2X57NlVw1k9veT1tjvJ2UH4MRbivU-4_qCY0Y-iRagX3vXQVs6EXPaDf45A3-idXCEWW9bpkLCGNFQkxgSsBqjFRW_v4SSiSqXwRfdI5lxsiS_7_P0eH_i0R0wd8wWydEwCG27-MJD2SAukiYkGUUzL9dIY0s8z7trEyTYnMyeieUOCjbbAu2TIwQyErEXKLMgHVZQe14irOMPNSiwX9O8jl5rXDTmXyV0teNCfVD5RLUWUbulTWiLgCSZ2jZGQTAWQ8l94XjCAzUfTJOOUSeRvqKx_ToLQuoRg6einbObOHJZE4YpYLjo9XrsF06FwZFNUXFRU7rG-I7VPTigprwuqRJCiVC8LRi4p8OuMPV-_oQ&key=REDACTED",
+      "width": 1600,
+      "height": 1200,
+      "classification": "completed_project",
+      "pair_id": null,
+      "source_type": "google_places"
+    },
+    {
+      "local": "images/02-places.webp",
+      "source_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3nVWoIOOtDeLqYlwP3VgEXGCbZtHJJhNCexXEA8WvWzfgc3oTcetATt2q5rybMHPNbOtoChxHslAewoNpWZRjETodWohlLcQSFsEt8A5CHpFAJSZwZC2wvKch60EnHYsuyxnHjRXzWiEsfbva4bFU8foLmdiGZPf6k2JXYsOwUISuytBAVyxhRYLOYbA5W7qchZQMB9bTHSLNi4PpKxpdUgZVCWq8nAvAQ2wqfkQQAKBl47f6BpBveIvTB-hS76tidkEBAyk9HGJozovW6D_yKLbKSBWQ-6HrzdFhDs3kegnV0gp4dCkgXdhBYk3VmRWyvGh9WNFHTgTxOlXSD8YdgzjHkJDkx14z0W-DhVxHhLNt3BPFVat6Zgu_clT1tPbxzcwTH2xYcWLo7mgnMOPtmrpcBRavr9mEA57JvTKmU&key=REDACTED",
+      "width": 1200,
+      "height": 1600,
+      "classification": "completed_project",
+      "pair_id": null,
+      "source_type": "google_places"
+    },
+    {
+      "local": "images/04-places.webp",
+      "source_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3kqGT9ILOljnoxoD9uHWoIDzko2XSREIoMeq-UF8S4bO-3q0HXNmVTEv1-pq4VbK8xaNbp6BbzqMHPQIV7ZXIawksT9ekNy2gB55yjFOp2qZQHOMOVirqeHMdlvpaQh3zdfAfLpU06ncUnsb4pgUWLdAALo4G_Hy0HDlvM7boKNQ8oI4j0rZkbV5IckvLyl3BYSY2ebM_toL2agubJ7zVJwmkjP0lTZ0VPeXRufV2nAVUFvy-dAbZktdhrrC5g4ysKMK8GrIbkwezPJOSjsLss7XL_ad0uH2AnKPDOabUFSzdxojAXuJYLc2hKsBztoct04K9Sn715fbymN-85GGPul8VDbk5b7Rs4fYErKSEUXJ_dbpd6DLHjajN0u0kBaGrBA83k576MYcw_d67sd2PCemsoaRckJryKzBNr0fvEoEk7Ygw3IIE8dFcKdlBW7&key=REDACTED",
+      "width": 1200,
+      "height": 1600,
+      "classification": "completed_project",
+      "pair_id": null,
+      "source_type": "google_places"
+    },
+    {
+      "local": "images/05-places.webp",
+      "source_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3nJV9271dbIDbvoPz-9fjylzwfJEwYI-iQKfAy1jqlzbYBkPbOQLPTNdrKNbTpcBUqXjoM_ATztJxuF26AW0pk4gt_IjH1xinAjQFmlmV5Lejv5nr1VjjxchKmnddMSSIakGWsVAK_WPJV10jvJ55Z5Mn_tVmAlKOAjTC_sISrX_u5ysYgmrxf990gxC1CyFYBeL5enx8n1OIcCHwyTE15_XN9VLFdjKGdO7_Jso_4vhmhCDz3PzjZ2tmcR62macdZlG3gEOP7Uzz0mMBWAjzIlt09CF1YowuaChTZq1p3A5sUe5G5C2EV2E2bqer19bWg0LgdFTI8HzKMJiDMBIfbBq92DKobez4N0lX4t7jA8jg7LbptPJ8zX0uLqAAZgcwR61oFMJyTTFaNo1b9FbzDMZci1-XzIxA-sUdYpL5Y&key=REDACTED",
+      "width": 1200,
+      "height": 1600,
+      "classification": "completed_project",
+      "pair_id": null,
+      "source_type": "google_places"
+    },
+    {
+      "local": "images/06-places.webp",
+      "source_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3mZIFl3FLMfRShPc2q7JGc73DUGbe37Vc_-jjCvsV7Msw6wRoxr5vrz16CwJUL0ssazjPW0MdmqZiHg0XpX8XOPEnNHJBlq8YXlvT8wauLRqpBYIu71c5YBYWj-OlAu_LMIm4rYHoBTXGWrtY5m4tQOYPRj-03XDTez0RYv11DGRQcb-q1WMZvSqboArsHeGrZKu5rl7UjritxsNOOkStNJXvAIhYF2syDplP1lOpuCwvUFMSm3X30k1bXma0PlKK5MEwA7aCr_zBb4poZvdbAzc-FBlCnVe6t75HyE9DVM58wzutjwl94Ma7BXwNtAww1iYSZeT198AQpMLxPfu8TfZGajZFuxvS__CzftwL8gSNlya7ZRLXpQx37krCRCk_sN9YR0zDZRvdAU9s6VQsUxlxnHkObE4LTeu6Abff72nftP&key=REDACTED",
+      "width": 1200,
+      "height": 1600,
+      "classification": "completed_project",
+      "pair_id": null,
+      "source_type": "google_places"
+    },
+    {
+      "local": "images/07-places.webp",
+      "source_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3n1-7sHQ7JNJTNhU6bEw7Sf6sAzqEqP-zIeAmQcDGmyWDPWNNLpfDMiA5aLcKGK66jM-nr5FqRwrx_V79hKvkSxupy-HrE-vfnAtB4jQkP0lnTQx4bNd9YtJVC4stPJWvKUOBNZ6Wx0QR5UorDrsfHmKsL_AlH5EqWGjVxWV8jwZOD-juEi5mIDPK-3hMuuCyeVg8MKI4rUp5nHg1QkXeBP4jS-kbsiuJ5OVxOGsctVXZrZ5zb2cAIpEQS_yWkU3pqHNXVcY4QBouDRhx0lPh_MkfMztyL_8DlsDIx-0ElixJzIkci7aUp1T03AEhTDGnyt0NwpGR8TLSjuq8OXMkEEFXwjO291sP5cKbqGxCF-B-FmwhHO2yT-_9QOWS7fQcuKyPF4eAT8P4YuyndoyUmmWfctw-b27-YSWN9tc2v4OQ&key=REDACTED",
+      "width": 1200,
+      "height": 1600,
+      "classification": "completed_project",
+      "pair_id": null,
+      "source_type": "google_places"
+    },
+    {
+      "local": "images/08-places.webp",
+      "source_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3mTd70cTrh7Vcga9GarqDWKxH2lDQOMo45JOrwsXYILPTEN2PUO9ko3aTke6M91kAog0nmphRpkHNYxKYlGMRbdIx6sMJRw9KQJWY7Qxbml2met15NC9FuXLphiZLqIGO1sQaHvPGBWqgbB6kmtIx-AS2HyySFnHR9KRqYe5iUU6kyii0HgNpSvTByVqyJOi3TL5Df3qfuKMMr2c3lOaN0gxjh8Y5NPZSBXXqKhv-wxRHV8kuay72WpbXZ6Dxt2cFIPIg219mqAMZBHZLKLpNN3YzJju5i9jOXEXMT9s9PZF0CFVDweBlXcimoRWBJKNDIiFq_eyj27HmCRoppQfO3SZ9QdRfi6lZB14DYLG9Y3nGlImjgvJoKXy_Xyt-EdQgwIPiceXRA_f3ZThK4QyXIGsoJzET30UpXZC6Yu2QYUMbQnJhr_HdGUzrFazzdu&key=REDACTED",
+      "width": 1200,
+      "height": 1600,
+      "classification": "completed_project",
+      "pair_id": null,
+      "source_type": "google_places"
+    },
+    {
+      "local": "images/09-places.webp",
+      "source_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3k_SlvS5B6G-3Q7-F8YX8vuGfWM1x4VDBP9d2W9Z04KygEHg_paejq_vuN8ybbTNmjoEei-8QzaLwnvuJxdXkhQIOk-pggQXEo8Z-VvdQ49sm8AZu8Y9CkPO-8YDll_YyjahqgT6w3FdWEy4tMi0jx0OoewSBhkXnAqH3r8HJ4XsQvP7FQsdnVeHqn-9s0Fvhm8sDHvD4gD7Ak_6UcUTipsgqTSl0mwhCsmeY0_d3rSgqxqQVWrQPGisPBcPALHr4ybpFjORJUlPfiq3Wk5Sv8fB6N0CCHVRx7rz3hRaQzQjpVgbDH7iZo7zIeSs_Cgxc6MMAcfmbfEmKrxdf-L2aQHSyQV67Am_bfmA_PMPWZPw6xOkon5BI96wJbH7aNp-wBrYautRyxQTAr3btLQq4ETVPWEDF3wSJRTjx4q2wAJ0DKSRALSqRsfZ1up9xGM&key=REDACTED",
+      "width": 1200,
+      "height": 1600,
+      "classification": "completed_project",
+      "pair_id": null,
+      "source_type": "google_places"
+    },
+    {
+      "local": "images/10-places.webp",
+      "source_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3l8jkcMYfn-4KOFpxJHQc3yhHgZbULqTzfSqDMhsZtRgL8QQk9XGEJL5DXnqmTxmsps20zBf8XEr03omFLNg-dR5dHHDKULGrqau9e3THdunfOZpz8cjDu8B6JjLDQZkPw608NG_1ZlGp09LimRL9DWQ7Db5Ywhve-5qC7NZP_tYJyK9AdPiS4Pt5rdoOemk-v5CCki2Mj1qkv3VdakLARXNbV7IlV2UbkXmSzfzrN0yfbZ3jRlvTiWErViuC6h50p7yrX_-xlvtoPFMrGVJAs7kyMoTaHPPWA6xiDD15y56f7r3GdFs2BwPK7WYvFIaTllbgheRrYaAy_PKJlRQOIqE2s5GKiCATBAcwgMe0tTMZnmJTXBnT46sy8_PFbP4OzwdymBLl5st6FHAtjYzew70y7Uo5pGwcLU29Yu6PFXBfdMZ-TpeL2oGSwpnQ&key=REDACTED",
+      "width": 1024,
+      "height": 1536,
+      "classification": "completed_project",
+      "pair_id": null,
+      "source_type": "google_places"
+    }
+  ],
+  "reviews": [
+    {
+      "text": "Had a great experience with Electrical Solutions Bristol. Lawrence was brilliant — punctual, friendly, and really easy to communicate with.\n\nWe originally asked him to quote for a few bits around the house (hallway light switch, bathroom downlights, and a garden light and outdoor socket). While he was there, he noticed our consumer unit was outdated and explained that it needed replacing before the other work could be done — joys of an old house!\n\nHe was clear and honest about everything, gave us a quote, and came back to do the work quickly and on time. He kept us updated throughout so there were no surprises. Really nice guy and very professional.\n\nWould definitely recommend and wouldn’t hesitate to use him again!",
+      "reviewer": "Marc",
+      "rating": 5
+    },
+    {
+      "text": "Lawrence is consistently brilliant. Not only is his work impeccable but he is a pleasure to have around. He also stays across industry innovation and development so he is always able to offer the latest solutions instead of using the same old stuff. He worked across our unusual and complicated job with good humour and advised us so well, so everything works perfectly. We will continue to use him and would recommend him without hesitation for all domestic and commercial jobs. Thanks Lawrence!",
+      "reviewer": "Bel",
+      "rating": 5
+    },
+    {
+      "text": "Lawrence did a fantastic job fitting some lights for us. He was easy to communicate with and was flexible when working around some other work that was being done in the space. Lawrence was very thorough and explained everything to us as he was doing it. The work he did was exactly as we asked and done to a really high quality. Such a friendly, positive person. I highly recommend and will definitely be contacting him again for any electrician work we have in the future. Thanks!",
+      "reviewer": "Emily",
+      "rating": 5
+    },
+    {
+      "text": "From start to finish to whole experience was exceptional. Lawrence attended to discuss options and the general plan. I then promptly received a quote for the works, which clearly detailed work to be undertaken.\n\nOn the day itself Lawrence proved to be incredibly professional, knowledgeable and banterful all in one. He takes immense pride in his work and I would not hesitate for a second to recommend his services!",
+      "reviewer": "Matthieu",
+      "rating": 5
+    },
+    {
+      "text": "Lawrence did a fantastic job sorting out our dodgy electrics in our study.  He was very patient with my lack of pre planning of what I wanted and was happy to offer his recommendations.  His work is of a very high standard and he is impeccably tidy.\nHighly recommend and would absolutely use again.",
+      "reviewer": "Megan",
+      "rating": 5
+    }
+  ],
+  "social": {
+    "facebook": null,
+    "instagram": null,
+    "youtube": null,
+    "tiktok": null
+  },
+  "gallery_layout": "completed_project_gallery",
+  "photo_classification_summary": {
+    "completed_project": 9
+  },
+  "brand": {
+    "colours": [],
+    "logo_url": "https://assets.production.linktr.ee/profiles/_next/static/logo-assets/web-app-manifest-512x512.png",
+    "logo_local": "brand/logo.webp"
+  },
+  "source_urls": [
+    "https://maps.google.com/?cid=9346552790654223777",
+    "https://linktr.ee/Bristolsparky",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3mToiVo1u5lvOskDn3vLwBurLJPFP6Bkdn3YF6VydXoMH6rlPtt-8OdI2c435r-lF6BvOCLrRmxMZ1Ny2X57NlVw1k9veT1tjvJ2UH4MRbivU-4_qCY0Y-iRagX3vXQVs6EXPaDf45A3-idXCEWW9bpkLCGNFQkxgSsBqjFRW_v4SSiSqXwRfdI5lxsiS_7_P0eH_i0R0wd8wWydEwCG27-MJD2SAukiYkGUUzL9dIY0s8z7trEyTYnMyeieUOCjbbAu2TIwQyErEXKLMgHVZQe14irOMPNSiwX9O8jl5rXDTmXyV0teNCfVD5RLUWUbulTWiLgCSZ2jZGQTAWQ8l94XjCAzUfTJOOUSeRvqKx_ToLQuoRg6einbObOHJZE4YpYLjo9XrsF06FwZFNUXFRU7rG-I7VPTigprwuqRJCiVC8LRi4p8OuMPV-_oQ&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3nVWoIOOtDeLqYlwP3VgEXGCbZtHJJhNCexXEA8WvWzfgc3oTcetATt2q5rybMHPNbOtoChxHslAewoNpWZRjETodWohlLcQSFsEt8A5CHpFAJSZwZC2wvKch60EnHYsuyxnHjRXzWiEsfbva4bFU8foLmdiGZPf6k2JXYsOwUISuytBAVyxhRYLOYbA5W7qchZQMB9bTHSLNi4PpKxpdUgZVCWq8nAvAQ2wqfkQQAKBl47f6BpBveIvTB-hS76tidkEBAyk9HGJozovW6D_yKLbKSBWQ-6HrzdFhDs3kegnV0gp4dCkgXdhBYk3VmRWyvGh9WNFHTgTxOlXSD8YdgzjHkJDkx14z0W-DhVxHhLNt3BPFVat6Zgu_clT1tPbxzcwTH2xYcWLo7mgnMOPtmrpcBRavr9mEA57JvTKmU&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3l7YpFhgrOTkj009kD5esweb5NRQRHuM73h3ZT_wbOLbIPkU6N4zhrH85vPFlU9f2O79k59vmSfJCp-C3CSFXwhAfF6dUbpGHQLHeEJneOm6nDTufwTvM5aQ3jqrIxBeuXRmscswlsD-liVnJYEMd5MHPQlWUzSmBv2dZGEwoZeE3O2OwiTybb36R92GTeTgco8hP6ZeQ0pcKPGCeAlwAJjDzS4l-BWC-ce_N4LocFTd72ruXaBiecq5r7G4_W-OFwMUQXgA98TL0J1X4erjZDLwSxLIgnOQhvSC1OSI08sba4AqIDM1OdZEy9TlzRHLKBi-ALM6VtcO_04sOMfXNxNJLcJG8Ph6a8-aDEoppb2QfbTFUcIs2qm8cdNmHXSC-ggLTnhdstl6IsrXBZcla3TCH7IzqEceu0bys0hlzQPwmLHVFRxpdxpc7PVRemp&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3kqGT9ILOljnoxoD9uHWoIDzko2XSREIoMeq-UF8S4bO-3q0HXNmVTEv1-pq4VbK8xaNbp6BbzqMHPQIV7ZXIawksT9ekNy2gB55yjFOp2qZQHOMOVirqeHMdlvpaQh3zdfAfLpU06ncUnsb4pgUWLdAALo4G_Hy0HDlvM7boKNQ8oI4j0rZkbV5IckvLyl3BYSY2ebM_toL2agubJ7zVJwmkjP0lTZ0VPeXRufV2nAVUFvy-dAbZktdhrrC5g4ysKMK8GrIbkwezPJOSjsLss7XL_ad0uH2AnKPDOabUFSzdxojAXuJYLc2hKsBztoct04K9Sn715fbymN-85GGPul8VDbk5b7Rs4fYErKSEUXJ_dbpd6DLHjajN0u0kBaGrBA83k576MYcw_d67sd2PCemsoaRckJryKzBNr0fvEoEk7Ygw3IIE8dFcKdlBW7&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3nJV9271dbIDbvoPz-9fjylzwfJEwYI-iQKfAy1jqlzbYBkPbOQLPTNdrKNbTpcBUqXjoM_ATztJxuF26AW0pk4gt_IjH1xinAjQFmlmV5Lejv5nr1VjjxchKmnddMSSIakGWsVAK_WPJV10jvJ55Z5Mn_tVmAlKOAjTC_sISrX_u5ysYgmrxf990gxC1CyFYBeL5enx8n1OIcCHwyTE15_XN9VLFdjKGdO7_Jso_4vhmhCDz3PzjZ2tmcR62macdZlG3gEOP7Uzz0mMBWAjzIlt09CF1YowuaChTZq1p3A5sUe5G5C2EV2E2bqer19bWg0LgdFTI8HzKMJiDMBIfbBq92DKobez4N0lX4t7jA8jg7LbptPJ8zX0uLqAAZgcwR61oFMJyTTFaNo1b9FbzDMZci1-XzIxA-sUdYpL5Y&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3mZIFl3FLMfRShPc2q7JGc73DUGbe37Vc_-jjCvsV7Msw6wRoxr5vrz16CwJUL0ssazjPW0MdmqZiHg0XpX8XOPEnNHJBlq8YXlvT8wauLRqpBYIu71c5YBYWj-OlAu_LMIm4rYHoBTXGWrtY5m4tQOYPRj-03XDTez0RYv11DGRQcb-q1WMZvSqboArsHeGrZKu5rl7UjritxsNOOkStNJXvAIhYF2syDplP1lOpuCwvUFMSm3X30k1bXma0PlKK5MEwA7aCr_zBb4poZvdbAzc-FBlCnVe6t75HyE9DVM58wzutjwl94Ma7BXwNtAww1iYSZeT198AQpMLxPfu8TfZGajZFuxvS__CzftwL8gSNlya7ZRLXpQx37krCRCk_sN9YR0zDZRvdAU9s6VQsUxlxnHkObE4LTeu6Abff72nftP&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3n1-7sHQ7JNJTNhU6bEw7Sf6sAzqEqP-zIeAmQcDGmyWDPWNNLpfDMiA5aLcKGK66jM-nr5FqRwrx_V79hKvkSxupy-HrE-vfnAtB4jQkP0lnTQx4bNd9YtJVC4stPJWvKUOBNZ6Wx0QR5UorDrsfHmKsL_AlH5EqWGjVxWV8jwZOD-juEi5mIDPK-3hMuuCyeVg8MKI4rUp5nHg1QkXeBP4jS-kbsiuJ5OVxOGsctVXZrZ5zb2cAIpEQS_yWkU3pqHNXVcY4QBouDRhx0lPh_MkfMztyL_8DlsDIx-0ElixJzIkci7aUp1T03AEhTDGnyt0NwpGR8TLSjuq8OXMkEEFXwjO291sP5cKbqGxCF-B-FmwhHO2yT-_9QOWS7fQcuKyPF4eAT8P4YuyndoyUmmWfctw-b27-YSWN9tc2v4OQ&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3mTd70cTrh7Vcga9GarqDWKxH2lDQOMo45JOrwsXYILPTEN2PUO9ko3aTke6M91kAog0nmphRpkHNYxKYlGMRbdIx6sMJRw9KQJWY7Qxbml2met15NC9FuXLphiZLqIGO1sQaHvPGBWqgbB6kmtIx-AS2HyySFnHR9KRqYe5iUU6kyii0HgNpSvTByVqyJOi3TL5Df3qfuKMMr2c3lOaN0gxjh8Y5NPZSBXXqKhv-wxRHV8kuay72WpbXZ6Dxt2cFIPIg219mqAMZBHZLKLpNN3YzJju5i9jOXEXMT9s9PZF0CFVDweBlXcimoRWBJKNDIiFq_eyj27HmCRoppQfO3SZ9QdRfi6lZB14DYLG9Y3nGlImjgvJoKXy_Xyt-EdQgwIPiceXRA_f3ZThK4QyXIGsoJzET30UpXZC6Yu2QYUMbQnJhr_HdGUzrFazzdu&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3k_SlvS5B6G-3Q7-F8YX8vuGfWM1x4VDBP9d2W9Z04KygEHg_paejq_vuN8ybbTNmjoEei-8QzaLwnvuJxdXkhQIOk-pggQXEo8Z-VvdQ49sm8AZu8Y9CkPO-8YDll_YyjahqgT6w3FdWEy4tMi0jx0OoewSBhkXnAqH3r8HJ4XsQvP7FQsdnVeHqn-9s0Fvhm8sDHvD4gD7Ak_6UcUTipsgqTSl0mwhCsmeY0_d3rSgqxqQVWrQPGisPBcPALHr4ybpFjORJUlPfiq3Wk5Sv8fB6N0CCHVRx7rz3hRaQzQjpVgbDH7iZo7zIeSs_Cgxc6MMAcfmbfEmKrxdf-L2aQHSyQV67Am_bfmA_PMPWZPw6xOkon5BI96wJbH7aNp-wBrYautRyxQTAr3btLQq4ETVPWEDF3wSJRTjx4q2wAJ0DKSRALSqRsfZ1up9xGM&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3l8jkcMYfn-4KOFpxJHQc3yhHgZbULqTzfSqDMhsZtRgL8QQk9XGEJL5DXnqmTxmsps20zBf8XEr03omFLNg-dR5dHHDKULGrqau9e3THdunfOZpz8cjDu8B6JjLDQZkPw608NG_1ZlGp09LimRL9DWQ7Db5Ywhve-5qC7NZP_tYJyK9AdPiS4Pt5rdoOemk-v5CCki2Mj1qkv3VdakLARXNbV7IlV2UbkXmSzfzrN0yfbZ3jRlvTiWErViuC6h50p7yrX_-xlvtoPFMrGVJAs7kyMoTaHPPWA6xiDD15y56f7r3GdFs2BwPK7WYvFIaTllbgheRrYaAy_PKJlRQOIqE2s5GKiCATBAcwgMe0tTMZnmJTXBnT46sy8_PFbP4OzwdymBLl5st6FHAtjYzew70y7Uo5pGwcLU29Yu6PFXBfdMZ-TpeL2oGSwpnQ&key=REDACTED",
+    "https://linktr.ee/og/image/Bristolsparky.jpg",
+    "https://ugc.production.linktr.ee/ilwBmdYVSWu0lEPXzMV1_IMG_2854.PNG?io=true&amp;size=avatar-v3_0"
+  ],
+  "notes": [
+    "owner_name not found in public sources",
+    "email not found in public sources",
+    "contact_name \"Lawrence\" from 5 Google review mention(s) (high confidence); owner_name not set",
+    "contactability=NEEDS_MANUAL_REVIEW",
+    "no email found; UK mobile present, requires manual WhatsApp contact",
+    "Hidden or official website classified as HAS_REAL_SITE",
+    "Logo discovered via favicon (score 68)",
+    "Photo discovery: 21/21 selected (Enough photos for photo-led layout)"
+  ],
+  "missing_fields": [
+    "owner_name",
+    "email",
+    "facebook",
+    "instagram"
+  ],
+  "website_url_validation": {
+    "validated_at": "2026-06-13T20:50:40.427Z",
+    "issue": null,
+    "note": "website_url valid",
+    "previous_url": "https://linktr.ee/Bristolsparky"
+  },
+  "prospect_region": "Bristol",
+  "location_validation_status": "OK",
+  "directory_probes": [
+    {
+      "platform": "checkatrade",
+      "candidate_url": null,
+      "status": "NOT_FOUND",
+      "confidence": "rejected",
+      "title": null,
+      "rating": null,
+      "review_count": null,
+      "member_since": null,
+      "badges": [],
+      "review_snippets": [],
+      "phone_visible": false,
+      "verification_reasons": [],
+      "identity_match_count": 0,
+      "identity_match_signals": [],
+      "homonym_url": null,
+      "search_query": "site:checkatrade.com \"Electrical Solutions Bristol Ltd\" Bristol BS16 6JS BS16",
+      "probed": true,
+      "note": "candidates_exhausted"
+    },
+    {
+      "platform": "trustatrader",
+      "candidate_url": "https://www.trustatrader.com/",
+      "status": "NOT_FOUND_HOMONYM",
+      "confidence": "rejected",
+      "title": "Find Trusted Traders and Local Tradesmen | TrustATrader",
+      "rating": null,
+      "review_count": null,
+      "member_since": null,
+      "badges": [],
+      "review_snippets": [],
+      "phone_visible": false,
+      "verification_reasons": [],
+      "identity_match_count": 0,
+      "identity_match_signals": [],
+      "homonym_url": "https://www.trustatrader.com/",
+      "search_query": "site:trustatrader.com \"Electrical Solutions Bristol Ltd\" Bristol BS16 6JS BS16",
+      "probed": true,
+      "note": "identity_homonym"
+    },
+    {
+      "platform": "yell",
+      "candidate_url": "https://www.yell.com/biz/electrical-solutions-bristol-ltd-bristol-bs16-6js/",
+      "status": "FOUND_FROM_SNIPPET",
+      "confidence": "low",
+      "title": null,
+      "rating": null,
+      "review_count": null,
+      "member_since": null,
+      "badges": [],
+      "review_snippets": [],
+      "phone_visible": false,
+      "verification_reasons": [],
+      "identity_match_count": 1,
+      "identity_match_signals": [
+        "exact_name"
+      ],
+      "homonym_url": null,
+      "search_query": "site:yell.com \"Electrical Solutions Bristol Ltd\" Bristol BS16 6JS BS16",
+      "probed": true,
+      "note": "snippet_unverified_single_signal"
+    },
+    {
+      "platform": "mybuilder",
+      "candidate_url": "https://www.mybuilder.com/profile/electrical-solutions-bristol-ltd",
+      "status": "FOUND_FROM_SNIPPET",
+      "confidence": "low",
+      "title": null,
+      "rating": null,
+      "review_count": null,
+      "member_since": null,
+      "badges": [],
+      "review_snippets": [],
+      "phone_visible": false,
+      "verification_reasons": [],
+      "identity_match_count": 1,
+      "identity_match_signals": [
+        "exact_name"
+      ],
+      "homonym_url": null,
+      "search_query": "site:mybuilder.com \"Electrical Solutions Bristol Ltd\" Bristol BS16 6JS BS16",
+      "probed": true,
+      "note": "snippet_unverified_single_signal"
+    },
+    {
+      "platform": "rated_people",
+      "candidate_url": null,
+      "status": "NOT_FOUND",
+      "confidence": "rejected",
+      "title": null,
+      "rating": null,
+      "review_count": null,
+      "member_since": null,
+      "badges": [],
+      "review_snippets": [],
+      "phone_visible": false,
+      "verification_reasons": [],
+      "identity_match_count": 0,
+      "identity_match_signals": [],
+      "homonym_url": null,
+      "search_query": "site:ratedpeople.com \"Electrical Solutions Bristol Ltd\" Bristol BS16 6JS BS16",
+      "probed": true,
+      "note": "candidates_exhausted"
+    },
+    {
+      "platform": "bark",
+      "candidate_url": null,
+      "status": "NOT_FOUND",
+      "confidence": "rejected",
+      "title": null,
+      "rating": null,
+      "review_count": null,
+      "member_since": null,
+      "badges": [],
+      "review_snippets": [],
+      "phone_visible": false,
+      "verification_reasons": [],
+      "identity_match_count": 0,
+      "identity_match_signals": [],
+      "homonym_url": null,
+      "search_query": "site:bark.com \"Electrical Solutions Bristol Ltd\" Bristol BS16 6JS BS16",
+      "probed": true,
+      "note": "candidates_exhausted"
+    },
+    {
+      "platform": "houzz",
+      "candidate_url": null,
+      "status": "NOT_FOUND",
+      "confidence": "rejected",
+      "title": null,
+      "rating": null,
+      "review_count": null,
+      "member_since": null,
+      "badges": [],
+      "review_snippets": [],
+      "phone_visible": false,
+      "verification_reasons": [],
+      "identity_match_count": 0,
+      "identity_match_signals": [],
+      "homonym_url": null,
+      "search_query": "site:houzz.co.uk \"Electrical Solutions Bristol Ltd\" Bristol BS16 6JS BS16",
+      "probed": true,
+      "note": "candidates_exhausted"
+    },
+    {
+      "platform": "trustpilot",
+      "candidate_url": "https://www.trustpilot.com/review/electrical-solutions-bristol-ltd",
+      "status": "FOUND_FROM_SNIPPET",
+      "confidence": "low",
+      "title": null,
+      "rating": null,
+      "review_count": null,
+      "member_since": null,
+      "badges": [],
+      "review_snippets": [],
+      "phone_visible": false,
+      "verification_reasons": [],
+      "identity_match_count": 1,
+      "identity_match_signals": [
+        "exact_name"
+      ],
+      "homonym_url": null,
+      "search_query": "site:uk.trustpilot.com \"Electrical Solutions Bristol Ltd\" Bristol BS16 6JS BS16",
+      "probed": true,
+      "note": "snippet_unverified_single_signal"
+    },
+    {
+      "platform": "myjobquote",
+      "candidate_url": null,
+      "status": "NOT_FOUND",
+      "confidence": "rejected",
+      "title": null,
+      "rating": null,
+      "review_count": null,
+      "member_since": null,
+      "badges": [],
+      "review_snippets": [],
+      "phone_visible": false,
+      "verification_reasons": [],
+      "identity_match_count": 0,
+      "identity_match_signals": [],
+      "homonym_url": null,
+      "search_query": "site:myjobquote.co.uk \"Electrical Solutions Bristol Ltd\" Bristol BS16 6JS BS16",
+      "probed": true,
+      "note": "candidates_exhausted"
+    }
+  ],
+  "enrichment": {
+    "enriched_at": "2026-06-13T20:51:21.727Z",
+    "email_domain_checked": false,
+    "website_discovery_run": true
+  },
+  "lead_validity": {
+    "lead_validity_status": "HAS_REAL_SITE_SKIP",
+    "lead_validity_reason": "reason=working_site; status=200; final=https://linktr.ee/Bristolsparky; title=Bristolsparky Official: TikTok, Facebook | Linktree",
+    "pitch_type": "skip",
+    "website_status": "HAS_REAL_SITE",
+    "website_url": "https://linktr.ee/Bristolsparky",
+    "website_discovery_classification": "HAS_REAL_SITE",
+    "email_domain_website": null,
+    "source_confidence_summary": {
+      "overall": "medium",
+      "verified_platforms": [
+        "google_places",
+        "official_website"
+      ],
+      "rejected_platforms": [],
+      "notes": []
+    },
+    "ready_for_build": false,
+    "ready_for_design": false,
+    "ready_for_pitch": false,
+    "manual_review_required": true,
+    "has_real_website": true,
+    "truly_no_website": false,
+    "warnings": [
+      "contactability=NEEDS_MANUAL_REVIEW",
+      "no email found; UK mobile present, requires manual WhatsApp contact",
+      "Real website exists - do not use no-website pitch"
+    ],
+    "manual_asset_status": "OK",
+    "pause_before_open_design": false
+  },
+  "source_quality": {
+    "source_quality_status": "FAIL",
+    "source_quality_reason": "HAS_REAL_SITE_SKIP",
+    "website_url_validated": true,
+    "email_domain_checked": true,
+    "enrichment_complete": true,
+    "logo_discovery_attempted": true,
+    "photo_discovery_attempted": true,
+    "directory_probes": {
+      "attempted": true,
+      "platforms_probed": 9,
+      "verified_profiles": 0,
+      "unverified_profiles": 3,
+      "blocked": []
+    },
+    "warnings": [
+      "Lead validity requires manual review",
+      "Directory probes ran but no verified third-party profiles found"
+    ],
+    "blockers": [
+      "HAS_REAL_SITE_SKIP"
+    ]
+  }
+}

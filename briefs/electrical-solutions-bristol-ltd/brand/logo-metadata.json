@@ -1,0 +1,65 @@
+{
+  "selected": {
+    "source_url": "https://assets.production.linktr.ee/profiles/_next/static/logo-assets/web-app-manifest-512x512.png",
+    "source_type": "favicon",
+    "source_confidence": "medium",
+    "width": 512,
+    "height": 512,
+    "score": 68,
+    "has_transparency": true,
+    "aspect_ratio": 1,
+    "likely_logo": true,
+    "notes": "512x512, alpha"
+  },
+  "candidates": [
+    {
+      "source_url": "https://assets.production.linktr.ee/profiles/_next/static/logo-assets/web-app-manifest-512x512.png",
+      "source_type": "favicon",
+      "source_confidence": "medium",
+      "width": 512,
+      "height": 512,
+      "score": 68,
+      "has_transparency": true,
+      "aspect_ratio": 1,
+      "likely_logo": true,
+      "notes": "512x512, alpha"
+    },
+    {
+      "source_url": "https://assets.production.linktr.ee/profiles/_next/static/logo-assets/apple-icon-180x180.png",
+      "source_type": "apple_touch_icon",
+      "source_confidence": "medium",
+      "width": 180,
+      "height": 180,
+      "score": 68,
+      "has_transparency": true,
+      "aspect_ratio": 1,
+      "likely_logo": true,
+      "notes": "180x180, alpha"
+    },
+    {
+      "source_url": "https://assets.production.linktr.ee/profiles/_next/static/logo-assets/apple-icon-152x152.png",
+      "source_type": "apple_touch_icon",
+      "source_confidence": "medium",
+      "width": 152,
+      "height": 152,
+      "score": 68,
+      "has_transparency": true,
+      "aspect_ratio": 1,
+      "likely_logo": true,
+      "notes": "152x152, alpha"
+    },
+    {
+      "source_url": "https://assets.production.linktr.ee/profiles/_next/static/logo-assets/web-app-manifest-192x192.png",
+      "source_type": "favicon",
+      "source_confidence": "medium",
+      "width": 192,
+      "height": 192,
+      "score": 58,
+      "has_transparency": true,
+      "aspect_ratio": 1,
+      "likely_logo": true,
+      "notes": "192x192, alpha"
+    }
+  ],
+  "failures": []
+}

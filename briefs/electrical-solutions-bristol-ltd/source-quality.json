@@ -1,0 +1,23 @@
+{
+  "source_quality_status": "FAIL",
+  "source_quality_reason": "HAS_REAL_SITE_SKIP",
+  "website_url_validated": true,
+  "email_domain_checked": true,
+  "enrichment_complete": true,
+  "logo_discovery_attempted": true,
+  "photo_discovery_attempted": true,
+  "directory_probes": {
+    "attempted": true,
+    "platforms_probed": 9,
+    "verified_profiles": 0,
+    "unverified_profiles": 3,
+    "blocked": []
+  },
+  "warnings": [
+    "Lead validity requires manual review",
+    "Directory probes ran but no verified third-party profiles found"
+  ],
+  "blockers": [
+    "HAS_REAL_SITE_SKIP"
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "slug": "electrical-solutions-bristol-ltd",
+  "updated_at": "2026-06-13T21:08:07.503Z",
+  "preferred_alias": "electrical-solutions-bristol-ltd",
+  "deployment_url": "https://electrical-solutions-bristol-2gc95p0vi-iulius-projects-0cb33a7b.vercel.app",
+  "verified_url": "https://electrical-solutions-bristol-ltd.vercel.app",
+  "final_url": "https://electrical-solutions-bristol-ltd.vercel.app",
+  "alias_status": "VERIFIED",
+  "candidates": [
+    {
+      "hostname": "electrical-solutions-bristol-ltd",
+      "url": "https://electrical-solutions-bristol-ltd.vercel.app",
+      "preflight": "already_ours",
+      "detail": "Build marker electrical-solutions-bristol-ltd:20260613-1",
+      "assign": "alias_assigned",
+      "verify": "verified"
+    }
+  ],
+  "verification": {
+    "ok": true,
+    "httpStatus": 200,
+    "markerFound": true,
+    "businessNameFound": true,
+    "phoneFound": true,
+    "marker": {
+      "buildId": "electrical-solutions-bristol-ltd:20260613-1",
+      "slug": "electrical-solutions-bristol-ltd"
+    },
+    "errors": []
+  }
+}

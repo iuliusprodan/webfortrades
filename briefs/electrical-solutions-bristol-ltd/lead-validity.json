@@ -1,0 +1,31 @@
+{
+  "lead_validity_status": "HAS_REAL_SITE_SKIP",
+  "lead_validity_reason": "reason=working_site; status=200; final=https://linktr.ee/Bristolsparky; title=Bristolsparky Official: TikTok, Facebook | Linktree",
+  "pitch_type": "skip",
+  "website_status": "HAS_REAL_SITE",
+  "website_url": "https://linktr.ee/Bristolsparky",
+  "website_discovery_classification": "HAS_REAL_SITE",
+  "email_domain_website": null,
+  "source_confidence_summary": {
+    "overall": "medium",
+    "verified_platforms": [
+      "google_places",
+      "official_website"
+    ],
+    "rejected_platforms": [],
+    "notes": []
+  },
+  "ready_for_build": false,
+  "ready_for_design": false,
+  "ready_for_pitch": false,
+  "manual_review_required": true,
+  "has_real_website": true,
+  "truly_no_website": false,
+  "warnings": [
+    "contactability=NEEDS_MANUAL_REVIEW",
+    "no email found; UK mobile present, requires manual WhatsApp contact",
+    "Real website exists - do not use no-website pitch"
+  ],
+  "manual_asset_status": "OK",
+  "pause_before_open_design": false
+}

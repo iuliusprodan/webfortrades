@@ -1,0 +1,339 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ============================================================
+   Electrical Solutions Bristol (the Bristol sparky, Lawrence)
+   Path B (Claude-direct). Palette + type per design-direction.md.
+   "Amethyst & Pewter": a saturated jewel violet + near-black +
+   a COOL pewter/silver metal (never brass). Display is an
+   editorial serif (Playfair Display) for a boutique-lighting,
+   refined-personal-brand feel; body is IBM Plex Sans.
+   Signature: a thin luminous "filament" divider - a violet-to-
+   pewter gradient hairline with a small centred dot (the lighting
+   motif) - between sections and rows. Deliberately distinct from
+   AC's warm aubergine + brass (this is a cooler/brighter violet +
+   silver), and the only jewel-tone in the batch.
+   ============================================================ */
+
+:root {
+  --ink: #150a24;        /* near-black aubergine-violet: text on light + dark sections + footer */
+  --amethyst: #3a1e5c;   /* anchor deep amethyst violet: hero/standard fields */
+  --surface: #f4f2f7;    /* cool violet-tinted off-white: page bg (NOT warm cream) */
+  --stone: #e7e3ee;      /* pale lilac-grey: alt sections / cards */
+  --line: #d7d2e0;       /* hairline on light surfaces */
+  --accent: #7a3fb0;     /* lit amethyst: the one bold colour */
+  --accent-deep: #5e2e8c;
+  --accent-ink: #ffffff;
+  --pewter: #9a93a8;     /* cool metal: pewter/silver - eyebrows, glint, secondary on dark */
+  --muted: #6a6276;      /* cool grey-violet for secondary text on light */
+  --maxw: 1100px;
+}
+
+* { box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+}
+
+body {
+  margin: 0;
+  background: var(--surface);
+  color: var(--ink);
+  font-family: var(--font-body), -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
+  font-size: 1.0625rem;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, .display {
+  font-family: var(--font-display), Georgia, "Times New Roman", serif;
+  font-weight: 600;
+  line-height: 1.08;
+  letter-spacing: 0;
+  margin: 0;
+}
+
+p { margin: 0 0 1rem; }
+a { color: inherit; }
+img { max-width: 100%; display: block; }
+
+.container {
+  width: 100%;
+  max-width: var(--maxw);
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+.section { padding: 4.5rem 0; }
+.section--tight { padding: 3rem 0; }
+
+/* ---------- Filament divider (signature) ----------
+   A 1px violet-to-pewter gradient hairline with a small centred dot,
+   the lighting-filament motif. Used between sections and rows. */
+.section + .section { position: relative; }
+.section + .section::before {
+  content: "";
+  position: absolute; top: 0; left: 0; right: 0; height: 1px;
+  background: linear-gradient(90deg, transparent 0%, var(--line) 18%, var(--accent) 50%, var(--line) 82%, transparent 100%);
+}
+.filament-rule {
+  position: relative; height: 1px; margin: 0;
+  background: linear-gradient(90deg, transparent, var(--line) 22%, var(--pewter) 50%, var(--line) 78%, transparent);
+}
+.filament-rule::after {
+  content: ""; position: absolute; top: 50%; left: 50%; width: 5px; height: 5px;
+  transform: translate(-50%, -50%); border-radius: 50%;
+  background: var(--accent); box-shadow: 0 0 6px 1px rgba(122, 63, 176, 0.45);
+}
+
+.eyebrow {
+  font-size: 0.78rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--pewter);
+  font-weight: 600;
+  margin-bottom: 0.85rem;
+  font-family: var(--font-body), sans-serif;
+}
+.accent-text { color: var(--accent); }
+
+/* ---------- Buttons ---------- */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 0.85rem 1.6rem;
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 1rem;
+  text-decoration: none;
+  border: 1px solid transparent;
+  cursor: pointer;
+  font-family: var(--font-body), sans-serif;
+  transition: background-color 0.18s ease, color 0.18s ease, transform 0.18s ease, box-shadow 0.18s ease;
+}
+.btn-primary { background: var(--accent); color: var(--accent-ink); box-shadow: 0 0 0 0 rgba(122,63,176,0); }
+.btn-primary:hover { background: var(--accent-deep); transform: translateY(-1px); box-shadow: 0 6px 18px rgba(122,63,176,0.30); }
+.btn-secondary { background: transparent; color: var(--ink); border-color: var(--ink); }
+.btn-secondary:hover { background: var(--ink); color: var(--surface); }
+
+/* ---------- Header ---------- */
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  background: rgba(21, 10, 36, 0.96);
+  color: var(--surface);
+  border-bottom: 1px solid rgba(154, 147, 168, 0.28);
+}
+.site-header.is-scrolled { background: rgba(21, 10, 36, 0.99); box-shadow: 0 1px 0 rgba(154,147,168,0.28); }
+.site-header.is-hidden { opacity: 0; visibility: hidden; pointer-events: none; transition: opacity 200ms ease, visibility 0s linear 200ms; }
+.header-inner { display: flex; align-items: center; justify-content: space-between; height: 68px; }
+.wordmark { font-family: var(--font-display), serif; font-weight: 700; font-size: 1.28rem; letter-spacing: 0.01em; text-decoration: none; color: var(--surface); }
+.nav-desktop { display: none; align-items: center; gap: 1.75rem; }
+.nav-link { text-decoration: none; font-size: 0.95rem; font-weight: 500; color: var(--surface); font-family: var(--font-body), sans-serif; }
+.nav-link:hover { color: var(--accent); }
+.menu-toggle {
+  display: inline-flex; flex-direction: column; gap: 4px; background: none; border: 0;
+  padding: 8px; cursor: pointer;
+}
+.menu-toggle span { width: 22px; height: 2px; background: var(--surface); display: block; transition: transform 240ms ease, opacity 240ms ease; transform-origin: center; }
+.menu-toggle[aria-expanded="true"] span:nth-child(1) { transform: translateY(6px) rotate(45deg); }
+.menu-toggle[aria-expanded="true"] span:nth-child(2) { opacity: 0; }
+.menu-toggle[aria-expanded="true"] span:nth-child(3) { transform: translateY(-6px) rotate(-45deg); }
+
+/* Mobile nav: fixed overlay drawer from the right. Never pushes content down.
+   The header has NO backdrop-filter/transform/filter, so it creates no containing
+   block; even so the drawer + scrim render outside <header> at body level. */
+#nav-scrim {
+  position: fixed; inset: 0; z-index: 70; background: rgba(21,10,36,0.55);
+  opacity: 0; visibility: hidden; pointer-events: none;
+  transition: opacity 240ms ease, visibility 0s linear 240ms;
+}
+#nav-scrim.is-open { opacity: 1; visibility: visible; pointer-events: auto; transition: opacity 240ms ease, visibility 0s; }
+#nav-mobile {
+  position: fixed; top: 0; right: 0; bottom: 0; width: min(82vw, 320px); z-index: 71;
+  display: flex; flex-direction: column; gap: 0.25rem; padding: 5rem 1.5rem 1.5rem;
+  background: var(--ink); color: var(--surface); border-left: 1px solid rgba(154,147,168,0.32);
+  box-shadow: -10px 0 28px rgba(21, 10, 36, 0.5);
+  transform: translateX(100%); visibility: hidden;
+  transition: transform 220ms ease-in, visibility 0s linear 220ms;
+}
+#nav-mobile.is-open { transform: translateX(0); visibility: visible; transition: transform 300ms ease-out, visibility 0s; }
+#nav-mobile a { padding: 0.7rem 0; text-decoration: none; border-bottom: 1px solid rgba(154,147,168,0.22); font-weight: 500; color: var(--surface); font-family: var(--font-body), sans-serif; }
+.nav-close {
+  position: absolute; top: 0.9rem; right: 1rem; width: 44px; height: 44px;
+  display: inline-flex; align-items: center; justify-content: center;
+  background: none; border: 0; cursor: pointer; color: var(--surface);
+  font-size: 2rem; line-height: 1; padding: 0;
+}
+.nav-close:hover { color: var(--accent); }
+@media (min-width: 768px) {
+  .nav-desktop { display: flex; }
+  .menu-toggle { display: none; }
+  #nav-mobile, #nav-scrim { display: none !important; }
+}
+@media (prefers-reduced-motion: reduce) {
+  #nav-mobile, #nav-scrim, .menu-toggle span { transition-duration: 0s; }
+}
+
+/* ---------- Hero (full viewport, responsive, typographic/solid) ---------- */
+.hero {
+  position: relative; color: var(--surface); overflow: hidden;
+  min-height: 100vh; min-height: 100dvh;
+  display: flex; align-items: center;
+  background: linear-gradient(165deg, var(--amethyst) 0%, var(--ink) 78%);
+}
+/* faint engraved filament lines across the field */
+.hero::before {
+  content: ""; position: absolute; inset: 0; z-index: 0; pointer-events: none;
+  background-image:
+    linear-gradient(90deg, rgba(154,147,168,0.07) 1px, transparent 1px);
+  background-size: 7.5rem 100%;
+  -webkit-mask-image: radial-gradient(120% 90% at 80% 20%, #000 30%, transparent 75%);
+  mask-image: radial-gradient(120% 90% at 80% 20%, #000 30%, transparent 75%);
+}
+.hero-inner { position: relative; z-index: 2; padding: 7rem 1.5rem 4rem; max-width: 820px; }
+.hero .eyebrow { color: var(--pewter); }
+.hero h1 { font-size: clamp(2.5rem, 6.2vw, 4.6rem); letter-spacing: 0; color: var(--surface); }
+.hero-sub { font-size: 1.2rem; margin: 1.4rem 0 1.9rem; color: #d9d2e6; max-width: 640px; }
+.hero-cta { display: flex; flex-wrap: wrap; gap: 0.85rem; align-items: center; }
+.hero-proof { margin: 1.4rem 0 0; font-size: 0.92rem; font-weight: 600; color: #d9d2e6; letter-spacing: 0.02em; }
+.hero-proof .accent-text { color: #c79df0; }
+@media (max-width: 640px) {
+  .hero-cta { flex-direction: column; align-items: stretch; }
+  .hero-cta .btn { width: 100%; }
+  .hero-proof { text-align: left; }
+}
+
+/* ---------- Proof marquee ---------- */
+.proof-strip { background: var(--ink); color: var(--surface); overflow: hidden; }
+.marquee { overflow: hidden; white-space: nowrap; }
+.marquee-track { display: inline-flex; animation: marquee-scroll 36s linear infinite; will-change: transform; }
+.marquee-item { display: inline-flex; align-items: center; padding: 0.95rem 0; font-weight: 600; font-size: 0.95rem; color: #d9d2e6; }
+.marquee-item::after { content: "\25CF"; color: var(--accent); margin: 0 1.5rem; font-size: 0.5rem; }
+@keyframes marquee-scroll { from { transform: translateX(0); } to { transform: translateX(-50%); } }
+/* Marquee animates on ALL viewports including mobile. The ONLY exception is
+   prefers-reduced-motion, where it degrades to a static row (overflow:hidden clips
+   to the first few proof points). Never disable the animation at a mobile breakpoint. */
+@media (prefers-reduced-motion: reduce) { .marquee-track { animation: none; } }
+
+/* ---------- The standard (signature block, deep amethyst) ---------- */
+.standard { background: var(--amethyst); color: var(--surface); }
+.standard .eyebrow { color: var(--pewter); }
+.standard-item { padding: 1.85rem 0; }
+.standard-item h3 { font-size: clamp(1.7rem, 3.6vw, 2.5rem); margin-bottom: 0.6rem; color: var(--surface); }
+.standard-item h3 .accent-text { color: #c79df0; }
+.standard-item p { color: #d3cae2; max-width: 760px; margin: 0; font-size: 1.1rem; }
+
+/* ---------- Services ---------- */
+.service-row { display: grid; grid-template-columns: 3.5rem 1fr; gap: 1rem; padding: 1.4rem 0; align-items: start; }
+.service-mark { font-family: var(--font-display), serif; font-weight: 700; font-size: 1.15rem; color: var(--accent); letter-spacing: 0.04em; }
+.service-name { font-weight: 600; font-size: 1.2rem; margin-bottom: 0.2rem; font-family: var(--font-display), serif; }
+.service-desc { color: var(--muted); margin: 0; }
+
+/* ---------- Gallery (masonry) ---------- */
+.gallery-masonry { column-count: 1; column-gap: 1rem; }
+.gallery-item { break-inside: avoid; margin-bottom: 1rem; }
+.gallery-item img { width: 100%; height: auto; border: 1px solid var(--line); border-radius: 4px; }
+.gallery-cap { font-size: 0.8rem; color: var(--muted); padding: 0.4rem 0 0; letter-spacing: 0.04em; text-transform: uppercase; }
+@media (min-width: 640px) { .gallery-masonry { column-count: 2; } }
+@media (min-width: 1024px) { .gallery-masonry { column-count: 3; } }
+
+/* ---------- Reviews ---------- */
+.reviews { background: var(--stone); }
+.review-stat { font-family: var(--font-display), serif; font-size: 1.55rem; font-weight: 700; margin-bottom: 1.75rem; letter-spacing: 0; }
+.review-stat span { color: var(--accent); }
+.review-grid { display: grid; grid-template-columns: 1fr; gap: 1rem; }
+@media (min-width: 768px) { .review-grid { grid-template-columns: 1fr 1fr; } }
+.review-card { background: var(--surface); border: 1px solid var(--line); border-left: 3px solid var(--accent); border-radius: 6px; padding: 1.5rem; }
+.review-quote { margin: 0 0 1rem; font-size: 1.02rem; }
+.review-attr { font-size: 0.85rem; color: var(--muted); font-weight: 600; margin: 0; }
+.reviews-link { display: inline-block; margin-top: 1.5rem; font-weight: 600; color: var(--accent-deep); text-decoration: none; border-bottom: 1px solid var(--accent); }
+
+/* ---------- Process ---------- */
+.process { background: var(--ink); color: var(--surface); }
+.process .eyebrow { color: var(--pewter); }
+.process-grid { display: grid; grid-template-columns: 1fr; gap: 0; margin-top: 1.5rem; }
+.process-step { display: grid; grid-template-columns: 3.5rem 1fr; gap: 1.25rem; padding: 1.5rem 0; align-items: start; }
+.process-step + .process-step { border-top: 1px solid rgba(154,147,168,0.22); }
+.process-num { font-family: var(--font-display), serif; font-weight: 700; font-size: 1.85rem; color: var(--accent); }
+.process-title { font-weight: 600; font-size: 1.2rem; margin-bottom: 0.25rem; font-family: var(--font-display), serif; }
+.process-body { color: #cdc5db; margin: 0; }
+
+/* ---------- Areas + hours ---------- */
+.areas-grid { display: grid; grid-template-columns: 1fr; gap: 2rem; align-items: start; }
+@media (min-width: 880px) { .areas-grid { grid-template-columns: 1.1fr 1fr; } }
+.map-embed { position: relative; width: 100%; min-height: 320px; border: 1px solid var(--line); border-radius: 6px; overflow: hidden; }
+.map-embed iframe { width: 100%; height: 100%; min-height: 320px; border: 0; display: block; }
+.areas-districts { list-style: none; padding: 0; margin: 1rem 0 0; display: grid; grid-template-columns: 1fr 1fr; gap: 0 1.5rem; }
+.areas-districts li { padding: 0.4rem 0; border-bottom: 1px solid var(--line); font-size: 0.95rem; }
+.hours { margin-top: 1.25rem; font-weight: 600; }
+@media (max-width: 879px) { .map-embed, .map-embed iframe { min-height: 240px; } }
+
+/* ---------- Quote (dark ink, two column) ---------- */
+.quote { background: var(--ink); color: var(--surface); }
+.quote .eyebrow { color: var(--pewter); }
+.quote h2 { color: var(--surface); }
+.quote-lead { color: #cdc5db; max-width: 460px; }
+.quote-grid { display: grid; grid-template-columns: 1fr; gap: 2.5rem; align-items: start; }
+@media (min-width: 880px) { .quote-grid { grid-template-columns: 1fr 1fr; gap: 3.5rem; } }
+.quote-details { margin: 1.75rem 0 0; display: grid; gap: 0; }
+.quote-details > div { display: grid; grid-template-columns: 5rem 1fr; gap: 0.5rem; padding: 0.7rem 0; border-bottom: 1px solid rgba(154,147,168,0.22); }
+.quote-details dt { font-size: 0.76rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--pewter); margin: 0; align-self: center; }
+.quote-details dd { margin: 0; font-weight: 600; align-self: center; }
+.quote-details a { color: var(--surface); }
+.quote-form { display: grid; gap: 1rem; }
+.form-row { display: flex; flex-direction: column; gap: 0.35rem; }
+.form-row label { font-size: 0.9rem; font-weight: 600; color: var(--surface); }
+.form-row input, .form-row select, .form-row textarea {
+  font: inherit; padding: 0.7rem 0.85rem; border-radius: 6px; border: 1px solid rgba(154,147,168,0.5);
+  background: #faf9fc; color: var(--ink);
+}
+.form-row.has-error input, .form-row.has-error select, .form-row.has-error textarea { border-color: #e0897e; box-shadow: 0 0 0 2px rgba(220,100,80,0.35); }
+.field-error { font-size: 0.8rem; margin: 0; color: #f0b8a8; }
+.form-success { background: var(--accent); color: var(--accent-ink); padding: 0.85rem 1rem; border-radius: 6px; font-weight: 600; }
+.quote-form .btn-primary { background: var(--accent); color: var(--accent-ink); }
+.quote-form .btn-primary:hover { background: var(--accent-deep); }
+
+/* ---------- Footer ---------- */
+.site-footer { background: var(--ink); color: #cdc5db; padding: 3.5rem 0 2rem; }
+.footer-grid { display: grid; grid-template-columns: 1fr; gap: 2rem; }
+@media (min-width: 720px) { .footer-grid { grid-template-columns: 2fr 1fr 1fr; } }
+.footer-brand { font-family: var(--font-display), serif; font-weight: 700; font-size: 1.38rem; letter-spacing: 0.01em; color: var(--surface); }
+.site-footer h4 { font-size: 0.82rem; letter-spacing: 0.14em; text-transform: uppercase; color: var(--pewter); margin: 0 0 0.75rem; }
+.site-footer a { color: #cdc5db; text-decoration: none; }
+.site-footer a:hover { color: var(--surface); }
+.footer-links { list-style: none; padding: 0; margin: 0; display: grid; gap: 0.45rem; }
+.footer-credit { margin-top: 2.5rem; padding-top: 1.25rem; border-top: 1px solid rgba(154,147,168,0.22); font-size: 0.82rem; color: #8d859c; }
+.footer-credit a { text-decoration: underline; }
+
+/* ---------- Mobile sticky CTA (quote-only) ---------- */
+#mobile-quote-bar {
+  position: fixed; left: 0; right: 0; bottom: 0; z-index: 60;
+  display: block; padding: 0.7rem 1rem;
+  background: rgba(21,10,36,0.97); border-top: 1px solid rgba(154,147,168,0.32);
+  opacity: 0; transform: translateY(16px); pointer-events: none;
+  transition: opacity 180ms ease-in, transform 180ms ease-in;
+}
+#mobile-quote-bar.is-visible { opacity: 1; transform: translateY(0); pointer-events: auto; transition: opacity 260ms ease-out, transform 260ms ease-out; }
+#mobile-quote-bar .btn { width: 100%; }
+@media (min-width: 768px) { #mobile-quote-bar { display: none !important; } }
+@media (prefers-reduced-motion: reduce) {
+  #mobile-quote-bar { transform: none; transition: opacity 200ms ease; }
+  #mobile-quote-bar.is-visible { transform: none; }
+}
+
+/* ---------- Scroll reveal ---------- */
+[data-reveal] { opacity: 0; transform: translateY(14px); transition: opacity 0.6s ease, transform 0.6s ease; }
+[data-reveal].is-visible { opacity: 1; transform: none; }
+@media (prefers-reduced-motion: reduce) {
+  [data-reveal] { opacity: 1; transform: none; transition: none; }
+}
+
+/* section headings */
+.section h2 { font-size: clamp(1.9rem, 4.2vw, 2.8rem); margin-bottom: 0.5rem; letter-spacing: 0; }
+.section-intro { color: var(--muted); max-width: 640px; }

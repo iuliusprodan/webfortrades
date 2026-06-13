@@ -1,0 +1,106 @@
+{
+  "slug": "electrical-solutions-bristol-ltd",
+  "generic_plan": false,
+  "layout_note": "Single column on a deep-amethyst-and-near-black premium palette with a cool pewter/silver metal. Display is an editorial serif (Playfair Display) for a boutique-lighting / refined-personal-brand feel; body is IBM Plex Sans. Signature: a thin luminous 'filament' divider - a 1px violet-to-pewter gradient hairline with a small centred dot, the lighting-design motif - between sections, plus a single amethyst accent. Boldness spent once on the signature 'the standard Lawrence works to' block. Typographic/solid hero (no photo behind the headline): the available photos are technical close-ups, work-in-progress, or a portrait of Lawrence with people/clutter, none of which read as a clean completed-room showcase, so a premium editorial-serif hero on a deep amethyst field best carries the high-end positioning (skill: 'if weak/few photos, use a strong typographic/solid hero'). The strong photos go in the gallery.",
+  "sections": [
+    {
+      "id": "header",
+      "type": "sticky-header",
+      "purpose": "Wayfinding + persistent quote CTA.",
+      "evidence_anchors": ["brief.json business_name", "brief.json phone", "brief.json contact_name Lawrence"],
+      "copy_intent": "Text wordmark 'Electrical Solutions Bristol'; nav: Work, Reviews, Areas; one button 'Get a quote'. No phone in the bar on mobile.",
+      "visual_intent": "Quiet solid near-black header (no backdrop-filter so the mobile drawer/scrim are not trapped - containing-block rule), filament hairline underneath. Mobile: wordmark + hamburger only (no phone, <=2 links) per mobile_header check."
+    },
+    {
+      "id": "hero",
+      "type": "trade-led-typographic-hero",
+      "priority": 1,
+      "purpose": "State trade + location + the high-end-domestic-lighting angle in one editorial line; surface the only citable proof (5.0 / 135 Google). No photo behind the headline (premium typographic hero per the layout_note).",
+      "evidence_anchors": ["reviews[2] Emily (fitting lights, high quality)", "reviews[1] Bel (latest solutions, not the same old stuff)", "reviews[0] Marc (consumer unit first, downlights, outdoor socket)", "google_rating 5.0 / google_review_count 135", "based_location Bristol BS16 (Downend / Bromley Heath)", "contact_name Lawrence"],
+      "copy_intent": "Headline = trade-led editorial positioning on high-end domestic lighting / electrical done to a considered standard (NOT a review quote, NOT a backstory). Subhead = lighting, rewires, consumer units and fault-finding across Bristol and the BS postcodes, planned and fitted to a high standard, 5.0/135 proof. CTAs: Get a quote (primary, #quote), Call Lawrence (secondary, phone).",
+      "visual_intent": "Deep-amethyst (#3A1E5C) to near-black (#150A24) vertical gradient field, faint engraved filament-line motif; large Playfair Display headline (editorial serif, the boutique-lighting voice), pewter/silver eyebrow, single amethyst-lit primary button; small proof chip '5.0 on Google, 135 reviews'. Text block keeps the site container side padding on mobile (hero horizontal-inset rule); CTAs stack full-width <=640px, proof chip below both."
+    },
+    {
+      "id": "proof-strip",
+      "type": "proof-marquee",
+      "priority": 2,
+      "purpose": "Surface 6 evidence-drawn proof points in an infinite loop directly beneath the hero.",
+      "evidence_anchors": ["google_rating 5.0", "google_review_count 135", "based_location Bristol BS16", "reviews[1] Bel (latest solutions)", "reviews[4] Megan (impeccably tidy)", "reviews[0] Marc (consumer units sorted first)"],
+      "copy_intent": "Items: '5.0 on Google', '135 reviews', 'Bristol, BS16', 'Lighting and downlights', 'Latest solutions, not the same old kit', 'Tidy, considered finish'. Factual, no exclamation, no salesy framing.",
+      "visual_intent": "Near-black band, pewter text, amethyst dot separators; single full traversal in ~36s linear, list rendered twice for a seamless loop; animates on ALL viewports, degrades to a static row only under prefers-reduced-motion."
+    },
+    {
+      "id": "the-standard",
+      "type": "signature-positioning-block",
+      "priority": 3,
+      "purpose": "The one memorable thing: Lawrence plans and fits domestic electrics to a high, considered standard - lighting done properly, the consumer unit and safety sorted first, the latest solutions rather than the same old stuff, left impeccably tidy. This is where boldness is spent.",
+      "evidence_anchors": ["reviews[2] Emily (high quality lighting)", "reviews[1] Bel (latest solutions, not the same old stuff, impeccable)", "reviews[0] Marc (consumer unit explained and replaced first)", "reviews[4] Megan (high standard, impeccably tidy)"],
+      "copy_intent": "3 short, concrete statements of the specialism, stated plainly and factually (no boast adjectives in site prose). Each tied to a real situation: lighting and downlights planned and fitted to a high standard; safety and the consumer unit sorted first, explained clearly; the latest solutions rather than the same old kit, finished tidy.",
+      "visual_intent": "Deep-amethyst section; large Playfair statements separated by filament hairlines; amethyst-lit accent used once on the key phrase ('the latest solutions, not the same old kit'). No icons. The boldest moment on the page."
+    },
+    {
+      "id": "services",
+      "type": "evidence-based-services",
+      "priority": 4,
+      "purpose": "Name the 4 real services from evidence with specific, grounded descriptions.",
+      "evidence_anchors": ["site-strategy.json real_services (lighting and downlights, consumer units and fuse boards, rewires and new circuits, fault-finding and repairs)"],
+      "copy_intent": "Each service: short label + one evidence-grounded line. NEVER the Google inferred junk ('Bathroom installations'). NEVER a certification claim. NEVER 'X services explained plainly'.",
+      "visual_intent": "Labelled rows with small two-letter marks (LT / CU / RW / FF) in amethyst - NOT 01/02/03 (services are not a sequence; the numbered process below is) and NOT SVG/lucide icons (no_service_icons check). Filament hairline between rows."
+    },
+    {
+      "id": "gallery",
+      "type": "gallery-masonry",
+      "priority": 5,
+      "purpose": "Show actual finished electrical work - the proof that matters most for a trader with no third-party profiles.",
+      "evidence_anchors": ["brief.json photos[] (9 completed_project webp). Selected: 01 (finished consumer unit board), 08 (neat outdoor switched spur), 04 (multifunction testing), 05 + 06 (earthing/bonding), 10 (Lawrence at his kitted-out van - the personal brand, used in gallery not hero). Excluded: 02 + 07 (work-in-progress on bare/peeling walls), 09 (workbench detail crop with loose parts)."],
+      "copy_intent": "Short section intro; safe captions only (work type + Bristol; no invented job locations or customer names).",
+      "visual_intent": "CSS masonry: 3 columns >=1024px, 2 columns 640-1023px, 1 column mobile; natural aspect ratios, top-aligned, captions directly under each image (gallery check compliance). Thin pewter frame on each tile."
+    },
+    {
+      "id": "reviews",
+      "type": "review-feature",
+      "priority": 6,
+      "purpose": "Exactly one review section. Lead with the lighting / latest-solutions / consumer-unit quotes that carry the high-end-domestic angle.",
+      "evidence_anchors": ["reviews[1] Bel (latest solutions)", "reviews[2] Emily (lighting)", "reviews[0] Marc (consumer unit, honest)", "reviews[4] Megan (tidy, high standard)"],
+      "copy_intent": "4 verbatim Google excerpts, attributed 'First name, Google review'. No first name as a headline (no 'Steve' anti-pattern). One review section only (no duplicate wall). The 5.0/135 restated once as a stat, label 'Google rating' (no banned sub-labels).",
+      "visual_intent": "Quiet cards on the alt deep-violet surface; amethyst quote rule (left border)."
+    },
+    {
+      "id": "process",
+      "type": "process-numbered",
+      "priority": 7,
+      "purpose": "Reduce risk: show the orderly, considered way Lawrence works, safety-first.",
+      "evidence_anchors": ["reviews[3] Matthieu (attends to discuss options + plan, then a clear quote)", "reviews[0] Marc (consumer unit sorted first, kept updated, no surprises)", "reviews[2] Emily (work exactly as asked, high quality)", "reviews[4] Megan (impeccably tidy)"],
+      "copy_intent": "4 ordered steps grounded in review behaviour: come out, look at the job and talk options -> a clear quote that details the work -> safety and the board sorted first, then the work done to standard, kept updated -> finished, tested and left tidy.",
+      "visual_intent": "Numbered 01-04 IS appropriate here (a real sequence). Numerals in Playfair, amethyst; filament dividers between steps. Near-black section for contrast."
+    },
+    {
+      "id": "areas",
+      "type": "local-coverage",
+      "priority": 8,
+      "purpose": "Establish locality and availability without exposing the home address.",
+      "evidence_anchors": ["brief.json based_location 'Bristol, BS16' (Downend / Bromley Heath)", "opening_hours (Mon-Fri 9:00-17:00, Sat-Sun closed)", "google_maps_url cid"],
+      "copy_intent": "Based in Downend / Bromley Heath (BS16), covers Bristol and the surrounding BS postcodes (8-14 districts). Districts derived from BS16 geography (plausible one-van radius, no over-claim, NOT the raw Google-Maps chips). Hours Monday to Friday, 9am to 5pm (sourced). No street address.",
+      "visual_intent": "Keyless Google Maps iframe centred on 'Bristol BS16' (town + outward only); area list (two-column) + hours beside it."
+    },
+    {
+      "id": "quote",
+      "type": "contact-quote-form",
+      "priority": 9,
+      "purpose": "Convert: a quote form plus phone, anchored at #quote.",
+      "evidence_anchors": ["brief.json phone 07716 418405", "based_location Bristol BS16", "opening_hours", "contact_name Lawrence"],
+      "copy_intent": "Two columns. Left: heading + framing prose + key details (phone click-to-call, Bristol / BS16, Mon-Fri 9am-5pm). Right: quote form (name, phone, email optional, postcode, job type [Lighting design / Rewire / Consumer unit / Fault-finding / Other], details). Heading specific to Lawrence. Form is presentational only (does not submit to the business; no 'preview form' disclaimer). Submit button: 'Send job details'.",
+      "visual_intent": "Dark near-black (#150A24) surface, NOT the amethyst accent (contact section rule). Form fields visually distinct from the side details. Mobile: stack to single column, details first. Quote-only sticky CTA reveals after hero on scroll (fade+slide), hides near footer."
+    },
+    {
+      "id": "footer",
+      "type": "business-footer",
+      "purpose": "Real local-business footer, not just the agency credit.",
+      "evidence_anchors": ["business_name", "phone", "service_area (derived)", "opening_hours", "google_maps_url"],
+      "copy_intent": "Brand, phone, areas, hours, quick links, link to read Google reviews. Small 'Website by WebForTrades' credit at the bottom.",
+      "visual_intent": "Near-black footer; filament dividers; restrained."
+    }
+  ],
+  "omitted_defaults": ["owner-backstory/about-me narrative (no self-description from Lawrence in evidence)", "FAQ (no real questions in evidence)", "fabricated stats band as its own section (only 5.0 / 135 + Mon-Fri availability are sourced; the 5.0/135 is surfaced in hero, marquee and reviews instead of an invented stats wall)", "certifications/badges strip (none verified - NICEIC/NAPIT/Part P all badge-gated and unevidenced)", "separate second review wall", "bathroom installation as a service (inferred Google junk, not a real electrician service)", "commercial-led section (domestic is the angle; commercial acknowledged only in Bel's quote)"],
+  "omitted_reasons": "Kept lean and evidence-only. No section exists without a specific anchor in the frozen brief. A standalone stats band was dropped because only two sourced numbers exist and they are already carried by the hero proof chip, the marquee and the reviews stat - inventing a third stat would breach the stats rule."
+}

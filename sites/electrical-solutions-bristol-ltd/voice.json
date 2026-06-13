@@ -1,0 +1,34 @@
+{
+  "slug": "electrical-solutions-bristol-ltd",
+  "extends": "CLAUDE.md banned-phrase reference + scripts/copy_voice_constants.ts (authoritative). This file adds lead-specific decisions only.",
+  "register": "refined, calm, precise British English; an electrician who plans the job and explains his thinking, talking straight to a homeowner. Short sentences. Concrete nouns (lighting, downlights, consumer unit, circuits, sockets, board), not adjectives. Premium without being showy - confidence comes from specifics, not boast words.",
+  "naming": {
+    "use_name": "Lawrence",
+    "decision": "Use Lawrence's first name freely in copy. Basis: brief.json contact_name='Lawrence', contact_name_usage_allowed=true, contact_name_confidence='high', named in all 5 Google reviews, and the personal brand handle is 'Bristolsparky' (brief.json website_url linktr.ee/Bristolsparky). This is the contact_name_usage_allowed / Kyle Knowles ARCH-2 precedent applied directly (the flag is already true here).",
+    "third_vs_first_person": "Default to a light third person ('Lawrence plans the lighting...', 'Lawrence sorts the safety first'). A first-person line is allowed only if strictly factual (no invented backstory, no specific years, no qualification claim). There is no self-description from Lawrence in evidence, so do not write an owner-monologue."
+  },
+  "the_angle": {
+    "name": "high-end domestic lighting and electrics, done to a considered standard",
+    "how_to_use": "Lead with it, state it as fact. Frame: Lawrence is the Bristol electrician for homes that want the work planned and finished to a high standard - lighting and downlights fitted properly, the consumer unit and safety sorted first, faults chased down and explained - using the latest solutions rather than the same old kit, and left impeccably tidy. Anchored to reviews[2] (Emily, lighting, high quality), reviews[1] (Bel, latest solutions, impeccable), reviews[0] (Marc, consumer unit explained and replaced first), reviews[4] (Megan, high standard, impeccably tidy). Acceptable phrasings: 'planned and fitted to a high standard', 'the latest solutions, not the same old kit', 'the consumer unit and safety sorted first', 'left tidy'. Do not invent job types or outcomes beyond what the reviews state. Commercial work is acknowledged at most once (Bel: 'domestic and commercial'); do not lead on it."
+  },
+  "proof_rules": {
+    "google": "State exactly: '5.0 on Google' and '135 Google reviews' (both sourced=true in brief.json: google_rating=5, google_review_count=135, google_review_count_sourced=true). '5.0 from 135 reviews' and '135 local reviews' are acceptable variants. Attribute the rating to Google.",
+    "no_other_proof": "Do NOT cite Yell / MyBuilder / Trustpilot / Checkatrade - those probes are low-confidence or NOT_FOUND, unverified (brief.json directory_probes); TrustATrader was a rejected homonym. Do NOT claim any certification, membership, registration, insurance, or 'qualified/certified/NICEIC/NAPIT/Part P/fully insured' - none verified. 'Tested'/'testing' may describe the activity (a multifunction tester is in the photos) but must never imply a certification.",
+    "no_invented_numbers": "No years-trading number (none evidenced). No 'X jobs/installs done' count. Sourced stats only: 5.0 rating, 135 reviews, Monday-to-Friday availability. Never a photo count."
+  },
+  "review_attribution": "First name + 'Google review' (e.g. 'Bel, Google review', 'Emily, Google review', 'Marc, Google review', 'Megan, Google review'). No reviewer first name as a section headline (the 'Steve' anti-pattern). Lawrence is the only person named as part of the business; every other name in a quote is a customer's own (Marc, Bel, Emily, Matthieu, Megan - all match reviewers in brief.json, none is presented as staff).",
+  "banned_for_this_business": [
+    "any phrase on the CLAUDE.md / copy_voice_constants.ts lists (generic, provenance, meta-provenance, stat sub-labels)",
+    "any certification/badge in copy_voice_constants CLAIMED_BADGE_PATTERNS - NICEIC, NAPIT, Part P, Gas Safe, Checkatrade Vetted/member, TrustATrader (Approved), Which? Trusted Trader, 'fully insured' - NONE are evidenced, so NONE may appear",
+    "'electrics done right' / 'your trusted/local electrician' / 'qualified electrician' / 'fully qualified' as a hero or standalone slogan (generic-trade filler or unevidenced claim)",
+    "'no job too big or small', 'competitive prices', 'professional service', 'quality you can rely on', 'second to none', 'satisfaction guaranteed'",
+    "'Bathroom installations' as a service (inferred Google junk, source=review indirect; the bathroom mention is bathroom downlights, an electrician job, not bathroom fitting)",
+    "claiming areas beyond Bristol / the BS postcodes around BS16; the street address '4 Bromley Heath Ave' anywhere public",
+    "first-person claims of qualifications, registration, insurance, or years trading",
+    "meta lines like 'customers mention' / 'reviews describe' - state the thing directly instead",
+    "referencing or linking the Linktree / any existing site"
+  ],
+  "allowed_words_from_reviews_in_quotes_only": "Words like 'professional', 'brilliant', 'fantastic', 'impeccable', 'exceptional', 'highly recommend' appear in the real review text. They are fine INSIDE attributed verbatim quotes, but must NOT appear in Lawrence's own / site prose (CLAUDE.md salesy ban).",
+  "punctuation": "No em/en dashes anywhere. The review quotes in brief.json contain em dashes (Marc's review uses one after 'Lawrence was brilliant'); when quoting verbatim, REPLACE that em dash with ' - ' or a comma so the authored files stay dash-clean (the quote text is still faithful). Use ' - ', comma, or full stop. British spelling (colour, recognise, organised, fibre).",
+  "cta_language": "Quote-only sticky and primary CTA: 'Get a quote'. Secondary: 'Call Lawrence' / the number. Never put the phone in the sticky CTA (sticky_cta check)."
+}
