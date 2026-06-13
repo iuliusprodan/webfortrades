@@ -57,17 +57,20 @@ landed in the same colour FAMILY, so the batch read as only 2 families across 3 
 distinctness is what a user perceives at a glance; specific-hex distinctness is invisible.**
 
 **Rule - one palette FAMILY per seed, no family repeats within a batch.** The main thread pre-allocates a
-palette family per seed *before* sub-agents start. Recognised families:
-- **green-natural** (sage, eucalyptus, forest, moss, olive)
-- **blue-cool** (slate, indigo, steel, navy, teal) - *wet-slate is Kyle's; this subset is reserved*
-- **warm-earth** (terracotta, ochre, rust, cedar) - *cedar-amber is Damo's; this subset is reserved*
-- **jewel-tone** (aubergine, emerald, sapphire, burgundy)
-- **monochrome-industrial** (iron, graphite, cement, bone)
+palette family per seed *before* sub-agents start. **Reservation is of SPECIFIC palettes, not whole
+families** - every family below is available for a new seed as long as the new palette is meaningfully
+different from the reserved specific palettes (listed in Constraints):
+- **green-natural** - available (sage [Brian] and eucalyptus [D.G.] are reserved specific palettes; forest, moss, olive, fern, deep-pine etc. are available)
+- **blue-cool** - available (Kyle's wet-slate + viridian-teal is the reserved specific palette; navy, indigo, deep teal, steel, petrol-blue etc. are available)
+- **warm-earth** - available (Damo's larch-iron + cedar-amber is the reserved specific palette; terracotta, ochre, rust, deep brick, sienna etc. are available)
+- **jewel-tone** - available (AC's aubergine + brass is the reserved specific palette; emerald, sapphire, burgundy, deep teal-blue, garnet etc. are available)
+- **monochrome-industrial** - available (no specific palette reserved yet; iron, graphite, cement, bone + one signal accent)
 - **warm-neutral** (chalk, sand, linen, oat) - **supporting family only, never the primary**
 
 Constraints:
-- Reserved subsets (Kyle = blue-cool/wet-slate; Damo = warm-earth/cedar-amber) stay **blocked** for batch
-  allocation.
+- Reserved **specific palettes** stay blocked (Kyle wet-slate+viridian, Damo larch-iron+cedar-amber,
+  Brian sage+chalk+pewter, AC aubergine+brass+bone, D.G. eucalyptus+chalk-white+oak) - but each of their
+  *families* stays available for a meaningfully different palette within that family.
 - Each sub-agent gets **one primary family + one supporting neutral**.
 - If two seeds would naturally derive into the same family (e.g. "heritage/period" and "prep-quality" both
   pull toward green-natural), the main thread **must re-seed before sub-agents start**, by either
@@ -93,6 +96,7 @@ three picked a serif-editorial display. Track fonts already deployed and do not 
   - **sans-condensed** (Oswald, Barlow Condensed, Bebas)
   - **sans-display** (Schibsted Grotesk, Space Grotesk, General Sans)
   - **sans-humanist** (Inter Tight, Manrope Display)
+  - **slab-serif** (Roboto Slab, Arvo, Zilla Slab, Source Serif) - for industrial / utilitarian / technical trades
 - Within a batch, **display categories must not repeat**, and **body fonts must not repeat** and must not be
   on the reserved list. (Update the reserved list as each batch ships.)
 
