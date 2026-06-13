@@ -1,24 +1,31 @@
 # PENDING skill changes — review before merging into SKILL.md
 
 These are PROPOSALS discovered during runs. They are NOT applied to SKILL.md. The operator reviews
-and decides which to merge. Applied proposals move to "Resolved proposals" at the bottom (history kept).
+and decides which to merge. Applied/fixed proposals move to "Resolved proposals" at the bottom (history kept).
 
----
+## Pending
 
-## 2026-06-13 — (cross-reference, NOT a site-design skill fix) source_quality mislabels verified-FB-but-gmail leads as FAIL
-
-This is an **enrich/check tooling** observation, logged here only so it isn't lost — it does NOT belong
-in SKILL.md. `scripts/source_quality.ts` returned `FAIL` for D.G. Decorating with reason "Email present
-but email-domain website discovery not completed", even though the lead has a **verified high-confidence
-Facebook page** (genuinely multi-source, Google + FB). The email is a gmail address, so there is no
-domain to resolve, yet the missing email-domain check drove a FAIL. Proposal (for the tooling owner, not
-this skill): when `facebook_verified` is true, a missing email-domain resolution should not force FAIL;
-treat a verified second platform as satisfying multi-source. Surfaced in the run report as an audit
-finding.
+_None currently pending._
 
 ---
 
 ## Resolved proposals
+
+### 2026-06-13 (evening) — source_quality gmail / verified-secondary mislabel — FIXED in tooling
+
+**Status:** RESOLVED. Fixed in `scripts/source_quality.ts` (commit "fix(source_quality): verified secondary
+source overrides gmail email-domain downgrade"). A verified secondary source (Facebook or a directory
+listing recorded in `lead_validity.source_confidence_summary.verified_platforms`) now (a) means a free-mail
+contact address no longer pushes the "email-domain discovery not completed" blocker, and (b) clamps a
+warning-count NEEDS_MANUAL_REVIEW down to PASS_WITH_WARNINGS when there are no hard blockers. Own-domain
+email remains a positive signal (can reach PASS) but its absence no longer forces FAIL when another verified
+source exists. Unit test: `scripts/source_quality.test.ts`. Verified on the real lead: D.G. Decorating moved
+FAIL -> PASS_WITH_WARNINGS; Brian (FAIL, enrichment-incomplete) and AC (PASS_WITH_WARNINGS) unchanged.
+
+*Original note (kept for history):* `scripts/source_quality.ts` returned `FAIL` for D.G. Decorating with
+reason "Email present but email-domain website discovery not completed", even though the lead has a verified
+high-confidence Facebook page (genuinely multi-source, Google + FB). The email is a gmail address, so there
+is no domain to resolve, yet the missing email-domain check drove a FAIL.
 
 ### 2026-06-13 (evening) — Batch typographic distinctness — APPLIED to SKILL.md
 
@@ -43,17 +50,6 @@ fonts" (a hard constraint) was only half-met.
 **Why it happened:** the seed pre-allocates a *palette* anchor only; nothing constrains the body font or
 the display *category*. Mulish is a popular neutral body grotesque that isn't on any ban list, so three
 independent agents all reached for it. Kyle/Damo/library bans don't yet include it.
-
-**Proposed change (for review):**
-1. Add a short "fonts already in use — do not reuse" list to the skill's typography guidance, and keep it
-   current: Instrument Sans (Kyle body), Hanken Grotesk (Damo body), **Mulish (×3 this batch)**;
-   displays Bricolage Grotesque (Kyle), Oswald (Damo), Newsreader / Bodoni Moda / Schibsted Grotesk (this
-   batch).
-2. For parallel/batch builds, the pre-allocated design seed should also fix the **body font** and the
-   **display category** (e.g. seed A → grotesque display, seed B → serif display, seed C → slab/mono
-   display) so the batch spreads across type families, not just palettes.
-3. Single-build note: when picking fonts, check the recent worked references' fonts and pick a body face
-   not already used by them.
 
 **Severity:** low. No site fails; this is a quality/distinctness refinement. The three sites are still
 visibly distinct on palette + display font + hero + voice.

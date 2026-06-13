@@ -42,8 +42,30 @@ export function evaluateSourceQuality(input: {
     warnings.push(`Invalid website_url cleaned: ${input.website_url_validation?.issue}`);
   }
 
+  // A free-mail contact (gmail/yahoo/outlook/etc) has no own domain to crawl, so a missing
+  // email-domain check is NOT a defect and must not block. And when a verified secondary source
+  // exists (Facebook or a verified directory listing), an unchecked own-domain email is downgraded
+  // to a warning rather than a FAIL: own-domain email is one positive signal among several, not a
+  // gate that overrides verified secondary sources.
   if (input.email && !input.email_domain_checked) {
-    blockers.push("Email present but email-domain website discovery not completed");
+    const FREE_EMAIL_DOMAINS = [
+      "gmail.com", "googlemail.com", "yahoo.com", "yahoo.co.uk", "ymail.com",
+      "hotmail.com", "hotmail.co.uk", "outlook.com", "live.com", "live.co.uk",
+      "msn.com", "icloud.com", "me.com", "aol.com", "btinternet.com", "sky.com",
+    ];
+    const emailDomain = input.email.split("@")[1]?.toLowerCase().trim() ?? "";
+    const isFreeMail = FREE_EMAIL_DOMAINS.includes(emailDomain);
+    const verifiedPlatforms = input.lead_validity?.source_confidence_summary?.verified_platforms ?? [];
+    const hasVerifiedSecondary = verifiedPlatforms.some(
+      (p) => p && p !== "google" && p !== "google_places"
+    );
+    if (isFreeMail) {
+      // free-mail: nothing to crawl, not a quality defect - neither warn nor block.
+    } else if (hasVerifiedSecondary) {
+      warnings.push("Own-domain email not crawled (verified secondary source present)");
+    } else {
+      blockers.push("Email present but email-domain website discovery not completed");
+    }
   }
 
   if (!input.enrichment_complete) {
@@ -86,6 +108,23 @@ export function evaluateSourceQuality(input: {
   if (blockers.length) source_quality_status = "FAIL";
   else if (warnings.length >= 3) source_quality_status = "NEEDS_MANUAL_REVIEW";
   else if (warnings.length) source_quality_status = "PASS_WITH_WARNINGS";
+
+  // A verified secondary source (a verified Facebook page or directory listing recorded in
+  // lead_validity.source_confidence_summary.verified_platforms) is sufficient for PASS_WITH_WARNINGS:
+  // with no hard blockers it must not be held at NEEDS_MANUAL_REVIEW on warning count alone. (This is
+  // the multi-source signal the gmail/email-domain path used to ignore.)
+  const verifiedPlatformList =
+    input.lead_validity?.source_confidence_summary?.verified_platforms ?? [];
+  const hasVerifiedSecondarySource = verifiedPlatformList.some(
+    (p) => p && p !== "google" && p !== "google_places"
+  );
+  if (
+    hasVerifiedSecondarySource &&
+    blockers.length === 0 &&
+    source_quality_status === "NEEDS_MANUAL_REVIEW"
+  ) {
+    source_quality_status = "PASS_WITH_WARNINGS";
+  }
 
   return {
     source_quality_status,
