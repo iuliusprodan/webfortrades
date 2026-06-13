@@ -83,3 +83,30 @@ two checks emit predictable false positives a future builder may waste effort ch
 **Severity:** low. No rule was wrong; this just saves the next builder from chasing non-issues. Also a
 data point that the skill's "typographic hero when no usable photo exists" guidance worked cleanly for an
 electrician whose only photos were a logo + burnt-board fault shots.
+
+---
+
+## Proposal: batch-2 findings consolidated by main thread (concurrent-append race recovery)
+
+**Discovered by:** main thread at parallel-batch-2 aggregation. **Process bug (medium):** all 5 batch-2
+sub-agents appended to THIS file concurrently with no lock; a Read-then-Write race dropped all but one
+append (only steel-city's "two false-positives" section survived in the file). The findings below were
+recovered from the sub-agents' return values. **Fix for next batch:** sub-agents must NOT write a shared
+file concurrently - either have each sub-agent write its own `PENDING-<slug>.md` and let the main thread
+merge, or have only the main thread write PENDING-CHANGES.md from the returned findings. (Same class as the
+leads.db concurrency issue, but files have no WAL/serialisation.)
+
+Recovered tooling findings (NONE applied to SKILL.md - for operator review; most are enrich/check tooling,
+not site-design craft):
+1. **`voice_review` looks in `briefs/<slug>/` for voice.json, but Path-B puts it in `sites/<slug>/`** -
+   the check still passed but warned it couldn't find the file. (electrical-solutions-bristol-ltd)
+2. **enrich classifies a Linktree (linktr.ee) as `HAS_REAL_SITE_SKIP`** - a link-aggregator is not a real
+   website; suggest an aggregator denylist (linktr.ee, beacons, etc.) so these stay SOCIAL_OR_DIRECTORY_ONLY.
+   (electrical-solutions-bristol-ltd; gather got it right, only enrich/lead-validity over-flagged.)
+3. **live style-verify sometimes picks the hamburger as "primary CTA"** → the "CTA may be unstyled" warning;
+   the real CTA was correctly styled (confirmed by computed-style + screenshot). (electrical-solutions + others)
+4. **`section_integrity` hard-fails a single legitimate feature image when it carries a `.gallery-*` class**
+   (only 1 usable photo existed); worked around by renaming the class to `.feature-work`. Suggest treating a
+   single-figure block as a feature image, not a 1-column gallery. (amrock-electrical-ltd)
+5. **`identity_review_names` sentence-start false positives** (dup of steel-city's note above) recurred on
+   every build with verbatim quotes. Worth promoting to the skill's "Verification before done" notes.
