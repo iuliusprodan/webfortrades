@@ -1,0 +1,31 @@
+{
+  "slug": "amrock-electrical-ltd",
+  "updated_at": "2026-06-13T21:08:49.756Z",
+  "preferred_alias": "amrock-electrical-ltd",
+  "deployment_url": "https://amrock-electrical-ki19s6awx-iulius-projects-0cb33a7b.vercel.app",
+  "verified_url": "https://amrock-electrical-ltd.vercel.app",
+  "final_url": "https://amrock-electrical-ltd.vercel.app",
+  "alias_status": "VERIFIED",
+  "candidates": [
+    {
+      "hostname": "amrock-electrical-ltd",
+      "url": "https://amrock-electrical-ltd.vercel.app",
+      "preflight": "already_ours",
+      "detail": "Build marker amrock-electrical-ltd:20260613-1",
+      "assign": "alias_assigned",
+      "verify": "verified"
+    }
+  ],
+  "verification": {
+    "ok": true,
+    "httpStatus": 200,
+    "markerFound": true,
+    "businessNameFound": true,
+    "phoneFound": true,
+    "marker": {
+      "buildId": "amrock-electrical-ltd:20260613-1",
+      "slug": "amrock-electrical-ltd"
+    },
+    "errors": []
+  }
+}

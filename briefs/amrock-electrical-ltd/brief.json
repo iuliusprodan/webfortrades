@@ -1,0 +1,402 @@
+{
+  "business_name": "Amrock Electrical Ltd",
+  "owner_name": null,
+  "contact_name": "Naz",
+  "contact_name_source": "google_reviews",
+  "contact_name_confidence": "high",
+  "contact_name_evidence_count": 5,
+  "contact_name_usage_allowed": true,
+  "possible_contact_name": null,
+  "phone": "07824 566582",
+  "email": null,
+  "phone_type": "mobile",
+  "whatsapp_candidate": true,
+  "email_available": false,
+  "whatsapp_available": "not_checked",
+  "contactability_status": "NEEDS_MANUAL_REVIEW",
+  "contactability_reason": "no email found; UK mobile present, requires manual WhatsApp contact",
+  "preferred_channel": "whatsapp",
+  "address": "56 Rhyd-Y-Penau Rd, Cardiff CF23 6PU, UK",
+  "opening_hours": [
+    "Monday: Open 24 hours",
+    "Tuesday: Open 24 hours",
+    "Wednesday: Open 24 hours",
+    "Thursday: Open 24 hours",
+    "Friday: Open 24 hours",
+    "Saturday: Open 24 hours",
+    "Sunday: Open 24 hours"
+  ],
+  "services": [
+    "Repairs and maintenance",
+    "Installations",
+    "Emergency callouts"
+  ],
+  "services_meta": [],
+  "service_confidence": "broad",
+  "service_sources": [
+    "google",
+    "niche"
+  ],
+  "service_area": [
+    "Cardiff",
+    "Cardiff CF23 6PU"
+  ],
+  "based_location": "Cardiff, CF23",
+  "google_rating": 5,
+  "google_review_count": 27,
+  "google_review_count_sourced": true,
+  "service_areas_inferred": true,
+  "google_maps_url": "https://maps.google.com/?cid=654358521196426038",
+  "website_status": "NO_WEBSITE",
+  "website_check_notes": "google_places_website=empty; website_url empty",
+  "website_url": null,
+  "photos": [
+    {
+      "local": "images/01-places.webp",
+      "source_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3klSrMcLjbIecOajLiSCVMJAqJ6tHI9YlsYYxlQSUfScZiFoHzcdQiA7IJB_s_jxnmznkBs0pG8NrWd1hBPTccuRusGKdw15ZN0flIvTijF7P7jxypvXhJ5kKUBk9zI4DLhILpG0KPAoVnfcanfjnqzO3AfeaFCESx9U2npMX1xw4FGk7GtDzLiG096px6JOxkOJqaqW8J0Fp4sHtQB7wk0ramioeZDpbiwQq0Ftk2D3_KTvFr4EfcPsPchp5nMclmCJPkOXzABv-zNPPzLpNYBoXt1oxA4gcTJ5nIW0-wIqWQgEsyTsmipKWkOsxmg6AiPpOjWE-INnijyq_cPTDcM-XKJofQqfqHEx01HXYSf3-4T6w3E420r19c625NOEUi9peybz2a_CCHSPyE2pef9jOpZBP3wZkOLdE7t-TRVUg&key=REDACTED",
+      "width": 1600,
+      "height": 1200,
+      "classification": "completed_project",
+      "pair_id": null,
+      "source_type": "google_places"
+    },
+    {
+      "local": "images/02-places.webp",
+      "source_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3lzctKNxkH16qjIh7ZhTea3SF9-9q9TtbmOyTM-CFXvwm1WaBD72Rz4f9Nq3yooOOLAuuT2OCjh-tJJ7L3vbUHKhhbsrCpWPr7PG-tuczMVwCjuoeG79kBUlBAuJv9hzfg3ZDrdcQJpAWe3vgFil9i0Sab1KFGGOw8NpMfoMzIeT74hIBjlsbozq0HEPNjflETfvOAwbmm5CkLDkbuiGsup6wJm_kCSif1VaG_HFgJF22zO4TaDFSKn4SPIHCwiU28UQvzVloa7LblChFuCnmm6d2_Q4rCJZXu4jsAE9Io5bXiXLKFqLXjH5zDZeNG5uOJ8HPNlzJ2YXLjgQlr4MAkEuP7proNB8SjYzVknTjOY2KG-_cZuawCUWHzbuQJdZ4UDkWcSzZNSS3yq0nF_tXADZHpXTcjJ6XCXJgpPbqAUgRM6&key=REDACTED",
+      "width": 1600,
+      "height": 1200,
+      "classification": "completed_project",
+      "pair_id": null,
+      "source_type": "google_places"
+    },
+    {
+      "local": "images/03-places.webp",
+      "source_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3n4EtsxgJWqQ4eHe46HGIE1QM6hf7EhmFhioadWiwsH3WnKug0sVvqn5slD9ibcpn9X1O-teA4oc2nz9aJuwCt5-xx_Vcp5tueq41mCMo1YSAilYwMGCFPbNLknVe_JwhHN1Krq1UFxjO-I4cL29_si5Skxx9vzBhF4Q0S8UVeOzRUgq4mIxIsRU6hnvBqS4M1A9n48ZTijfccPRzN_AWIocEPYZPotlNSTybp9_22bMk65x4bpWJRy4BcBbY-Ls3HXbHEVrbMIzZTKBZZ_k0VCnPLdjrH99S9epMJgaDvBGCZGIyFnZgEsEG86FZJiJKiw-pWnPD-Vt44BYp63LbpFIMBMxgqMcUJSDN5fwB3AIwFWUMIm5lL8x1K-_N1BSA35VOlS1Py0Qw4GCb2ZVC_JA1-amjfuVwHXl_jtAncFvg&key=REDACTED",
+      "width": 828,
+      "height": 331,
+      "classification": "completed_project",
+      "pair_id": null,
+      "source_type": "google_places"
+    }
+  ],
+  "reviews": [
+    {
+      "text": "I recently purchased an older property that needed a fair bit of electrical work — including installing additional sockets, updating light fittings, and adding a car charger. From start to finish, Naz and Henry were absolutely fantastic. I would 100% recommend them to anyone looking for reliable, high-quality electrical work.\n\nCommunication with Naz via WhatsApp was seamless; he always responded promptly and helpfully. Henry handled much of the installation work and was consistently friendly, professional, and efficient. We’re really pleased with the end results — everything looks great and works perfectly.\n\nThanks again to both of you for making the whole process so smooth!",
+      "reviewer": "Molly",
+      "rating": 5
+    },
+    {
+      "text": "I recently hired Naz from Amrock to run power to an outbuilding on my property, and I couldn’t be happier with the results. From start to finish, the experience was smooth and professional. He showed up on time, explained everything clearly, and made sure the job was done safely and up to regulations.\n\nThe quality of the work was excellent—clean, efficient, and exactly what I needed.\n\nHighly recommend if you need any electrical work done—reliable, friendly, and reasonably priced. Will definitely call him again for future projects!",
+      "reviewer": "Faye",
+      "rating": 5
+    },
+    {
+      "text": "Naz & Co. from Amrock installed my new electrical fire and connected it to a Fused spur through the wall.   Excellent work carried out and their rates were VERY affordable.    They even setup the fuel effect.  5* service at great prices, Highly recommend.",
+      "reviewer": "Simon",
+      "rating": 5
+    },
+    {
+      "text": "5* service from Naz and team. Not only with the removal and fitting of a new storage heater, but also acting as intermediary between us (tenants) and landlord. Excellent communication throughout and a quick resolution. Would highly recommend.",
+      "reviewer": "Rhys",
+      "rating": 5
+    },
+    {
+      "text": "Very reliable and great to deal with. Highly recommend Naz and his team.",
+      "reviewer": "JT1988JT",
+      "rating": 5
+    }
+  ],
+  "social": {
+    "facebook": null,
+    "instagram": null,
+    "youtube": null,
+    "tiktok": null
+  },
+  "gallery_layout": "completed_project_gallery",
+  "photo_classification_summary": {
+    "completed_project": 3
+  },
+  "brand": {
+    "colours": [],
+    "logo_url": null,
+    "logo_local": null
+  },
+  "source_urls": [
+    "https://maps.google.com/?cid=654358521196426038",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3klSrMcLjbIecOajLiSCVMJAqJ6tHI9YlsYYxlQSUfScZiFoHzcdQiA7IJB_s_jxnmznkBs0pG8NrWd1hBPTccuRusGKdw15ZN0flIvTijF7P7jxypvXhJ5kKUBk9zI4DLhILpG0KPAoVnfcanfjnqzO3AfeaFCESx9U2npMX1xw4FGk7GtDzLiG096px6JOxkOJqaqW8J0Fp4sHtQB7wk0ramioeZDpbiwQq0Ftk2D3_KTvFr4EfcPsPchp5nMclmCJPkOXzABv-zNPPzLpNYBoXt1oxA4gcTJ5nIW0-wIqWQgEsyTsmipKWkOsxmg6AiPpOjWE-INnijyq_cPTDcM-XKJofQqfqHEx01HXYSf3-4T6w3E420r19c625NOEUi9peybz2a_CCHSPyE2pef9jOpZBP3wZkOLdE7t-TRVUg&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3lzctKNxkH16qjIh7ZhTea3SF9-9q9TtbmOyTM-CFXvwm1WaBD72Rz4f9Nq3yooOOLAuuT2OCjh-tJJ7L3vbUHKhhbsrCpWPr7PG-tuczMVwCjuoeG79kBUlBAuJv9hzfg3ZDrdcQJpAWe3vgFil9i0Sab1KFGGOw8NpMfoMzIeT74hIBjlsbozq0HEPNjflETfvOAwbmm5CkLDkbuiGsup6wJm_kCSif1VaG_HFgJF22zO4TaDFSKn4SPIHCwiU28UQvzVloa7LblChFuCnmm6d2_Q4rCJZXu4jsAE9Io5bXiXLKFqLXjH5zDZeNG5uOJ8HPNlzJ2YXLjgQlr4MAkEuP7proNB8SjYzVknTjOY2KG-_cZuawCUWHzbuQJdZ4UDkWcSzZNSS3yq0nF_tXADZHpXTcjJ6XCXJgpPbqAUgRM6&key=REDACTED",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3n4EtsxgJWqQ4eHe46HGIE1QM6hf7EhmFhioadWiwsH3WnKug0sVvqn5slD9ibcpn9X1O-teA4oc2nz9aJuwCt5-xx_Vcp5tueq41mCMo1YSAilYwMGCFPbNLknVe_JwhHN1Krq1UFxjO-I4cL29_si5Skxx9vzBhF4Q0S8UVeOzRUgq4mIxIsRU6hnvBqS4M1A9n48ZTijfccPRzN_AWIocEPYZPotlNSTybp9_22bMk65x4bpWJRy4BcBbY-Ls3HXbHEVrbMIzZTKBZZ_k0VCnPLdjrH99S9epMJgaDvBGCZGIyFnZgEsEG86FZJiJKiw-pWnPD-Vt44BYp63LbpFIMBMxgqMcUJSDN5fwB3AIwFWUMIm5lL8x1K-_N1BSA35VOlS1Py0Qw4GCb2ZVC_JA1-amjfuVwHXl_jtAncFvg&key=REDACTED"
+  ],
+  "notes": [
+    "owner_name not found in public sources",
+    "email not found in public sources",
+    "contact_name \"Naz\" from 5 Google review mention(s) (high confidence); owner_name not set",
+    "only 3 usable photos kept (target 6-15)",
+    "contactability=NEEDS_MANUAL_REVIEW",
+    "no email found; UK mobile present, requires manual WhatsApp contact",
+    "Photo discovery: 3/3 selected (Limited photos - compact gallery with review-led hero)"
+  ],
+  "missing_fields": [
+    "owner_name",
+    "email",
+    "photos",
+    "facebook",
+    "instagram"
+  ],
+  "invalid_website_candidates": [],
+  "website_url_validation": {
+    "validated_at": "2026-06-13T20:51:12.927Z",
+    "issue": "empty",
+    "note": "website_url empty",
+    "previous_url": null
+  },
+  "prospect_region": "Cardiff",
+  "location_validation_status": "OK",
+  "directory_probes": [
+    {
+      "platform": "checkatrade",
+      "candidate_url": null,
+      "status": "NOT_FOUND",
+      "confidence": "rejected",
+      "title": null,
+      "rating": null,
+      "review_count": null,
+      "member_since": null,
+      "badges": [],
+      "review_snippets": [],
+      "phone_visible": false,
+      "verification_reasons": [],
+      "identity_match_count": 0,
+      "identity_match_signals": [],
+      "homonym_url": null,
+      "search_query": "site:checkatrade.com \"Amrock Electrical Ltd\" Cardiff CF23 6PU CF23",
+      "probed": true,
+      "note": "candidates_exhausted"
+    },
+    {
+      "platform": "trustatrader",
+      "candidate_url": "https://www.trustatrader.com/",
+      "status": "NOT_FOUND_HOMONYM",
+      "confidence": "rejected",
+      "title": "Find Trusted Traders and Local Tradesmen | TrustATrader",
+      "rating": null,
+      "review_count": null,
+      "member_since": null,
+      "badges": [],
+      "review_snippets": [],
+      "phone_visible": false,
+      "verification_reasons": [],
+      "identity_match_count": 0,
+      "identity_match_signals": [],
+      "homonym_url": "https://www.trustatrader.com/",
+      "search_query": "site:trustatrader.com \"Amrock Electrical Ltd\" Cardiff CF23 6PU CF23",
+      "probed": true,
+      "note": "identity_homonym"
+    },
+    {
+      "platform": "yell",
+      "candidate_url": "https://www.yell.com/biz/amrock-electrical-ltd-cardiff-cf23-6pu/",
+      "status": "FOUND_FROM_SNIPPET",
+      "confidence": "low",
+      "title": null,
+      "rating": null,
+      "review_count": null,
+      "member_since": null,
+      "badges": [],
+      "review_snippets": [],
+      "phone_visible": false,
+      "verification_reasons": [],
+      "identity_match_count": 1,
+      "identity_match_signals": [
+        "exact_name"
+      ],
+      "homonym_url": null,
+      "search_query": "site:yell.com \"Amrock Electrical Ltd\" Cardiff CF23 6PU CF23",
+      "probed": true,
+      "note": "snippet_unverified_single_signal"
+    },
+    {
+      "platform": "mybuilder",
+      "candidate_url": "https://www.mybuilder.com/profile/amrock-electrical-ltd",
+      "status": "FOUND_FROM_SNIPPET",
+      "confidence": "low",
+      "title": null,
+      "rating": null,
+      "review_count": null,
+      "member_since": null,
+      "badges": [],
+      "review_snippets": [],
+      "phone_visible": false,
+      "verification_reasons": [],
+      "identity_match_count": 1,
+      "identity_match_signals": [
+        "exact_name"
+      ],
+      "homonym_url": null,
+      "search_query": "site:mybuilder.com \"Amrock Electrical Ltd\" Cardiff CF23 6PU CF23",
+      "probed": true,
+      "note": "snippet_unverified_single_signal"
+    },
+    {
+      "platform": "rated_people",
+      "candidate_url": null,
+      "status": "NOT_FOUND",
+      "confidence": "rejected",
+      "title": null,
+      "rating": null,
+      "review_count": null,
+      "member_since": null,
+      "badges": [],
+      "review_snippets": [],
+      "phone_visible": false,
+      "verification_reasons": [],
+      "identity_match_count": 0,
+      "identity_match_signals": [],
+      "homonym_url": null,
+      "search_query": "site:ratedpeople.com \"Amrock Electrical Ltd\" Cardiff CF23 6PU CF23",
+      "probed": true,
+      "note": "candidates_exhausted"
+    },
+    {
+      "platform": "bark",
+      "candidate_url": null,
+      "status": "NOT_FOUND",
+      "confidence": "rejected",
+      "title": null,
+      "rating": null,
+      "review_count": null,
+      "member_since": null,
+      "badges": [],
+      "review_snippets": [],
+      "phone_visible": false,
+      "verification_reasons": [],
+      "identity_match_count": 0,
+      "identity_match_signals": [],
+      "homonym_url": null,
+      "search_query": "site:bark.com \"Amrock Electrical Ltd\" Cardiff CF23 6PU CF23",
+      "probed": true,
+      "note": "candidates_exhausted"
+    },
+    {
+      "platform": "houzz",
+      "candidate_url": null,
+      "status": "NOT_FOUND",
+      "confidence": "rejected",
+      "title": null,
+      "rating": null,
+      "review_count": null,
+      "member_since": null,
+      "badges": [],
+      "review_snippets": [],
+      "phone_visible": false,
+      "verification_reasons": [],
+      "identity_match_count": 0,
+      "identity_match_signals": [],
+      "homonym_url": null,
+      "search_query": "site:houzz.co.uk \"Amrock Electrical Ltd\" Cardiff CF23 6PU CF23",
+      "probed": true,
+      "note": "candidates_exhausted"
+    },
+    {
+      "platform": "trustpilot",
+      "candidate_url": "https://www.trustpilot.com/review/amrock-electrical-ltd",
+      "status": "FOUND_FROM_SNIPPET",
+      "confidence": "low",
+      "title": null,
+      "rating": null,
+      "review_count": null,
+      "member_since": null,
+      "badges": [],
+      "review_snippets": [],
+      "phone_visible": false,
+      "verification_reasons": [],
+      "identity_match_count": 1,
+      "identity_match_signals": [
+        "exact_name"
+      ],
+      "homonym_url": null,
+      "search_query": "site:uk.trustpilot.com \"Amrock Electrical Ltd\" Cardiff CF23 6PU CF23",
+      "probed": true,
+      "note": "snippet_unverified_single_signal"
+    },
+    {
+      "platform": "myjobquote",
+      "candidate_url": null,
+      "status": "NOT_FOUND",
+      "confidence": "rejected",
+      "title": null,
+      "rating": null,
+      "review_count": null,
+      "member_since": null,
+      "badges": [],
+      "review_snippets": [],
+      "phone_visible": false,
+      "verification_reasons": [],
+      "identity_match_count": 0,
+      "identity_match_signals": [],
+      "homonym_url": null,
+      "search_query": "site:myjobquote.co.uk \"Amrock Electrical Ltd\" Cardiff CF23 6PU CF23",
+      "probed": true,
+      "note": "candidates_exhausted"
+    }
+  ],
+  "enrichment": {
+    "enriched_at": "2026-06-13T20:51:29.954Z",
+    "email_domain_checked": false,
+    "website_discovery_run": true
+  },
+  "lead_validity": {
+    "lead_validity_status": "INSUFFICIENT_EVIDENCE",
+    "lead_validity_reason": "Enrichment incomplete or source confidence too low",
+    "pitch_type": "manual_review",
+    "website_status": "NO_WEBSITE",
+    "website_url": null,
+    "website_discovery_classification": null,
+    "email_domain_website": null,
+    "source_confidence_summary": {
+      "overall": "medium",
+      "verified_platforms": [
+        "google_places"
+      ],
+      "rejected_platforms": [],
+      "notes": []
+    },
+    "ready_for_build": false,
+    "ready_for_design": false,
+    "ready_for_pitch": false,
+    "manual_review_required": true,
+    "has_real_website": false,
+    "truly_no_website": true,
+    "warnings": [
+      "contactability=NEEDS_MANUAL_REVIEW",
+      "no email found; UK mobile present, requires manual WhatsApp contact",
+      "Source enrichment not complete - run enrich:lead before build"
+    ],
+    "manual_asset_status": "OK",
+    "pause_before_open_design": false,
+    "manual_asset_folder": "briefs/amrock-electrical-ltd/images/manual/"
+  },
+  "source_quality": {
+    "source_quality_status": "FAIL",
+    "source_quality_reason": "Source enrichment not complete",
+    "website_url_validated": true,
+    "email_domain_checked": true,
+    "enrichment_complete": false,
+    "logo_discovery_attempted": true,
+    "photo_discovery_attempted": true,
+    "directory_probes": {
+      "attempted": true,
+      "platforms_probed": 9,
+      "verified_profiles": 0,
+      "unverified_profiles": 3,
+      "blocked": []
+    },
+    "warnings": [
+      "Lead validity requires manual review",
+      "Directory probes ran but no verified third-party profiles found"
+    ],
+    "blockers": [
+      "Source enrichment not complete"
+    ]
+  }
+}

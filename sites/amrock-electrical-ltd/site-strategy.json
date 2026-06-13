@@ -1,0 +1,58 @@
+{
+  "slug": "amrock-electrical-ltd",
+  "path": "B (Claude-direct)",
+  "frozen_input_tag": "amrock-electrical-ltd-brief-frozen",
+  "business_angle": "Amrock Electrical is the Cardiff electrician who brings older homes up to standard - adding sockets, updating tired light fittings, fitting storage heaters and electric fires, and adding EV charging - done tidily, safely to regulations, and explained to the homeowner as the work goes on.",
+  "why_this_trader_wins": "The reviews describe one consistent, specific specialism: domestic upgrades to existing and older properties, explained clearly and left tidy. Molly bought an older property that needed additional sockets, updated light fittings and a car charger and calls the work 'reliable, high-quality'; Simon had an electric fire installed and connected to a fused spur through the wall, with the fuel effect set up; Rhys had a storage heater removed and replaced; Faye had power run to an outbuilding, 'explained everything clearly' and 'done safely and up to regulations'. This is reassuring, well-communicated domestic modernisation, not generic 'electrical services'.",
+  "target_customer": "Cardiff homeowners (CF23 and the wider CF postcodes) - often in older or recently-bought properties - who want extra sockets, updated lighting, a storage heater or electric fire, or an EV charger fitted properly, by an electrician who keeps them informed and works to regulations.",
+  "page_single_job": "Get that homeowner to request a quote (or call/WhatsApp) for a domestic electrical upgrade.",
+  "distinctive_angle": "older-cardiff-homes-brought-up-to-standard",
+  "customer_praise_themes": [
+    {"theme": "older-home modernisation (sockets, lighting, heating)", "evidence": "brief.json reviews[0] (Molly): 'purchased an older property that needed a fair bit of electrical work - including installing additional sockets, updating light fittings, and adding a car charger'"},
+    {"theme": "electric fires and storage heaters fitted and connected", "evidence": "brief.json reviews[2] (Simon): 'installed my new electrical fire and connected it to a Fused spur through the wall ... They even setup the fuel effect'; reviews[3] (Rhys): 'removal and fitting of a new storage heater'"},
+    {"theme": "explained clearly, works to regulations", "evidence": "brief.json reviews[1] (Faye): 'explained everything clearly, and made sure the job was done safely and up to regulations'"},
+    {"theme": "clear, prompt communication throughout", "evidence": "brief.json reviews[0] (Molly): 'Communication with Naz via WhatsApp was seamless; he always responded promptly and helpfully'; reviews[3] (Rhys): 'Excellent communication throughout and a quick resolution'"},
+    {"theme": "reliable, tidy, friendly two-man team (Naz + Henry)", "evidence": "brief.json reviews[0] (Molly): 'Naz and Henry were absolutely fantastic ... Henry handled much of the installation work and was consistently friendly, professional, and efficient'; reviews[4] (JT1988JT): 'Very reliable and great to deal with'"},
+    {"theme": "power runs to outbuildings / additional circuits", "evidence": "brief.json reviews[1] (Faye): 'run power to an outbuilding on my property ... done safely and up to regulations'"}
+  ],
+  "named_people": [
+    {"name": "Naz", "role": "lead electrician / the person the customer deals with", "usage": "approved", "basis": "brief.json contact_name='Naz', contact_name_source='google_reviews', contact_name_confidence='high', contact_name_evidence_count=5, contact_name_usage_allowed=true. Naz is named in 5 reviews (Molly, Faye, Simon, Rhys, JT1988JT). Clears the skill bar (named in >=2 review bodies) comfortably. Same judgment-call basis as the Kyle Knowles ARCH-2 precedent."},
+    {"name": "Henry", "role": "electrician / team member", "usage": "approved-as-named-team-member", "basis": "brief.json reviews[0] (Molly) names 'Naz and Henry' and says 'Henry handled much of the installation work'. Referenced factually as a named team member only; no invented backstory."}
+  ],
+  "strongest_review_quote": {
+    "text": "I recently purchased an older property that needed a fair bit of electrical work - including installing additional sockets, updating light fittings, and adding a car charger. From start to finish, Naz and Henry were absolutely fantastic. Communication with Naz via WhatsApp was seamless; he always responded promptly and helpfully. Henry handled much of the installation work and was consistently friendly, professional, and efficient.",
+    "author": "Molly",
+    "source": "google",
+    "source_ref": "brief.json reviews[0]"
+  },
+  "strongest_proof_source": {
+    "platform": "google",
+    "metric": "5.0 rating from 27 reviews",
+    "url": "https://maps.google.com/?cid=654358521196426038",
+    "source_ref": "brief.json google_rating, google_review_count, google_maps_url"
+  },
+  "real_services": [
+    {"name": "Additional sockets and lighting", "evidence": "reviews[0] Molly ('installing additional sockets, updating light fittings'); core of the older-home angle"},
+    {"name": "Electric fires and storage heaters", "evidence": "reviews[2] Simon (electric fire + fused spur + fuel effect); reviews[3] Rhys (storage heater removal and fitting)"},
+    {"name": "EV and car charger installation", "evidence": "reviews[0] Molly ('adding a car charger'); the EV add-on to the heritage angle"},
+    {"name": "Extra circuits and power to outbuildings", "evidence": "reviews[1] Faye ('run power to an outbuilding ... safely and up to regulations')"}
+  ],
+  "claims_to_avoid": [
+    "any certification or membership (Gas Safe, NICEIC, NAPIT, Part P, Checkatrade Vetted, TrustATrader, Which? Trusted Trader) - NONE verified; directory_probes show 0 verified profiles (Yell/MyBuilder/Trustpilot are snippet-only single-signal; TrustATrader was an identity homonym and rejected; Checkatrade/RatedPeople/Bark/Houzz/MyJobQuote NOT_FOUND). Faye's review says work was 'up to regulations' - that is a customer's words inside an attributed quote, NOT a badge to claim in site prose.",
+    "'fully insured' / insurance claims - not evidenced",
+    "specific years-trading number - none evidenced",
+    "the home street address '56 Rhyd-Y-Penau Rd' anywhere public - use Cardiff / CF23 only",
+    "Google Places junk / broad categories as services: brief.json services[] 'Repairs and maintenance', 'Installations', 'Emergency callouts' are broad niche/Google labels (service_confidence='broad'), not the specific evidenced work - use the four real services derived from the reviews instead. Do NOT advertise 'Emergency callouts' / 24-hour emergency work: it is not evidenced in any review (the 'Open 24 hours' opening_hours is a Google default, not a stated emergency service).",
+    "service areas beyond Cardiff / the CF postcodes - Cardiff + CF23 evidenced; surrounding districts derived from CF geography (plausible one/two-van radius, no national footprint).",
+    "photo counts as a stat; any invented numbers; 'rewires' or 'consumer unit / fuse board upgrades' as standalone services UNLESS framed generally - no review names a full rewire or board change, so keep services to the four evidenced ones (a consumer-unit option may appear ONLY in the quote-form job-type list per the assignment, as a request option, not an advertised completed service)."
+  ],
+  "personality": "calm, reassuring, methodical; an electrician who explains the work, keeps you in the loop, and leaves an older home safer and tidier than he found it",
+  "evidence_strength": "moderate-content / single-source (rich, specific Google reviews that all point at the same older-home-upgrade specialism; only 1 usable finished photo; no verified third-party profile - Facebook/directories unverified)",
+  "pitch_hook_summary": "Lead on the older-Cardiff-homes angle (extra sockets, updated lighting, storage heaters and electric fires, EV chargers; explained as you go, up to regulations), backed by 5.0/27 Google.",
+  "metadata": {
+    "source_quality": "FAIL",
+    "lead_validity_status": "INSUFFICIENT_EVIDENCE",
+    "manual_review_note": "Single-source (Google-only): no verified third-party profile, no email, UK mobile only, contactability=NEEDS_MANUAL_REVIEW. This is a BUILD run; gates/pitch are out of scope per the assignment (pitch_gate enforces at outreach time, not build time). The evidence is specific and usable - same posture as the Kyle Knowles reference build (also source_quality=FAIL). Reviews are unusually on-angle for the heritage/older-home brief.",
+    "authored_blind": "Path B authored from the frozen evidence + CLAUDE.md + the webfortrades-site-design skill + the pre-allocated design seed only. Palette family warm-earth (terracotta/rust/sienna over cool clay-stone), body Inter, display Inter Tight (sans-humanist) - clearly distinct from Damo's golden cedar-amber + sawn-timber warm-earth and from the banned warm-cream+serif+terracotta cluster. No reserved-palette overlap with the other 8 deployed sites."
+  }
+}

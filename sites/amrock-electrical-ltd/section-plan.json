@@ -1,0 +1,106 @@
+{
+  "slug": "amrock-electrical-ltd",
+  "generic_plan": false,
+  "layout_note": "Single column. Sections divided by a thin double 'brick-course' rule (the structural signature - two hairlines a few px apart, like a mortar joint between brick courses, echoing the older-home brickwork Amrock works on). Boldness spent once on the typographic 'older homes brought up to standard' hero + the single fired-terracotta accent; everything else quiet. Typographic-led, not photo-led - only one usable finished photo exists, so it is featured in the body rather than the hero.",
+  "sections": [
+    {
+      "id": "header",
+      "type": "sticky-header",
+      "purpose": "Wayfinding + persistent quote CTA.",
+      "evidence_anchors": ["brief.json business_name", "brief.json phone"],
+      "copy_intent": "Text wordmark 'Amrock Electrical'; nav: Work, Reviews, Areas; one button 'Get a quote'. No phone in the bar on mobile.",
+      "visual_intent": "Quiet solid header (no backdrop-filter so the mobile drawer/scrim are not trapped - containing-block rule), brick-course hairline underneath. Mobile: wordmark + hamburger only (no phone, <=2 links) per mobile_header check."
+    },
+    {
+      "id": "hero",
+      "type": "trade-led-typographic-hero",
+      "priority": 1,
+      "purpose": "State trade + location + the older-home angle in one line; surface the only citable proof. Typographic (no photo) - the deliberate hero decision (see design-direction.md and build-notes).",
+      "evidence_anchors": ["reviews[0] Molly (older property, additional sockets, light fittings, car charger)", "reviews[2] Simon (electric fire)", "reviews[3] Rhys (storage heater)", "google_rating 5.0 / google_review_count 27", "based_location Cardiff CF23"],
+      "copy_intent": "Headline = trade-led positioning on the older-home angle (NOT a review quote). Subhead = older-home upgrades (sockets, lighting, storage heaters, electric fires) + EV chargers, explained as you go, + 5.0/27 proof. CTAs: Get a quote (primary, #quote), Call Naz (secondary, phone).",
+      "visual_intent": "Typographic hero on the --ink brown-black ground with a faint terracotta-tinted brick-course texture (CSS only) and a short terracotta rule under the eyebrow. Heavy Inter Tight headline; terracotta primary button; small proof chip '5.0 on Google, 27 reviews'. Text block keeps the site container side padding on mobile (hero horizontal-inset rule); CTAs stack full-width <=640px, proof chip below both. NO stock/AI image."
+    },
+    {
+      "id": "proof-strip",
+      "type": "proof-marquee",
+      "priority": 2,
+      "purpose": "Surface the evidence-drawn proof points in a seamless loop directly under the hero.",
+      "evidence_anchors": ["google_rating 5.0 / google_review_count 27", "based_location Cardiff CF23", "reviews (older homes, explained clearly, storage heaters & electric fires)"],
+      "copy_intent": "4-6 factual proof points: 5.0 on Google, 27 local reviews, Cardiff CF23, Older homes brought up to standard, Explained as we go, EV chargers fitted. No exclamation marks, no salesy framing.",
+      "visual_intent": "--ink band; terracotta diamond separators after every item (covers the wrap seam); single full traversal in ~36s linear; renders the list twice + translateX(-50%) for a seamless loop; animates on ALL viewports; reduced-motion degrades to a static row."
+    },
+    {
+      "id": "the-difference",
+      "type": "signature-positioning-block",
+      "priority": 3,
+      "purpose": "The one memorable thing: Amrock modernises older homes (sockets, lighting, heating), fits storage heaters and electric fires, and explains the work as it goes, to regulations. The copy boldness moment.",
+      "evidence_anchors": ["reviews[0] Molly (older property, additional sockets, light fittings, car charger; Naz + Henry)", "reviews[1] Faye (explained clearly, up to regulations)", "reviews[2] Simon (electric fire + fused spur)", "reviews[3] Rhys (storage heater, communication)"],
+      "copy_intent": "3 short, concrete statements of the specialism, stated plainly and factually (no boast adjectives). Each tied to real evidenced work: older homes brought up to standard; storage heaters and electric fires fitted and connected; explained as we go, to regulations.",
+      "visual_intent": "--stone section; large Inter Tight statements separated by brick-course rules; terracotta used once on the key phrase ('explained as we go'). No icons. The boldest copy moment on the page. Stats band (5.0 / 27 / Naz & Henry two-man team) inline."
+    },
+    {
+      "id": "services",
+      "type": "evidence-based-services",
+      "priority": 4,
+      "purpose": "Name the 4 real services from evidence with specific, grounded descriptions.",
+      "evidence_anchors": ["site-strategy.json real_services (additional sockets & lighting; electric fires & storage heaters; EV & car chargers; extra circuits & power to outbuildings)"],
+      "copy_intent": "Each service: short label + one evidence-grounded line. NEVER the broad Google labels ('Repairs and maintenance', 'Installations', 'Emergency callouts'). NEVER 'Emergency callouts' / 24-hour emergency (not evidenced). NEVER 'X services explained plainly'.",
+      "visual_intent": "Labelled rows with small two-letter marks (SL / EF / EV / OB) in terracotta - NOT 01/02/03 (services are not a sequence; the numbered process below is) and NOT SVG/lucide icons (no_service_icons check). Brick-course rule between rows."
+    },
+    {
+      "id": "selected-work",
+      "type": "gallery-feature",
+      "priority": 5,
+      "purpose": "Show the one usable finished install - the proof photo that matters for a trader with no third-party profiles.",
+      "evidence_anchors": ["brief.json photos[1] (02-places.webp - completed_project: a finished living-room media wall with an electric fire installed, tidy, matches the heritage angle and Simon's electric-fire review)"],
+      "copy_intent": "Short section intro; one safe caption only ('Completed living-room install, Cardiff'). No invented customer/location. ONLY 02-places.webp is used: 01-places.webp is work-in-progress (banned) and 03-places.webp is the brand logo, not a project photo.",
+      "visual_intent": "Single featured image with a thin --line frame and caption beneath; the masonry grid CSS degrades cleanly to one column. Quiet."
+    },
+    {
+      "id": "reviews",
+      "type": "review-feature",
+      "priority": 6,
+      "purpose": "Exactly one review section. Lead with the older-home / electric-fire / storage-heater quotes that carry the heritage angle.",
+      "evidence_anchors": ["reviews[0] Molly (older home upgrade)", "reviews[2] Simon (electric fire)", "reviews[3] Rhys (storage heater)", "reviews[1] Faye (explained clearly, regulations)"],
+      "copy_intent": "3-4 verbatim Google excerpts, attributed 'First name, Google review'. JT1988JT is attributed 'Google review' (a username, not a real first name). No first name as a headline (no 'Steve' anti-pattern). One review section only (no duplicate wall).",
+      "visual_intent": "Quiet cards on --stone; terracotta quote rule; the 5.0/27 restated once as a stat, label 'Google rating' (no banned sub-labels)."
+    },
+    {
+      "id": "process",
+      "type": "process-numbered",
+      "priority": 7,
+      "purpose": "Reduce risk: show the orderly, well-communicated way Amrock works.",
+      "evidence_anchors": ["reviews[0] Molly (prompt WhatsApp communication)", "reviews[1] Faye (explained everything clearly, safely, up to regulations)", "reviews[3] Rhys (excellent communication, quick resolution)"],
+      "copy_intent": "4 ordered steps grounded in review behaviour: get in touch (WhatsApp/phone) -> look at the job and a clear price -> work done safely to regulations, kept informed -> tested, left tidy and explained.",
+      "visual_intent": "Numbered 01-04 IS appropriate here (a real sequence). Numerals in heavy Inter Tight, terracotta; brick-course dividers between steps. Dark --ink section for contrast."
+    },
+    {
+      "id": "areas",
+      "type": "local-coverage",
+      "priority": 8,
+      "purpose": "Establish locality and availability without exposing the home address.",
+      "evidence_anchors": ["brief.json based_location 'Cardiff, CF23'", "service_area Cardiff + CF23", "google_maps_url cid"],
+      "copy_intent": "Based in Cardiff (CF23), covers Cardiff and the surrounding CF postcodes (8-14 districts). CF23/Cardiff evidenced; rest derived from Cardiff geography (plausible one/two-van radius, no over-claim, no national footprint). No 24-hour hours line (the 'Open 24 hours' is a Google default and emergency work is not evidenced) - frame availability simply ('Most days, including evenings, by arrangement') OR omit a specific hours claim. No street address.",
+      "visual_intent": "Keyless Google Maps iframe centred on 'Cardiff CF23' (town + outward only); area list (two-column) beside framing prose."
+    },
+    {
+      "id": "quote",
+      "type": "contact-quote-form",
+      "priority": 9,
+      "purpose": "Convert: a quote form plus phone, anchored at #quote.",
+      "evidence_anchors": ["brief.json phone 07824 566582", "based_location Cardiff CF23"],
+      "copy_intent": "Two columns. Left: heading + framing prose + key details (phone click-to-call, Cardiff / CF23). Right: quote form (name, phone, email optional, postcode, job type, details). Job types per assignment: Older-home upgrade / Additional sockets & lighting / EV charger / Consumer unit / Other. Heading specific to Amrock. Form is presentational only (does not submit to the business; no 'preview form' disclaimer).",
+      "visual_intent": "Dark --ink surface, NOT the terracotta accent (contact section rule). Form fields visually distinct from the side details. Mobile: stack to single column, details first. Quote-only sticky CTA reveals after hero on scroll (fade+slide), hides near footer."
+    },
+    {
+      "id": "footer",
+      "type": "business-footer",
+      "purpose": "Real local-business footer, not just the agency credit.",
+      "evidence_anchors": ["business_name", "phone", "service_area", "google_maps_url"],
+      "copy_intent": "Brand, phone, areas, quick links, link to read Google reviews. Small 'Website by WebForTrades' credit at the bottom.",
+      "visual_intent": "--ink footer; brick-course dividers; restrained."
+    }
+  ],
+  "omitted_defaults": ["owner-backstory/about-me narrative (no self-description evidence)", "FAQ (no real questions in evidence)", "fabricated stats band beyond 5.0/27 + the two-man team (only Google 5.0/27 sourced)", "certifications/badges strip (none verified)", "separate second review wall", "'Emergency callouts'/24-hour service (not evidenced; the 'Open 24 hours' is a Google default)", "rewires / consumer-unit upgrades as advertised completed services (not named in any review; consumer unit appears only as a quote-form request option)", "a specific hours line claiming 24/7 availability"],
+  "omitted_reasons": "Kept lean and evidence-only. No section exists without a specific anchor in the frozen brief. The 'Open 24 hours' Google default is deliberately NOT surfaced as an emergency/24-7 claim."
+}

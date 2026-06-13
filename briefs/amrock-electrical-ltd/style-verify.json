@@ -1,0 +1,94 @@
+{
+  "slug": "amrock-electrical-ltd",
+  "updated_at": "2026-06-13T21:07:28.533Z",
+  "url": "https://amrock-electrical-ltd.vercel.app",
+  "ok": true,
+  "screenshot": "/Users/iuliusprodan/.cursor/website/screenshots/amrock-electrical-ltd/live-verify.png",
+  "stylesheet": {
+    "bytes": 49300,
+    "hasPreflight": true,
+    "hasUtilities": true,
+    "utilityMarkers": [
+      ".flex",
+      ".grid",
+      ".mx-auto",
+      ".items-center",
+      ".justify-",
+      ".max-w-",
+      ".px-/.py-",
+      ".rounded",
+      ".gap-"
+    ]
+  },
+  "metrics": {
+    "bodyFontFamily": "Inter, \"Inter Fallback\", -apple-system, \"system-ui\", \"Segoe UI\", system-ui, sans-serif, -apple-system, \"system-ui\", \"Segoe UI\", system-ui, sans-serif",
+    "bodyBoxSizing": "border-box",
+    "bodyMarginTop": 0,
+    "bodyMarginLeft": 0,
+    "appliedRuleCount": 843,
+    "styleSheetCount": 1,
+    "biggestGraphic": {
+      "tag": "IMG",
+      "w": 720,
+      "h": 541,
+      "src": "https://amrock-electrical-ltd.vercel.app/assets/images/02-places.webp"
+    },
+    "primaryButton": {
+      "found": true,
+      "background": "rgba(0, 0, 0, 0)",
+      "borderRadius": "0px",
+      "paddingTop": "8px"
+    },
+    "bodyText": "AMROCK ELECTRICAL\nWork\nReviews\nAreas\nGet a quote\n\nELECTRICIANS, CARDIFF CF23\n\nElectricians for Cardiff's older homes, brought up to standard.\n\nNaz and Henry add sockets, update tired light fittings, and fit storage heaters and electric fires across Cardiff, plus EV chargers, explaining the work as t"
+  },
+  "css_assets": [
+    {
+      "url": "https://amrock-electrical-ltd.vercel.app/_next/static/css/8c4835b2c4843630.css",
+      "status": 200,
+      "bytes": 49300
+    }
+  ],
+  "js_assets": [
+    {
+      "url": "https://amrock-electrical-ltd.vercel.app/_next/static/chunks/4bd1b696-c023c6e3521b1417.js",
+      "status": 200,
+      "bytes": 173019
+    },
+    {
+      "url": "https://amrock-electrical-ltd.vercel.app/_next/static/chunks/255-eb4aecc3ff015961.js",
+      "status": 200,
+      "bytes": 173611
+    },
+    {
+      "url": "https://amrock-electrical-ltd.vercel.app/_next/static/chunks/main-app-f9b5d20365cb8be2.js",
+      "status": 200,
+      "bytes": 557
+    },
+    {
+      "url": "https://amrock-electrical-ltd.vercel.app/_next/static/chunks/app/page-14738b175fb275cd.js",
+      "status": 200,
+      "bytes": 6592
+    },
+    {
+      "url": "https://amrock-electrical-ltd.vercel.app/_next/static/chunks/polyfills-42372ed130431b0a.js",
+      "status": 200,
+      "bytes": 112594
+    },
+    {
+      "url": "https://amrock-electrical-ltd.vercel.app/_next/static/chunks/webpack-447c4ece6377ecc6.js",
+      "status": 200,
+      "bytes": 3770
+    }
+  ],
+  "failed_assets": [],
+  "issues": [
+    {
+      "severity": "warn",
+      "message": "section_integrity: no gallery block found for column check"
+    },
+    {
+      "severity": "warn",
+      "message": "Primary CTA has no background and no border radius (may be unstyled)"
+    }
+  ]
+}

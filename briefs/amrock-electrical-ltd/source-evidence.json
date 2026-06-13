@@ -1,0 +1,382 @@
+{
+  "slug": "amrock-electrical-ltd",
+  "gathered_at": "2026-06-13T20:51:29.954Z",
+  "attempted_sources": [
+    {
+      "platform": "google_places",
+      "status": "found",
+      "url": "https://maps.google.com/?cid=654358521196426038"
+    },
+    {
+      "platform": "google_maps",
+      "status": "not_attempted",
+      "search_query": "Amrock Electrical Ltd Cardiff CF23 6PU site:google.com/maps",
+      "reason": "Automated search not run in enrich pass unless URL provided"
+    },
+    {
+      "platform": "google_reviews",
+      "status": "found",
+      "url": "https://maps.google.com/?cid=654358521196426038"
+    },
+    {
+      "platform": "google_photos",
+      "status": "found",
+      "url": "https://maps.google.com/?cid=654358521196426038"
+    },
+    {
+      "platform": "facebook",
+      "status": "not_attempted",
+      "search_query": "Amrock Electrical Ltd Cardiff CF23 6PU Facebook",
+      "reason": "Automated search not run in enrich pass unless URL provided"
+    },
+    {
+      "platform": "checkatrade",
+      "status": "not_attempted",
+      "search_query": "Amrock Electrical Ltd Cardiff CF23 6PU site:checkatrade.com",
+      "reason": "Automated search not run in enrich pass unless URL provided"
+    },
+    {
+      "platform": "trustatrader",
+      "status": "not_attempted",
+      "search_query": "Amrock Electrical Ltd Cardiff CF23 6PU site:trustatrader.com",
+      "reason": "Automated search not run in enrich pass unless URL provided"
+    },
+    {
+      "platform": "yell",
+      "status": "not_attempted",
+      "search_query": "Amrock Electrical Ltd Cardiff CF23 6PU site:yell.com",
+      "reason": "Automated search not run in enrich pass unless URL provided"
+    },
+    {
+      "platform": "mybuilder",
+      "status": "not_attempted",
+      "search_query": "Amrock Electrical Ltd Cardiff CF23 6PU site:mybuilder.com",
+      "reason": "Automated search not run in enrich pass unless URL provided"
+    },
+    {
+      "platform": "rated_people",
+      "status": "not_attempted",
+      "search_query": "Amrock Electrical Ltd Cardiff CF23 6PU site:ratedpeople.com",
+      "reason": "Automated search not run in enrich pass unless URL provided"
+    },
+    {
+      "platform": "bark",
+      "status": "not_attempted",
+      "search_query": "Amrock Electrical Ltd Cardiff CF23 6PU site:bark.com",
+      "reason": "Automated search not run in enrich pass unless URL provided"
+    },
+    {
+      "platform": "houzz",
+      "status": "not_attempted",
+      "search_query": "Amrock Electrical Ltd Cardiff CF23 6PU site:houzz.co.uk",
+      "reason": "Automated search not run in enrich pass unless URL provided"
+    },
+    {
+      "platform": "myjobquote",
+      "status": "not_attempted",
+      "search_query": "Amrock Electrical Ltd Cardiff CF23 6PU site:myjobquote.co.uk",
+      "reason": "Automated search not run in enrich pass unless URL provided"
+    },
+    {
+      "platform": "trustpilot",
+      "status": "not_attempted",
+      "search_query": "Amrock Electrical Ltd Cardiff CF23 6PU site:trustpilot.com",
+      "reason": "Automated search not run in enrich pass unless URL provided"
+    },
+    {
+      "platform": "youtube",
+      "status": "not_attempted",
+      "search_query": "Amrock Electrical Ltd Cardiff CF23 6PU site:youtube.com",
+      "reason": "Automated search not run in enrich pass unless URL provided"
+    },
+    {
+      "platform": "companies_house",
+      "status": "not_attempted",
+      "search_query": "Amrock Electrical Ltd site:find-and-update.company-information.service.gov.uk",
+      "reason": "Automated search not run in enrich pass unless URL provided"
+    },
+    {
+      "platform": "official_website",
+      "status": "not_attempted",
+      "search_query": "Amrock Electrical Ltd Cardiff CF23 6PU website",
+      "reason": "Automated search not run in enrich pass unless URL provided"
+    },
+    {
+      "platform": "email_domain_website",
+      "status": "not_attempted",
+      "search_query": "https://",
+      "reason": "Automated search not run in enrich pass unless URL provided"
+    },
+    {
+      "platform": "directories",
+      "status": "not_attempted",
+      "search_query": "Amrock Electrical Ltd Cardiff CF23 6PU plumber electrician directory",
+      "reason": "Automated search not run in enrich pass unless URL provided"
+    },
+    {
+      "platform": "local_trade_directories",
+      "status": "not_attempted",
+      "search_query": "Amrock Electrical Ltd Cardiff CF23 6PU local directory",
+      "reason": "Automated search not run in enrich pass unless URL provided"
+    },
+    {
+      "platform": "trade_association",
+      "status": "not_attempted",
+      "search_query": "Amrock Electrical Ltd  association member",
+      "reason": "Automated search not run in enrich pass unless URL provided"
+    },
+    {
+      "platform": "review_aggregators",
+      "status": "not_attempted",
+      "search_query": "Amrock Electrical Ltd Cardiff CF23 6PU reviews",
+      "reason": "Automated search not run in enrich pass unless URL provided"
+    },
+    {
+      "platform": "instagram",
+      "status": "not_attempted",
+      "search_query": "Amrock Electrical Ltd Cardiff CF23 6PU Instagram",
+      "reason": "Requires login - manual review only"
+    },
+    {
+      "platform": "nextdoor",
+      "status": "not_attempted",
+      "search_query": "Amrock Electrical Ltd Cardiff CF23 6PU site:nextdoor.co.uk",
+      "reason": "Requires login - manual review only"
+    },
+    {
+      "platform": "pinterest",
+      "status": "not_attempted",
+      "search_query": "Amrock Electrical Ltd Cardiff CF23 6PU site:pinterest.com",
+      "reason": "Requires login - manual review only"
+    },
+    {
+      "platform": "tiktok",
+      "status": "not_attempted",
+      "search_query": "Amrock Electrical Ltd Cardiff CF23 6PU TikTok",
+      "reason": "Requires login - manual review only"
+    },
+    {
+      "platform": "linkedin",
+      "status": "not_attempted",
+      "search_query": "Amrock Electrical Ltd Cardiff CF23 6PU site:linkedin.com",
+      "reason": "Requires login - manual review only"
+    },
+    {
+      "platform": "twitter",
+      "status": "not_attempted",
+      "search_query": "Amrock Electrical Ltd Cardiff CF23 6PU site:twitter.com OR site:x.com",
+      "reason": "Requires login - manual review only"
+    }
+  ],
+  "sources": [
+    {
+      "platform": "google_places",
+      "url": "https://maps.google.com/?cid=654358521196426038",
+      "verified": true,
+      "verification_method": "place_id_from_gather",
+      "phone_match": true,
+      "notes": "Primary gather source"
+    }
+  ],
+  "sources_found": [
+    "google_places",
+    "google_reviews",
+    "google_photos"
+  ],
+  "sources_verified": [
+    "google_places"
+  ],
+  "strongest_proof_source": {
+    "platform": "google",
+    "metric": "5 rating, 27 reviews",
+    "url": "https://maps.google.com/?cid=654358521196426038"
+  },
+  "best_review_details": [
+    {
+      "text": "I recently purchased an older property that needed a fair bit of electrical work — including installing additional sockets, updating light fittings, and adding a car charger. From start to finish, Naz and Henry were absolutely fantastic. I would 100% recommend them to anyone looking for reliable, high-quality electrical work.\n\nCommunication with Naz via WhatsApp was seamless; he always responded p",
+      "author": "Molly",
+      "rating": 5,
+      "source": "google"
+    },
+    {
+      "text": "I recently hired Naz from Amrock to run power to an outbuilding on my property, and I couldn’t be happier with the results. From start to finish, the experience was smooth and professional. He showed up on time, explained everything clearly, and made sure the job was done safely and up to regulations.\n\nThe quality of the work was excellent—clean, efficient, and exactly what I needed.\n\nHighly recom",
+      "author": "Faye",
+      "rating": 5,
+      "source": "google"
+    },
+    {
+      "text": "Naz & Co. from Amrock installed my new electrical fire and connected it to a Fused spur through the wall.   Excellent work carried out and their rates were VERY affordable.    They even setup the fuel effect.  5* service at great prices, Highly recommend.",
+      "author": "Simon",
+      "rating": 5,
+      "source": "google"
+    }
+  ],
+  "image_source_summary": {
+    "google_photos": 3,
+    "facebook_photos": 0,
+    "directory_photos": 0,
+    "manual_photos": 0,
+    "other": 0,
+    "preferred_source": "google_places",
+    "notes": "Google Places photos preferred for gallery when high quality",
+    "priority_order": [
+      "official_website",
+      "google_places",
+      "directory",
+      "manual_asset",
+      "facebook_evidence",
+      "proof_led"
+    ]
+  },
+  "manual_review_flags": [
+    "contactability=NEEDS_MANUAL_REVIEW",
+    "no email found; UK mobile present, requires manual WhatsApp contact"
+  ],
+  "enrichment_complete": false,
+  "risks": [],
+  "manual_asset_review_recommended": false,
+  "manual_asset_status": "OK",
+  "asset_readiness": {
+    "manual_asset_status": "OK",
+    "usable_automatic_count": 3,
+    "usable_manual_count": 0,
+    "usable_total_count": 3,
+    "has_hero_candidate": true,
+    "pause_before_open_design": false,
+    "pause_message": null,
+    "layout_recommendation": "photo_led",
+    "image_slots": [
+      {
+        "slot": "hero",
+        "desired": "Best finished project photo or strong proof visual",
+        "source_status": "automatic"
+      },
+      {
+        "slot": "gallery_1",
+        "desired": "Finished work close-up or wide project shot",
+        "source_status": "automatic"
+      },
+      {
+        "slot": "gallery_2",
+        "desired": "Finished work close-up or wide project shot",
+        "source_status": "automatic"
+      },
+      {
+        "slot": "gallery_3",
+        "desired": "Finished work close-up or wide project shot",
+        "source_status": "manual_needed"
+      },
+      {
+        "slot": "gallery_4",
+        "desired": "Finished work close-up or wide project shot",
+        "source_status": "manual_needed"
+      }
+    ],
+    "manual_folder": "briefs/amrock-electrical-ltd/images/manual/"
+  },
+  "image_slots": [
+    {
+      "slot": "hero",
+      "desired": "Best finished project photo or strong proof visual",
+      "source_status": "automatic"
+    },
+    {
+      "slot": "gallery_1",
+      "desired": "Finished work close-up or wide project shot",
+      "source_status": "automatic"
+    },
+    {
+      "slot": "gallery_2",
+      "desired": "Finished work close-up or wide project shot",
+      "source_status": "automatic"
+    },
+    {
+      "slot": "gallery_3",
+      "desired": "Finished work close-up or wide project shot",
+      "source_status": "manual_needed"
+    },
+    {
+      "slot": "gallery_4",
+      "desired": "Finished work close-up or wide project shot",
+      "source_status": "manual_needed"
+    }
+  ],
+  "email": null,
+  "email_found": false,
+  "email_domain_checked": false,
+  "email_domain_website": null,
+  "website_discovery": null,
+  "website_status": "NO_WEBSITE",
+  "truly_no_website": null,
+  "logo_found": false,
+  "logo_path": null,
+  "facebook_url": null,
+  "facebook_verified": false,
+  "source_verifications": [
+    {
+      "platform": "google_places",
+      "url": "https://maps.google.com/?cid=654358521196426038",
+      "confidence": "medium",
+      "verified": true,
+      "verification_reasons": [
+        "Business name matches or clearly aliases Google listing",
+        "Location or service area matches Google address/city"
+      ],
+      "matches": {
+        "phone": false,
+        "email": false,
+        "website": false,
+        "business_name": true,
+        "location": true,
+        "service_trade": false,
+        "logo": false
+      },
+      "rejected_reason": null
+    }
+  ],
+  "source_confidence": {
+    "overall": "medium",
+    "verified_platforms": [
+      "google_places"
+    ],
+    "rejected_platforms": [],
+    "notes": []
+  },
+  "image_manifest": [
+    {
+      "local": "images/01-places.webp",
+      "source": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3klSrMcLjbIecOajLiSCVMJAqJ6tHI9YlsYYxlQSUfScZiFoHzcdQiA7IJB_s_jxnmznkBs0pG8NrWd1hBPTccuRusGKdw15ZN0flIvTijF7P7jxypvXhJ5kKUBk9zI4DLhILpG0KPAoVnfcanfjnqzO3AfeaFCESx9U2npMX1xw4FGk7GtDzLiG096px6JOxkOJqaqW8J0Fp4sHtQB7wk0ramioeZDpbiwQq0Ftk2D3_KTvFr4EfcPsPchp5nMclmCJPkOXzABv-zNPPzLpNYBoXt1oxA4gcTJ5nIW0-wIqWQgEsyTsmipKWkOsxmg6AiPpOjWE-INnijyq_cPTDcM-XKJofQqfqHEx01HXYSf3-4T6w3E420r19c625NOEUi9peybz2a_CCHSPyE2pef9jOpZBP3wZkOLdE7t-TRVUg&key=REDACTED",
+      "source_type": "google_places",
+      "confidence": "medium",
+      "purpose": "gallery",
+      "selected": true,
+      "reason": "Default from gather"
+    },
+    {
+      "local": "images/02-places.webp",
+      "source": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3lzctKNxkH16qjIh7ZhTea3SF9-9q9TtbmOyTM-CFXvwm1WaBD72Rz4f9Nq3yooOOLAuuT2OCjh-tJJ7L3vbUHKhhbsrCpWPr7PG-tuczMVwCjuoeG79kBUlBAuJv9hzfg3ZDrdcQJpAWe3vgFil9i0Sab1KFGGOw8NpMfoMzIeT74hIBjlsbozq0HEPNjflETfvOAwbmm5CkLDkbuiGsup6wJm_kCSif1VaG_HFgJF22zO4TaDFSKn4SPIHCwiU28UQvzVloa7LblChFuCnmm6d2_Q4rCJZXu4jsAE9Io5bXiXLKFqLXjH5zDZeNG5uOJ8HPNlzJ2YXLjgQlr4MAkEuP7proNB8SjYzVknTjOY2KG-_cZuawCUWHzbuQJdZ4UDkWcSzZNSS3yq0nF_tXADZHpXTcjJ6XCXJgpPbqAUgRM6&key=REDACTED",
+      "source_type": "google_places",
+      "confidence": "medium",
+      "purpose": "gallery",
+      "selected": true,
+      "reason": "Default from gather"
+    },
+    {
+      "local": "images/03-places.webp",
+      "source": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AaVGc3n4EtsxgJWqQ4eHe46HGIE1QM6hf7EhmFhioadWiwsH3WnKug0sVvqn5slD9ibcpn9X1O-teA4oc2nz9aJuwCt5-xx_Vcp5tueq41mCMo1YSAilYwMGCFPbNLknVe_JwhHN1Krq1UFxjO-I4cL29_si5Skxx9vzBhF4Q0S8UVeOzRUgq4mIxIsRU6hnvBqS4M1A9n48ZTijfccPRzN_AWIocEPYZPotlNSTybp9_22bMk65x4bpWJRy4BcBbY-Ls3HXbHEVrbMIzZTKBZZ_k0VCnPLdjrH99S9epMJgaDvBGCZGIyFnZgEsEG86FZJiJKiw-pWnPD-Vt44BYp63LbpFIMBMxgqMcUJSDN5fwB3AIwFWUMIm5lL8x1K-_N1BSA35VOlS1Py0Qw4GCb2ZVC_JA1-amjfuVwHXl_jtAncFvg&key=REDACTED",
+      "source_type": "google_places",
+      "confidence": "medium",
+      "purpose": "gallery",
+      "selected": true,
+      "reason": "Default from gather"
+    }
+  ],
+  "selected_images": [
+    "images/01-places.webp",
+    "images/02-places.webp",
+    "images/03-places.webp"
+  ],
+  "lead_validity_status": null,
+  "ready_for_build": null,
+  "registry_source_count": 28
+}

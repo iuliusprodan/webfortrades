@@ -1,0 +1,37 @@
+{
+  "slug": "amrock-electrical-ltd",
+  "extends": "CLAUDE.md banned-phrase reference + scripts/copy_voice_constants.ts (authoritative). This file adds lead-specific decisions only.",
+  "register": "plain, reassuring, methodical British English; an electrician talking straight to a homeowner about their older house. Short sentences. Concrete nouns (sockets, light fittings, storage heater, electric fire, fused spur, consumer unit, EV charger), not boast adjectives.",
+  "naming": {
+    "use_name": "Naz",
+    "decision": "Use Naz's first name freely in copy. Basis: brief.json contact_name='Naz', contact_name_source='google_reviews', contact_name_confidence='high', contact_name_evidence_count=5, contact_name_usage_allowed=true; Naz is named in 5 reviews (Molly, Faye, Simon, Rhys, JT1988JT). Clears the skill bar (named in >=2 review bodies). Same judgment-call basis as the Kyle Knowles ARCH-2 precedent.",
+    "henry": "Henry may be named as a team member, factually only (brief.json reviews[0] Molly: 'Naz and Henry'; 'Henry handled much of the installation work'). No invented backstory, no invented role beyond 'electrician on the team'.",
+    "third_vs_first_person": "Default to light third person ('Naz comes out and looks at the job...'). A first-person line is allowed only if strictly factual (no invented backstory, no specific years). There is no self-description from Naz in evidence, so do not write an owner-monologue."
+  },
+  "the_angle": {
+    "name": "older Cardiff homes brought up to standard",
+    "how_to_use": "Lead with it, state it as fact. Frame: Amrock modernises older and existing Cardiff homes - adding sockets, updating tired light fittings, fitting storage heaters and electric fires, adding EV charging - done tidily, safely to regulations, and explained to the homeowner as the work goes on. Anchored to reviews[0] (Molly, older property: additional sockets, updating light fittings, car charger), reviews[2] (Simon, electric fire + fused spur + fuel effect), reviews[3] (Rhys, storage heater), reviews[1] (Faye, explained clearly, up to regulations). Acceptable phrasings: 'older homes brought up to standard', 'extra sockets and updated lighting', 'storage heaters and electric fires fitted and connected', 'explained as we go', 'tidy work, kept informed'. Do not invent jobs or outcomes beyond what the reviews state."
+  },
+  "proof_rules": {
+    "google": "State exactly: '5.0 on Google' and '27 reviews' (both sourced=true in brief.json). '5.0 from 27 reviews' and '27 local reviews' are acceptable variants. Attribute the rating to Google.",
+    "no_other_proof": "Do NOT cite Yell / MyBuilder / Trustpilot / Checkatrade / TrustATrader - those probes are low-confidence/unverified or NOT_FOUND (brief.json directory_probes); TrustATrader was a rejected homonym. Do NOT claim any certification, membership, insurance, Part P, NICEIC, NAPIT, or 'qualified/registered/fully insured' - none verified.",
+    "regulations_caveat": "Faye's review says the work was 'done safely and up to regulations'. This phrase may appear ONLY inside her attributed verbatim quote. In Amrock's own/site prose, 'to regulations' / 'safely to regulations' may be used as a plain description of careful working, but DO NOT translate it into a named scheme or certification (no Part P / NICEIC / 'registered' claim). 'up to regulations' = a customer's words; a certification = a claim that needs a verified probe (there is none).",
+    "no_invented_numbers": "No years-trading number (none evidenced). No 'X jobs/installs done' count. Sourced stats only: 5.0 rating, 27 reviews. The 'two-man team (Naz and Henry)' is stated qualitatively, not as a fabricated stat. Never a photo count. Never a 24-hour / emergency availability claim (not evidenced; the 'Open 24 hours' opening_hours is a Google default)."
+  },
+  "review_attribution": "First name + 'Google review' (e.g. 'Molly, Google review', 'Simon, Google review', 'Rhys, Google review', 'Faye, Google review'). JT1988JT is a username, not a real first name - attribute simply 'Google review'. No reviewer first name as a section headline (the 'Steve' anti-pattern). Naz and Henry are the only people named as part of the business; every other name in a quote is a customer's own (Molly, Faye, Simon, Rhys).",
+  "banned_for_this_business": [
+    "any phrase on the CLAUDE.md / copy_voice_constants.ts lists (generic, provenance, meta-provenance, stat sub-labels)",
+    "'your trusted/local electricians/electrical experts' and relatives",
+    "'no job too big or small', 'competitive prices', 'professional service', 'quality you can rely on', 'satisfaction guaranteed', 'second to none', 'one-stop shop'",
+    "'Emergency callouts' / '24-hour' / '24/7' / 'emergency electrician' as a service or a positioning line (NOT evidenced - the 'Open 24 hours' is a Google default, not a stated service)",
+    "claiming Part P / NICEIC / NAPIT / 'registered' / 'certified' / 'fully insured' - none verified (Faye's 'up to regulations' stays inside her quote only)",
+    "claiming areas beyond Cardiff / the CF postcodes; the home street address '56 Rhyd-Y-Penau Rd' anywhere public",
+    "broad Google labels as services: 'Repairs and maintenance', 'Installations', 'Emergency callouts'",
+    "first-person claims of qualifications, insurance, or years trading",
+    "meta lines like 'customers mention' / 'reviews describe' - state the thing directly instead",
+    "advertising full rewires or consumer-unit/fuse-board upgrades as completed services (none named in a review); 'Consumer unit' appears ONLY as a quote-form job-type request option per the assignment"
+  ],
+  "allowed_words_from_reviews_in_quotes_only": "Words like 'professional', 'reliable', 'high-quality', 'reasonably priced', 'up to regulations', 'fantastic', 'highly recommend' appear in real review text. They are fine INSIDE attributed verbatim quotes, but must NOT appear in Amrock's own/site prose (CLAUDE.md salesy ban).",
+  "punctuation": "No em/en dashes anywhere. The review quotes in brief.json contain em dashes (Molly, Faye) - these MUST be converted to ' - ' or recast when quoted, so the authored files stay clean (the em-dash scan covers the whole site directory). Use ' - ', comma, or full stop. British spelling (modernise, colour, neighbouring).",
+  "cta_language": "Quote-only sticky and primary CTA: 'Get a quote'. Secondary: 'Call Naz' / the number. Never put the phone in the sticky CTA (sticky_cta check)."
+}
